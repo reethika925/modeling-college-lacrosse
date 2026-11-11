@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-11-10T08:39:16.450930-05:00",
+  "robots_url": "https://www.usalacrosse.com/robots.txt",
+  "robots_http_status": 200,
+  "robots_content_type": "text/plain; charset=utf-8",
+  "terms_url": "https://www.usalacrosse.com/terms",
+  "terms_last_updated_display": "March 3, 2026",
+  "decision": "AUTOMATED_COLLECTION_PROHIBITED",
+  "basis": "Terms of Use, Unlawful and Prohibited Use, clauses (v) and (xii): information harvesting requires a license and automated access/collection is prohibited. Robots permission cannot override the terms.",
+  "article_access_note": "The two supplied pages were opened during the initial browser inspection alongside policy discovery. No odds were extracted or article bodies cached; no further article or archived-copy access followed the prohibition.",
+  "robots_article_permissions": {
+    "https://www.usalacrosse.com/magazine/college/men/ncaa-mens-lacrosse-week-1-schedule-betting-odds-bluebloods": true,
+    "https://www.usalacrosse.com/magazine/college/men/essential-ncaa-mens-lacrosse-quarterfinal-preview": true
+  },
+  "robots_sha256": "aeed48d83ecf78f105bf41acc503aab8c305b80c262c8baf16dc014594616c69",
+  "robots_response_path": "research/editorial_odds/policy/robots.response"
+}

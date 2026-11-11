@@ -1,0 +1,9 @@
+source_team_name,ncaa_team_slug,ncaa_display_name,review_basis
+Cornell,cornell,Cornell,Exact NCAA team name and article identity
+Cornell Big Red,cornell,Cornell,Explicit university identity in NCAA championship coverage
+Maryland,maryland,Maryland,Exact NCAA team name and article identity
+Maryland Terrapins,maryland,Maryland,Explicit university identity in NCAA championship coverage
+Penn State,penn-st,Penn St.,Reviewed Penn State and NCAA Penn St. abbreviation
+Penn State Nittany Lions,penn-st,Penn St.,Reviewed university identity
+Syracuse,syracuse,Syracuse,Exact NCAA team name and article identity
+Syracuse Orange,syracuse,Syracuse,Explicit university identity in NCAA semifinal coverage

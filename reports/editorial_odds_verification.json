@@ -1,0 +1,27 @@
+{
+  "verified_at": "2026-11-10T08:56:35.636054-05:00",
+  "environment": "dsf-lacrosse",
+  "preexisting_files_unchanged": 243,
+  "ncaa_input_rows": 580,
+  "ncaa_input_sha256": "79b43ec0168d5466d29a0e3be2c7a9bb46096038aefc25a54f70b2e0b24393a3",
+  "source_templates": 2,
+  "provisional_csv_data_rows": 0,
+  "provisional_csv_columns": 39,
+  "automated_article_downloads": 0,
+  "grade_C_rows_in_provisional_csv": 0,
+  "tests_result": "62 passed in 0.57s",
+  "dependency_check": "No broken requirements found.",
+  "verified_files": [
+    "src/collect_editorial_odds.py",
+    "tests/test_collect_editorial_odds.py",
+    "reports/editorial_odds_scraping_audit.md",
+    "reports/editorial_odds_manual_entry.csv",
+    "reports/editorial_odds_team_aliases.csv",
+    "reports/editorial_odds_match_audit.csv",
+    "reports/editorial_odds_permissions.json",
+    "reports/editorial_odds_summary.json",
+    "reports/editorial_odds_existing_files.json",
+    "data/processed/lacrosse_odds_2025_editorial.csv",
+    "research/editorial_odds/policy/robots.response"
+  ]
+}

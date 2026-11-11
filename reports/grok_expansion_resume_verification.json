@@ -1,0 +1,33 @@
+{
+  "verified_at_utc": "2026-11-11T03:35:22.916079+00:00",
+  "python": "3.11.18 (main, Oct 26 2026, 18:15:19) [Clang 20.1.8 ]",
+  "interpreter": "/Users/kiri/miniconda3/envs/dsf-lacrosse/bin/python",
+  "status": "PASS",
+  "original_snapshot_files_checked": 498,
+  "unchanged_files": 497,
+  "changed_research_files": [],
+  "missing_files": [],
+  "previously_documented_test_cache_changes": [
+    ".pytest_cache/v/cache/nodeids"
+  ],
+  "proposal_pdf": "/Users/kiri/Desktop/dsf-project/reports/project2_proposal_submission.pdf",
+  "proposal_pdf_sha256": "948a5ea3dc72892ff0db9cbddbea18216a7fc7c12979c1db6dbb42a82608d21c",
+  "report_complete": true,
+  "new_research_or_collection_performed": false,
+  "code_or_report_revisions_needed": false,
+  "focused_test_result": "45 passed",
+  "focused_test_command": "conda run --no-capture-output -n dsf-lacrosse python -m pytest -q -p no:cacheprovider tests/test_odds_expansion.py tests/test_wayback_followup.py tests/test_inspect_grok_package.py",
+  "confirmed_artifacts": [
+    "reports/grok_stage3_evidence_expansion_verification.md",
+    "src/verify_odds_expansion.py",
+    "tests/test_odds_expansion.py",
+    "reports/grok_expansion_count_checks.json",
+    "reports/grok_expansion_coverage_reconciliation.csv",
+    "reports/grok_expansion_extraction.json",
+    "reports/grok_expansion_fetch_checks.json",
+    "reports/grok_expansion_independent_checks.json",
+    "reports/grok_expansion_inventory.csv",
+    "reports/grok_expansion_official_starts.csv",
+    "reports/grok_expansion_preservation.json"
+  ]
+}

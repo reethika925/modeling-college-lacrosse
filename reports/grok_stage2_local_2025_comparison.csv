@@ -1,0 +1,581 @@
+local_game_id,imported_game_id,local_date,imported_date,home_team,away_team,dates_match,scores_match,teams_orientation_match,result_fields_match,proposed_exclusion,status
+6309366,6386028,2025-02-01,2025-02-01,Iona,Hofstra,True,True,True,True,,MATCH
+6309480,6386042,2025-02-01,2025-02-01,Penn St.,Colgate,True,True,True,True,,MATCH
+6309665,6386077,2025-02-01,2025-02-01,Georgetown,Loyola Maryland,True,True,True,True,,MATCH
+6309779,6386115,2025-02-01,2025-02-01,Lehigh,Rutgers,True,True,True,True,,MATCH
+6309860,6386180,2025-02-01,2025-02-01,High Point,Navy,True,True,True,True,,MATCH
+6309951,6386233,2025-02-01,2025-02-01,Duke,Bellarmine,True,True,True,True,,MATCH
+6310011,6386268,2025-02-01,2025-02-01,Bucknell,Merrimack,True,True,True,True,,MATCH
+6310061,6386279,2025-02-01,2025-02-01,Denver,Johns Hopkins,True,True,True,True,,MATCH
+6310104,6386291,2025-02-01,2025-02-01,Lafayette,Air Force,True,True,True,True,,MATCH
+6310134,6386304,2025-02-01,2025-02-01,Hampton,Mercer,True,True,True,True,,MATCH
+6310163,6386314,2025-02-01,2025-02-01,Providence,Holy Cross,True,True,True,True,,MATCH
+6311288,6386406,2025-02-01,2025-02-01,Maryland,Richmond,True,True,True,True,,MATCH
+6312094,6386451,2025-02-01,2025-02-01,Michigan,Marquette,True,True,True,True,,MATCH
+6312746,6386486,2025-02-01,2025-02-01,Wagner,Manhattan,True,True,True,True,,MATCH
+6313038,6386504,2025-02-01,2025-02-01,Syracuse,Jacksonville,True,True,True,True,,MATCH
+6313129,6386510,2025-02-01,2025-02-01,Queens (NC),Mount St. Mary's,True,True,True,True,,MATCH
+6313182,6386530,2025-02-01,2025-02-01,Ohio St.,Utah,True,True,True,True,,MATCH
+6312449,6386472,2025-02-02,2025-02-02,St. Bonaventure,VMI,True,True,True,True,,MATCH
+6309783,6386118,2025-02-04,2025-02-04,Rutgers,LIU,True,True,True,True,,MATCH
+6309869,6386188,2025-02-04,2025-02-04,Towson,Johns Hopkins,True,True,True,True,,MATCH
+6310760,6386386,2025-02-04,2025-02-04,Ohio St.,Detroit Mercy,True,True,True,True,,MATCH
+6309367,6386029,2025-02-07,2025-02-07,Hofstra,Wagner,True,True,True,True,,MATCH
+6310013,6386269,2025-02-07,2025-02-07,UMass Lowell,Merrimack,True,True,True,True,,MATCH
+6310165,6386315,2025-02-07,2025-02-07,Queens (NC),Holy Cross,True,True,True,True,,MATCH
+6310623,6386384,2025-02-07,2025-02-07,Fairfield,Lehigh,True,True,True,True,,MATCH
+6312589,6386480,2025-02-07,2025-02-07,Syracuse,Vermont,True,True,True,True,,MATCH
+6309669,6386078,2025-02-08,2025-02-08,Loyola Maryland,Maryland,True,True,True,True,,MATCH
+6309761,6386098,2025-02-08,2025-02-08,Hobart,Canisius,True,True,True,True,,MATCH
+6309785,6386120,2025-02-08,2025-02-08,Rutgers,Stony Brook,True,True,True,True,,MATCH
+6309812,6386141,2025-02-08,2025-02-08,Bryant,Providence,True,True,True,True,,MATCH
+6309813,6386142,2025-02-08,2025-02-08,Navy,Iona,True,True,True,True,,MATCH
+6309835,6386157,2025-02-08,2025-02-08,North Carolina,Michigan,True,True,True,True,,MATCH
+6309846,6386168,2025-02-08,2025-02-08,Virginia,Colgate,True,True,True,True,,MATCH
+6309891,6386206,2025-02-08,2025-02-08,Johns Hopkins,Georgetown,True,True,True,True,,MATCH
+6309893,6386208,2025-02-08,2025-02-08,Utah,Delaware,True,True,True,True,,MATCH
+6309953,6386234,2025-02-08,2025-02-08,Bellarmine,Mercyhurst,True,True,True,True,,MATCH
+6309957,6386236,2025-02-08,2025-02-08,Monmouth,Manhattan,True,True,True,True,,MATCH
+6309980,6386249,2025-02-08,2025-02-08,NJIT,St. John's (NY),True,True,True,True,,MATCH
+6310059,6386278,2025-02-08,2025-02-08,Air Force,Denver,True,True,True,True,,MATCH
+6310110,6386294,2025-02-08,2025-02-08,Jacksonville,Duke,True,True,True,True,,MATCH
+6310190,6386327,2025-02-08,2025-02-08,VMI,High Point,True,True,True,True,,MATCH
+6310216,6386337,2025-02-08,2025-02-08,Massachusetts,Army West Point,True,True,True,True,,MATCH
+6310251,6386351,2025-02-08,2025-02-08,Mount St. Mary's,LIU,True,True,True,True,,MATCH
+6310451,6386374,2025-02-08,2025-02-08,Marist,Mercer,True,True,True,True,,MATCH
+6310762,6386387,2025-02-08,2025-02-08,Marquette,Detroit Mercy,True,True,True,True,,MATCH
+6311296,6386413,2025-02-08,2025-02-08,Richmond,Robert Morris,True,True,True,True,,MATCH
+6311330,6386418,2025-02-08,2025-02-08,St. Bonaventure,Bucknell,True,True,True,True,,MATCH
+6312099,6386456,2025-02-08,2025-02-08,Saint Joseph's,Sacred Heart,True,True,True,True,,MATCH
+6312910,6386498,2025-02-08,2025-02-08,Ohio St.,Cleveland St.,True,True,True,True,,MATCH
+6313164,6386526,2025-02-08,2025-02-08,Siena,Boston U.,True,True,True,True,,MATCH
+6309481,6386043,2025-02-09,2025-02-09,Villanova,Penn St.,True,True,True,True,,MATCH
+6309815,6386144,2025-02-09,2025-02-09,Hampton,Iona,True,True,True,True,,MATCH
+6309871,6386190,2025-02-10,2025-02-10,Syracuse,Towson,True,True,True,True,,MATCH
+6311205,6386399,2025-02-10,2025-02-10,Lafayette,Binghamton,True,True,True,True,,MATCH
+6309955,6386235,2025-02-11,2025-02-11,Ohio St.,Bellarmine,True,True,True,True,,MATCH
+6310169,6386317,2025-02-11,2025-02-11,Holy Cross,UMass Lowell,True,True,True,True,,MATCH
+6313132,6386511,2025-02-11,2025-02-11,Mount St. Mary's,St. Bonaventure,True,True,True,True,,MATCH
+6312914,6386499,2025-02-12,2025-02-12,Notre Dame,Cleveland St.,True,True,True,True,,MATCH
+6309836,6386158,2025-02-14,2025-02-14,North Carolina,Stony Brook,True,True,True,True,,MATCH
+6310218,6386338,2025-02-14,2025-02-14,Massachusetts,Quinnipiac,True,True,True,True,,MATCH
+6358157,6438351,2025-02-14,2025-02-14,Boston U.,Monmouth,True,True,True,True,,MATCH
+6358697,6439959,2025-02-14,2025-02-14,UMass Lowell,Mercyhurst,True,True,True,True,,MATCH
+6358706,6439960,2025-02-14,2025-02-14,UAlbany,Colgate,True,True,True,True,,MATCH
+6358711,6439961,2025-02-14,2025-02-14,Hofstra,Siena,True,True,True,True,,MATCH
+6309482,6386044,2025-02-15,2025-02-15,Penn St.,Princeton,True,True,True,True,,MATCH
+6309497,6386058,2025-02-15,2025-02-15,Providence,Harvard,True,True,True,True,,MATCH
+6309671,6386079,2025-02-15,2025-02-15,Loyola Maryland,Johns Hopkins,True,True,True,True,,MATCH
+6309754,6386091,2025-02-15,2025-02-15,Brown,Fairfield,True,True,True,True,,MATCH
+6309763,6386100,2025-02-15,2025-02-15,Canisius,Bellarmine,True,True,True,True,,MATCH
+6309784,6386119,2025-02-15,2025-02-15,Hobart,Michigan,True,True,True,True,,MATCH
+6309788,6386123,2025-02-15,2025-02-15,Army West Point,Rutgers,True,True,True,True,,MATCH
+6309814,6386143,2025-02-15,2025-02-15,Merrimack,Bryant,True,True,True,True,,MATCH
+6309818,6386146,2025-02-15,2025-02-15,LIU,Iona,True,True,True,True,,MATCH
+6309847,6386169,2025-02-15,2025-02-15,Virginia,Richmond,True,True,True,True,,MATCH
+6309895,6386210,2025-02-15,2025-02-15,Delaware,St. John's (NY),True,True,True,True,,MATCH
+6309899,6386214,2025-02-15,2025-02-15,Georgetown,Penn,True,True,True,True,,MATCH
+6310063,6386280,2025-02-15,2025-02-15,Denver,Utah,True,True,True,True,,MATCH
+6310109,6386293,2025-02-15,2025-02-15,Ohio St.,Air Force,True,True,True,True,,MATCH
+6310113,6386296,2025-02-15,2025-02-15,Duke,Saint Joseph's,True,True,True,True,,MATCH
+6310171,6386318,2025-02-15,2025-02-15,Sacred Heart,Holy Cross,True,True,True,True,,MATCH
+6310192,6386328,2025-02-15,2025-02-15,High Point,Robert Morris,True,True,True,True,,MATCH
+6310370,6386359,2025-02-15,2025-02-15,Villanova,Yale,True,True,True,True,,MATCH
+6310469,6386375,2025-02-15,2025-02-15,Mercer,VMI,True,True,True,True,,MATCH
+6310867,6386394,2025-02-15,2025-02-15,Drexel,UMBC,True,True,True,True,,MATCH
+6311331,6386419,2025-02-15,2025-02-15,Dartmouth,Bucknell,True,True,True,True,,MATCH
+6312095,6386452,2025-02-15,2025-02-15,Notre Dame,Marquette,True,True,True,True,,MATCH
+6312590,6386481,2025-02-15,2025-02-15,Vermont,Manhattan,True,True,True,True,,MATCH
+6313067,6386509,2025-02-15,2025-02-15,Maryland,Syracuse,True,True,True,True,,MATCH
+6313135,6386512,2025-02-15,2025-02-15,Wagner,Mount St. Mary's,True,True,True,True,,MATCH
+6313156,6386522,2025-02-15,2025-02-15,Jacksonville,Marist,True,True,True,True,,MATCH
+6313199,6386539,2025-02-15,2025-02-15,Lehigh,Cornell,True,True,True,True,,MATCH
+6383749,6454179,2025-02-15,2025-02-16,Queens (NC),Stony Brook,False,True,True,False,,CONFLICT
+6309852,6386174,2025-02-16,2025-02-16,Navy,Towson,True,True,True,True,,MATCH
+6309501,6386061,2025-02-18,2025-02-18,Harvard,Colgate,True,True,True,True,,MATCH
+6309755,6386092,2025-02-18,2025-02-18,Boston U.,Brown,True,True,True,True,,MATCH
+6309765,6386102,2025-02-18,2025-02-18,Le Moyne,Canisius,True,True,True,True,,MATCH
+6309848,6386170,2025-02-18,2025-02-18,Virginia,High Point,True,True,True,True,,MATCH
+6309960,6386238,2025-02-18,2025-02-18,Saint Joseph's,Monmouth,True,True,True,True,,MATCH
+6309974,6386247,2025-02-18,2025-02-18,Cleveland St.,Bellarmine,True,True,True,True,,MATCH
+6310162,6386313,2025-02-18,2025-02-18,VMI,Hampton,True,True,True,True,,MATCH
+6310221,6386340,2025-02-18,2025-02-18,Massachusetts,Dartmouth,True,True,True,True,,MATCH
+6310868,6386395,2025-02-18,2025-02-18,Drexel,Lafayette,True,True,True,True,,MATCH
+6311368,6386425,2025-02-18,2025-02-18,St. John's (NY),Quinnipiac,True,True,True,True,,MATCH
+6311449,6386429,2025-02-18,2025-02-18,Robert Morris,St. Bonaventure,True,True,True,True,,MATCH
+6312855,6386497,2025-02-18,2025-02-18,Penn,UAlbany,True,True,True,True,,MATCH
+6310626,6386385,2025-02-19,2025-02-19,Fairfield,Sacred Heart,True,True,True,True,,MATCH
+6311561,6386435,2025-02-19,2025-02-19,Yale,Army West Point,True,True,True,True,,MATCH
+6313137,6386513,2025-02-21,2025-02-21,UMBC,Mount St. Mary's,True,True,True,True,,MATCH
+6362098,6440943,2025-02-21,2025-02-21,Vermont,Utah,True,True,True,True,,MATCH
+6309369,6386031,2025-02-22,2025-02-22,St. John's (NY),Hofstra,True,True,True,True,,MATCH
+6309483,6386045,2025-02-22,2025-02-22,Penn St.,Navy,True,True,True,True,,MATCH
+6309488,6386050,2025-02-22,2025-02-22,Princeton,Maryland,True,True,True,True,,MATCH
+6309503,6386062,2025-02-22,2025-02-22,Syracuse,Harvard,True,True,True,True,,MATCH
+6309675,6386080,2025-02-22,2025-02-22,Rutgers,Loyola Maryland,True,True,True,True,,MATCH
+6309756,6386093,2025-02-22,2025-02-22,Brown,Providence,True,True,True,True,,MATCH
+6309766,6386103,2025-02-22,2025-02-22,Robert Morris,Canisius,True,True,True,True,,MATCH
+6309786,6386121,2025-02-22,2025-02-22,Hobart,Bucknell,True,True,True,True,,MATCH
+6309817,6386145,2025-02-22,2025-02-22,Quinnipiac,Bryant,True,True,True,True,,MATCH
+6309819,6386147,2025-02-22,2025-02-22,Iona,VMI,True,True,True,True,,MATCH
+6309837,6386159,2025-02-22,2025-02-22,Johns Hopkins,North Carolina,True,True,True,True,,MATCH
+6309849,6386171,2025-02-22,2025-02-22,Ohio St.,Virginia,True,True,True,True,,MATCH
+6309874,6386192,2025-02-22,2025-02-22,Towson,Saint Joseph's,True,True,True,True,,MATCH
+6309896,6386211,2025-02-22,2025-02-22,Delaware,Penn,True,True,True,True,,MATCH
+6309904,6386217,2025-02-22,2025-02-22,Georgetown,Notre Dame,True,True,True,True,,MATCH
+6309959,6386237,2025-02-22,2025-02-22,Bellarmine,Detroit Mercy,True,True,True,True,,MATCH
+6309986,6386252,2025-02-22,2025-02-22,Massachusetts,NJIT,True,True,True,True,,MATCH
+6310065,6386281,2025-02-22,2025-02-22,Cornell,Denver,True,True,True,True,,MATCH
+6310107,6386292,2025-02-22,2025-02-22,Boston U.,Air Force,True,True,True,True,,MATCH
+6310117,6386298,2025-02-22,2025-02-22,Duke,Michigan,True,True,True,True,,MATCH
+6310135,6386305,2025-02-22,2025-02-22,Jacksonville,Hampton,True,True,True,True,,MATCH
+6310172,6386319,2025-02-22,2025-02-22,Holy Cross,Dartmouth,True,True,True,True,,MATCH
+6310240,6386349,2025-02-22,2025-02-22,LIU,Siena,True,True,True,True,,MATCH
+6310374,6386360,2025-02-22,2025-02-22,Villanova,Colgate,True,True,True,True,,MATCH
+6310434,6386369,2025-02-22,2025-02-22,Stony Brook,Sacred Heart,True,True,True,True,,MATCH
+6310500,6386383,2025-02-22,2025-02-22,Mercer,Army West Point,True,True,True,True,,MATCH
+6310869,6386396,2025-02-22,2025-02-22,UAlbany,Drexel,True,True,True,True,,MATCH
+6311207,6386400,2025-02-22,2025-02-22,Le Moyne,Lafayette,True,True,True,True,,MATCH
+6311289,6386407,2025-02-22,2025-02-22,Lehigh,Richmond,True,True,True,True,,MATCH
+6311312,6386414,2025-02-22,2025-02-22,Fairfield,Manhattan,True,True,True,True,,MATCH
+6312050,6386441,2025-02-22,2025-02-22,Mercyhurst,Queens (NC),True,True,True,True,,MATCH
+6312096,6386453,2025-02-22,2025-02-22,Marquette,Cleveland St.,True,True,True,True,,MATCH
+6312396,6386466,2025-02-22,2025-02-22,Marist,Binghamton,True,True,True,True,,MATCH
+6313202,6386541,2025-02-22,2025-02-22,Wagner,UMass Lowell,True,True,True,True,,MATCH
+6309768,6386105,2025-02-25,2025-02-25,Michigan,Canisius,True,True,True,True,,MATCH
+6309787,6386122,2025-02-25,2025-02-25,Hobart,Cornell,True,True,True,True,,MATCH
+6309820,6386148,2025-02-25,2025-02-25,Stony Brook,Iona,True,True,True,True,,MATCH
+6309961,6386239,2025-02-25,2025-02-25,Wagner,Monmouth,True,True,True,True,,MATCH
+6310014,6386270,2025-02-25,2025-02-25,Merrimack,Providence,True,True,True,True,,MATCH
+6312053,6386442,2025-02-25,2025-02-25,St. Bonaventure,Mercyhurst,True,True,True,True,,MATCH
+6309989,6386254,2025-02-26,2025-02-26,NJIT,Drexel,True,True,True,True,,MATCH
+6309490,6386052,2025-02-28,2025-02-28,Duke,Princeton,True,True,True,True,,MATCH
+6309838,6386160,2025-02-28,2025-02-28,North Carolina,Penn,True,True,True,True,,MATCH
+6309876,6386194,2025-02-28,2025-02-28,UMBC,Towson,True,True,True,True,,MATCH
+6309898,6386213,2025-02-28,2025-02-28,Delaware,High Point,True,True,True,True,,MATCH
+6310067,6386282,2025-02-28,2025-02-28,Denver,Marist,True,True,True,True,,MATCH
+6310112,6386295,2025-02-28,2025-02-28,Air Force,Quinnipiac,True,True,True,True,,MATCH
+6310379,6386361,2025-02-28,2025-02-28,Villanova,Lehigh,True,True,True,True,,MATCH
+6311370,6386426,2025-02-28,2025-02-28,St. John's (NY),Jacksonville,True,True,True,True,,MATCH
+6312189,6386460,2025-02-28,2025-02-28,Dartmouth,Vermont,True,True,True,True,,MATCH
+6309370,6386032,2025-03-01,2025-03-01,Hofstra,Binghamton,True,True,True,True,,MATCH
+6309484,6386046,2025-03-01,2025-03-01,Yale,Penn St.,True,True,True,True,,MATCH
+6309504,6386063,2025-03-01,2025-03-01,Harvard,Marquette,True,True,True,True,,MATCH
+6309680,6386082,2025-03-01,2025-03-01,Loyola Maryland,Colgate,True,True,True,True,,MATCH
+6309757,6386094,2025-03-01,2025-03-01,Brown,Georgetown,True,True,True,True,,MATCH
+6309770,6386107,2025-03-01,2025-03-01,Cleveland St.,Canisius,True,True,True,True,,MATCH
+6309789,6386124,2025-03-01,2025-03-01,Robert Morris,Hobart,True,True,True,True,,MATCH
+6309791,6386126,2025-03-01,2025-03-01,Rutgers,Saint Joseph's,True,True,True,True,,MATCH
+6309850,6386172,2025-03-01,2025-03-01,Johns Hopkins,Virginia,True,True,True,True,,MATCH
+6309863,6386183,2025-03-01,2025-03-01,Navy,Boston U.,True,True,True,True,,MATCH
+6309878,6386196,2025-03-01,2025-03-01,Ohio St.,Bryant,True,True,True,True,,MATCH
+6309962,6386240,2025-03-01,2025-03-01,Mount St. Mary's,Monmouth,True,True,True,True,,MATCH
+6309976,6386248,2025-03-01,2025-03-01,LIU,Bellarmine,True,True,True,True,,MATCH
+6310174,6386320,2025-03-01,2025-03-01,Holy Cross,Bucknell,True,True,True,True,,MATCH
+6310223,6386341,2025-03-01,2025-03-01,UAlbany,Massachusetts,True,True,True,True,,MATCH
+6310435,6386370,2025-03-01,2025-03-01,Manhattan,Stony Brook,True,True,True,True,,MATCH
+6310482,6386376,2025-03-01,2025-03-01,Mercer,Drexel,True,True,True,True,,MATCH
+6311209,6386401,2025-03-01,2025-03-01,Army West Point,Lafayette,True,True,True,True,,MATCH
+6311313,6386415,2025-03-01,2025-03-01,Fairfield,Providence,True,True,True,True,,MATCH
+6312090,6386447,2025-03-01,2025-03-01,Le Moyne,St. Bonaventure,True,True,True,True,,MATCH
+6313046,6386505,2025-03-01,2025-03-01,Utah,Syracuse,True,True,True,True,,MATCH
+6313149,6386518,2025-03-01,2025-03-01,Sacred Heart,Wagner,True,True,True,True,,MATCH
+6313175,6386527,2025-03-01,2025-03-01,Notre Dame,Maryland,True,True,True,True,,MATCH
+6309492,6386054,2025-03-02,2025-03-02,North Carolina,Princeton,True,True,True,True,,MATCH
+6309821,6386149,2025-03-02,2025-03-02,Iona,Jacksonville,True,True,True,True,,MATCH
+6310068,6386283,2025-03-02,2025-03-02,Denver,Quinnipiac,True,True,True,True,,MATCH
+6310116,6386297,2025-03-02,2025-03-02,Air Force,Marist,True,True,True,True,,MATCH
+6310121,6386299,2025-03-02,2025-03-02,Duke,Penn,True,True,True,True,,MATCH
+6310167,6386316,2025-03-02,2025-03-02,Hampton,Mercyhurst,True,True,True,True,,MATCH
+6311293,6386410,2025-03-02,2025-03-02,Richmond,Cornell,True,True,True,True,,MATCH
+6313206,6386542,2025-03-02,2025-03-02,UMass Lowell,Queens (NC),True,True,True,True,,MATCH
+6312192,6386461,2025-03-03,2025-03-03,Dartmouth,Siena,True,True,True,True,,MATCH
+6309758,6386095,2025-03-04,2025-03-04,Bryant,Brown,True,True,True,True,,MATCH
+6309985,6386251,2025-03-04,2025-03-04,Marquette,Bellarmine,True,True,True,True,,MATCH
+6310015,6386271,2025-03-04,2025-03-04,Holy Cross,Merrimack,True,True,True,True,,MATCH
+6310383,6386362,2025-03-04,2025-03-04,Villanova,Drexel,True,True,True,True,,MATCH
+6311291,6386408,2025-03-04,2025-03-04,Richmond,Mercyhurst,True,True,True,True,,MATCH
+6311314,6386416,2025-03-04,2025-03-04,St. John's (NY),Fairfield,True,True,True,True,,MATCH
+6312455,6386473,2025-03-04,2025-03-04,VMI,Queens (NC),True,True,True,True,,MATCH
+6312915,6386500,2025-03-04,2025-03-04,Michigan,Cleveland St.,True,True,True,True,,MATCH
+6309908,6386220,2025-03-05,2025-03-05,UAlbany,Georgetown,True,True,True,True,,MATCH
+6309964,6386241,2025-03-05,2025-03-05,Monmouth,NJIT,True,True,True,True,,MATCH
+6312397,6386467,2025-03-05,2025-03-05,Binghamton,Siena,True,True,True,True,,MATCH
+6310485,6386377,2025-03-06,2025-03-06,St. Bonaventure,Mercer,True,True,True,True,,MATCH
+6309864,6386184,2025-03-07,2025-03-07,Navy,Lehigh,True,True,True,True,,MATCH
+6310196,6386330,2025-03-07,2025-03-07,Hampton,Detroit Mercy,True,True,True,True,,MATCH
+6309371,6386033,2025-03-08,2025-03-08,North Carolina,Hofstra,True,True,True,True,,MATCH
+6309485,6386047,2025-03-08,2025-03-08,Cornell,Penn St.,True,True,True,True,,MATCH
+6309494,6386056,2025-03-08,2025-03-08,Princeton,Rutgers,True,True,True,True,,MATCH
+6309505,6386064,2025-03-08,2025-03-08,Harvard,Michigan,True,True,True,True,,MATCH
+6309678,6386081,2025-03-08,2025-03-08,Providence,Loyola Maryland,True,True,True,True,,MATCH
+6309771,6386108,2025-03-08,2025-03-08,Canisius,Sacred Heart,True,True,True,True,,MATCH
+6309790,6386125,2025-03-08,2025-03-08,Hobart,UAlbany,True,True,True,True,,MATCH
+6309822,6386150,2025-03-08,2025-03-08,Iona,Marist,True,True,True,True,,MATCH
+6309851,6386173,2025-03-08,2025-03-08,Virginia,Towson,True,True,True,True,,MATCH
+6309881,6386198,2025-03-08,2025-03-08,Bryant,St. John's (NY),True,True,True,True,,MATCH
+6309902,6386216,2025-03-08,2025-03-08,Maryland,Delaware,True,True,True,True,,MATCH
+6309966,6386242,2025-03-08,2025-03-08,Monmouth,VMI,True,True,True,True,,MATCH
+6309988,6386253,2025-03-08,2025-03-08,Bellarmine,Robert Morris,True,True,True,True,,MATCH
+6309992,6386256,2025-03-08,2025-03-08,NJIT,Wagner,True,True,True,True,,MATCH
+6310016,6386272,2025-03-08,2025-03-08,Merrimack,Manhattan,True,True,True,True,,MATCH
+6310069,6386284,2025-03-08,2025-03-08,Yale,Denver,True,True,True,True,,MATCH
+6310125,6386300,2025-03-08,2025-03-08,Duke,Air Force,True,True,True,True,,MATCH
+6310177,6386321,2025-03-08,2025-03-08,Holy Cross,Army West Point,True,True,True,True,,MATCH
+6310194,6386329,2025-03-08,2025-03-08,Jacksonville,High Point,True,True,True,True,,MATCH
+6310226,6386343,2025-03-08,2025-03-08,Vermont,Massachusetts,True,True,True,True,,MATCH
+6310244,6386350,2025-03-08,2025-03-08,Queens (NC),LIU,True,True,True,True,,MATCH
+6310385,6386363,2025-03-08,2025-03-08,Penn,Villanova,True,True,True,True,,MATCH
+6310437,6386371,2025-03-08,2025-03-08,Stony Brook,Binghamton,True,True,True,True,,MATCH
+6310490,6386378,2025-03-08,2025-03-08,Le Moyne,Mercer,True,True,True,True,,MATCH
+6311211,6386402,2025-03-08,2025-03-08,Lafayette,Colgate,True,True,True,True,,MATCH
+6311294,6386411,2025-03-08,2025-03-08,Richmond,UMBC,True,True,True,True,,MATCH
+6311315,6386417,2025-03-08,2025-03-08,Fairfield,UMass Lowell,True,True,True,True,,MATCH
+6311332,6386420,2025-03-08,2025-03-08,Bucknell,Boston U.,True,True,True,True,,MATCH
+6312193,6386462,2025-03-08,2025-03-08,Dartmouth,Utah,True,True,True,True,,MATCH
+6312917,6386501,2025-03-08,2025-03-08,St. Bonaventure,Cleveland St.,True,True,True,True,,MATCH
+6313140,6386514,2025-03-08,2025-03-08,Mount St. Mary's,Quinnipiac,True,True,True,True,,MATCH
+6313185,6386531,2025-03-08,2025-03-08,Notre Dame,Ohio St.,True,True,True,True,,MATCH
+6310871,6386397,2025-03-09,2025-03-09,Drexel,Saint Joseph's,True,True,True,True,,MATCH
+6312502,6386479,2025-03-09,2025-03-09,Syracuse,Johns Hopkins,True,True,True,True,,MATCH
+6309772,6386109,2025-03-11,2025-03-11,Canisius,St. Bonaventure,True,True,True,True,,MATCH
+6309792,6386127,2025-03-11,2025-03-11,Le Moyne,Hobart,True,True,True,True,,MATCH
+6309795,6386129,2025-03-11,2025-03-11,Rutgers,St. John's (NY),True,True,True,True,,MATCH
+6309982,6386250,2025-03-11,2025-03-11,Lafayette,NJIT,True,True,True,True,,MATCH
+6309990,6386255,2025-03-11,2025-03-11,Bellarmine,Hampton,True,True,True,True,,MATCH
+6310197,6386331,2025-03-11,2025-03-11,High Point,Queens (NC),True,True,True,True,,MATCH
+6309486,6386048,2025-03-12,2025-03-12,Penn St.,Robert Morris,True,True,True,True,,MATCH
+6310128,6386301,2025-03-12,2025-03-12,Duke,Providence,True,True,True,True,,MATCH
+6366369,6444405,2025-03-13,2025-03-13,Hampton,Fairfield,True,True,True,True,duplicate Hampton-Fairfield result; retain 6386334,MATCH
+6312398,6386468,2025-03-14,2025-03-14,UMass Lowell,Binghamton,True,True,True,True,,MATCH
+6309372,6386034,2025-03-15,2025-03-15,Hofstra,Stony Brook,True,True,True,True,,MATCH
+6309496,6386057,2025-03-15,2025-03-15,Cornell,Princeton,True,True,True,True,,MATCH
+6309644,6386065,2025-03-15,2025-03-15,Harvard,Yale,True,True,True,True,,MATCH
+6309684,6386083,2025-03-15,2025-03-15,Boston U.,Loyola Maryland,True,True,True,True,,MATCH
+6309759,6386096,2025-03-15,2025-03-15,Penn,Brown,True,True,True,True,,MATCH
+6309774,6386110,2025-03-15,2025-03-15,Canisius,Merrimack,True,True,True,True,,MATCH
+6309794,6386128,2025-03-15,2025-03-15,Dartmouth,Hobart,True,True,True,True,,MATCH
+6309799,6386132,2025-03-15,2025-03-15,Rutgers,Massachusetts,True,True,True,True,,MATCH
+6309853,6386175,2025-03-15,2025-03-15,Virginia,Maryland,True,True,True,True,,MATCH
+6309866,6386185,2025-03-15,2025-03-15,Navy,Johns Hopkins,True,True,True,True,,MATCH
+6309880,6386197,2025-03-15,2025-03-15,Towson,Delaware,True,True,True,True,,MATCH
+6309885,6386202,2025-03-15,2025-03-15,Bryant,UAlbany,True,True,True,True,,MATCH
+6309911,6386221,2025-03-15,2025-03-15,Georgetown,High Point,True,True,True,True,,MATCH
+6309967,6386243,2025-03-15,2025-03-15,Drexel,Monmouth,True,True,True,True,,MATCH
+6309993,6386257,2025-03-15,2025-03-15,Bellarmine,St. Bonaventure,True,True,True,True,,MATCH
+6310133,6386303,2025-03-15,2025-03-15,Richmond,Duke,True,True,True,True,,MATCH
+6310179,6386322,2025-03-15,2025-03-15,Lafayette,Holy Cross,True,True,True,True,,MATCH
+6310204,6386334,2025-03-15,2025-03-15,Hampton,Fairfield,True,True,True,True,,MATCH
+6310254,6386352,2025-03-15,2025-03-15,Mercyhurst,LIU,True,True,True,True,,MATCH
+6310388,6386364,2025-03-15,2025-03-15,Saint Joseph's,Villanova,True,True,True,True,,MATCH
+6310491,6386379,2025-03-15,2025-03-15,St. John's (NY),Mercer,True,True,True,True,,MATCH
+6310766,6386388,2025-03-15,2025-03-15,Detroit Mercy,Robert Morris,True,True,True,True,,MATCH
+6311333,6386421,2025-03-15,2025-03-15,Colgate,Bucknell,True,True,True,True,,MATCH
+6312091,6386448,2025-03-15,2025-03-15,VMI,Le Moyne,True,True,True,True,,MATCH
+6312097,6386454,2025-03-15,2025-03-15,Utah,Marquette,True,True,True,True,,MATCH
+6312592,6386483,2025-03-15,2025-03-15,UMBC,Vermont,True,True,True,True,,MATCH
+6312747,6386487,2025-03-15,2025-03-15,Manhattan,Mount St. Mary's,True,True,True,True,,MATCH
+6312919,6386502,2025-03-15,2025-03-15,Wagner,Cleveland St.,True,True,True,True,,MATCH
+6313150,6386519,2025-03-15,2025-03-15,Sacred Heart,Siena,True,True,True,True,,MATCH
+6313157,6386523,2025-03-15,2025-03-15,Marist,Quinnipiac,True,True,True,True,,MATCH
+6313189,6386533,2025-03-15,2025-03-15,Michigan,Notre Dame,True,True,True,True,,MATCH
+6313197,6386537,2025-03-15,2025-03-15,Lehigh,Army West Point,True,True,True,True,,MATCH
+6309839,6386161,2025-03-16,2025-03-16,North Carolina,Jacksonville,True,True,True,True,,MATCH
+6310070,6386285,2025-03-16,2025-03-16,Denver,Ohio St.,True,True,True,True,,MATCH
+6309760,6386097,2025-03-17,2025-03-17,Villanova,Brown,True,True,True,True,,MATCH
+6309855,6386176,2025-03-18,2025-03-18,Virginia,UAlbany,True,True,True,True,,MATCH
+6309867,6386186,2025-03-18,2025-03-18,Navy,Le Moyne,True,True,True,True,,MATCH
+6310219,6386339,2025-03-18,2025-03-18,Hampton,Queens (NC),True,True,True,True,,MATCH
+6310228,6386344,2025-03-18,2025-03-18,UMass Lowell,Massachusetts,True,True,True,True,,MATCH
+6312100,6386457,2025-03-18,2025-03-18,Penn,Saint Joseph's,True,True,True,True,,MATCH
+6312748,6386488,2025-03-18,2025-03-18,Syracuse,Manhattan,True,True,True,True,,MATCH
+6309905,6386218,2025-03-19,2025-03-19,Delaware,Marist,True,True,True,True,,MATCH
+6309840,6386162,2025-03-21,2025-03-21,High Point,North Carolina,True,True,True,True,,MATCH
+6309373,6386035,2025-03-22,2025-03-22,Monmouth,Hofstra,True,True,True,True,,MATCH
+6309499,6386059,2025-03-22,2025-03-22,Princeton,Harvard,True,True,True,True,,MATCH
+6309687,6386084,2025-03-22,2025-03-22,Loyola Maryland,Lafayette,True,True,True,True,,MATCH
+6309762,6386099,2025-03-22,2025-03-22,Massachusetts,Brown,True,True,True,True,,MATCH
+6309775,6386111,2025-03-22,2025-03-22,Quinnipiac,Canisius,True,True,True,True,,MATCH
+6309796,6386130,2025-03-22,2025-03-22,St. John's (NY),Hobart,True,True,True,True,,MATCH
+6309801,6386134,2025-03-22,2025-03-22,Johns Hopkins,Rutgers,True,True,True,True,,MATCH
+6309824,6386151,2025-03-22,2025-03-22,Siena,Iona,True,True,True,True,,MATCH
+6309857,6386177,2025-03-22,2025-03-22,Virginia,Utah,True,True,True,True,,MATCH
+6309868,6386187,2025-03-22,2025-03-22,Holy Cross,Navy,True,True,True,True,,MATCH
+6309882,6386199,2025-03-22,2025-03-22,Towson,Stony Brook,True,True,True,True,,MATCH
+6309888,6386204,2025-03-22,2025-03-22,Vermont,Bryant,True,True,True,True,,MATCH
+6309913,6386222,2025-03-22,2025-03-22,Georgetown,Richmond,True,True,True,True,,MATCH
+6309923,6386226,2025-03-22,2025-03-22,Delaware,Hampton,True,True,True,True,,MATCH
+6309994,6386258,2025-03-22,2025-03-22,Binghamton,NJIT,True,True,True,True,,MATCH
+6310018,6386273,2025-03-22,2025-03-22,Merrimack,Sacred Heart,True,True,True,True,,MATCH
+6310072,6386286,2025-03-22,2025-03-22,Duke,Denver,True,True,True,True,,MATCH
+6310130,6386302,2025-03-22,2025-03-22,Marquette,Air Force,True,True,True,True,,MATCH
+6310256,6386353,2025-03-22,2025-03-22,LIU,Detroit Mercy,True,True,True,True,,MATCH
+6310873,6386398,2025-03-22,2025-03-22,Fairfield,Drexel,True,True,True,True,,MATCH
+6311334,6386422,2025-03-22,2025-03-22,Bucknell,Lehigh,True,True,True,True,,MATCH
+6311450,6386430,2025-03-22,2025-03-22,Robert Morris,Wagner,True,True,True,True,,MATCH
+6311565,6386436,2025-03-22,2025-03-22,Yale,Cornell,True,True,True,True,,MATCH
+6312056,6386443,2025-03-22,2025-03-22,VMI,Mercyhurst,True,True,True,True,,MATCH
+6312092,6386449,2025-03-22,2025-03-22,Le Moyne,Cleveland St.,True,True,True,True,,MATCH
+6312101,6386458,2025-03-22,2025-03-22,Saint Joseph's,Providence,True,True,True,True,,MATCH
+6312196,6386463,2025-03-22,2025-03-22,Penn,Dartmouth,True,True,True,True,,MATCH
+6312847,6386494,2025-03-22,2025-03-22,UAlbany,UMBC,True,True,True,True,,MATCH
+6313054,6386506,2025-03-22,2025-03-22,Syracuse,Colgate,True,True,True,True,,MATCH
+6313142,6386515,2025-03-22,2025-03-22,Mount St. Mary's,Marist,True,True,True,True,,MATCH
+6313177,6386528,2025-03-22,2025-03-22,Maryland,Michigan,True,True,True,True,,MATCH
+6313191,6386534,2025-03-22,2025-03-22,Army West Point,Boston U.,True,True,True,True,,MATCH
+6309487,6386049,2025-03-23,2025-03-23,Penn St.,Ohio St.,True,True,True,True,,MATCH
+6309647,6386067,2025-03-25,2025-03-25,Harvard,Boston U.,True,True,True,True,,MATCH
+6312395,6386465,2025-03-25,2025-03-25,St. Bonaventure,Binghamton,True,True,True,True,,MATCH
+6309776,6386112,2025-03-26,2025-03-26,Marist,Canisius,True,True,True,True,,MATCH
+6309825,6386152,2025-03-26,2025-03-26,Iona,Sacred Heart,True,True,True,True,,MATCH
+6310020,6386274,2025-03-26,2025-03-26,Merrimack,Siena,True,True,True,True,,MATCH
+6312749,6386489,2025-03-26,2025-03-26,Manhattan,Quinnipiac,True,True,True,True,,MATCH
+6310257,6386354,2025-03-28,2025-03-28,Wagner,LIU,True,True,True,True,,MATCH
+6311213,6386403,2025-03-28,2025-03-28,Lafayette,Bucknell,True,True,True,True,,MATCH
+6309374,6386036,2025-03-29,2025-03-29,Hofstra,Delaware,True,True,True,True,,MATCH
+6309500,6386060,2025-03-29,2025-03-29,Dartmouth,Princeton,True,True,True,True,,MATCH
+6309650,6386069,2025-03-29,2025-03-29,Harvard,Binghamton,True,True,True,True,,MATCH
+6309690,6386085,2025-03-29,2025-03-29,Lehigh,Loyola Maryland,True,True,True,True,,MATCH
+6309764,6386101,2025-03-29,2025-03-29,Yale,Brown,True,True,True,True,,MATCH
+6309777,6386113,2025-03-29,2025-03-29,Canisius,Manhattan,True,True,True,True,,MATCH
+6309798,6386131,2025-03-29,2025-03-29,High Point,Hobart,True,True,True,True,,MATCH
+6309804,6386137,2025-03-29,2025-03-29,Ohio St.,Rutgers,True,True,True,True,,MATCH
+6309826,6386153,2025-03-29,2025-03-29,Quinnipiac,Iona,True,True,True,True,,MATCH
+6309841,6386163,2025-03-29,2025-03-29,Army West Point,North Carolina,True,True,True,True,,MATCH
+6309858,6386178,2025-03-29,2025-03-29,Virginia,Syracuse,True,True,True,True,,MATCH
+6309870,6386189,2025-03-29,2025-03-29,Colgate,Navy,True,True,True,True,,MATCH
+6309883,6386200,2025-03-29,2025-03-29,Drexel,Towson,True,True,True,True,,MATCH
+6309892,6386207,2025-03-29,2025-03-29,Bryant,UMBC,True,True,True,True,,MATCH
+6309917,6386223,2025-03-29,2025-03-29,Georgetown,Providence,True,True,True,True,,MATCH
+6309969,6386244,2025-03-29,2025-03-29,Hampton,Monmouth,True,True,True,True,,MATCH
+6309996,6386259,2025-03-29,2025-03-29,Bellarmine,Utah,True,True,True,True,,MATCH
+6309997,6386260,2025-03-29,2025-03-29,NJIT,Vermont,True,True,True,True,,MATCH
+6310073,6386287,2025-03-29,2025-03-29,Denver,Villanova,True,True,True,True,,MATCH
+6310137,6386306,2025-03-29,2025-03-29,Jacksonville,Air Force,True,True,True,True,,MATCH
+6310139,6386307,2025-03-29,2025-03-29,Notre Dame,Duke,True,True,True,True,,MATCH
+6310180,6386323,2025-03-29,2025-03-29,Boston U.,Holy Cross,True,True,True,True,,MATCH
+6310230,6386345,2025-03-29,2025-03-29,Saint Joseph's,Massachusetts,True,True,True,True,,MATCH
+6310439,6386372,2025-03-29,2025-03-29,Stony Brook,Fairfield,True,True,True,True,,MATCH
+6310495,6386380,2025-03-29,2025-03-29,Mercer,Queens (NC),True,True,True,True,,MATCH
+6310771,6386389,2025-03-29,2025-03-29,Detroit Mercy,Le Moyne,True,True,True,True,,MATCH
+6311292,6386409,2025-03-29,2025-03-29,Richmond,St. Bonaventure,True,True,True,True,,MATCH
+6311377,6386427,2025-03-29,2025-03-29,Marquette,St. John's (NY),True,True,True,True,,MATCH
+6311452,6386431,2025-03-29,2025-03-29,Robert Morris,Mercyhurst,True,True,True,True,,MATCH
+6312459,6386474,2025-03-29,2025-03-29,Cleveland St.,VMI,True,True,True,True,,MATCH
+6312490,6386476,2025-03-29,2025-03-29,Michigan,Johns Hopkins,True,True,True,True,,MATCH
+6312848,6386495,2025-03-29,2025-03-29,UAlbany,UMass Lowell,True,True,True,True,,MATCH
+6312955,6386503,2025-03-29,2025-03-29,Maryland,Penn St.,True,True,True,True,,MATCH
+6313144,6386516,2025-03-29,2025-03-29,Siena,Mount St. Mary's,True,True,True,True,,MATCH
+6313152,6386520,2025-03-29,2025-03-29,Sacred Heart,Marist,True,True,True,True,,MATCH
+6356574,6386549,2025-03-29,2025-03-29,Cornell,Penn,True,True,True,True,,MATCH
+6309649,6386068,2025-04-01,2025-04-01,Princeton,Lehigh,True,True,True,True,,MATCH
+6312851,6386496,2025-04-01,2025-04-01,Cornell,UAlbany,True,True,True,True,,MATCH
+6309872,6386191,2025-04-04,2025-04-04,Navy,Lafayette,True,True,True,True,,MATCH
+6313207,6386543,2025-04-04,2025-04-04,UMBC,UMass Lowell,True,True,True,True,,MATCH
+6309375,6386037,2025-04-05,2025-04-05,Fairfield,Hofstra,True,True,True,True,,MATCH
+6309646,6386066,2025-04-05,2025-04-05,Princeton,Vermont,True,True,True,True,,MATCH
+6309656,6386072,2025-04-05,2025-04-05,Dartmouth,Harvard,True,True,True,True,,MATCH
+6309695,6386086,2025-04-05,2025-04-05,Bucknell,Loyola Maryland,True,True,True,True,,MATCH
+6309767,6386104,2025-04-05,2025-04-05,Brown,Cornell,True,True,True,True,,MATCH
+6309778,6386114,2025-04-05,2025-04-05,Mount St. Mary's,Canisius,True,True,True,True,,MATCH
+6309800,6386133,2025-04-05,2025-04-05,Hobart,Richmond,True,True,True,True,,MATCH
+6309806,6386139,2025-04-05,2025-04-05,Rutgers,Maryland,True,True,True,True,,MATCH
+6309828,6386154,2025-04-05,2025-04-05,Iona,Merrimack,True,True,True,True,,MATCH
+6309842,6386164,2025-04-05,2025-04-05,North Carolina,Virginia,True,True,True,True,,MATCH
+6309884,6386201,2025-04-05,2025-04-05,Monmouth,Towson,True,True,True,True,,MATCH
+6309894,6386209,2025-04-05,2025-04-05,NJIT,Bryant,True,True,True,True,,MATCH
+6309919,6386224,2025-04-05,2025-04-05,Delaware,Stony Brook,True,True,True,True,,MATCH
+6309925,6386227,2025-04-05,2025-04-05,Marquette,Georgetown,True,True,True,True,,MATCH
+6309998,6386261,2025-04-05,2025-04-05,Air Force,Bellarmine,True,True,True,True,,MATCH
+6310075,6386288,2025-04-05,2025-04-05,St. John's (NY),Denver,True,True,True,True,,MATCH
+6310144,6386310,2025-04-05,2025-04-05,Boston U.,Duke,True,True,True,True,,MATCH
+6310185,6386324,2025-04-05,2025-04-05,Holy Cross,Lehigh,True,True,True,True,,MATCH
+6310199,6386332,2025-04-05,2025-04-05,Massachusetts,High Point,True,True,True,True,,MATCH
+6310224,6386342,2025-04-05,2025-04-05,Drexel,Hampton,True,True,True,True,,MATCH
+6310260,6386355,2025-04-05,2025-04-05,LIU,Robert Morris,True,True,True,True,,MATCH
+6310391,6386365,2025-04-05,2025-04-05,Providence,Villanova,True,True,True,True,,MATCH
+6310496,6386381,2025-04-05,2025-04-05,Utah,Mercer,True,True,True,True,,MATCH
+6310774,6386390,2025-04-05,2025-04-05,VMI,Detroit Mercy,True,True,True,True,,MATCH
+6311568,6386437,2025-04-05,2025-04-05,Penn,Yale,True,True,True,True,,MATCH
+6312058,6386444,2025-04-05,2025-04-05,Mercyhurst,Cleveland St.,True,True,True,True,,MATCH
+6312093,6386450,2025-04-05,2025-04-05,Le Moyne,Wagner,True,True,True,True,,MATCH
+6312102,6386459,2025-04-05,2025-04-05,St. Bonaventure,Saint Joseph's,True,True,True,True,,MATCH
+6312399,6386469,2025-04-05,2025-04-05,Binghamton,UAlbany,True,True,True,True,,MATCH
+6312495,6386477,2025-04-05,2025-04-05,Johns Hopkins,Ohio St.,True,True,True,True,,MATCH
+6312750,6386490,2025-04-05,2025-04-05,Manhattan,Siena,True,True,True,True,,MATCH
+6313056,6386507,2025-04-05,2025-04-05,Syracuse,Notre Dame,True,True,True,True,,MATCH
+6313153,6386521,2025-04-05,2025-04-05,Quinnipiac,Sacred Heart,True,True,True,True,,MATCH
+6313198,6386538,2025-04-05,2025-04-05,Colgate,Army West Point,True,True,True,True,,MATCH
+6313208,6386544,2025-04-05,2025-04-05,Queens (NC),Jacksonville,True,True,True,True,,MATCH
+6371921,6449835,2025-04-05,2025-04-12,UMBC,Binghamton,False,True,True,False,,CONFLICT
+6309489,6386051,2025-04-06,2025-04-06,Michigan,Penn St.,True,True,True,True,,MATCH
+6309697,6386087,2025-04-08,2025-04-08,Towson,Loyola Maryland,True,True,True,True,,MATCH
+6311336,6386424,2025-04-08,2025-04-08,Le Moyne,Bucknell,True,True,True,True,,MATCH
+6309376,6386038,2025-04-12,2025-04-12,Hofstra,Drexel,True,True,True,True,,MATCH
+6309491,6386053,2025-04-12,2025-04-12,Penn St.,Johns Hopkins,True,True,True,True,,MATCH
+6309653,6386070,2025-04-12,2025-04-12,Princeton,Brown,True,True,True,True,,MATCH
+6309659,6386074,2025-04-12,2025-04-12,Harvard,Penn,True,True,True,True,,MATCH
+6309699,6386088,2025-04-12,2025-04-12,Loyola Maryland,Holy Cross,True,True,True,True,,MATCH
+6309780,6386116,2025-04-12,2025-04-12,Iona,Canisius,True,True,True,True,,MATCH
+6309802,6386135,2025-04-12,2025-04-12,Saint Joseph's,Hobart,True,True,True,True,,MATCH
+6309843,6386165,2025-04-12,2025-04-12,Duke,North Carolina,True,True,True,True,,MATCH
+6309859,6386179,2025-04-12,2025-04-12,Notre Dame,Virginia,True,True,True,True,,MATCH
+6309875,6386193,2025-04-12,2025-04-12,Navy,Army West Point,True,True,True,True,,MATCH
+6309887,6386203,2025-04-12,2025-04-12,Towson,Hampton,True,True,True,True,,MATCH
+6309897,6386212,2025-04-12,2025-04-12,Bryant,Bucknell,True,True,True,True,,MATCH
+6309922,6386225,2025-04-12,2025-04-12,Delaware,Fairfield,True,True,True,True,,MATCH
+6309930,6386228,2025-04-12,2025-04-12,Georgetown,Denver,True,True,True,True,,MATCH
+6309971,6386245,2025-04-12,2025-04-12,Stony Brook,Monmouth,True,True,True,True,,MATCH
+6310000,6386262,2025-04-12,2025-04-12,Bellarmine,Mercer,True,True,True,True,,MATCH
+6310001,6386263,2025-04-12,2025-04-12,UMass Lowell,NJIT,True,True,True,True,,MATCH
+6310023,6386275,2025-04-12,2025-04-12,Merrimack,Mount St. Mary's,True,True,True,True,,MATCH
+6310141,6386308,2025-04-12,2025-04-12,Air Force,Queens (NC),True,True,True,True,,MATCH
+6310201,6386333,2025-04-12,2025-04-12,Richmond,High Point,True,True,True,True,,MATCH
+6310233,6386346,2025-04-12,2025-04-12,Massachusetts,St. Bonaventure,True,True,True,True,,MATCH
+6310261,6386356,2025-04-12,2025-04-12,Cleveland St.,LIU,True,True,True,True,,MATCH
+6310394,6386366,2025-04-12,2025-04-12,Villanova,St. John's (NY),True,True,True,True,,MATCH
+6310778,6386391,2025-04-12,2025-04-12,Detroit Mercy,Wagner,True,True,True,True,,MATCH
+6311215,6386404,2025-04-12,2025-04-12,Lafayette,Boston U.,True,True,True,True,,MATCH
+6311457,6386432,2025-04-12,2025-04-12,Robert Morris,VMI,True,True,True,True,,MATCH
+6311571,6386438,2025-04-12,2025-04-12,Yale,Dartmouth,True,True,True,True,,MATCH
+6312059,6386445,2025-04-12,2025-04-12,Mercyhurst,Le Moyne,True,True,True,True,,MATCH
+6312098,6386455,2025-04-12,2025-04-12,Providence,Marquette,True,True,True,True,,MATCH
+6312593,6386484,2025-04-12,2025-04-12,Vermont,UAlbany,True,True,True,True,,MATCH
+6312751,6386491,2025-04-12,2025-04-12,Marist,Manhattan,True,True,True,True,,MATCH
+6313062,6386508,2025-04-12,2025-04-12,Syracuse,Cornell,True,True,True,True,,MATCH
+6313161,6386525,2025-04-12,2025-04-12,Siena,Quinnipiac,True,True,True,True,,MATCH
+6313178,6386529,2025-04-12,2025-04-12,Ohio St.,Maryland,True,True,True,True,,MATCH
+6313200,6386540,2025-04-12,2025-04-12,Lehigh,Colgate,True,True,True,True,,MATCH
+6313210,6386546,2025-04-12,2025-04-12,Utah,Jacksonville,True,True,True,True,,MATCH
+6309807,6386140,2025-04-13,2025-04-13,Rutgers,Michigan,True,True,True,True,,MATCH
+6309377,6386039,2025-04-15,2025-04-15,Yale,Hofstra,True,True,True,True,,MATCH
+6309493,6386055,2025-04-18,2025-04-18,Penn St.,Rutgers,True,True,True,True,,MATCH
+6309704,6386089,2025-04-18,2025-04-18,Loyola Maryland,Navy,True,True,True,True,,MATCH
+6312498,6386478,2025-04-18,2025-04-18,Maryland,Johns Hopkins,True,True,True,True,,MATCH
+6309378,6386040,2025-04-19,2025-04-19,Hampton,Hofstra,True,True,True,True,,MATCH
+6309654,6386071,2025-04-19,2025-04-19,Penn,Princeton,True,True,True,True,,MATCH
+6309661,6386075,2025-04-19,2025-04-19,Harvard,Cornell,True,True,True,True,,MATCH
+6309769,6386106,2025-04-19,2025-04-19,Dartmouth,Brown,True,True,True,True,,MATCH
+6309781,6386117,2025-04-19,2025-04-19,Canisius,Siena,True,True,True,True,,MATCH
+6309803,6386136,2025-04-19,2025-04-19,Hobart,St. Bonaventure,True,True,True,True,,MATCH
+6309829,6386155,2025-04-19,2025-04-19,Manhattan,Iona,True,True,True,True,,MATCH
+6309844,6386166,2025-04-19,2025-04-19,North Carolina,Notre Dame,True,True,True,True,,MATCH
+6309861,6386181,2025-04-19,2025-04-19,Virginia,Lafayette,True,True,True,True,,MATCH
+6309890,6386205,2025-04-19,2025-04-19,Towson,Fairfield,True,True,True,True,,MATCH
+6309901,6386215,2025-04-19,2025-04-19,Bryant,Binghamton,True,True,True,True,,MATCH
+6309932,6386230,2025-04-19,2025-04-19,Monmouth,Delaware,True,True,True,True,,MATCH
+6309934,6386231,2025-04-19,2025-04-19,St. John's (NY),Georgetown,True,True,True,True,,MATCH
+6310003,6386264,2025-04-19,2025-04-19,NJIT,UMBC,True,True,True,True,,MATCH
+6310004,6386265,2025-04-19,2025-04-19,Jacksonville,Bellarmine,True,True,True,True,,MATCH
+6310024,6386276,2025-04-19,2025-04-19,Marist,Merrimack,True,True,True,True,,MATCH
+6310076,6386289,2025-04-19,2025-04-19,Denver,Providence,True,True,True,True,,MATCH
+6310143,6386309,2025-04-19,2025-04-19,Mercer,Air Force,True,True,True,True,,MATCH
+6310148,6386311,2025-04-19,2025-04-19,Duke,Syracuse,True,True,True,True,,MATCH
+6310186,6386325,2025-04-19,2025-04-19,Colgate,Holy Cross,True,True,True,True,,MATCH
+6310206,6386335,2025-04-19,2025-04-19,High Point,Saint Joseph's,True,True,True,True,,MATCH
+6310235,6386348,2025-04-19,2025-04-19,Richmond,Massachusetts,True,True,True,True,,MATCH
+6310263,6386357,2025-04-19,2025-04-19,LIU,Le Moyne,True,True,True,True,,MATCH
+6310398,6386367,2025-04-19,2025-04-19,Villanova,Marquette,True,True,True,True,,MATCH
+6310441,6386373,2025-04-19,2025-04-19,Drexel,Stony Brook,True,True,True,True,,MATCH
+6310779,6386392,2025-04-19,2025-04-19,Detroit Mercy,Mercyhurst,True,True,True,True,,MATCH
+6311335,6386423,2025-04-19,2025-04-19,Army West Point,Bucknell,True,True,True,True,,MATCH
+6311459,6386433,2025-04-19,2025-04-19,Robert Morris,Cleveland St.,True,True,True,True,,MATCH
+6311575,6386439,2025-04-19,2025-04-19,UAlbany,Yale,True,True,True,True,,MATCH
+6312461,6386475,2025-04-19,2025-04-19,Wagner,VMI,True,True,True,True,,MATCH
+6312594,6386485,2025-04-19,2025-04-19,Vermont,UMass Lowell,True,True,True,True,,MATCH
+6313146,6386517,2025-04-19,2025-04-19,Sacred Heart,Mount St. Mary's,True,True,True,True,,MATCH
+6313187,6386532,2025-04-19,2025-04-19,Michigan,Ohio St.,True,True,True,True,,MATCH
+6313193,6386535,2025-04-19,2025-04-19,Boston U.,Lehigh,True,True,True,True,,MATCH
+6313209,6386545,2025-04-19,2025-04-19,Queens (NC),Utah,True,True,True,True,,MATCH
+6386149,6455124,2025-04-20,2025-04-20,LIU,Quinnipiac,True,True,True,True,misdated duplicate of the genuine 2024-04-20 game 6270089,MATCH
+6309832,6386156,2025-04-23,2025-04-23,Mount St. Mary's,Iona,True,True,True,True,,MATCH
+6310026,6386277,2025-04-23,2025-04-23,Quinnipiac,Merrimack,True,True,True,True,,MATCH
+6312752,6386492,2025-04-23,2025-04-23,Sacred Heart,Manhattan,True,True,True,True,,MATCH
+6313159,6386524,2025-04-23,2025-04-23,Siena,Marist,True,True,True,True,,MATCH
+6310188,6386326,2025-04-24,2025-04-24,Holy Cross,UMBC,True,True,True,True,,MATCH
+6309706,6386090,2025-04-25,2025-04-25,Army West Point,Loyola Maryland,True,True,True,True,,MATCH
+6309805,6386138,2025-04-25,2025-04-25,Massachusetts,Hobart,True,True,True,True,,MATCH
+6309877,6386195,2025-04-25,2025-04-25,Bucknell,Navy,True,True,True,True,,MATCH
+6309931,6386229,2025-04-25,2025-04-25,Delaware,Drexel,True,True,True,True,,MATCH
+6309937,6386232,2025-04-25,2025-04-25,Georgetown,Villanova,True,True,True,True,,MATCH
+6310077,6386290,2025-04-25,2025-04-25,Marquette,Denver,True,True,True,True,,MATCH
+6311216,6386405,2025-04-25,2025-04-25,Lehigh,Lafayette,True,True,True,True,,MATCH
+6311295,6386412,2025-04-25,2025-04-25,Saint Joseph's,Richmond,True,True,True,True,,MATCH
+6311393,6386428,2025-04-25,2025-04-25,Providence,St. John's (NY),True,True,True,True,,MATCH
+6313194,6386536,2025-04-25,2025-04-25,Boston U.,Colgate,True,True,True,True,,MATCH
+6309379,6386041,2025-04-26,2025-04-26,Hofstra,Towson,True,True,True,True,,MATCH
+6309657,6386073,2025-04-26,2025-04-26,Princeton,Yale,True,True,True,True,,MATCH
+6309662,6386076,2025-04-26,2025-04-26,Brown,Harvard,True,True,True,True,,MATCH
+6309845,6386167,2025-04-26,2025-04-26,Syracuse,North Carolina,True,True,True,True,,MATCH
+6309862,6386182,2025-04-26,2025-04-26,Virginia,Duke,True,True,True,True,,MATCH
+6309907,6386219,2025-04-26,2025-04-26,UMass Lowell,Bryant,True,True,True,True,,MATCH
+6309972,6386246,2025-04-26,2025-04-26,Fairfield,Monmouth,True,True,True,True,,MATCH
+6310005,6386266,2025-04-26,2025-04-26,Bellarmine,Queens (NC),True,True,True,True,,MATCH
+6310006,6386267,2025-04-26,2025-04-26,UAlbany,NJIT,True,True,True,True,,MATCH
+6310153,6386312,2025-04-26,2025-04-26,Air Force,Utah,True,True,True,True,,MATCH
+6310207,6386336,2025-04-26,2025-04-26,St. Bonaventure,High Point,True,True,True,True,,MATCH
+6310234,6386347,2025-04-26,2025-04-26,Stony Brook,Hampton,True,True,True,True,,MATCH
+6310266,6386358,2025-04-26,2025-04-26,VMI,LIU,True,True,True,True,,MATCH
+6310497,6386382,2025-04-26,2025-04-26,Jacksonville,Mercer,True,True,True,True,,MATCH
+6310781,6386393,2025-04-26,2025-04-26,Cleveland St.,Detroit Mercy,True,True,True,True,,MATCH
+6311462,6386434,2025-04-26,2025-04-26,Le Moyne,Robert Morris,True,True,True,True,,MATCH
+6312060,6386446,2025-04-26,2025-04-26,Mercyhurst,Wagner,True,True,True,True,,MATCH
+6312199,6386464,2025-04-26,2025-04-26,Cornell,Dartmouth,True,True,True,True,,MATCH
+6312401,6386471,2025-04-26,2025-04-26,Binghamton,Vermont,True,True,True,True,,MATCH
+6314035,6386548,2025-04-26,2025-04-26,Notre Dame,Penn,True,True,True,True,,MATCH
+6375531,6450612,2025-04-26,2025-04-26,Michigan,Rutgers,True,True,True,True,,MATCH
+6375532,6450613,2025-04-26,2025-04-26,Penn St.,Johns Hopkins,True,True,True,True,,MATCH
+6379579,6451038,2025-04-27,2025-04-27,Canisius,Quinnipiac,True,True,True,True,,MATCH
+6379580,6451039,2025-04-27,2025-04-27,Marist,Manhattan,True,True,True,True,,MATCH
+6381077,6452189,2025-04-29,2025-04-29,Lafayette,Navy,True,True,True,True,,MATCH
+6381081,6452190,2025-04-29,2025-04-29,Lehigh,Colgate,True,True,True,True,,MATCH
+6375529,6450610,2025-05-01,2025-05-01,Maryland,Penn St.,True,True,True,True,,MATCH
+6375530,6450611,2025-05-01,2025-05-01,Ohio St.,Rutgers,True,True,True,True,,MATCH
+6379577,6451036,2025-05-01,2025-05-01,Siena,Marist,True,True,True,True,,MATCH
+6379578,6451037,2025-05-01,2025-05-01,Sacred Heart,Quinnipiac,True,True,True,True,,MATCH
+6380959,6452087,2025-05-01,2025-05-01,UMBC,UAlbany,True,True,True,True,,MATCH
+6380961,6452088,2025-05-01,2025-05-01,Bryant,Binghamton,True,True,True,True,,MATCH
+6380974,6452090,2025-05-01,2025-05-01,Saint Joseph's,High Point,True,True,True,True,,MATCH
+6380977,6452091,2025-05-01,2025-05-01,Richmond,Massachusetts,True,True,True,True,,MATCH
+6380985,6452093,2025-05-01,2025-05-01,Villanova,Providence,True,True,True,True,,MATCH
+6380988,6452094,2025-05-01,2025-05-01,Georgetown,Marquette,True,True,True,True,,MATCH
+6381006,6452096,2025-05-01,2025-05-01,Fairfield,Drexel,True,True,True,True,,MATCH
+6381008,6452097,2025-05-01,2025-05-01,Towson,Hofstra,True,True,True,True,,MATCH
+6381048,6452184,2025-05-01,2025-05-01,Le Moyne,Detroit Mercy,True,True,True,True,,MATCH
+6381051,6452185,2025-05-01,2025-05-01,Robert Morris,LIU,True,True,True,True,,MATCH
+6380934,6452081,2025-05-02,2025-05-02,North Carolina,Duke,True,True,True,True,,MATCH
+6380935,6452082,2025-05-02,2025-05-02,Notre Dame,Syracuse,True,True,True,True,,MATCH
+6380948,6452084,2025-05-02,2025-05-02,Jacksonville,Air Force,True,True,True,True,,MATCH
+6380950,6452085,2025-05-02,2025-05-02,Utah,Bellarmine,True,True,True,True,,MATCH
+6381021,6452099,2025-05-02,2025-05-02,Princeton,Harvard,True,True,True,True,,MATCH
+6381026,6452100,2025-05-02,2025-05-02,Cornell,Yale,True,True,True,True,,MATCH
+6381068,6452187,2025-05-02,2025-05-02,Boston U.,Lafayette,True,True,True,True,,MATCH
+6381071,6452188,2025-05-02,2025-05-02,Army West Point,Colgate,True,True,True,True,,MATCH
+6375528,6450609,2025-05-03,2025-05-03,Ohio St.,Maryland,True,True,True,True,,MATCH
+6379576,6451035,2025-05-03,2025-05-03,Sacred Heart,Siena,True,True,True,True,,MATCH
+6380957,6452086,2025-05-03,2025-05-03,Bryant,UAlbany,True,True,True,True,,MATCH
+6380971,6452089,2025-05-03,2025-05-03,Richmond,High Point,True,True,True,True,,MATCH
+6380982,6452092,2025-05-03,2025-05-03,Georgetown,Villanova,True,True,True,True,,MATCH
+6381003,6452095,2025-05-03,2025-05-03,Towson,Drexel,True,True,True,True,,MATCH
+6381045,6452183,2025-05-03,2025-05-03,Robert Morris,Detroit Mercy,True,True,True,True,,MATCH
+6380931,6452080,2025-05-04,2025-05-04,Duke,Syracuse,True,True,True,True,,MATCH
+6380947,6452083,2025-05-04,2025-05-04,Utah,Air Force,True,True,True,True,,MATCH
+6381016,6452098,2025-05-04,2025-05-04,Cornell,Princeton,True,True,True,True,,MATCH
+6381065,6452186,2025-05-04,2025-05-04,Boston U.,Colgate,True,True,True,True,,MATCH
+589864,6448488,2025-05-07,2025-05-07,UAlbany,Siena,True,True,True,True,,MATCH
+589871,6448496,2025-05-07,2025-05-07,Robert Morris,Air Force,True,True,True,True,,MATCH
+589840,6448504,2025-05-10,2025-05-10,North Carolina,Richmond,True,True,True,True,,MATCH
+589847,6448505,2025-05-10,2025-05-10,Penn St.,Colgate,True,True,True,True,,MATCH
+589867,6448510,2025-05-10,2025-05-10,Princeton,Towson,True,True,True,True,,MATCH
+589869,6448508,2025-05-10,2025-05-10,Duke,Georgetown,True,True,True,True,,MATCH
+589863,6448503,2025-05-11,2025-05-11,Cornell,UAlbany,True,True,True,True,,MATCH
+589866,6448506,2025-05-11,2025-05-11,Ohio St.,Notre Dame,True,True,True,True,,MATCH
+589868,6448509,2025-05-11,2025-05-11,Syracuse,Harvard,True,True,True,True,,MATCH
+589870,6448507,2025-05-11,2025-05-11,Maryland,Air Force,True,True,True,True,,MATCH
+590696,6448511,2025-05-17,2025-05-17,Cornell,Richmond,True,True,True,True,,MATCH
+590697,6448514,2025-05-17,2025-05-17,Princeton,Syracuse,True,True,True,True,,MATCH
+589861,6448512,2025-05-18,2025-05-18,Penn St.,Notre Dame,True,True,True,True,,MATCH
+589862,6448513,2025-05-18,2025-05-18,Maryland,Georgetown,True,True,True,True,,MATCH
+589857,6448515,2025-05-24,2025-05-24,Cornell,Penn St.,True,True,True,True,,MATCH
+589858,6448516,2025-05-24,2025-05-24,Maryland,Syracuse,True,True,True,True,,MATCH
+589856,6448517,2025-05-26,2025-05-26,Cornell,Maryland,True,True,True,True,,MATCH

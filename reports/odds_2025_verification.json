@@ -1,0 +1,36 @@
+{
+  "verified_at": "2026-11-09T21:18:05.835354-05:00",
+  "existing_files_preserved": 205,
+  "sample_rows_verified_against_original": 20,
+  "sample_month_counts": {
+    "2025-02": 5,
+    "2025-03": 5,
+    "2025-04": 5,
+    "2025-05": 5
+  },
+  "tests_command": "conda run --no-capture-output -n dsf-lacrosse python -m pytest -q",
+  "tests_result": "37 passed in 0.36s",
+  "dependency_check": "No broken requirements found.",
+  "raw_research_hashes_verified": 3,
+  "pilot_odds_csv_absent": true,
+  "created_files": [
+    "data/processed/lacrosse_odds_2025_sample_games.csv",
+    "data/raw/odds/research/cradl_about.html",
+    "data/raw/odds/research/cradl_results.html",
+    "data/raw/odds/research/cradl_terms.html",
+    "data/raw/odds/research/github_inspection_summary.json",
+    "data/raw/odds/research/research_response_metadata.json",
+    "reports/historical_odds_feasibility.md",
+    "reports/historical_odds_sources.json",
+    "reports/odds_2025_candidate_audit.csv",
+    "reports/odds_2025_candidate_references.json",
+    "reports/odds_2025_existing_files_manifest.json",
+    "reports/odds_2025_pilot_summary.json",
+    "reports/odds_2025_research_log.json",
+    "reports/odds_2025_sample_coverage.csv",
+    "reports/odds_2025_team_aliases.csv",
+    "reports/odds_2025_verification.json",
+    "src/pilot_odds.py",
+    "tests/test_pilot_odds.py"
+  ]
+}

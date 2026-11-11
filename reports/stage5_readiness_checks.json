@@ -1,0 +1,173 @@
+{
+  "input_sha256": "980f190af9d05b5fb94ee1f0909dbb58ec6d0d33956db767c22c42f0c4aa0f30",
+  "games": 1707,
+  "split_counts": {
+    "training": 559,
+    "validation": 570,
+    "retrospective_evaluation": 578
+  },
+  "distinct_teams": 78,
+  "teams_by_season": {
+    "2023": 75,
+    "2024": 76,
+    "2025": 77
+  },
+  "newly_observed_2024": [
+    "lemoyne"
+  ],
+  "newly_observed_2025": [
+    "iona",
+    "mercyhurst"
+  ],
+  "absent_from_2025_vs_2024": [
+    "lindenwood"
+  ],
+  "identity_resolutions": [
+    {
+      "game_id": "6136266",
+      "side": "home",
+      "team": "UMBC",
+      "team_key": "umbc",
+      "proposed_numeric_id": "43922",
+      "existing_nonmissing_appearances": 36,
+      "earlier_support_examples": [
+        {
+          "game_id": "6085471",
+          "date": "2023-02-18",
+          "side": "away",
+          "numeric_id": "43922",
+          "source_url": "https://www.ncaa.com/game/6085471"
+        }
+      ],
+      "school_identity_evidence": "data/incoming/grok/stage1_28f5677d90c3/audit_package/evidence/games/mountathletics.com_2023_schedule.html;data/incoming/grok/stage1_28f5677d90c3/audit_package/evidence/games/umbcretrievers.com_2023_schedule.html",
+      "scope": "UNIQUE_EXISTING_DATASET_MAPPING_NOT_RETRIEVED_GAME_SPECIFIC_PRIMARY_ID",
+      "applied": false
+    },
+    {
+      "game_id": "6136266",
+      "side": "away",
+      "team": "Mount St. Mary's",
+      "team_key": "mountstmarys",
+      "proposed_numeric_id": "43793",
+      "existing_nonmissing_appearances": 44,
+      "earlier_support_examples": [
+        {
+          "game_id": "6085414",
+          "date": "2023-02-04",
+          "side": "away",
+          "numeric_id": "43793",
+          "source_url": "https://www.ncaa.com/game/6085414"
+        },
+        {
+          "game_id": "6085431",
+          "date": "2023-02-11",
+          "side": "home",
+          "numeric_id": "43793",
+          "source_url": "https://www.ncaa.com/game/6085431"
+        }
+      ],
+      "school_identity_evidence": "data/incoming/grok/stage1_28f5677d90c3/audit_package/evidence/games/mountathletics.com_2023_schedule.html;data/incoming/grok/stage1_28f5677d90c3/audit_package/evidence/games/umbcretrievers.com_2023_schedule.html",
+      "scope": "UNIQUE_EXISTING_DATASET_MAPPING_NOT_RETRIEVED_GAME_SPECIFIC_PRIMARY_ID",
+      "applied": false
+    },
+    {
+      "game_id": "espn_401658258",
+      "side": "home",
+      "team": "Princeton",
+      "team_key": "princeton",
+      "proposed_numeric_id": "43731",
+      "existing_nonmissing_appearances": 47,
+      "earlier_support_examples": [
+        {
+          "game_id": "6085492",
+          "date": "2023-02-18",
+          "side": "home",
+          "numeric_id": "43731",
+          "source_url": "https://www.ncaa.com/game/6085492"
+        },
+        {
+          "game_id": "6085503",
+          "date": "2023-02-21",
+          "side": "home",
+          "numeric_id": "43731",
+          "source_url": "https://www.ncaa.com/game/6085503"
+        }
+      ],
+      "school_identity_evidence": "data/incoming/grok/stage1_28f5677d90c3/audit_package/evidence/games/goprincetontigers.com_2024_schedule.html",
+      "scope": "UNIQUE_EXISTING_DATASET_MAPPING_NOT_RETRIEVED_GAME_SPECIFIC_PRIMARY_ID",
+      "applied": false
+    },
+    {
+      "game_id": "espn_401658258",
+      "side": "away",
+      "team": "Penn",
+      "team_key": "penn",
+      "proposed_numeric_id": "43935",
+      "existing_nonmissing_appearances": 41,
+      "earlier_support_examples": [
+        {
+          "game_id": "6085469",
+          "date": "2023-02-18",
+          "side": "away",
+          "numeric_id": "43935",
+          "source_url": "https://www.ncaa.com/game/6085469"
+        },
+        {
+          "game_id": "6085530",
+          "date": "2023-02-25",
+          "side": "home",
+          "numeric_id": "43935",
+          "source_url": "https://www.ncaa.com/game/6085530"
+        }
+      ],
+      "school_identity_evidence": "data/incoming/grok/stage1_28f5677d90c3/audit_package/evidence/games/goprincetontigers.com_2024_schedule.html",
+      "scope": "UNIQUE_EXISTING_DATASET_MAPPING_NOT_RETRIEVED_GAME_SPECIFIC_PRIMARY_ID",
+      "applied": false
+    }
+  ],
+  "neutral_site_review": {
+    "card_text": "May 18 (Sat) 12 p.m. vs No. 1 Notre Dame Box Score Recap Hempstead, N.Y. L, 11-16 Box Score Recap Hide/Show Additional Information For No. 1 Notre Dame - May 18, 2024",
+    "classes": [
+      "sidearm-schedule-game",
+      "sidearm-schedule-neutral-game",
+      "tourney",
+      "upcoming-game",
+      "L",
+      "sidearm-schedule-game-completed"
+    ],
+    "interpretation": "NEUTRAL_SITE_EXPLAINS_NOMINAL_ORIENTATION; do not swap source sides",
+    "game_id": "6292098",
+    "evidence_file": "data/incoming/grok/stage1_28f5677d90c3/audit_package/evidence/games/guhoyas.com_2024_schedule.html",
+    "sha256": "66dd46f4f9ca946c1578805cd8504693ce1e4aac731cc6c12febff1abdf39332",
+    "source_url": "https://guhoyas.com/sports/mens-lacrosse/schedule/2024",
+    "dataset_changed": false
+  },
+  "cold_starts_season_reset": {
+    "2023": {
+      "any_team_cold": 51,
+      "both_teams_cold": 24
+    },
+    "2024": {
+      "any_team_cold": 52,
+      "both_teams_cold": 24
+    },
+    "2025": {
+      "any_team_cold": 53,
+      "both_teams_cold": 24
+    }
+  },
+  "numeric_id_conflicts": 0,
+  "slug_conflicts": 0,
+  "name_conflicts": 0,
+  "primary_source_counts": {
+    "ncaa_scoreboard": 1706,
+    "espn_only_missing_from_ncaa_scoreboard": 1
+  },
+  "espn_event_id_present": 1040,
+  "permission_counts": {
+    "NOT_CLEARED_NO_CHANGE": 1707
+  },
+  "modeling_approved": false,
+  "models_fit": 0,
+  "predictions_generated": 0
+}

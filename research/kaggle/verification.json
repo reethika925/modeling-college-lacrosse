@@ -1,0 +1,25 @@
+{
+  "verified_at": "2026-11-09T21:41:14.878464-05:00",
+  "environment": "dsf-lacrosse",
+  "python_version": "3.11.18",
+  "dataset_archives_verified": 2,
+  "original_csv_files_verified": 6,
+  "official_metadata_responses_verified": 4,
+  "odds_rows": 225,
+  "professional_player_stat_rows": 1333,
+  "ncaa_2025_game_records_found": 0,
+  "verified_2025_ncaa_pregame_odds": 0,
+  "matched_ncaa_games": 0,
+  "preexisting_files_unchanged": 223,
+  "test_result": "45 passed in 0.41s",
+  "dependency_check": "No broken requirements found.",
+  "required_files_verified": [
+    "src/audit_kaggle.py",
+    "tests/test_audit_kaggle.py",
+    "reports/kaggle_two_datasets_audit.md",
+    "research/kaggle/audit_summary.json",
+    "research/kaggle/download_log.json",
+    "research/kaggle/initial_access_log.json",
+    "research/kaggle/existing_files_manifest.json"
+  ]
+}

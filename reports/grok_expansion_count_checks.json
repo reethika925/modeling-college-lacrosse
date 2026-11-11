@@ -1,0 +1,770 @@
+{
+  "new_package_preexisting_record_ids_verified": 96,
+  "previous_followup_record_ids_verified": 14,
+  "overlap_record_ids": [],
+  "cumulative_existing_ids_price_corroborated": 110,
+  "new_games_over_previous": 25,
+  "cumulative_distinct_games": 29,
+  "paired_market_capture_observations": 61,
+  "selection_observations_including_extra_DK": 122,
+  "game_book_capture_snapshots": 37,
+  "archive_pages": 13,
+  "authenticated_ml_game_book_pairs": 32,
+  "authenticated_ml_game_book_capture_observations": 37,
+  "multi_book_games": {
+    "6085415": [
+      "Caesars",
+      "DraftKings"
+    ],
+    "6448513": [
+      "BetMGM",
+      "DraftKings"
+    ],
+    "6448512": [
+      "BetMGM",
+      "DraftKings"
+    ]
+  },
+  "source_column_comparison": "All 1995 rows and 46 supplied columns equal existing record ledger",
+  "recomputed_market_groups_equal_saved": true,
+  "unmatched_dated_ml_event_groups": [
+    {
+      "season": "2023",
+      "candidate_event_key": "UNMATCHED:2023-03-04_north-carolina_vs_rutgers",
+      "sportsbook": "Caesars",
+      "market": "moneyline",
+      "snapshot_kind": "editorial_version_no_odds_timestamp",
+      "snapshot_identity": "2023-03-04T13:26:37Z|2024-05-14T17:49:44Z",
+      "source_url": "https://www.actionnetwork.com/lacrosse-lacrosse/ncaa-lacrosse-betting-odds-picks-best-bets-saturday-week-4",
+      "evidence_file": "an/a_80051fecc1.html",
+      "line_type": "unspecified pre-game",
+      "record_ids": "O0230|O0231",
+      "records": 2,
+      "complete_pair": true,
+      "claimed_pregame_complete_pair": false,
+      "matched_game_id": "",
+      "capture_timestamp_claim_present": false,
+      "authenticated_snapshot": false
+    },
+    {
+      "season": "2023",
+      "candidate_event_key": "UNMATCHED:2023-03-04_towson_vs_umbc",
+      "sportsbook": "DraftKings",
+      "market": "moneyline",
+      "snapshot_kind": "editorial_version_no_odds_timestamp",
+      "snapshot_identity": "2023-03-04T13:26:37Z|2024-05-14T17:49:44Z",
+      "source_url": "https://www.actionnetwork.com/lacrosse-lacrosse/ncaa-lacrosse-betting-odds-picks-best-bets-saturday-week-4",
+      "evidence_file": "an/a_80051fecc1.html",
+      "line_type": "unspecified pre-game",
+      "record_ids": "O0236|O0237",
+      "records": 2,
+      "complete_pair": true,
+      "claimed_pregame_complete_pair": false,
+      "matched_game_id": "",
+      "capture_timestamp_claim_present": false,
+      "authenticated_snapshot": false
+    },
+    {
+      "season": "2025",
+      "candidate_event_key": "UNMATCHED:2025-02-15_binghamton_vs_st.-bonaventure",
+      "sportsbook": "BetMGM",
+      "market": "moneyline",
+      "snapshot_kind": "claimed_archive_capture",
+      "snapshot_identity": "2025-02-16T18:09:23+00:00",
+      "source_url": "https://sports.betmgm.com/en/sports/lacrosse-88/betting/usa-9/ncaa-79213",
+      "evidence_file": "deliverables/raw_new/mgm/mgm_20250216180923.html",
+      "line_type": "unspecified pre-game",
+      "record_ids": "N0136|N0137",
+      "records": 2,
+      "complete_pair": true,
+      "claimed_pregame_complete_pair": false,
+      "matched_game_id": "",
+      "capture_timestamp_claim_present": true,
+      "authenticated_snapshot": false
+    },
+    {
+      "season": "2025",
+      "candidate_event_key": "UNMATCHED:2025-02-16_mercyhurst_vs_umass-lowell",
+      "sportsbook": "BetMGM",
+      "market": "moneyline",
+      "snapshot_kind": "claimed_archive_capture",
+      "snapshot_identity": "2025-02-16T18:09:23+00:00",
+      "source_url": "https://sports.betmgm.com/en/sports/lacrosse-88/betting/usa-9/ncaa-79213",
+      "evidence_file": "deliverables/raw_new/mgm/mgm_20250216180923.html",
+      "line_type": "unspecified pre-game",
+      "record_ids": "N0260|N0261",
+      "records": 2,
+      "complete_pair": true,
+      "claimed_pregame_complete_pair": false,
+      "matched_game_id": "",
+      "capture_timestamp_claim_present": true,
+      "authenticated_snapshot": false
+    }
+  ],
+  "undated_ids": [
+    "N0519",
+    "N0520"
+  ],
+  "season_coverage": [
+    {
+      "season": "2023",
+      "supplier_flagged_complete_ml_games": 40,
+      "strict_dated_raw_event_complete_ml": 39,
+      "matched_all_markets": 55,
+      "matched_complete_ml": 37,
+      "authenticated_display_games": 9,
+      "authenticated_ml_games": 9,
+      "direct_authenticated_ml_games": 3,
+      "editorial_only_authenticated_ml_games": 6,
+      "approved_games": 0
+    },
+    {
+      "season": "2024",
+      "supplier_flagged_complete_ml_games": 103,
+      "strict_dated_raw_event_complete_ml": 103,
+      "matched_all_markets": 111,
+      "matched_complete_ml": 103,
+      "authenticated_display_games": 14,
+      "authenticated_ml_games": 14,
+      "direct_authenticated_ml_games": 14,
+      "editorial_only_authenticated_ml_games": 0,
+      "approved_games": 0
+    },
+    {
+      "season": "2025",
+      "supplier_flagged_complete_ml_games": 92,
+      "strict_dated_raw_event_complete_ml": 92,
+      "matched_all_markets": 92,
+      "matched_complete_ml": 90,
+      "authenticated_display_games": 6,
+      "authenticated_ml_games": 6,
+      "direct_authenticated_ml_games": 5,
+      "editorial_only_authenticated_ml_games": 1,
+      "approved_games": 0
+    },
+    {
+      "season": "2026",
+      "supplier_flagged_complete_ml_games": 34,
+      "strict_dated_raw_event_complete_ml": 34,
+      "matched_all_markets": 0,
+      "matched_complete_ml": 0,
+      "authenticated_display_games": 0,
+      "authenticated_ml_games": 0,
+      "direct_authenticated_ml_games": 0,
+      "editorial_only_authenticated_ml_games": 0,
+      "approved_games": 0
+    }
+  ],
+  "authenticated_observation_inventory": [
+    {
+      "game": "6386180",
+      "season": "2025",
+      "book": "BetMGM",
+      "market": "moneyline",
+      "capture": "2025-01-21T02:55:39Z",
+      "url": "https://web.archive.org/web/20250121025539/https://sports.betmgm.com/en/sports/lacrosse-88",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6448511",
+      "season": "2025",
+      "book": "BetMGM",
+      "market": "spread",
+      "capture": "2025-05-13T15:28:31Z",
+      "url": "https://web.archive.org/web/20250513152831/https://sports.betmgm.com/en/sports/lacrosse-88/betting/usa-9/ncaa-79213",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6448511",
+      "season": "2025",
+      "book": "BetMGM",
+      "market": "spread",
+      "capture": "2025-05-16T02:41:55Z",
+      "url": "https://web.archive.org/web/20250516024155/https://sports.betmgm.com/en/sports/lacrosse-88",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6448511",
+      "season": "2025",
+      "book": "BetMGM",
+      "market": "total",
+      "capture": "2025-05-13T15:28:31Z",
+      "url": "https://web.archive.org/web/20250513152831/https://sports.betmgm.com/en/sports/lacrosse-88/betting/usa-9/ncaa-79213",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6448511",
+      "season": "2025",
+      "book": "BetMGM",
+      "market": "total",
+      "capture": "2025-05-16T02:41:55Z",
+      "url": "https://web.archive.org/web/20250516024155/https://sports.betmgm.com/en/sports/lacrosse-88",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6448514",
+      "season": "2025",
+      "book": "DraftKings",
+      "market": "spread",
+      "capture": "2025-05-13T20:04:21Z",
+      "url": "https://web.archive.org/web/20250513200421/https://sportsbook.draftkings.com/leagues/lacrosse/ncaa-lacrosse?category=game-lines&subcategory=game",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6448514",
+      "season": "2025",
+      "book": "DraftKings",
+      "market": "total",
+      "capture": "2025-05-13T20:04:21Z",
+      "url": "https://web.archive.org/web/20250513200421/https://sportsbook.draftkings.com/leagues/lacrosse/ncaa-lacrosse?category=game-lines&subcategory=game",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6448513",
+      "season": "2025",
+      "book": "BetMGM",
+      "market": "spread",
+      "capture": "2025-05-13T15:28:31Z",
+      "url": "https://web.archive.org/web/20250513152831/https://sports.betmgm.com/en/sports/lacrosse-88/betting/usa-9/ncaa-79213",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6448513",
+      "season": "2025",
+      "book": "DraftKings",
+      "market": "spread",
+      "capture": "2025-05-13T20:04:21Z",
+      "url": "https://web.archive.org/web/20250513200421/https://sportsbook.draftkings.com/leagues/lacrosse/ncaa-lacrosse?category=game-lines&subcategory=game",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6448513",
+      "season": "2025",
+      "book": "BetMGM",
+      "market": "spread",
+      "capture": "2025-05-16T02:41:55Z",
+      "url": "https://web.archive.org/web/20250516024155/https://sports.betmgm.com/en/sports/lacrosse-88",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6448513",
+      "season": "2025",
+      "book": "BetMGM",
+      "market": "total",
+      "capture": "2025-05-13T15:28:31Z",
+      "url": "https://web.archive.org/web/20250513152831/https://sports.betmgm.com/en/sports/lacrosse-88/betting/usa-9/ncaa-79213",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6448513",
+      "season": "2025",
+      "book": "DraftKings",
+      "market": "total",
+      "capture": "2025-05-13T20:04:21Z",
+      "url": "https://web.archive.org/web/20250513200421/https://sportsbook.draftkings.com/leagues/lacrosse/ncaa-lacrosse?category=game-lines&subcategory=game",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6448513",
+      "season": "2025",
+      "book": "BetMGM",
+      "market": "total",
+      "capture": "2025-05-16T02:41:55Z",
+      "url": "https://web.archive.org/web/20250516024155/https://sports.betmgm.com/en/sports/lacrosse-88",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6448512",
+      "season": "2025",
+      "book": "BetMGM",
+      "market": "spread",
+      "capture": "2025-05-13T15:28:31Z",
+      "url": "https://web.archive.org/web/20250513152831/https://sports.betmgm.com/en/sports/lacrosse-88/betting/usa-9/ncaa-79213",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6448512",
+      "season": "2025",
+      "book": "DraftKings",
+      "market": "spread",
+      "capture": "2025-05-13T20:04:21Z",
+      "url": "https://web.archive.org/web/20250513200421/https://sportsbook.draftkings.com/leagues/lacrosse/ncaa-lacrosse?category=game-lines&subcategory=game",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6448512",
+      "season": "2025",
+      "book": "BetMGM",
+      "market": "spread",
+      "capture": "2025-05-16T02:41:55Z",
+      "url": "https://web.archive.org/web/20250516024155/https://sports.betmgm.com/en/sports/lacrosse-88",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6448512",
+      "season": "2025",
+      "book": "BetMGM",
+      "market": "total",
+      "capture": "2025-05-13T15:28:31Z",
+      "url": "https://web.archive.org/web/20250513152831/https://sports.betmgm.com/en/sports/lacrosse-88/betting/usa-9/ncaa-79213",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6448512",
+      "season": "2025",
+      "book": "DraftKings",
+      "market": "total",
+      "capture": "2025-05-13T20:04:21Z",
+      "url": "https://web.archive.org/web/20250513200421/https://sportsbook.draftkings.com/leagues/lacrosse/ncaa-lacrosse?category=game-lines&subcategory=game",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6448512",
+      "season": "2025",
+      "book": "BetMGM",
+      "market": "total",
+      "capture": "2025-05-16T02:41:55Z",
+      "url": "https://web.archive.org/web/20250516024155/https://sports.betmgm.com/en/sports/lacrosse-88",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6269740",
+      "season": "2024",
+      "book": "BetMGM",
+      "market": "moneyline",
+      "capture": "2024-02-23T11:37:43Z",
+      "url": "https://web.archive.org/web/20240223113743/https://sports.betmgm.com/en/sports/lacrosse-88",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6269738",
+      "season": "2024",
+      "book": "BetMGM",
+      "market": "moneyline",
+      "capture": "2024-02-23T11:37:43Z",
+      "url": "https://web.archive.org/web/20240223113743/https://sports.betmgm.com/en/sports/lacrosse-88",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6269761",
+      "season": "2024",
+      "book": "BetMGM",
+      "market": "moneyline",
+      "capture": "2024-02-23T11:37:43Z",
+      "url": "https://web.archive.org/web/20240223113743/https://sports.betmgm.com/en/sports/lacrosse-88",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6269772",
+      "season": "2024",
+      "book": "BetMGM",
+      "market": "moneyline",
+      "capture": "2024-02-23T11:37:43Z",
+      "url": "https://web.archive.org/web/20240223113743/https://sports.betmgm.com/en/sports/lacrosse-88",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6269774",
+      "season": "2024",
+      "book": "BetMGM",
+      "market": "moneyline",
+      "capture": "2024-02-23T11:37:43Z",
+      "url": "https://web.archive.org/web/20240223113743/https://sports.betmgm.com/en/sports/lacrosse-88",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6269778",
+      "season": "2024",
+      "book": "BetMGM",
+      "market": "moneyline",
+      "capture": "2024-02-23T11:37:43Z",
+      "url": "https://web.archive.org/web/20240223113743/https://sports.betmgm.com/en/sports/lacrosse-88",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6269763",
+      "season": "2024",
+      "book": "BetMGM",
+      "market": "moneyline",
+      "capture": "2024-02-23T11:37:43Z",
+      "url": "https://web.archive.org/web/20240223113743/https://sports.betmgm.com/en/sports/lacrosse-88",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6269771",
+      "season": "2024",
+      "book": "BetMGM",
+      "market": "moneyline",
+      "capture": "2024-02-23T11:37:43Z",
+      "url": "https://web.archive.org/web/20240223113743/https://sports.betmgm.com/en/sports/lacrosse-88",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6269525",
+      "season": "2024",
+      "book": "BetMGM",
+      "market": "moneyline",
+      "capture": "2024-02-23T11:37:43Z",
+      "url": "https://web.archive.org/web/20240223113743/https://sports.betmgm.com/en/sports/lacrosse-88",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6269750",
+      "season": "2024",
+      "book": "BetMGM",
+      "market": "moneyline",
+      "capture": "2024-02-23T11:37:43Z",
+      "url": "https://web.archive.org/web/20240223113743/https://sports.betmgm.com/en/sports/lacrosse-88",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6269457",
+      "season": "2024",
+      "book": "BetMGM",
+      "market": "moneyline",
+      "capture": "2024-02-23T11:37:43Z",
+      "url": "https://web.archive.org/web/20240223113743/https://sports.betmgm.com/en/sports/lacrosse-88",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6269765",
+      "season": "2024",
+      "book": "BetMGM",
+      "market": "moneyline",
+      "capture": "2024-02-23T11:37:43Z",
+      "url": "https://web.archive.org/web/20240223113743/https://sports.betmgm.com/en/sports/lacrosse-88",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6292102",
+      "season": "2024",
+      "book": "BetMGM",
+      "market": "moneyline",
+      "capture": "2024-05-25T15:29:28Z",
+      "url": "https://web.archive.org/web/20240525152928/https://sports.betmgm.com/en/sports/lacrosse-88",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6292103",
+      "season": "2024",
+      "book": "BetMGM",
+      "market": "moneyline",
+      "capture": "2024-05-25T15:29:28Z",
+      "url": "https://web.archive.org/web/20240525152928/https://sports.betmgm.com/en/sports/lacrosse-88",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6085412",
+      "season": "2023",
+      "book": "DraftKings",
+      "market": "moneyline",
+      "capture": "2023-02-04T03:47:51Z",
+      "url": "https://web.archive.org/web/20230204034751/https://www.actionnetwork.com/lacrosse/ncaa-lacrosse-betting-odds-picks-best-bets-for-syracuse-vermont-denver-utah-jacksonville-johns-hopkins",
+      "type": "editorial_quote",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6085412",
+      "season": "2023",
+      "book": "DraftKings",
+      "market": "spread",
+      "capture": "2023-02-03T18:10:11Z",
+      "url": "https://web.archive.org/web/20230203181011/https://sportsbook.draftkings.com/leagues/lacrosse/ncaa-lacrosse",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6085412",
+      "season": "2023",
+      "book": "DraftKings",
+      "market": "total",
+      "capture": "2023-02-03T18:10:11Z",
+      "url": "https://web.archive.org/web/20230203181011/https://sportsbook.draftkings.com/leagues/lacrosse/ncaa-lacrosse",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6085420",
+      "season": "2023",
+      "book": "DraftKings",
+      "market": "moneyline",
+      "capture": "2023-02-04T03:47:51Z",
+      "url": "https://web.archive.org/web/20230204034751/https://www.actionnetwork.com/lacrosse/ncaa-lacrosse-betting-odds-picks-best-bets-for-syracuse-vermont-denver-utah-jacksonville-johns-hopkins",
+      "type": "editorial_quote",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6085420",
+      "season": "2023",
+      "book": "DraftKings",
+      "market": "spread",
+      "capture": "2023-02-03T18:10:11Z",
+      "url": "https://web.archive.org/web/20230203181011/https://sportsbook.draftkings.com/leagues/lacrosse/ncaa-lacrosse",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6085420",
+      "season": "2023",
+      "book": "DraftKings",
+      "market": "total",
+      "capture": "2023-02-03T18:10:11Z",
+      "url": "https://web.archive.org/web/20230203181011/https://sportsbook.draftkings.com/leagues/lacrosse/ncaa-lacrosse",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6085415",
+      "season": "2023",
+      "book": "Caesars",
+      "market": "moneyline",
+      "capture": "2023-02-04T03:47:51Z",
+      "url": "https://web.archive.org/web/20230204034751/https://www.actionnetwork.com/lacrosse/ncaa-lacrosse-betting-odds-picks-best-bets-for-syracuse-vermont-denver-utah-jacksonville-johns-hopkins",
+      "type": "editorial_quote",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6085415",
+      "season": "2023",
+      "book": "DraftKings",
+      "market": "spread",
+      "capture": "2023-02-03T18:10:11Z",
+      "url": "https://web.archive.org/web/20230203181011/https://sportsbook.draftkings.com/leagues/lacrosse/ncaa-lacrosse",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6085415",
+      "season": "2023",
+      "book": "DraftKings",
+      "market": "total",
+      "capture": "2023-02-03T18:10:11Z",
+      "url": "https://web.archive.org/web/20230203181011/https://sportsbook.draftkings.com/leagues/lacrosse/ncaa-lacrosse",
+      "type": "direct_sportsbook_display",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6085699",
+      "season": "2023",
+      "book": "Caesars",
+      "market": "moneyline",
+      "capture": "2023-03-25T14:18:23Z",
+      "url": "https://web.archive.org/web/20230325141823/https://www.actionnetwork.com/lacrosse/ncaa-lacrosse-odds-picks-best-bets-saturday-week-7-notre-dame-vs-virginia-marquette-vs-st-bonaventure-march-25",
+      "type": "editorial_quote",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6085771",
+      "season": "2023",
+      "book": "BetMGM",
+      "market": "moneyline",
+      "capture": "2023-04-07T19:35:56Z",
+      "url": "https://web.archive.org/web/20230407193556/https://www.actionnetwork.com/lacrosse/ncaa-lacrosse-odds-picks-best-bets-virginia-cavaliers-vs-north-carolina-tar-heels-friday-april-7",
+      "type": "editorial_quote",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6085853",
+      "season": "2023",
+      "book": "FanDuel",
+      "market": "moneyline",
+      "capture": "2023-04-15T04:41:10Z",
+      "url": "https://web.archive.org/web/20230415044110/https://www.actionnetwork.com/lacrosse/ncaa-lacrosse-betting-odds-picks-best-bets-for-week-10",
+      "type": "editorial_quote",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6085848",
+      "season": "2023",
+      "book": "DraftKings",
+      "market": "moneyline",
+      "capture": "2023-04-15T04:41:10Z",
+      "url": "https://web.archive.org/web/20230415044110/https://www.actionnetwork.com/lacrosse/ncaa-lacrosse-betting-odds-picks-best-bets-for-week-10",
+      "type": "editorial_quote",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6147942",
+      "season": "2023",
+      "book": "bet365",
+      "market": "moneyline",
+      "capture": "2023-05-14T03:38:13Z",
+      "url": "https://web.archive.org/web/20230514033813/https://www.actionnetwork.com/lacrosse/college-lacrosse-betting-odds-picks-best-bets-for-ncaa-tournament-opening-round-sunday",
+      "type": "editorial_quote",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6147944",
+      "season": "2023",
+      "book": "DraftKings",
+      "market": "moneyline",
+      "capture": "2023-05-14T03:38:13Z",
+      "url": "https://web.archive.org/web/20230514033813/https://www.actionnetwork.com/lacrosse/college-lacrosse-betting-odds-picks-best-bets-for-ncaa-tournament-opening-round-sunday",
+      "type": "editorial_quote",
+      "origin": "new_package_existing_record_ids"
+    },
+    {
+      "game": "6448511",
+      "season": "2025",
+      "book": "BetMGM",
+      "market": "moneyline",
+      "capture": "2025-05-13T15:28:31Z",
+      "url": "https://web.archive.org/web/20250513152831/https://sports.betmgm.com/en/sports/lacrosse-88/betting/usa-9/ncaa-79213",
+      "type": "direct_sportsbook_display",
+      "origin": "previous_followup"
+    },
+    {
+      "game": "6448511",
+      "season": "2025",
+      "book": "BetMGM",
+      "market": "moneyline",
+      "capture": "2025-05-16T02:41:55Z",
+      "url": "https://web.archive.org/web/20250516024155/https://sports.betmgm.com/en/sports/lacrosse-88",
+      "type": "direct_sportsbook_display",
+      "origin": "previous_followup"
+    },
+    {
+      "game": "6448513",
+      "season": "2025",
+      "book": "BetMGM",
+      "market": "moneyline",
+      "capture": "2025-05-13T15:28:31Z",
+      "url": "https://web.archive.org/web/20250513152831/https://sports.betmgm.com/en/sports/lacrosse-88/betting/usa-9/ncaa-79213",
+      "type": "direct_sportsbook_display",
+      "origin": "previous_followup"
+    },
+    {
+      "game": "6448513",
+      "season": "2025",
+      "book": "BetMGM",
+      "market": "moneyline",
+      "capture": "2025-05-16T02:41:55Z",
+      "url": "https://web.archive.org/web/20250516024155/https://sports.betmgm.com/en/sports/lacrosse-88",
+      "type": "direct_sportsbook_display",
+      "origin": "previous_followup"
+    },
+    {
+      "game": "6448512",
+      "season": "2025",
+      "book": "BetMGM",
+      "market": "moneyline",
+      "capture": "2025-05-13T15:28:31Z",
+      "url": "https://web.archive.org/web/20250513152831/https://sports.betmgm.com/en/sports/lacrosse-88/betting/usa-9/ncaa-79213",
+      "type": "direct_sportsbook_display",
+      "origin": "previous_followup"
+    },
+    {
+      "game": "6448512",
+      "season": "2025",
+      "book": "BetMGM",
+      "market": "moneyline",
+      "capture": "2025-05-16T02:41:55Z",
+      "url": "https://web.archive.org/web/20250516024155/https://sports.betmgm.com/en/sports/lacrosse-88",
+      "type": "direct_sportsbook_display",
+      "origin": "previous_followup"
+    },
+    {
+      "game": "6386505",
+      "season": "2025",
+      "book": "FanDuel",
+      "market": "moneyline",
+      "capture": "2025-03-01T18:19:13Z",
+      "url": "https://web.archive.org/web/20250301181913/https://betonlacrosse.com/college-lacrosse-betting-picks-and-predictions-ncaa-mens-lacrosse-week-4-saturday-bets/",
+      "type": "editorial_quote",
+      "origin": "previous_followup"
+    },
+    {
+      "game": "6085412",
+      "season": "2023",
+      "book": "DraftKings",
+      "market": "moneyline",
+      "capture": "2023-02-03T18:10:11Z",
+      "url": "https://web.archive.org/web/20230203181011/https://sportsbook.draftkings.com/leagues/lacrosse/ncaa-lacrosse",
+      "type": "direct_sportsbook_display",
+      "origin": "additional_observation_only_no_record_import"
+    },
+    {
+      "game": "6085420",
+      "season": "2023",
+      "book": "DraftKings",
+      "market": "moneyline",
+      "capture": "2023-02-03T18:10:11Z",
+      "url": "https://web.archive.org/web/20230203181011/https://sportsbook.draftkings.com/leagues/lacrosse/ncaa-lacrosse",
+      "type": "direct_sportsbook_display",
+      "origin": "additional_observation_only_no_record_import"
+    },
+    {
+      "game": "6085415",
+      "season": "2023",
+      "book": "DraftKings",
+      "market": "moneyline",
+      "capture": "2023-02-03T18:10:11Z",
+      "url": "https://web.archive.org/web/20230203181011/https://sportsbook.draftkings.com/leagues/lacrosse/ncaa-lacrosse",
+      "type": "direct_sportsbook_display",
+      "origin": "additional_observation_only_no_record_import"
+    },
+    {
+      "game": "6448514",
+      "season": "2025",
+      "book": "DraftKings",
+      "market": "moneyline",
+      "capture": "2025-05-13T20:04:21Z",
+      "url": "https://web.archive.org/web/20250513200421/https://sportsbook.draftkings.com/leagues/lacrosse/ncaa-lacrosse?category=game-lines&subcategory=game",
+      "type": "direct_sportsbook_display",
+      "origin": "additional_observation_only_no_record_import"
+    },
+    {
+      "game": "6448513",
+      "season": "2025",
+      "book": "DraftKings",
+      "market": "moneyline",
+      "capture": "2025-05-13T20:04:21Z",
+      "url": "https://web.archive.org/web/20250513200421/https://sportsbook.draftkings.com/leagues/lacrosse/ncaa-lacrosse?category=game-lines&subcategory=game",
+      "type": "direct_sportsbook_display",
+      "origin": "additional_observation_only_no_record_import"
+    },
+    {
+      "game": "6448512",
+      "season": "2025",
+      "book": "DraftKings",
+      "market": "moneyline",
+      "capture": "2025-05-13T20:04:21Z",
+      "url": "https://web.archive.org/web/20250513200421/https://sportsbook.draftkings.com/leagues/lacrosse/ncaa-lacrosse?category=game-lines&subcategory=game",
+      "type": "direct_sportsbook_display",
+      "origin": "additional_observation_only_no_record_import"
+    }
+  ]
+}

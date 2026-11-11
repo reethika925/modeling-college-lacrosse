@@ -1,0 +1,37 @@
+{
+  "research_timestamp": "2026-11-09T21:14:02-05:00",
+  "input_sha256": "79b43ec0168d5466d29a0e3be2c7a9bb46096038aefc25a54f70b2e0b24393a3",
+  "sample_sha256": "eacd299f6042da56cb93f651f32da872b2d9e5d4d36449eaad2d66a229e74fd9",
+  "sample_seed": 519,
+  "sampled_games": 20,
+  "sample_games_by_month": {
+    "2025-02": 5,
+    "2025-03": 5,
+    "2025-04": 5,
+    "2025-05": 5
+  },
+  "source_candidates_investigated": 12,
+  "accepted_odds_records": 0,
+  "unique_games_matched": 0,
+  "sources_successfully_read_for_research": 12,
+  "historical_archives_queried": 0,
+  "sportsbooks_collected": 0,
+  "moneyline_games": 0,
+  "spread_games": 0,
+  "totals_games": 0,
+  "multiple_book_games": 0,
+  "multiple_pregame_timestamp_games": 0,
+  "verified_sample_coverage_pct": 0.0,
+  "excluded_candidate_event_references": 3,
+  "coverage_percentages": {
+    "historical_odds": 0.0,
+    "moneyline": 0.0,
+    "spreads": 0.0,
+    "totals": 0.0,
+    "two_sportsbooks": 0.0,
+    "multiple_pregame_timestamps": 0.0
+  },
+  "uncertain_candidate_event_references": 3,
+  "odds_csv_created": false,
+  "feasibility": "NOT CONFIRMED"
+}

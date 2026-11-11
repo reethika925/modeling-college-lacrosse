@@ -1,0 +1,130 @@
+{
+  "scope": "Targeted official-page review plus independently parsed existing saved schedules; no bulk collection or included-script execution",
+  "urls": {
+    "binghamton": "https://binghamtonbearcats.com/sports/mens-lacrosse/schedule/2025",
+    "umbc2025": "https://umbcretrievers.com/sports/mens-lacrosse/schedule/2025",
+    "hampton": "https://hamptonpirates.com/sports/mens-lacrosse/schedule/2025",
+    "fairfield": "https://fairfieldstags.com/sports/mens-lacrosse/schedule/2025",
+    "liu_recap": "https://gobobcats.com/news/2024/4/20/mens-lacrosse-qu-drops-matchup-at-liu-in-ot",
+    "liu_box": "https://gobobcats.com/sports/mens-lacrosse/stats/2024/liu/boxscore/21128",
+    "qu2025": "https://gobobcats.com/sports/mens-lacrosse/schedule/2025",
+    "stony": "https://stonybrookathletics.com/sports/mens-lacrosse/schedule/2025",
+    "lemoyne": "https://lemoynedolphins.com/sports/mens-lacrosse/schedule/2025",
+    "detroit": "https://detroittitans.com/sports/mens-lacrosse/schedule/2023",
+    "marquette": "https://gomarquette.com/sports/mens-lacrosse/schedule/2023",
+    "umbc2023": "https://umbcretrievers.com/sports/mens-lacrosse/schedule/2023",
+    "mount2023": "https://mountathletics.com/sports/mens-lacrosse/schedule/2023",
+    "hartford": "https://www.hartford.edu/news/press-releases/2022/06/athletics-conference.aspx",
+    "manual": "https://fs.ncaa.org/Docs/stats/Stats_Manuals/Lacrosse/mlax23.pdf"
+  },
+  "findings": [
+    {
+      "case": "Binghamton-UMBC",
+      "game_id": "6449835",
+      "supported_date": "2025-04-12",
+      "score": "UMBC 17-7 Binghamton",
+      "evidence": [
+        "binghamton",
+        "umbc2025"
+      ],
+      "status": "SUPPORTED; same finding as prior local independent audit"
+    },
+    {
+      "case": "Hampton-Fairfield",
+      "game_id": "6444405",
+      "canonical_game_id": "6386334",
+      "supported_date": "2025-03-15",
+      "finding": "One official 29-4 Fairfield win; exclude extra March 13 result",
+      "evidence": [
+        "hampton",
+        "fairfield"
+      ],
+      "status": "SUPPORTED"
+    },
+    {
+      "case": "LIU-Quinnipiac",
+      "game_id": "6455124",
+      "canonical_game_id": "6270089",
+      "supported_date": "2024-04-20",
+      "finding": "Official 2024 recap and box identify same OT score and team/player statistics. The 48 wrong-year rows match 48 existing 2024 identities/count vectors; both team vectors also duplicate. Exclude wrong-year copies, not a proven exhibition.",
+      "evidence": [
+        "liu_recap",
+        "liu_box",
+        "qu2025"
+      ],
+      "status": "SUPPORTED_NEW_FINDING; original exhibition explanation not substantiated"
+    },
+    {
+      "case": "Queens-Stony Brook",
+      "game_id": "6454179",
+      "supported_date": "2025-02-16",
+      "score": "Queens 6-12 Stony Brook",
+      "evidence": [
+        "stony"
+      ],
+      "status": "SUPPORTED"
+    },
+    {
+      "case": "Le Moyne-Lafayette",
+      "game_id": "6386400",
+      "supported_date": "2025-02-22",
+      "score": "Le Moyne 4-15 Lafayette",
+      "evidence": [
+        "lemoyne"
+      ],
+      "status": "SUPPORTED; local 580-game CSV already uses February 22"
+    },
+    {
+      "case": "Detroit Mercy-Marquette",
+      "game_id": "6138525",
+      "supported_date": "2023-03-02",
+      "score": "Detroit Mercy 5-10 Marquette",
+      "evidence": [
+        "detroit",
+        "marquette"
+      ],
+      "status": "SUPPORTED"
+    },
+    {
+      "case": "UMBC-Mount St. Mary's",
+      "game_id": "6136266",
+      "supported_date": "2023-02-24",
+      "score": "UMBC 16-6 Mount St. Marys",
+      "evidence": [
+        "umbc2023",
+        "mount2023"
+      ],
+      "status": "SUPPORTED; no original box statistics available"
+    },
+    {
+      "case": "Hartford historical division",
+      "finding": "University announcement explicitly describes Division I independent competition during 2022-23 and CCC competition starting 2023-24. Hartford itself must not be called DIII for spring 2023. Its six imported games still face lower-division opponents, so the strict D1-v-D1 exclusion count stays eight.",
+      "evidence": [
+        "hartford"
+      ],
+      "status": "SUPPORTED_HISTORICAL_CLASSIFICATION_CORRECTION"
+    },
+    {
+      "case": "Goalie time definition",
+      "finding": "Official 2024 box shows Sean Gillman and Mason Oak at 64:05. Retained 2024 rows have 64.0; wrong-year copies have 3845.0. Mixed units and lost sub-minute precision are independently demonstrated for this case. Do not divide every duration by 60.",
+      "evidence": [
+        "liu_box"
+      ],
+      "status": "SUPPORTED_TWO_RETAINED_ROWS; global conversion provenance unavailable"
+    },
+    {
+      "case": "EMO definition",
+      "finding": "NCAA statistics rules Section 9 Article 5 disallow more EMO goals than opportunities, including nonreleasable penalties. Eleven imported team rows violate this constraint.",
+      "evidence": [
+        "manual"
+      ],
+      "status": "OFFICIAL_INDEXED_EXCERPT_REVIEWED; direct PDF open timed out; no restriction bypass"
+    }
+  ],
+  "access_limits": [
+    "LIU 2025 schedule was inaccessible through the browsing tool; existing saved HTML was used, without bypass.",
+    "Direct NCAA manual PDF request timed out; official indexed excerpt provided the cited definition.",
+    "Other fetched official pages were used for targeted review only; no new sports corpus or seasons were downloaded."
+  ],
+  "permission_status": "NOT_CLEARED_NO_CHANGE; factual checks do not determine authorization"
+}

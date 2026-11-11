@@ -1,0 +1,1307 @@
+{
+  "coverage": [
+    {
+      "season": 2023,
+      "source_rows": 567,
+      "candidate_games": 559,
+      "excluded_games": 8,
+      "school_corroborated": 134,
+      "first_date": "2023-02-04",
+      "last_date": "2023-05-29",
+      "distinct_dates": 72,
+      "unique_teams": 75
+    },
+    {
+      "season": 2024,
+      "source_rows": 570,
+      "candidate_games": 570,
+      "excluded_games": 0,
+      "school_corroborated": 115,
+      "first_date": "2024-02-03",
+      "last_date": "2024-05-27",
+      "distinct_dates": 75,
+      "unique_teams": 76
+    },
+    {
+      "season": 2025,
+      "source_rows": 580,
+      "candidate_games": 578,
+      "excluded_games": 2,
+      "school_corroborated": 129,
+      "first_date": "2025-02-01",
+      "last_date": "2025-05-26",
+      "distinct_dates": 70,
+      "unique_teams": 77
+    }
+  ],
+  "total_candidates": 1707,
+  "total_excluded": 10,
+  "all_source_records_accounted_for": 1717,
+  "missing_dates": 0,
+  "duplicate_game_ids": 0,
+  "duplicate_same_day_matchups": 0,
+  "same_day_repeated_team_appearances": 0,
+  "invalid_or_missing_final_scores": 0,
+  "team_id_collisions": {},
+  "team_keys_with_multiple_numeric_ids": {},
+  "legitimate_repeated_pairings": [
+    {
+      "season": 2023,
+      "team1": "northcarolina",
+      "team2": "syracuse",
+      "game_ids": [
+        "6085519",
+        "6085843"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "richmond",
+      "team2": "virginia",
+      "game_ids": [
+        "6085555",
+        "6147946"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "duke",
+      "team2": "syracuse",
+      "game_ids": [
+        "6085587",
+        "6085914"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "sacredheart",
+      "team2": "siena",
+      "game_ids": [
+        "6085614",
+        "6149822"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "bellarmine",
+      "team2": "utah",
+      "game_ids": [
+        "6085650",
+        "6150972"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "armywestpoint",
+      "team2": "lehigh",
+      "game_ids": [
+        "6085655",
+        "6150989"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "cornell",
+      "team2": "yale",
+      "game_ids": [
+        "6085656",
+        "6150969"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "penn",
+      "team2": "princeton",
+      "game_ids": [
+        "6085657",
+        "6150968"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "jacksonville",
+      "team2": "robertmorris",
+      "game_ids": [
+        "6085669",
+        "6150973"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "princeton",
+      "team2": "yale",
+      "game_ids": [
+        "6085695",
+        "6150967"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "notredame",
+      "team2": "virginia",
+      "game_ids": [
+        "6085699",
+        "6085926",
+        "6147955"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "marist",
+      "team2": "quinnipiac",
+      "game_ids": [
+        "6085700",
+        "6149823"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "ualbany",
+      "team2": "vermont",
+      "game_ids": [
+        "6085709",
+        "6150757"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "armywestpoint",
+      "team2": "loyolamaryland",
+      "game_ids": [
+        "6085710",
+        "6150984"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "bellarmine",
+      "team2": "mercer",
+      "game_ids": [
+        "6085725",
+        "6150974"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "airforce",
+      "team2": "utah",
+      "game_ids": [
+        "6085727",
+        "6150970"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "duke",
+      "team2": "virginia",
+      "game_ids": [
+        "6085731",
+        "6085834"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "denver",
+      "team2": "georgetown",
+      "game_ids": [
+        "6085736",
+        "6150986"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "maryland",
+      "team2": "michigan",
+      "game_ids": [
+        "6085750",
+        "6150750"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "lafayette",
+      "team2": "lehigh",
+      "game_ids": [
+        "6085752",
+        "6150991"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "loyolamaryland",
+      "team2": "navy",
+      "game_ids": [
+        "6085772",
+        "6150985"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "denver",
+      "team2": "villanova",
+      "game_ids": [
+        "6085775",
+        "6150987"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "georgetown",
+      "team2": "providence",
+      "game_ids": [
+        "6085776",
+        "6150988"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "drexel",
+      "team2": "stonybrook",
+      "game_ids": [
+        "6085780",
+        "6150904"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "marist",
+      "team2": "mountstmarys",
+      "game_ids": [
+        "6085787",
+        "6149819"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "duke",
+      "team2": "notredame",
+      "game_ids": [
+        "6085791",
+        "6147956"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "richmond",
+      "team2": "umass",
+      "game_ids": [
+        "6085794",
+        "6150976"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "bryant",
+      "team2": "ualbany",
+      "game_ids": [
+        "6085805",
+        "6150755"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "marist",
+      "team2": "siena",
+      "game_ids": [
+        "6085812",
+        "6149821"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "manhattan",
+      "team2": "siena",
+      "game_ids": [
+        "6085829",
+        "6149820"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "delaware",
+      "team2": "stonybrook",
+      "game_ids": [
+        "6085837",
+        "6150903"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "highpoint",
+      "team2": "richmond",
+      "game_ids": [
+        "6085842",
+        "6150975"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "bostonu",
+      "team2": "loyolamaryland",
+      "game_ids": [
+        "6085847",
+        "6150990"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "michigan",
+      "team2": "pennst",
+      "game_ids": [
+        "6085822",
+        "6150752"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "maryland",
+      "team2": "rutgers",
+      "game_ids": [
+        "6085855",
+        "6150753"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "michigan",
+      "team2": "ohiost",
+      "game_ids": [
+        "6085863",
+        "6150754"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "johnshopkins",
+      "team2": "maryland",
+      "game_ids": [
+        "6085876",
+        "6150751"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "northcarolina",
+      "team2": "notredame",
+      "game_ids": [
+        "6085880",
+        "6085927"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "binghamton",
+      "team2": "bryant",
+      "game_ids": [
+        "6085891",
+        "6150756"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "delaware",
+      "team2": "towson",
+      "game_ids": [
+        "6085907",
+        "6150905"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "airforce",
+      "team2": "robertmorris",
+      "game_ids": [
+        "6085919",
+        "6150971"
+      ]
+    },
+    {
+      "season": 2023,
+      "team1": "highpoint",
+      "team2": "stjosephs",
+      "game_ids": [
+        "6150737",
+        "6150977"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "maryland",
+      "team2": "princeton",
+      "game_ids": [
+        "6269563",
+        "6292095"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "georgetown",
+      "team2": "notredame",
+      "game_ids": [
+        "6269786",
+        "6292098"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "johnshopkins",
+      "team2": "virginia",
+      "game_ids": [
+        "6269526",
+        "6292101"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "maryland",
+      "team2": "notredame",
+      "game_ids": [
+        "6269565",
+        "6292104"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "lehigh",
+      "team2": "navy",
+      "game_ids": [
+        "6269864",
+        "6299066"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "sacredheart",
+      "team2": "siena",
+      "game_ids": [
+        "6269870",
+        "6297611"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "maryland",
+      "team2": "virginia",
+      "game_ids": [
+        "6269568",
+        "6292103"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "jacksonville",
+      "team2": "robertmorris",
+      "game_ids": [
+        "6269893",
+        "6299052"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "manhattan",
+      "team2": "sacredheart",
+      "game_ids": [
+        "6269900",
+        "6297609"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "drexel",
+      "team2": "towson",
+      "game_ids": [
+        "6269903",
+        "6299044"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "duke",
+      "team2": "syracuse",
+      "game_ids": [
+        "6269922",
+        "6299047"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "armywestpoint",
+      "team2": "bostonu",
+      "game_ids": [
+        "6269926",
+        "6299065"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "ualbany",
+      "team2": "vermont",
+      "game_ids": [
+        "6269950",
+        "6299053"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "manhattan",
+      "team2": "quinnipiac",
+      "game_ids": [
+        "6269965",
+        "6297612"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "johnshopkins",
+      "team2": "michigan",
+      "game_ids": [
+        "6269530",
+        "6297607"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "denver",
+      "team2": "villanova",
+      "game_ids": [
+        "6269976",
+        "6299060"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "cornell",
+      "team2": "penn",
+      "game_ids": [
+        "6269983",
+        "6299064"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "georgetown",
+      "team2": "providence",
+      "game_ids": [
+        "6269993",
+        "6299061"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "maryland",
+      "team2": "pennst",
+      "game_ids": [
+        "6269466",
+        "6297606"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "delaware",
+      "team2": "fairfield",
+      "game_ids": [
+        "6270031",
+        "6298662"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "stjosephs",
+      "team2": "umass",
+      "game_ids": [
+        "6270034",
+        "6299057"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "duke",
+      "team2": "notredame",
+      "game_ids": [
+        "6270037",
+        "6299045"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "liu",
+      "team2": "manhattan",
+      "game_ids": [
+        "6270039",
+        "6297610"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "marist",
+      "team2": "siena",
+      "game_ids": [
+        "6270047",
+        "6297613"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "michigan",
+      "team2": "pennst",
+      "game_ids": [
+        "6269470",
+        "6297605"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "highpoint",
+      "team2": "richmond",
+      "game_ids": [
+        "6270066",
+        "6299058"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "bellarmine",
+      "team2": "clevelandst",
+      "game_ids": [
+        "6270074",
+        "6299051"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "pennst",
+      "team2": "rutgers",
+      "game_ids": [
+        "6269472",
+        "6297573"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "loyolamaryland",
+      "team2": "navy",
+      "game_ids": [
+        "6270085",
+        "6299067"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "michigan",
+      "team2": "ohiost",
+      "game_ids": [
+        "6269513",
+        "6297608"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "clevelandst",
+      "team2": "utah",
+      "game_ids": [
+        "6270096",
+        "6299049"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "penn",
+      "team2": "princeton",
+      "game_ids": [
+        "6270099",
+        "espn_401658258"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "bostonu",
+      "team2": "lehigh",
+      "game_ids": [
+        "6270102",
+        "6300389"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "airforce",
+      "team2": "jacksonville",
+      "game_ids": [
+        "6270105",
+        "6299050"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "merrimack",
+      "team2": "ualbany",
+      "game_ids": [
+        "6270119",
+        "6299055"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "bostonu",
+      "team2": "colgate",
+      "game_ids": [
+        "6270124",
+        "6299068"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "georgetown",
+      "team2": "villanova",
+      "game_ids": [
+        "6270126",
+        "6299059"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "delaware",
+      "team2": "towson",
+      "game_ids": [
+        "6270127",
+        "6299043"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "notredame",
+      "team2": "virginia",
+      "game_ids": [
+        "6270131",
+        "6299046"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "umbc",
+      "team2": "vermont",
+      "game_ids": [
+        "6270142",
+        "6299054"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "princeton",
+      "team2": "yale",
+      "game_ids": [
+        "6270143",
+        "6299063"
+      ]
+    },
+    {
+      "season": 2024,
+      "team1": "richmond",
+      "team2": "stjosephs",
+      "game_ids": [
+        "6270149",
+        "6299056"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "colgate",
+      "team2": "pennst",
+      "game_ids": [
+        "6386042",
+        "6448505"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "maryland",
+      "team2": "syracuse",
+      "game_ids": [
+        "6386509",
+        "6448516"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "harvard",
+      "team2": "syracuse",
+      "game_ids": [
+        "6386062",
+        "6448509"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "cornell",
+      "team2": "richmond",
+      "game_ids": [
+        "6386410",
+        "6448511"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "cornell",
+      "team2": "pennst",
+      "game_ids": [
+        "6386047",
+        "6448515"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "notredame",
+      "team2": "ohiost",
+      "game_ids": [
+        "6386531",
+        "6448506"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "cornell",
+      "team2": "princeton",
+      "game_ids": [
+        "6386057",
+        "6452098"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "bryant",
+      "team2": "ualbany",
+      "game_ids": [
+        "6386202",
+        "6452086"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "detroitmercy",
+      "team2": "robertmorris",
+      "game_ids": [
+        "6386388",
+        "6452183"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "sacredheart",
+      "team2": "siena",
+      "game_ids": [
+        "6386519",
+        "6451035"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "harvard",
+      "team2": "princeton",
+      "game_ids": [
+        "6386059",
+        "6452099"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "canisius",
+      "team2": "quinnipiac",
+      "game_ids": [
+        "6386111",
+        "6451038"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "drexel",
+      "team2": "fairfield",
+      "game_ids": [
+        "6386398",
+        "6452096"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "cornell",
+      "team2": "yale",
+      "game_ids": [
+        "6386436",
+        "6452100"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "ualbany",
+      "team2": "umbc",
+      "game_ids": [
+        "6386494",
+        "6452087"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "ohiost",
+      "team2": "rutgers",
+      "game_ids": [
+        "6386137",
+        "6450611"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "drexel",
+      "team2": "towson",
+      "game_ids": [
+        "6386200",
+        "6452095"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "bellarmine",
+      "team2": "utah",
+      "game_ids": [
+        "6386259",
+        "6452085"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "airforce",
+      "team2": "jacksonville",
+      "game_ids": [
+        "6386306",
+        "6452084"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "detroitmercy",
+      "team2": "lemoyne",
+      "game_ids": [
+        "6386389",
+        "6452184"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "maryland",
+      "team2": "pennst",
+      "game_ids": [
+        "6386503",
+        "6450610"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "cornell",
+      "team2": "ualbany",
+      "game_ids": [
+        "6386496",
+        "6448503"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "lafayette",
+      "team2": "navy",
+      "game_ids": [
+        "6386191",
+        "6452189"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "georgetown",
+      "team2": "marquette",
+      "game_ids": [
+        "6386227",
+        "6452094"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "liu",
+      "team2": "robertmorris",
+      "game_ids": [
+        "6386355",
+        "6452185"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "providence",
+      "team2": "villanova",
+      "game_ids": [
+        "6386365",
+        "6452093"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "notredame",
+      "team2": "syracuse",
+      "game_ids": [
+        "6386507",
+        "6452082"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "quinnipiac",
+      "team2": "sacredheart",
+      "game_ids": [
+        "6386521",
+        "6451037"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "armywestpoint",
+      "team2": "colgate",
+      "game_ids": [
+        "6386538",
+        "6452188"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "johnshopkins",
+      "team2": "pennst",
+      "game_ids": [
+        "6386053",
+        "6450613"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "duke",
+      "team2": "northcarolina",
+      "game_ids": [
+        "6386165",
+        "6452081"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "highpoint",
+      "team2": "richmond",
+      "game_ids": [
+        "6386333",
+        "6452089"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "bostonu",
+      "team2": "lafayette",
+      "game_ids": [
+        "6386404",
+        "6452187"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "manhattan",
+      "team2": "marist",
+      "game_ids": [
+        "6386491",
+        "6451039"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "maryland",
+      "team2": "ohiost",
+      "game_ids": [
+        "6386529",
+        "6450609"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "colgate",
+      "team2": "lehigh",
+      "game_ids": [
+        "6386540",
+        "6452190"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "michigan",
+      "team2": "rutgers",
+      "game_ids": [
+        "6386140",
+        "6450612"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "binghamton",
+      "team2": "bryant",
+      "game_ids": [
+        "6386215",
+        "6452088"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "duke",
+      "team2": "syracuse",
+      "game_ids": [
+        "6386311",
+        "6452080"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "highpoint",
+      "team2": "stjosephs",
+      "game_ids": [
+        "6386335",
+        "6452090"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "richmond",
+      "team2": "umass",
+      "game_ids": [
+        "6386348",
+        "6452091"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "marist",
+      "team2": "siena",
+      "game_ids": [
+        "6386524",
+        "6451036"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "georgetown",
+      "team2": "villanova",
+      "game_ids": [
+        "6386232",
+        "6452092"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "bostonu",
+      "team2": "colgate",
+      "game_ids": [
+        "6386536",
+        "6452186"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "hofstra",
+      "team2": "towson",
+      "game_ids": [
+        "6386041",
+        "6452097"
+      ]
+    },
+    {
+      "season": 2025,
+      "team1": "airforce",
+      "team2": "utah",
+      "game_ids": [
+        "6386312",
+        "6452083"
+      ]
+    }
+  ],
+  "missing_numeric_team_id_games": [
+    "6136266",
+    "espn_401658258"
+  ],
+  "orientation_review_games": [
+    "6292098"
+  ],
+  "source_tba_counts": {
+    "2023": 530,
+    "2024": 553,
+    "2025": 0
+  },
+  "full_row_duplicates": 0,
+  "approved_for_modeling": 0,
+  "original_member_checks": [
+    {
+      "path": "data/incoming/grok/ncaa_lacrosse_cse519_supplement_2026-11-10.zip::supplement_2026-11-10/priority1_originals/recovered_originals/ncaa_lacrosse_games_2023.csv",
+      "sha256": "62afa103a3e78f9b17b08ee139771f92a76941ac85c11c1394986d4f5d9f72d1",
+      "bytes": 235152,
+      "rows": 567,
+      "supplied_manifest_match": true,
+      "authenticity": "RECOVERED_INTERMEDIATE_NOT_PRIMARY_PAYLOAD"
+    },
+    {
+      "path": "data/incoming/grok/ncaa_lacrosse_cse519_supplement_2026-11-10.zip::supplement_2026-11-10/priority1_originals/recovered_originals/ncaa_lacrosse_games_2024.csv",
+      "sha256": "c6a76875cec83759c27744e259715fd805b2a0d85bc3f308083cc012ebe90de4",
+      "bytes": 235896,
+      "rows": 570,
+      "supplied_manifest_match": true,
+      "authenticity": "RECOVERED_INTERMEDIATE_NOT_PRIMARY_PAYLOAD"
+    },
+    {
+      "path": "data/incoming/grok/ncaa_lacrosse_cse519_supplement_2026-11-10.zip::supplement_2026-11-10/priority1_originals/recovered_originals/ncaa_lacrosse_game_index_2025.csv",
+      "sha256": "71caef90fd00ffba0c15f995d09e94d215c8826ca066e8d7a0e9bf1a58c77660",
+      "bytes": 122014,
+      "rows": 580,
+      "supplied_manifest_match": true,
+      "authenticity": "RECOVERED_INTERMEDIATE_NOT_PRIMARY_PAYLOAD"
+    }
+  ],
+  "supplier_difference_dispositions": {
+    "EQUIVALENT_IDENTIFIER_SERIALIZATION": 5965,
+    "SUPPORTED_RESULT_CHANGE": 7,
+    "PRESERVE_ORIGINAL_METADATA_NOT_ADOPTED": 15
+  },
+  "corrected_result_fields": 7,
+  "corrected_game_ids": [
+    "6136266",
+    "6138525",
+    "6386400",
+    "6449835",
+    "6454179"
+  ],
+  "outputs": {
+    "data/review/lacrosse_games_2023_2025_corrected.csv": {
+      "rows": 1707,
+      "sha256": "980f190af9d05b5fb94ee1f0909dbb58ec6d0d33956db767c22c42f0c4aa0f30"
+    },
+    "reports/stage4_game_exclusions.csv": {
+      "rows": 10,
+      "sha256": "7ea5db0069d3eef46fd5b073827d032ff0b4133260a760c4a3e53536570de15c"
+    },
+    "reports/stage4_game_field_changes.csv": {
+      "rows": 7,
+      "sha256": "d35dc923ad241c2f03ae753b36f8c70461cee162b8aa9f3f7cbc82def358b951"
+    },
+    "reports/stage4_team_aliases.csv": {
+      "rows": 88,
+      "sha256": "0a1c2cb3b472cfc4b711459093716621454e35222237c57f7deebdb076bcb9eb"
+    },
+    "reports/stage4_supplier_field_differences.csv": {
+      "rows": 5987,
+      "sha256": "8e00a2552833cf41fe7203343e910f02bcfb633e950b47545e55512f8c4e1b1f"
+    },
+    "data/review/lacrosse_games_2023_corrected.csv": {
+      "rows": 559,
+      "sha256": "5029e5e44197382e40586c19e20d2b7880d3741ee8457bd06178bdbd2be2654f"
+    },
+    "data/review/lacrosse_games_2024_corrected.csv": {
+      "rows": 570,
+      "sha256": "ba5338d5c1c02c4194c4d5a3a5a11aeb82b9ab2b6edbc7423f26a566b1e0516d"
+    },
+    "data/review/lacrosse_games_2025_corrected.csv": {
+      "rows": 578,
+      "sha256": "66b65bd58e0a03a96ade77e9b931f81996c53eb8967928747b214d130c72f44a"
+    }
+  }
+}

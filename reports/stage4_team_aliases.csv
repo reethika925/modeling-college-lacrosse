@@ -1,0 +1,89 @@
+source_team,team_key,standardized_team,basis
+Air Force,airforce,Air Force,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Army West Point,armywestpoint,Army West Point,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Bellarmine,bellarmine,Bellarmine,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Binghamton,binghamton,Binghamton,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Boston U.,bostonu,Boston University,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Brown,brown,Brown,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Bryant,bryant,Bryant,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Bucknell,bucknell,Bucknell,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Canisius,canisius,Canisius,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Cleveland St.,clevelandst,Cleveland State,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Colgate,colgate,Colgate,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Cornell,cornell,Cornell,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Dartmouth,dartmouth,Dartmouth,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Delaware,delaware,Delaware,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Denver,denver,Denver,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Detroit Mercy,detroitmercy,Detroit Mercy,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Drexel,drexel,Drexel,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Duke,duke,Duke,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Fairfield,fairfield,Fairfield,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Georgetown,georgetown,Georgetown,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Gordon,gordon,Gordon,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Hampton,hampton,Hampton,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Hartford,hartford,Hartford,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Harvard,harvard,Harvard,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+High Point,highpoint,High Point,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Hobart,hobart,Hobart,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Hofstra,hofstra,Hofstra,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Holy Cross,holycross,Holy Cross,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Iona,iona,Iona,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Jacksonville,jacksonville,Jacksonville,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Johns Hopkins,johnshopkins,Johns Hopkins,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Lafayette,lafayette,Lafayette,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Lehigh,lehigh,Lehigh,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Le Moyne,lemoyne,Le Moyne,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Lindenwood,lindenwood,Lindenwood,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+LIU,liu,LIU,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Loyola Maryland,loyolamaryland,Loyola Maryland,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Manhattan,manhattan,Manhattan,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Marist,marist,Marist,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Marquette,marquette,Marquette,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Maryland,maryland,Maryland,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Mercer,mercer,Mercer,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Mercyhurst,mercyhurst,Mercyhurst,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Merrimack,merrimack,Merrimack,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Michigan,michigan,Michigan,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Mitchell,mitchell,Mitchell,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Monmouth,monmouth,Monmouth,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Mount St. Mary's,mountstmarys,Mount St. Mary's,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Navy,navy,Navy,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+NJIT,njit,NJIT,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+North Carolina,northcarolina,North Carolina,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Notre Dame,notredame,Notre Dame,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Ohio St.,ohiost,Ohio State,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Penn,penn,Penn,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Pennsylvania,penn,Penn,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Penn St.,pennst,Penn State,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Princeton,princeton,Princeton,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Providence,providence,Providence,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Queens (NC),queensnc,Queens (NC),EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Quinnipiac,quinnipiac,Quinnipiac,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Randolph,randolph,Randolph,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Regis (MA),regisma,Regis (MA),EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Richmond,richmond,Richmond,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Robert Morris,robertmorris,Robert Morris,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Rutgers,rutgers,Rutgers,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Sacred Heart,sacredheart,Sacred Heart,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Salem St.,salemst,Salem St.,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Siena,siena,Siena,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+St. Andrews,standrews,St. Andrews,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+St. Bonaventure,stbonaventure,St. Bonaventure,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+St. John's (NY),stjohns,St. John's (NY),EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Saint Joseph (CT),stjosephct,Saint Joseph (CT),EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Saint Joseph's,stjosephs,Saint Joseph's,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Stony Brook,stonybrook,Stony Brook,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Syracuse,syracuse,Syracuse,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Towson,towson,Towson,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+UAlbany,ualbany,UAlbany,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Massachusetts,umass,Massachusetts,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+UMass Lowell,umasslowell,UMass Lowell,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+UMBC,umbc,UMBC,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Utah,utah,Utah,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Vermont,vermont,Vermont,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Villanova,villanova,Villanova,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Virginia,virginia,Virginia,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+VMI,vmi,VMI,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Wabash,wabash,Wabash,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Wagner,wagner,Wagner,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only
+Yale,yale,Yale,EXISTING_STAGE2_CLOSED_ALIASES; display expansion only

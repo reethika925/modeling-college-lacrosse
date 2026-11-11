@@ -1,0 +1,161 @@
+{
+  "audited_at": "2026-11-10T11:52:20-05:00",
+  "games": 580,
+  "teams": 77,
+  "source_sha256": "79b43ec0168d5466d29a0e3be2c7a9bb46096038aefc25a54f70b2e0b24393a3",
+  "features_sha256": "d72ccb81d43c2d6c81cfb21a3cfb9888ca351eca5de4a73fced7cfd8dcb344d2",
+  "predictions_sha256": "23c2a0d629485cfa0af980676618cd3b84c693ef8f521e81cd0ceef5e40cf563",
+  "feature_audit": {
+    "status_relative_to_stored_dates": "PASS",
+    "feature_columns_checked": 45,
+    "feature_cells_checked": 26100,
+    "mismatched_feature_cells": 0,
+    "mismatches_by_feature": {
+      "home_previous_games_played": 0,
+      "home_previous_wins": 0,
+      "home_previous_losses": 0,
+      "home_previous_win_pct": 0,
+      "home_smoothed_win_pct": 0,
+      "home_avg_goals_scored": 0,
+      "home_avg_goals_conceded": 0,
+      "home_avg_goal_difference": 0,
+      "home_wins_last_five": 0,
+      "home_last_five_games_played": 0,
+      "home_days_since_previous_game": 0,
+      "home_no_history": 0,
+      "home_rest_days_missing": 0,
+      "home_last_five_order_ambiguous": 0,
+      "home_pregame_elo": 0,
+      "away_previous_games_played": 0,
+      "away_previous_wins": 0,
+      "away_previous_losses": 0,
+      "away_previous_win_pct": 0,
+      "away_smoothed_win_pct": 0,
+      "away_avg_goals_scored": 0,
+      "away_avg_goals_conceded": 0,
+      "away_avg_goal_difference": 0,
+      "away_wins_last_five": 0,
+      "away_last_five_games_played": 0,
+      "away_days_since_previous_game": 0,
+      "away_no_history": 0,
+      "away_rest_days_missing": 0,
+      "away_last_five_order_ambiguous": 0,
+      "away_pregame_elo": 0,
+      "diff_previous_games_played": 0,
+      "diff_previous_wins": 0,
+      "diff_previous_losses": 0,
+      "diff_previous_win_pct": 0,
+      "diff_smoothed_win_pct": 0,
+      "diff_avg_goals_scored": 0,
+      "diff_avg_goals_conceded": 0,
+      "diff_avg_goal_difference": 0,
+      "diff_wins_last_five": 0,
+      "diff_last_five_games_played": 0,
+      "diff_days_since_previous_game": 0,
+      "diff_no_history": 0,
+      "diff_rest_days_missing": 0,
+      "diff_last_five_order_ambiguous": 0,
+      "diff_pregame_elo": 0
+    },
+    "history_date_violations": 0,
+    "real_event_time_availability": "NOT_FULLY_VERIFIED; stored-date error documented separately"
+  },
+  "collection_audit": {
+    "requested_window": [
+      "2025-01-01",
+      "2025-06-30"
+    ],
+    "requested_dates": 181,
+    "all_window_dates_attempted_once": true,
+    "successful_json_dates": 81,
+    "successful_empty_json_dates": 8,
+    "successful_nonempty_json_dates": 73,
+    "failed_http_404_dates": 100,
+    "unique_processed_game_dates": 72,
+    "unverified_dates_in_observed_game_range": 35,
+    "observed_game_range_calendar_dates": 115,
+    "season_completeness": "NOT_VERIFIED",
+    "new_collection_requests": 0
+  },
+  "metrics_recalculated_from_saved_probabilities": [
+    {
+      "model": "Constant 50%",
+      "games_evaluated": 580,
+      "correct_predictions": 337,
+      "accuracy": 0.5810344827586207,
+      "brier_score": 0.25,
+      "log_loss": 0.6931471805599453,
+      "exact_half_probability_games": 580
+    },
+    {
+      "model": "Smoothed win rate",
+      "games_evaluated": 580,
+      "correct_predictions": 387,
+      "accuracy": 0.6672413793103448,
+      "brier_score": 0.22274889513915286,
+      "log_loss": 0.636925466368007,
+      "exact_half_probability_games": 61
+    },
+    {
+      "model": "Elo",
+      "games_evaluated": 580,
+      "correct_predictions": 383,
+      "accuracy": 0.6603448275862069,
+      "brier_score": 0.23278113466327896,
+      "log_loss": 0.6582645447234823,
+      "exact_half_probability_games": 26
+    }
+  ],
+  "paired_game_bootstrap": {
+    "difference_definition": "Brier(smoothed win rate) - Brier(Elo); negative favors win rate",
+    "point_difference": -0.010032239524126121,
+    "confidence_level": 0.95,
+    "ci_lower": -0.01593028031602162,
+    "ci_upper": -0.003944263296949267,
+    "method": "percentile; linear quantiles",
+    "resampling_unit": "paired game",
+    "resampling_units": 580,
+    "games": 580,
+    "replicates": 50000,
+    "seed": 519,
+    "random_generator": "numpy.Generator(PCG64)",
+    "bootstrap_standard_error": 0.0030447487458822374,
+    "frozen_predictions": true,
+    "refit_or_replay_per_replicate": false
+  },
+  "paired_date_cluster_sensitivity": {
+    "difference_definition": "Brier(smoothed win rate) - Brier(Elo); negative favors win rate",
+    "point_difference": -0.010032239524126121,
+    "confidence_level": 0.95,
+    "ci_lower": -0.016874549651606244,
+    "ci_upper": -0.0027483359954008236,
+    "method": "percentile; linear quantiles",
+    "resampling_unit": "stored game_date cluster",
+    "resampling_units": 72,
+    "games": 580,
+    "replicates": 50000,
+    "seed": 519,
+    "random_generator": "numpy.Generator(PCG64)",
+    "bootstrap_standard_error": 0.0036056793583998286,
+    "frozen_predictions": true,
+    "refit_or_replay_per_replicate": false
+  },
+  "binghamton_local_checks": {
+    "game_id_counts": {
+      "6312399": 1,
+      "6371921": 1
+    },
+    "cached_raw_start_dates": {
+      "6371921": "04-05-2025",
+      "6312399": "04-05-2025"
+    },
+    "intervening_observed_team_games_april_6_to_11": 0,
+    "same_matchups_elsewhere_in_collection": {
+      "6312399": 1,
+      "6371921": 1
+    },
+    "source_or_model_files_corrected": false
+  },
+  "protected_existing_files": 274,
+  "original_files_unchanged": true
+}

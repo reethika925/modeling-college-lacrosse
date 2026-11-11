@@ -1,0 +1,83 @@
+source_alias,ncaa_team_slug,review_basis
+Air Force,air-force,Exact name in the validated NCAA results; no inferred nickname
+Army West Point,army,Exact name in the validated NCAA results; no inferred nickname
+Bellarmine,bellarmine,Exact name in the validated NCAA results; no inferred nickname
+Binghamton,binghamton,Exact name in the validated NCAA results; no inferred nickname
+Boston U.,boston-u,Exact name in the validated NCAA results; no inferred nickname
+Brown,brown,Exact name in the validated NCAA results; no inferred nickname
+Bryant,bryant,Exact name in the validated NCAA results; no inferred nickname
+Bucknell,bucknell,Exact name in the validated NCAA results; no inferred nickname
+Canisius,canisius,Exact name in the validated NCAA results; no inferred nickname
+Cleveland St.,cleveland-st,Exact name in the validated NCAA results; no inferred nickname
+Colgate,colgate,Exact name in the validated NCAA results; no inferred nickname
+Cornell,cornell,Exact name in the validated NCAA results; no inferred nickname
+Cornell Big Red,cornell,Explicit university identity in NCAA championship coverage
+Dartmouth,dartmouth,Exact name in the validated NCAA results; no inferred nickname
+Delaware,delaware,Exact name in the validated NCAA results; no inferred nickname
+Denver,denver,Exact name in the validated NCAA results; no inferred nickname
+Detroit Mercy,detroit,Exact name in the validated NCAA results; no inferred nickname
+Drexel,drexel,Exact name in the validated NCAA results; no inferred nickname
+Duke,duke,Exact name in the validated NCAA results; no inferred nickname
+Fairfield,fairfield,Exact name in the validated NCAA results; no inferred nickname
+Georgetown,georgetown,Exact name in the validated NCAA results; no inferred nickname
+Hampton,hampton,Exact name in the validated NCAA results; no inferred nickname
+Harvard,harvard,Exact name in the validated NCAA results; no inferred nickname
+High Point,high-point,Exact name in the validated NCAA results; no inferred nickname
+Hobart,hobart,Exact name in the validated NCAA results; no inferred nickname
+Hofstra,hofstra,Exact name in the validated NCAA results; no inferred nickname
+Holy Cross,holy-cross,Exact name in the validated NCAA results; no inferred nickname
+Iona,iona,Exact name in the validated NCAA results; no inferred nickname
+Jacksonville,jacksonville,Exact name in the validated NCAA results; no inferred nickname
+Johns Hopkins,johns-hopkins,Exact name in the validated NCAA results; no inferred nickname
+LIU,long-island,Exact name in the validated NCAA results; no inferred nickname
+Lafayette,lafayette,Exact name in the validated NCAA results; no inferred nickname
+Le Moyne,le-moyne,Exact name in the validated NCAA results; no inferred nickname
+Lehigh,lehigh,Exact name in the validated NCAA results; no inferred nickname
+Loyola Maryland,loyola-maryland,Exact name in the validated NCAA results; no inferred nickname
+Manhattan,manhattan,Exact name in the validated NCAA results; no inferred nickname
+Marist,marist,Exact name in the validated NCAA results; no inferred nickname
+Marquette,marquette,Exact name in the validated NCAA results; no inferred nickname
+Maryland,maryland,Exact name in the validated NCAA results; no inferred nickname
+Maryland Terrapins,maryland,Explicit university identity in NCAA championship coverage
+Massachusetts,massachusetts,Exact name in the validated NCAA results; no inferred nickname
+Mercer,mercer,Exact name in the validated NCAA results; no inferred nickname
+Mercyhurst,mercyhurst,Exact name in the validated NCAA results; no inferred nickname
+Merrimack,merrimack,Exact name in the validated NCAA results; no inferred nickname
+Michigan,michigan,Exact name in the validated NCAA results; no inferred nickname
+Monmouth,monmouth,Exact name in the validated NCAA results; no inferred nickname
+Mount St. Mary's,mt-st-marys,Exact name in the validated NCAA results; no inferred nickname
+NJIT,njit,Exact name in the validated NCAA results; no inferred nickname
+Navy,navy,Exact name in the validated NCAA results; no inferred nickname
+North Carolina,north-carolina,Exact name in the validated NCAA results; no inferred nickname
+Notre Dame,notre-dame,Exact name in the validated NCAA results; no inferred nickname
+Ohio St.,ohio-st,Exact name in the validated NCAA results; no inferred nickname
+Penn,penn,Exact name in the validated NCAA results; no inferred nickname
+Penn St.,penn-st,Exact name in the validated NCAA results; no inferred nickname
+Penn State,penn-st,Reviewed Penn State and NCAA Penn St. abbreviation
+Penn State Nittany Lions,penn-st,Reviewed university identity
+Princeton,princeton,Exact name in the validated NCAA results; no inferred nickname
+Providence,providence,Exact name in the validated NCAA results; no inferred nickname
+Queens (NC),queens-nc,Exact name in the validated NCAA results; no inferred nickname
+Quinnipiac,quinnipiac,Exact name in the validated NCAA results; no inferred nickname
+Richmond,richmond,Exact name in the validated NCAA results; no inferred nickname
+Robert Morris,robert-morris,Exact name in the validated NCAA results; no inferred nickname
+Rutgers,rutgers,Exact name in the validated NCAA results; no inferred nickname
+Sacred Heart,sacred-heart,Exact name in the validated NCAA results; no inferred nickname
+Saint Joseph's,saint-josephs,Exact name in the validated NCAA results; no inferred nickname
+Siena,siena,Exact name in the validated NCAA results; no inferred nickname
+St. Bonaventure,st-bonaventure,Exact name in the validated NCAA results; no inferred nickname
+St. John's (NY),st-johns-ny,Exact name in the validated NCAA results; no inferred nickname
+Stony Brook,stony-brook,Exact name in the validated NCAA results; no inferred nickname
+Syracuse,syracuse,Exact name in the validated NCAA results; no inferred nickname
+Syracuse Orange,syracuse,Explicit university identity in NCAA semifinal coverage
+Towson,towson,Exact name in the validated NCAA results; no inferred nickname
+UAlbany,albany-ny,Exact name in the validated NCAA results; no inferred nickname
+UMBC,umbc,Exact name in the validated NCAA results; no inferred nickname
+UMass Lowell,umass-lowell,Exact name in the validated NCAA results; no inferred nickname
+Utah,utah,Exact name in the validated NCAA results; no inferred nickname
+VMI,vmi,Exact name in the validated NCAA results; no inferred nickname
+Vermont,vermont,Exact name in the validated NCAA results; no inferred nickname
+Villanova,villanova,Exact name in the validated NCAA results; no inferred nickname
+Virginia,virginia,Exact name in the validated NCAA results; no inferred nickname
+Wagner,wagner,Exact name in the validated NCAA results; no inferred nickname
+Yale,yale,Exact name in the validated NCAA results; no inferred nickname

@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-11-10T08:52:00-05:00",
+  "mode": "MANUAL_WORKSHEET_PERMISSION_BLOCKED",
+  "permission_decision": "AUTOMATED_COLLECTION_PROHIBITED",
+  "initial_article_pages_inspected": 2,
+  "article_pages_collected_automatically": 0,
+  "additional_article_pages_searched_or_collected": 0,
+  "published_quote_count_on_sources": "NOT_ASSESSED",
+  "actual_odds_quotations_collected": 0,
+  "unique_ncaa_games_matched": 0,
+  "sportsbooks_represented": 0,
+  "grade_A_quotes": 0,
+  "grade_B_quotes": 0,
+  "grade_C_records_excluded": 0,
+  "with_explicit_odds_timestamps": 0,
+  "ncaa_reference_games": 580,
+  "coverage_percent": 0.0,
+  "dataset_state": "EMPTY_SCHEMA_ONLY",
+  "csv_path": "data/processed/lacrosse_odds_2025_editorial.csv",
+  "csv_sha256": "c61b5354b6488bccf8cfe08b2ebae7445ba6966ac3cc634748f5bbcf84cf48b1",
+  "ncaa_csv_sha256": "79b43ec0168d5466d29a0e3be2c7a9bb46096038aefc25a54f70b2e0b24393a3"
+}

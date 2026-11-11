@@ -1,0 +1,84 @@
+{
+  "version": "stage5_plan_v1",
+  "input_path": "data/review/lacrosse_games_2023_2025_corrected.csv",
+  "input_sha256": "980f190af9d05b5fb94ee1f0909dbb58ec6d0d33956db767c22c42f0c4aa0f30",
+  "approval_status": "NOT_CLEARED_NO_CHANGE",
+  "models_run": false,
+  "splits": {
+    "train_seasons": [
+      2023
+    ],
+    "validation_seasons": [
+      2024
+    ],
+    "final_fit_seasons": [
+      2023,
+      2024
+    ],
+    "evaluation_seasons": [
+      2025
+    ],
+    "evaluation_status": "RETROSPECTIVE_PREVIOUSLY_EXPOSED_NOT_UNTOUCHED_HOLDOUT"
+  },
+  "history_rule": "strictly earlier calendar dates within current season",
+  "state_updates": "all daily predictions fixed before any same-date update",
+  "state_reset": "at each season boundary; ratings=1500; counts=0",
+  "logistic_feature_whitelist": [
+    "diff_log1p_prior_games",
+    "diff_smoothed_win_rate",
+    "diff_avg_goals_for",
+    "diff_avg_goals_against",
+    "diff_smoothed_last5_win_rate",
+    "diff_rest_days_capped21",
+    "diff_elo_div400",
+    "diff_no_history"
+  ],
+  "logistic_fit_intercept": false,
+  "scaling": "fit training-only standard deviations; no mean centering; constant-column divisor 1",
+  "logistic_C_candidates": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "logistic_penalty": "L2",
+  "C_selection": "lowest 2024 Brier; differences <= 1e-12 tie -> smallest C",
+  "sample_weighting": "one equal-weight row per eligible game; no class weighting or mirrored training rows",
+  "models": [
+    "constant_0.5",
+    "win_rate_alpha1",
+    "elo_K20_scale400",
+    "logistic_regression"
+  ],
+  "elo_K": 20,
+  "elo_scale": 400,
+  "elo_initial": 1500,
+  "win_rate_alpha": 1,
+  "accuracy_rule": "home prediction iff p >= 0.5; report exact tie counts",
+  "log_loss_epsilon": 1e-15,
+  "calibration_bin_edges": [
+    0,
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1.0
+  ],
+  "primary_metric": "Brier",
+  "secondary_metrics": [
+    "accuracy",
+    "natural_log_loss"
+  ],
+  "primary_comparison": "logistic minus Elo Brier on identical 2025 IDs",
+  "bootstrap": {
+    "replicates": 50000,
+    "seed": 519,
+    "unit": "whole calendar-date clusters",
+    "pair_models": true,
+    "weight": "mean across resampled games, not equal-weight date means",
+    "sensitivity_unit": "whole ISO calendar weeks",
+    "interval": "95% percentile; linear quantiles",
+    "scope": "frozen predictions, no retraining; conditional uncertainty only"
+  },
+  "no_odds_or_player_stats": true,
+  "source_cohort_changes_require_new_version_before_training": true
+}

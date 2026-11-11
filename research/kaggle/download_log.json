@@ -1,0 +1,72 @@
+[
+  {
+    "dataset_ref": "harsh21x/live-sports-betting-odds-snapshot",
+    "version": 1,
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/harsh21x/live-sports-betting-odds-snapshot?datasetVersionNumber=1",
+    "retrieved_at": "2026-11-09T21:34:18.842183-05:00",
+    "http_status": 200,
+    "content_type": "application/zip",
+    "redirect_statuses": [
+      302
+    ],
+    "archive_path": "research/kaggle/raw/harsh21x/live-sports-betting-odds-snapshot/dataset_v1.zip",
+    "archive_bytes": 2703,
+    "archive_sha256": "bb74f59d077ca14155631da1ae200a870f9f891182b580033167f11c5dfc7be0",
+    "files": [
+      {
+        "name": "sports.csv",
+        "bytes": 22007,
+        "sha256": "267fa0f0ba4f6ddcc22af3619a09eea34c1e71acd997283ef01a97f3d84395fd",
+        "local_path": "research/kaggle/raw/harsh21x/live-sports-betting-odds-snapshot/files/sports.csv"
+      }
+    ],
+    "status": "SUCCESS"
+  },
+  {
+    "dataset_ref": "tjmulderig/professional-lacrosse-statistics-pll-mll",
+    "version": 5,
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/tjmulderig/professional-lacrosse-statistics-pll-mll?datasetVersionNumber=5",
+    "retrieved_at": "2026-11-09T21:34:20.441625-05:00",
+    "http_status": 200,
+    "content_type": "application/zip",
+    "redirect_statuses": [
+      302
+    ],
+    "archive_path": "research/kaggle/raw/tjmulderig/professional-lacrosse-statistics-pll-mll/dataset_v5.zip",
+    "archive_bytes": 33676,
+    "archive_sha256": "5a26a53805e25726ec7cd5b9eba74e552bb5e537fa5b6cd36d870408170dfdc7",
+    "files": [
+      {
+        "name": "2019_postseason_stats.csv",
+        "bytes": 22768,
+        "sha256": "4796c6e5ecf704fa60ed937ea70b6470a9d20b80ab09bcaf11dd36de9c5b66ce",
+        "local_path": "research/kaggle/raw/tjmulderig/professional-lacrosse-statistics-pll-mll/files/2019_postseason_stats.csv"
+      },
+      {
+        "name": "2019_stats.csv",
+        "bytes": 41114,
+        "sha256": "a2b1fa8260d1d35f49054763545e6728877003465b36d99724d3180bdd2b7d42",
+        "local_path": "research/kaggle/raw/tjmulderig/professional-lacrosse-statistics-pll-mll/files/2019_stats.csv"
+      },
+      {
+        "name": "2020_stats.csv",
+        "bytes": 33428,
+        "sha256": "7ae9ae7588dc6a825c73d965d2fd75179879d4069cfe47c53d769635cf7ae684",
+        "local_path": "research/kaggle/raw/tjmulderig/professional-lacrosse-statistics-pll-mll/files/2020_stats.csv"
+      },
+      {
+        "name": "Lacrosse Stats - 2021_postseason_stats.csv",
+        "bytes": 14337,
+        "sha256": "b20e853278d191e4a55c9280d3eb1eb71bf54c5023c1398d84b2142c360db7bb",
+        "local_path": "research/kaggle/raw/tjmulderig/professional-lacrosse-statistics-pll-mll/files/Lacrosse Stats - 2021_postseason_stats.csv"
+      },
+      {
+        "name": "Lacrosse Stats - 2021_stats.csv",
+        "bytes": 24793,
+        "sha256": "48b30529cc3b97b6702a600ca69f27913bf2d412b8abc8a249454a2f9db6f593",
+        "local_path": "research/kaggle/raw/tjmulderig/professional-lacrosse-statistics-pll-mll/files/Lacrosse Stats - 2021_stats.csv"
+      }
+    ],
+    "status": "SUCCESS"
+  }
+]

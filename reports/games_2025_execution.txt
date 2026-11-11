@@ -1,0 +1,312 @@
+2025-01-01: failed; games=0; HTTP=404
+2025-01-02: failed; games=0; HTTP=404
+2025-01-03: failed; games=0; HTTP=404
+2025-01-04: failed; games=0; HTTP=404
+2025-01-05: failed; games=0; HTTP=404
+2025-01-06: failed; games=0; HTTP=404
+2025-01-07: failed; games=0; HTTP=404
+2025-01-08: failed; games=0; HTTP=404
+2025-01-09: failed; games=0; HTTP=404
+2025-01-10: failed; games=0; HTTP=404
+2025-01-11: failed; games=0; HTTP=404
+2025-01-12: failed; games=0; HTTP=404
+2025-01-13: failed; games=0; HTTP=404
+2025-01-14: failed; games=0; HTTP=404
+2025-01-15: failed; games=0; HTTP=404
+2025-01-16: failed; games=0; HTTP=404
+2025-01-17: failed; games=0; HTTP=404
+2025-01-18: failed; games=0; HTTP=404
+2025-01-19: failed; games=0; HTTP=404
+2025-01-20: failed; games=0; HTTP=404
+2025-01-21: failed; games=0; HTTP=404
+2025-01-22: failed; games=0; HTTP=404
+2025-01-23: failed; games=0; HTTP=404
+2025-01-24: failed; games=0; HTTP=404
+2025-01-25: failed; games=0; HTTP=404
+2025-01-26: failed; games=0; HTTP=404
+2025-01-27: failed; games=0; HTTP=404
+2025-01-28: failed; games=0; HTTP=404
+2025-01-29: failed; games=0; HTTP=404
+2025-01-30: failed; games=0; HTTP=404
+2025-02-03: failed; games=0; HTTP=404
+2025-02-05: failed; games=0; HTTP=404
+2025-02-06: failed; games=0; HTTP=404
+2025-02-13: failed; games=0; HTTP=404
+2025-02-14: cached; games=6; HTTP=200
+2025-02-20: failed; games=0; HTTP=404
+2025-03-01: cached; games=23; HTTP=200
+2025-03-10: failed; games=0; HTTP=404
+2025-03-16: cached; games=2; HTTP=200
+2025-03-20: failed; games=0; HTTP=404
+2025-03-24: failed; games=0; HTTP=404
+2025-03-27: failed; games=0; HTTP=404
+2025-03-30: failed; games=0; HTTP=404
+2025-03-31: failed; games=0; HTTP=404
+2025-04-02: failed; games=0; HTTP=404
+2025-04-03: failed; games=0; HTTP=404
+2025-04-07: failed; games=0; HTTP=404
+2025-04-09: failed; games=0; HTTP=404
+2025-04-10: failed; games=0; HTTP=404
+2025-04-14: failed; games=0; HTTP=404
+2025-04-15: cached; games=1; HTTP=200
+2025-04-21: failed; games=0; HTTP=404
+2025-04-22: failed; games=0; HTTP=404
+2025-04-28: failed; games=0; HTTP=404
+2025-04-30: cached; games=0; HTTP=200
+2025-05-05: failed; games=0; HTTP=404
+2025-05-06: failed; games=0; HTTP=404
+2025-05-08: failed; games=0; HTTP=404
+2025-05-09: failed; games=0; HTTP=404
+2025-05-12: failed; games=0; HTTP=404
+2025-05-13: failed; games=0; HTTP=404
+2025-05-14: failed; games=0; HTTP=404
+2025-05-15: failed; games=0; HTTP=404
+2025-05-16: failed; games=0; HTTP=404
+2025-05-19: failed; games=0; HTTP=404
+2025-05-20: failed; games=0; HTTP=404
+2025-05-21: failed; games=0; HTTP=404
+2025-05-22: failed; games=0; HTTP=404
+2025-05-23: failed; games=0; HTTP=404
+2025-05-25: failed; games=0; HTTP=404
+2025-05-27: failed; games=0; HTTP=404
+2025-05-28: failed; games=0; HTTP=404
+2025-05-29: failed; games=0; HTTP=404
+2025-05-30: failed; games=0; HTTP=404
+2025-05-31: failed; games=0; HTTP=404
+2025-06-01: failed; games=0; HTTP=404
+2025-06-02: failed; games=0; HTTP=404
+2025-06-03: failed; games=0; HTTP=404
+2025-06-04: failed; games=0; HTTP=404
+2025-06-05: failed; games=0; HTTP=404
+2025-06-06: failed; games=0; HTTP=404
+2025-06-07: failed; games=0; HTTP=404
+2025-06-08: failed; games=0; HTTP=404
+2025-06-09: failed; games=0; HTTP=404
+2025-06-10: failed; games=0; HTTP=404
+2025-06-11: failed; games=0; HTTP=404
+2025-06-12: failed; games=0; HTTP=404
+2025-06-13: failed; games=0; HTTP=404
+2025-06-14: failed; games=0; HTTP=404
+2025-06-15: failed; games=0; HTTP=404
+2025-06-16: failed; games=0; HTTP=404
+2025-06-17: failed; games=0; HTTP=404
+2025-06-18: failed; games=0; HTTP=404
+2025-06-19: failed; games=0; HTTP=404
+2025-06-20: failed; games=0; HTTP=404
+2025-06-21: failed; games=0; HTTP=404
+2025-06-22: failed; games=0; HTTP=404
+2025-06-23: failed; games=0; HTTP=404
+2025-06-24: failed; games=0; HTTP=404
+2025-06-25: failed; games=0; HTTP=404
+2025-06-26: failed; games=0; HTTP=404
+2025-06-27: failed; games=0; HTTP=404
+2025-06-28: failed; games=0; HTTP=404
+2025-06-29: failed; games=0; HTTP=404
+2025-06-30: failed; games=0; HTTP=404
+{
+  "total_games": 580,
+  "column_count": 34,
+  "completed_games": 580,
+  "completed_valid_scores": 580,
+  "unique_teams": 77,
+  "games_by_month": {
+    "2025-02": 159,
+    "2025-03": 210,
+    "2025-04": 161,
+    "2025-05": 50
+  },
+  "duplicate_game_ids": 0,
+  "duplicate_matchups_same_date": 0,
+  "missing_values": {
+    "game_id": 0,
+    "season": 0,
+    "game_date": 0,
+    "game_datetime_utc": 563,
+    "home_team": 0,
+    "away_team": 0,
+    "home_team_id": 580,
+    "away_team_id": 580,
+    "home_score": 0,
+    "away_score": 0,
+    "winner": 0,
+    "game_status": 0,
+    "neutral_site": 580,
+    "venue": 580,
+    "postseason": 563,
+    "source_name": 0,
+    "source_url": 0,
+    "home_team_slug": 0,
+    "away_team_slug": 0,
+    "home_team_code": 0,
+    "away_team_code": 0,
+    "home_winner_flag": 0,
+    "away_winner_flag": 0,
+    "bracket_round": 563,
+    "bracket_id": 563,
+    "final_message": 0,
+    "current_period": 0,
+    "overtime": 0,
+    "start_time_text": 0,
+    "start_time_epoch_raw": 0,
+    "home_score_raw": 0,
+    "away_score_raw": 0,
+    "invalid_score_format": 0,
+    "game_page_url": 0
+  },
+  "negative_scores": 0,
+  "invalid_score_formats": 0,
+  "completed_missing_scores": 0,
+  "completed_ties": 0,
+  "winner_disagreements": 0,
+  "completed_missing_winner": 0,
+  "first_game_date": "2025-02-01",
+  "last_game_date": "2025-05-26",
+  "status_counts": {
+    "final": 580
+  },
+  "source_name": "NCAA Casablanca DI men's lacrosse scoreboard",
+  "source_template": "https://data.ncaa.com/casablanca/scoreboard/lacrosse-men/d1/2025/01/01/scoreboard.json",
+  "retrieved_at": "2026-11-09T21:00:12-05:00",
+  "collection_start": "2025-01-01",
+  "collection_end": "2025-06-30",
+  "checked_successfully": 81,
+  "requested_dates": 181,
+  "failed_or_unchecked_dates": [
+    "2025-01-01",
+    "2025-01-02",
+    "2025-01-03",
+    "2025-01-04",
+    "2025-01-05",
+    "2025-01-06",
+    "2025-01-07",
+    "2025-01-08",
+    "2025-01-09",
+    "2025-01-10",
+    "2025-01-11",
+    "2025-01-12",
+    "2025-01-13",
+    "2025-01-14",
+    "2025-01-15",
+    "2025-01-16",
+    "2025-01-17",
+    "2025-01-18",
+    "2025-01-19",
+    "2025-01-20",
+    "2025-01-21",
+    "2025-01-22",
+    "2025-01-23",
+    "2025-01-24",
+    "2025-01-25",
+    "2025-01-26",
+    "2025-01-27",
+    "2025-01-28",
+    "2025-01-29",
+    "2025-01-30",
+    "2025-02-03",
+    "2025-02-05",
+    "2025-02-06",
+    "2025-02-13",
+    "2025-02-20",
+    "2025-03-10",
+    "2025-03-20",
+    "2025-03-24",
+    "2025-03-27",
+    "2025-03-30",
+    "2025-03-31",
+    "2025-04-02",
+    "2025-04-03",
+    "2025-04-07",
+    "2025-04-09",
+    "2025-04-10",
+    "2025-04-14",
+    "2025-04-21",
+    "2025-04-22",
+    "2025-04-28",
+    "2025-05-05",
+    "2025-05-06",
+    "2025-05-08",
+    "2025-05-09",
+    "2025-05-12",
+    "2025-05-13",
+    "2025-05-14",
+    "2025-05-15",
+    "2025-05-16",
+    "2025-05-19",
+    "2025-05-20",
+    "2025-05-21",
+    "2025-05-22",
+    "2025-05-23",
+    "2025-05-25",
+    "2025-05-27",
+    "2025-05-28",
+    "2025-05-29",
+    "2025-05-30",
+    "2025-05-31",
+    "2025-06-01",
+    "2025-06-02",
+    "2025-06-03",
+    "2025-06-04",
+    "2025-06-05",
+    "2025-06-06",
+    "2025-06-07",
+    "2025-06-08",
+    "2025-06-09",
+    "2025-06-10",
+    "2025-06-11",
+    "2025-06-12",
+    "2025-06-13",
+    "2025-06-14",
+    "2025-06-15",
+    "2025-06-16",
+    "2025-06-17",
+    "2025-06-18",
+    "2025-06-19",
+    "2025-06-20",
+    "2025-06-21",
+    "2025-06-22",
+    "2025-06-23",
+    "2025-06-24",
+    "2025-06-25",
+    "2025-06-26",
+    "2025-06-27",
+    "2025-06-28",
+    "2025-06-29",
+    "2025-06-30"
+  ],
+  "output_path": "data/processed/lacrosse_games_2025.csv",
+  "sha256": "79b43ec0168d5466d29a0e3be2c7a9bb46096038aefc25a54f70b2e0b24393a3",
+  "raw_game_records": 581,
+  "raw_duplicate_game_ids": 1,
+  "resolved_duplicate_records": 1,
+  "independent_championship_validation": {
+    "source_url": "https://www.ncaa.com/history/lacrosse-men/d1",
+    "result": "PASS",
+    "http_status": 200,
+    "retrieved_at": "2026-11-09T20:57:05-05:00",
+    "sha256": "6b101c082105819dc395bd0e8370eba6a291022041179de277c023413e3892d9",
+    "ncaa_history_record": "2025 | Cornell (18-1) | Connor Buczek | 13-10 | Maryland | Foxborough, Mass.",
+    "dataset_matches": true,
+    "matching_dataset_rows": 1
+  },
+  "http_failure_counts": {
+    "404": 100
+  },
+  "window_coverage_verified": false,
+  "season_completeness": "NOT_VERIFIED",
+  "overtime_games": 48,
+  "total_missing_cells": 4572
+}
+
+First ten actual rows:
+game_id  season  game_date game_datetime_utc  home_team       away_team home_team_id away_team_id  home_score  away_score        winner game_status neutral_site venue postseason                                  source_name                                                                             source_url home_team_slug  away_team_slug home_team_code away_team_code  home_winner_flag  away_winner_flag bracket_round bracket_id final_message current_period  overtime start_time_text start_time_epoch_raw home_score_raw away_score_raw  invalid_score_format                     game_page_url
+6309366    2025 2025-02-01               NaN       Iona         Hofstra         None         None           2          20       Hofstra       final         None  None       None NCAA Casablanca DI men's lacrosse scoreboard https://data.ncaa.com/casablanca/scoreboard/lacrosse-men/d1/2025/02/01/scoreboard.json           iona         hofstra           IONA         HOFSTR             False              True           NaN        NaN         FINAL          FINAL     False             TBA           1738386000              2             20                 False https://www.ncaa.com/game/6386028
+6309480    2025 2025-02-01               NaN   Penn St.         Colgate         None         None          14           9      Penn St.       final         None  None       None NCAA Casablanca DI men's lacrosse scoreboard https://data.ncaa.com/casablanca/scoreboard/lacrosse-men/d1/2025/02/01/scoreboard.json        penn-st         colgate         PENNST         COLGAT              True             False           NaN        NaN         FINAL          FINAL     False             TBA           1738386000             14              9                 False https://www.ncaa.com/game/6386042
+6309665    2025 2025-02-01               NaN Georgetown Loyola Maryland         None         None          13           6    Georgetown       final         None  None       None NCAA Casablanca DI men's lacrosse scoreboard https://data.ncaa.com/casablanca/scoreboard/lacrosse-men/d1/2025/02/01/scoreboard.json     georgetown loyola-maryland          GTOWN         LOY MD              True             False           NaN        NaN         FINAL          FINAL     False             TBA           1738386000             13              6                 False https://www.ncaa.com/game/6386077
+6309779    2025 2025-02-01               NaN     Lehigh         Rutgers         None         None           6          10       Rutgers       final         None  None       None NCAA Casablanca DI men's lacrosse scoreboard https://data.ncaa.com/casablanca/scoreboard/lacrosse-men/d1/2025/02/01/scoreboard.json         lehigh         rutgers         LEHIGH         RUTGER             False              True           NaN        NaN         FINAL          FINAL     False             TBA           1738386000              6             10                 False https://www.ncaa.com/game/6386115
+6309860    2025 2025-02-01               NaN High Point            Navy         None         None          10          14          Navy       final         None  None       None NCAA Casablanca DI men's lacrosse scoreboard https://data.ncaa.com/casablanca/scoreboard/lacrosse-men/d1/2025/02/01/scoreboard.json     high-point            navy         HIGHPT           NAVY             False              True           NaN        NaN         FINAL          FINAL     False             TBA           1738386000             10             14                 False https://www.ncaa.com/game/6386180
+6309951    2025 2025-02-01               NaN       Duke      Bellarmine         None         None          26           7          Duke       final         None  None       None NCAA Casablanca DI men's lacrosse scoreboard https://data.ncaa.com/casablanca/scoreboard/lacrosse-men/d1/2025/02/01/scoreboard.json           duke      bellarmine           DUKE         BELLAR              True             False           NaN        NaN         FINAL          FINAL     False             TBA           1738386000             26              7                 False https://www.ncaa.com/game/6386233
+6310011    2025 2025-02-01               NaN   Bucknell       Merrimack         None         None          23           7      Bucknell       final         None  None       None NCAA Casablanca DI men's lacrosse scoreboard https://data.ncaa.com/casablanca/scoreboard/lacrosse-men/d1/2025/02/01/scoreboard.json       bucknell       merrimack         BUCKNL         MERMCK              True             False           NaN        NaN         FINAL          FINAL     False             TBA           1738386000             23              7                 False https://www.ncaa.com/game/6386268
+6310061    2025 2025-02-01               NaN     Denver   Johns Hopkins         None         None          10          13 Johns Hopkins       final         None  None       None NCAA Casablanca DI men's lacrosse scoreboard https://data.ncaa.com/casablanca/scoreboard/lacrosse-men/d1/2025/02/01/scoreboard.json         denver   johns-hopkins         DENVER         HOPKNS             False              True           NaN        NaN         FINAL          FINAL     False             TBA           1738393200             10             13                 False https://www.ncaa.com/game/6386279
+6310104    2025 2025-02-01               NaN  Lafayette       Air Force         None         None          11           8     Lafayette       final         None  None       None NCAA Casablanca DI men's lacrosse scoreboard https://data.ncaa.com/casablanca/scoreboard/lacrosse-men/d1/2025/02/01/scoreboard.json      lafayette       air-force         LAFAYE         AIRFOR              True             False           NaN        NaN         FINAL          FINAL     False             TBA           1738386000             11              8                 False https://www.ncaa.com/game/6386291
+6310134    2025 2025-02-01               NaN    Hampton          Mercer         None         None           3          23        Mercer       final         None  None       None NCAA Casablanca DI men's lacrosse scoreboard https://data.ncaa.com/casablanca/scoreboard/lacrosse-men/d1/2025/02/01/scoreboard.json        hampton          mercer         HAMPTN         MERCER             False              True           NaN        NaN         FINAL          FINAL     False             TBA           1738386000              3             23                 False https://www.ncaa.com/game/6386304
+ERROR conda.cli.main_run:execute(142): `conda run python src/collect_games.py --season 2025 --start-date 2025-01-01 --end-date 2025-06-30 --offline` failed. (See above for error)

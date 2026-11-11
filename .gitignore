@@ -1,0 +1,65 @@
+# Environments (use the existing external dsf-lacrosse Conda environment)
+.venv/
+venv/
+env/
+envs/
+.conda/
+conda-meta/
+.python-version
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*api_key*
+*apikey*
+*credentials*.json
+*service-account*.json
+*.pem
+*.key
+secrets/
+.kaggle/
+kaggle.json
+
+# Python and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Local research data and evidence (not automatically available in a new checkout)
+data/**
+!data/**/
+!data/**/.gitkeep
+research/kaggle/raw/
+research/odds_evidence/**
+!research/odds_evidence/README.md
+*.zip
+*.gz
+*.parquet
+*.part
+
+# OS/editor files
+.DS_Store
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.tmp
+*.temp
+
+# Scratch work and accidental proposal exports (private backups live outside repo)
+/tmp/
+/scratch/
+/private/
+/reports/project2_proposal_*
+/reports/project2_submission_*
+/reports/project2_stage5_*

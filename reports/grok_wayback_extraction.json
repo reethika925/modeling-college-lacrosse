@@ -1,0 +1,74 @@
+{
+  "archive": "/Users/kiri/Desktop/dsf-project/data/incoming/grok/ncaa_lacrosse_wayback_spotcheck_2026-11-10.zip",
+  "archive_bytes": 18383,
+  "archive_sha256": "2e24c3a1032fdf2887f761ca5d1d1407a38143e554b1bed3142fdd599a6d98bc",
+  "expected_archive_sha256": null,
+  "expected_archive_checksum_status": "NOT_SUPPLIED; locally computed fingerprint only",
+  "unsafe_paths": 0,
+  "member_count": 7,
+  "file_count": 7,
+  "total_uncompressed_bytes": 61611,
+  "crc_and_decompression": "PASS_ALL_MEMBERS",
+  "destination": "/Users/kiri/Desktop/dsf-project/data/incoming/grok/wayback_followup_2e24c3a1032f",
+  "original_archive_unchanged": true,
+  "packaged_scripts_executed": 0,
+  "trust_status": "UNVERIFIED",
+  "files": [
+    {
+      "path": "wayback_spotcheck_2026-11-10/wayback_2025_odds_spotcheck_report.md",
+      "bytes": 15515,
+      "format": "Markdown text",
+      "compressed_bytes": 5347,
+      "crc32": "ab260fb4",
+      "sha256": "edc5737860c1f22e44712c77688f31f7aa2730cc0f9df4c971dee5dd02779144"
+    },
+    {
+      "path": "wayback_spotcheck_2026-11-10/wayback_fetch_log.csv",
+      "bytes": 2017,
+      "format": "CSV",
+      "compressed_bytes": 734,
+      "crc32": "e105034f",
+      "sha256": "62272eb4b98a2de2a2d33fd335df343b930ce9ed04758f4b00a042a802b14276"
+    },
+    {
+      "path": "wayback_spotcheck_2026-11-10/wayback_2025_odds_spotcheck.csv",
+      "bytes": 25020,
+      "format": "CSV",
+      "compressed_bytes": 3072,
+      "crc32": "37a1fdaf",
+      "sha256": "da565887ddea468484ebd15de3d29d0d0231bae18ec216b639a5beb2f8df0053"
+    },
+    {
+      "path": "wayback_spotcheck_2026-11-10/remaining_unresolved_issues.md",
+      "bytes": 7024,
+      "format": "Markdown text",
+      "compressed_bytes": 2808,
+      "crc32": "eac0388a",
+      "sha256": "d72dd43ccd67d78870dc5e497efdc6ba5278a6849ca4fea3137db1c5b95abc60"
+    },
+    {
+      "path": "wayback_spotcheck_2026-11-10/MANIFEST.csv",
+      "bytes": 637,
+      "format": "CSV",
+      "compressed_bytes": 392,
+      "crc32": "ccdf0587",
+      "sha256": "c6ce06cb9549731cdf5b9b780eaaa92de77cd34589197995efcaa641303b9f88"
+    },
+    {
+      "path": "wayback_spotcheck_2026-11-10/scripts/build_spotcheck.py",
+      "bytes": 9654,
+      "format": "Python source (NOT EXECUTED)",
+      "compressed_bytes": 3920,
+      "crc32": "34ed2a09",
+      "sha256": "45539f37dbcaeeb419d2d059558bfc43abe92ae05879d13b9830999cc66da442"
+    },
+    {
+      "path": "wayback_spotcheck_2026-11-10/scripts/parse_mgm.py",
+      "bytes": 1744,
+      "format": "Python source (NOT EXECUTED)",
+      "compressed_bytes": 796,
+      "crc32": "506ec2e9",
+      "sha256": "229fe0b2a22188a2177a4a94c42e2971aabfa3553b61cc438d7491ee9c328cd7"
+    }
+  ]
+}

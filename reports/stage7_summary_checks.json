@@ -1,0 +1,3045 @@
+{
+  "record_counts": {
+    "PARTIALLY_SUPPORTED": 299,
+    "VERIFIED_PRE_GAME": 208,
+    "UNSUPPORTED": 1313,
+    "REJECTED": 12,
+    "VERIFIED_PRICE_TIMING_UNKNOWN": 163
+  },
+  "strict_original_source": {
+    "selection_observations": 208,
+    "games": 39,
+    "paired_markets": 104,
+    "paired_market_counts": {
+      "moneyline": 30,
+      "spread": 37,
+      "total": 37
+    },
+    "complete_any_market_games": 39,
+    "ml_games": 27,
+    "spread_games": 32,
+    "total_games": 32,
+    "game_book_capture_snapshots": 47,
+    "pages": 12,
+    "multi_book_ml_games": {},
+    "pregame_price_change_selection_series": 0,
+    "games_by_season": {
+      "2024": 15,
+      "2023": 19,
+      "2025": 5
+    },
+    "ml_games_by_season": {
+      "2024": 14,
+      "2023": 9,
+      "2025": 4
+    },
+    "paired_market_inventory": [
+      {
+        "game_id": "6085415",
+        "book": "Caesars",
+        "market": "moneyline",
+        "page_id": "P01",
+        "line": null,
+        "observation_ids": [
+          "V00001",
+          "V00002"
+        ]
+      },
+      {
+        "game_id": "6085412",
+        "book": "DraftKings",
+        "market": "moneyline",
+        "page_id": "P01",
+        "line": null,
+        "observation_ids": [
+          "V00005",
+          "V00006"
+        ]
+      },
+      {
+        "game_id": "6085420",
+        "book": "DraftKings",
+        "market": "moneyline",
+        "page_id": "P01",
+        "line": null,
+        "observation_ids": [
+          "V00009",
+          "V00010"
+        ]
+      },
+      {
+        "game_id": "6085699",
+        "book": "Caesars",
+        "market": "moneyline",
+        "page_id": "P02",
+        "line": null,
+        "observation_ids": [
+          "V00013",
+          "V00014"
+        ]
+      },
+      {
+        "game_id": "6085771",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P03",
+        "line": null,
+        "observation_ids": [
+          "V00020",
+          "V00021"
+        ]
+      },
+      {
+        "game_id": "6085848",
+        "book": "DraftKings",
+        "market": "moneyline",
+        "page_id": "P04",
+        "line": null,
+        "observation_ids": [
+          "V00026",
+          "V00027"
+        ]
+      },
+      {
+        "game_id": "6085853",
+        "book": "FanDuel",
+        "market": "moneyline",
+        "page_id": "P04",
+        "line": null,
+        "observation_ids": [
+          "V00030",
+          "V00031"
+        ]
+      },
+      {
+        "game_id": "6147942",
+        "book": "bet365",
+        "market": "moneyline",
+        "page_id": "P05",
+        "line": null,
+        "observation_ids": [
+          "V00034",
+          "V00035"
+        ]
+      },
+      {
+        "game_id": "6147944",
+        "book": "DraftKings",
+        "market": "moneyline",
+        "page_id": "P05",
+        "line": null,
+        "observation_ids": [
+          "V00037",
+          "V00038"
+        ]
+      },
+      {
+        "game_id": "6085412",
+        "book": "DraftKings",
+        "market": "spread",
+        "page_id": "P07",
+        "line": 2.5,
+        "observation_ids": [
+          "V00066",
+          "V00067"
+        ]
+      },
+      {
+        "game_id": "6085412",
+        "book": "DraftKings",
+        "market": "total",
+        "page_id": "P07",
+        "line": 24.5,
+        "observation_ids": [
+          "V00068",
+          "V00069"
+        ]
+      },
+      {
+        "game_id": "6085411",
+        "book": "DraftKings",
+        "market": "spread",
+        "page_id": "P07",
+        "line": 5.5,
+        "observation_ids": [
+          "V00072",
+          "V00073"
+        ]
+      },
+      {
+        "game_id": "6085411",
+        "book": "DraftKings",
+        "market": "total",
+        "page_id": "P07",
+        "line": 27.5,
+        "observation_ids": [
+          "V00074",
+          "V00075"
+        ]
+      },
+      {
+        "game_id": "6085414",
+        "book": "DraftKings",
+        "market": "spread",
+        "page_id": "P07",
+        "line": 6.5,
+        "observation_ids": [
+          "V00078",
+          "V00079"
+        ]
+      },
+      {
+        "game_id": "6085414",
+        "book": "DraftKings",
+        "market": "total",
+        "page_id": "P07",
+        "line": 20.5,
+        "observation_ids": [
+          "V00080",
+          "V00081"
+        ]
+      },
+      {
+        "game_id": "6085420",
+        "book": "DraftKings",
+        "market": "spread",
+        "page_id": "P07",
+        "line": 1.5,
+        "observation_ids": [
+          "V00084",
+          "V00085"
+        ]
+      },
+      {
+        "game_id": "6085420",
+        "book": "DraftKings",
+        "market": "total",
+        "page_id": "P07",
+        "line": 24.5,
+        "observation_ids": [
+          "V00086",
+          "V00087"
+        ]
+      },
+      {
+        "game_id": "6085415",
+        "book": "DraftKings",
+        "market": "spread",
+        "page_id": "P07",
+        "line": 2.5,
+        "observation_ids": [
+          "V00090",
+          "V00091"
+        ]
+      },
+      {
+        "game_id": "6085415",
+        "book": "DraftKings",
+        "market": "total",
+        "page_id": "P07",
+        "line": 26.5,
+        "observation_ids": [
+          "V00092",
+          "V00093"
+        ]
+      },
+      {
+        "game_id": "6085413",
+        "book": "DraftKings",
+        "market": "spread",
+        "page_id": "P07",
+        "line": 1.5,
+        "observation_ids": [
+          "V00096",
+          "V00097"
+        ]
+      },
+      {
+        "game_id": "6085413",
+        "book": "DraftKings",
+        "market": "total",
+        "page_id": "P07",
+        "line": 22.5,
+        "observation_ids": [
+          "V00098",
+          "V00099"
+        ]
+      },
+      {
+        "game_id": "6085423",
+        "book": "DraftKings",
+        "market": "spread",
+        "page_id": "P07",
+        "line": 5.5,
+        "observation_ids": [
+          "V00102",
+          "V00103"
+        ]
+      },
+      {
+        "game_id": "6085423",
+        "book": "DraftKings",
+        "market": "total",
+        "page_id": "P07",
+        "line": 24.5,
+        "observation_ids": [
+          "V00104",
+          "V00105"
+        ]
+      },
+      {
+        "game_id": "6085419",
+        "book": "DraftKings",
+        "market": "spread",
+        "page_id": "P07",
+        "line": 11.5,
+        "observation_ids": [
+          "V00108",
+          "V00109"
+        ]
+      },
+      {
+        "game_id": "6085419",
+        "book": "DraftKings",
+        "market": "total",
+        "page_id": "P07",
+        "line": 22.5,
+        "observation_ids": [
+          "V00110",
+          "V00111"
+        ]
+      },
+      {
+        "game_id": "6085421",
+        "book": "DraftKings",
+        "market": "spread",
+        "page_id": "P07",
+        "line": 5.5,
+        "observation_ids": [
+          "V00112",
+          "V00113"
+        ]
+      },
+      {
+        "game_id": "6085421",
+        "book": "DraftKings",
+        "market": "total",
+        "page_id": "P07",
+        "line": 23.5,
+        "observation_ids": [
+          "V00114",
+          "V00115"
+        ]
+      },
+      {
+        "game_id": "6085417",
+        "book": "DraftKings",
+        "market": "spread",
+        "page_id": "P07",
+        "line": 10.5,
+        "observation_ids": [
+          "V00118",
+          "V00119"
+        ]
+      },
+      {
+        "game_id": "6085417",
+        "book": "DraftKings",
+        "market": "total",
+        "page_id": "P07",
+        "line": 25.5,
+        "observation_ids": [
+          "V00120",
+          "V00121"
+        ]
+      },
+      {
+        "game_id": "6085418",
+        "book": "DraftKings",
+        "market": "spread",
+        "page_id": "P07",
+        "line": 7.5,
+        "observation_ids": [
+          "V00122",
+          "V00123"
+        ]
+      },
+      {
+        "game_id": "6085418",
+        "book": "DraftKings",
+        "market": "total",
+        "page_id": "P07",
+        "line": 25.5,
+        "observation_ids": [
+          "V00124",
+          "V00125"
+        ]
+      },
+      {
+        "game_id": "6131581",
+        "book": "DraftKings",
+        "market": "spread",
+        "page_id": "P07",
+        "line": 1.5,
+        "observation_ids": [
+          "V00128",
+          "V00129"
+        ]
+      },
+      {
+        "game_id": "6131581",
+        "book": "DraftKings",
+        "market": "total",
+        "page_id": "P07",
+        "line": 20.5,
+        "observation_ids": [
+          "V00130",
+          "V00131"
+        ]
+      },
+      {
+        "game_id": "6085416",
+        "book": "DraftKings",
+        "market": "spread",
+        "page_id": "P07",
+        "line": 5.5,
+        "observation_ids": [
+          "V00134",
+          "V00135"
+        ]
+      },
+      {
+        "game_id": "6085416",
+        "book": "DraftKings",
+        "market": "total",
+        "page_id": "P07",
+        "line": 24.5,
+        "observation_ids": [
+          "V00136",
+          "V00137"
+        ]
+      },
+      {
+        "game_id": "6448512",
+        "book": "DraftKings",
+        "market": "spread",
+        "page_id": "P10",
+        "line": 2.5,
+        "observation_ids": [
+          "V00503",
+          "V00504"
+        ]
+      },
+      {
+        "game_id": "6448512",
+        "book": "DraftKings",
+        "market": "total",
+        "page_id": "P10",
+        "line": 22.5,
+        "observation_ids": [
+          "V00505",
+          "V00506"
+        ]
+      },
+      {
+        "game_id": "6448513",
+        "book": "DraftKings",
+        "market": "spread",
+        "page_id": "P10",
+        "line": 3.0,
+        "observation_ids": [
+          "V00509",
+          "V00510"
+        ]
+      },
+      {
+        "game_id": "6448513",
+        "book": "DraftKings",
+        "market": "total",
+        "page_id": "P10",
+        "line": 21.5,
+        "observation_ids": [
+          "V00511",
+          "V00512"
+        ]
+      },
+      {
+        "game_id": "6448514",
+        "book": "DraftKings",
+        "market": "spread",
+        "page_id": "P10",
+        "line": 1.5,
+        "observation_ids": [
+          "V00515",
+          "V00516"
+        ]
+      },
+      {
+        "game_id": "6448514",
+        "book": "DraftKings",
+        "market": "total",
+        "page_id": "P10",
+        "line": 25.5,
+        "observation_ids": [
+          "V00517",
+          "V00518"
+        ]
+      },
+      {
+        "game_id": "6269738",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P11",
+        "line": 3.5,
+        "observation_ids": [
+          "V00521",
+          "V00522"
+        ]
+      },
+      {
+        "game_id": "6269738",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P11",
+        "line": 24.5,
+        "observation_ids": [
+          "V00523",
+          "V00524"
+        ]
+      },
+      {
+        "game_id": "6269738",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P11",
+        "line": null,
+        "observation_ids": [
+          "V00525",
+          "V00526"
+        ]
+      },
+      {
+        "game_id": "6269740",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P11",
+        "line": 1.5,
+        "observation_ids": [
+          "V00527",
+          "V00528"
+        ]
+      },
+      {
+        "game_id": "6269740",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P11",
+        "line": 24.5,
+        "observation_ids": [
+          "V00529",
+          "V00530"
+        ]
+      },
+      {
+        "game_id": "6269740",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P11",
+        "line": null,
+        "observation_ids": [
+          "V00531",
+          "V00532"
+        ]
+      },
+      {
+        "game_id": "6269765",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P11",
+        "line": 1.5,
+        "observation_ids": [
+          "V00537",
+          "V00538"
+        ]
+      },
+      {
+        "game_id": "6269765",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P11",
+        "line": 24.5,
+        "observation_ids": [
+          "V00539",
+          "V00540"
+        ]
+      },
+      {
+        "game_id": "6269765",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P11",
+        "line": null,
+        "observation_ids": [
+          "V00541",
+          "V00542"
+        ]
+      },
+      {
+        "game_id": "6269761",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P11",
+        "line": 1.5,
+        "observation_ids": [
+          "V00543",
+          "V00544"
+        ]
+      },
+      {
+        "game_id": "6269761",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P11",
+        "line": 23.5,
+        "observation_ids": [
+          "V00545",
+          "V00546"
+        ]
+      },
+      {
+        "game_id": "6269761",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P11",
+        "line": null,
+        "observation_ids": [
+          "V00547",
+          "V00548"
+        ]
+      },
+      {
+        "game_id": "6269772",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P11",
+        "line": 1.5,
+        "observation_ids": [
+          "V00549",
+          "V00550"
+        ]
+      },
+      {
+        "game_id": "6269772",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P11",
+        "line": 23.5,
+        "observation_ids": [
+          "V00551",
+          "V00552"
+        ]
+      },
+      {
+        "game_id": "6269772",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P11",
+        "line": null,
+        "observation_ids": [
+          "V00553",
+          "V00554"
+        ]
+      },
+      {
+        "game_id": "6269774",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P11",
+        "line": 1.5,
+        "observation_ids": [
+          "V00555",
+          "V00556"
+        ]
+      },
+      {
+        "game_id": "6269774",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P11",
+        "line": 25.5,
+        "observation_ids": [
+          "V00557",
+          "V00558"
+        ]
+      },
+      {
+        "game_id": "6269774",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P11",
+        "line": null,
+        "observation_ids": [
+          "V00559",
+          "V00560"
+        ]
+      },
+      {
+        "game_id": "6269763",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P11",
+        "line": 6.5,
+        "observation_ids": [
+          "V00561",
+          "V00562"
+        ]
+      },
+      {
+        "game_id": "6269763",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P11",
+        "line": 27.5,
+        "observation_ids": [
+          "V00563",
+          "V00564"
+        ]
+      },
+      {
+        "game_id": "6269763",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P11",
+        "line": null,
+        "observation_ids": [
+          "V00565",
+          "V00566"
+        ]
+      },
+      {
+        "game_id": "6269525",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P11",
+        "line": 1.5,
+        "observation_ids": [
+          "V00567",
+          "V00568"
+        ]
+      },
+      {
+        "game_id": "6269525",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P11",
+        "line": 24.5,
+        "observation_ids": [
+          "V00569",
+          "V00570"
+        ]
+      },
+      {
+        "game_id": "6269525",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P11",
+        "line": null,
+        "observation_ids": [
+          "V00571",
+          "V00572"
+        ]
+      },
+      {
+        "game_id": "6269752",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P11",
+        "line": 10.5,
+        "observation_ids": [
+          "V00573",
+          "V00574"
+        ]
+      },
+      {
+        "game_id": "6269752",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P11",
+        "line": 23.5,
+        "observation_ids": [
+          "V00575",
+          "V00576"
+        ]
+      },
+      {
+        "game_id": "6269457",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P11",
+        "line": 5.5,
+        "observation_ids": [
+          "V00577",
+          "V00578"
+        ]
+      },
+      {
+        "game_id": "6269457",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P11",
+        "line": 25.5,
+        "observation_ids": [
+          "V00579",
+          "V00580"
+        ]
+      },
+      {
+        "game_id": "6269457",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P11",
+        "line": null,
+        "observation_ids": [
+          "V00581",
+          "V00582"
+        ]
+      },
+      {
+        "game_id": "6269778",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P11",
+        "line": 5.5,
+        "observation_ids": [
+          "V00583",
+          "V00584"
+        ]
+      },
+      {
+        "game_id": "6269778",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P11",
+        "line": 27.5,
+        "observation_ids": [
+          "V00585",
+          "V00586"
+        ]
+      },
+      {
+        "game_id": "6269778",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P11",
+        "line": null,
+        "observation_ids": [
+          "V00587",
+          "V00588"
+        ]
+      },
+      {
+        "game_id": "6269750",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P11",
+        "line": 6.5,
+        "observation_ids": [
+          "V00593",
+          "V00594"
+        ]
+      },
+      {
+        "game_id": "6269750",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P11",
+        "line": 22.5,
+        "observation_ids": [
+          "V00595",
+          "V00596"
+        ]
+      },
+      {
+        "game_id": "6269750",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P11",
+        "line": null,
+        "observation_ids": [
+          "V00597",
+          "V00598"
+        ]
+      },
+      {
+        "game_id": "6269771",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P11",
+        "line": 2.5,
+        "observation_ids": [
+          "V00599",
+          "V00600"
+        ]
+      },
+      {
+        "game_id": "6269771",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P11",
+        "line": 25.5,
+        "observation_ids": [
+          "V00601",
+          "V00602"
+        ]
+      },
+      {
+        "game_id": "6269771",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P11",
+        "line": null,
+        "observation_ids": [
+          "V00603",
+          "V00604"
+        ]
+      },
+      {
+        "game_id": "6292102",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P12",
+        "line": 4.5,
+        "observation_ids": [
+          "V00605",
+          "V00606"
+        ]
+      },
+      {
+        "game_id": "6292102",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P12",
+        "line": 22.5,
+        "observation_ids": [
+          "V00607",
+          "V00608"
+        ]
+      },
+      {
+        "game_id": "6292102",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P12",
+        "line": null,
+        "observation_ids": [
+          "V00609",
+          "V00610"
+        ]
+      },
+      {
+        "game_id": "6292103",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P12",
+        "line": 2.5,
+        "observation_ids": [
+          "V00611",
+          "V00612"
+        ]
+      },
+      {
+        "game_id": "6292103",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P12",
+        "line": 23.5,
+        "observation_ids": [
+          "V00613",
+          "V00614"
+        ]
+      },
+      {
+        "game_id": "6292103",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P12",
+        "line": null,
+        "observation_ids": [
+          "V00615",
+          "V00616"
+        ]
+      },
+      {
+        "game_id": "6448511",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P14",
+        "line": 3.5,
+        "observation_ids": [
+          "V00671",
+          "V00672"
+        ]
+      },
+      {
+        "game_id": "6448511",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P14",
+        "line": 25.5,
+        "observation_ids": [
+          "V00673",
+          "V00674"
+        ]
+      },
+      {
+        "game_id": "6448511",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P14",
+        "line": null,
+        "observation_ids": [
+          "V00675",
+          "V00676"
+        ]
+      },
+      {
+        "game_id": "6448512",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P14",
+        "line": 2.5,
+        "observation_ids": [
+          "V00677",
+          "V00678"
+        ]
+      },
+      {
+        "game_id": "6448512",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P14",
+        "line": 22.5,
+        "observation_ids": [
+          "V00679",
+          "V00680"
+        ]
+      },
+      {
+        "game_id": "6448512",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P14",
+        "line": null,
+        "observation_ids": [
+          "V00681",
+          "V00682"
+        ]
+      },
+      {
+        "game_id": "6448513",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P14",
+        "line": 2.5,
+        "observation_ids": [
+          "V00683",
+          "V00684"
+        ]
+      },
+      {
+        "game_id": "6448513",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P14",
+        "line": 21.5,
+        "observation_ids": [
+          "V00685",
+          "V00686"
+        ]
+      },
+      {
+        "game_id": "6448513",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P14",
+        "line": null,
+        "observation_ids": [
+          "V00687",
+          "V00688"
+        ]
+      },
+      {
+        "game_id": "6448511",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P15",
+        "line": 3.5,
+        "observation_ids": [
+          "V00689",
+          "V00690"
+        ]
+      },
+      {
+        "game_id": "6448511",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P15",
+        "line": 25.5,
+        "observation_ids": [
+          "V00691",
+          "V00692"
+        ]
+      },
+      {
+        "game_id": "6448511",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P15",
+        "line": null,
+        "observation_ids": [
+          "V00693",
+          "V00694"
+        ]
+      },
+      {
+        "game_id": "6448512",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P15",
+        "line": 2.5,
+        "observation_ids": [
+          "V00695",
+          "V00696"
+        ]
+      },
+      {
+        "game_id": "6448512",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P15",
+        "line": 22.5,
+        "observation_ids": [
+          "V00697",
+          "V00698"
+        ]
+      },
+      {
+        "game_id": "6448512",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P15",
+        "line": null,
+        "observation_ids": [
+          "V00699",
+          "V00700"
+        ]
+      },
+      {
+        "game_id": "6448513",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P15",
+        "line": 2.5,
+        "observation_ids": [
+          "V00701",
+          "V00702"
+        ]
+      },
+      {
+        "game_id": "6448513",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P15",
+        "line": 21.5,
+        "observation_ids": [
+          "V00703",
+          "V00704"
+        ]
+      },
+      {
+        "game_id": "6448513",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P15",
+        "line": null,
+        "observation_ids": [
+          "V00705",
+          "V00706"
+        ]
+      },
+      {
+        "game_id": "6386505",
+        "book": "FanDuel",
+        "market": "moneyline",
+        "page_id": "P17",
+        "line": null,
+        "observation_ids": [
+          "V00872",
+          "V00873"
+        ]
+      }
+    ],
+    "selected_observation_ids": [
+      "V00001",
+      "V00002",
+      "V00005",
+      "V00006",
+      "V00009",
+      "V00010",
+      "V00013",
+      "V00014",
+      "V00020",
+      "V00021",
+      "V00026",
+      "V00027",
+      "V00030",
+      "V00031",
+      "V00034",
+      "V00035",
+      "V00037",
+      "V00038",
+      "V00066",
+      "V00067",
+      "V00068",
+      "V00069",
+      "V00072",
+      "V00073",
+      "V00074",
+      "V00075",
+      "V00078",
+      "V00079",
+      "V00080",
+      "V00081",
+      "V00084",
+      "V00085",
+      "V00086",
+      "V00087",
+      "V00090",
+      "V00091",
+      "V00092",
+      "V00093",
+      "V00096",
+      "V00097",
+      "V00098",
+      "V00099",
+      "V00102",
+      "V00103",
+      "V00104",
+      "V00105",
+      "V00108",
+      "V00109",
+      "V00110",
+      "V00111",
+      "V00112",
+      "V00113",
+      "V00114",
+      "V00115",
+      "V00118",
+      "V00119",
+      "V00120",
+      "V00121",
+      "V00122",
+      "V00123",
+      "V00124",
+      "V00125",
+      "V00128",
+      "V00129",
+      "V00130",
+      "V00131",
+      "V00134",
+      "V00135",
+      "V00136",
+      "V00137",
+      "V00503",
+      "V00504",
+      "V00505",
+      "V00506",
+      "V00509",
+      "V00510",
+      "V00511",
+      "V00512",
+      "V00515",
+      "V00516",
+      "V00517",
+      "V00518",
+      "V00521",
+      "V00522",
+      "V00523",
+      "V00524",
+      "V00525",
+      "V00526",
+      "V00527",
+      "V00528",
+      "V00529",
+      "V00530",
+      "V00531",
+      "V00532",
+      "V00537",
+      "V00538",
+      "V00539",
+      "V00540",
+      "V00541",
+      "V00542",
+      "V00543",
+      "V00544",
+      "V00545",
+      "V00546",
+      "V00547",
+      "V00548",
+      "V00549",
+      "V00550",
+      "V00551",
+      "V00552",
+      "V00553",
+      "V00554",
+      "V00555",
+      "V00556",
+      "V00557",
+      "V00558",
+      "V00559",
+      "V00560",
+      "V00561",
+      "V00562",
+      "V00563",
+      "V00564",
+      "V00565",
+      "V00566",
+      "V00567",
+      "V00568",
+      "V00569",
+      "V00570",
+      "V00571",
+      "V00572",
+      "V00573",
+      "V00574",
+      "V00575",
+      "V00576",
+      "V00577",
+      "V00578",
+      "V00579",
+      "V00580",
+      "V00581",
+      "V00582",
+      "V00583",
+      "V00584",
+      "V00585",
+      "V00586",
+      "V00587",
+      "V00588",
+      "V00593",
+      "V00594",
+      "V00595",
+      "V00596",
+      "V00597",
+      "V00598",
+      "V00599",
+      "V00600",
+      "V00601",
+      "V00602",
+      "V00603",
+      "V00604",
+      "V00605",
+      "V00606",
+      "V00607",
+      "V00608",
+      "V00609",
+      "V00610",
+      "V00611",
+      "V00612",
+      "V00613",
+      "V00614",
+      "V00615",
+      "V00616",
+      "V00671",
+      "V00672",
+      "V00673",
+      "V00674",
+      "V00675",
+      "V00676",
+      "V00677",
+      "V00678",
+      "V00679",
+      "V00680",
+      "V00681",
+      "V00682",
+      "V00683",
+      "V00684",
+      "V00685",
+      "V00686",
+      "V00687",
+      "V00688",
+      "V00689",
+      "V00690",
+      "V00691",
+      "V00692",
+      "V00693",
+      "V00694",
+      "V00695",
+      "V00696",
+      "V00697",
+      "V00698",
+      "V00699",
+      "V00700",
+      "V00701",
+      "V00702",
+      "V00703",
+      "V00704",
+      "V00705",
+      "V00706",
+      "V00872",
+      "V00873"
+    ]
+  },
+  "price_corroboration_including_prior_audit_only_DK": {
+    "selection_observations": 227,
+    "games": 43,
+    "paired_markets": 113,
+    "paired_market_counts": {
+      "moneyline": 39,
+      "spread": 37,
+      "total": 37
+    },
+    "complete_any_market_games": 42,
+    "ml_games": 31,
+    "spread_games": 32,
+    "total_games": 32,
+    "game_book_capture_snapshots": 51,
+    "pages": 15,
+    "multi_book_ml_games": {
+      "6085415": [
+        "Caesars",
+        "DraftKings"
+      ],
+      "6448512": [
+        "BetMGM",
+        "DraftKings"
+      ],
+      "6448513": [
+        "BetMGM",
+        "DraftKings"
+      ]
+    },
+    "pregame_price_change_selection_series": 0,
+    "games_by_season": {
+      "2024": 15,
+      "2023": 19,
+      "2025": 9
+    },
+    "ml_games_by_season": {
+      "2024": 14,
+      "2023": 9,
+      "2025": 8
+    },
+    "paired_market_inventory": [
+      {
+        "game_id": "6085415",
+        "book": "Caesars",
+        "market": "moneyline",
+        "page_id": "P01",
+        "line": null,
+        "observation_ids": [
+          "V00001",
+          "V00002"
+        ]
+      },
+      {
+        "game_id": "6085412",
+        "book": "DraftKings",
+        "market": "moneyline",
+        "page_id": "P01",
+        "line": null,
+        "observation_ids": [
+          "V00005",
+          "V00006"
+        ]
+      },
+      {
+        "game_id": "6085420",
+        "book": "DraftKings",
+        "market": "moneyline",
+        "page_id": "P01",
+        "line": null,
+        "observation_ids": [
+          "V00009",
+          "V00010"
+        ]
+      },
+      {
+        "game_id": "6085699",
+        "book": "Caesars",
+        "market": "moneyline",
+        "page_id": "P02",
+        "line": null,
+        "observation_ids": [
+          "V00013",
+          "V00014"
+        ]
+      },
+      {
+        "game_id": "6085771",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P03",
+        "line": null,
+        "observation_ids": [
+          "V00020",
+          "V00021"
+        ]
+      },
+      {
+        "game_id": "6085848",
+        "book": "DraftKings",
+        "market": "moneyline",
+        "page_id": "P04",
+        "line": null,
+        "observation_ids": [
+          "V00026",
+          "V00027"
+        ]
+      },
+      {
+        "game_id": "6085853",
+        "book": "FanDuel",
+        "market": "moneyline",
+        "page_id": "P04",
+        "line": null,
+        "observation_ids": [
+          "V00030",
+          "V00031"
+        ]
+      },
+      {
+        "game_id": "6147942",
+        "book": "bet365",
+        "market": "moneyline",
+        "page_id": "P05",
+        "line": null,
+        "observation_ids": [
+          "V00034",
+          "V00035"
+        ]
+      },
+      {
+        "game_id": "6147944",
+        "book": "DraftKings",
+        "market": "moneyline",
+        "page_id": "P05",
+        "line": null,
+        "observation_ids": [
+          "V00037",
+          "V00038"
+        ]
+      },
+      {
+        "game_id": "6085412",
+        "book": "DraftKings",
+        "market": "spread",
+        "page_id": "P07",
+        "line": 2.5,
+        "observation_ids": [
+          "V00066",
+          "V00067"
+        ]
+      },
+      {
+        "game_id": "6085412",
+        "book": "DraftKings",
+        "market": "total",
+        "page_id": "P07",
+        "line": 24.5,
+        "observation_ids": [
+          "V00068",
+          "V00069"
+        ]
+      },
+      {
+        "game_id": "6085412",
+        "book": "DraftKings",
+        "market": "moneyline",
+        "page_id": "P07",
+        "line": null,
+        "observation_ids": [
+          "V00070",
+          "V00071"
+        ]
+      },
+      {
+        "game_id": "6085411",
+        "book": "DraftKings",
+        "market": "spread",
+        "page_id": "P07",
+        "line": 5.5,
+        "observation_ids": [
+          "V00072",
+          "V00073"
+        ]
+      },
+      {
+        "game_id": "6085411",
+        "book": "DraftKings",
+        "market": "total",
+        "page_id": "P07",
+        "line": 27.5,
+        "observation_ids": [
+          "V00074",
+          "V00075"
+        ]
+      },
+      {
+        "game_id": "6085414",
+        "book": "DraftKings",
+        "market": "spread",
+        "page_id": "P07",
+        "line": 6.5,
+        "observation_ids": [
+          "V00078",
+          "V00079"
+        ]
+      },
+      {
+        "game_id": "6085414",
+        "book": "DraftKings",
+        "market": "total",
+        "page_id": "P07",
+        "line": 20.5,
+        "observation_ids": [
+          "V00080",
+          "V00081"
+        ]
+      },
+      {
+        "game_id": "6085420",
+        "book": "DraftKings",
+        "market": "spread",
+        "page_id": "P07",
+        "line": 1.5,
+        "observation_ids": [
+          "V00084",
+          "V00085"
+        ]
+      },
+      {
+        "game_id": "6085420",
+        "book": "DraftKings",
+        "market": "total",
+        "page_id": "P07",
+        "line": 24.5,
+        "observation_ids": [
+          "V00086",
+          "V00087"
+        ]
+      },
+      {
+        "game_id": "6085420",
+        "book": "DraftKings",
+        "market": "moneyline",
+        "page_id": "P07",
+        "line": null,
+        "observation_ids": [
+          "V00088",
+          "V00089"
+        ]
+      },
+      {
+        "game_id": "6085415",
+        "book": "DraftKings",
+        "market": "spread",
+        "page_id": "P07",
+        "line": 2.5,
+        "observation_ids": [
+          "V00090",
+          "V00091"
+        ]
+      },
+      {
+        "game_id": "6085415",
+        "book": "DraftKings",
+        "market": "total",
+        "page_id": "P07",
+        "line": 26.5,
+        "observation_ids": [
+          "V00092",
+          "V00093"
+        ]
+      },
+      {
+        "game_id": "6085415",
+        "book": "DraftKings",
+        "market": "moneyline",
+        "page_id": "P07",
+        "line": null,
+        "observation_ids": [
+          "V00094",
+          "V00095"
+        ]
+      },
+      {
+        "game_id": "6085413",
+        "book": "DraftKings",
+        "market": "spread",
+        "page_id": "P07",
+        "line": 1.5,
+        "observation_ids": [
+          "V00096",
+          "V00097"
+        ]
+      },
+      {
+        "game_id": "6085413",
+        "book": "DraftKings",
+        "market": "total",
+        "page_id": "P07",
+        "line": 22.5,
+        "observation_ids": [
+          "V00098",
+          "V00099"
+        ]
+      },
+      {
+        "game_id": "6085423",
+        "book": "DraftKings",
+        "market": "spread",
+        "page_id": "P07",
+        "line": 5.5,
+        "observation_ids": [
+          "V00102",
+          "V00103"
+        ]
+      },
+      {
+        "game_id": "6085423",
+        "book": "DraftKings",
+        "market": "total",
+        "page_id": "P07",
+        "line": 24.5,
+        "observation_ids": [
+          "V00104",
+          "V00105"
+        ]
+      },
+      {
+        "game_id": "6085419",
+        "book": "DraftKings",
+        "market": "spread",
+        "page_id": "P07",
+        "line": 11.5,
+        "observation_ids": [
+          "V00108",
+          "V00109"
+        ]
+      },
+      {
+        "game_id": "6085419",
+        "book": "DraftKings",
+        "market": "total",
+        "page_id": "P07",
+        "line": 22.5,
+        "observation_ids": [
+          "V00110",
+          "V00111"
+        ]
+      },
+      {
+        "game_id": "6085421",
+        "book": "DraftKings",
+        "market": "spread",
+        "page_id": "P07",
+        "line": 5.5,
+        "observation_ids": [
+          "V00112",
+          "V00113"
+        ]
+      },
+      {
+        "game_id": "6085421",
+        "book": "DraftKings",
+        "market": "total",
+        "page_id": "P07",
+        "line": 23.5,
+        "observation_ids": [
+          "V00114",
+          "V00115"
+        ]
+      },
+      {
+        "game_id": "6085417",
+        "book": "DraftKings",
+        "market": "spread",
+        "page_id": "P07",
+        "line": 10.5,
+        "observation_ids": [
+          "V00118",
+          "V00119"
+        ]
+      },
+      {
+        "game_id": "6085417",
+        "book": "DraftKings",
+        "market": "total",
+        "page_id": "P07",
+        "line": 25.5,
+        "observation_ids": [
+          "V00120",
+          "V00121"
+        ]
+      },
+      {
+        "game_id": "6085418",
+        "book": "DraftKings",
+        "market": "spread",
+        "page_id": "P07",
+        "line": 7.5,
+        "observation_ids": [
+          "V00122",
+          "V00123"
+        ]
+      },
+      {
+        "game_id": "6085418",
+        "book": "DraftKings",
+        "market": "total",
+        "page_id": "P07",
+        "line": 25.5,
+        "observation_ids": [
+          "V00124",
+          "V00125"
+        ]
+      },
+      {
+        "game_id": "6131581",
+        "book": "DraftKings",
+        "market": "spread",
+        "page_id": "P07",
+        "line": 1.5,
+        "observation_ids": [
+          "V00128",
+          "V00129"
+        ]
+      },
+      {
+        "game_id": "6131581",
+        "book": "DraftKings",
+        "market": "total",
+        "page_id": "P07",
+        "line": 20.5,
+        "observation_ids": [
+          "V00130",
+          "V00131"
+        ]
+      },
+      {
+        "game_id": "6085416",
+        "book": "DraftKings",
+        "market": "spread",
+        "page_id": "P07",
+        "line": 5.5,
+        "observation_ids": [
+          "V00134",
+          "V00135"
+        ]
+      },
+      {
+        "game_id": "6085416",
+        "book": "DraftKings",
+        "market": "total",
+        "page_id": "P07",
+        "line": 24.5,
+        "observation_ids": [
+          "V00136",
+          "V00137"
+        ]
+      },
+      {
+        "game_id": "6386051",
+        "book": "DraftKings",
+        "market": "moneyline",
+        "page_id": "P08",
+        "line": null,
+        "observation_ids": [
+          "V00186",
+          "V00187"
+        ]
+      },
+      {
+        "game_id": "6386358",
+        "book": "DraftKings",
+        "market": "moneyline",
+        "page_id": "P09",
+        "line": null,
+        "observation_ids": [
+          "V00442",
+          "V00443"
+        ]
+      },
+      {
+        "game_id": "6448512",
+        "book": "DraftKings",
+        "market": "spread",
+        "page_id": "P10",
+        "line": 2.5,
+        "observation_ids": [
+          "V00503",
+          "V00504"
+        ]
+      },
+      {
+        "game_id": "6448512",
+        "book": "DraftKings",
+        "market": "total",
+        "page_id": "P10",
+        "line": 22.5,
+        "observation_ids": [
+          "V00505",
+          "V00506"
+        ]
+      },
+      {
+        "game_id": "6448512",
+        "book": "DraftKings",
+        "market": "moneyline",
+        "page_id": "P10",
+        "line": null,
+        "observation_ids": [
+          "V00507",
+          "V00508"
+        ]
+      },
+      {
+        "game_id": "6448513",
+        "book": "DraftKings",
+        "market": "spread",
+        "page_id": "P10",
+        "line": 3.0,
+        "observation_ids": [
+          "V00509",
+          "V00510"
+        ]
+      },
+      {
+        "game_id": "6448513",
+        "book": "DraftKings",
+        "market": "total",
+        "page_id": "P10",
+        "line": 21.5,
+        "observation_ids": [
+          "V00511",
+          "V00512"
+        ]
+      },
+      {
+        "game_id": "6448513",
+        "book": "DraftKings",
+        "market": "moneyline",
+        "page_id": "P10",
+        "line": null,
+        "observation_ids": [
+          "V00513",
+          "V00514"
+        ]
+      },
+      {
+        "game_id": "6448514",
+        "book": "DraftKings",
+        "market": "spread",
+        "page_id": "P10",
+        "line": 1.5,
+        "observation_ids": [
+          "V00515",
+          "V00516"
+        ]
+      },
+      {
+        "game_id": "6448514",
+        "book": "DraftKings",
+        "market": "total",
+        "page_id": "P10",
+        "line": 25.5,
+        "observation_ids": [
+          "V00517",
+          "V00518"
+        ]
+      },
+      {
+        "game_id": "6448514",
+        "book": "DraftKings",
+        "market": "moneyline",
+        "page_id": "P10",
+        "line": null,
+        "observation_ids": [
+          "V00519",
+          "V00520"
+        ]
+      },
+      {
+        "game_id": "6269738",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P11",
+        "line": 3.5,
+        "observation_ids": [
+          "V00521",
+          "V00522"
+        ]
+      },
+      {
+        "game_id": "6269738",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P11",
+        "line": 24.5,
+        "observation_ids": [
+          "V00523",
+          "V00524"
+        ]
+      },
+      {
+        "game_id": "6269738",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P11",
+        "line": null,
+        "observation_ids": [
+          "V00525",
+          "V00526"
+        ]
+      },
+      {
+        "game_id": "6269740",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P11",
+        "line": 1.5,
+        "observation_ids": [
+          "V00527",
+          "V00528"
+        ]
+      },
+      {
+        "game_id": "6269740",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P11",
+        "line": 24.5,
+        "observation_ids": [
+          "V00529",
+          "V00530"
+        ]
+      },
+      {
+        "game_id": "6269740",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P11",
+        "line": null,
+        "observation_ids": [
+          "V00531",
+          "V00532"
+        ]
+      },
+      {
+        "game_id": "6269765",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P11",
+        "line": 1.5,
+        "observation_ids": [
+          "V00537",
+          "V00538"
+        ]
+      },
+      {
+        "game_id": "6269765",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P11",
+        "line": 24.5,
+        "observation_ids": [
+          "V00539",
+          "V00540"
+        ]
+      },
+      {
+        "game_id": "6269765",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P11",
+        "line": null,
+        "observation_ids": [
+          "V00541",
+          "V00542"
+        ]
+      },
+      {
+        "game_id": "6269761",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P11",
+        "line": 1.5,
+        "observation_ids": [
+          "V00543",
+          "V00544"
+        ]
+      },
+      {
+        "game_id": "6269761",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P11",
+        "line": 23.5,
+        "observation_ids": [
+          "V00545",
+          "V00546"
+        ]
+      },
+      {
+        "game_id": "6269761",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P11",
+        "line": null,
+        "observation_ids": [
+          "V00547",
+          "V00548"
+        ]
+      },
+      {
+        "game_id": "6269772",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P11",
+        "line": 1.5,
+        "observation_ids": [
+          "V00549",
+          "V00550"
+        ]
+      },
+      {
+        "game_id": "6269772",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P11",
+        "line": 23.5,
+        "observation_ids": [
+          "V00551",
+          "V00552"
+        ]
+      },
+      {
+        "game_id": "6269772",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P11",
+        "line": null,
+        "observation_ids": [
+          "V00553",
+          "V00554"
+        ]
+      },
+      {
+        "game_id": "6269774",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P11",
+        "line": 1.5,
+        "observation_ids": [
+          "V00555",
+          "V00556"
+        ]
+      },
+      {
+        "game_id": "6269774",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P11",
+        "line": 25.5,
+        "observation_ids": [
+          "V00557",
+          "V00558"
+        ]
+      },
+      {
+        "game_id": "6269774",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P11",
+        "line": null,
+        "observation_ids": [
+          "V00559",
+          "V00560"
+        ]
+      },
+      {
+        "game_id": "6269763",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P11",
+        "line": 6.5,
+        "observation_ids": [
+          "V00561",
+          "V00562"
+        ]
+      },
+      {
+        "game_id": "6269763",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P11",
+        "line": 27.5,
+        "observation_ids": [
+          "V00563",
+          "V00564"
+        ]
+      },
+      {
+        "game_id": "6269763",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P11",
+        "line": null,
+        "observation_ids": [
+          "V00565",
+          "V00566"
+        ]
+      },
+      {
+        "game_id": "6269525",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P11",
+        "line": 1.5,
+        "observation_ids": [
+          "V00567",
+          "V00568"
+        ]
+      },
+      {
+        "game_id": "6269525",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P11",
+        "line": 24.5,
+        "observation_ids": [
+          "V00569",
+          "V00570"
+        ]
+      },
+      {
+        "game_id": "6269525",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P11",
+        "line": null,
+        "observation_ids": [
+          "V00571",
+          "V00572"
+        ]
+      },
+      {
+        "game_id": "6269752",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P11",
+        "line": 10.5,
+        "observation_ids": [
+          "V00573",
+          "V00574"
+        ]
+      },
+      {
+        "game_id": "6269752",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P11",
+        "line": 23.5,
+        "observation_ids": [
+          "V00575",
+          "V00576"
+        ]
+      },
+      {
+        "game_id": "6269457",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P11",
+        "line": 5.5,
+        "observation_ids": [
+          "V00577",
+          "V00578"
+        ]
+      },
+      {
+        "game_id": "6269457",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P11",
+        "line": 25.5,
+        "observation_ids": [
+          "V00579",
+          "V00580"
+        ]
+      },
+      {
+        "game_id": "6269457",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P11",
+        "line": null,
+        "observation_ids": [
+          "V00581",
+          "V00582"
+        ]
+      },
+      {
+        "game_id": "6269778",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P11",
+        "line": 5.5,
+        "observation_ids": [
+          "V00583",
+          "V00584"
+        ]
+      },
+      {
+        "game_id": "6269778",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P11",
+        "line": 27.5,
+        "observation_ids": [
+          "V00585",
+          "V00586"
+        ]
+      },
+      {
+        "game_id": "6269778",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P11",
+        "line": null,
+        "observation_ids": [
+          "V00587",
+          "V00588"
+        ]
+      },
+      {
+        "game_id": "6269750",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P11",
+        "line": 6.5,
+        "observation_ids": [
+          "V00593",
+          "V00594"
+        ]
+      },
+      {
+        "game_id": "6269750",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P11",
+        "line": 22.5,
+        "observation_ids": [
+          "V00595",
+          "V00596"
+        ]
+      },
+      {
+        "game_id": "6269750",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P11",
+        "line": null,
+        "observation_ids": [
+          "V00597",
+          "V00598"
+        ]
+      },
+      {
+        "game_id": "6269771",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P11",
+        "line": 2.5,
+        "observation_ids": [
+          "V00599",
+          "V00600"
+        ]
+      },
+      {
+        "game_id": "6269771",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P11",
+        "line": 25.5,
+        "observation_ids": [
+          "V00601",
+          "V00602"
+        ]
+      },
+      {
+        "game_id": "6269771",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P11",
+        "line": null,
+        "observation_ids": [
+          "V00603",
+          "V00604"
+        ]
+      },
+      {
+        "game_id": "6292102",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P12",
+        "line": 4.5,
+        "observation_ids": [
+          "V00605",
+          "V00606"
+        ]
+      },
+      {
+        "game_id": "6292102",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P12",
+        "line": 22.5,
+        "observation_ids": [
+          "V00607",
+          "V00608"
+        ]
+      },
+      {
+        "game_id": "6292102",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P12",
+        "line": null,
+        "observation_ids": [
+          "V00609",
+          "V00610"
+        ]
+      },
+      {
+        "game_id": "6292103",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P12",
+        "line": 2.5,
+        "observation_ids": [
+          "V00611",
+          "V00612"
+        ]
+      },
+      {
+        "game_id": "6292103",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P12",
+        "line": 23.5,
+        "observation_ids": [
+          "V00613",
+          "V00614"
+        ]
+      },
+      {
+        "game_id": "6292103",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P12",
+        "line": null,
+        "observation_ids": [
+          "V00615",
+          "V00616"
+        ]
+      },
+      {
+        "game_id": "6386180",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P13",
+        "line": null,
+        "observation_ids": [
+          "V00657",
+          "V00658"
+        ]
+      },
+      {
+        "game_id": "6448511",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P14",
+        "line": 3.5,
+        "observation_ids": [
+          "V00671",
+          "V00672"
+        ]
+      },
+      {
+        "game_id": "6448511",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P14",
+        "line": 25.5,
+        "observation_ids": [
+          "V00673",
+          "V00674"
+        ]
+      },
+      {
+        "game_id": "6448511",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P14",
+        "line": null,
+        "observation_ids": [
+          "V00675",
+          "V00676"
+        ]
+      },
+      {
+        "game_id": "6448512",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P14",
+        "line": 2.5,
+        "observation_ids": [
+          "V00677",
+          "V00678"
+        ]
+      },
+      {
+        "game_id": "6448512",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P14",
+        "line": 22.5,
+        "observation_ids": [
+          "V00679",
+          "V00680"
+        ]
+      },
+      {
+        "game_id": "6448512",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P14",
+        "line": null,
+        "observation_ids": [
+          "V00681",
+          "V00682"
+        ]
+      },
+      {
+        "game_id": "6448513",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P14",
+        "line": 2.5,
+        "observation_ids": [
+          "V00683",
+          "V00684"
+        ]
+      },
+      {
+        "game_id": "6448513",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P14",
+        "line": 21.5,
+        "observation_ids": [
+          "V00685",
+          "V00686"
+        ]
+      },
+      {
+        "game_id": "6448513",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P14",
+        "line": null,
+        "observation_ids": [
+          "V00687",
+          "V00688"
+        ]
+      },
+      {
+        "game_id": "6448511",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P15",
+        "line": 3.5,
+        "observation_ids": [
+          "V00689",
+          "V00690"
+        ]
+      },
+      {
+        "game_id": "6448511",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P15",
+        "line": 25.5,
+        "observation_ids": [
+          "V00691",
+          "V00692"
+        ]
+      },
+      {
+        "game_id": "6448511",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P15",
+        "line": null,
+        "observation_ids": [
+          "V00693",
+          "V00694"
+        ]
+      },
+      {
+        "game_id": "6448512",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P15",
+        "line": 2.5,
+        "observation_ids": [
+          "V00695",
+          "V00696"
+        ]
+      },
+      {
+        "game_id": "6448512",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P15",
+        "line": 22.5,
+        "observation_ids": [
+          "V00697",
+          "V00698"
+        ]
+      },
+      {
+        "game_id": "6448512",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P15",
+        "line": null,
+        "observation_ids": [
+          "V00699",
+          "V00700"
+        ]
+      },
+      {
+        "game_id": "6448513",
+        "book": "BetMGM",
+        "market": "spread",
+        "page_id": "P15",
+        "line": 2.5,
+        "observation_ids": [
+          "V00701",
+          "V00702"
+        ]
+      },
+      {
+        "game_id": "6448513",
+        "book": "BetMGM",
+        "market": "total",
+        "page_id": "P15",
+        "line": 21.5,
+        "observation_ids": [
+          "V00703",
+          "V00704"
+        ]
+      },
+      {
+        "game_id": "6448513",
+        "book": "BetMGM",
+        "market": "moneyline",
+        "page_id": "P15",
+        "line": null,
+        "observation_ids": [
+          "V00705",
+          "V00706"
+        ]
+      },
+      {
+        "game_id": "6386505",
+        "book": "FanDuel",
+        "market": "moneyline",
+        "page_id": "P17",
+        "line": null,
+        "observation_ids": [
+          "V00872",
+          "V00873"
+        ]
+      }
+    ],
+    "selected_observation_ids": [
+      "V00001",
+      "V00002",
+      "V00005",
+      "V00006",
+      "V00009",
+      "V00010",
+      "V00013",
+      "V00014",
+      "V00020",
+      "V00021",
+      "V00026",
+      "V00027",
+      "V00030",
+      "V00031",
+      "V00034",
+      "V00035",
+      "V00037",
+      "V00038",
+      "V00066",
+      "V00067",
+      "V00068",
+      "V00069",
+      "V00070",
+      "V00071",
+      "V00072",
+      "V00073",
+      "V00074",
+      "V00075",
+      "V00078",
+      "V00079",
+      "V00080",
+      "V00081",
+      "V00084",
+      "V00085",
+      "V00086",
+      "V00087",
+      "V00088",
+      "V00089",
+      "V00090",
+      "V00091",
+      "V00092",
+      "V00093",
+      "V00094",
+      "V00095",
+      "V00096",
+      "V00097",
+      "V00098",
+      "V00099",
+      "V00102",
+      "V00103",
+      "V00104",
+      "V00105",
+      "V00108",
+      "V00109",
+      "V00110",
+      "V00111",
+      "V00112",
+      "V00113",
+      "V00114",
+      "V00115",
+      "V00118",
+      "V00119",
+      "V00120",
+      "V00121",
+      "V00122",
+      "V00123",
+      "V00124",
+      "V00125",
+      "V00128",
+      "V00129",
+      "V00130",
+      "V00131",
+      "V00134",
+      "V00135",
+      "V00136",
+      "V00137",
+      "V00186",
+      "V00187",
+      "V00442",
+      "V00443",
+      "V00454",
+      "V00503",
+      "V00504",
+      "V00505",
+      "V00506",
+      "V00507",
+      "V00508",
+      "V00509",
+      "V00510",
+      "V00511",
+      "V00512",
+      "V00513",
+      "V00514",
+      "V00515",
+      "V00516",
+      "V00517",
+      "V00518",
+      "V00519",
+      "V00520",
+      "V00521",
+      "V00522",
+      "V00523",
+      "V00524",
+      "V00525",
+      "V00526",
+      "V00527",
+      "V00528",
+      "V00529",
+      "V00530",
+      "V00531",
+      "V00532",
+      "V00537",
+      "V00538",
+      "V00539",
+      "V00540",
+      "V00541",
+      "V00542",
+      "V00543",
+      "V00544",
+      "V00545",
+      "V00546",
+      "V00547",
+      "V00548",
+      "V00549",
+      "V00550",
+      "V00551",
+      "V00552",
+      "V00553",
+      "V00554",
+      "V00555",
+      "V00556",
+      "V00557",
+      "V00558",
+      "V00559",
+      "V00560",
+      "V00561",
+      "V00562",
+      "V00563",
+      "V00564",
+      "V00565",
+      "V00566",
+      "V00567",
+      "V00568",
+      "V00569",
+      "V00570",
+      "V00571",
+      "V00572",
+      "V00573",
+      "V00574",
+      "V00575",
+      "V00576",
+      "V00577",
+      "V00578",
+      "V00579",
+      "V00580",
+      "V00581",
+      "V00582",
+      "V00583",
+      "V00584",
+      "V00585",
+      "V00586",
+      "V00587",
+      "V00588",
+      "V00593",
+      "V00594",
+      "V00595",
+      "V00596",
+      "V00597",
+      "V00598",
+      "V00599",
+      "V00600",
+      "V00601",
+      "V00602",
+      "V00603",
+      "V00604",
+      "V00605",
+      "V00606",
+      "V00607",
+      "V00608",
+      "V00609",
+      "V00610",
+      "V00611",
+      "V00612",
+      "V00613",
+      "V00614",
+      "V00615",
+      "V00616",
+      "V00657",
+      "V00658",
+      "V00671",
+      "V00672",
+      "V00673",
+      "V00674",
+      "V00675",
+      "V00676",
+      "V00677",
+      "V00678",
+      "V00679",
+      "V00680",
+      "V00681",
+      "V00682",
+      "V00683",
+      "V00684",
+      "V00685",
+      "V00686",
+      "V00687",
+      "V00688",
+      "V00689",
+      "V00690",
+      "V00691",
+      "V00692",
+      "V00693",
+      "V00694",
+      "V00695",
+      "V00696",
+      "V00697",
+      "V00698",
+      "V00699",
+      "V00700",
+      "V00701",
+      "V00702",
+      "V00703",
+      "V00704",
+      "V00705",
+      "V00706",
+      "V00872",
+      "V00873"
+    ]
+  },
+  "summary_by_dimension": {
+    "market": {
+      "moneyline": {
+        "VERIFIED_PRE_GAME": 60,
+        "PARTIALLY_SUPPORTED": 50,
+        "UNSUPPORTED": 407,
+        "REJECTED": 7,
+        "VERIFIED_PRICE_TIMING_UNKNOWN": 59
+      },
+      "spread": {
+        "PARTIALLY_SUPPORTED": 119,
+        "VERIFIED_PRE_GAME": 74,
+        "UNSUPPORTED": 462,
+        "REJECTED": 4,
+        "VERIFIED_PRICE_TIMING_UNKNOWN": 52
+      },
+      "total": {
+        "PARTIALLY_SUPPORTED": 130,
+        "VERIFIED_PRE_GAME": 74,
+        "UNSUPPORTED": 444,
+        "VERIFIED_PRICE_TIMING_UNKNOWN": 52,
+        "REJECTED": 1
+      }
+    },
+    "season": {
+      "2023": {
+        "PARTIALLY_SUPPORTED": 119,
+        "VERIFIED_PRE_GAME": 70,
+        "UNSUPPORTED": 257,
+        "REJECTED": 7
+      },
+      "2024": {
+        "UNSUPPORTED": 563,
+        "REJECTED": 2,
+        "PARTIALLY_SUPPORTED": 35,
+        "VERIFIED_PRICE_TIMING_UNKNOWN": 4,
+        "VERIFIED_PRE_GAME": 88
+      },
+      "2025": {
+        "VERIFIED_PRICE_TIMING_UNKNOWN": 159,
+        "PARTIALLY_SUPPORTED": 145,
+        "UNSUPPORTED": 279,
+        "VERIFIED_PRE_GAME": 50,
+        "REJECTED": 3
+      },
+      "2026": {
+        "UNSUPPORTED": 214
+      }
+    },
+    "sportsbook": {
+      "BetMGM": {
+        "UNSUPPORTED": 219,
+        "VERIFIED_PRE_GAME": 126,
+        "PARTIALLY_SUPPORTED": 59,
+        "VERIFIED_PRICE_TIMING_UNKNOWN": 157,
+        "REJECTED": 3
+      },
+      "Caesars": {
+        "VERIFIED_PRE_GAME": 4,
+        "PARTIALLY_SUPPORTED": 13,
+        "UNSUPPORTED": 146,
+        "REJECTED": 1
+      },
+      "DraftKings": {
+        "PARTIALLY_SUPPORTED": 157,
+        "VERIFIED_PRE_GAME": 72,
+        "UNSUPPORTED": 648,
+        "REJECTED": 8,
+        "VERIFIED_PRICE_TIMING_UNKNOWN": 4
+      },
+      "FanDuel": {
+        "UNSUPPORTED": 195,
+        "VERIFIED_PRE_GAME": 4,
+        "PARTIALLY_SUPPORTED": 37
+      },
+      "bet365": {
+        "VERIFIED_PRE_GAME": 2,
+        "PARTIALLY_SUPPORTED": 30,
+        "UNSUPPORTED": 78,
+        "VERIFIED_PRICE_TIMING_UNKNOWN": 2
+      },
+      "null": {
+        "PARTIALLY_SUPPORTED": 3,
+        "UNSUPPORTED": 27
+      }
+    },
+    "pregame_timing_status": {
+      "AFTER_GAME_DATE": {
+        "VERIFIED_PRICE_TIMING_UNKNOWN": 89,
+        "PARTIALLY_SUPPORTED": 6,
+        "REJECTED": 1
+      },
+      "AFTER_OFFICIAL_SCHEDULED_START": {
+        "VERIFIED_PRICE_TIMING_UNKNOWN": 66
+      },
+      "ALTERNATIVE_PRE_GAME_PRICE_ONLY": {
+        "PARTIALLY_SUPPORTED": 21,
+        "VERIFIED_PRICE_TIMING_UNKNOWN": 2,
+        "REJECTED": 4
+      },
+      "BEFORE_CORRECTED_GAME_DATE": {
+        "PARTIALLY_SUPPORTED": 4
+      },
+      "NO_INDEPENDENT_TIMING_EVIDENCE": {
+        "PARTIALLY_SUPPORTED": 262,
+        "UNSUPPORTED": 1313,
+        "REJECTED": 7
+      },
+      "PRE_GAME_VERIFIED": {
+        "VERIFIED_PRE_GAME": 208
+      },
+      "SAME_DAY_START_UNRESOLVED": {
+        "VERIFIED_PRICE_TIMING_UNKNOWN": 6,
+        "PARTIALLY_SUPPORTED": 6
+      }
+    }
+  },
+  "contradictory_same_capture_records": [
+    "O0305"
+  ],
+  "differing_or_unattributed_book_context_records": [
+    "O0097"
+  ],
+  "demonstrably_incorrect_nonmissing_book_records": [],
+  "original_quote_bytes_available_records": 356,
+  "capture_reused_as_quote_field_records": 544,
+  "actual_quote_timestamps_verified": 0,
+  "opening_claim_records": 25,
+  "closing_claim_records": 0,
+  "approved_records": 0,
+  "exact_claim_duplicate_rows": [],
+  "same_value_repeat_rows": 106,
+  "prior_rejection_basis": {
+    "PRIOR_REJECTION_RETAINED_NOT_ALL_ORIGINAL_SOURCE_REASONS_INDEPENDENTLY_REPRODUCED": 9,
+    "INDEPENDENT_CAPTURE_PRINTS_SPREAD_NOT_MONEYLINE": 2,
+    "INDEPENDENT_CAPTURE_CONTRADICTS_SIGN_OR_VALUE": 1
+  }
+}

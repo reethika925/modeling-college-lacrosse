@@ -1,0 +1,17 @@
+{
+  "description": "Evidence-backed selection among existing NCAA records; never inserts or edits a game.",
+  "resolutions": [
+    {
+      "game_id": "6311207",
+      "keep_game_date": "2025-02-22",
+      "home_team_slug": "le-moyne",
+      "away_team_slug": "lafayette",
+      "home_score": 4,
+      "away_score": 15,
+      "game_page_url": "https://www.ncaa.com/game/6386400",
+      "evidence_url": "https://goleopards.com/news/2025/2/22/mens-lacrosse-mens-lacrosse-dominates-le-moyne-on-the-road.aspx",
+      "evidence_checked_date": "2026-11-09",
+      "reason": "NCAA repeats this same game ID and detail-page URL on February 22 and February 23. Lafayette's official final recap identifies February 22, 2025 and a 15-4 Lafayette victory. Retain the existing February 22 record; preserve both original JSON responses and export both duplicate rows for audit."
+    }
+  ]
+}

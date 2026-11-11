@@ -1,0 +1,3 @@
+record_id,event_date,captured_at,source_url,measurement,notes
+SYNTHETIC_001,2025-02-01,2025-01-31T12:00:00Z,https://example.invalid/synthetic-source,10,
+SYNTHETIC_002,2025-02-02,2025-02-01T12:00:00+00:00,https://example.invalid/synthetic-source,20,TEST_ONLY

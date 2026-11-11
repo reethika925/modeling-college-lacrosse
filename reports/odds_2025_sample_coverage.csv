@@ -1,0 +1,21 @@
+game_id,season,game_date,game_datetime_utc,home_team,away_team,home_team_slug,away_team_slug,home_score,away_score,sample_stratum,verified_odds_records,verified_bookmakers,exclusion_reason
+6313182,2025,2025-02-01,,Ohio St.,Utah,ohio-st,utah,13,19,other_programs,0,0,no_eligible_free_historical_quote_obtained
+6310110,2025,2025-02-08,,Jacksonville,Duke,jacksonville,duke,9,14,prominent_program,0,0,no_eligible_free_historical_quote_obtained
+6309818,2025,2025-02-15,,LIU,Iona,long-island,iona,14,9,other_programs,0,0,no_eligible_free_historical_quote_obtained
+6310117,2025,2025-02-22,,Duke,Michigan,duke,michigan,8,7,prominent_program,0,0,no_eligible_free_historical_quote_obtained
+6309876,2025,2025-02-28,,UMBC,Towson,umbc,towson,10,17,other_programs,0,0,no_eligible_free_historical_quote_obtained
+6310482,2025,2025-03-01,,Mercer,Drexel,mercer,drexel,6,21,other_programs,0,0,no_eligible_free_historical_quote_obtained
+6309494,2025,2025-03-08,,Princeton,Rutgers,princeton,rutgers,11,5,prominent_program,0,0,no_eligible_free_historical_quote_obtained
+6310179,2025,2025-03-15,,Lafayette,Holy Cross,lafayette,holy-cross,13,8,other_programs,0,0,no_eligible_free_historical_quote_obtained
+6311565,2025,2025-03-22,,Yale,Cornell,yale,cornell,14,19,prominent_program,0,0,no_eligible_free_historical_quote_obtained
+6310230,2025,2025-03-29,,Saint Joseph's,Massachusetts,saint-josephs,massachusetts,10,11,other_programs,0,0,no_eligible_free_historical_quote_obtained
+6313207,2025,2025-04-04,,UMBC,UMass Lowell,umbc,umass-lowell,14,4,other_programs,0,0,no_eligible_free_historical_quote_obtained
+6309806,2025,2025-04-05,,Rutgers,Maryland,rutgers,maryland,8,6,prominent_program,0,0,no_eligible_free_historical_quote_obtained
+6309861,2025,2025-04-19,,Virginia,Lafayette,virginia,lafayette,13,8,prominent_program,0,0,no_eligible_free_historical_quote_obtained
+6310263,2025,2025-04-19,,LIU,Le Moyne,long-island,le-moyne,13,6,other_programs,0,0,no_eligible_free_historical_quote_obtained
+6381081,2025,2025-04-29,,Lehigh,Colgate,lehigh,colgate,10,14,other_programs,0,0,no_eligible_free_historical_quote_obtained
+6380961,2025,2025-05-01,,Bryant,Binghamton,bryant,binghamton,10,9,other_programs,0,0,no_eligible_free_historical_quote_obtained
+589864,2025,2025-05-07,2025-05-07T23:00:00+00:00,UAlbany,Siena,albany-ny,siena,11,9,other_programs,0,0,no_eligible_free_historical_quote_obtained
+589857,2025,2025-05-24,2025-05-24T16:00:00+00:00,Cornell,Penn St.,cornell,penn-st,11,9,championship_weekend_anchor,0,0,candidate_reference_excluded_postgame_page_modification
+589858,2025,2025-05-24,2025-05-24T18:30:00+00:00,Maryland,Syracuse,maryland,syracuse,14,8,championship_weekend_anchor,0,0,candidate_reference_excluded_postgame_page_modification
+589856,2025,2025-05-26,2025-05-26T17:00:00+00:00,Cornell,Maryland,cornell,maryland,13,10,championship_weekend_anchor,0,0,candidate_reference_excluded_postgame_page_modification

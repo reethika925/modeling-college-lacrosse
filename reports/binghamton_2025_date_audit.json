@@ -1,0 +1,82 @@
+{
+  "review_date": "2026-11-10",
+  "scope": "Targeted public-page evidence review of two existing games; no additional dataset acquired",
+  "finding": "Two distinct genuine games, one stored-date error; not duplicate game records",
+  "records": [
+    {
+      "game_id": "6312399",
+      "game_page_url": "https://www.ncaa.com/game/6386469",
+      "stored_date": "2025-04-05",
+      "home_team": "Binghamton",
+      "away_team": "UAlbany",
+      "home_score": 9,
+      "away_score": 11,
+      "evidence_supported_date": "2025-04-05",
+      "classification": "VALID_DISTINCT_GAME_DATE_CORROBORATED",
+      "sources": ["ualbany_recap", "binghamton_albany_boxscore", "binghamton_schedule"]
+    },
+    {
+      "game_id": "6371921",
+      "game_page_url": "https://www.ncaa.com/game/6449835",
+      "stored_date": "2025-04-05",
+      "home_team": "UMBC",
+      "away_team": "Binghamton",
+      "home_score": 17,
+      "away_score": 7,
+      "evidence_supported_date": "2025-04-12",
+      "classification": "VALID_DISTINCT_GAME_WITH_INCORRECT_STORED_DATE",
+      "sources": ["binghamton_umbc_recap", "binghamton_schedule", "umbc_schedule", "conference_schedule"],
+      "conflicting_sources": ["umbc_boxscore_metadata", "cached_ncaa_json"],
+      "root_cause": "NOT_ESTABLISHED; conflicting date metadata exists upstream, not merely in the processed CSV"
+    }
+  ],
+  "sources": {
+    "ualbany_recap": {
+      "url": "https://ualbanysports.com/news/2025/4/5/mens-lacrosse-mens-lacrosse-storms-back-for-win-over-binghamton.aspx",
+      "publisher": "UAlbany Athletics",
+      "paraphrased_evidence": "April 5, 2025 recap, timestamp 5:10 PM, identifies UAlbany winning 11-9 at Binghamton."
+    },
+    "binghamton_albany_boxscore": {
+      "url": "https://binghamtonbearcats.com/sports/mens-lacrosse/stats/2025/university-at-albany/boxscore/14834",
+      "publisher": "Binghamton Athletics",
+      "paraphrased_evidence": "Game date April 5, 2025, final UAlbany 11 and Binghamton 9, in Vestal."
+    },
+    "binghamton_umbc_recap": {
+      "url": "https://binghamtonbearcats.com/news/2025/4/12/mens-lacrosse-mens-lacrosse-defeated-by-umbc.aspx",
+      "publisher": "Binghamton Athletics",
+      "paraphrased_evidence": "Recap timestamp April 12, 2025, 2:16 PM and final-game panel identify a 17-7 UMBC win in Baltimore."
+    },
+    "binghamton_schedule": {
+      "url": "https://binghamtonbearcats.com/sports/mens-lacrosse/schedule/2025",
+      "publisher": "Binghamton Athletics",
+      "paraphrased_evidence": "Lists a 9-11 home loss to UAlbany April 5, then a 7-17 away loss at UMBC April 12, followed by Bryant April 19."
+    },
+    "umbc_schedule": {
+      "url": "https://umbcretrievers.com/sports/mens-lacrosse/schedule/2025",
+      "publisher": "UMBC Athletics",
+      "paraphrased_evidence": "Lists UMass Lowell April 4, Binghamton April 12 with a 17-7 win, and NJIT April 19."
+    },
+    "conference_schedule": {
+      "url": "https://americaeast.com/schedule.aspx?schedule=5948",
+      "publisher": "America East Conference",
+      "paraphrased_evidence": "UMBC schedule lists Binghamton on April 12, 2025, with a 17-7 home win."
+    },
+    "umbc_boxscore_metadata": {
+      "url": "https://umbcretrievers.com/sports/mens-lacrosse/stats/2025/binghamton/boxscore/9118",
+      "publisher": "UMBC Athletics",
+      "paraphrased_evidence": "Page title identifies April 12, but its internal Date field says April 5, 2025; final remains UMBC 17-7 Binghamton. This is a documented contradiction."
+    },
+    "cached_ncaa_json": {
+      "local_path": "data/raw/games/2025/2025-04-05.json",
+      "url": "https://data.ncaa.com/casablanca/scoreboard/lacrosse-men/d1/2025/04/05/scoreboard.json",
+      "paraphrased_evidence": "The existing cached raw record for gameID 6371921 itself has startDate 04-05-2025, with UMBC 17 and Binghamton 7. No new NCAA request was made."
+    }
+  },
+  "evidence_limitations": [
+    "Public official pages were read during this audit, not independently archived as they appeared in 2025.",
+    "Schedule and box-score components may share upstream providers; source counts do not imply statistical independence.",
+    "The audit supports April 12 from contemporaneously dated recap and corroborating schedules, while explicitly retaining conflicting metadata."
+  ],
+  "action_taken": "Documentation only; no source records, features, predictions, metrics or figures changed",
+  "planned_follow_up": "Create an explicit evidence-backed date-resolution rule in a later version, preserve raw inputs, then rerun the existing pipeline and evaluation. Do not silently deduplicate or remove either genuine game."
+}

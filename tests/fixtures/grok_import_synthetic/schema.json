@@ -1,0 +1,8 @@
+{
+  "expected_columns": ["record_id", "event_date", "captured_at", "source_url", "measurement", "notes"],
+  "required_columns": ["record_id", "event_date", "captured_at", "source_url"],
+  "non_nullable": ["record_id", "event_date", "captured_at", "source_url"],
+  "unique_key": ["record_id"],
+  "date_columns": {"event_date": "ISO_DATE", "captured_at": "ISO_DATETIME"},
+  "source_url_columns": ["source_url"]
+}

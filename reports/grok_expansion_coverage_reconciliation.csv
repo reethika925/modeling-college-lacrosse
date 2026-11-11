@@ -1,0 +1,5 @@
+season,supplier_flagged_complete_ml_games,strict_dated_raw_event_complete_ml,matched_all_markets,matched_complete_ml,authenticated_display_games,authenticated_ml_games,direct_authenticated_ml_games,editorial_only_authenticated_ml_games,approved_games
+2023,40,39,55,37,9,9,3,6,0
+2024,103,103,111,103,14,14,14,0,0
+2025,92,92,92,90,6,6,5,1,0
+2026,34,34,0,0,0,0,0,0,0

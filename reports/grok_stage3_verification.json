@@ -1,0 +1,80 @@
+{
+  "verified_at_utc": "2026-11-10T21:48:06.787769+00:00",
+  "protected_preexisting_files": 457,
+  "changed_files": [],
+  "missing_files": [],
+  "all_originals_preserved": true,
+  "audit_exit_code": 0,
+  "test_command": "/Users/kiri/miniconda3/bin/conda run --no-capture-output -n dsf-lacrosse python -m pytest -q tests/test_grok_stage3_odds.py tests/test_grok_stage2_games_stats.py tests/test_validate_incoming.py",
+  "test_exit_code": 0,
+  "tests_passed": 100,
+  "test_result": "100 passed in 1.09s",
+  "actual_records": 1995,
+  "evidence_sample_rows": 40,
+  "unmatched_rows": 264,
+  "matched_games": 258,
+  "structural_matched_moneyline_games": 230,
+  "structural_multiple_book_moneyline_games": 9,
+  "authenticated_quotes": 0,
+  "cleared_records": 0,
+  "created_files": [
+    {
+      "path": "reports/grok_stage3_odds_audit.md",
+      "bytes": 28305,
+      "sha256": "934f776820f940645e9e1db948db9cc5a3fc103a0837826cd14ea5c3e2ad7175"
+    },
+    {
+      "path": "reports/grok_stage3_odds_coverage.csv",
+      "bytes": 1667,
+      "sha256": "eef619be8baa0976802daa3dd3b32a61f291a42935905edd5683f40a642f479d"
+    },
+    {
+      "path": "reports/grok_stage3_source_permissions.csv",
+      "bytes": 26723,
+      "sha256": "f0a39a2699f6254951ec111408eff5247fef212e24bad0e7267dcfa43161aae9"
+    },
+    {
+      "path": "reports/grok_stage3_unmatched_odds.csv",
+      "bytes": 441939,
+      "sha256": "318d48c41e612b8eff930781c58298c00b13ca4f894e803cdec148dbc78a2e62"
+    },
+    {
+      "path": "reports/grok_stage3_evidence_sample.csv",
+      "bytes": 77749,
+      "sha256": "bb579b48bb74eb5fecc69ae39c62f1c1d4135fb73213122943214ca77a368600"
+    },
+    {
+      "path": "reports/grok_stage3_record_checks.csv",
+      "bytes": 2960606,
+      "sha256": "4f4b926267c8c2b5631a750632d892ae1f53aecba829c44df215893df40222fc"
+    },
+    {
+      "path": "reports/grok_stage3_market_groups.csv",
+      "bytes": 171934,
+      "sha256": "0f7e682644372eb0c83f2b5bb35e0b204fac1d76ffa6f007fe7510605934edd3"
+    },
+    {
+      "path": "reports/grok_stage3_checks.json",
+      "bytes": 13979,
+      "sha256": "ca0a00e3a0073f30d10077dacdc7a10784011bf7eaa646793d8c59f6497beb18"
+    },
+    {
+      "path": "reports/grok_stage3_existing_checksums.json",
+      "bytes": 59443,
+      "sha256": "7927d2535be5ef4cc974be810575428aa94bc18ed5dff123af8377f232597ad4"
+    },
+    {
+      "path": "src/audit_grok_odds.py",
+      "bytes": 53609,
+      "sha256": "0c0c3cf56a77a4ab60aedf65455a4dc052e5bcc60a40545ce43f7cf41d3c6ba5"
+    },
+    {
+      "path": "tests/test_grok_stage3_odds.py",
+      "bytes": 10009,
+      "sha256": "054615d530979b50541b327f003c9e49d5ab90c41dec81c37701741827bfae31"
+    }
+  ],
+  "verification_file": "reports/grok_stage3_verification.json",
+  "new_network_requests": 0,
+  "models_run": 0
+}

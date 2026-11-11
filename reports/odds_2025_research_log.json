@@ -1,0 +1,37 @@
+{
+  "research_date": "2026-11-09",
+  "timezone": "America/New_York",
+  "methods": ["Public web search and primary publisher pages", "Ordinary Python requests for Cradl landing and policy pages", "Connected GitHub read-only repository search and file-tree inspection"],
+  "web_queries_executed": [
+    "2025 NCAA lacrosse historical odds results oddsportal",
+    "Cornell Maryland May 26 2025 odds DraftKings spread moneyline",
+    "cradllax results 2025 odds sportsbook",
+    "github NCAA lacrosse odds 2025 dataset",
+    "\"lacrosse\" \"2025\" \"historical odds\" dataset",
+    "site.betonlacrosse.com \"2025\" \"May 24\" odds",
+    "site.betonlacrosse.com \"2025\" \"May 26\" picks",
+    "site.oddsportal.com lacrosse ncaa 2025 results",
+    "site.betexplorer.com lacrosse 2025 NCAA odds",
+    "site.zenodo.org lacrosse betting odds dataset",
+    "site.github.com lacrosse betting 2025 csv",
+    "\"lacrosse\" \"odds\" \"2025\" \"CSV\"",
+    "\"NCAA lacrosse\" \"historical\" betting data dataset"
+  ],
+  "github_searches": [
+    {"query": "lacrosse odds", "kind": "repository search", "repositories_returned": 0},
+    {"query": "lacrosse betting", "kind": "repository search", "repositories_returned": 1, "candidate": "https://github.com/Tpanda03/LacrosseBetting"},
+    {"query": "odds", "repository": "octonion/lacrosse", "kind": "scoped file search", "matching_files_returned": 0}
+  ],
+  "pinned_repository_inspections": [
+    {"repository": "https://github.com/octonion/lacrosse", "commit": "679c40999c7c5184dae06806f57ad5c65b60e704", "tree_paths": 3816, "truncated": false, "finding": "No 2025 odds paths identified; NCAA game CSV paths through 2023; predicted spread SQL is not observed bookmaker pricing"},
+    {"repository": "https://github.com/Tpanda03/LacrosseBetting", "commit": "88465b63f32cf83cda924593025bc0bfe48b1c86", "finding": "README describes odds generated from statistics; rejected without executing code"}
+  ],
+  "other_access_results": [
+    {"url": "https://www.oddsportal.com/lacrosse/", "result": "Web tool could not access page; NCAA 2025 coverage not verified; no bypass attempted"},
+    {"url": "https://www.betexplorer.com/lacrosse/", "result": "Web tool could not access page; NCAA 2025 coverage not verified; no bypass attempted"},
+    {"url": "https://sports.yahoo.com/articles/watch-ncaa-lacrosse-final-four-113000741.html", "http_status": 429, "result": "Rate limited; no retries or alternative Yahoo URL used"},
+    {"url": "https://the-odds-api.com/robots.txt", "http_status": 302, "location": "/404.html", "result": "Python probe stopped; public documentation read through web tool; no API call"},
+    {"url": "https://cradllax.com/robots.txt", "http_status": 200, "result": "Public pages allowed; /api disallowed. Terms were read; scraping prohibited. No filtered 2025 result pages or game APIs fetched."}
+  ],
+  "limits": "This is a bounded search, not proof that no free dataset exists anywhere. No accounts, credentials, subscriptions, purchases, forms, CAPTCHAs or access-control bypasses were used. No professional/women's/club/soccer data were substituted."
+}

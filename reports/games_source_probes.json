@@ -1,0 +1,212 @@
+{
+  "probes": [
+    {
+      "source": "NCAA webpage",
+      "url": "https://www.ncaa.com/scoreboard/lacrosse-men/d1",
+      "retrieved_at": "2026-11-09T20:50:00-05:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "available_event_count": null,
+      "response_excerpt": "<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\" prefix=\"og: https://ogp.me/ns#\">\n  <head>\n    <meta charset=\"utf-8\" />\n<script type=\"text/javascript\">var turner_metadata = {\"page_name\":\"ncaa college men's l"
+    },
+    {
+      "source": "NCAA JSON",
+      "url": "https://data.ncaa.com/casablanca/scoreboard/lacrosse-men/d1/2025/01/01/scoreboard.json",
+      "retrieved_at": "2026-11-09T20:50:01-05:00",
+      "http_status": 404,
+      "content_type": "application/xml",
+      "available_event_count": null,
+      "response_excerpt": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>casablanca/scoreboard/lacrosse-men/d1/2025/01/01/scoreboard.json</Key><Requ"
+    },
+    {
+      "source": "NCAA JSON",
+      "url": "https://data.ncaa.com/casablanca/scoreboard/lacrosse-men/d1/2025/03/15/scoreboard.json",
+      "retrieved_at": "2026-11-09T20:50:04-05:00",
+      "http_status": 200,
+      "content_type": "application/json",
+      "available_event_count": 32,
+      "top_level_keys": [
+        "inputMD5Sum",
+        "instanceId",
+        "updated_at",
+        "games",
+        "hideRank"
+      ],
+      "schema_sample": [
+        {
+          "game": {
+            "gameID": "6309496",
+            "away": {
+              "score": "10",
+              "names": {
+                "char6": "PRINCE",
+                "short": "Princeton",
+                "seo": "princeton",
+                "full": "Princeton University"
+              },
+              "winner": false,
+              "seed": "",
+              "description": "(4-3)",
+              "rank": "",
+              "conferences": [
+                {
+                  "conferenceName": "Ivy League",
+                  "conferenceSeo": "ivy-league"
+                }
+              ]
+            },
+            "finalMessage": "FINAL",
+            "bracketRound": "",
+            "title": "Cornell Princeton",
+            "contestName": "",
+            "url": "/game/6386057",
+            "network": "",
+            "home": {
+              "score": "15",
+              "names": {
+                "char6": "CORN",
+                "short": "Cornell",
+                "seo": "cornell",
+                "full": "Cornell University"
+              },
+              "winner": true,
+              "seed": "",
+              "description": "(5-1)",
+              "rank": "",
+              "conferences": [
+                {
+                  "conferenceName": "Ivy League",
+                  "conferenceSeo": "ivy-league"
+                }
+              ]
+            },
+            "liveVideoEnabled": false,
+            "startTime": "TBA",
+            "startTimeEpoch": "1742011200",
+            "bracketId": "",
+            "gameState": "final",
+            "startDate": "03-15-2025",
+            "currentPeriod": "FINAL",
+            "videoState": "",
+            "bracketRegion": "",
+            "contestClock": "0:00"
+          }
+        }
+      ]
+    },
+    {
+      "source": "NCAA JSON",
+      "url": "https://data.ncaa.com/casablanca/scoreboard/lacrosse-men/d1/2025/05/26/scoreboard.json",
+      "retrieved_at": "2026-11-09T20:50:04-05:00",
+      "http_status": 200,
+      "content_type": "application/json",
+      "available_event_count": 1,
+      "top_level_keys": [
+        "inputMD5Sum",
+        "instanceId",
+        "updated_at",
+        "games",
+        "hideRank"
+      ],
+      "schema_sample": [
+        {
+          "game": {
+            "gameID": "589856",
+            "away": {
+              "score": "10",
+              "names": {
+                "char6": "MD",
+                "short": "Maryland",
+                "seo": "maryland",
+                "full": "University of Maryland, College Park"
+              },
+              "winner": false,
+              "seed": "2",
+              "description": "(14-3)",
+              "rank": "",
+              "conferences": [
+                {
+                  "conferenceName": "Big Ten",
+                  "conferenceSeo": "big-ten"
+                }
+              ]
+            },
+            "finalMessage": "FINAL",
+            "bracketRound": "Championship",
+            "title": "Cornell Maryland",
+            "contestName": "",
+            "url": "/game/6448517",
+            "network": "ESPN",
+            "home": {
+              "score": "13",
+              "names": {
+                "char6": "CORN",
+                "short": "Cornell",
+                "seo": "cornell",
+                "full": "Cornell University"
+              },
+              "winner": true,
+              "seed": "1",
+              "description": "(17-1)",
+              "rank": "",
+              "conferences": [
+                {
+                  "conferenceName": "Ivy League",
+                  "conferenceSeo": "ivy-league"
+                }
+              ]
+            },
+            "liveVideoEnabled": false,
+            "startTime": "01:00PM ET",
+            "startTimeEpoch": "1748278800",
+            "bracketId": "501",
+            "gameState": "final",
+            "startDate": "05-26-2025",
+            "currentPeriod": "FINAL",
+            "videoState": "",
+            "bracketRegion": "",
+            "contestClock": "0:00"
+          }
+        }
+      ]
+    },
+    {
+      "source": "ESPN JSON",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/lacrosse/mens-college-lacrosse/scoreboard?dates=20250315",
+      "retrieved_at": "2026-11-09T20:50:05-05:00",
+      "http_status": null,
+      "content_type": null,
+      "available_event_count": null,
+      "error": "robots.txt HTTP 403: https://site.api.espn.com; endpoint not requested"
+    },
+    {
+      "source": "ESPN JSON",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/lacrosse/mens-college-lacrosse/scoreboard?dates=20250526",
+      "retrieved_at": "2026-11-09T20:50:06-05:00",
+      "http_status": null,
+      "content_type": null,
+      "available_event_count": null,
+      "error": "Source previously denied access: https://site.api.espn.com"
+    }
+  ],
+  "robots_checks": [
+    {
+      "url": "https://www.ncaa.com/robots.txt",
+      "http_status": 200,
+      "retrieved_at": "2026-11-09T20:50:00-05:00",
+      "body": "# Standard user agents\nUser-agent: *\n# CSS, JS, Images\nAllow: /core/*.css$\nAllow: /core/*.css?\nAllow: /core/*.js$\nAllow: /core/*.js?\nAllow: /core/*.gif\nAllow: /core/*.jpg\nAllow: /core/*.jpeg\nAllow: /core/*.png\nAllow: /core/*.svg\n# Directories\nDisallow: /core/\n# Files\nDisallow: /README.txt\nDisallow: /web.config\n# Paths (clean URLs)\nDisallow: /admin/\nDisallow: /comment/reply/\nDisallow: /filter/tips\nDisallow: /node/add/\nDisallow: /search/\nDisallow: /webview\nDisallow: /user/register\nDisallow: /user/password\nDisallow: /user/login\nDisallow: /user/logout\n# Paths (no clean URLs)\nDisallow: /index.php/admin/\nDisallow: /index.php/comment/reply/\nDisallow: /index.php/filter/tips\nDisallow: /index.php/node/add/\nDisallow: /index.php/search/\nDisallow: /index.php/user/password\nDisallow: /index.php/user/register\nDisallow: /index.php/user/login\nDisallow: /index.php/user/logout\n# Directories\nDisallow: /includes/\nDisallow: /core/\nDisallow: /misc/\nDisallow: /modules/\n# Files\nDisallow: /CHANGELOG.txt\nDisallow: /cron.php\nDisallow: /INSTALL.mysql.txt\nDisallow: /INSTALL.pgsql.txt\nDisallow: /install.php\nDisallow: /INSTALL.txt\nDisallow: /LICENSE.txt\nDisallow: /MAINTAINERS.txt\nDisallow: /update.php\nDisallow: /UPGRADE.txt\nDisallow: /xmlrpc.php\n# Paths (clean URLs)\nDisallow: /saml_login\nDisallow: /simplesaml\nDisallow: /imce\n# Paths (no clean URLs)\nDisallow: /?q=*\nDisallow: /nst-fa/\nDisallow: /index.php\nDisallow: /index.php/*\n# old/migrated file sources\nAllow: /sites/default/files/external/assets/\nAllow: /sites/default/files/external/printable-bracket/\nAllow: /sites/default/files/external/gametool/brackets/\nAllow: /sites/default/files/legacy/\n# css\nAllow: /modules/custom/*.css\nAllow: /modules/custom/*/css/\nAllow: /modules/custom/*/modules/*/css/\nAllow: /themes/custom/*/css/\nAllow: /modules/contrib/*.css\nAllow: /modules/contrib/*/css/\nAllow: /modules/contrib/*/modules/*/css/\nAllow: /themes/contrib/*/css/\n# img\nAllow: /modules/custom/*/img/\nAllow: /modules/custom/*/modules/*/img/\nAllow: /themes/custom/*/img/\nAllow: /themes/custom/*/assets/\nAllow: /modules/contrib/*/img/\nAllow: /modules/contrib/*/modules/*/img/\nAllow: /themes/contrib/*/img/\nAllow: /themes/contrib/*/assets/\n# js\nAllow: /modules/custom/*/js/\nAllow: /modules/custom/*/lib/\nAllow: /modules/custom/*/templates/compiled/\nAllow: /modules/custom/*/dist/\nAllow: /modules/custom/*/pkg/\nAllow: /themes/custom/*/js/\nAllow: /modules/contrib/*/js/\nAllow: /themes/contrib/*/js/\nAllow: /_ssr/live-updates/\nAllow: /_nuxt/\n# libraries\nAllow: /modules/custom/casablanca_libraries/\n# AI Training Bots\nUser-agent: AI2Bot\nUser-agent: Ai2Bot-Dolma\nUser-agent: anthropic-ai\nUser-agent: Applebot-Extended\nUser-agent: Bytespider\nUser-agent: CCBot\nUser-agent: ChatGPT-User\nUser-agent: ClaudeBot\nUser-agent: Claude-Web\nUser-agent: cohere-ai\nUser-agent: cohere-training-data-crawler\nUser-agent: Diffbot\nUser-agent: FacebookBot\nUser-agent: Google-Extended\nUser-agent: GPTBot\nUser-agent: Kangaroo Bot\nUser-agent: Meta-ExternalAgent\nUser-agent: meta-externalagent\nUser-agent: Meta-ExternalFetcher\nUser-agent: meta-externalfetcher\nUser-agent: omgili\nUser-agent: omgilibot\nUser-agent: Timpibot\nUser-agent: Webzio-Extended\nDisallow: /\n# Data Collection Bots\nUser-agent: magpie-crawler\nUser-agent: Scrapy\nDisallow: /\n# Sitemaps\nSitemap: https://www.ncaa.com/sites/default/files/public/sitemaps/article-sitemap.xml\nSitemap: https://www.ncaa.com/sites/default/files/public/sitemaps/brackets-sitemap.xml\nSitemap: https://www.ncaa.com/sites/default/files/public/sitemaps/superpage-sitemap.xml\nSitemap: https://www.ncaa.com/sites/default/files/public/sitemaps/video-sitemap.xml\nSitemap: https://www.ncaa.com/sites/default/files/public/sitemaps/page-sitemap.xml\nSitemap: https://www.ncaa.com/sites/default/files/public/sitemaps/iframe-sitemap.xml\nSitemap: https://www.ncaa.com/sites/default/files/public/sitemaps/ranking-sitemap.xml\nSitemap: https://www.ncaa.com/sites/default/files/public/sitemaps/layout_page-sitemap.xml\nSitemap: https://www.ncaa.com/sites/default/files/public/sitemaps/tabbed_content-sitemap.xml\nSitemap: https://www.ncaa.com/sites/default/files/public/sitemaps/history-sitemap.xml\nSitemap: https://www.ncaa.com/sites/default/files/public/sitemaps/gamecenter_recent-sitemap.xml\nSitemap: https://www.ncaa.com/sites/default/files/public/sitemaps/gamecenter_archive-sitemap.xml\nSitemap: https://www.ncaa.com/sites/default/files/public/sitemaps/gamecenter_video-sitemap.xml\nSitemap: https://www.ncaa.com/sites/default/files/public/sitemaps/gamecenter_championship-sitemap.xml\nSitemap: https://www.ncaa.com/sitemap/news.xml\nSitemap: https://www.ncaa.com/sites/default/files/public/sitemaps/seo-sitemap.xml\n"
+    },
+    {
+      "url": "https://data.ncaa.com/robots.txt",
+      "http_status": 404,
+      "retrieved_at": "2026-11-09T20:50:03-05:00",
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>robots.txt</Key><RequestId>FKTPYSW8VX8K6JD1</RequestId><HostId>XgwZEilqE5g5Ttzu1lXRXLczqHamlm4gYSu8qir/nPoZbWHLhMFUeqOJVmMbpJN0l+BK+b2S6FVwCOfUCOyX3zfT1SjYqjMS</HostId></Error>"
+    },
+    {
+      "url": "https://site.api.espn.com/robots.txt",
+      "http_status": 403,
+      "retrieved_at": "2026-11-09T20:50:06-05:00",
+      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;site&#46;api&#46;espn&#46;com&#47;robots&#46;txt\" on this server.<P>\nReference&#32;&#35;18&#46;4e68d317&#46;1794275406&#46;9a6ac674\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;4e68d317&#46;1794275406&#46;9a6ac674</P>\n</BODY>\n</HTML>\n"
+    }
+  ]
+}

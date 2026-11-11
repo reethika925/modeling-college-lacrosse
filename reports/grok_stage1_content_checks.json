@@ -1,0 +1,660 @@
+{
+  "game_files": {
+    "2023": {
+      "rows": 567,
+      "seasons": {
+        "2023": 567
+      },
+      "date_range": [
+        "2023-02-04",
+        "2023-05-29"
+      ],
+      "duplicate_game_ids": 0,
+      "missing_or_invalid_scores": 0,
+      "negative_scores": 0,
+      "noninteger_scores": 0,
+      "ties": 0,
+      "statuses": {
+        "verified": 333,
+        "provisional": 234
+      },
+      "usable": 567,
+      "d1_vs_d1": 559,
+      "tba_with_populated_utc": 537
+    },
+    "2024": {
+      "rows": 570,
+      "seasons": {
+        "2024": 570
+      },
+      "date_range": [
+        "2024-02-03",
+        "2024-05-27"
+      ],
+      "duplicate_game_ids": 0,
+      "missing_or_invalid_scores": 0,
+      "negative_scores": 0,
+      "noninteger_scores": 0,
+      "ties": 0,
+      "statuses": {
+        "verified": 296,
+        "provisional": 274
+      },
+      "usable": 570,
+      "d1_vs_d1": 570,
+      "tba_with_populated_utc": 553
+    },
+    "2025": {
+      "rows": 580,
+      "seasons": {
+        "2025": 580
+      },
+      "date_range": [
+        "2025-02-01",
+        "2025-05-26"
+      ],
+      "duplicate_game_ids": 0,
+      "missing_or_invalid_scores": 0,
+      "negative_scores": 0,
+      "noninteger_scores": 0,
+      "ties": 0,
+      "statuses": {
+        "verified": 577,
+        "rejected": 2,
+        "provisional": 1
+      },
+      "usable": 578,
+      "d1_vs_d1": 578,
+      "tba_with_populated_utc": "NO_TBA_COLUMN"
+    }
+  },
+  "other_checks": {
+    "team_rows": 3428,
+    "team_seasons": {
+      "2023": 1132,
+      "2024": 1138,
+      "2025": 1158
+    },
+    "team_unique_games": 1714,
+    "team_duplicate_game_team_keys": 0,
+    "player_rows": 143882,
+    "player_seasons": {
+      "2023": 52735,
+      "2024": 57676,
+      "2025": 33471
+    },
+    "player_unique_games": 1668,
+    "player_team_keys": 3336,
+    "team_games_without_player_rows": 92,
+    "player_game_ids_missing_results": 0,
+    "team_emo_exceeds_opportunities": 11,
+    "team_emo_examples": [
+      {
+        "game_id": "6085451",
+        "team": "Quinnipiac",
+        "emo_goals": "4.0",
+        "emo_opportunities": "2.0",
+        "game_audit_status": "provisional"
+      },
+      {
+        "game_id": "6085693",
+        "team": "Merrimack",
+        "emo_goals": "2.0",
+        "emo_opportunities": "1.0",
+        "game_audit_status": "verified"
+      },
+      {
+        "game_id": "6269576",
+        "team": "Mercer",
+        "emo_goals": "3.0",
+        "emo_opportunities": "2.0",
+        "game_audit_status": "verified"
+      }
+    ],
+    "player_sog_exceeds_shots": 1,
+    "player_sog_examples": [
+      {
+        "game_id": "6269867",
+        "team": "Jacksonville",
+        "jersey": "5",
+        "shots_on_goal": "3",
+        "shots": "1",
+        "game_audit_status": "provisional"
+      }
+    ],
+    "odds_rows": 1995,
+    "odds_seasons": {
+      "2023": 453,
+      "2024": 692,
+      "2025": 636,
+      "2026": 214
+    },
+    "odds_unique_stored_game_ids": 308,
+    "odds_statuses": {
+      "requires_permission": 1983,
+      "rejected": 12
+    },
+    "odds_technical_statuses": {
+      "verified": 1887,
+      "provisional": 96,
+      "rejected": 12
+    },
+    "odds_by_source_dataset": {
+      "original": 1470,
+      "additional": 525
+    },
+    "odds_verified_in_raw_labels": {
+      "True": 1953,
+      "implied_not_printed": 39,
+      "False": 3
+    },
+    "original_odds_rows": 1470,
+    "original_odds_seasons": {
+      "2023": 440,
+      "2024": 584,
+      "2025": 440,
+      "2026": 6
+    },
+    "original_odds_unique_stored_game_ids": 224,
+    "crosswalk_match_status": {
+      "matched": 261,
+      "out_of_ncaa_file_season": 35,
+      "no_date_in_odds": 9,
+      "unmatched": 3
+    },
+    "odds_cleared_rows": 0,
+    "original_odds_hash": "a156ba06389acc2a3a4e0eadaaf33af361b081cc942d3f768fdc79b1d5ed42a1",
+    "raw_odds_example_present": false,
+    "extracted_formats": {
+      "HTML evidence/response": 53,
+      "Text": 27,
+      "CSV": 24,
+      "Python source (NOT EXECUTED)": 18,
+      "Markdown text": 6,
+      "JSON": 5,
+      "Text log": 4,
+      "Tab-separated text": 2
+    },
+    "direct_local_game_id_overlap": 1,
+    "local_game_url_id_overlap": 580,
+    "binghamton_package_records": [
+      {
+        "game_id": "6386469",
+        "game_date": "2025-04-05",
+        "home_team": "Binghamton",
+        "away_team": "UAlbany",
+        "home_score": "9.0",
+        "away_score": "11.0",
+        "audit_status": "verified"
+      },
+      {
+        "game_id": "6449835",
+        "game_date": "2025-04-12",
+        "home_team": "UMBC",
+        "away_team": "Binghamton",
+        "home_score": "17.0",
+        "away_score": "7.0",
+        "audit_status": "verified"
+      }
+    ]
+  },
+  "typed_csv_checks": [
+    {
+      "file": "/Users/kiri/Desktop/dsf-project/data/incoming/grok/stage1_28f5677d90c3/audit_package/corrected/ncaa_lacrosse_games_2023_corrected.csv",
+      "file_bytes": 288882,
+      "sha256_before": "3df34160cec417e683cb78b5a89fbdf34271032403cd94a96d6735ef05dd2f51",
+      "sha256_after": "3df34160cec417e683cb78b5a89fbdf34271032403cd94a96d6735ef05dd2f51",
+      "input_unchanged_during_check": true,
+      "expected_sha256": null,
+      "checksum_comparison": "NOT_PROVIDED",
+      "schema_supplied": true,
+      "encoding": "utf-8-sig (strict)",
+      "delimiter": ",",
+      "columns": [
+        "game_id",
+        "ncaa_legacy_game_id",
+        "season",
+        "game_date",
+        "start_time_utc",
+        "start_time_local_text",
+        "start_time_is_tba",
+        "home_team",
+        "away_team",
+        "home_team_id_ncaa",
+        "away_team_id_ncaa",
+        "home_team_seo",
+        "away_team_seo",
+        "home_team_full",
+        "away_team_full",
+        "home_conference",
+        "away_conference",
+        "home_score",
+        "away_score",
+        "winner",
+        "overtime",
+        "status",
+        "final_message",
+        "season_phase",
+        "bracket_round",
+        "neutral_site",
+        "neutral_site_basis",
+        "venue",
+        "involves_non_d1_opponent",
+        "winner_matches_source_flag",
+        "espn_event_id",
+        "espn_home_team_id",
+        "espn_away_team_id",
+        "espn_scores_agree",
+        "espn_home_away_agree",
+        "result_source",
+        "source_url",
+        "raw_scoreboard_url",
+        "original_game_date",
+        "corrections_applied",
+        "audit_status",
+        "audit_basis",
+        "involves_non_d1_opponent_audit",
+        "usable_result",
+        "usable_d1_vs_d1"
+      ],
+      "column_count": 45,
+      "data_rows_seen": 567,
+      "rows_with_valid_width": 567,
+      "blank_records": 0,
+      "malformed_width_rows": 0,
+      "parsing_complete": true,
+      "duplicate_full_rows_extra": 0,
+      "duplicate_key_rows_extra": 0,
+      "missing_key_rows": 0,
+      "unique_key": [
+        "game_id"
+      ],
+      "missing_by_column": {
+        "game_id": 0,
+        "ncaa_legacy_game_id": 0,
+        "season": 0,
+        "game_date": 0,
+        "start_time_utc": 0,
+        "start_time_local_text": 537,
+        "start_time_is_tba": 0,
+        "home_team": 0,
+        "away_team": 0,
+        "home_team_id_ncaa": 1,
+        "away_team_id_ncaa": 1,
+        "home_team_seo": 0,
+        "away_team_seo": 0,
+        "home_team_full": 0,
+        "away_team_full": 0,
+        "home_conference": 0,
+        "away_conference": 0,
+        "home_score": 0,
+        "away_score": 0,
+        "winner": 1,
+        "overtime": 0,
+        "status": 0,
+        "final_message": 1,
+        "season_phase": 0,
+        "bracket_round": 551,
+        "neutral_site": 560,
+        "neutral_site_basis": 560,
+        "venue": 567,
+        "involves_non_d1_opponent": 0,
+        "winner_matches_source_flag": 0,
+        "espn_event_id": 339,
+        "espn_home_team_id": 339,
+        "espn_away_team_id": 339,
+        "espn_scores_agree": 339,
+        "espn_home_away_agree": 339,
+        "result_source": 0,
+        "source_url": 0,
+        "raw_scoreboard_url": 0,
+        "original_game_date": 0,
+        "corrections_applied": 561,
+        "audit_status": 0,
+        "audit_basis": 0,
+        "involves_non_d1_opponent_audit": 0,
+        "usable_result": 0,
+        "usable_d1_vs_d1": 0
+      },
+      "date_checks": {
+        "game_date": {
+          "format": "ISO_DATE",
+          "valid": 567,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "original_game_date": {
+          "format": "ISO_DATE",
+          "valid": 567,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "start_time_utc": {
+          "format": "ISO_DATETIME",
+          "valid": 567,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        }
+      },
+      "source_url_checks": {
+        "source_url": {
+          "valid_syntax": 567,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        }
+      },
+      "errors": [],
+      "warnings": [
+        "Checksum computed only; no independently obtained expected hash supplied",
+        "Complete expected column list not configured"
+      ],
+      "trust_status": "UNVERIFIED",
+      "import_approved": false,
+      "recommended_action": "Hold for independent provenance, permissions and domain review",
+      "automated_status": "PASS",
+      "limitations": [
+        "PASS covers the reported mechanical checks only; import_approved always remains false.",
+        "Source URL checks are syntactic only; no network/DNS request or independent source verification occurs.",
+        "Neither checksums nor valid CSV establish authenticity, licensing, competition, date truth or pre-game availability.",
+        "Missing counts cover valid-width rows only; parsing failures can leave partial counts.",
+        "Duplicate checks use exact parsed strings; no fuzzy matching, alias resolution or within-day ordering is inferred."
+      ]
+    },
+    {
+      "file": "/Users/kiri/Desktop/dsf-project/data/incoming/grok/stage1_28f5677d90c3/audit_package/corrected/ncaa_lacrosse_games_2024_corrected.csv",
+      "file_bytes": 292808,
+      "sha256_before": "83ccda42a18336c7e786e9be1339099e747a0d1682d3b3cb7ee79e63448ad8fe",
+      "sha256_after": "83ccda42a18336c7e786e9be1339099e747a0d1682d3b3cb7ee79e63448ad8fe",
+      "input_unchanged_during_check": true,
+      "expected_sha256": null,
+      "checksum_comparison": "NOT_PROVIDED",
+      "schema_supplied": true,
+      "encoding": "utf-8-sig (strict)",
+      "delimiter": ",",
+      "columns": [
+        "game_id",
+        "ncaa_legacy_game_id",
+        "season",
+        "game_date",
+        "start_time_utc",
+        "start_time_local_text",
+        "start_time_is_tba",
+        "home_team",
+        "away_team",
+        "home_team_id_ncaa",
+        "away_team_id_ncaa",
+        "home_team_seo",
+        "away_team_seo",
+        "home_team_full",
+        "away_team_full",
+        "home_conference",
+        "away_conference",
+        "home_score",
+        "away_score",
+        "winner",
+        "overtime",
+        "status",
+        "final_message",
+        "season_phase",
+        "bracket_round",
+        "neutral_site",
+        "neutral_site_basis",
+        "venue",
+        "involves_non_d1_opponent",
+        "winner_matches_source_flag",
+        "espn_event_id",
+        "espn_home_team_id",
+        "espn_away_team_id",
+        "espn_scores_agree",
+        "espn_home_away_agree",
+        "result_source",
+        "source_url",
+        "raw_scoreboard_url",
+        "original_game_date",
+        "corrections_applied",
+        "audit_status",
+        "audit_basis",
+        "involves_non_d1_opponent_audit",
+        "usable_result",
+        "usable_d1_vs_d1"
+      ],
+      "column_count": 45,
+      "data_rows_seen": 570,
+      "rows_with_valid_width": 570,
+      "blank_records": 0,
+      "malformed_width_rows": 0,
+      "parsing_complete": true,
+      "duplicate_full_rows_extra": 0,
+      "duplicate_key_rows_extra": 0,
+      "missing_key_rows": 0,
+      "unique_key": [
+        "game_id"
+      ],
+      "missing_by_column": {
+        "game_id": 0,
+        "ncaa_legacy_game_id": 1,
+        "season": 0,
+        "game_date": 0,
+        "start_time_utc": 0,
+        "start_time_local_text": 554,
+        "start_time_is_tba": 1,
+        "home_team": 0,
+        "away_team": 0,
+        "home_team_id_ncaa": 1,
+        "away_team_id_ncaa": 1,
+        "home_team_seo": 1,
+        "away_team_seo": 1,
+        "home_team_full": 1,
+        "away_team_full": 1,
+        "home_conference": 1,
+        "away_conference": 1,
+        "home_score": 0,
+        "away_score": 0,
+        "winner": 0,
+        "overtime": 1,
+        "status": 0,
+        "final_message": 1,
+        "season_phase": 0,
+        "bracket_round": 554,
+        "neutral_site": 564,
+        "neutral_site_basis": 564,
+        "venue": 570,
+        "involves_non_d1_opponent": 0,
+        "winner_matches_source_flag": 1,
+        "espn_event_id": 334,
+        "espn_home_team_id": 334,
+        "espn_away_team_id": 334,
+        "espn_scores_agree": 335,
+        "espn_home_away_agree": 334,
+        "result_source": 0,
+        "source_url": 0,
+        "raw_scoreboard_url": 0,
+        "original_game_date": 0,
+        "corrections_applied": 567,
+        "audit_status": 0,
+        "audit_basis": 0,
+        "involves_non_d1_opponent_audit": 0,
+        "usable_result": 0,
+        "usable_d1_vs_d1": 0
+      },
+      "date_checks": {
+        "game_date": {
+          "format": "ISO_DATE",
+          "valid": 570,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "original_game_date": {
+          "format": "ISO_DATE",
+          "valid": 570,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "start_time_utc": {
+          "format": "ISO_DATETIME",
+          "valid": 570,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        }
+      },
+      "source_url_checks": {
+        "source_url": {
+          "valid_syntax": 570,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        }
+      },
+      "errors": [],
+      "warnings": [
+        "Checksum computed only; no independently obtained expected hash supplied",
+        "Complete expected column list not configured"
+      ],
+      "trust_status": "UNVERIFIED",
+      "import_approved": false,
+      "recommended_action": "Hold for independent provenance, permissions and domain review",
+      "automated_status": "PASS",
+      "limitations": [
+        "PASS covers the reported mechanical checks only; import_approved always remains false.",
+        "Source URL checks are syntactic only; no network/DNS request or independent source verification occurs.",
+        "Neither checksums nor valid CSV establish authenticity, licensing, competition, date truth or pre-game availability.",
+        "Missing counts cover valid-width rows only; parsing failures can leave partial counts.",
+        "Duplicate checks use exact parsed strings; no fuzzy matching, alias resolution or within-day ordering is inferred."
+      ]
+    },
+    {
+      "file": "/Users/kiri/Desktop/dsf-project/data/incoming/grok/stage1_28f5677d90c3/audit_package/corrected/ncaa_lacrosse_game_index_2025_corrected.csv",
+      "file_bytes": 172099,
+      "sha256_before": "5a97f183170c9d71416da80a10b57377cbaa0c3db1b5cbd04e19c853f71b2850",
+      "sha256_after": "5a97f183170c9d71416da80a10b57377cbaa0c3db1b5cbd04e19c853f71b2850",
+      "input_unchanged_during_check": true,
+      "expected_sha256": null,
+      "checksum_comparison": "NOT_PROVIDED",
+      "schema_supplied": true,
+      "encoding": "utf-8-sig (strict)",
+      "delimiter": ",",
+      "columns": [
+        "game_id",
+        "season",
+        "game_date",
+        "start_time_utc",
+        "home_team",
+        "away_team",
+        "home_team_id_ncaa",
+        "away_team_id_ncaa",
+        "home_team_seo",
+        "away_team_seo",
+        "home_score",
+        "away_score",
+        "status",
+        "season_phase",
+        "bracket_round",
+        "espn_event_id",
+        "result_source",
+        "suspected_duplicate_of",
+        "source_url",
+        "original_game_date",
+        "corrections_applied",
+        "audit_status",
+        "audit_basis",
+        "involves_non_d1_opponent_audit",
+        "usable_result",
+        "usable_d1_vs_d1"
+      ],
+      "column_count": 26,
+      "data_rows_seen": 580,
+      "rows_with_valid_width": 580,
+      "blank_records": 0,
+      "malformed_width_rows": 0,
+      "parsing_complete": true,
+      "duplicate_full_rows_extra": 0,
+      "duplicate_key_rows_extra": 0,
+      "missing_key_rows": 0,
+      "unique_key": [
+        "game_id"
+      ],
+      "missing_by_column": {
+        "game_id": 0,
+        "season": 0,
+        "game_date": 0,
+        "start_time_utc": 0,
+        "home_team": 0,
+        "away_team": 0,
+        "home_team_id_ncaa": 1,
+        "away_team_id_ncaa": 1,
+        "home_team_seo": 0,
+        "away_team_seo": 0,
+        "home_score": 0,
+        "away_score": 0,
+        "status": 0,
+        "season_phase": 0,
+        "bracket_round": 563,
+        "espn_event_id": 4,
+        "result_source": 0,
+        "suspected_duplicate_of": 579,
+        "source_url": 0,
+        "original_game_date": 0,
+        "corrections_applied": 577,
+        "audit_status": 0,
+        "audit_basis": 0,
+        "involves_non_d1_opponent_audit": 0,
+        "usable_result": 0,
+        "usable_d1_vs_d1": 0
+      },
+      "date_checks": {
+        "game_date": {
+          "format": "ISO_DATE",
+          "valid": 580,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "original_game_date": {
+          "format": "ISO_DATE",
+          "valid": 580,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "start_time_utc": {
+          "format": "ISO_DATETIME",
+          "valid": 580,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        }
+      },
+      "source_url_checks": {
+        "source_url": {
+          "valid_syntax": 580,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        }
+      },
+      "errors": [],
+      "warnings": [
+        "Checksum computed only; no independently obtained expected hash supplied",
+        "Complete expected column list not configured"
+      ],
+      "trust_status": "UNVERIFIED",
+      "import_approved": false,
+      "recommended_action": "Hold for independent provenance, permissions and domain review",
+      "automated_status": "PASS",
+      "limitations": [
+        "PASS covers the reported mechanical checks only; import_approved always remains false.",
+        "Source URL checks are syntactic only; no network/DNS request or independent source verification occurs.",
+        "Neither checksums nor valid CSV establish authenticity, licensing, competition, date truth or pre-game availability.",
+        "Missing counts cover valid-width rows only; parsing failures can leave partial counts.",
+        "Duplicate checks use exact parsed strings; no fuzzy matching, alias resolution or within-day ordering is inferred."
+      ]
+    }
+  ]
+}

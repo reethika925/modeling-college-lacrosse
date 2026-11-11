@@ -1,0 +1,1130 @@
+{
+  "archive": "/Users/kiri/Desktop/dsf-project/data/incoming/grok/ncaa_lacrosse_cse519_audit_package.zip",
+  "archive_bytes": 6661990,
+  "archive_sha256": "28f5677d90c33773c5584ec053ac43cbe603a530d6044a8468a0ab99dbb4387f",
+  "expected_archive_sha256": null,
+  "expected_archive_checksum_status": "NOT_SUPPLIED; locally computed fingerprint only",
+  "unsafe_paths": 0,
+  "member_count": 139,
+  "file_count": 139,
+  "total_uncompressed_bytes": 68591834,
+  "crc_and_decompression": "PASS_ALL_MEMBERS",
+  "destination": "/Users/kiri/Desktop/dsf-project/data/incoming/grok/stage1_28f5677d90c3",
+  "original_archive_unchanged": true,
+  "packaged_scripts_executed": 0,
+  "trust_status": "UNVERIFIED",
+  "files": [
+    {
+      "path": "audit_package/source_permissions_audit.csv",
+      "bytes": 18396,
+      "format": "CSV",
+      "compressed_bytes": 6258,
+      "crc32": "86502a0b",
+      "sha256": "5f71d0e4b30863c635cf6a8b6d588c9ca04b9d73b47680ea9b2ffd1fbc1fabe0"
+    },
+    {
+      "path": "audit_package/validated_data_inventory.csv",
+      "bytes": 7881,
+      "format": "CSV",
+      "compressed_bytes": 2046,
+      "crc32": "b5599611",
+      "sha256": "2190ef13a64f6db2f842a3b93b9efc3166666c086e41717508cc5af52857d865"
+    },
+    {
+      "path": "audit_package/odds_provenance_audit.csv",
+      "bytes": 2090248,
+      "format": "CSV",
+      "compressed_bytes": 86278,
+      "crc32": "d80aa6d1",
+      "sha256": "b3f6b93c77622eb05ea891f08884d57c5178700b8937e48ad1a7747e39ffb5e4"
+    },
+    {
+      "path": "audit_package/README.md",
+      "bytes": 2733,
+      "format": "Markdown text",
+      "compressed_bytes": 1262,
+      "crc32": "57e61f9a",
+      "sha256": "dcf63a6fb6d5b85c3963d323e6ceb49368635a9e3d79b956374c7628df0d95bf"
+    },
+    {
+      "path": "audit_package/data_quality_audit.md",
+      "bytes": 12955,
+      "format": "Markdown text",
+      "compressed_bytes": 5680,
+      "crc32": "39400c64",
+      "sha256": "704e76db0640461f9997bad8134a1607ad438b6cf569b4024a1e40fc9688892e"
+    },
+    {
+      "path": "audit_package/game_date_corrections.csv",
+      "bytes": 12983,
+      "format": "CSV",
+      "compressed_bytes": 1714,
+      "crc32": "638eb430",
+      "sha256": "fc947fea61854323e6555df209bde9ff6bea941e19a04134832138203e124fa7"
+    },
+    {
+      "path": "audit_package/excluded_or_unverified_records.csv",
+      "bytes": 70173,
+      "format": "CSV",
+      "compressed_bytes": 6448,
+      "crc32": "d9ce5730",
+      "sha256": "f86d1138874b75aa9483322c572af9d048b4a153990c30080e5aeec0a83227ab"
+    },
+    {
+      "path": "audit_package/MANIFEST.csv",
+      "bytes": 16018,
+      "format": "CSV",
+      "compressed_bytes": 7383,
+      "crc32": "b109af85",
+      "sha256": "4cafb3c8176c51fd8f4c5d0d4b0652250da2aff14cb426b61b0432032e33b98f"
+    },
+    {
+      "path": "audit_package/verify_audit.py",
+      "bytes": 4901,
+      "format": "Python source (NOT EXECUTED)",
+      "compressed_bytes": 1893,
+      "crc32": "cabe4847",
+      "sha256": "3cb0f4648af505c65c0ce604a94adf8e2dd4a926bf53777261f891abf7b4cedc"
+    },
+    {
+      "path": "audit_package/games/games_stats_audit.md",
+      "bytes": 13452,
+      "format": "Markdown text",
+      "compressed_bytes": 5671,
+      "crc32": "6e2b24ca",
+      "sha256": "25bf3920432de6ca95ef58f6c57425cdc29403c94b2ef9c2102f5a9d8abd7842"
+    },
+    {
+      "path": "audit_package/games/revalidation_issues.csv",
+      "bytes": 4262,
+      "format": "CSV",
+      "compressed_bytes": 779,
+      "crc32": "109794e1",
+      "sha256": "660951906d7fa8f717f52c5a9a40391b2102de985a5bdd2d78f05b44b5d3f49c"
+    },
+    {
+      "path": "audit_package/games/final_usable_counts.json",
+      "bytes": 1082,
+      "format": "JSON",
+      "compressed_bytes": 307,
+      "crc32": "eb82b771",
+      "sha256": "f4b2873ef1e40d47ffc8e96911f031d4a65424b7fe63df7e3995f9e31945c030"
+    },
+    {
+      "path": "audit_package/games/school_schedule_games_not_in_our_data.csv",
+      "bytes": 153,
+      "format": "CSV",
+      "compressed_bytes": 120,
+      "crc32": "b3e97342",
+      "sha256": "ee2c397124d48c69069af0a81db6e5d4eeaa1ee615c239a307d9acf664961a68"
+    },
+    {
+      "path": "audit_package/games/game_date_corrections.csv",
+      "bytes": 10906,
+      "format": "CSV",
+      "compressed_bytes": 1354,
+      "crc32": "6716c7d5",
+      "sha256": "fed40989fd429ff8e0508d919ca645e7b16c07036d314a99a4e216fe1d2ad170"
+    },
+    {
+      "path": "audit_package/games/school_schedule_comparison.csv",
+      "bytes": 114998,
+      "format": "CSV",
+      "compressed_bytes": 13327,
+      "crc32": "b149cded",
+      "sha256": "1223fa7c0242bab7549b4e3ac878d2febb189517eefe4a9ac1037d5933d03d95"
+    },
+    {
+      "path": "audit_package/games/audit_candidates.csv",
+      "bytes": 1003,
+      "format": "CSV",
+      "compressed_bytes": 416,
+      "crc32": "6a18c70b",
+      "sha256": "c9a8e56b85ef4aabb687525ed5539f8d5186a8386a5d01bd083ebb42d6f3b0ba"
+    },
+    {
+      "path": "audit_package/games/post_correction_checks.json",
+      "bytes": 1517,
+      "format": "JSON",
+      "compressed_bytes": 476,
+      "crc32": "74019474",
+      "sha256": "0ce6aa6a84dcb1b7f4c3dbef9fdb2ce68f091ccf2541f8f0219c06a4a037834d"
+    },
+    {
+      "path": "audit_package/games/games_stats_excluded_or_unverified.csv",
+      "bytes": 14090,
+      "format": "CSV",
+      "compressed_bytes": 2687,
+      "crc32": "d8f18faf",
+      "sha256": "a5d85c9582bd9eb1a96c3c260a22029750f2b182233ec7d99230b6c20f9fea99"
+    },
+    {
+      "path": "audit_package/games/_package_build_summary.json",
+      "bytes": 191,
+      "format": "JSON",
+      "compressed_bytes": 141,
+      "crc32": "8ca8b479",
+      "sha256": "8ec2842356a8417597983646b905f2eaf4f959059352b845c5ae02e6556702ba"
+    },
+    {
+      "path": "audit_package/games/revalidation_results.json",
+      "bytes": 2366,
+      "format": "JSON",
+      "compressed_bytes": 850,
+      "crc32": "02959a33",
+      "sha256": "db042b7555d4bb70ae80e26dfe809ec5d111e6035043ab933f64e71440fac7f0"
+    },
+    {
+      "path": "audit_package/scripts/games/a4_compare_schedules.py",
+      "bytes": 5985,
+      "format": "Python source (NOT EXECUTED)",
+      "compressed_bytes": 2368,
+      "crc32": "58815b06",
+      "sha256": "7efd05a15791c8c54aaff3b64b533e90f1d3269254cb8353f31f4ba1372ac75e"
+    },
+    {
+      "path": "audit_package/scripts/games/a2_fetch_schedules.py",
+      "bytes": 1909,
+      "format": "Python source (NOT EXECUTED)",
+      "compressed_bytes": 873,
+      "crc32": "6b906483",
+      "sha256": "e2e5b0a02cb4e0c67191f85800d98f2018e21005657b886232e2f4ae6543f170"
+    },
+    {
+      "path": "audit_package/scripts/games/a6_post_checks.py",
+      "bytes": 2303,
+      "format": "Python source (NOT EXECUTED)",
+      "compressed_bytes": 849,
+      "crc32": "cc646946",
+      "sha256": "9efecbf88e4cc0119e30e4cae6c4f5db94e5a439e4b45bd7faed0602110bd868"
+    },
+    {
+      "path": "audit_package/scripts/games/a3_revalidate.py",
+      "bytes": 7697,
+      "format": "Python source (NOT EXECUTED)",
+      "compressed_bytes": 2787,
+      "crc32": "12b37b01",
+      "sha256": "2f18e764e155acfcbfecc1ece3bdc3190ab733b97b4c6bcf2c70e284421fbded"
+    },
+    {
+      "path": "audit_package/scripts/games/a2b_fetch_more.py",
+      "bytes": 1402,
+      "format": "Python source (NOT EXECUTED)",
+      "compressed_bytes": 727,
+      "crc32": "2feb9097",
+      "sha256": "0551ead78b6945ef63384eaffb0335bd6173491665cbdf6db6f59a448f34c530"
+    },
+    {
+      "path": "audit_package/scripts/games/a2c_fetch_more.py",
+      "bytes": 1351,
+      "format": "Python source (NOT EXECUTED)",
+      "compressed_bytes": 709,
+      "crc32": "82a1dc32",
+      "sha256": "5e593be74256eb8519beefb328311130b8115325c093fc62b820fd86ab6470ac"
+    },
+    {
+      "path": "audit_package/scripts/games/a5_build_outputs.py",
+      "bytes": 17577,
+      "format": "Python source (NOT EXECUTED)",
+      "compressed_bytes": 5825,
+      "crc32": "b51f6e8e",
+      "sha256": "d340866d3805d9220efca1c1c68c57e9a6dfbfe0aa01ddcecf42a73c176bbf65"
+    },
+    {
+      "path": "audit_package/scripts/games/a1_candidates.py",
+      "bytes": 2367,
+      "format": "Python source (NOT EXECUTED)",
+      "compressed_bytes": 1088,
+      "crc32": "a2b1152a",
+      "sha256": "f8da12bb1b533872ba1a58f0651ddc8a2e96e03177698942f3a06ef1164ed6e7"
+    },
+    {
+      "path": "audit_package/scripts/games/a2d_fetch_qu.py",
+      "bytes": 1313,
+      "format": "Python source (NOT EXECUTED)",
+      "compressed_bytes": 692,
+      "crc32": "f33a9338",
+      "sha256": "7d10d8f8d6433214a90f1cc30ca34bb71d2f2bd0f0537f5cb1014c26580c1415"
+    },
+    {
+      "path": "audit_package/scripts/games/sidearm_parse.py",
+      "bytes": 2840,
+      "format": "Python source (NOT EXECUTED)",
+      "compressed_bytes": 1214,
+      "crc32": "4fe9776b",
+      "sha256": "5de01258fffc3d30dd3f4ffca8157fc81f45e243ef0f9f2544f84ab98dff8a71"
+    },
+    {
+      "path": "audit_package/scripts/odds/extract_clauses.py",
+      "bytes": 469,
+      "format": "Python source (NOT EXECUTED)",
+      "compressed_bytes": 319,
+      "crc32": "d9deebed",
+      "sha256": "909934292e87930ef01d30096db2866063b892572228dfa6bb268dbdffeda63f"
+    },
+    {
+      "path": "audit_package/scripts/odds/audit_odds_stage2.py",
+      "bytes": 19519,
+      "format": "Python source (NOT EXECUTED)",
+      "compressed_bytes": 6162,
+      "crc32": "2a63d16e",
+      "sha256": "ca50932fac4feecaa565f690161755aa243e4aa45f6c4d7df8b0c11e9805271f"
+    },
+    {
+      "path": "audit_package/scripts/odds/audit_odds_provenance.py",
+      "bytes": 27603,
+      "format": "Python source (NOT EXECUTED)",
+      "compressed_bytes": 8831,
+      "crc32": "11566501",
+      "sha256": "28f77ef2e8a521c833e8c1c5d001688150bd8563086cecdf1e53c6f4aea63af3"
+    },
+    {
+      "path": "audit_package/scripts/odds/source_permissions.py",
+      "bytes": 14247,
+      "format": "Python source (NOT EXECUTED)",
+      "compressed_bytes": 5125,
+      "crc32": "60343386",
+      "sha256": "b33baad8b211c8cdd0dde5895289c349a9102e9db1fe07a323e9137a592bc7f8"
+    },
+    {
+      "path": "audit_package/scripts/odds/audit_odds_provenance_helpers.py",
+      "bytes": 1336,
+      "format": "Python source (NOT EXECUTED)",
+      "compressed_bytes": 541,
+      "crc32": "0e163b7c",
+      "sha256": "ca4432cbf6b94e5b3c6f1535a0d8d32da78dc0f607a9f94d671510da16c05302"
+    },
+    {
+      "path": "audit_package/scripts/package/README.md",
+      "bytes": 2733,
+      "format": "Markdown text",
+      "compressed_bytes": 1262,
+      "crc32": "57e61f9a",
+      "sha256": "dcf63a6fb6d5b85c3963d323e6ceb49368635a9e3d79b956374c7628df0d95bf"
+    },
+    {
+      "path": "audit_package/scripts/package/build_audit_package.py",
+      "bytes": 18259,
+      "format": "Python source (NOT EXECUTED)",
+      "compressed_bytes": 6356,
+      "crc32": "749bd426",
+      "sha256": "17f711f3d61e4d4ea92ae37aeefe15cc064f2dc8254894d6f30f4f4841896a14"
+    },
+    {
+      "path": "audit_package/scripts/package/data_quality_audit.md",
+      "bytes": 12955,
+      "format": "Markdown text",
+      "compressed_bytes": 5680,
+      "crc32": "39400c64",
+      "sha256": "704e76db0640461f9997bad8134a1607ad438b6cf569b4024a1e40fc9688892e"
+    },
+    {
+      "path": "audit_package/scripts/package/verify_audit.py",
+      "bytes": 4901,
+      "format": "Python source (NOT EXECUTED)",
+      "compressed_bytes": 1893,
+      "crc32": "cabe4847",
+      "sha256": "3cb0f4648af505c65c0ce604a94adf8e2dd4a926bf53777261f891abf7b4cedc"
+    },
+    {
+      "path": "audit_package/odds/odds_rejected.csv",
+      "bytes": 12409,
+      "format": "CSV",
+      "compressed_bytes": 2683,
+      "crc32": "d51e782d",
+      "sha256": "4ebd7d7df9d6c9c85eca45fade4983fdb4737230f08e4dcf794e8e89c41a2e0c"
+    },
+    {
+      "path": "audit_package/odds/odds_quarantine_permission_required.csv",
+      "bytes": 2078511,
+      "format": "CSV",
+      "compressed_bytes": 85302,
+      "crc32": "cd92c5b8",
+      "sha256": "27efbff0d3f7656f3183a59a4995267142605a5616ae2b768a33d1ba728dde13"
+    },
+    {
+      "path": "audit_package/odds/odds_record_corrections.csv",
+      "bytes": 4094,
+      "format": "CSV",
+      "compressed_bytes": 1204,
+      "crc32": "f6f4e13f",
+      "sha256": "75fc4bb17fc552fe47023b5cb2f10c52783efab18ffb2f842ed6ff71ad2a88a2"
+    },
+    {
+      "path": "audit_package/odds/odds_cleared_for_analysis.csv",
+      "bytes": 672,
+      "format": "CSV",
+      "compressed_bytes": 328,
+      "crc32": "bafd5c4e",
+      "sha256": "16d6c3a1924c9850c1c29b07eb9de44e048db6d7f1d150a00a2e819755d0d75d"
+    },
+    {
+      "path": "audit_package/odds/odds_audit.md",
+      "bytes": 11614,
+      "format": "Markdown text",
+      "compressed_bytes": 5054,
+      "crc32": "1f4e3931",
+      "sha256": "0f7a525d3999f8410cf2d0d14af4f4f92d61cc5dd61ab85f7afa48e51951a6ba"
+    },
+    {
+      "path": "audit_package/odds/odds_audit_metrics.json",
+      "bytes": 3591,
+      "format": "JSON",
+      "compressed_bytes": 1116,
+      "crc32": "a4f08e30",
+      "sha256": "67eb1a09065da0488e6fc43d8e510c00f458c3d6b580522abdc17c40af3f0cbe"
+    },
+    {
+      "path": "audit_package/odds/odds_game_usability.csv",
+      "bytes": 67015,
+      "format": "CSV",
+      "compressed_bytes": 7453,
+      "crc32": "ff2e339b",
+      "sha256": "a9a49157b1f24c25d783db1b84aa693306b4a6b6fae09914deacd5f1d10cd826"
+    },
+    {
+      "path": "audit_package/corrected/ncaa_lacrosse_game_index_2025_corrected.csv",
+      "bytes": 172099,
+      "format": "CSV",
+      "compressed_bytes": 20392,
+      "crc32": "789e3410",
+      "sha256": "5a97f183170c9d71416da80a10b57377cbaa0c3db1b5cbd04e19c853f71b2850"
+    },
+    {
+      "path": "audit_package/corrected/ncaa_lacrosse_games_2024_corrected.csv",
+      "bytes": 292808,
+      "format": "CSV",
+      "compressed_bytes": 31509,
+      "crc32": "f4b4dde4",
+      "sha256": "83ccda42a18336c7e786e9be1339099e747a0d1682d3b3cb7ee79e63448ad8fe"
+    },
+    {
+      "path": "audit_package/corrected/odds_game_to_ncaa_game_crosswalk_corrected.csv",
+      "bytes": 46285,
+      "format": "CSV",
+      "compressed_bytes": 8014,
+      "crc32": "62bb8dfa",
+      "sha256": "b996a4072611fd85329aa4d69db81e88c5ab93f7cca06c47318e92778ba2a902"
+    },
+    {
+      "path": "audit_package/corrected/ncaa_lacrosse_player_stats_2023_2025_corrected.csv",
+      "bytes": 35183349,
+      "format": "CSV",
+      "compressed_bytes": 3368248,
+      "crc32": "59bea17c",
+      "sha256": "0c10666a8a1181642398eac3442ee447101e10c81684ffd4b7490577976cf2bd"
+    },
+    {
+      "path": "audit_package/corrected/ncaa_lacrosse_games_2023_corrected.csv",
+      "bytes": 288882,
+      "format": "CSV",
+      "compressed_bytes": 31371,
+      "crc32": "53afa50f",
+      "sha256": "3df34160cec417e683cb78b5a89fbdf34271032403cd94a96d6735ef05dd2f51"
+    },
+    {
+      "path": "audit_package/corrected/ncaa_lacrosse_team_game_stats_2023_2025_corrected.csv",
+      "bytes": 1199362,
+      "format": "CSV",
+      "compressed_bytes": 149035,
+      "crc32": "2674786a",
+      "sha256": "22f06901d8863b6d35315b4568ca1c93730201ac27e4faebf32a2bc00d11744a"
+    },
+    {
+      "path": "audit_package/evidence/games/fetch_log.tsv",
+      "bytes": 3297,
+      "format": "Tab-separated text",
+      "compressed_bytes": 653,
+      "crc32": "5a9026ce",
+      "sha256": "5005458cdc885dd4835dc15bc16ee5c7dac4ce5fb3e3bf74fc1f5a21db3f7ec8"
+    },
+    {
+      "path": "audit_package/evidence/games/binghamton_2025_schedule.html",
+      "bytes": 896051,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 74094,
+      "crc32": "a09b0915",
+      "sha256": "57159a0ef909c66790c319333f73e5eaa68afb33c5edaf772d21b6bd80b90e89"
+    },
+    {
+      "path": "audit_package/evidence/games/fairfieldstags.com_2025_schedule.html",
+      "bytes": 658686,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 55438,
+      "crc32": "d1046f27",
+      "sha256": "ddc182ff2f432578c3abbf2396d7455dfd56d0db3dc7663944453d8829887123"
+    },
+    {
+      "path": "audit_package/evidence/games/ionagaels.com_2025_schedule.html",
+      "bytes": 746971,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 63554,
+      "crc32": "cc6e18b6",
+      "sha256": "a3c5e1f08463715eb81b358e181eb8ce09b856922c2d380e9cb0ece087fca2fb"
+    },
+    {
+      "path": "audit_package/evidence/games/gobobcats.com_2025_schedule.html",
+      "bytes": 963535,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 94860,
+      "crc32": "4e423cdd",
+      "sha256": "89efcb76bc20d65fc9baefb77f348e5546622bc969dcd28859de61fc00884807"
+    },
+    {
+      "path": "audit_package/evidence/games/umbcretrievers.com_2024_schedule.html",
+      "bytes": 627021,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 56205,
+      "crc32": "9daa2feb",
+      "sha256": "c8898e09d1df083bc9b8aeac634a644bdfc38bb15703f2922393b2e1be8f58a7"
+    },
+    {
+      "path": "audit_package/evidence/games/hopkinssports.com_2024_schedule.html",
+      "bytes": 805930,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 66915,
+      "crc32": "ef6f12dc",
+      "sha256": "2fd691994adf87ae68d2f66ff2ee0f00c9a6ab595262517b9379c797fb86e4f4"
+    },
+    {
+      "path": "audit_package/evidence/games/binghamton_2025_schedule.txt",
+      "bytes": 15016,
+      "format": "Text",
+      "compressed_bytes": 3018,
+      "crc32": "284216fb",
+      "sha256": "fe4d5fef653f1cb9d27c5d45e4836e24d862079ec8c310c64f6ec3c116a9e075"
+    },
+    {
+      "path": "audit_package/evidence/games/gocrimson.com_2023_schedule.BLOCKED_incapsula.html",
+      "bytes": 953,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 595,
+      "crc32": "9a86ab0d",
+      "sha256": "68b59b532b6b45dc97b7d2c4a72b436984e219576761c9cb35d0204a9afd1fd6"
+    },
+    {
+      "path": "audit_package/evidence/games/lemoynedolphins.com_2025_schedule.html",
+      "bytes": 702050,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 53970,
+      "crc32": "9b31fbae",
+      "sha256": "2278cbcf0ef18ac1d319df6e22924c67918140d507ad138bafbda776c04a71e2"
+    },
+    {
+      "path": "audit_package/evidence/games/stonybrookathletics.com_2025_schedule.html",
+      "bytes": 519796,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 48228,
+      "crc32": "6811b014",
+      "sha256": "7f4a00481b52f7b3ad007f3be52eed2a951b57417626440a8bf036cd192926e8"
+    },
+    {
+      "path": "audit_package/evidence/games/uvmathletics.com_2023_schedule.html",
+      "bytes": 510150,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 49156,
+      "crc32": "8f8dfdb2",
+      "sha256": "34c767f76b9a3c6db4824c4e72128e4889806d48c9a93cea787e3b774a699a3d"
+    },
+    {
+      "path": "audit_package/evidence/games/merrimackathletics.com_2023_schedule.html",
+      "bytes": 1008906,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 75899,
+      "crc32": "e6d988e3",
+      "sha256": "c70f7e2f92a1b97ec9916c9e974a091b895d8c1be0debb0649b92d3ab9e42ba7"
+    },
+    {
+      "path": "audit_package/evidence/games/umbc_recap_2025-04-12.txt",
+      "bytes": 11413,
+      "format": "Text",
+      "compressed_bytes": 3404,
+      "crc32": "a50d9848",
+      "sha256": "7a0eeba4de4fcd26f87dab6309d3093fa27d848235baf99153b3bf53cc3e333f"
+    },
+    {
+      "path": "audit_package/evidence/games/fetch_run.out",
+      "bytes": 559,
+      "format": "Text log",
+      "compressed_bytes": 196,
+      "crc32": "c1d16d79",
+      "sha256": "02fb20f292a84aa165d11660bc8ae8aec4080943d5babfdb8a92bca0846f1c26"
+    },
+    {
+      "path": "audit_package/evidence/games/umbcretrievers.com_2025_schedule.html",
+      "bytes": 625732,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 56397,
+      "crc32": "7209d13e",
+      "sha256": "d2c0e3c127319d6312f04a59bcdda9ba9982d5fc405706a5de898097ba887344"
+    },
+    {
+      "path": "audit_package/evidence/games/navysports.com_2023_schedule.html",
+      "bytes": 918872,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 69118,
+      "crc32": "a22a6621",
+      "sha256": "0b3cd5ef72c408d114866ba40612a837e8382324e90838c428bf478a1c26b562"
+    },
+    {
+      "path": "audit_package/evidence/games/mountathletics.com_2023_schedule.html",
+      "bytes": 638281,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 54446,
+      "crc32": "8e4f4d62",
+      "sha256": "702edd344d2eebe9813d899b0e9d161adc8de62cff1eef665b6d0c8bff5636ac"
+    },
+    {
+      "path": "audit_package/evidence/games/fetch_run_b.out",
+      "bytes": 106,
+      "format": "Text log",
+      "compressed_bytes": 70,
+      "crc32": "9b5c9544",
+      "sha256": "75885b7cd7e145351622ac394f2106b52dfc0cc05be8b8041838512bef6c2b4f"
+    },
+    {
+      "path": "audit_package/evidence/games/fetch_run_d.out",
+      "bytes": 23,
+      "format": "Text log",
+      "compressed_bytes": 23,
+      "crc32": "e60cbfd6",
+      "sha256": "9cb2b604546561141f33b8d0a6f41524f39e745467531c6d1a18c0b906c4679c"
+    },
+    {
+      "path": "audit_package/evidence/games/liuathletics.com_2025_schedule.html",
+      "bytes": 709025,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 61366,
+      "crc32": "3db8608d",
+      "sha256": "531a18794d5fdf7d027671c5019b930e1c2c04ec935eb9c159880a9a5fc30fcd"
+    },
+    {
+      "path": "audit_package/evidence/games/guhoyas.com_2024_schedule.html",
+      "bytes": 633128,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 55886,
+      "crc32": "a0628593",
+      "sha256": "66dd46f4f9ca946c1578805cd8504693ce1e4aac731cc6c12febff1abdf39332"
+    },
+    {
+      "path": "audit_package/evidence/games/gobobcats.com_2024_schedule.html",
+      "bytes": 951587,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 94495,
+      "crc32": "e0ac4b38",
+      "sha256": "eada1c8500423cbe32dd1e227f702cf0e2b76a1304a03bef35ab38eacc3ced2e"
+    },
+    {
+      "path": "audit_package/evidence/games/goprincetontigers.com_2024_schedule.html",
+      "bytes": 1047110,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 105395,
+      "crc32": "b8a7b311",
+      "sha256": "59828924e55250f8fdf8e91b99b4d22d2ea59f88f689d287eccba7e2592d34e8"
+    },
+    {
+      "path": "audit_package/evidence/games/goholycross.com_2023_schedule.html",
+      "bytes": 699381,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 60204,
+      "crc32": "5caeaf86",
+      "sha256": "e309f0fd54bfda7d8aa7022ed104aba80936f6f59852d54ea334286f64f8e571"
+    },
+    {
+      "path": "audit_package/evidence/games/mercerbears.com_2024_schedule.html",
+      "bytes": 900545,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 83537,
+      "crc32": "8469b238",
+      "sha256": "5e32a7e5716aacae18153531a14e8903d93aa9502a910907ad0f7ac6e4f5fbff"
+    },
+    {
+      "path": "audit_package/evidence/games/gomarquette.com_2023_schedule.html",
+      "bytes": 729716,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 73618,
+      "crc32": "41f11e5b",
+      "sha256": "36e6d54fcfc6b244b9550c13fd6f6d986dcd1425edc8833fb2cb16c071edd745"
+    },
+    {
+      "path": "audit_package/evidence/games/umbc_recap_2025-04-12.html",
+      "bytes": 537988,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 49947,
+      "crc32": "1e521426",
+      "sha256": "a94a8e608474de7d285747e7631e5e3c27e19b33e6209b2da5273a2f97d3d548"
+    },
+    {
+      "path": "audit_package/evidence/games/umbcretrievers.com_2023_schedule.html",
+      "bytes": 627122,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 55928,
+      "crc32": "416e6cac",
+      "sha256": "5aadefa90a7254f04197d0a5c9bc2b0cdb760a22bf391a2a9fc4463bfc60f3a6"
+    },
+    {
+      "path": "audit_package/evidence/games/goriverhawks.com_2025_schedule.html",
+      "bytes": 872720,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 86516,
+      "crc32": "1bec7a32",
+      "sha256": "7928f1cbde7caa3f9ce1df20c756697a1c068bff1dc744459d478e127b0c014f"
+    },
+    {
+      "path": "audit_package/evidence/games/fetch_run_c.out",
+      "bytes": 59,
+      "format": "Text log",
+      "compressed_bytes": 49,
+      "crc32": "e42f4728",
+      "sha256": "0dc9d7104d05a2b27c204bacb4a47fdc6e8e33caa9d3d91a306ecc7b9aa68308"
+    },
+    {
+      "path": "audit_package/evidence/games/highpointpanthers.com_2023_schedule.html",
+      "bytes": 735245,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 63927,
+      "crc32": "a88654f5",
+      "sha256": "80ba55edb074ae27185c750b82a3f73f696cfe8fbf941c788a7b86f95972d603"
+    },
+    {
+      "path": "audit_package/evidence/games/brownbears.com_2023_schedule.html",
+      "bytes": 984631,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 99770,
+      "crc32": "13a5b13f",
+      "sha256": "3e0e0994348846aa14be42977b7d7e44a6d79659db6ed3659a134c9ad7e60ca4"
+    },
+    {
+      "path": "audit_package/evidence/games/merrimackathletics.com_2024_schedule.html",
+      "bytes": 1017384,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 76372,
+      "crc32": "5dc25e50",
+      "sha256": "275320c6d276ff5c0043391f1dec1d61e6dc32e748eedb7746bfc9c978196ea9"
+    },
+    {
+      "path": "audit_package/evidence/games/gojaspers.com_2024_schedule.html",
+      "bytes": 623476,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 54963,
+      "crc32": "e3fa1f76",
+      "sha256": "cc39db8646a9b9d3ce0b6326b0b2c3595e76211d42d4463af9cbebce8d06e0cc"
+    },
+    {
+      "path": "audit_package/evidence/games/detroittitans.com_2023_schedule.html",
+      "bytes": 634252,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 61677,
+      "crc32": "55c80c08",
+      "sha256": "0c9d1a04d9849094d0b92e77c738532d61ccf932181a76ae01e85bebb410094b"
+    },
+    {
+      "path": "audit_package/evidence/games/hamptonpirates.com_2025_schedule.html",
+      "bytes": 943743,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 91456,
+      "crc32": "430a3c4a",
+      "sha256": "19ae2f1441034b60a79991c48909093210d900f52a8647aa4c3a565a2b1c1acc"
+    },
+    {
+      "path": "audit_package/evidence/games/robots/robots_sdataprod.ncaa.com.txt",
+      "bytes": 129,
+      "format": "Text",
+      "compressed_bytes": 118,
+      "crc32": "2711d170",
+      "sha256": "5cf48b128128fdd678a7d122ecac8b58d3224251e29b31ce8ea8321759ca86a7"
+    },
+    {
+      "path": "audit_package/evidence/games/robots/robots_stats.ncaa.org.txt",
+      "bytes": 382,
+      "format": "Text",
+      "compressed_bytes": 232,
+      "crc32": "94d066f0",
+      "sha256": "d2d253580ee56121d6a9d73b55f781121fae9bb2fcd27282644aea2f6fa34f69"
+    },
+    {
+      "path": "audit_package/evidence/games/robots/robots_data.ncaa.com.txt",
+      "bytes": 281,
+      "format": "Text",
+      "compressed_bytes": 232,
+      "crc32": "91964aee",
+      "sha256": "b1198d4fa548901282b47c8da26a396518eb31bf5a6ee5821c7278a4244315fe"
+    },
+    {
+      "path": "audit_package/evidence/games/robots/robots_gocrimson.com.txt",
+      "bytes": 6049,
+      "format": "Text",
+      "compressed_bytes": 1207,
+      "crc32": "02693c33",
+      "sha256": "a3b0347144221d6bcd329dd6380dd2edeab817cfdeb29be97058dd9dae2f2548"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_odds_evidence_sha256.txt",
+      "bytes": 30312,
+      "format": "Text",
+      "compressed_bytes": 12840,
+      "crc32": "fd307387",
+      "sha256": "094e0389668f64a932f5c8a4d60a2d6595549f74f4972b352c285b205ea1b0ba"
+    },
+    {
+      "path": "audit_package/evidence/odds/pre_sha256_deliverables_final_package.txt",
+      "bytes": 23173,
+      "format": "Text",
+      "compressed_bytes": 8455,
+      "crc32": "459ba18e",
+      "sha256": "cec238e2b090ff4073f961e13040feb135db1a51e2131e2ab8e8d76a22c5967c"
+    },
+    {
+      "path": "audit_package/evidence/odds/url_status_live.tsv",
+      "bytes": 22502,
+      "format": "Tab-separated text",
+      "compressed_bytes": 1966,
+      "crc32": "2ccb8158",
+      "sha256": "bc3161f20e3976a7219369e9300919c088bcce4ad6bc8ac86f953f018e6c800d"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms_sha256.txt",
+      "bytes": 3565,
+      "format": "Text",
+      "compressed_bytes": 1831,
+      "crc32": "6b862e2e",
+      "sha256": "5885b024474b7e12aac423505a993f6a914273128fe0d68bbbd9242a973050c9"
+    },
+    {
+      "path": "audit_package/evidence/odds/source_urls.txt",
+      "bytes": 11069,
+      "format": "Text",
+      "compressed_bytes": 1532,
+      "crc32": "9d30edea",
+      "sha256": "0d450c099f5f323d9b096755f9319ccee3ad7c8c7a8e9941aa80129c27c613ac"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/tos_betmgm_blog.html",
+      "bytes": 221223,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 37808,
+      "crc32": "34e50066",
+      "sha256": "b9d1509ce2564126ffd62a74db8abd32cc19839cbda4340f19553ab7bf27ab4d"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/robots_site.api.espn.com.txt",
+      "bytes": 389,
+      "format": "Text",
+      "compressed_bytes": 232,
+      "crc32": "da0ebc34",
+      "sha256": "d569096a55d3fd86d4128fbd08bcb2e4a14a5aa3d7a24b79d7503c07fe148979"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/tos_the-odds-api.html",
+      "bytes": 23832,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 7292,
+      "crc32": "78eddece",
+      "sha256": "c2abf385a981ecd4a57846752d8c6cd5d867b9d1b980f0a84ea0981e9979419b"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/bol_home.html",
+      "bytes": 135113,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 21567,
+      "crc32": "aa32e80d",
+      "sha256": "4342cf6a530aa75dd598b47f72c5b41c6007d32e82a510cab312649a660bacf1"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/robots_ncaa.com.txt",
+      "bytes": 4649,
+      "format": "Text",
+      "compressed_bytes": 1042,
+      "crc32": "0e52ae0c",
+      "sha256": "b7cbb19e0b074001240d9a3642d1195c74631a5b7c921b3052f2b50e2e5547ba"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/tos_betmgm.html",
+      "bytes": 184951,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 30432,
+      "crc32": "a5cbd6b5",
+      "sha256": "83ccbba36fb695bd968f421e9e41594a71ff2acce869ac196e8ca94a37ead400"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/tos_sidearm.html",
+      "bytes": 76625,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 23190,
+      "crc32": "06cfbf68",
+      "sha256": "1a3f92c05b720d396ef2208da76cd542bc68af24cfb4d6edff88c876d7b690b4"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/robots_espn.com.txt",
+      "bytes": 3223,
+      "format": "Text",
+      "compressed_bytes": 1026,
+      "crc32": "c4fc2526",
+      "sha256": "69e57dadcb6f535e960fcc201f1f8fcd998bc4423f0261186408274b1d8b86a6"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/robots_umbcretrievers.txt",
+      "bytes": 6001,
+      "format": "Text",
+      "compressed_bytes": 1178,
+      "crc32": "c65dea28",
+      "sha256": "454315be725af18052b2009cd7aa02628dbbf5d6445a4818036b110a2ce8b5da"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/tos_draftkings.html",
+      "bytes": 256360,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 38280,
+      "crc32": "2920e2c3",
+      "sha256": "7511b7abe04a1b48187f716eb1ac1e932109a2f814f785878a38fe8900ce4d2c"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/robots_web.archive.org.txt",
+      "bytes": 548,
+      "format": "Text",
+      "compressed_bytes": 149,
+      "crc32": "a8bfa727",
+      "sha256": "d465172175d35d493fb1633e237700022bd849fa123164790b168b8318acb090"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/tos_lsb_about.html",
+      "bytes": 158493,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 35641,
+      "crc32": "931e73c6",
+      "sha256": "b131e5267bbeccb2d33f62f07054e8ec3c0b6e0d89a9ee5d0bdb5877ad9e2909"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/robots_binghamtonbearcats.txt",
+      "bytes": 6001,
+      "format": "Text",
+      "compressed_bytes": 1178,
+      "crc32": "c65dea28",
+      "sha256": "454315be725af18052b2009cd7aa02628dbbf5d6445a4818036b110a2ce8b5da"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/tos_cradllax.html",
+      "bytes": 44273,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 16363,
+      "crc32": "d7d3b0d7",
+      "sha256": "65a6bf62bfdc571e4e4a90b164fa5adc2fe653b2aaab6df9b2646fb18489c652"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/tos_betonlacrosse_terms.html",
+      "bytes": 80394,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 16444,
+      "crc32": "f4cb9695",
+      "sha256": "8bee362762c14e3801f9f938751a37abc91eeaf61ae28129babd3ff3aa254802"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/robots_legalsportsbetting.txt",
+      "bytes": 235,
+      "format": "Text",
+      "compressed_bytes": 150,
+      "crc32": "5f05dc70",
+      "sha256": "8ee47f9ee07306aa390785f23c9187e0e38360094f057bf4ed6f599c5468013e"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/tos_archive.org.html",
+      "bytes": 2046,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 811,
+      "crc32": "0a9d8242",
+      "sha256": "0ba78da753afba7ab917957f5a1f331461da6902e8b453a41b82d2f26c3a715f"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/robots_usalacrosse.txt",
+      "bytes": 124,
+      "format": "Text",
+      "compressed_bytes": 111,
+      "crc32": "18d63981",
+      "sha256": "aeed48d83ecf78f105bf41acc503aab8c305b80c262c8baf16dc014594616c69"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/robots_laxallstars.txt",
+      "bytes": 1148,
+      "format": "Text",
+      "compressed_bytes": 646,
+      "crc32": "37d7ace6",
+      "sha256": "d512fc1418b5ae613f9f76e0ed7403beaa8c8c8e8d04c35f09abfa8c602a781c"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/tos_ncaa.com.html",
+      "bytes": 134885,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 32927,
+      "crc32": "3447069f",
+      "sha256": "1905996697671737f944cc87a711b7d9aa8bc2ae17f94f20882680579b9a0ca4"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/tos_legalsportsbetting2.html",
+      "bytes": 103221,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 23221,
+      "crc32": "0f14e8ac",
+      "sha256": "86f68beadb2a0a058d6987fc39ea4934bb5fab9e530fed8ab08d25345c564789"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/robots_actionnetwork.txt",
+      "bytes": 475,
+      "format": "Text",
+      "compressed_bytes": 204,
+      "crc32": "72d9fe5a",
+      "sha256": "75128cf6db98db3deb6685384ac1fed7294f84b3f580900839e8a19e42b2596c"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/robots_betonlacrosse.txt",
+      "bytes": 175,
+      "format": "Text",
+      "compressed_bytes": 110,
+      "crc32": "f69d0a93",
+      "sha256": "2684784296608a0445d38ee2e69a7eeacf52e57f06671a2e5fe364aafc081279"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/tos_actionnetwork.html",
+      "bytes": 274081,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 57745,
+      "crc32": "30ff67ca",
+      "sha256": "d9c9b13a1438564a3217870b5543dcf6331faa875fef06614083e0955a509a09"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/robots_data.ncaa.com.txt",
+      "bytes": 301,
+      "format": "Text",
+      "compressed_bytes": 249,
+      "crc32": "0fa2996d",
+      "sha256": "533c393acfaeacbe3ecb5b24501120e3cd1e7fa09ecf3e7b3c24f4535d6ed4f3"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/tos_laxallstars2.html",
+      "bytes": 6993,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 2641,
+      "crc32": "524d59e8",
+      "sha256": "1999e4d0346d9e0e929c4fc142def2e749b1835777569b1647efcf3324c32883"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/robots_the-odds-api.txt",
+      "bytes": 12022,
+      "format": "Text",
+      "compressed_bytes": 2950,
+      "crc32": "0c894d91",
+      "sha256": "35daef1a59cdc56496879ad2b42d9075bf9b56e92a86ce7cf25999e8371632f6"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/tos_legalsportsbetting.html",
+      "bytes": 103221,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 23221,
+      "crc32": "0f14e8ac",
+      "sha256": "86f68beadb2a0a058d6987fc39ea4934bb5fab9e530fed8ab08d25345c564789"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/robots_sports.betmgm.com.txt",
+      "bytes": 435040,
+      "format": "Text",
+      "compressed_bytes": 58928,
+      "crc32": "e8537b38",
+      "sha256": "7038bc8040c849e8494000107c29b31be0c5185db16956349d856a03d344c66e"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/tos_laxallstars.html",
+      "bytes": 7014,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 2646,
+      "crc32": "858d1f24",
+      "sha256": "2455d55ad31d82b20a9962f929b1b31f410bed204cec0573554f53ae6a82ab60"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/tos_betonlacrosse_terms2.html",
+      "bytes": 80394,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 16443,
+      "crc32": "49483dc6",
+      "sha256": "cf55d4594328d7ea2c0d269e8c7256a24a10cf4e2956cb06db38ff0edd0b00df"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/tos_draftkings2.html",
+      "bytes": 390379,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 76481,
+      "crc32": "c1bfec88",
+      "sha256": "cc037131c23737fb452b849d49eb694976ffdbfee592ec0069f7faaeae3c09c7"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/robots_archive.org.txt",
+      "bytes": 238,
+      "format": "Text",
+      "compressed_bytes": 118,
+      "crc32": "7febe942",
+      "sha256": "83e00f46c71e9fa872694af73fa9c15a615b9052b2f10820a3d146bc506c6161"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/tos_usalacrosse.html",
+      "bytes": 178032,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 50715,
+      "crc32": "88bd9a4b",
+      "sha256": "488995d04611ef8b890c7233ad05aa30a3a67092aca1d0aa7d1117f85f611c3a"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/tos_archive_2020wb.html",
+      "bytes": 73405,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 14047,
+      "crc32": "7c7efdc6",
+      "sha256": "4832d3f011a2503c30c547a18624115136956c00a470749a8793ca1ef52b1bba"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/robots_cradllax.txt",
+      "bytes": 156,
+      "format": "Text",
+      "compressed_bytes": 104,
+      "crc32": "bc317915",
+      "sha256": "8e3954e2ca83fe1fc408c346b25424ed4c9de7fa47b434ffa6f5d36ff31d87cb"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/robots_sportsbook.draftkings.com.txt",
+      "bytes": 73,
+      "format": "Text",
+      "compressed_bytes": 57,
+      "crc32": "06f7ee15",
+      "sha256": "53545c36d6d2bdc0bce060aa5f142944810f49a09fb37e6b3ac3620743a9ac00"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/tos_archive_wb.html",
+      "bytes": 2670,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 1335,
+      "crc32": "887f00cd",
+      "sha256": "9b962ab9aea970a060730bb39a3621b4802d194c746fa818eb68f33a7f129f5b"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/tos_betmgm_nj.html",
+      "bytes": 184437,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 29596,
+      "crc32": "1a4364eb",
+      "sha256": "bbd8bb814c570df44158c1f84a85cbca2ccb4c2a0d2282127397955553a63533"
+    },
+    {
+      "path": "audit_package/evidence/odds/raw_terms/tos_disney.html",
+      "bytes": 110693,
+      "format": "HTML evidence/response",
+      "compressed_bytes": 29150,
+      "crc32": "102c0abd",
+      "sha256": "2312629ad909385689fa240b628c866766f475d1b08d9f22279546bbf5bc6b9d"
+    },
+    {
+      "path": "audit_package/originals/ncaa_lacrosse_historical_odds_2025.csv",
+      "bytes": 982614,
+      "format": "CSV",
+      "compressed_bytes": 39722,
+      "crc32": "2cf47a86",
+      "sha256": "a156ba06389acc2a3a4e0eadaaf33af361b081cc942d3f768fdc79b1d5ed42a1"
+    }
+  ]
+}

@@ -1,0 +1,1741 @@
+{
+  "manifest_entries": 138,
+  "manifest_issues": [],
+  "unlisted_files": [],
+  "missing_manifest_files": [],
+  "json_errors": [],
+  "inventory_counts": [
+    {
+      "path": "corrected/ncaa_lacrosse_games_2023_corrected.csv",
+      "reported_rows": 567,
+      "actual_rows": 567,
+      "rows_match": true,
+      "actual_status_counts": {
+        "verified": 333,
+        "provisional": 234
+      }
+    },
+    {
+      "path": "corrected/ncaa_lacrosse_games_2024_corrected.csv",
+      "reported_rows": 570,
+      "actual_rows": 570,
+      "rows_match": true,
+      "actual_status_counts": {
+        "verified": 296,
+        "provisional": 274
+      }
+    },
+    {
+      "path": "corrected/ncaa_lacrosse_game_index_2025_corrected.csv",
+      "reported_rows": 580,
+      "actual_rows": 580,
+      "rows_match": true,
+      "actual_status_counts": {
+        "verified": 577,
+        "rejected": 2,
+        "provisional": 1
+      }
+    },
+    {
+      "path": "corrected/ncaa_lacrosse_team_game_stats_2023_2025_corrected.csv",
+      "reported_rows": 3428,
+      "actual_rows": 3428,
+      "rows_match": true,
+      "actual_status_counts": {
+        "verified": 2408,
+        "provisional": 1018,
+        "rejected": 2
+      }
+    },
+    {
+      "path": "corrected/ncaa_lacrosse_player_stats_2023_2025_corrected.csv",
+      "reported_rows": 143882,
+      "actual_rows": 143882,
+      "rows_match": true,
+      "actual_status_counts": {
+        "verified": 96133,
+        "provisional": 47701,
+        "rejected": 48
+      }
+    },
+    {
+      "path": "corrected/odds_game_to_ncaa_game_crosswalk_corrected.csv",
+      "reported_rows": 308,
+      "actual_rows": 308,
+      "rows_match": true
+    },
+    {
+      "path": "odds_provenance_audit.csv",
+      "reported_rows": 1995,
+      "actual_rows": 1995,
+      "rows_match": true,
+      "actual_status_counts": {
+        "verified": 1887,
+        "provisional": 96,
+        "rejected": 12
+      }
+    },
+    {
+      "path": "odds/odds_quarantine_permission_required.csv",
+      "reported_rows": 1983,
+      "actual_rows": 1983,
+      "rows_match": true,
+      "actual_status_counts": {
+        "verified": 1887,
+        "provisional": 96
+      }
+    },
+    {
+      "path": "odds/odds_rejected.csv",
+      "reported_rows": 12,
+      "actual_rows": 12,
+      "rows_match": true,
+      "actual_status_counts": {
+        "rejected": 12
+      }
+    },
+    {
+      "path": "odds/odds_cleared_for_analysis.csv",
+      "reported_rows": 0,
+      "actual_rows": 0,
+      "rows_match": true,
+      "actual_status_counts": {}
+    },
+    {
+      "path": "odds/odds_game_usability.csv",
+      "reported_rows": 306,
+      "actual_rows": 306,
+      "rows_match": true
+    },
+    {
+      "path": "originals/ncaa_lacrosse_historical_odds_2025.csv",
+      "reported_rows": 1470,
+      "actual_rows": 1470,
+      "rows_match": true
+    }
+  ],
+  "declared_external_files": [
+    "/workspace/final_package/ncaa_lacrosse_games_2023.csv",
+    "/workspace/final_package/ncaa_lacrosse_games_2024.csv",
+    "/workspace/final_package/ncaa_lacrosse_game_index_2025.csv",
+    "/workspace/final_package/ncaa_lacrosse_team_game_stats_2023_2025.csv",
+    "/workspace/final_package/ncaa_lacrosse_player_stats_2023_2025.csv",
+    "/workspace/deliverables/ncaa_lacrosse_additional_odds_2023_2026.csv"
+  ],
+  "csv_counts": [
+    {
+      "file": "/Users/kiri/Desktop/dsf-project/data/incoming/grok/stage1_28f5677d90c3/audit_package/MANIFEST.csv",
+      "column_count": 4,
+      "data_rows_seen": 138,
+      "rows_with_valid_width": 138,
+      "malformed_width_rows": 0,
+      "parsing_complete": true,
+      "duplicate_full_rows_extra": 0,
+      "missing_by_column": {
+        "path": 0,
+        "bytes": 0,
+        "rows": 115,
+        "sha256": 0
+      },
+      "date_checks": {},
+      "source_url_checks": {},
+      "errors": [],
+      "warnings": [
+        "Checksum computed only; no independently obtained expected hash supplied",
+        "No reviewed schema supplied; date/URL column discovery is provisional",
+        "No unique key configured; only full-row duplication is assessed",
+        "Complete expected column list not configured",
+        "No date columns assessed; applicability/format requires human review",
+        "No record-level or dataset-level source URL assessed"
+      ]
+    },
+    {
+      "file": "/Users/kiri/Desktop/dsf-project/data/incoming/grok/stage1_28f5677d90c3/audit_package/corrected/ncaa_lacrosse_game_index_2025_corrected.csv",
+      "column_count": 26,
+      "data_rows_seen": 580,
+      "rows_with_valid_width": 580,
+      "malformed_width_rows": 0,
+      "parsing_complete": true,
+      "duplicate_full_rows_extra": 0,
+      "missing_by_column": {
+        "game_id": 0,
+        "season": 0,
+        "game_date": 0,
+        "start_time_utc": 0,
+        "home_team": 0,
+        "away_team": 0,
+        "home_team_id_ncaa": 1,
+        "away_team_id_ncaa": 1,
+        "home_team_seo": 0,
+        "away_team_seo": 0,
+        "home_score": 0,
+        "away_score": 0,
+        "status": 0,
+        "season_phase": 0,
+        "bracket_round": 563,
+        "espn_event_id": 4,
+        "result_source": 0,
+        "suspected_duplicate_of": 579,
+        "source_url": 0,
+        "original_game_date": 0,
+        "corrections_applied": 577,
+        "audit_status": 0,
+        "audit_basis": 0,
+        "involves_non_d1_opponent_audit": 0,
+        "usable_result": 0,
+        "usable_d1_vs_d1": 0
+      },
+      "date_checks": {
+        "game_date": {
+          "format": "ISO_DATE",
+          "valid": 580,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "original_game_date": {
+          "format": "ISO_DATE",
+          "valid": 580,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        }
+      },
+      "source_url_checks": {
+        "source_url": {
+          "valid_syntax": 580,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        }
+      },
+      "errors": [],
+      "warnings": [
+        "Checksum computed only; no independently obtained expected hash supplied",
+        "No reviewed schema supplied; date/URL column discovery is provisional",
+        "No unique key configured; only full-row duplication is assessed",
+        "Complete expected column list not configured"
+      ]
+    },
+    {
+      "file": "/Users/kiri/Desktop/dsf-project/data/incoming/grok/stage1_28f5677d90c3/audit_package/corrected/ncaa_lacrosse_games_2023_corrected.csv",
+      "column_count": 45,
+      "data_rows_seen": 567,
+      "rows_with_valid_width": 567,
+      "malformed_width_rows": 0,
+      "parsing_complete": true,
+      "duplicate_full_rows_extra": 0,
+      "missing_by_column": {
+        "game_id": 0,
+        "ncaa_legacy_game_id": 0,
+        "season": 0,
+        "game_date": 0,
+        "start_time_utc": 0,
+        "start_time_local_text": 537,
+        "start_time_is_tba": 0,
+        "home_team": 0,
+        "away_team": 0,
+        "home_team_id_ncaa": 1,
+        "away_team_id_ncaa": 1,
+        "home_team_seo": 0,
+        "away_team_seo": 0,
+        "home_team_full": 0,
+        "away_team_full": 0,
+        "home_conference": 0,
+        "away_conference": 0,
+        "home_score": 0,
+        "away_score": 0,
+        "winner": 1,
+        "overtime": 0,
+        "status": 0,
+        "final_message": 1,
+        "season_phase": 0,
+        "bracket_round": 551,
+        "neutral_site": 560,
+        "neutral_site_basis": 560,
+        "venue": 567,
+        "involves_non_d1_opponent": 0,
+        "winner_matches_source_flag": 0,
+        "espn_event_id": 339,
+        "espn_home_team_id": 339,
+        "espn_away_team_id": 339,
+        "espn_scores_agree": 339,
+        "espn_home_away_agree": 339,
+        "result_source": 0,
+        "source_url": 0,
+        "raw_scoreboard_url": 0,
+        "original_game_date": 0,
+        "corrections_applied": 561,
+        "audit_status": 0,
+        "audit_basis": 0,
+        "involves_non_d1_opponent_audit": 0,
+        "usable_result": 0,
+        "usable_d1_vs_d1": 0
+      },
+      "date_checks": {
+        "game_date": {
+          "format": "ISO_DATE",
+          "valid": 567,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "original_game_date": {
+          "format": "ISO_DATE",
+          "valid": 567,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        }
+      },
+      "source_url_checks": {
+        "source_url": {
+          "valid_syntax": 567,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "raw_scoreboard_url": {
+          "valid_syntax": 567,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        }
+      },
+      "errors": [],
+      "warnings": [
+        "Checksum computed only; no independently obtained expected hash supplied",
+        "No reviewed schema supplied; date/URL column discovery is provisional",
+        "No unique key configured; only full-row duplication is assessed",
+        "Complete expected column list not configured"
+      ]
+    },
+    {
+      "file": "/Users/kiri/Desktop/dsf-project/data/incoming/grok/stage1_28f5677d90c3/audit_package/corrected/ncaa_lacrosse_games_2024_corrected.csv",
+      "column_count": 45,
+      "data_rows_seen": 570,
+      "rows_with_valid_width": 570,
+      "malformed_width_rows": 0,
+      "parsing_complete": true,
+      "duplicate_full_rows_extra": 0,
+      "missing_by_column": {
+        "game_id": 0,
+        "ncaa_legacy_game_id": 1,
+        "season": 0,
+        "game_date": 0,
+        "start_time_utc": 0,
+        "start_time_local_text": 554,
+        "start_time_is_tba": 1,
+        "home_team": 0,
+        "away_team": 0,
+        "home_team_id_ncaa": 1,
+        "away_team_id_ncaa": 1,
+        "home_team_seo": 1,
+        "away_team_seo": 1,
+        "home_team_full": 1,
+        "away_team_full": 1,
+        "home_conference": 1,
+        "away_conference": 1,
+        "home_score": 0,
+        "away_score": 0,
+        "winner": 0,
+        "overtime": 1,
+        "status": 0,
+        "final_message": 1,
+        "season_phase": 0,
+        "bracket_round": 554,
+        "neutral_site": 564,
+        "neutral_site_basis": 564,
+        "venue": 570,
+        "involves_non_d1_opponent": 0,
+        "winner_matches_source_flag": 1,
+        "espn_event_id": 334,
+        "espn_home_team_id": 334,
+        "espn_away_team_id": 334,
+        "espn_scores_agree": 335,
+        "espn_home_away_agree": 334,
+        "result_source": 0,
+        "source_url": 0,
+        "raw_scoreboard_url": 0,
+        "original_game_date": 0,
+        "corrections_applied": 567,
+        "audit_status": 0,
+        "audit_basis": 0,
+        "involves_non_d1_opponent_audit": 0,
+        "usable_result": 0,
+        "usable_d1_vs_d1": 0
+      },
+      "date_checks": {
+        "game_date": {
+          "format": "ISO_DATE",
+          "valid": 570,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "original_game_date": {
+          "format": "ISO_DATE",
+          "valid": 570,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        }
+      },
+      "source_url_checks": {
+        "source_url": {
+          "valid_syntax": 570,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "raw_scoreboard_url": {
+          "valid_syntax": 570,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        }
+      },
+      "errors": [],
+      "warnings": [
+        "Checksum computed only; no independently obtained expected hash supplied",
+        "No reviewed schema supplied; date/URL column discovery is provisional",
+        "No unique key configured; only full-row duplication is assessed",
+        "Complete expected column list not configured"
+      ]
+    },
+    {
+      "file": "/Users/kiri/Desktop/dsf-project/data/incoming/grok/stage1_28f5677d90c3/audit_package/corrected/ncaa_lacrosse_player_stats_2023_2025_corrected.csv",
+      "column_count": 37,
+      "data_rows_seen": 143882,
+      "rows_with_valid_width": 143882,
+      "malformed_width_rows": 0,
+      "parsing_complete": true,
+      "duplicate_full_rows_extra": 0,
+      "missing_by_column": {
+        "game_id": 0,
+        "season": 0,
+        "game_date": 0,
+        "original_game_date": 0,
+        "team": 0,
+        "team_id_ncaa": 0,
+        "opponent": 0,
+        "home_away": 0,
+        "player_first": 222,
+        "player_last": 303,
+        "player_first_raw": 222,
+        "player_last_raw": 303,
+        "jersey": 0,
+        "position": 114789,
+        "started": 0,
+        "participated": 0,
+        "goals": 0,
+        "assists": 0,
+        "points": 0,
+        "shots": 0,
+        "shots_on_goal": 0,
+        "ground_balls": 0,
+        "turnovers": 0,
+        "caused_turnovers": 0,
+        "goalie_minutes": 140861,
+        "goalie_saves": 140861,
+        "goalie_goals_allowed": 140861,
+        "penalties": 0,
+        "penalty_seconds": 0,
+        "stat_level": 0,
+        "source_url": 0,
+        "involves_non_d1_opponent": 0,
+        "faceoffs_won": 4586,
+        "faceoffs_attempted": 4586,
+        "faceoff_source": 4586,
+        "date_correction_status": 143613,
+        "game_audit_status": 0
+      },
+      "date_checks": {
+        "game_date": {
+          "format": "ISO_DATE",
+          "valid": 143882,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "original_game_date": {
+          "format": "ISO_DATE",
+          "valid": 143882,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        }
+      },
+      "source_url_checks": {
+        "source_url": {
+          "valid_syntax": 143882,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        }
+      },
+      "errors": [],
+      "warnings": [
+        "Checksum computed only; no independently obtained expected hash supplied",
+        "No reviewed schema supplied; date/URL column discovery is provisional",
+        "No unique key configured; only full-row duplication is assessed",
+        "Complete expected column list not configured"
+      ]
+    },
+    {
+      "file": "/Users/kiri/Desktop/dsf-project/data/incoming/grok/stage1_28f5677d90c3/audit_package/corrected/ncaa_lacrosse_team_game_stats_2023_2025_corrected.csv",
+      "column_count": 44,
+      "data_rows_seen": 3428,
+      "rows_with_valid_width": 3428,
+      "malformed_width_rows": 0,
+      "parsing_complete": true,
+      "duplicate_full_rows_extra": 0,
+      "missing_by_column": {
+        "game_id": 0,
+        "season": 0,
+        "game_date": 0,
+        "original_game_date": 0,
+        "start_time_utc": 0,
+        "team": 0,
+        "team_id_ncaa": 0,
+        "team_seo": 0,
+        "opponent": 0,
+        "opponent_id_ncaa": 0,
+        "home_away": 0,
+        "season_phase": 0,
+        "goals": 94,
+        "goals_allowed": 94,
+        "final_score_scoreboard": 0,
+        "assists": 94,
+        "shots": 94,
+        "shots_on_goal": 94,
+        "shooting_pct": 94,
+        "faceoffs_won": 196,
+        "faceoffs_attempted": 196,
+        "ground_balls": 94,
+        "turnovers": 94,
+        "caused_turnovers": 94,
+        "saves": 94,
+        "goalie_goals_allowed": 94,
+        "clears_completed": 196,
+        "clears_attempted": 196,
+        "emo_goals": 94,
+        "emo_opportunities": 94,
+        "penalties": 94,
+        "penalty_seconds": 94,
+        "penalty_minutes": 94,
+        "free_position_shots": 94,
+        "box_team_stats_available": 0,
+        "pbp_available": 0,
+        "pbp_duplicate_rows_removed": 0,
+        "pbp_goal_count_matches_box": 0,
+        "faceoff_clear_source": 196,
+        "source_url": 0,
+        "involves_non_d1_opponent": 0,
+        "qa_flags": 3222,
+        "date_correction_status": 3420,
+        "game_audit_status": 0
+      },
+      "date_checks": {
+        "game_date": {
+          "format": "ISO_DATE",
+          "valid": 3428,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "original_game_date": {
+          "format": "ISO_DATE",
+          "valid": 3428,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        }
+      },
+      "source_url_checks": {
+        "source_url": {
+          "valid_syntax": 3428,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        }
+      },
+      "errors": [],
+      "warnings": [
+        "Checksum computed only; no independently obtained expected hash supplied",
+        "No reviewed schema supplied; date/URL column discovery is provisional",
+        "No unique key configured; only full-row duplication is assessed",
+        "Complete expected column list not configured"
+      ]
+    },
+    {
+      "file": "/Users/kiri/Desktop/dsf-project/data/incoming/grok/stage1_28f5677d90c3/audit_package/corrected/odds_game_to_ncaa_game_crosswalk_corrected.csv",
+      "column_count": 17,
+      "data_rows_seen": 308,
+      "rows_with_valid_width": 308,
+      "malformed_width_rows": 0,
+      "parsing_complete": true,
+      "duplicate_full_rows_extra": 0,
+      "missing_by_column": {
+        "odds_game_id": 0,
+        "odds_season": 0,
+        "odds_game_date": 9,
+        "odds_home_team": 9,
+        "odds_away_team": 9,
+        "odds_home_away_verified": 9,
+        "odds_records": 9,
+        "match_status": 0,
+        "ncaa_game_id": 47,
+        "ncaa_game_date": 47,
+        "ncaa_home_team": 47,
+        "ncaa_away_team": 47,
+        "ncaa_home_score": 47,
+        "ncaa_away_score": 47,
+        "odds_listed_home_equals_ncaa_home": 47,
+        "original_ncaa_game_date": 47,
+        "ncaa_game_audit_status": 47
+      },
+      "date_checks": {
+        "odds_game_date": {
+          "format": "ISO_DATE",
+          "valid": 299,
+          "missing": 9,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "ncaa_game_date": {
+          "format": "ISO_DATE",
+          "valid": 261,
+          "missing": 47,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "original_ncaa_game_date": {
+          "format": "ISO_DATE",
+          "valid": 261,
+          "missing": 47,
+          "invalid": 0,
+          "invalid_line_examples": []
+        }
+      },
+      "source_url_checks": {},
+      "errors": [],
+      "warnings": [
+        "Checksum computed only; no independently obtained expected hash supplied",
+        "No reviewed schema supplied; date/URL column discovery is provisional",
+        "No unique key configured; only full-row duplication is assessed",
+        "Complete expected column list not configured",
+        "No record-level or dataset-level source URL assessed",
+        "Missing date/URL values in column: odds_game_date",
+        "Missing date/URL values in column: ncaa_game_date",
+        "Missing date/URL values in column: original_ncaa_game_date"
+      ]
+    },
+    {
+      "file": "/Users/kiri/Desktop/dsf-project/data/incoming/grok/stage1_28f5677d90c3/audit_package/excluded_or_unverified_records.csv",
+      "column_count": 6,
+      "data_rows_seen": 179,
+      "rows_with_valid_width": 179,
+      "malformed_width_rows": 0,
+      "parsing_complete": true,
+      "duplicate_full_rows_extra": 0,
+      "missing_by_column": {
+        "record_id": 0,
+        "dataset": 0,
+        "status": 0,
+        "reason": 0,
+        "evidence": 41,
+        "source_url": 5
+      },
+      "date_checks": {},
+      "source_url_checks": {
+        "source_url": {
+          "valid_syntax": 140,
+          "missing": 5,
+          "invalid": 34,
+          "invalid_line_examples": [
+            5,
+            8,
+            28,
+            72,
+            73
+          ]
+        }
+      },
+      "errors": [
+        "Invalid date or URL format in column: source_url"
+      ],
+      "warnings": [
+        "Checksum computed only; no independently obtained expected hash supplied",
+        "No reviewed schema supplied; date/URL column discovery is provisional",
+        "No unique key configured; only full-row duplication is assessed",
+        "Complete expected column list not configured",
+        "No date columns assessed; applicability/format requires human review",
+        "Missing date/URL values in column: source_url"
+      ]
+    },
+    {
+      "file": "/Users/kiri/Desktop/dsf-project/data/incoming/grok/stage1_28f5677d90c3/audit_package/game_date_corrections.csv",
+      "column_count": 9,
+      "data_rows_seen": 30,
+      "rows_with_valid_width": 30,
+      "malformed_width_rows": 0,
+      "parsing_complete": true,
+      "duplicate_full_rows_extra": 0,
+      "missing_by_column": {
+        "record_key": 0,
+        "dataset": 0,
+        "field": 0,
+        "original_value": 9,
+        "corrected_value": 0,
+        "source_url": 0,
+        "evidence_file": 0,
+        "reason": 0,
+        "status": 0
+      },
+      "date_checks": {},
+      "source_url_checks": {
+        "source_url": {
+          "valid_syntax": 19,
+          "missing": 0,
+          "invalid": 11,
+          "invalid_line_examples": [
+            2,
+            3,
+            4,
+            5,
+            10
+          ]
+        }
+      },
+      "errors": [
+        "Invalid date or URL format in column: source_url"
+      ],
+      "warnings": [
+        "Checksum computed only; no independently obtained expected hash supplied",
+        "No reviewed schema supplied; date/URL column discovery is provisional",
+        "No unique key configured; only full-row duplication is assessed",
+        "Complete expected column list not configured",
+        "No date columns assessed; applicability/format requires human review"
+      ]
+    },
+    {
+      "file": "/Users/kiri/Desktop/dsf-project/data/incoming/grok/stage1_28f5677d90c3/audit_package/games/audit_candidates.csv",
+      "column_count": 5,
+      "data_rows_seen": 12,
+      "rows_with_valid_width": 12,
+      "malformed_width_rows": 0,
+      "parsing_complete": true,
+      "duplicate_full_rows_extra": 0,
+      "missing_by_column": {
+        "check": 0,
+        "season": 0,
+        "team": 0,
+        "game_ids": 0,
+        "dates": 0
+      },
+      "date_checks": {},
+      "source_url_checks": {},
+      "errors": [],
+      "warnings": [
+        "Checksum computed only; no independently obtained expected hash supplied",
+        "No reviewed schema supplied; date/URL column discovery is provisional",
+        "No unique key configured; only full-row duplication is assessed",
+        "Complete expected column list not configured",
+        "No date columns assessed; applicability/format requires human review",
+        "No record-level or dataset-level source URL assessed"
+      ]
+    },
+    {
+      "file": "/Users/kiri/Desktop/dsf-project/data/incoming/grok/stage1_28f5677d90c3/audit_package/games/game_date_corrections.csv",
+      "column_count": 9,
+      "data_rows_seen": 27,
+      "rows_with_valid_width": 27,
+      "malformed_width_rows": 0,
+      "parsing_complete": true,
+      "duplicate_full_rows_extra": 0,
+      "missing_by_column": {
+        "record_key": 0,
+        "dataset": 0,
+        "field": 0,
+        "original_value": 9,
+        "corrected_value": 0,
+        "source_url": 0,
+        "evidence_file": 0,
+        "reason": 0,
+        "status": 0
+      },
+      "date_checks": {},
+      "source_url_checks": {
+        "source_url": {
+          "valid_syntax": 19,
+          "missing": 0,
+          "invalid": 8,
+          "invalid_line_examples": [
+            2,
+            3,
+            4,
+            5,
+            10
+          ]
+        }
+      },
+      "errors": [
+        "Invalid date or URL format in column: source_url"
+      ],
+      "warnings": [
+        "Checksum computed only; no independently obtained expected hash supplied",
+        "No reviewed schema supplied; date/URL column discovery is provisional",
+        "No unique key configured; only full-row duplication is assessed",
+        "Complete expected column list not configured",
+        "No date columns assessed; applicability/format requires human review"
+      ]
+    },
+    {
+      "file": "/Users/kiri/Desktop/dsf-project/data/incoming/grok/stage1_28f5677d90c3/audit_package/games/games_stats_excluded_or_unverified.csv",
+      "column_count": 5,
+      "data_rows_seen": 70,
+      "rows_with_valid_width": 70,
+      "malformed_width_rows": 0,
+      "parsing_complete": true,
+      "duplicate_full_rows_extra": 0,
+      "missing_by_column": {
+        "record": 0,
+        "dataset": 0,
+        "status": 0,
+        "reason": 0,
+        "evidence": 3
+      },
+      "date_checks": {},
+      "source_url_checks": {},
+      "errors": [],
+      "warnings": [
+        "Checksum computed only; no independently obtained expected hash supplied",
+        "No reviewed schema supplied; date/URL column discovery is provisional",
+        "No unique key configured; only full-row duplication is assessed",
+        "Complete expected column list not configured",
+        "No date columns assessed; applicability/format requires human review",
+        "No record-level or dataset-level source URL assessed"
+      ]
+    },
+    {
+      "file": "/Users/kiri/Desktop/dsf-project/data/incoming/grok/stage1_28f5677d90c3/audit_package/games/revalidation_issues.csv",
+      "column_count": 5,
+      "data_rows_seen": 29,
+      "rows_with_valid_width": 29,
+      "malformed_width_rows": 0,
+      "parsing_complete": true,
+      "duplicate_full_rows_extra": 0,
+      "missing_by_column": {
+        "record": 0,
+        "dataset": 0,
+        "status": 0,
+        "reason": 0,
+        "evidence": 0
+      },
+      "date_checks": {},
+      "source_url_checks": {},
+      "errors": [],
+      "warnings": [
+        "Checksum computed only; no independently obtained expected hash supplied",
+        "No reviewed schema supplied; date/URL column discovery is provisional",
+        "No unique key configured; only full-row duplication is assessed",
+        "Complete expected column list not configured",
+        "No date columns assessed; applicability/format requires human review",
+        "No record-level or dataset-level source URL assessed"
+      ]
+    },
+    {
+      "file": "/Users/kiri/Desktop/dsf-project/data/incoming/grok/stage1_28f5677d90c3/audit_package/games/school_schedule_comparison.csv",
+      "column_count": 23,
+      "data_rows_seen": 411,
+      "rows_with_valid_width": 411,
+      "malformed_width_rows": 0,
+      "parsing_complete": true,
+      "duplicate_full_rows_extra": 0,
+      "missing_by_column": {
+        "season": 0,
+        "school_page": 0,
+        "evidence_file": 0,
+        "team": 0,
+        "game_id": 0,
+        "our_date": 0,
+        "our_home": 0,
+        "our_away": 0,
+        "our_score": 0,
+        "neutral": 411,
+        "status": 0,
+        "match": 0,
+        "school_date": 4,
+        "school_opponent": 4,
+        "school_marker": 11,
+        "school_result": 4,
+        "school_loc": 13,
+        "date_diff_days": 4,
+        "date_agrees": 4,
+        "school_ha_class": 118,
+        "homeaway_agrees": 4,
+        "score_agrees": 4,
+        "homeaway_status": 4
+      },
+      "date_checks": {
+        "our_date": {
+          "format": "ISO_DATE",
+          "valid": 411,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "school_date": {
+          "format": "ISO_DATE",
+          "valid": 407,
+          "missing": 4,
+          "invalid": 0,
+          "invalid_line_examples": []
+        }
+      },
+      "source_url_checks": {},
+      "errors": [],
+      "warnings": [
+        "Checksum computed only; no independently obtained expected hash supplied",
+        "No reviewed schema supplied; date/URL column discovery is provisional",
+        "No unique key configured; only full-row duplication is assessed",
+        "Complete expected column list not configured",
+        "No record-level or dataset-level source URL assessed",
+        "Missing date/URL values in column: school_date"
+      ]
+    },
+    {
+      "file": "/Users/kiri/Desktop/dsf-project/data/incoming/grok/stage1_28f5677d90c3/audit_package/games/school_schedule_games_not_in_our_data.csv",
+      "column_count": 7,
+      "data_rows_seen": 1,
+      "rows_with_valid_width": 1,
+      "malformed_width_rows": 0,
+      "parsing_complete": true,
+      "duplicate_full_rows_extra": 0,
+      "missing_by_column": {
+        "season": 0,
+        "team": 0,
+        "school_date": 0,
+        "opponent": 0,
+        "marker": 0,
+        "result": 0,
+        "evidence_file": 0
+      },
+      "date_checks": {
+        "school_date": {
+          "format": "ISO_DATE",
+          "valid": 1,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        }
+      },
+      "source_url_checks": {},
+      "errors": [],
+      "warnings": [
+        "Checksum computed only; no independently obtained expected hash supplied",
+        "No reviewed schema supplied; date/URL column discovery is provisional",
+        "No unique key configured; only full-row duplication is assessed",
+        "Complete expected column list not configured",
+        "No record-level or dataset-level source URL assessed"
+      ]
+    },
+    {
+      "file": "/Users/kiri/Desktop/dsf-project/data/incoming/grok/stage1_28f5677d90c3/audit_package/odds/odds_cleared_for_analysis.csv",
+      "column_count": 46,
+      "data_rows_seen": 0,
+      "rows_with_valid_width": 0,
+      "malformed_width_rows": 0,
+      "parsing_complete": true,
+      "duplicate_full_rows_extra": 0,
+      "missing_by_column": {
+        "record_id": 0,
+        "source_dataset": 0,
+        "orig_record_id": 0,
+        "season": 0,
+        "game_id": 0,
+        "ncaa_game_id": 0,
+        "ncaa_game_date": 0,
+        "ncaa_home_team": 0,
+        "ncaa_away_team": 0,
+        "sportsbook": 0,
+        "market": 0,
+        "selection": 0,
+        "selection_role": 0,
+        "orientation_source": 0,
+        "line": 0,
+        "american_odds": 0,
+        "quote_capture_timestamp": 0,
+        "article_published_at": 0,
+        "article_modified_at": 0,
+        "archive_capture_timestamp": 0,
+        "start_time_utc_used": 0,
+        "start_basis": 0,
+        "verified_in_raw": 0,
+        "book_supported": 0,
+        "url_status": 0,
+        "url_authentic": 0,
+        "ai_pick_or_projection": 0,
+        "duplicate_of": 0,
+        "also_published_in": 0,
+        "repeat_observation_of": 0,
+        "grade_original": 0,
+        "grade_audited": 0,
+        "grade_reason": 0,
+        "line_type": 0,
+        "is_opening": 0,
+        "is_closing": 0,
+        "pre_game_published": 0,
+        "independent_capture_pre_game": 0,
+        "technical_status": 0,
+        "permission_class": 0,
+        "status": 0,
+        "reason": 0,
+        "evidence_file": 0,
+        "evidence_detail": 0,
+        "source_url": 0,
+        "archive_url": 0
+      },
+      "date_checks": {
+        "ncaa_game_date": {
+          "format": "ISO_DATE",
+          "valid": 0,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "quote_capture_timestamp": {
+          "format": "ISO_DATETIME",
+          "valid": 0,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "article_published_at": {
+          "format": "ISO_DATETIME",
+          "valid": 0,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "article_modified_at": {
+          "format": "ISO_DATETIME",
+          "valid": 0,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "archive_capture_timestamp": {
+          "format": "ISO_DATETIME",
+          "valid": 0,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        }
+      },
+      "source_url_checks": {
+        "source_url": {
+          "valid_syntax": 0,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "archive_url": {
+          "valid_syntax": 0,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        }
+      },
+      "errors": [
+        "No data records parsed"
+      ],
+      "warnings": [
+        "Checksum computed only; no independently obtained expected hash supplied",
+        "No reviewed schema supplied; date/URL column discovery is provisional",
+        "No unique key configured; only full-row duplication is assessed",
+        "Complete expected column list not configured"
+      ]
+    },
+    {
+      "file": "/Users/kiri/Desktop/dsf-project/data/incoming/grok/stage1_28f5677d90c3/audit_package/odds/odds_game_usability.csv",
+      "column_count": 30,
+      "data_rows_seen": 306,
+      "rows_with_valid_width": 306,
+      "malformed_width_rows": 0,
+      "parsing_complete": true,
+      "duplicate_full_rows_extra": 0,
+      "missing_by_column": {
+        "game_key": 0,
+        "ncaa_game_id": 46,
+        "odds_game_ids": 0,
+        "season": 0,
+        "ncaa_game_date": 46,
+        "ncaa_home_team": 46,
+        "ncaa_away_team": 46,
+        "n_records": 0,
+        "books": 2,
+        "two_sided_moneyline": 0,
+        "spread_both_sides_with_prices": 0,
+        "spread_line_only": 0,
+        "total_with_prices": 0,
+        "multiple_books": 0,
+        "movement_2plus_timestamps": 0,
+        "pre_game_publication": 0,
+        "independent_pre_game_capture": 0,
+        "has_explicit_opening": 0,
+        "has_closing": 0,
+        "best_grade": 0,
+        "statuses": 0,
+        "verified_only_two_sided_moneyline": 0,
+        "verified_only_spread_both_sides_with_prices": 0,
+        "verified_only_total_with_prices": 0,
+        "verified_only_multiple_books": 0,
+        "verified_only_movement_2plus_timestamps": 0,
+        "verified_only_pre_game_publication": 0,
+        "verified_only_independent_pre_game_capture": 0,
+        "verified_records": 0,
+        "cleared_for_analysis_records": 0
+      },
+      "date_checks": {
+        "ncaa_game_date": {
+          "format": "ISO_DATE",
+          "valid": 260,
+          "missing": 46,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "movement_2plus_timestamps": {
+          "format": "ISO_DATETIME",
+          "valid": 0,
+          "missing": 0,
+          "invalid": 306,
+          "invalid_line_examples": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "verified_only_movement_2plus_timestamps": {
+          "format": "ISO_DATETIME",
+          "valid": 0,
+          "missing": 0,
+          "invalid": 306,
+          "invalid_line_examples": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      "source_url_checks": {},
+      "errors": [
+        "Invalid date or URL format in column: movement_2plus_timestamps",
+        "Invalid date or URL format in column: verified_only_movement_2plus_timestamps"
+      ],
+      "warnings": [
+        "Checksum computed only; no independently obtained expected hash supplied",
+        "No reviewed schema supplied; date/URL column discovery is provisional",
+        "No unique key configured; only full-row duplication is assessed",
+        "Complete expected column list not configured",
+        "No record-level or dataset-level source URL assessed",
+        "Missing date/URL values in column: ncaa_game_date"
+      ]
+    },
+    {
+      "file": "/Users/kiri/Desktop/dsf-project/data/incoming/grok/stage1_28f5677d90c3/audit_package/odds/odds_quarantine_permission_required.csv",
+      "column_count": 46,
+      "data_rows_seen": 1983,
+      "rows_with_valid_width": 1983,
+      "malformed_width_rows": 0,
+      "parsing_complete": true,
+      "duplicate_full_rows_extra": 0,
+      "missing_by_column": {
+        "record_id": 0,
+        "source_dataset": 0,
+        "orig_record_id": 521,
+        "season": 0,
+        "game_id": 0,
+        "ncaa_game_id": 236,
+        "ncaa_game_date": 236,
+        "ncaa_home_team": 236,
+        "ncaa_away_team": 236,
+        "sportsbook": 30,
+        "market": 0,
+        "selection": 0,
+        "selection_role": 0,
+        "orientation_source": 700,
+        "line": 576,
+        "american_odds": 853,
+        "quote_capture_timestamp": 1439,
+        "article_published_at": 703,
+        "article_modified_at": 795,
+        "archive_capture_timestamp": 1109,
+        "start_time_utc_used": 16,
+        "start_basis": 16,
+        "verified_in_raw": 0,
+        "book_supported": 0,
+        "url_status": 0,
+        "url_authentic": 0,
+        "ai_pick_or_projection": 0,
+        "duplicate_of": 1983,
+        "also_published_in": 1976,
+        "repeat_observation_of": 1933,
+        "grade_original": 0,
+        "grade_audited": 0,
+        "grade_reason": 0,
+        "line_type": 0,
+        "is_opening": 0,
+        "is_closing": 0,
+        "pre_game_published": 703,
+        "independent_capture_pre_game": 0,
+        "technical_status": 0,
+        "permission_class": 0,
+        "status": 0,
+        "reason": 0,
+        "evidence_file": 0,
+        "evidence_detail": 0,
+        "source_url": 0,
+        "archive_url": 1109
+      },
+      "date_checks": {
+        "ncaa_game_date": {
+          "format": "ISO_DATE",
+          "valid": 1747,
+          "missing": 236,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "quote_capture_timestamp": {
+          "format": "ISO_DATETIME",
+          "valid": 544,
+          "missing": 1439,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "article_published_at": {
+          "format": "ISO_DATETIME",
+          "valid": 1280,
+          "missing": 703,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "article_modified_at": {
+          "format": "ISO_DATETIME",
+          "valid": 1188,
+          "missing": 795,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "archive_capture_timestamp": {
+          "format": "ISO_DATETIME",
+          "valid": 874,
+          "missing": 1109,
+          "invalid": 0,
+          "invalid_line_examples": []
+        }
+      },
+      "source_url_checks": {
+        "source_url": {
+          "valid_syntax": 1983,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "archive_url": {
+          "valid_syntax": 874,
+          "missing": 1109,
+          "invalid": 0,
+          "invalid_line_examples": []
+        }
+      },
+      "errors": [],
+      "warnings": [
+        "Checksum computed only; no independently obtained expected hash supplied",
+        "No reviewed schema supplied; date/URL column discovery is provisional",
+        "No unique key configured; only full-row duplication is assessed",
+        "Complete expected column list not configured",
+        "Missing date/URL values in column: ncaa_game_date",
+        "Missing date/URL values in column: quote_capture_timestamp",
+        "Missing date/URL values in column: article_published_at",
+        "Missing date/URL values in column: article_modified_at",
+        "Missing date/URL values in column: archive_capture_timestamp",
+        "Missing date/URL values in column: archive_url"
+      ]
+    },
+    {
+      "file": "/Users/kiri/Desktop/dsf-project/data/incoming/grok/stage1_28f5677d90c3/audit_package/odds/odds_record_corrections.csv",
+      "column_count": 7,
+      "data_rows_seen": 11,
+      "rows_with_valid_width": 11,
+      "malformed_width_rows": 0,
+      "parsing_complete": true,
+      "duplicate_full_rows_extra": 0,
+      "missing_by_column": {
+        "record_id": 0,
+        "field": 0,
+        "original_value": 0,
+        "corrected_value": 0,
+        "source_url": 2,
+        "evidence_file": 0,
+        "reason": 0
+      },
+      "date_checks": {},
+      "source_url_checks": {
+        "source_url": {
+          "valid_syntax": 9,
+          "missing": 2,
+          "invalid": 0,
+          "invalid_line_examples": []
+        }
+      },
+      "errors": [],
+      "warnings": [
+        "Checksum computed only; no independently obtained expected hash supplied",
+        "No reviewed schema supplied; date/URL column discovery is provisional",
+        "No unique key configured; only full-row duplication is assessed",
+        "Complete expected column list not configured",
+        "No date columns assessed; applicability/format requires human review",
+        "Missing date/URL values in column: source_url"
+      ]
+    },
+    {
+      "file": "/Users/kiri/Desktop/dsf-project/data/incoming/grok/stage1_28f5677d90c3/audit_package/odds/odds_rejected.csv",
+      "column_count": 46,
+      "data_rows_seen": 12,
+      "rows_with_valid_width": 12,
+      "malformed_width_rows": 0,
+      "parsing_complete": true,
+      "duplicate_full_rows_extra": 0,
+      "missing_by_column": {
+        "record_id": 0,
+        "source_dataset": 0,
+        "orig_record_id": 4,
+        "season": 0,
+        "game_id": 0,
+        "ncaa_game_id": 0,
+        "ncaa_game_date": 0,
+        "ncaa_home_team": 0,
+        "ncaa_away_team": 0,
+        "sportsbook": 0,
+        "market": 0,
+        "selection": 0,
+        "selection_role": 0,
+        "orientation_source": 1,
+        "line": 7,
+        "american_odds": 5,
+        "quote_capture_timestamp": 12,
+        "article_published_at": 1,
+        "article_modified_at": 3,
+        "archive_capture_timestamp": 8,
+        "start_time_utc_used": 0,
+        "start_basis": 0,
+        "verified_in_raw": 0,
+        "book_supported": 0,
+        "url_status": 0,
+        "url_authentic": 0,
+        "ai_pick_or_projection": 0,
+        "duplicate_of": 5,
+        "also_published_in": 12,
+        "repeat_observation_of": 12,
+        "grade_original": 0,
+        "grade_audited": 0,
+        "grade_reason": 0,
+        "line_type": 0,
+        "is_opening": 0,
+        "is_closing": 0,
+        "pre_game_published": 1,
+        "independent_capture_pre_game": 0,
+        "technical_status": 0,
+        "permission_class": 0,
+        "status": 0,
+        "reason": 0,
+        "evidence_file": 0,
+        "evidence_detail": 0,
+        "source_url": 0,
+        "archive_url": 8
+      },
+      "date_checks": {
+        "ncaa_game_date": {
+          "format": "ISO_DATE",
+          "valid": 12,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "quote_capture_timestamp": {
+          "format": "ISO_DATETIME",
+          "valid": 0,
+          "missing": 12,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "article_published_at": {
+          "format": "ISO_DATETIME",
+          "valid": 11,
+          "missing": 1,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "article_modified_at": {
+          "format": "ISO_DATETIME",
+          "valid": 9,
+          "missing": 3,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "archive_capture_timestamp": {
+          "format": "ISO_DATETIME",
+          "valid": 4,
+          "missing": 8,
+          "invalid": 0,
+          "invalid_line_examples": []
+        }
+      },
+      "source_url_checks": {
+        "source_url": {
+          "valid_syntax": 12,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "archive_url": {
+          "valid_syntax": 4,
+          "missing": 8,
+          "invalid": 0,
+          "invalid_line_examples": []
+        }
+      },
+      "errors": [],
+      "warnings": [
+        "Checksum computed only; no independently obtained expected hash supplied",
+        "No reviewed schema supplied; date/URL column discovery is provisional",
+        "No unique key configured; only full-row duplication is assessed",
+        "Complete expected column list not configured",
+        "Missing date/URL values in column: quote_capture_timestamp",
+        "Missing date/URL values in column: article_published_at",
+        "Missing date/URL values in column: article_modified_at",
+        "Missing date/URL values in column: archive_capture_timestamp",
+        "Missing date/URL values in column: archive_url"
+      ]
+    },
+    {
+      "file": "/Users/kiri/Desktop/dsf-project/data/incoming/grok/stage1_28f5677d90c3/audit_package/odds_provenance_audit.csv",
+      "column_count": 46,
+      "data_rows_seen": 1995,
+      "rows_with_valid_width": 1995,
+      "malformed_width_rows": 0,
+      "parsing_complete": true,
+      "duplicate_full_rows_extra": 0,
+      "missing_by_column": {
+        "record_id": 0,
+        "source_dataset": 0,
+        "orig_record_id": 525,
+        "season": 0,
+        "game_id": 0,
+        "ncaa_game_id": 236,
+        "ncaa_game_date": 236,
+        "ncaa_home_team": 236,
+        "ncaa_away_team": 236,
+        "sportsbook": 30,
+        "market": 0,
+        "selection": 0,
+        "selection_role": 0,
+        "orientation_source": 701,
+        "line": 583,
+        "american_odds": 858,
+        "quote_capture_timestamp": 1451,
+        "article_published_at": 704,
+        "article_modified_at": 798,
+        "archive_capture_timestamp": 1117,
+        "start_time_utc_used": 16,
+        "start_basis": 16,
+        "verified_in_raw": 0,
+        "book_supported": 0,
+        "url_status": 0,
+        "url_authentic": 0,
+        "ai_pick_or_projection": 0,
+        "duplicate_of": 1988,
+        "also_published_in": 1988,
+        "repeat_observation_of": 1945,
+        "grade_original": 0,
+        "grade_audited": 0,
+        "grade_reason": 0,
+        "line_type": 0,
+        "is_opening": 0,
+        "is_closing": 0,
+        "pre_game_published": 704,
+        "independent_capture_pre_game": 0,
+        "technical_status": 0,
+        "permission_class": 0,
+        "status": 0,
+        "reason": 0,
+        "evidence_file": 0,
+        "evidence_detail": 0,
+        "source_url": 0,
+        "archive_url": 1117
+      },
+      "date_checks": {
+        "ncaa_game_date": {
+          "format": "ISO_DATE",
+          "valid": 1759,
+          "missing": 236,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "quote_capture_timestamp": {
+          "format": "ISO_DATETIME",
+          "valid": 544,
+          "missing": 1451,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "article_published_at": {
+          "format": "ISO_DATETIME",
+          "valid": 1291,
+          "missing": 704,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "article_modified_at": {
+          "format": "ISO_DATETIME",
+          "valid": 1197,
+          "missing": 798,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "archive_capture_timestamp": {
+          "format": "ISO_DATETIME",
+          "valid": 878,
+          "missing": 1117,
+          "invalid": 0,
+          "invalid_line_examples": []
+        }
+      },
+      "source_url_checks": {
+        "source_url": {
+          "valid_syntax": 1995,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "archive_url": {
+          "valid_syntax": 878,
+          "missing": 1117,
+          "invalid": 0,
+          "invalid_line_examples": []
+        }
+      },
+      "errors": [],
+      "warnings": [
+        "Checksum computed only; no independently obtained expected hash supplied",
+        "No reviewed schema supplied; date/URL column discovery is provisional",
+        "No unique key configured; only full-row duplication is assessed",
+        "Complete expected column list not configured",
+        "Missing date/URL values in column: ncaa_game_date",
+        "Missing date/URL values in column: quote_capture_timestamp",
+        "Missing date/URL values in column: article_published_at",
+        "Missing date/URL values in column: article_modified_at",
+        "Missing date/URL values in column: archive_capture_timestamp",
+        "Missing date/URL values in column: archive_url"
+      ]
+    },
+    {
+      "file": "/Users/kiri/Desktop/dsf-project/data/incoming/grok/stage1_28f5677d90c3/audit_package/originals/ncaa_lacrosse_historical_odds_2025.csv",
+      "column_count": 23,
+      "data_rows_seen": 1470,
+      "rows_with_valid_width": 1470,
+      "malformed_width_rows": 0,
+      "parsing_complete": true,
+      "duplicate_full_rows_extra": 0,
+      "missing_by_column": {
+        "record_id": 0,
+        "season": 0,
+        "game_id": 0,
+        "game_date": 0,
+        "game_start_time": 6,
+        "home_team": 0,
+        "away_team": 0,
+        "home_away_verified": 0,
+        "event_name": 8,
+        "sportsbook": 27,
+        "market": 0,
+        "side": 0,
+        "line": 416,
+        "price_american": 845,
+        "price_decimal": 845,
+        "opening_or_closing": 1446,
+        "quote_timestamp": 0,
+        "source_url": 0,
+        "archive_url": 1098,
+        "source_type": 0,
+        "evidence_quality": 0,
+        "pre_game_verified": 792,
+        "notes": 0
+      },
+      "date_checks": {
+        "game_date": {
+          "format": "ISO_DATE",
+          "valid": 1470,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "quote_timestamp": {
+          "format": "ISO_DATETIME",
+          "valid": 1470,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        }
+      },
+      "source_url_checks": {
+        "source_url": {
+          "valid_syntax": 1470,
+          "missing": 0,
+          "invalid": 0,
+          "invalid_line_examples": []
+        },
+        "archive_url": {
+          "valid_syntax": 372,
+          "missing": 1098,
+          "invalid": 0,
+          "invalid_line_examples": []
+        }
+      },
+      "errors": [],
+      "warnings": [
+        "Checksum computed only; no independently obtained expected hash supplied",
+        "No reviewed schema supplied; date/URL column discovery is provisional",
+        "No unique key configured; only full-row duplication is assessed",
+        "Complete expected column list not configured",
+        "Missing date/URL values in column: archive_url"
+      ]
+    },
+    {
+      "file": "/Users/kiri/Desktop/dsf-project/data/incoming/grok/stage1_28f5677d90c3/audit_package/source_permissions_audit.csv",
+      "column_count": 10,
+      "data_rows_seen": 19,
+      "rows_with_valid_width": 19,
+      "malformed_width_rows": 0,
+      "parsing_complete": true,
+      "duplicate_full_rows_extra": 0,
+      "missing_by_column": {
+        "source": 0,
+        "source_key": 0,
+        "url": 0,
+        "tos_url": 1,
+        "robots_url": 0,
+        "retrieved_at": 0,
+        "clauses": 0,
+        "classification": 0,
+        "notes": 0,
+        "evidence_files": 1
+      },
+      "date_checks": {
+        "retrieved_at": {
+          "format": "ISO_DATETIME",
+          "valid": 0,
+          "missing": 0,
+          "invalid": 19,
+          "invalid_line_examples": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      },
+      "source_url_checks": {
+        "url": {
+          "valid_syntax": 16,
+          "missing": 0,
+          "invalid": 3,
+          "invalid_line_examples": [
+            10,
+            11,
+            17
+          ]
+        },
+        "tos_url": {
+          "valid_syntax": 11,
+          "missing": 1,
+          "invalid": 7,
+          "invalid_line_examples": [
+            2,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        "robots_url": {
+          "valid_syntax": 11,
+          "missing": 0,
+          "invalid": 8,
+          "invalid_line_examples": [
+            4,
+            9,
+            10,
+            11,
+            14
+          ]
+        }
+      },
+      "errors": [
+        "Invalid date or URL format in column: retrieved_at",
+        "Invalid date or URL format in column: url",
+        "Invalid date or URL format in column: tos_url",
+        "Invalid date or URL format in column: robots_url"
+      ],
+      "warnings": [
+        "Checksum computed only; no independently obtained expected hash supplied",
+        "No reviewed schema supplied; date/URL column discovery is provisional",
+        "No unique key configured; only full-row duplication is assessed",
+        "Complete expected column list not configured",
+        "Missing date/URL values in column: tos_url"
+      ]
+    },
+    {
+      "file": "/Users/kiri/Desktop/dsf-project/data/incoming/grok/stage1_28f5677d90c3/audit_package/validated_data_inventory.csv",
+      "column_count": 13,
+      "data_rows_seen": 18,
+      "rows_with_valid_width": 18,
+      "malformed_width_rows": 0,
+      "parsing_complete": true,
+      "duplicate_full_rows_extra": 0,
+      "missing_by_column": {
+        "path": 0,
+        "in_package": 0,
+        "description": 0,
+        "rows_original": 0,
+        "rows_usable": 5,
+        "verified": 6,
+        "provisional": 6,
+        "requires_permission": 5,
+        "rejected": 5,
+        "seasons": 1,
+        "sha256": 0,
+        "permission_status": 0,
+        "cleared_for_analysis": 0
+      },
+      "date_checks": {},
+      "source_url_checks": {},
+      "errors": [],
+      "warnings": [
+        "Checksum computed only; no independently obtained expected hash supplied",
+        "No reviewed schema supplied; date/URL column discovery is provisional",
+        "No unique key configured; only full-row duplication is assessed",
+        "Complete expected column list not configured",
+        "No date columns assessed; applicability/format requires human review",
+        "No record-level or dataset-level source URL assessed"
+      ]
+    }
+  ]
+}

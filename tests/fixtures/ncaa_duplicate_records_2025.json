@@ -1,0 +1,128 @@
+{
+  "2025-02-22": {
+    "games": [
+      {
+        "game": {
+          "gameID": "6311207",
+          "away": {
+            "score": "15",
+            "names": {
+              "char6": "LAFAYE",
+              "short": "Lafayette",
+              "seo": "lafayette",
+              "full": "Lafayette College"
+            },
+            "winner": true,
+            "seed": "",
+            "description": "(3-1)",
+            "rank": "",
+            "conferences": [
+              {
+                "conferenceName": "Patriot",
+                "conferenceSeo": "patriot"
+              }
+            ]
+          },
+          "finalMessage": "FINAL",
+          "bracketRound": "",
+          "title": "Le Moyne Lafayette",
+          "contestName": "",
+          "url": "/game/6386400",
+          "network": "",
+          "home": {
+            "score": "4",
+            "names": {
+              "char6": "LEMOYN",
+              "short": "Le Moyne",
+              "seo": "le-moyne",
+              "full": "Le Moyne College"
+            },
+            "winner": false,
+            "seed": "",
+            "description": "(1-1)",
+            "rank": "",
+            "conferences": [
+              {
+                "conferenceName": "NEC",
+                "conferenceSeo": "nec"
+              }
+            ]
+          },
+          "liveVideoEnabled": false,
+          "startTime": "TBA",
+          "startTimeEpoch": "1740200400",
+          "bracketId": "",
+          "gameState": "final",
+          "startDate": "02-22-2025",
+          "currentPeriod": "FINAL",
+          "videoState": "",
+          "bracketRegion": "",
+          "contestClock": "0:00"
+        }
+      }
+    ]
+  },
+  "2025-02-23": {
+    "games": [
+      {
+        "game": {
+          "gameID": "6311207",
+          "away": {
+            "score": "15",
+            "names": {
+              "char6": "LAFAYE",
+              "short": "Lafayette",
+              "seo": "lafayette",
+              "full": "Lafayette College"
+            },
+            "winner": true,
+            "seed": "",
+            "description": "(3-1)",
+            "rank": "",
+            "conferences": [
+              {
+                "conferenceName": "Patriot",
+                "conferenceSeo": "patriot"
+              }
+            ]
+          },
+          "finalMessage": "FINAL",
+          "bracketRound": "",
+          "title": "Le Moyne Lafayette",
+          "contestName": "",
+          "url": "/game/6386400",
+          "network": "",
+          "home": {
+            "score": "4",
+            "names": {
+              "char6": "LEMOYN",
+              "short": "Le Moyne",
+              "seo": "le-moyne",
+              "full": "Le Moyne College"
+            },
+            "winner": false,
+            "seed": "",
+            "description": "(1-0)",
+            "rank": "",
+            "conferences": [
+              {
+                "conferenceName": "NEC",
+                "conferenceSeo": "nec"
+              }
+            ]
+          },
+          "liveVideoEnabled": false,
+          "startTime": "TBA",
+          "startTimeEpoch": "1740286800",
+          "bracketId": "",
+          "gameState": "final",
+          "startDate": "02-23-2025",
+          "currentPeriod": "FINAL",
+          "videoState": "",
+          "bracketRegion": "",
+          "contestClock": "0:00"
+        }
+      }
+    ]
+  }
+}

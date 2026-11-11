@@ -1,0 +1,122 @@
+{
+  "archive": "/Users/kiri/Desktop/dsf-project/data/incoming/grok/ncaa_lacrosse_odds_evidence_expansion_2026-11-10.zip",
+  "archive_bytes": 51589,
+  "archive_sha256": "d76adefe0110aee3e70d7f0267e63eb38f35926de37f3c132709b10621cd6ab2",
+  "expected_archive_sha256": null,
+  "expected_archive_checksum_status": "NOT_SUPPLIED; locally computed fingerprint only",
+  "unsafe_paths": 0,
+  "member_count": 13,
+  "file_count": 13,
+  "total_uncompressed_bytes": 245249,
+  "crc_and_decompression": "PASS_ALL_MEMBERS",
+  "destination": "/Users/kiri/Desktop/dsf-project/data/incoming/grok/evidence_expansion_d76adefe0110",
+  "original_archive_unchanged": true,
+  "packaged_scripts_executed": 0,
+  "trust_status": "UNVERIFIED",
+  "files": [
+    {
+      "path": "odds_evidence_expansion_2026-11-10/additional_odds_evidence_report.md",
+      "bytes": 31154,
+      "format": "Markdown text",
+      "compressed_bytes": 8288,
+      "crc32": "9e4ff70c",
+      "sha256": "f020ceebeb7b4984c2ba5b1d0063999f281f4436d6ce5902432b05031bf8deb1"
+    },
+    {
+      "path": "odds_evidence_expansion_2026-11-10/additional_verified_odds.csv",
+      "bytes": 75666,
+      "format": "CSV",
+      "compressed_bytes": 7432,
+      "crc32": "5b113a10",
+      "sha256": "ec601bb190c35668646a78f62af823e1090b3223a029e713ee46b4a8cb065897"
+    },
+    {
+      "path": "odds_evidence_expansion_2026-11-10/wayback_fetch_log.csv",
+      "bytes": 5288,
+      "format": "CSV",
+      "compressed_bytes": 1980,
+      "crc32": "96a058f6",
+      "sha256": "c853eca36f1da18fd556fb0de2a8010185be33390af0ce5f0c66941780dc3e04"
+    },
+    {
+      "path": "odds_evidence_expansion_2026-11-10/multibookmaker_coverage.csv",
+      "bytes": 3971,
+      "format": "CSV",
+      "compressed_bytes": 1250,
+      "crc32": "ebaa5623",
+      "sha256": "1132cf18ffe1db8dadce504970f432973dffc7a3e7b5ca667c2eab377139d948"
+    },
+    {
+      "path": "odds_evidence_expansion_2026-11-10/unresolved_odds_evidence.csv",
+      "bytes": 21051,
+      "format": "CSV",
+      "compressed_bytes": 7316,
+      "crc32": "80b08393",
+      "sha256": "054cc717224519dcb2a79b87d759dad0555e612b727ac571f7f7c82005eb4549"
+    },
+    {
+      "path": "odds_evidence_expansion_2026-11-10/evidence_checks_detail.csv",
+      "bytes": 61691,
+      "format": "CSV",
+      "compressed_bytes": 6962,
+      "crc32": "02ae4f19",
+      "sha256": "8bf5762309f19bbab5872653595eb3a53180ea58e1cb097f102b051099e89b5a"
+    },
+    {
+      "path": "odds_evidence_expansion_2026-11-10/MANIFEST.csv",
+      "bytes": 1217,
+      "format": "CSV",
+      "compressed_bytes": 724,
+      "crc32": "d0410e96",
+      "sha256": "6e3799a1ecc4ea1f875b238c414478af22bde6669118eca578f5c15986a29cef"
+    },
+    {
+      "path": "odds_evidence_expansion_2026-11-10/cdx_query_log.csv",
+      "bytes": 7060,
+      "format": "CSV",
+      "compressed_bytes": 1195,
+      "crc32": "8199474e",
+      "sha256": "7fecb0b7128d76fa8900bb65fce33c941722cc5bdcef8563fe97ddaeffd0abcf"
+    },
+    {
+      "path": "odds_evidence_expansion_2026-11-10/scripts/build_expansion.py",
+      "bytes": 18099,
+      "format": "Python source (NOT EXECUTED)",
+      "compressed_bytes": 6168,
+      "crc32": "50efb3a2",
+      "sha256": "d42d26696e16b695d55812c653bf13f9a048e03294d68592778ac16d2d33c7e3"
+    },
+    {
+      "path": "odds_evidence_expansion_2026-11-10/scripts/parsers.py",
+      "bytes": 3065,
+      "format": "Python source (NOT EXECUTED)",
+      "compressed_bytes": 1129,
+      "crc32": "7489cc14",
+      "sha256": "991b239cf2528b6e8fcfafe403136716f19b12e23e2927fdad468d275701af43"
+    },
+    {
+      "path": "odds_evidence_expansion_2026-11-10/scripts/build_outputs.py",
+      "bytes": 7196,
+      "format": "Python source (NOT EXECUTED)",
+      "compressed_bytes": 2801,
+      "crc32": "ef1ef614",
+      "sha256": "9ca36d236795200bba8f99e6d0617c05089b3950447448185613b9c3d1a66133"
+    },
+    {
+      "path": "odds_evidence_expansion_2026-11-10/scripts/parse_mgm.py",
+      "bytes": 1813,
+      "format": "Python source (NOT EXECUTED)",
+      "compressed_bytes": 817,
+      "crc32": "1940151f",
+      "sha256": "d3e91523352ca6aabf0e96f8b3538cc95bfdd59a52ba7921a8ea62442e75a168"
+    },
+    {
+      "path": "odds_evidence_expansion_2026-11-10/scripts/build_unresolved.py",
+      "bytes": 7978,
+      "format": "Python source (NOT EXECUTED)",
+      "compressed_bytes": 2991,
+      "crc32": "2e3a5fcf",
+      "sha256": "2f1c122b80793a5884d7138a2dd92f94d9cafe1df2be07e708e71aa08f10c2f7"
+    }
+  ]
+}

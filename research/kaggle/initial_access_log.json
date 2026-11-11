@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://www.kaggle.com/api/v1/datasets/view/harsh21x/live-sports-betting-odds-snapshot",
+    "retrieved_at": "2026-11-09T21:33:18.010864-05:00",
+    "http_status": 200,
+    "content_type": "application/json",
+    "bytes": 7610,
+    "local_path": "research/kaggle/raw/harsh21x__live-sports-betting-odds-snapshot.view.response",
+    "sha256": "c020d4e316f01116e7252bf6fd412e50296851e31dab2fc4eb2f03e1e83666a7"
+  },
+  {
+    "url": "https://www.kaggle.com/api/v1/datasets/list/harsh21x/live-sports-betting-odds-snapshot",
+    "retrieved_at": "2026-11-09T21:33:19.327083-05:00",
+    "http_status": 200,
+    "content_type": "application/json",
+    "bytes": 422,
+    "local_path": "research/kaggle/raw/harsh21x__live-sports-betting-odds-snapshot.list.response",
+    "sha256": "2bd136df9522b8c9b65ff4d6ee8388c11117f0e2b967791d0c6286a9304506df"
+  },
+  {
+    "url": "https://www.kaggle.com/api/v1/datasets/view/tjmulderig/professional-lacrosse-statistics-pll-mll",
+    "retrieved_at": "2026-11-09T21:33:20.659730-05:00",
+    "http_status": 200,
+    "content_type": "application/json",
+    "bytes": 7551,
+    "local_path": "research/kaggle/raw/tjmulderig__professional-lacrosse-statistics-pll-mll.view.response",
+    "sha256": "ed7c19ac9cba71d4ec7cc85c5b7486ed5f9b0a044c2bd5c35a4c67f1f4c850b2"
+  },
+  {
+    "url": "https://www.kaggle.com/api/v1/datasets/list/tjmulderig/professional-lacrosse-statistics-pll-mll",
+    "retrieved_at": "2026-11-09T21:33:21.947280-05:00",
+    "http_status": 200,
+    "content_type": "application/json",
+    "bytes": 1846,
+    "local_path": "research/kaggle/raw/tjmulderig__professional-lacrosse-statistics-pll-mll.list.response",
+    "sha256": "0d871d2383f873194ccd8107b76983fca61b107c8a4be9e933ba2629b9f13624"
+  }
+]

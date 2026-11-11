@@ -1,0 +1,396 @@
+{
+  "python_version": "3.11.18 (main, Oct 26 2026, 18:15:19) [Clang 20.1.8 ]",
+  "environment": "/Users/kiri/miniconda3/envs/dsf-lacrosse/bin/python",
+  "records": 1995,
+  "raw_event_ids": 308,
+  "full_row_duplicates": 0,
+  "duplicate_record_ids": 0,
+  "same_observation_duplicate_rows": 0,
+  "supplier_repeat_observations": 50,
+  "source_domains": {
+    "www.actionnetwork.com": 832,
+    "betonlacrosse.com": 428,
+    "sports.betmgm.com": 292,
+    "sportsbook-nash.draftkings.com": 208,
+    "sportsbook.draftkings.com": 204,
+    "laxallstars.com": 25,
+    "www.legalsportsbetting.com": 6
+  },
+  "sportsbooks": {
+    "DraftKings": 889,
+    "BetMGM": 564,
+    "FanDuel": 236,
+    "Caesars": 164,
+    "bet365": 112,
+    "null": 30
+  },
+  "markets": {
+    "spread": 711,
+    "total": 701,
+    "moneyline": 583
+  },
+  "grades": {
+    "B": 1207,
+    "A": 702,
+    "C": 86
+  },
+  "supplier_technical_status": {
+    "verified": 1887,
+    "provisional": 96,
+    "rejected": 12
+  },
+  "missing_values": {
+    "record_id": 0,
+    "source_dataset": 0,
+    "orig_record_id": 525,
+    "season": 0,
+    "game_id": 0,
+    "ncaa_game_id": 236,
+    "ncaa_game_date": 236,
+    "ncaa_home_team": 236,
+    "ncaa_away_team": 236,
+    "sportsbook": 30,
+    "market": 0,
+    "selection": 0,
+    "selection_role": 0,
+    "orientation_source": 701,
+    "line": 583,
+    "american_odds": 858,
+    "quote_capture_timestamp": 1451,
+    "article_published_at": 704,
+    "article_modified_at": 798,
+    "archive_capture_timestamp": 1117,
+    "start_time_utc_used": 16,
+    "start_basis": 16,
+    "verified_in_raw": 0,
+    "book_supported": 0,
+    "url_status": 0,
+    "url_authentic": 0,
+    "ai_pick_or_projection": 0,
+    "duplicate_of": 1988,
+    "also_published_in": 1988,
+    "repeat_observation_of": 1945,
+    "grade_original": 0,
+    "grade_audited": 0,
+    "grade_reason": 0,
+    "line_type": 0,
+    "is_opening": 0,
+    "is_closing": 0,
+    "pre_game_published": 704,
+    "independent_capture_pre_game": 0,
+    "technical_status": 0,
+    "permission_class": 0,
+    "status": 0,
+    "reason": 0,
+    "evidence_file": 0,
+    "evidence_detail": 0,
+    "source_url": 0,
+    "archive_url": 1117
+  },
+  "issues": {
+    "ARTICLE_MODIFIED_AT_OR_AFTER_START": 937,
+    "MISSING_PRICE": 858,
+    "LINE_NOT_EXPLICITLY_QUOTED": 39,
+    "MISSING_BOOKMAKER": 30,
+    "INVALID_AMERICAN_PRICE": 2,
+    "TOTAL_SIDE_UNSPECIFIED": 6,
+    "CLAIMED_OBSERVATION_NOT_BEFORE_START": 160,
+    "MISSING_OR_INVALID_ORIGINAL_DATE": 10
+  },
+  "matching": {
+    "MATCHED_STAGE2_CANDIDATE": 1731,
+    "OUT_OF_REFERENCE_SEASONS": 214,
+    "DATE_CONFLICT": 34,
+    "NO_DATE": 10,
+    "UNMATCHED_TEAMS_DATE": 6
+  },
+  "quote_evidence_references": 101,
+  "quote_evidence_available_records": 0,
+  "historically_supported_quotes": 0,
+  "evidence_unresolved_records": 1995,
+  "sample_size": 40,
+  "sample_strata": {
+    "sportsbook": [
+      "BetMGM",
+      "Caesars",
+      "DraftKings",
+      "FanDuel",
+      "bet365",
+      "null"
+    ],
+    "season": [
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+    ],
+    "market": [
+      "moneyline",
+      "spread",
+      "total"
+    ],
+    "grade_audited": [
+      "A",
+      "B",
+      "C"
+    ],
+    "source_domain": [
+      "betonlacrosse.com",
+      "laxallstars.com",
+      "sports.betmgm.com",
+      "sportsbook-nash.draftkings.com",
+      "sportsbook.draftkings.com",
+      "www.actionnetwork.com",
+      "www.legalsportsbetting.com"
+    ],
+    "source_dataset": [
+      "additional",
+      "original"
+    ],
+    "technical_status": [
+      "provisional",
+      "rejected",
+      "verified"
+    ]
+  },
+  "provisional_academic_analysis_records": 0,
+  "formally_cleared_records": 0,
+  "current_policy_network_checks": 0,
+  "policy_capture_checks": [
+    {
+      "file": "data/incoming/grok/stage1_28f5677d90c3/audit_package/evidence/odds/raw_terms/tos_actionnetwork.html",
+      "sha256": "d9c9b13a1438564a3217870b5543dcf6331faa875fef06614083e0955a509a09",
+      "title": "Terms | The Action Network",
+      "text_characters": 43438,
+      "page_not_found": false,
+      "automation_restriction_text_present": true,
+      "personal_use_text_present": true
+    },
+    {
+      "file": "data/incoming/grok/stage1_28f5677d90c3/audit_package/evidence/odds/raw_terms/tos_archive.org.html",
+      "sha256": "0ba78da753afba7ab917957f5a1f331461da6902e8b453a41b82d2f26c3a715f",
+      "title": "Internet Archive: Digital Library of Free & Borrowable Texts, Movies, Music & Wayback Machine",
+      "text_characters": 194,
+      "page_not_found": false,
+      "automation_restriction_text_present": false,
+      "personal_use_text_present": false
+    },
+    {
+      "file": "data/incoming/grok/stage1_28f5677d90c3/audit_package/evidence/odds/raw_terms/tos_archive_2020wb.html",
+      "sha256": "4832d3f011a2503c30c547a18624115136956c00a470749a8793ca1ef52b1bba",
+      "title": "Internet Archive Terms of Use",
+      "text_characters": 17670,
+      "page_not_found": false,
+      "automation_restriction_text_present": false,
+      "personal_use_text_present": false
+    },
+    {
+      "file": "data/incoming/grok/stage1_28f5677d90c3/audit_package/evidence/odds/raw_terms/tos_archive_wb.html",
+      "sha256": "9b962ab9aea970a060730bb39a3621b4802d194c746fa818eb68f33a7f129f5b",
+      "title": "Internet Archive: Digital Library of Free & Borrowable Texts, Movies, Music & Wayback Machine",
+      "text_characters": 194,
+      "page_not_found": false,
+      "automation_restriction_text_present": false,
+      "personal_use_text_present": false
+    },
+    {
+      "file": "data/incoming/grok/stage1_28f5677d90c3/audit_package/evidence/odds/raw_terms/tos_betmgm.html",
+      "sha256": "83ccbba36fb695bd968f421e9e41594a71ff2acce869ac196e8ca94a37ead400",
+      "title": "BetMGM",
+      "text_characters": 178,
+      "page_not_found": false,
+      "automation_restriction_text_present": false,
+      "personal_use_text_present": false
+    },
+    {
+      "file": "data/incoming/grok/stage1_28f5677d90c3/audit_package/evidence/odds/raw_terms/tos_betmgm_blog.html",
+      "sha256": "b9d1509ce2564126ffd62a74db8abd32cc19839cbda4340f19553ab7bf27ab4d",
+      "title": "Terms & Conditions | BetMGM",
+      "text_characters": 4979,
+      "page_not_found": false,
+      "automation_restriction_text_present": false,
+      "personal_use_text_present": false
+    },
+    {
+      "file": "data/incoming/grok/stage1_28f5677d90c3/audit_package/evidence/odds/raw_terms/tos_betmgm_nj.html",
+      "sha256": "bbd8bb814c570df44158c1f84a85cbca2ccb4c2a0d2282127397955553a63533",
+      "title": "BetMGM",
+      "text_characters": 178,
+      "page_not_found": false,
+      "automation_restriction_text_present": false,
+      "personal_use_text_present": false
+    },
+    {
+      "file": "data/incoming/grok/stage1_28f5677d90c3/audit_package/evidence/odds/raw_terms/tos_betonlacrosse_terms.html",
+      "sha256": "8bee362762c14e3801f9f938751a37abc91eeaf61ae28129babd3ff3aa254802",
+      "title": "Page not found - Bet On Lacrosse",
+      "text_characters": 1710,
+      "page_not_found": true,
+      "automation_restriction_text_present": false,
+      "personal_use_text_present": false
+    },
+    {
+      "file": "data/incoming/grok/stage1_28f5677d90c3/audit_package/evidence/odds/raw_terms/tos_betonlacrosse_terms2.html",
+      "sha256": "cf55d4594328d7ea2c0d269e8c7256a24a10cf4e2956cb06db38ff0edd0b00df",
+      "title": "Page not found - Bet On Lacrosse",
+      "text_characters": 1710,
+      "page_not_found": true,
+      "automation_restriction_text_present": false,
+      "personal_use_text_present": false
+    },
+    {
+      "file": "data/incoming/grok/stage1_28f5677d90c3/audit_package/evidence/odds/raw_terms/tos_cradllax.html",
+      "sha256": "65a6bf62bfdc571e4e4a90b164fa5adc2fe653b2aaab6df9b2646fb18489c652",
+      "title": "Terms of Service \u00b7 Cradl",
+      "text_characters": 5258,
+      "page_not_found": false,
+      "automation_restriction_text_present": true,
+      "personal_use_text_present": false
+    },
+    {
+      "file": "data/incoming/grok/stage1_28f5677d90c3/audit_package/evidence/odds/raw_terms/tos_disney.html",
+      "sha256": "2312629ad909385689fa240b628c866766f475d1b08d9f22279546bbf5bc6b9d",
+      "title": "English \u2013 Disney Terms of Use \u2013 United States \u2013 Disney Terms Of Use",
+      "text_characters": 48939,
+      "page_not_found": false,
+      "automation_restriction_text_present": true,
+      "personal_use_text_present": true
+    },
+    {
+      "file": "data/incoming/grok/stage1_28f5677d90c3/audit_package/evidence/odds/raw_terms/tos_draftkings.html",
+      "sha256": "7511b7abe04a1b48187f716eb1ac1e932109a2f814f785878a38fe8900ce4d2c",
+      "title": "404 Not Found | DraftKings Sportsbook",
+      "text_characters": 1716,
+      "page_not_found": true,
+      "automation_restriction_text_present": false,
+      "personal_use_text_present": false
+    },
+    {
+      "file": "data/incoming/grok/stage1_28f5677d90c3/audit_package/evidence/odds/raw_terms/tos_draftkings2.html",
+      "sha256": "cc037131c23737fb452b849d49eb694976ffdbfee592ec0069f7faaeae3c09c7",
+      "title": "DraftKings",
+      "text_characters": 53686,
+      "page_not_found": false,
+      "automation_restriction_text_present": true,
+      "personal_use_text_present": true
+    },
+    {
+      "file": "data/incoming/grok/stage1_28f5677d90c3/audit_package/evidence/odds/raw_terms/tos_laxallstars.html",
+      "sha256": "2455d55ad31d82b20a9962f929b1b31f410bed204cec0573554f53ae6a82ab60",
+      "title": "Page Not Found | LaxAllStars",
+      "text_characters": 28,
+      "page_not_found": true,
+      "automation_restriction_text_present": false,
+      "personal_use_text_present": false
+    },
+    {
+      "file": "data/incoming/grok/stage1_28f5677d90c3/audit_package/evidence/odds/raw_terms/tos_laxallstars2.html",
+      "sha256": "1999e4d0346d9e0e929c4fc142def2e749b1835777569b1647efcf3324c32883",
+      "title": "Page Not Found | LaxAllStars",
+      "text_characters": 28,
+      "page_not_found": true,
+      "automation_restriction_text_present": false,
+      "personal_use_text_present": false
+    },
+    {
+      "file": "data/incoming/grok/stage1_28f5677d90c3/audit_package/evidence/odds/raw_terms/tos_legalsportsbetting.html",
+      "sha256": "86f68beadb2a0a058d6987fc39ea4934bb5fab9e530fed8ab08d25345c564789",
+      "title": "Page Not Found | LegalSportsBetting.com",
+      "text_characters": 1075,
+      "page_not_found": true,
+      "automation_restriction_text_present": false,
+      "personal_use_text_present": false
+    },
+    {
+      "file": "data/incoming/grok/stage1_28f5677d90c3/audit_package/evidence/odds/raw_terms/tos_legalsportsbetting2.html",
+      "sha256": "86f68beadb2a0a058d6987fc39ea4934bb5fab9e530fed8ab08d25345c564789",
+      "title": "Page Not Found | LegalSportsBetting.com",
+      "text_characters": 1075,
+      "page_not_found": true,
+      "automation_restriction_text_present": false,
+      "personal_use_text_present": false
+    },
+    {
+      "file": "data/incoming/grok/stage1_28f5677d90c3/audit_package/evidence/odds/raw_terms/tos_lsb_about.html",
+      "sha256": "b131e5267bbeccb2d33f62f07054e8ec3c0b6e0d89a9ee5d0bdb5877ad9e2909",
+      "title": "Learn About the Team at Legal Sports Betting and Our Goals",
+      "text_characters": 6376,
+      "page_not_found": false,
+      "automation_restriction_text_present": false,
+      "personal_use_text_present": false
+    },
+    {
+      "file": "data/incoming/grok/stage1_28f5677d90c3/audit_package/evidence/odds/raw_terms/tos_ncaa.com.html",
+      "sha256": "1905996697671737f944cc87a711b7d9aa8bc2ae17f94f20882680579b9a0ca4",
+      "title": "NCAA.com Terms of Service | NCAA.com",
+      "text_characters": 61656,
+      "page_not_found": false,
+      "automation_restriction_text_present": false,
+      "personal_use_text_present": false
+    },
+    {
+      "file": "data/incoming/grok/stage1_28f5677d90c3/audit_package/evidence/odds/raw_terms/tos_sidearm.html",
+      "sha256": "1a3f92c05b720d396ef2208da76cd542bc68af24cfb4d6edff88c876d7b690b4",
+      "title": "SIDEARM Sports",
+      "text_characters": 19832,
+      "page_not_found": false,
+      "automation_restriction_text_present": false,
+      "personal_use_text_present": true
+    },
+    {
+      "file": "data/incoming/grok/stage1_28f5677d90c3/audit_package/evidence/odds/raw_terms/tos_the-odds-api.html",
+      "sha256": "c2abf385a981ecd4a57846752d8c6cd5d867b9d1b980f0a84ea0981e9979419b",
+      "title": "Terms and Conditions | The Odds API",
+      "text_characters": 6780,
+      "page_not_found": false,
+      "automation_restriction_text_present": false,
+      "personal_use_text_present": false
+    },
+    {
+      "file": "data/incoming/grok/stage1_28f5677d90c3/audit_package/evidence/odds/raw_terms/tos_usalacrosse.html",
+      "sha256": "488995d04611ef8b890c7233ad05aa30a3a67092aca1d0aa7d1117f85f611c3a",
+      "title": "Terms | USA Lacrosse",
+      "text_characters": 55405,
+      "page_not_found": false,
+      "automation_restriction_text_present": true,
+      "personal_use_text_present": true
+    }
+  ],
+  "original_odds_sha256": "a156ba06389acc2a3a4e0eadaaf33af361b081cc942d3f768fdc79b1d5ed42a1",
+  "additional_525_original_rows_supplied": false,
+  "opening_claim_records": 25,
+  "closing_claim_records": 0,
+  "original_1470_field_conflicts": {
+    "american_odds": [],
+    "line": [],
+    "market": [],
+    "selection": [],
+    "sportsbook": [],
+    "source_url": []
+  },
+  "supplier_original_event_id_normalizations": [
+    "O0526",
+    "O0527",
+    "O0528",
+    "O0529",
+    "O0530",
+    "O0531"
+  ],
+  "supplier_partition_checks": {
+    "odds_quarantine_permission_required.csv": {
+      "rows": 1983,
+      "columns": 46,
+      "ids_exactly_equal_audit_partition": true
+    },
+    "odds_rejected.csv": {
+      "rows": 12,
+      "columns": 46,
+      "ids_exactly_equal_audit_partition": true
+    },
+    "odds_cleared_for_analysis.csv": {
+      "rows": 0,
+      "columns": 46,
+      "ids_exactly_equal_audit_partition": true
+    }
+  }
+}

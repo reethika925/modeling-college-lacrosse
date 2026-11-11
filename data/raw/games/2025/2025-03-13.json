@@ -1,0 +1,59 @@
+{
+  "inputMD5Sum": "ac2dc8279b734ec3d15205bfb76e58dc",
+  "instanceId": "858ed8c9aec448229e3c9acb4ba8ab27",
+  "updated_at": "03-15-2025 18:22:28",
+  "games": [{"game": {
+    "gameID": "6366369",
+    "away": {
+      "score": "29",
+      "names": {
+        "char6": "FAIR",
+        "short": "Fairfield",
+        "seo": "fairfield",
+        "full": "Fairfield University"
+      },
+      "winner": true,
+      "seed": "",
+      "description": "(8-0)",
+      "rank": "",
+      "conferences": [{
+        "conferenceName": "CAA",
+        "conferenceSeo": "caa"
+      }]
+    },
+    "finalMessage": "FINAL",
+    "bracketRound": "",
+    "title": "Hampton Fairfield",
+    "contestName": "",
+    "url": "/game/6444405",
+    "network": "",
+    "home": {
+      "score": "4",
+      "names": {
+        "char6": "HAMPTN",
+        "short": "Hampton",
+        "seo": "hampton",
+        "full": "Hampton University"
+      },
+      "winner": false,
+      "seed": "",
+      "description": "(0-8)",
+      "rank": "",
+      "conferences": [{
+        "conferenceName": "CAA",
+        "conferenceSeo": "caa"
+      }]
+    },
+    "liveVideoEnabled": false,
+    "startTime": "TBA",
+    "startTimeEpoch": "1741838400",
+    "bracketId": "",
+    "gameState": "final",
+    "startDate": "03-13-2025",
+    "currentPeriod": "FINAL",
+    "videoState": "",
+    "bracketRegion": "",
+    "contestClock": "0:00"
+  }}],
+  "hideRank": false
+}

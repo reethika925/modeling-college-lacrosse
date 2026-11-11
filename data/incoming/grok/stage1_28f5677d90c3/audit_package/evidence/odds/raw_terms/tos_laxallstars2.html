@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link href="/icon.png" rel="icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="fo-verify" content="2800da91-7bd7-489e-b3bd-ac94b448cab5" />
+
+  <!-- Warm up the connections we actually use on first paint.
+       Lighthouse warns above 4 preconnects, and GTM injects its own implicit
+       connection to googletagmanager.com, so we keep this list tight:
+       - i0.wp.com: Photon CDN for all WordPress featured/body imagery.
+       - use.typekit.net + p.typekit.net: Adobe Fonts CSS + font binaries.
+       cms.laxallstars.com is reached only by SSR / a couple of admin routes,
+       not first-paint traffic, so it doesn't earn a preconnect slot. -->
+  <link rel="preconnect" href="https://i0.wp.com" crossorigin>
+  <link rel="preconnect" href="https://use.typekit.net" crossorigin>
+  <link rel="preconnect" href="https://p.typekit.net" crossorigin>
+
+  <!-- Load TypeKit asynchronously so it doesn't block first paint.
+       Browsers without the print->all trick still get the font via the noscript fallback.
+       NOTE: The 100ms "Font display" Lighthouse insight comes from Adobe emitting
+       `font-display:auto` in this kit's @font-face rules. The kit URL does NOT
+       support a `?display=swap` query param — the swap behavior must be flipped
+       in the Adobe Fonts kit editor (fonts.adobe.com -> kit xaw0hcc -> Default
+       display option -> Swap). Manual action; no code fix available here. -->
+  <link rel="preload" as="style" href="https://use.typekit.net/xaw0hcc.css">
+  <link rel="stylesheet" href="https://use.typekit.net/xaw0hcc.css" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://use.typekit.net/xaw0hcc.css"></noscript>
+
+  <title>Page Not Found | LaxAllStars</title>
+  <link rel="alternate" type="application/rss+xml" title="LaxAllStars" href="https://laxallstars.com/feed.xml" />
+  <meta name="description" content="The page you’re looking for doesn’t exist on LaxAllStars." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Page Not Found | LaxAllStars" />
+  <meta property="og:description" content="The page you’re looking for doesn’t exist on LaxAllStars." />
+  <meta property="og:image" content="https://laxallstars.com/laxallstars-logo.jpg" />
+  <meta property="og:image:width" content="400" />
+  <meta property="og:image:height" content="400" />
+  <meta property="og:site_name" content="LaxAllStars" />
+  <meta property="og:url" content="https://laxallstars.com/articles/terms" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@LaxAllStars" />
+  <meta name="twitter:title" content="Page Not Found | LaxAllStars" />
+  <meta name="twitter:description" content="The page you’re looking for doesn’t exist on LaxAllStars." />
+  <meta name="twitter:image" content="https://laxallstars.com/laxallstars-logo.jpg" />
+
+  <!-- Google Tag Manager — deferred until first user interaction or 3s after
+       window load, whichever comes first. PSI was charging us 1,499ms of
+       gtag/js execution + 940ms of forced reflow on the critical path, more
+       than the entire vendor bundle. dataLayer is initialized synchronously
+       so any app-side pushes (utils/analytics.ts) queue safely and replay
+       once GTM bootstraps. Pageviews still fire; they're just delayed a few
+       seconds past the user's perceived load. -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    (function () {
+      var bootstrapped = false;
+      function bootstrapGTM() {
+        if (bootstrapped) return;
+        bootstrapped = true;
+        window.dataLayer.push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtm.js?id=GTM-54S5JS';
+        document.head.appendChild(s);
+      }
+      var interactionEvents = ['scroll', 'mousemove', 'touchstart', 'keydown', 'click'];
+      interactionEvents.forEach(function (ev) {
+        window.addEventListener(ev, bootstrapGTM, { once: true, passive: true });
+      });
+      if (document.readyState === 'complete') {
+        setTimeout(bootstrapGTM, 3000);
+      } else {
+        window.addEventListener('load', function () {
+          setTimeout(bootstrapGTM, 3000);
+        }, { once: true });
+      }
+    })();
+  </script>
+  <!-- End Google Tag Manager -->
+
+  
+  <script type="module" crossorigin src="/assets/index-a05b4c4c.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/vendor-b0a9b25e.js">
+  <link rel="stylesheet" href="/assets/index-a68e2867.css">
+  <link rel="canonical" href="https://laxallstars.com/articles/terms" />
+    <meta name="robots" content="noindex, nofollow" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","name":"Page Not Found","description":"The page you’re looking for doesn’t exist on LaxAllStars.","url":"https://laxallstars.com/articles/terms","image":"https://laxallstars.com/laxallstars-logo.jpg","inLanguage":"en-US","isPartOf":{"@id":"https://laxallstars.com/#website"}},{"@type":"NewsMediaOrganization","@id":"https://laxallstars.com/#organization","name":"LaxAllStars","alternateName":"Lacrosse All Stars","url":"https://laxallstars.com/","description":"Independent lacrosse media publication covering pro, college, high school, and international lacrosse, plus gear, training, and the Play Finder directory. Where lacrosse gets personal.","logo":{"@type":"ImageObject","@id":"https://laxallstars.com/#logo","url":"https://laxallstars.com/laxallstars-logo.jpg","width":400,"height":400},"sameAs":["https://x.com/laxallstars","https://www.instagram.com/laxallstars/","https://www.facebook.com/LaxAllStars/","https://www.youtube.com/c/lacrosseallstars","https://apps.apple.com/us/app/laxallstars/id6784051049"],"knowsAbout":["Lacrosse","College Lacrosse","Professional Lacrosse","High School Lacrosse","Lacrosse Equipment"],"contactPoint":{"@type":"ContactPoint","contactType":"editorial","email":"editorial@laxallstars.com","url":"https://laxallstars.com/contact"}},{"@type":"WebSite","@id":"https://laxallstars.com/#website","name":"LaxAllStars","alternateName":"Lacrosse All Stars","url":"https://laxallstars.com/","inLanguage":"en-US","publisher":{"@id":"https://laxallstars.com/#organization"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://laxallstars.com/search?q={search_term_string}"},"query-input":"required name=search_term_string"}}]}</script>
+  </head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-54S5JS"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <div id="root"></div>
+  
+</body>
+
+</html>

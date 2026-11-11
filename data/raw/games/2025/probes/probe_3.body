@@ -1,0 +1,59 @@
+{
+  "inputMD5Sum": "6455e73cc9d7bb3142a79df430234e7e",
+  "instanceId": "6959174338c24ef48895c3cef4c37b30",
+  "updated_at": "05-26-2025 17:59:45",
+  "games": [{"game": {
+    "gameID": "589856",
+    "away": {
+      "score": "10",
+      "names": {
+        "char6": "MD",
+        "short": "Maryland",
+        "seo": "maryland",
+        "full": "University of Maryland, College Park"
+      },
+      "winner": false,
+      "seed": "2",
+      "description": "(14-3)",
+      "rank": "",
+      "conferences": [{
+        "conferenceName": "Big Ten",
+        "conferenceSeo": "big-ten"
+      }]
+    },
+    "finalMessage": "FINAL",
+    "bracketRound": "Championship",
+    "title": "Cornell Maryland",
+    "contestName": "",
+    "url": "/game/6448517",
+    "network": "ESPN",
+    "home": {
+      "score": "13",
+      "names": {
+        "char6": "CORN",
+        "short": "Cornell",
+        "seo": "cornell",
+        "full": "Cornell University"
+      },
+      "winner": true,
+      "seed": "1",
+      "description": "(17-1)",
+      "rank": "",
+      "conferences": [{
+        "conferenceName": "Ivy League",
+        "conferenceSeo": "ivy-league"
+      }]
+    },
+    "liveVideoEnabled": false,
+    "startTime": "01:00PM ET",
+    "startTimeEpoch": "1748278800",
+    "bracketId": "501",
+    "gameState": "final",
+    "startDate": "05-26-2025",
+    "currentPeriod": "FINAL",
+    "videoState": "",
+    "bracketRegion": "",
+    "contestClock": "0:00"
+  }}],
+  "hideRank": true
+}

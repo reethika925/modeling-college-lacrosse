@@ -1,0 +1,59 @@
+{
+  "inputMD5Sum": "aec1abf1c69a4fc46fcb44f3a3088499",
+  "instanceId": "0251b550d1254b71939edd3d454658f3",
+  "updated_at": "06-12-2025 09:21:52",
+  "games": [{"game": {
+    "gameID": "6309377",
+    "away": {
+      "score": "6",
+      "names": {
+        "char6": "HOFSTR",
+        "short": "Hofstra",
+        "seo": "hofstra",
+        "full": "Hofstra University"
+      },
+      "winner": false,
+      "seed": "",
+      "description": "(8-5)",
+      "rank": "",
+      "conferences": [{
+        "conferenceName": "CAA",
+        "conferenceSeo": "caa"
+      }]
+    },
+    "finalMessage": "FINAL",
+    "bracketRound": "",
+    "title": "Yale Hofstra",
+    "contestName": "",
+    "url": "/game/6386039",
+    "network": "",
+    "home": {
+      "score": "9",
+      "names": {
+        "char6": "YALE",
+        "short": "Yale",
+        "seo": "yale",
+        "full": "Yale University"
+      },
+      "winner": true,
+      "seed": "",
+      "description": "(5-5)",
+      "rank": "",
+      "conferences": [{
+        "conferenceName": "Ivy League",
+        "conferenceSeo": "ivy-league"
+      }]
+    },
+    "liveVideoEnabled": false,
+    "startTime": "TBA",
+    "startTimeEpoch": "1744689600",
+    "bracketId": "",
+    "gameState": "final",
+    "startDate": "04-15-2025",
+    "currentPeriod": "FINAL",
+    "videoState": "",
+    "bracketRegion": "",
+    "contestClock": "0:00"
+  }}],
+  "hideRank": false
+}

@@ -1,0 +1,191 @@
+{
+ "total": 1995,
+ "by_status": {
+  "requires_permission": 1983,
+  "rejected": 12
+ },
+ "by_technical_status": {
+  "verified": 1887,
+  "provisional": 96,
+  "rejected": 12
+ },
+ "by_dataset_technical": {
+  "original:verified": 1390,
+  "original:provisional": 72,
+  "original:rejected": 8,
+  "additional:rejected": 4,
+  "additional:verified": 497,
+  "additional:provisional": 24
+ },
+ "by_dataset_status": {
+  "original:requires_permission": 1462,
+  "original:rejected": 8,
+  "additional:rejected": 4,
+  "additional:requires_permission": 521
+ },
+ "grades_original_vs_audited": {
+  "A->A": 544,
+  "B->A": 158,
+  "B->C": 56,
+  "C->C": 30,
+  "B->B": 1207
+ },
+ "rejected_reasons": {
+  "value not in raw": 3,
+  "invalid price": 2,
+  "duplicate": 7
+ },
+ "provisional_reasons": {
+  "line not printed in source": 39,
+  "grade C": 83,
+  "team label \"Rutgers\" does not match NCAA teams Denver @ North Carolina": 2,
+  "live-article values differ from pre-game Wayback capture": 6,
+  "game not matched to an NCAA game id": 22
+ },
+ "verified_in_raw": {
+  "True": 1953,
+  "implied": 39,
+  "False": 3
+ },
+ "book_supported": {
+  "True": 1965,
+  "False": 30
+ },
+ "url_authentic": {
+  "True": 1995
+ },
+ "repeat_observations": 50,
+ "duplicates": 7,
+ "original_224_check": {
+  "odds_game_ids": 224,
+  "distinct_ncaa_games": 221,
+  "unmatched": [
+   "2026-04-11_north-carolina_vs_notre-dame"
+  ],
+  "many_to_one": [
+   [
+    "6131581",
+    [
+     "2023-02-04_hofstra_vs_merrimack",
+     "2023-02-05_hofstra_vs_merrimack"
+    ]
+   ],
+   [
+    "6085416",
+    [
+     "2023-02-04_holy-cross_vs_providence",
+     "2023-02-05_holy-cross_vs_providence"
+    ]
+   ]
+  ]
+ },
+ "same_team_same_day": [],
+ "valid_non_rejected": {
+  "records": 1983,
+  "games": 306,
+  "records_by_season": {
+   "2023": 446,
+   "2024": 690,
+   "2025": 633,
+   "2026": 214
+  },
+  "games_by_season": {
+   "2023": 61,
+   "2024": 116,
+   "2025": 94,
+   "2026": 35
+  }
+ },
+ "technically_verified": {
+  "records": 1887,
+  "games": 294,
+  "records_by_season": {
+   "2023": 391,
+   "2024": 669,
+   "2025": 619,
+   "2026": 208
+  },
+  "games_by_season": {
+   "2023": 56,
+   "2024": 111,
+   "2025": 92,
+   "2026": 35
+  }
+ },
+ "provisional": {
+  "records": 96,
+  "games": 69,
+  "records_by_season": {
+   "2023": 55,
+   "2024": 21,
+   "2025": 14,
+   "2026": 6
+  },
+  "games_by_season": {
+   "2023": 44,
+   "2024": 20,
+   "2025": 4,
+   "2026": 1
+  }
+ },
+ "original_only_verified": {
+  "records": 1390,
+  "games": 221,
+  "records_by_season": {
+   "2023": 387,
+   "2024": 567,
+   "2025": 436
+  },
+  "games_by_season": {
+   "2023": 55,
+   "2024": 95,
+   "2025": 71
+  }
+ },
+ "original_only_valid": {
+  "records": 1462,
+  "games": 222,
+  "records_by_season": {
+   "2023": 435,
+   "2024": 583,
+   "2025": 438,
+   "2026": 6
+  },
+  "games_by_season": {
+   "2023": 55,
+   "2024": 95,
+   "2025": 71,
+   "2026": 1
+  }
+ },
+ "cleared_for_analysis": {
+  "records": 0,
+  "games": 0,
+  "records_by_season": {},
+  "games_by_season": {}
+ },
+ "usability_valid": {
+  "two_sided_moneyline": 269,
+  "spread_both_sides_with_prices": 105,
+  "total_with_prices": 105,
+  "multiple_books": 17,
+  "movement_2plus_timestamps": 24,
+  "pre_game_publication": 214,
+  "independent_pre_game_capture": 101,
+  "has_explicit_opening": 23,
+  "has_closing": 0,
+  "games": 306
+ },
+ "usability_verified": {
+  "two_sided_moneyline": 265,
+  "spread_both_sides_with_prices": 103,
+  "total_with_prices": 103,
+  "multiple_books": 16,
+  "movement_2plus_timestamps": 24,
+  "pre_game_publication": 213,
+  "independent_pre_game_capture": 101,
+  "has_explicit_opening": 4,
+  "has_closing": 0,
+  "games": 294
+ }
+}

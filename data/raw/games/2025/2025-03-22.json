@@ -1,0 +1,1704 @@
+{
+  "inputMD5Sum": "5c567eb98170e5272772c8bc3a1b12e9",
+  "instanceId": "b87902aee91b4e9397c94632a07f2195",
+  "updated_at": "06-17-2025 16:15:35",
+  "games": [
+    {"game": {
+      "gameID": "6309499",
+      "away": {
+        "score": "11",
+        "names": {
+          "char6": "HARV",
+          "short": "Harvard",
+          "seo": "harvard",
+          "full": "Harvard University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(5-2)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Ivy League",
+          "conferenceSeo": "ivy-league"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Princeton Harvard",
+      "contestName": "",
+      "url": "/game/6386059",
+      "network": "",
+      "home": {
+        "score": "13",
+        "names": {
+          "char6": "PRINCE",
+          "short": "Princeton",
+          "seo": "princeton",
+          "full": "Princeton University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(5-3)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Ivy League",
+          "conferenceSeo": "ivy-league"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742616000",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-22-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6313191",
+      "away": {
+        "score": "10",
+        "names": {
+          "char6": "BU",
+          "short": "Boston U.",
+          "seo": "boston-u",
+          "full": "Boston University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(7-1)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Patriot",
+          "conferenceSeo": "patriot"
+        }]
+      },
+      "finalMessage": "FINAL (OT)",
+      "bracketRound": "",
+      "title": "Army West Point Boston U.",
+      "contestName": "",
+      "url": "/game/6386534",
+      "network": "",
+      "home": {
+        "score": "9",
+        "names": {
+          "char6": "ARMY",
+          "short": "Army West Point",
+          "seo": "army",
+          "full": "U.S. Military Academy"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(7-1)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Patriot",
+          "conferenceSeo": "patriot"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742616000",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-22-2025",
+      "currentPeriod": "FINAL (OT)",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6313177",
+      "away": {
+        "score": "11",
+        "names": {
+          "char6": "MICH",
+          "short": "Michigan",
+          "seo": "michigan",
+          "full": "University of Michigan"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(5-4)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Big Ten",
+          "conferenceSeo": "big-ten"
+        }]
+      },
+      "finalMessage": "FINAL (3OT)",
+      "bracketRound": "",
+      "title": "Maryland Michigan",
+      "contestName": "",
+      "url": "/game/6386528",
+      "network": "",
+      "home": {
+        "score": "10",
+        "names": {
+          "char6": "MD",
+          "short": "Maryland",
+          "seo": "maryland",
+          "full": "University of Maryland, College Park"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(7-1)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Big Ten",
+          "conferenceSeo": "big-ten"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742616000",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-22-2025",
+      "currentPeriod": "FINAL (3OT)",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6313142",
+      "away": {
+        "score": "13",
+        "names": {
+          "char6": "MARIST",
+          "short": "Marist",
+          "seo": "marist",
+          "full": "Marist University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(4-5)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "MAAC",
+          "conferenceSeo": "maac"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Mount St. Mary's Marist",
+      "contestName": "",
+      "url": "/game/6386515",
+      "network": "",
+      "home": {
+        "score": "12",
+        "names": {
+          "char6": "MTSTMY",
+          "short": "Mount St. Mary's",
+          "seo": "mt-st-marys",
+          "full": "Mount St. Mary's University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(2-7)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "MAAC",
+          "conferenceSeo": "maac"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742616000",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-22-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6313054",
+      "away": {
+        "score": "12",
+        "names": {
+          "char6": "COLGAT",
+          "short": "Colgate",
+          "seo": "colgate",
+          "full": "Colgate University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(5-4)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Patriot",
+          "conferenceSeo": "patriot"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Syracuse Colgate",
+      "contestName": "",
+      "url": "/game/6386506",
+      "network": "",
+      "home": {
+        "score": "16",
+        "names": {
+          "char6": "SYR",
+          "short": "Syracuse",
+          "seo": "syracuse",
+          "full": "Syracuse University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(7-2)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "ACC",
+          "conferenceSeo": "acc"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742616000",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-22-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6312847",
+      "away": {
+        "score": "13",
+        "names": {
+          "char6": "UMBC",
+          "short": "UMBC",
+          "seo": "umbc",
+          "full": "University of Maryland, Baltimore County"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(4-2)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "America East",
+          "conferenceSeo": "america-east"
+        }]
+      },
+      "finalMessage": "FINAL (OT)",
+      "bracketRound": "",
+      "title": "UAlbany UMBC",
+      "contestName": "",
+      "url": "/game/6386494",
+      "network": "",
+      "home": {
+        "score": "12",
+        "names": {
+          "char6": "ALBANY",
+          "short": "UAlbany",
+          "seo": "albany-ny",
+          "full": "University at Albany"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(2-7)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "America East",
+          "conferenceSeo": "america-east"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742616000",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-22-2025",
+      "currentPeriod": "FINAL (OT)",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6312196",
+      "away": {
+        "score": "9",
+        "names": {
+          "char6": "DART",
+          "short": "Dartmouth",
+          "seo": "dartmouth",
+          "full": "Dartmouth College"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(7-1)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Ivy League",
+          "conferenceSeo": "ivy-league"
+        }]
+      },
+      "finalMessage": "FINAL (OT)",
+      "bracketRound": "",
+      "title": "Penn Dartmouth",
+      "contestName": "",
+      "url": "/game/6386463",
+      "network": "",
+      "home": {
+        "score": "8",
+        "names": {
+          "char6": "PENN",
+          "short": "Penn",
+          "seo": "penn",
+          "full": "University of Pennsylvania"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(4-5)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Ivy League",
+          "conferenceSeo": "ivy-league"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742616000",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-22-2025",
+      "currentPeriod": "FINAL (OT)",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6312101",
+      "away": {
+        "score": "8",
+        "names": {
+          "char6": "PROV",
+          "short": "Providence",
+          "seo": "providence",
+          "full": "Providence College"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(4-5)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Big East",
+          "conferenceSeo": "big-east"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Saint Joseph's Providence",
+      "contestName": "",
+      "url": "/game/6386458",
+      "network": "",
+      "home": {
+        "score": "16",
+        "names": {
+          "char6": "STJOES",
+          "short": "Saint Joseph's",
+          "seo": "saint-josephs",
+          "full": "Saint Joseph's University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(7-2)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Atlantic 10",
+          "conferenceSeo": "atlantic-10"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742616000",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-22-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6312092",
+      "away": {
+        "score": "6",
+        "names": {
+          "char6": "CLE ST",
+          "short": "Cleveland St.",
+          "seo": "cleveland-st",
+          "full": "Cleveland State University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(3-6)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "NEC",
+          "conferenceSeo": "nec"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Le Moyne Cleveland St.",
+      "contestName": "",
+      "url": "/game/6386449",
+      "network": "",
+      "home": {
+        "score": "11",
+        "names": {
+          "char6": "LEMOYN",
+          "short": "Le Moyne",
+          "seo": "le-moyne",
+          "full": "Le Moyne College"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(5-3)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "NEC",
+          "conferenceSeo": "nec"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742616000",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-22-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6312056",
+      "away": {
+        "score": "12",
+        "names": {
+          "char6": "MERCYH",
+          "short": "Mercyhurst",
+          "seo": "mercyhurst",
+          "full": "Mercyhurst University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(1-7)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "NEC",
+          "conferenceSeo": "nec"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "VMI Mercyhurst",
+      "contestName": "",
+      "url": "/game/6386443",
+      "network": "",
+      "home": {
+        "score": "18",
+        "names": {
+          "char6": "VMI",
+          "short": "VMI",
+          "seo": "vmi",
+          "full": "Virginia Military Institute"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(7-2)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "NEC",
+          "conferenceSeo": "nec"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742616000",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-22-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6311565",
+      "away": {
+        "score": "19",
+        "names": {
+          "char6": "CORN",
+          "short": "Cornell",
+          "seo": "cornell",
+          "full": "Cornell University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(6-1)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Ivy League",
+          "conferenceSeo": "ivy-league"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Yale Cornell",
+      "contestName": "",
+      "url": "/game/6386436",
+      "network": "",
+      "home": {
+        "score": "14",
+        "names": {
+          "char6": "YALE",
+          "short": "Yale",
+          "seo": "yale",
+          "full": "Yale University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(1-5)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Ivy League",
+          "conferenceSeo": "ivy-league"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742616000",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-22-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6311450",
+      "away": {
+        "score": "8",
+        "names": {
+          "char6": "WAGNER",
+          "short": "Wagner",
+          "seo": "wagner",
+          "full": "Wagner College"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(0-9)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "NEC",
+          "conferenceSeo": "nec"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Robert Morris Wagner",
+      "contestName": "",
+      "url": "/game/6386430",
+      "network": "",
+      "home": {
+        "score": "15",
+        "names": {
+          "char6": "ROBMOR",
+          "short": "Robert Morris",
+          "seo": "robert-morris",
+          "full": "Robert Morris University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(6-4)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "NEC",
+          "conferenceSeo": "nec"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742616000",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-22-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6311334",
+      "away": {
+        "score": "10",
+        "names": {
+          "char6": "LEHIGH",
+          "short": "Lehigh",
+          "seo": "lehigh",
+          "full": "Lehigh University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(2-6)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Patriot",
+          "conferenceSeo": "patriot"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Bucknell Lehigh",
+      "contestName": "",
+      "url": "/game/6386422",
+      "network": "",
+      "home": {
+        "score": "11",
+        "names": {
+          "char6": "BUCKNL",
+          "short": "Bucknell",
+          "seo": "bucknell",
+          "full": "Bucknell University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(4-4)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Patriot",
+          "conferenceSeo": "patriot"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742616000",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-22-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6310873",
+      "away": {
+        "score": "11",
+        "names": {
+          "char6": "DREXEL",
+          "short": "Drexel",
+          "seo": "drexel",
+          "full": "Drexel University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(4-5)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "CAA",
+          "conferenceSeo": "caa"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Fairfield Drexel",
+      "contestName": "",
+      "url": "/game/6386398",
+      "network": "",
+      "home": {
+        "score": "12",
+        "names": {
+          "char6": "FAIR",
+          "short": "Fairfield",
+          "seo": "fairfield",
+          "full": "Fairfield University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(9-0)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "CAA",
+          "conferenceSeo": "caa"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742616000",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-22-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6310018",
+      "away": {
+        "score": "13",
+        "names": {
+          "char6": "SACHRT",
+          "short": "Sacred Heart",
+          "seo": "sacred-heart",
+          "full": "Sacred Heart University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(6-2)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "MAAC",
+          "conferenceSeo": "maac"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Merrimack Sacred Heart",
+      "contestName": "",
+      "url": "/game/6386273",
+      "network": "",
+      "home": {
+        "score": "8",
+        "names": {
+          "char6": "MERMCK",
+          "short": "Merrimack",
+          "seo": "merrimack",
+          "full": "Merrimack College"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(1-7)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "MAAC",
+          "conferenceSeo": "maac"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742616000",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-22-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6309373",
+      "away": {
+        "score": "15",
+        "names": {
+          "char6": "HOFSTR",
+          "short": "Hofstra",
+          "seo": "hofstra",
+          "full": "Hofstra University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(7-2)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "CAA",
+          "conferenceSeo": "caa"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Monmouth Hofstra",
+      "contestName": "",
+      "url": "/game/6386035",
+      "network": "",
+      "home": {
+        "score": "9",
+        "names": {
+          "char6": "MONMTH",
+          "short": "Monmouth",
+          "seo": "monmouth",
+          "full": "Monmouth University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(3-6)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "CAA",
+          "conferenceSeo": "caa"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742616000",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-22-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6309687",
+      "away": {
+        "score": "11",
+        "names": {
+          "char6": "LAFAYE",
+          "short": "Lafayette",
+          "seo": "lafayette",
+          "full": "Lafayette College"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(6-3)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Patriot",
+          "conferenceSeo": "patriot"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Loyola Maryland Lafayette",
+      "contestName": "",
+      "url": "/game/6386084",
+      "network": "",
+      "home": {
+        "score": "10",
+        "names": {
+          "char6": "LOY MD",
+          "short": "Loyola Maryland",
+          "seo": "loyola-maryland",
+          "full": "Loyola University Maryland"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(0-8)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Patriot",
+          "conferenceSeo": "patriot"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742616000",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-22-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6309762",
+      "away": {
+        "score": "8",
+        "names": {
+          "char6": "BROWN",
+          "short": "Brown",
+          "seo": "brown",
+          "full": "Brown University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(3-5)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Ivy League",
+          "conferenceSeo": "ivy-league"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Massachusetts Brown",
+      "contestName": "",
+      "url": "/game/6386099",
+      "network": "",
+      "home": {
+        "score": "7",
+        "names": {
+          "char6": "UMASS",
+          "short": "Massachusetts",
+          "seo": "massachusetts",
+          "full": "University of Massachusetts, Amherst"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(7-2)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Atlantic 10",
+          "conferenceSeo": "atlantic-10"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742616000",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-22-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6309796",
+      "away": {
+        "score": "11",
+        "names": {
+          "char6": "HOBART",
+          "short": "Hobart",
+          "seo": "hobart",
+          "full": "Hobart College"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(3-6)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Atlantic 10",
+          "conferenceSeo": "atlantic-10"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "St. John's (NY) Hobart",
+      "contestName": "",
+      "url": "/game/6386130",
+      "network": "",
+      "home": {
+        "score": "13",
+        "names": {
+          "char6": "STJOHN",
+          "short": "St. John's (NY)",
+          "seo": "st-johns-ny",
+          "full": "St. John's University (New York)"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(4-6)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Big East",
+          "conferenceSeo": "big-east"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742616000",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-22-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6309801",
+      "away": {
+        "score": "11",
+        "names": {
+          "char6": "RUTGER",
+          "short": "Rutgers",
+          "seo": "rutgers",
+          "full": "Rutgers, The State University of New Jersey, New Brunswick"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(5-5)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Big Ten",
+          "conferenceSeo": "big-ten"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Johns Hopkins Rutgers",
+      "contestName": "",
+      "url": "/game/6386134",
+      "network": "",
+      "home": {
+        "score": "8",
+        "names": {
+          "char6": "HOPKNS",
+          "short": "Johns Hopkins",
+          "seo": "johns-hopkins",
+          "full": "Johns Hopkins University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(6-3)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Big Ten",
+          "conferenceSeo": "big-ten"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742616000",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-22-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6309824",
+      "away": {
+        "score": "12",
+        "names": {
+          "char6": "IONA",
+          "short": "Iona",
+          "seo": "iona",
+          "full": "Iona University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(1-8)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "MAAC",
+          "conferenceSeo": "maac"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Siena Iona",
+      "contestName": "",
+      "url": "/game/6386151",
+      "network": "",
+      "home": {
+        "score": "18",
+        "names": {
+          "char6": "SIENA",
+          "short": "Siena",
+          "seo": "siena",
+          "full": "Siena College"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(3-4)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "MAAC",
+          "conferenceSeo": "maac"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742616000",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-22-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6309857",
+      "away": {
+        "score": "9",
+        "names": {
+          "char6": "UTAH",
+          "short": "Utah",
+          "seo": "utah",
+          "full": "University of Utah"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(1-7)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "ASUN",
+          "conferenceSeo": "asun"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Virginia Utah",
+      "contestName": "",
+      "url": "/game/6386177",
+      "network": "",
+      "home": {
+        "score": "14",
+        "names": {
+          "char6": "UVA",
+          "short": "Virginia",
+          "seo": "virginia",
+          "full": "University of Virginia"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(5-4)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "ACC",
+          "conferenceSeo": "acc"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742616000",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-22-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6309868",
+      "away": {
+        "score": "9",
+        "names": {
+          "char6": "NAVY",
+          "short": "Navy",
+          "seo": "navy",
+          "full": "U.S. Naval Academy"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(6-3)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Patriot",
+          "conferenceSeo": "patriot"
+        }]
+      },
+      "finalMessage": "FINAL (OT)",
+      "bracketRound": "",
+      "title": "Holy Cross Navy",
+      "contestName": "",
+      "url": "/game/6386187",
+      "network": "",
+      "home": {
+        "score": "8",
+        "names": {
+          "char6": "HOLYCR",
+          "short": "Holy Cross",
+          "seo": "holy-cross",
+          "full": "College of the Holy Cross"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(3-7)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Patriot",
+          "conferenceSeo": "patriot"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742616000",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-22-2025",
+      "currentPeriod": "FINAL (OT)",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6309882",
+      "away": {
+        "score": "12",
+        "names": {
+          "char6": "STONY",
+          "short": "Stony Brook",
+          "seo": "stony-brook",
+          "full": "Stony Brook University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(5-5)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "CAA",
+          "conferenceSeo": "caa"
+        }]
+      },
+      "finalMessage": "FINAL (OT)",
+      "bracketRound": "",
+      "title": "Towson Stony Brook",
+      "contestName": "",
+      "url": "/game/6386199",
+      "network": "",
+      "home": {
+        "score": "13",
+        "names": {
+          "char6": "TOWSON",
+          "short": "Towson",
+          "seo": "towson",
+          "full": "Towson University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(3-5)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "CAA",
+          "conferenceSeo": "caa"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742616000",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-22-2025",
+      "currentPeriod": "FINAL (OT)",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6309888",
+      "away": {
+        "score": "12",
+        "names": {
+          "char6": "BRYANT",
+          "short": "Bryant",
+          "seo": "bryant",
+          "full": "Bryant University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(4-4)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "America East",
+          "conferenceSeo": "america-east"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Vermont Bryant",
+      "contestName": "",
+      "url": "/game/6386204",
+      "network": "",
+      "home": {
+        "score": "16",
+        "names": {
+          "char6": "VERMNT",
+          "short": "Vermont",
+          "seo": "vermont",
+          "full": "University of Vermont"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(3-4)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "America East",
+          "conferenceSeo": "america-east"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742616000",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-22-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6309913",
+      "away": {
+        "score": "13",
+        "names": {
+          "char6": "RICH",
+          "short": "Richmond",
+          "seo": "richmond",
+          "full": "University of Richmond"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(7-3)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Atlantic 10",
+          "conferenceSeo": "atlantic-10"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Georgetown Richmond",
+      "contestName": "",
+      "url": "/game/6386222",
+      "network": "",
+      "home": {
+        "score": "12",
+        "names": {
+          "char6": "GTOWN",
+          "short": "Georgetown",
+          "seo": "georgetown",
+          "full": "Georgetown University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(5-3)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Big East",
+          "conferenceSeo": "big-east"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742616000",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-22-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6309923",
+      "away": {
+        "score": "3",
+        "names": {
+          "char6": "HAMPTN",
+          "short": "Hampton",
+          "seo": "hampton",
+          "full": "Hampton University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(0-11)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "CAA",
+          "conferenceSeo": "caa"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Delaware Hampton",
+      "contestName": "",
+      "url": "/game/6386226",
+      "network": "",
+      "home": {
+        "score": "18",
+        "names": {
+          "char6": "DEL",
+          "short": "Delaware",
+          "seo": "delaware",
+          "full": "University of Delaware"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(5-3)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Atlantic 10",
+          "conferenceSeo": "atlantic-10"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742616000",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-22-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6310072",
+      "away": {
+        "score": "13",
+        "names": {
+          "char6": "DENVER",
+          "short": "Denver",
+          "seo": "denver",
+          "full": "University of Denver"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(5-4)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Big East",
+          "conferenceSeo": "big-east"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Duke Denver",
+      "contestName": "",
+      "url": "/game/6386286",
+      "network": "",
+      "home": {
+        "score": "6",
+        "names": {
+          "char6": "DUKE",
+          "short": "Duke",
+          "seo": "duke",
+          "full": "Duke University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(9-2)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "ACC",
+          "conferenceSeo": "acc"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742616000",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-22-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6310130",
+      "away": {
+        "score": "8",
+        "names": {
+          "char6": "AIRFOR",
+          "short": "Air Force",
+          "seo": "air-force",
+          "full": "U.S. Air Force Academy"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(2-6)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "ASUN",
+          "conferenceSeo": "asun"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Marquette Air Force",
+      "contestName": "",
+      "url": "/game/6386302",
+      "network": "",
+      "home": {
+        "score": "9",
+        "names": {
+          "char6": "MARQ",
+          "short": "Marquette",
+          "seo": "marquette",
+          "full": "Marquette University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(5-3)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Big East",
+          "conferenceSeo": "big-east"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742619600",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-22-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6309775",
+      "away": {
+        "score": "10",
+        "names": {
+          "char6": "CANISI",
+          "short": "Canisius",
+          "seo": "canisius",
+          "full": "Canisius University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(3-7)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "MAAC",
+          "conferenceSeo": "maac"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Quinnipiac Canisius",
+      "contestName": "",
+      "url": "/game/6386111",
+      "network": "",
+      "home": {
+        "score": "9",
+        "names": {
+          "char6": "QUINN",
+          "short": "Quinnipiac",
+          "seo": "quinnipiac",
+          "full": "Quinnipiac University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(2-6)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "MAAC",
+          "conferenceSeo": "maac"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742630400",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-22-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6309994",
+      "away": {
+        "score": "4",
+        "names": {
+          "char6": "NJIT",
+          "short": "NJIT",
+          "seo": "njit",
+          "full": "New Jersey Institute of Technology"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(1-6)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "America East",
+          "conferenceSeo": "america-east"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Binghamton NJIT",
+      "contestName": "",
+      "url": "/game/6386258",
+      "network": "",
+      "home": {
+        "score": "9",
+        "names": {
+          "char6": "BINGHA",
+          "short": "Binghamton",
+          "seo": "binghamton",
+          "full": "Binghamton University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(3-4)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "America East",
+          "conferenceSeo": "america-east"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742630400",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-22-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6310256",
+      "away": {
+        "score": "9",
+        "names": {
+          "char6": "DET",
+          "short": "Detroit Mercy",
+          "seo": "detroit",
+          "full": "University of Detroit Mercy"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(1-5)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "NEC",
+          "conferenceSeo": "nec"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "LIU Detroit Mercy",
+      "contestName": "",
+      "url": "/game/6386353",
+      "network": "",
+      "home": {
+        "score": "14",
+        "names": {
+          "char6": "LIU",
+          "short": "LIU",
+          "seo": "long-island",
+          "full": "Long Island University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(7-1)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "NEC",
+          "conferenceSeo": "nec"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742630400",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-22-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }}
+  ],
+  "hideRank": false
+}

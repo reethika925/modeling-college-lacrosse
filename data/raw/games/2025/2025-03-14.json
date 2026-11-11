@@ -1,0 +1,59 @@
+{
+  "inputMD5Sum": "ede2f17d30433ca5a91fa74391532501",
+  "instanceId": "cb568ce4771f4a24887c3e0107d75534",
+  "updated_at": "06-12-2025 09:25:04",
+  "games": [{"game": {
+    "gameID": "6312398",
+    "away": {
+      "score": "14",
+      "names": {
+        "char6": "BINGHA",
+        "short": "Binghamton",
+        "seo": "binghamton",
+        "full": "Binghamton University"
+      },
+      "winner": true,
+      "seed": "",
+      "description": "(3-4)",
+      "rank": "",
+      "conferences": [{
+        "conferenceName": "America East",
+        "conferenceSeo": "america-east"
+      }]
+    },
+    "finalMessage": "FINAL",
+    "bracketRound": "",
+    "title": "UMass Lowell Binghamton",
+    "contestName": "",
+    "url": "/game/6386468",
+    "network": "",
+    "home": {
+      "score": "12",
+      "names": {
+        "char6": "UMASSL",
+        "short": "UMass Lowell",
+        "seo": "umass-lowell",
+        "full": "University of Massachusetts Lowell"
+      },
+      "winner": false,
+      "seed": "",
+      "description": "(3-4)",
+      "rank": "",
+      "conferences": [{
+        "conferenceName": "America East",
+        "conferenceSeo": "america-east"
+      }]
+    },
+    "liveVideoEnabled": false,
+    "startTime": "TBA",
+    "startTimeEpoch": "1741924800",
+    "bracketId": "",
+    "gameState": "final",
+    "startDate": "03-14-2025",
+    "currentPeriod": "FINAL",
+    "videoState": "",
+    "bracketRegion": "",
+    "contestClock": "0:00"
+  }}],
+  "hideRank": false
+}

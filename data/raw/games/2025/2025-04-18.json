@@ -1,0 +1,167 @@
+{
+  "inputMD5Sum": "909a4672eb7b15aed5baddc2c63c0909",
+  "instanceId": "eb1097d8f11c4946921e735bcb2442ac",
+  "updated_at": "06-12-2025 09:25:08",
+  "games": [
+    {"game": {
+      "gameID": "6309493",
+      "away": {
+        "score": "4",
+        "names": {
+          "char6": "RUTGER",
+          "short": "Rutgers",
+          "seo": "rutgers",
+          "full": "Rutgers, The State University of New Jersey, New Brunswick"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(6-8)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Big Ten",
+          "conferenceSeo": "big-ten"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Penn St. Rutgers",
+      "contestName": "",
+      "url": "/game/6386055",
+      "network": "",
+      "home": {
+        "score": "12",
+        "names": {
+          "char6": "PENNST",
+          "short": "Penn St.",
+          "seo": "penn-st",
+          "full": "Pennsylvania State University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(9-3)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Big Ten",
+          "conferenceSeo": "big-ten"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1744948800",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "04-18-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6309704",
+      "away": {
+        "score": "11",
+        "names": {
+          "char6": "NAVY",
+          "short": "Navy",
+          "seo": "navy",
+          "full": "U.S. Naval Academy"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(7-6)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Patriot",
+          "conferenceSeo": "patriot"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Loyola Maryland Navy",
+      "contestName": "",
+      "url": "/game/6386089",
+      "network": "",
+      "home": {
+        "score": "16",
+        "names": {
+          "char6": "LOY MD",
+          "short": "Loyola Maryland",
+          "seo": "loyola-maryland",
+          "full": "Loyola University Maryland"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(3-10)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Patriot",
+          "conferenceSeo": "patriot"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1744948800",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "04-18-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6312498",
+      "away": {
+        "score": "8",
+        "names": {
+          "char6": "HOPKNS",
+          "short": "Johns Hopkins",
+          "seo": "johns-hopkins",
+          "full": "Johns Hopkins University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(6-7)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Big Ten",
+          "conferenceSeo": "big-ten"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Maryland Johns Hopkins",
+      "contestName": "",
+      "url": "/game/6386478",
+      "network": "",
+      "home": {
+        "score": "11",
+        "names": {
+          "char6": "MD",
+          "short": "Maryland",
+          "seo": "maryland",
+          "full": "University of Maryland, College Park"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(10-2)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Big Ten",
+          "conferenceSeo": "big-ten"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1744948800",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "04-18-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }}
+  ],
+  "hideRank": false
+}

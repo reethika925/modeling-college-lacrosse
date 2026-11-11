@@ -1,0 +1,13 @@
+check,season,team,game_ids,dates
+same_team_within_1_day,2023,High Point,6085513|6085540,2023-02-25|2023-02-26
+same_team_within_1_day,2023,Navy,6085414|6085425,2023-02-04|2023-02-05
+same_team_within_1_day,2024,Mercer,6269576|6269597,2024-02-03|2024-02-04
+same_team_within_1_day,2025,Binghamton,6386469|6449835,2025-04-05|2025-04-05
+same_team_within_1_day,2025,Iona,6386142|6386144,2025-02-08|2025-02-09
+same_team_within_1_day,2025,LIU,6386357|6455124,2025-04-19|2025-04-20
+same_team_within_1_day,2025,Stony Brook,6386158|6454179,2025-02-14|2025-02-15
+same_team_within_1_day,2025,UMBC,6386543|6449835,2025-04-04|2025-04-05
+repeated_pairing_identical_score,2025,Fairfield|Hampton,6444405|6386334,2025-03-13|2025-03-15
+ncaa_vs_espn_date_mismatch,2025,Merrimack|UMass Lowell,6386269,NCAA 2025-02-07 | ESPN 2025-02-08
+ncaa_vs_espn_date_mismatch,2025,Queens (NC)|Stony Brook,6454179,NCAA 2025-02-15 | ESPN 2025-02-16
+ncaa_vs_espn_date_mismatch,2025,Lafayette|Le Moyne,6386400,NCAA 2025-02-23 | ESPN 2025-02-22

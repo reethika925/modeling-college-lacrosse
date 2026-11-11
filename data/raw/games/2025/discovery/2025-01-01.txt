@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>casablanca/scoreboard/lacrosse-men/d1/2025/01/01/scoreboard.json</Key><RequestId>6BFK32DJ3HQXBPPP</RequestId><HostId>GJM6APX63zeYAtZS0/Xk5g+MXYw7iBjwRgFrns0A0rvRaXUSqBysbvZgk0+UX1a2h8UNxWgC+jE=</HostId></Error>

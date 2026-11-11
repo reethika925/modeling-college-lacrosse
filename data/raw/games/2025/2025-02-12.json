@@ -1,0 +1,59 @@
+{
+  "inputMD5Sum": "fa1ef58c6c6fb56b7f00f80ed0ddcb22",
+  "instanceId": "fb31e6274bea4678a419f4387e8f3e37",
+  "updated_at": "05-04-2025 21:54:44",
+  "games": [{"game": {
+    "gameID": "6312914",
+    "away": {
+      "score": "6",
+      "names": {
+        "char6": "CLE ST",
+        "short": "Cleveland St.",
+        "seo": "cleveland-st",
+        "full": "Cleveland State University"
+      },
+      "winner": false,
+      "seed": "",
+      "description": "(0-2)",
+      "rank": "",
+      "conferences": [{
+        "conferenceName": "NEC",
+        "conferenceSeo": "nec"
+      }]
+    },
+    "finalMessage": "FINAL",
+    "bracketRound": "",
+    "title": "Notre Dame Cleveland St.",
+    "contestName": "",
+    "url": "/game/6386499",
+    "network": "",
+    "home": {
+      "score": "24",
+      "names": {
+        "char6": "N DAME",
+        "short": "Notre Dame",
+        "seo": "notre-dame",
+        "full": "University of Notre Dame"
+      },
+      "winner": true,
+      "seed": "",
+      "description": "(1-0)",
+      "rank": "",
+      "conferences": [{
+        "conferenceName": "ACC",
+        "conferenceSeo": "acc"
+      }]
+    },
+    "liveVideoEnabled": false,
+    "startTime": "TBA",
+    "startTimeEpoch": "1739336400",
+    "bracketId": "",
+    "gameState": "final",
+    "startDate": "02-12-2025",
+    "currentPeriod": "FINAL",
+    "videoState": "",
+    "bracketRegion": "",
+    "contestClock": "0:00"
+  }}],
+  "hideRank": false
+}

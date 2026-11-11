@@ -1,0 +1,114 @@
+{
+  "inputMD5Sum": "dbb795086be89ffd40db971317332f5a",
+  "instanceId": "cb568ce4771f4a24887c3e0107d75534",
+  "updated_at": "06-12-2025 09:24:45",
+  "games": [
+    {"game": {
+      "gameID": "6309697",
+      "away": {
+        "score": "12",
+        "names": {
+          "char6": "LOY MD",
+          "short": "Loyola Maryland",
+          "seo": "loyola-maryland",
+          "full": "Loyola University Maryland"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(1-10)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Patriot",
+          "conferenceSeo": "patriot"
+        }]
+      },
+      "finalMessage": "FINAL (2OT)",
+      "bracketRound": "",
+      "title": "Towson Loyola Maryland",
+      "contestName": "",
+      "url": "/game/6386087",
+      "network": "",
+      "home": {
+        "score": "13",
+        "names": {
+          "char6": "TOWSON",
+          "short": "Towson",
+          "seo": "towson",
+          "full": "Towson University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(6-5)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "CAA",
+          "conferenceSeo": "caa"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1744084800",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "04-08-2025",
+      "currentPeriod": "FINAL (2OT)",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6311336",
+      "away": {
+        "score": "11",
+        "names": {
+          "char6": "BUCKNL",
+          "short": "Bucknell",
+          "seo": "bucknell",
+          "full": "Bucknell University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(5-6)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Patriot",
+          "conferenceSeo": "patriot"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Le Moyne Bucknell",
+      "contestName": "",
+      "url": "/game/6386424",
+      "network": "",
+      "home": {
+        "score": "7",
+        "names": {
+          "char6": "LEMOYN",
+          "short": "Le Moyne",
+          "seo": "le-moyne",
+          "full": "Le Moyne College"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(7-4)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "NEC",
+          "conferenceSeo": "nec"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1744084800",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "04-08-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }}
+  ],
+  "hideRank": false
+}

@@ -1,0 +1,28 @@
+# LaxAllStars Robots.txt
+# Where lacrosse gets personal
+
+User-agent: *
+Allow: /
+
+# Only true non-pages are blocked. Account, editor and admin routes are NOT
+# Disallowed on purpose: they serve `noindex` (edge middleware + SEOHead), and a
+# crawler must be able to fetch a page to see its noindex — a Disallowed URL can
+# still be indexed by reference ("Indexed, though blocked by robots.txt").
+Disallow: /api/
+Disallow: /_projects/
+
+# AI search and answer engines (GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot,
+# Claude-SearchBot, PerplexityBot, Google-Extended, Applebot-Extended, CCBot, …)
+# are welcome under the rule above; there is deliberately no separate group,
+# because a named group would replace — not extend — the rules here.
+# Citation guide for assistants:
+#   https://laxallstars.com/llms.txt
+#   https://laxallstars.com/llms-full.txt
+# RSS: https://laxallstars.com/feed.xml
+
+# sitemap.xml is an index (articles, authors, gear, Play Finder, and the
+# 48h news sitemap when there are fresh stories).
+Sitemap: https://laxallstars.com/sitemap.xml
+
+# Crawl delay (Bing/Yandex respect this; Googlebot ignores it)
+Crawl-delay: 1

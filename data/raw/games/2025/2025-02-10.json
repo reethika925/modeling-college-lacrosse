@@ -1,0 +1,114 @@
+{
+  "inputMD5Sum": "53d2b677368949c9d987e5e92d8584a3",
+  "instanceId": "fb31e6274bea4678a419f4387e8f3e37",
+  "updated_at": "05-04-2025 21:54:44",
+  "games": [
+    {"game": {
+      "gameID": "6309871",
+      "away": {
+        "score": "7",
+        "names": {
+          "char6": "TOWSON",
+          "short": "Towson",
+          "seo": "towson",
+          "full": "Towson University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(0-2)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "CAA",
+          "conferenceSeo": "caa"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Syracuse Towson",
+      "contestName": "",
+      "url": "/game/6386190",
+      "network": "",
+      "home": {
+        "score": "18",
+        "names": {
+          "char6": "SYR",
+          "short": "Syracuse",
+          "seo": "syracuse",
+          "full": "Syracuse University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(3-0)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "ACC",
+          "conferenceSeo": "acc"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1739163600",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "02-10-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6311205",
+      "away": {
+        "score": "9",
+        "names": {
+          "char6": "BINGHA",
+          "short": "Binghamton",
+          "seo": "binghamton",
+          "full": "Binghamton University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(1-1)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "America East",
+          "conferenceSeo": "america-east"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Lafayette Binghamton",
+      "contestName": "",
+      "url": "/game/6386399",
+      "network": "",
+      "home": {
+        "score": "16",
+        "names": {
+          "char6": "LAFAYE",
+          "short": "Lafayette",
+          "seo": "lafayette",
+          "full": "Lafayette College"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(2-0)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Patriot",
+          "conferenceSeo": "patriot"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1739163600",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "02-10-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }}
+  ],
+  "hideRank": false
+}

@@ -1,0 +1,79 @@
+{
+ "same_team_within_1_day_after": [
+  {
+   "season": 2023,
+   "team": "High Point",
+   "game_id": "6085540",
+   "game_date": "2023-02-26",
+   "gap": 1.0
+  },
+  {
+   "season": 2025,
+   "team": "Iona",
+   "game_id": "6386144",
+   "game_date": "2025-02-09",
+   "gap": 1.0
+  },
+  {
+   "season": 2024,
+   "team": "Mercer",
+   "game_id": "6269597",
+   "game_date": "2024-02-04",
+   "gap": 1.0
+  },
+  {
+   "season": 2023,
+   "team": "Navy",
+   "game_id": "6085425",
+   "game_date": "2023-02-05",
+   "gap": 1.0
+  }
+ ],
+ "repeated_pairing_identical_score_after": [
+  {
+   "season": 2023,
+   "game_id": "6085657",
+   "game_date": "2023-03-18",
+   "pair": "Penn|Princeton",
+   "sc": "8.0-9.0"
+  },
+  {
+   "season": 2023,
+   "game_id": "6150968",
+   "game_date": "2023-05-05",
+   "pair": "Penn|Princeton",
+   "sc": "8.0-9.0"
+  },
+  {
+   "season": 2024,
+   "game_id": "6270085",
+   "game_date": "2024-04-19",
+   "pair": "Loyola Maryland|Navy",
+   "sc": "10.0-12.0"
+  },
+  {
+   "season": 2024,
+   "game_id": "6299067",
+   "game_date": "2024-04-30",
+   "pair": "Loyola Maryland|Navy",
+   "sc": "10.0-12.0"
+  }
+ ],
+ "team_date_mismatch": 0,
+ "player_date_mismatch": 0,
+ "team_rows_by_game_status": {
+  "verified": 2408,
+  "provisional": 1018,
+  "rejected": 2
+ },
+ "player_rows_by_game_status": {
+  "verified": 96133,
+  "provisional": 47701,
+  "rejected": 48
+ },
+ "team_rows_usable": 3426,
+ "player_rows_usable": 143834,
+ "crosswalk_matched": 261,
+ "crosswalk_to_rejected_games": 0,
+ "crosswalk_date_mismatch_vs_corrected_games": 0
+}

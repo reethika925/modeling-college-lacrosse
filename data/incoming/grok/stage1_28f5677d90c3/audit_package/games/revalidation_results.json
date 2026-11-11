@@ -1,0 +1,103 @@
+{
+ "boxscores_not_MLA_D1": [
+  "6085550",
+  "6085551",
+  "6085638",
+  "6085705",
+  "6085730",
+  "6085770",
+  "6085858"
+ ],
+ "season_year_mismatch": 0,
+ "dates_outside_feb_may": [],
+ "duplicate_game_ids": 0,
+ "player_goal_sum_mismatch_team_games": 14,
+ "saves_eq_oppSOG_minus_oppGoals": {
+  "rows_checked": 3334,
+  "exact": 3331,
+  "abs_gap_le_1": 3334
+ },
+ "impossible_stats": {
+  "sog_gt_shots": 0,
+  "goals_gt_sog": 0,
+  "fo_won_gt_att": 0,
+  "clears_gt_att": 0,
+  "emo_goals_gt_opp": 11,
+  "negative": 0,
+  "shooting_pct_gt_1": 0,
+  "faceoff_total_implausible": 0
+ },
+ "player_impossible_stats": {
+  "player_sog_gt_shots": 1,
+  "player_goals_gt_sog": 1,
+  "player_points_ne_g_plus_a": 0,
+  "player_fo_won_gt_att": 0,
+  "player_negative": 0
+ },
+ "player_duplicate_rows": 0,
+ "seo_with_multiple_names": {},
+ "name_with_multiple_seo": {},
+ "alias_multi_ncaa_ids": [],
+ "alias_multi_espn_ids": [],
+ "alias_missing_espn_id": [
+  "gordon",
+  "hartford",
+  "mitchell",
+  "randolph",
+  "regis-ma",
+  "salem-st",
+  "st-andrews",
+  "st-joseph-ct",
+  "wabash"
+ ],
+ "team_id_with_multiple_seo": {},
+ "final_games_missing_team_ids": [
+  {
+   "game_id": "espn_401658258",
+   "season": 2024,
+   "game_date": "2024-05-05",
+   "home_team": "Princeton",
+   "away_team": "Pennsylvania",
+   "result_source": "espn_only_missing_from_ncaa_scoreboard"
+  },
+  {
+   "game_id": "6444405",
+   "season": 2025,
+   "game_date": "2025-03-13",
+   "home_team": "Hampton",
+   "away_team": "Fairfield",
+   "result_source": "ncaa_scoreboard"
+  }
+ ],
+ "team_stats_game_ids_not_in_games": [],
+ "player_game_ids_not_in_team_stats": [],
+ "player_team_ids_not_in_game": [],
+ "team_stats_home_away_inconsistent_with_games": 0,
+ "team_stats_date_ne_games_date": 0,
+ "final_games_without_team_stats": {
+  "2023": 0,
+  "2024": 1,
+  "2025": 1
+ },
+ "crosswalk_ids_not_in_games": [],
+ "crosswalk_matched_with_date_shift": [
+  {
+   "odds_game_id": "2023-02-04_hofstra_vs_merrimack",
+   "ncaa_game_id": "6131581",
+   "odds_game_date": "2023-02-04",
+   "ncaa_game_date": "2023-02-05"
+  },
+  {
+   "odds_game_id": "2023-02-04_holy-cross_vs_providence",
+   "ncaa_game_id": "6085416",
+   "odds_game_date": "2023-02-04",
+   "ncaa_game_date": "2023-02-05"
+  },
+  {
+   "odds_game_id": "2023-03-04_towson_vs_umbc",
+   "ncaa_game_id": "6139977",
+   "odds_game_date": "2023-03-04",
+   "ncaa_game_date": "2023-03-05"
+  }
+ ]
+}

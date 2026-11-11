@@ -1,0 +1,59 @@
+{
+  "inputMD5Sum": "33f781f427d26a4203634fabe9b0289a",
+  "instanceId": "9b8a6fa9c4f840bfb983c46c1c4979d2",
+  "updated_at": "06-12-2025 09:23:22",
+  "games": [{"game": {
+    "gameID": "6309905",
+    "away": {
+      "score": "10",
+      "names": {
+        "char6": "MARIST",
+        "short": "Marist",
+        "seo": "marist",
+        "full": "Marist University"
+      },
+      "winner": false,
+      "seed": "",
+      "description": "(3-5)",
+      "rank": "",
+      "conferences": [{
+        "conferenceName": "MAAC",
+        "conferenceSeo": "maac"
+      }]
+    },
+    "finalMessage": "FINAL",
+    "bracketRound": "",
+    "title": "Delaware Marist",
+    "contestName": "",
+    "url": "/game/6386218",
+    "network": "",
+    "home": {
+      "score": "12",
+      "names": {
+        "char6": "DEL",
+        "short": "Delaware",
+        "seo": "delaware",
+        "full": "University of Delaware"
+      },
+      "winner": true,
+      "seed": "",
+      "description": "(4-3)",
+      "rank": "",
+      "conferences": [{
+        "conferenceName": "Atlantic 10",
+        "conferenceSeo": "atlantic-10"
+      }]
+    },
+    "liveVideoEnabled": false,
+    "startTime": "TBA",
+    "startTimeEpoch": "1742356800",
+    "bracketId": "",
+    "gameState": "final",
+    "startDate": "03-19-2025",
+    "currentPeriod": "FINAL",
+    "videoState": "",
+    "bracketRegion": "",
+    "contestClock": "0:00"
+  }}],
+  "hideRank": false
+}

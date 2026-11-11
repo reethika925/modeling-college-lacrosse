@@ -14,6 +14,8 @@ This Fall 2026 Project 2 studies **NCAA Division I men's lacrosse game outcomes*
 
 ## Data we have
 
+The GitHub repository includes the existing datasets, original ZIP packages, extracted source evidence, review tables and preliminary outputs. The links below open the uploaded files or folders. Uploading the files does not change their quality flags or verification classifications.
+
 | Dataset | Location | What it contains |
 |---|---|---|
 | SCORE 2022–2023 aggregate | [Raw CSV](data/raw/score/lacrosse_men_ncaa_div1_2022_2023.csv) | 72 team-season rows, 23 columns. This is not a game log and is not used as 2025 pre-game information. |
@@ -127,7 +129,7 @@ For the four-model pipeline alone:
 PYTHONDONTWRITEBYTECODE=1 python -m pytest -q -p no:cacheprovider tests/test_model_lacrosse_multiseason.py
 ```
 
-Its 32 tests fit only clearly labeled synthetic fixtures. Full-suite integration tests also read local research artifacts and recompute checks in memory. They do not collect data or fit historical logistic models. The data and evidence folders must be present for the full suite; `.gitignore` keeps local data and evidence caches out of automatic Git staging.
+Its 32 tests fit only clearly labeled synthetic fixtures. Full-suite integration tests also read the included research artifacts and recompute checks in memory. They do not collect data or fit historical logistic models. A full clone of this repository includes the current data and evidence inputs. `.gitignore` still excludes credentials, environment files, Python caches and temporary files.
 
 Recompute the published 2025 metrics from saved predictions, without training or changing files:
 

@@ -1,0 +1,309 @@
+odds_game_id,odds_season,odds_game_date,odds_home_team,odds_away_team,odds_home_away_verified,odds_records,match_status,ncaa_game_id,ncaa_game_date,ncaa_home_team,ncaa_away_team,ncaa_home_score,ncaa_away_score,odds_listed_home_equals_ncaa_home,original_ncaa_game_date,ncaa_game_audit_status
+2023-02-04_air-force_vs_ohio-state,2023,2023-02-04,Ohio State,Air Force,True,12.0,matched,6085421,2023-02-04,Ohio St.,Air Force,15.0,7.0,True,2023-02-04,verified
+2023-02-04_bellarmine_vs_duke,2023,2023-02-04,Duke,Bellarmine,True,12.0,matched,6085417,2023-02-04,Duke,Bellarmine,19.0,7.0,True,2023-02-04,verified
+2023-02-04_bucknell_vs_mercer,2023,2023-02-04,Bucknell,Mercer,True,12.0,matched,6085423,2023-02-04,Bucknell,Mercer,20.0,6.0,True,2023-02-04,provisional
+2023-02-04_denver_vs_utah,2023,2023-02-04,Denver,Utah,True,18.0,matched,6085412,2023-02-04,Denver,Utah,12.0,4.0,True,2023-02-04,verified
+2023-02-04_detroit-mercy_vs_vmi,2023,2023-02-04,VMI,Detroit Mercy,True,8.0,matched,6085413,2023-02-04,VMI,Detroit Mercy,14.0,11.0,True,2023-02-04,verified
+2023-02-04_hofstra_vs_merrimack,2023,2023-02-04,Merrimack,Hofstra,True,8.0,matched,6131581,2023-02-05,Merrimack,Hofstra,10.0,7.0,True,2023-02-05,verified
+2023-02-04_holy-cross_vs_providence,2023,2023-02-04,Providence,Holy Cross,True,8.0,matched,6085416,2023-02-05,Providence,Holy Cross,12.0,9.0,True,2023-02-05,verified
+2023-02-04_jacksonville_vs_johns-hopkins,2023,2023-02-04,Jacksonville,Johns Hopkins,True,22.0,matched,6085420,2023-02-04,Jacksonville,Johns Hopkins,7.0,12.0,True,2023-02-04,verified
+2023-02-04_lafayette_vs_penn-state,2023,2023-02-04,Penn State,Lafayette,True,12.0,matched,6085411,2023-02-04,Penn St.,Lafayette,21.0,11.0,True,2023-02-04,provisional
+2023-02-04_lindenwood_vs_marquette,2023,2023-02-04,Marquette,Lindenwood,True,12.0,matched,6085419,2023-02-04,Marquette,Lindenwood,17.0,2.0,True,2023-02-04,verified
+2023-02-04_marist_vs_rutgers,2023,2023-02-04,Rutgers,Marist,True,4.0,matched,6085424,2023-02-04,Rutgers,Marist,20.0,8.0,True,2023-02-04,verified
+2023-02-04_maryland_vs_richmond,2023,2023-02-04,Maryland,Richmond,True,8.0,matched,6085418,2023-02-04,Maryland,Richmond,15.0,4.0,True,2023-02-04,verified
+2023-02-04_mount-st.-mary's_vs_navy,2023,2023-02-04,Navy,Mount Saint Marys,True,12.0,matched,6085414,2023-02-04,Navy,Mount St. Mary's,13.0,7.0,True,2023-02-04,verified
+2023-02-04_syracuse_vs_vermont,2023,2023-02-04,Syracuse,Vermont,True,18.0,matched,6085415,2023-02-04,Syracuse,Vermont,7.0,5.0,True,2023-02-04,verified
+2023-02-05_hofstra_vs_merrimack,2023,2023-02-05,Merrimack,Hofstra,True,4.0,matched,6131581,2023-02-05,Merrimack,Hofstra,10.0,7.0,True,2023-02-05,verified
+2023-02-05_holy-cross_vs_providence,2023,2023-02-05,Providence,Holy Cross,True,4.0,matched,6085416,2023-02-05,Providence,Holy Cross,12.0,9.0,True,2023-02-05,verified
+2023-02-11_air-force_vs_denver,2023,2023-02-11,Air Force,Denver,False,1.0,matched,6085445,2023-02-11,Air Force,Denver,12.0,10.0,True,2023-02-11,verified
+2023-02-11_army_vs_umass,2023,2023-02-11,UMass,Army,False,6.0,matched,6085450,2023-02-11,Massachusetts,Army West Point,10.0,8.0,True,2023-02-11,provisional
+2023-02-11_boston-u_vs_vermont,2023,2023-02-11,Vermont,Boston U,False,8.0,matched,6085439,2023-02-11,Vermont,Boston U.,14.0,12.0,True,2023-02-11,verified
+2023-02-11_cleveland-state_vs_ohio-state,2023,2023-02-11,Cleveland State,Ohio State,False,4.0,matched,6085441,2023-02-11,Ohio St.,Cleveland St.,19.0,12.0,False,2023-02-11,verified
+2023-02-18_bucknell_vs_richmond,2023,2023-02-18,Bucknell,Richmond,False,6.0,matched,6085483,2023-02-18,Richmond,Bucknell,18.0,5.0,False,2023-02-18,provisional
+2023-02-18_maryland_vs_syracuse,2023,2023-02-18,Syracuse,Maryland,False,6.0,matched,6085479,2023-02-18,Maryland,Syracuse,15.0,12.0,False,2023-02-18,verified
+2023-02-18_saint-joseph's_vs_towson,2023,2023-02-18,Towson,Saint Joseph's,False,1.0,matched,6085467,2023-02-18,Towson,Saint Joseph's,13.0,16.0,True,2023-02-18,verified
+2023-02-19_north-carolina_vs_ohio-state,2023,2023-02-19,North Carolina,Ohio State,False,7.0,matched,6085494,2023-02-19,Ohio St.,North Carolina,8.0,5.0,False,2023-02-19,verified
+2023-02-25_loyola-(md)_vs_rutgers,2023,2023-02-25,Rutgers,Loyola Maryland,False,6.0,matched,6085537,2023-02-25,Rutgers,Loyola Maryland,10.0,6.0,True,2023-02-25,verified
+2023-02-25_north-carolina_vs_syracuse,2023,2023-02-25,North Carolina,Syracuse,False,6.0,matched,6085519,2023-02-25,Syracuse,North Carolina,13.0,19.0,False,2023-02-25,verified
+2023-02-25_ohio-state_vs_virginia,2023,2023-02-25,Ohio State,Virginia,False,6.0,matched,6085532,2023-02-25,Ohio St.,Virginia,6.0,17.0,True,2023-02-25,verified
+2023-03-04_bryant_vs_manhattan,2023,2023-03-04,Manhattan,Bryant,False,6.0,matched,6085585,2023-03-04,Bryant,Manhattan,15.0,12.0,False,2023-03-04,provisional
+2023-03-04_north-carolina_vs_rutgers,2023,2023-03-04,Rutgers,North Carolina,False,6.0,unmatched,,,,,,,,,
+2023-03-04_towson_vs_umbc,2023,2023-03-04,UMBC,Towson,False,6.0,matched,6139977,2023-03-05,UMBC,Towson,8.0,4.0,True,2023-03-05,verified
+2023-03-17_johns-hopkins_vs_navy,2023,2023-03-17,Navy,Johns Hopkins,False,6.0,matched,6085639,2023-03-17,Navy,Johns Hopkins,9.0,12.0,True,2023-03-17,verified
+2023-03-18_army_vs_lehigh,2023,2023-03-18,Lehigh,Army,False,6.0,matched,6085655,2023-03-18,Lehigh,Army West Point,10.0,12.0,True,2023-03-18,verified
+2023-03-19_denver_vs_ohio-state,2023,2023-03-19,Denver,Ohio State,False,6.0,matched,6085673,2023-03-19,Denver,Ohio St.,17.0,12.0,True,2023-03-19,verified
+2023-03-25_marquette_vs_st.-bonaventure,2023,2023-03-25,St. Bonaventure,Marquette,False,4.0,matched,6085713,2023-03-25,Marquette,St. Bonaventure,9.0,5.0,False,2023-03-25,verified
+2023-03-25_notre-dame_vs_virginia,2023,2023-03-25,Virginia,Notre Dame,False,6.0,matched,6085699,2023-03-25,Notre Dame,Virginia,10.0,15.0,False,2023-03-25,verified
+2023-04-01_notre-dame_vs_syracuse,2023,2023-04-01,Syracuse,Notre Dame,False,6.0,matched,6085742,2023-04-01,Syracuse,Notre Dame,12.0,20.0,True,2023-04-01,verified
+2023-04-02_ohio-state_vs_penn-state,2023,2023-04-02,Ohio State,Penn State,False,6.0,matched,6085734,2023-04-02,Penn St.,Ohio St.,17.0,9.0,False,2023-04-02,verified
+2023-04-07_north-carolina_vs_virginia,2023,2023-04-07,North Carolina,Virginia,False,6.0,matched,6085771,2023-04-07,North Carolina,Virginia,12.0,19.0,True,2023-04-07,verified
+2023-04-08_brown_vs_penn,2023,2023-04-08,Penn,Brown,False,4.0,matched,6085782,2023-04-08,Brown,Penn,12.0,11.0,False,2023-04-08,verified
+2023-04-08_johns-hopkins_vs_penn-state,2023,2023-04-08,Johns Hopkins,Penn State,False,4.0,matched,6085774,2023-04-08,Penn St.,Johns Hopkins,12.0,11.0,False,2023-04-08,verified
+2023-04-15_bryant_vs_vermont,2023,2023-04-15,Vermont,Bryant,False,6.0,matched,6085853,2023-04-15,Vermont,Bryant,13.0,12.0,True,2023-04-15,verified
+2023-04-15_hobart_vs_saint-joseph's,2023,2023-04-15,St. Joe's,Hobart,False,6.0,matched,6085848,2023-04-15,Saint Joseph's,Hobart,11.0,10.0,True,2023-04-15,provisional
+2023-04-15_st.-bonaventure_vs_umass,2023,2023-04-15,St. Bonaventure,UMass,False,4.0,matched,6085849,2023-04-15,Massachusetts,St. Bonaventure,14.0,3.0,False,2023-04-15,provisional
+2023-04-21_michigan_vs_ohio-state,2023,2023-04-21,Ohio State,Michigan,False,6.0,matched,6085863,2023-04-21,Michigan,Ohio St.,19.0,14.0,False,2023-04-21,verified
+2023-04-22_army_vs_navy,2023,2023-04-22,Army,Navy,False,6.0,matched,6085867,2023-04-22,Navy,Army West Point,6.0,11.0,False,2023-04-22,verified
+2023-04-22_johns-hopkins_vs_maryland,2023,2023-04-22,Johns Hopkins,Maryland,False,6.0,matched,6085876,2023-04-22,Maryland,Johns Hopkins,11.0,12.0,False,2023-04-22,verified
+2023-05-13_army_vs_maryland,2023,2023-05-13,Maryland,Army West Point,True,10.0,matched,6147945,2023-05-13,Maryland,Army West Point,15.0,16.0,True,2023-05-13,verified
+2023-05-13_richmond_vs_virginia,2023,2023-05-13,Richmond,Virginia,False,6.0,matched,6147946,2023-05-13,Virginia,Richmond,17.0,8.0,False,2023-05-13,verified
+2023-05-14_bryant_vs_johns-hopkins,2023,2023-05-14,Johns Hopkins,Bryant,True,4.0,matched,6147948,2023-05-14,Johns Hopkins,Bryant,22.0,8.0,True,2023-05-14,verified
+2023-05-14_cornell_vs_michigan,2023,2023-05-14,Cornell,Michigan,True,4.0,matched,6147943,2023-05-14,Cornell,Michigan,14.0,15.0,True,2023-05-14,verified
+2023-05-14_delaware_vs_duke,2023,2023-05-14,Duke,Delaware,True,12.0,matched,6147942,2023-05-14,Duke,Delaware,12.0,11.0,True,2023-05-14,verified
+2023-05-14_penn-state_vs_princeton,2023,2023-05-14,Princeton,Penn State,False,6.0,matched,6147944,2023-05-14,Penn St.,Princeton,13.0,12.0,False,2023-05-14,verified
+2023-05-20_duke_vs_michigan,2023,2023-05-20,Michigan,Duke,False,7.0,matched,6147950,2023-05-20,Duke,Michigan,15.0,8.0,False,2023-05-20,verified
+2023-05-20_georgetown_vs_virginia,2023,2023-05-20,Virginia,Georgetown,True,15.0,matched,6147952,2023-05-20,Virginia,Georgetown,17.0,14.0,True,2023-05-20,verified
+2023-05-21_army_vs_penn-state,2023,2023-05-21,Army,Penn State,False,6.0,matched,6147951,2023-05-21,Penn St.,Army West Point,10.0,9.0,False,2023-05-21,verified
+2023-05-21_johns-hopkins_vs_notre-dame,2023,2023-05-21,Notre Dame,Johns Hopkins,True,10.0,matched,6147953,2023-05-21,Notre Dame,Johns Hopkins,12.0,9.0,True,2023-05-21,verified
+2023-05-27_duke_vs_penn-state,2023,2023-05-27,Duke,Penn State,True,11.0,matched,6147954,2023-05-27,Duke,Penn St.,16.0,15.0,True,2023-05-27,verified
+2023-05-27_notre-dame_vs_virginia,2023,2023-05-27,Virginia,Notre Dame,True,10.0,matched,6147955,2023-05-27,Virginia,Notre Dame,12.0,13.0,True,2023-05-27,verified
+2023-05-29_duke_vs_notre-dame,2023,2023-05-29,Duke,Notre Dame,False,10.0,matched,6147956,2023-05-29,Duke,Notre Dame,9.0,13.0,True,2023-05-29,verified
+2024-02-03_bucknell_vs_merrimack,2024,2024-02-03,Bucknell,Merrimack,False,6.0,matched,6269582,2024-02-03,Merrimack,Bucknell,14.0,10.0,False,2024-02-03,verified
+2024-02-03_denver_vs_johns-hopkins,2024,2024-02-03,Denver,Johns Hopkins,False,7.0,matched,6269519,2024-02-03,Johns Hopkins,Denver,12.0,13.0,False,2024-02-03,verified
+2024-02-03_georgetown_vs_loyola-(md),2024,2024-02-03,Loyola Maryland,Georgetown,False,1.0,matched,6269587,2024-02-03,Loyola Maryland,Georgetown,18.0,10.0,True,2024-02-03,verified
+2024-02-03_high-point_vs_mercer,2024,2024-02-03,Mercer,High Point,False,6.0,matched,6269576,2024-02-03,High Point,Mercer,14.0,7.0,False,2024-02-03,verified
+2024-02-03_maryland_vs_richmond,2024,2024-02-03,Maryland,Richmond,False,6.0,matched,6269557,2024-02-03,Richmond,Maryland,11.0,12.0,False,2024-02-03,verified
+2024-02-03_syracuse_vs_vermont,2024,2024-02-03,Vermont,Syracuse,False,6.0,matched,6269572,2024-02-03,Syracuse,Vermont,20.0,7.0,False,2024-02-03,verified
+2024-02-05_colgate_vs_syracuse,2024,2024-02-05,Colgate,Syracuse,False,6.0,matched,6269599,2024-02-05,Syracuse,Colgate,18.0,10.0,False,2024-02-05,verified
+2024-02-06_boston-u_vs_saint-joseph's,2024,2024-02-06,Boston U,St. Joe's,False,6.0,matched,6269601,2024-02-06,Boston U.,Saint Joseph's,14.0,10.0,True,2024-02-06,verified
+2024-02-06_johns-hopkins_vs_towson,2024,2024-02-06,Towson,Johns Hopkins,False,6.0,matched,6269517,2024-02-06,Johns Hopkins,Towson,13.0,5.0,False,2024-02-06,verified
+2024-02-10_air-force_vs_denver,2024,2024-02-10,Air Force,Denver,False,6.0,matched,6269633,2024-02-10,Denver,Air Force,11.0,9.0,False,2024-02-10,verified
+2024-02-10_duke_vs_high-point,2024,2024-02-10,High Point,Duke,False,7.0,matched,6269610,2024-02-10,High Point,Duke,9.0,21.0,True,2024-02-10,verified
+2024-02-10_georgetown_vs_johns-hopkins,2024,2024-02-10,Johns Hopkins,Georgetown,False,7.0,matched,6269523,2024-02-10,Georgetown,Johns Hopkins,9.0,11.0,False,2024-02-10,verified
+2024-02-10_hofstra_vs_navy,2024,2024-02-10,Hofstra,Navy,False,6.0,matched,6269626,2024-02-10,Navy,Hofstra,16.0,8.0,False,2024-02-10,provisional
+2024-02-10_loyola-(md)_vs_maryland,2024,2024-02-10,Loyola,Maryland,False,6.0,matched,6269559,2024-02-10,Maryland,Loyola Maryland,11.0,4.0,False,2024-02-10,verified
+2024-02-10_penn-state_vs_villanova,2024,2024-02-10,Villanova,Penn State,False,6.0,matched,6269453,2024-02-10,Penn St.,Villanova,18.0,10.0,False,2024-02-10,verified
+2024-02-17_albany_vs_colgate,2024,2024-02-17,Colgate,UAlbany,False,6.0,matched,6269672,2024-02-17,UAlbany,Colgate,10.0,11.0,False,2024-02-17,provisional
+2024-02-17_denver_vs_utah,2024,2024-02-17,Denver,Utah,False,7.0,matched,6269666,2024-02-17,Utah,Denver,8.0,16.0,False,2024-02-17,verified
+2024-02-17_georgetown_vs_penn,2024,2024-02-17,Georgetown,Penn,False,6.0,matched,6269696,2024-02-17,Penn,Georgetown,9.0,12.0,False,2024-02-17,verified
+2024-02-17_johns-hopkins_vs_loyola-(md),2024,2024-02-17,Loyola,Johns Hopkins,False,6.0,matched,6269521,2024-02-17,Johns Hopkins,Loyola Maryland,13.0,7.0,False,2024-02-17,verified
+2024-02-17_maryland_vs_syracuse,2024,2024-02-17,Syracuse,Maryland,False,6.0,matched,6269561,2024-02-17,Syracuse,Maryland,12.0,13.0,True,2024-02-17,verified
+2024-02-17_villanova_vs_yale,2024,2024-02-17,Villanova,Yale,False,7.0,matched,6269706,2024-02-17,Yale,Villanova,13.0,11.0,False,2024-02-17,verified
+2024-02-23_duke_vs_jacksonville,2024,2024-02-23,Duke,Jacksonville,False,4.0,matched,6269736,2024-02-23,Duke,Jacksonville,23.0,7.0,True,2024-02-23,verified
+2024-02-23_saint-joseph's_vs_towson,2024,2024-02-23,Towson,St. Joe's,False,13.0,matched,6269740,2024-02-23,Saint Joseph's,Towson,7.0,15.0,False,2024-02-23,provisional
+2024-02-23_siena_vs_umass-lowell,2024,2024-02-23,UMASS Lowell,Siena,False,6.0,matched,6269738,2024-02-23,UMass Lowell,Siena,8.0,13.0,True,2024-02-23,provisional
+2024-02-24_albany_vs_drexel,2024,2024-02-24,Drexel,Albany,False,6.0,matched,6269761,2024-02-24,Drexel,UAlbany,13.0,12.0,True,2024-02-24,provisional
+2024-02-24_army_vs_mercer,2024,2024-02-24,Army,Mercer,False,4.0,matched,6269752,2024-02-24,Army West Point,Mercer,15.0,7.0,True,2024-02-24,verified
+2024-02-24_binghamton_vs_lafayette,2024,2024-02-24,Lafayette,Binghamton,False,6.0,matched,6269772,2024-02-24,Lafayette,Binghamton,19.0,12.0,True,2024-02-24,provisional
+2024-02-24_brown_vs_providence,2024,2024-02-24,Providence,Brown,False,6.0,matched,6269774,2024-02-24,Providence,Brown,12.0,11.0,True,2024-02-24,provisional
+2024-02-24_bryant_vs_quinnipiac,2024,2024-02-24,Bryant,Quinnipiac,False,6.0,matched,6269778,2024-02-24,Bryant,Quinnipiac,10.0,13.0,True,2024-02-24,verified
+2024-02-24_bucknell_vs_harvard,2024,2024-02-24,Bucknell,Harvard,False,6.0,matched,6269763,2024-02-24,Bucknell,Harvard,12.0,13.0,True,2024-02-24,provisional
+2024-02-24_cornell_vs_denver,2024,2024-02-24,Cornell,Denver,False,12.0,matched,6269771,2024-02-24,Denver,Cornell,17.0,16.0,False,2024-02-24,verified
+2024-02-24_delaware_vs_penn,2024,2024-02-24,Delaware,Penn,False,6.0,matched,6269784,2024-02-24,Penn,Delaware,11.0,10.0,False,2024-02-24,verified
+2024-02-24_johns-hopkins_vs_north-carolina,2024,2024-02-24,Johns Hopkins,North Carolina,False,12.0,matched,6269525,2024-02-24,North Carolina,Johns Hopkins,9.0,13.0,False,2024-02-24,verified
+2024-02-24_loyola-(md)_vs_rutgers,2024,2024-02-24,Loyola Maryland,Rutgers,False,1.0,matched,6269480,2024-02-24,Loyola Maryland,Rutgers,5.0,13.0,True,2024-02-24,verified
+2024-02-24_marquette_vs_michigan,2024,2024-02-24,Marquette,Michigan,False,1.0,matched,6269502,2024-02-24,Marquette,Michigan,12.0,20.0,True,2024-02-24,verified
+2024-02-24_maryland_vs_princeton,2024,2024-02-24,Princeton,Maryland,False,6.0,matched,6269563,2024-02-24,Maryland,Princeton,13.0,7.0,False,2024-02-24,verified
+2024-02-24_mount-st.-mary's_vs_umbc,2024,2024-02-24,Mount St. Mary's,UMBC,False,6.0,matched,6269750,2024-02-24,Mount St. Mary's,UMBC,6.0,18.0,True,2024-02-24,verified
+2024-02-24_navy_vs_penn-state,2024,2024-02-24,Navy,Penn State,False,6.0,matched,6269457,2024-02-24,Navy,Penn St.,3.0,13.0,True,2024-02-24,provisional
+2024-02-24_richmond_vs_st.-john's,2024,2024-02-24,Richmond,St. John's - New York,False,4.0,matched,6269757,2024-02-24,Richmond,St. John's (NY),18.0,2.0,True,2024-02-24,verified
+2024-02-24_st.-bonaventure_vs_vmi,2024,2024-02-24,VMI,St. Bonaventure,False,6.0,matched,6269765,2024-02-24,VMI,St. Bonaventure,17.0,9.0,True,2024-02-24,provisional
+2024-02-24_utah_vs_vermont,2024,2024-02-24,Vermont,Utah,False,6.0,matched,6269746,2024-02-24,Utah,Vermont,22.0,12.0,False,2024-02-24,provisional
+2024-03-01_north-carolina_vs_princeton,2024,2024-03-01,Princeton,North Carolina,False,7.0,matched,6269807,2024-03-01,North Carolina,Princeton,9.0,15.0,False,2024-03-01,verified
+2024-03-02_colgate_vs_loyola-(md),2024,2024-03-02,Loyola,Colgate,False,6.0,matched,6269826,2024-03-02,Colgate,Loyola Maryland,14.0,11.0,False,2024-03-02,provisional
+2024-03-02_cornell_vs_ohio-state,2024,2024-03-02,Ohio State,Cornell,False,7.0,matched,6269547,2024-03-02,Cornell,Ohio St.,15.0,11.0,False,2024-03-02,verified
+2024-03-02_delaware_vs_michigan,2024,2024-03-02,Michigan,Delaware,False,6.0,matched,6269515,2024-03-02,Delaware,Michigan,8.0,13.0,False,2024-03-02,verified
+2024-03-02_denver_vs_le-moyne,2024,2024-03-02,Denver,Le Moyne,False,1.0,matched,6269844,2024-03-02,Denver,Le Moyne,15.0,6.0,True,2024-03-02,verified
+2024-03-02_high-point_vs_syracuse,2024,2024-03-02,High Point,Syracuse,False,7.0,matched,6269816,2024-03-02,Syracuse,High Point,19.0,13.0,False,2024-03-02,verified
+2024-03-03_air-force_vs_saint-joseph's,2024,2024-03-03,Air Force,St. Joe's,False,6.0,matched,6269847,2024-03-03,Saint Joseph's,Air Force,15.0,11.0,False,2024-03-03,provisional
+2024-03-09_brown_vs_maryland,2024,2024-03-09,Brown,Maryland,False,4.0,matched,6269566,2024-03-09,Maryland,Brown,14.0,13.0,False,2024-03-09,verified
+2024-03-09_duke_vs_loyola-(md),2024,2024-03-09,Duke,Loyola,False,6.0,matched,6269876,2024-03-09,Loyola Maryland,Duke,10.0,16.0,False,2024-03-09,verified
+2024-03-09_johns-hopkins_vs_syracuse,2024,2024-03-09,Johns Hopkins,Syracuse,False,7.0,matched,6269528,2024-03-09,Syracuse,Johns Hopkins,14.0,13.0,False,2024-03-09,verified
+2024-03-09_notre-dame_vs_ohio-state,2024,2024-03-09,Notre Dame,Ohio State,False,6.0,matched,6269549,2024-03-09,Ohio St.,Notre Dame,10.0,13.0,False,2024-03-09,verified
+2024-03-09_penn_vs_villanova,2024,2024-03-09,Penn,Villanova,False,7.0,matched,6269858,2024-03-09,Villanova,Penn,8.0,11.0,False,2024-03-09,verified
+2024-03-10_le-moyne_vs_mercer,2024,2024-03-10,Le Moyne,Mercer,False,6.0,matched,6269880,2024-03-10,Mercer,Le Moyne,6.0,10.0,False,2024-03-10,verified
+2024-03-16_bryant_vs_umbc,2024,2024-03-16,Bryant,UMBC,False,7.0,matched,6269896,2024-03-16,UMBC,Bryant,13.0,12.0,False,2024-03-16,verified
+2024-03-16_duke_vs_richmond,2024,2024-03-16,Duke,Richmond,False,6.0,matched,6269901,2024-03-16,Richmond,Duke,3.0,12.0,False,2024-03-16,verified
+2024-03-16_manhattan_vs_sacred-heart,2024,2024-03-16,Manhattan,Sacred Heart,False,7.0,matched,6269900,2024-03-16,Sacred Heart,Manhattan,14.0,12.0,False,2024-03-16,verified
+2024-03-16_michigan_vs_notre-dame,2024,2024-03-16,Michigan,Notre Dame,False,6.0,matched,6269508,2024-03-16,Notre Dame,Michigan,19.0,9.0,False,2024-03-16,verified
+2024-03-20_duke_vs_syracuse,2024,2024-03-20,Syracuse,Duke,False,7.0,matched,6269922,2024-03-20,Syracuse,Duke,10.0,4.0,True,2024-03-20,verified
+2024-03-23_dartmouth_vs_penn,2024,2024-03-23,Penn,Dartmouth,False,6.0,matched,6269942,2024-03-23,Dartmouth,Penn,8.0,11.0,False,2024-03-23,verified
+2024-03-23_marist_vs_quinnipiac,2024,2024-03-23,Quinnipiac,Marist,False,6.0,matched,6269944,2024-03-23,Marist,Quinnipiac,10.0,13.0,False,2024-03-23,verified
+2024-03-23_maryland_vs_michigan,2024,2024-03-23,Maryland,Michigan,False,6.0,matched,6269509,2024-03-23,Michigan,Maryland,12.0,11.0,False,2024-03-23,verified
+2024-03-23_mount-st.-mary's_vs_wagner,2024,2024-03-23,Wagner,Mount St. Mary's,False,6.0,matched,6269937,2024-03-23,Mount St. Mary's,Wagner,8.0,7.0,False,2024-03-23,provisional
+2024-03-30_army_vs_north-carolina,2024,2024-03-30,Army,North Carolina,False,6.0,matched,6269973,2024-03-30,North Carolina,Army West Point,12.0,13.0,False,2024-03-30,verified
+2024-03-30_bucknell_vs_lafayette,2024,2024-03-30,Lafayette,Bucknell,False,6.0,matched,6270000,2024-03-30,Bucknell,Lafayette,17.0,8.0,False,2024-03-30,provisional
+2024-03-30_colgate_vs_navy,2024,2024-03-30,Colgate,Navy,False,6.0,matched,6269974,2024-03-30,Navy,Colgate,10.0,9.0,False,2024-03-30,verified
+2024-03-30_notre-dame_vs_syracuse,2024,2024-03-30,Syracuse,Notre Dame,False,6.0,matched,6269986,2024-03-30,Notre Dame,Syracuse,14.0,12.0,False,2024-03-30,verified
+2024-03-31_maryland_vs_penn-state,2024,2024-03-31,Maryland,Penn State,False,6.0,matched,6269466,2024-03-31,Penn St.,Maryland,11.0,13.0,False,2024-03-31,verified
+2024-04-02_cornell_vs_syracuse,2024,2024-04-02,Syracuse,Cornell,False,6.0,matched,6270004,2024-04-02,Cornell,Syracuse,18.0,17.0,False,2024-04-02,verified
+2024-04-06_air-force_vs_bellarmine,2024,2024-04-06,Bellarmine,Air Force,False,6.0,matched,6270020,2024-04-06,Air Force,Bellarmine,11.0,7.0,False,2024-04-06,provisional
+2024-04-06_marist_vs_mount-st.-mary's,2024,2024-04-06,Marist,Mount St. Mary's,False,6.0,matched,6270017,2024-04-06,Mount St. Mary's,Marist,10.0,11.0,False,2024-04-06,provisional
+2024-04-06_maryland_vs_ohio-state,2024,2024-04-06,Ohio State,Maryland,False,7.0,matched,6269555,2024-04-06,Maryland,Ohio St.,8.0,7.0,False,2024-04-06,verified
+2024-04-06_north-carolina_vs_virginia,2024,2024-04-06,North Carolina,Virginia,False,6.0,matched,6270008,2024-04-06,Virginia,North Carolina,14.0,6.0,False,2024-04-06,verified
+2024-04-07_duke_vs_notre-dame,2024,2024-04-07,Notre Dame,Duke,False,6.0,matched,6270037,2024-04-07,Duke,Notre Dame,12.0,15.0,False,2024-04-07,verified
+2024-04-09_boston-u_vs_yale,2024,2024-04-09,Boston U,Yale,False,6.0,matched,6270038,2024-04-09,Boston U.,Yale,16.0,18.0,True,2024-04-09,verified
+2024-04-13_army_vs_navy,2024,2024-04-13,Navy,Army,False,6.0,matched,6270058,2024-04-13,Army West Point,Navy,13.0,8.0,False,2024-04-13,verified
+2024-04-13_harvard_vs_penn,2024,2024-04-13,Harvard,Penn,False,6.0,matched,6270056,2024-04-13,Penn,Harvard,15.0,12.0,False,2024-04-13,verified
+2024-04-13_high-point_vs_richmond,2024,2024-04-13,Richmond,High Point,False,6.0,matched,6270066,2024-04-13,High Point,Richmond,5.0,9.0,False,2024-04-13,verified
+2024-04-13_michigan_vs_penn-state,2024,2024-04-13,Michigan,Penn State,False,6.0,matched,6269470,2024-04-13,Penn St.,Michigan,14.0,8.0,False,2024-04-13,verified
+2024-04-20_binghamton_vs_bryant,2024,2024-04-20,Bryant,Binghamton,False,6.0,matched,6270091,2024-04-20,Binghamton,Bryant,11.0,17.0,False,2024-04-20,provisional
+2024-04-20_boston-u_vs_lehigh,2024,2024-04-20,Boston U,Lehigh,False,6.0,matched,6270102,2024-04-20,Lehigh,Boston U.,13.0,12.0,False,2024-04-20,verified
+2024-04-20_penn_vs_princeton,2024,2024-04-20,Penn,Princeton,False,6.0,matched,6270099,2024-04-20,Princeton,Penn,15.0,10.0,False,2024-04-20,verified
+2024-04-20_syracuse_vs_virginia,2024,2024-04-20,Syracuse,Virginia,False,6.0,matched,6270095,2024-04-20,Syracuse,Virginia,18.0,17.0,True,2024-04-20,verified
+2024-04-26_georgetown_vs_villanova,2024,2024-04-26,Georgetown,Villanova,False,6.0,matched,6270126,2024-04-26,Villanova,Georgetown,4.0,12.0,False,2024-04-26,verified
+2024-04-27_michigan_vs_ohio-state,2024,2024-04-27,Ohio State,Michigan,False,6.0,matched,6297608,2024-04-27,Michigan,Ohio St.,15.0,9.0,False,2024-04-27,verified
+2024-04-27_notre-dame_vs_virginia,2024,2024-04-27,Notre Dame,Virginia,False,6.0,matched,6270131,2024-04-27,Virginia,Notre Dame,9.0,11.0,False,2024-04-27,verified
+2024-04-27_richmond_vs_saint-joseph's,2024,2024-04-27,St. Joe's,Richmond,False,7.0,matched,6270149,2024-04-27,Richmond,Saint Joseph's,9.0,10.0,False,2024-04-27,verified
+2024-05-02_georgetown_vs_providence,2024,2024-05-02,Providence,Georgetown,False,6.0,matched,6299061,2024-05-02,Georgetown,Providence,14.0,13.0,False,2024-05-02,verified
+2024-05-02_sacred-heart_vs_siena,2024,2024-05-02,Siena,Sacred Heart,False,6.0,matched,6297611,2024-05-02,Sacred Heart,Siena,15.0,13.0,False,2024-05-02,provisional
+2024-05-02_umbc_vs_vermont,2024,2024-05-02,UMBC,Vermont,False,6.0,matched,6299054,2024-05-02,Vermont,UMBC,10.0,8.0,False,2024-05-02,verified
+2024-05-03_princeton_vs_yale,2024,2024-05-03,Yale,Princeton,False,6.0,matched,6299063,2024-05-03,Princeton,Yale,14.0,10.0,False,2024-05-03,verified
+2024-05-04_manhattan_vs_sacred-heart,2024,2024-05-04,Manhattan,Sacred Heart,False,6.0,matched,6297609,2024-05-04,Manhattan,Sacred Heart,5.0,11.0,True,2024-05-04,verified
+2024-05-04_michigan_vs_penn-state,2024,2024-05-04,Michigan,Penn State,False,6.0,matched,6297605,2024-05-04,Penn St.,Michigan,4.0,16.0,False,2024-05-04,verified
+2024-05-04_richmond_vs_saint-joseph's,2024,2024-05-04,Richmond,St. Joe's,False,6.0,matched,6299056,2024-05-04,Saint Joseph's,Richmond,17.0,13.0,False,2024-05-04,verified
+2024-05-05_penn_vs_princeton,2024,2024-05-05,Penn,Princeton,False,6.0,matched,espn_401658258,2024-05-05,Princeton,Pennsylvania,18.0,11.0,False,2024-05-05,verified
+2024-05-08_albany_vs_sacred-heart,2024,2024-05-08,Sacred Heart,Albany,False,6.0,matched,6292075,2024-05-08,UAlbany,Sacred Heart,13.0,7.0,False,2024-05-08,verified
+2024-05-11_denver_vs_michigan,2024,2024-05-11,Michigan,Denver,False,6.0,matched,6292092,2024-05-11,Denver,Michigan,16.0,11.0,False,2024-05-11,verified
+2024-05-11_duke_vs_utah,2024,2024-05-11,Utah,Duke,False,6.0,matched,6292094,2024-05-11,Duke,Utah,19.0,7.0,False,2024-05-11,verified
+2024-05-11_maryland_vs_princeton,2024,2024-05-11,Princeton,Maryland,False,7.0,matched,6292095,2024-05-11,Maryland,Princeton,16.0,8.0,False,2024-05-11,verified
+2024-05-11_saint-joseph's_vs_virginia,2024,2024-05-11,St. Joe's,Virginia,False,6.0,matched,6292096,2024-05-11,Virginia,Saint Joseph's,17.0,11.0,False,2024-05-11,verified
+2024-05-12_albany_vs_notre-dame,2024,2024-05-12,Albany,Notre Dame,False,6.0,matched,6292090,2024-05-12,Notre Dame,UAlbany,14.0,9.0,False,2024-05-12,verified
+2024-05-12_georgetown_vs_penn-state,2024,2024-05-12,Penn State,Georgetown,False,6.0,matched,6292091,2024-05-12,Georgetown,Penn St.,12.0,9.0,False,2024-05-12,verified
+2024-05-12_johns-hopkins_vs_lehigh,2024,2024-05-12,Lehigh,Johns Hopkins,False,6.0,matched,6292097,2024-05-12,Johns Hopkins,Lehigh,13.0,10.0,False,2024-05-12,verified
+2024-05-12_syracuse_vs_towson,2024,2024-05-12,Towson,Syracuse,False,6.0,matched,6292093,2024-05-12,Syracuse,Towson,20.0,15.0,False,2024-05-12,verified
+2024-05-18_duke_vs_maryland,2024,2024-05-18,Maryland,Duke,False,8.0,matched,6292100,2024-05-18,Duke,Maryland,11.0,14.0,False,2024-05-18,verified
+2024-05-18_georgetown_vs_notre-dame,2024,2024-05-18,Georgetown,Notre Dame,False,6.0,matched,6292098,2024-05-18,Notre Dame,Georgetown,16.0,11.0,False,2024-05-18,verified
+2024-05-19_denver_vs_syracuse,2024,2024-05-19,Denver,Syracuse,False,6.0,matched,6292099,2024-05-19,Syracuse,Denver,8.0,10.0,False,2024-05-19,verified
+2024-05-19_johns-hopkins_vs_virginia,2024,2024-05-19,Virginia,Johns Hopkins,False,6.0,matched,6292101,2024-05-19,Johns Hopkins,Virginia,10.0,11.0,False,2024-05-19,verified
+2024-05-25_denver_vs_notre-dame,2024,2024-05-25,Denver,Notre Dame,False,12.0,matched,6292102,2024-05-25,Notre Dame,Denver,13.0,6.0,False,2024-05-25,verified
+2024-05-25_maryland_vs_virginia,2024,2024-05-25,Maryland,Virginia,False,12.0,matched,6292103,2024-05-25,Virginia,Maryland,6.0,12.0,False,2024-05-25,verified
+2024-05-27_maryland_vs_notre-dame,2024,2024-05-27,Maryland,Notre Dame,False,6.0,matched,6292104,2024-05-27,Notre Dame,Maryland,15.0,5.0,False,2024-05-27,verified
+2025-02-01_colgate_vs_penn-state,2025,2025-02-01,Penn State,Colgate,True,6.0,matched,6386042,2025-02-01,Penn St.,Colgate,14.0,9.0,True,2025-02-01,verified
+2025-02-01_high-point_vs_navy,2025,2025-02-01,High Point,Navy,True,6.0,matched,6386180,2025-02-01,High Point,Navy,10.0,14.0,True,2025-02-01,verified
+2025-02-01_maryland_vs_richmond,2025,2025-02-01,Maryland,Richmond,True,6.0,matched,6386406,2025-02-01,Maryland,Richmond,12.0,7.0,True,2025-02-01,verified
+2025-02-01_ohio-state_vs_utah,2025,2025-02-01,Ohio State,Utah,True,6.0,matched,6386530,2025-02-01,Ohio St.,Utah,13.0,19.0,True,2025-02-01,verified
+2025-02-02_st.-bonaventure_vs_vmi,2025,2025-02-02,St. Bonaventure,VMI,True,6.0,matched,6386472,2025-02-02,St. Bonaventure,VMI,7.0,18.0,True,2025-02-02,verified
+2025-02-08_detroit-mercy_vs_marquette,2025,2025-02-08,Marquette,Detroit Mercy,True,6.0,matched,6386387,2025-02-08,Marquette,Detroit Mercy,16.0,6.0,True,2025-02-08,verified
+2025-02-08_georgetown_vs_johns-hopkins,2025,2025-02-08,Johns Hopkins,Georgetown,True,6.0,matched,6386206,2025-02-08,Johns Hopkins,Georgetown,11.0,6.0,True,2025-02-08,verified
+2025-02-08_loyola-(md)_vs_maryland,2025,2025-02-08,Loyola (Md),Maryland,True,6.0,matched,6386078,2025-02-08,Loyola Maryland,Maryland,7.0,8.0,True,2025-02-08,verified
+2025-02-08_michigan_vs_north-carolina,2025,2025-02-08,North Carolina,Michigan,True,6.0,matched,6386157,2025-02-08,North Carolina,Michigan,15.0,6.0,True,2025-02-08,verified
+2025-02-14_north-carolina_vs_stony-brook,2025,2025-02-14,North Carolina,Stony Brook,False,6.0,matched,6386158,2025-02-14,North Carolina,Stony Brook,9.0,4.0,True,2025-02-14,verified
+2025-02-14_quinnipiac_vs_umass,2025,2025-02-14,Massachusetts,Quinnipiac,False,6.0,matched,6386338,2025-02-14,Massachusetts,Quinnipiac,19.0,5.0,True,2025-02-14,verified
+2025-02-15_air-force_vs_ohio-state,2025,2025-02-15,Ohio State,Air Force,False,6.0,matched,6386293,2025-02-15,Ohio St.,Air Force,17.0,11.0,True,2025-02-15,verified
+2025-02-15_bellarmine_vs_canisius,2025,2025-02-15,Canisius,Bellarmine,False,6.0,matched,6386100,2025-02-15,Canisius,Bellarmine,8.0,13.0,True,2025-02-15,verified
+2025-02-15_binghamton_vs_st.-bonaventure,2025,2025-02-15,St. Bonaventure,Binghamton,False,6.0,unmatched,,,,,,,,,
+2025-02-15_brown_vs_fairfield,2025,2025-02-15,Brown,Fairfield,True,12.0,matched,6386091,2025-02-15,Brown,Fairfield,5.0,11.0,True,2025-02-15,verified
+2025-02-15_bryant_vs_merrimack,2025,2025-02-15,Merrimack,Bryant,False,6.0,matched,6386143,2025-02-15,Merrimack,Bryant,4.0,19.0,True,2025-02-15,verified
+2025-02-15_bucknell_vs_dartmouth,2025,2025-02-15,Dartmouth,Bucknell,False,6.0,matched,6386419,2025-02-15,Dartmouth,Bucknell,13.0,11.0,True,2025-02-15,verified
+2025-02-15_cornell_vs_lehigh,2025,2025-02-15,Lehigh,Cornell,False,6.0,matched,6386539,2025-02-15,Lehigh,Cornell,10.0,18.0,True,2025-02-15,verified
+2025-02-15_denver_vs_utah,2025,2025-02-15,Denver,Utah,False,6.0,matched,6386280,2025-02-15,Denver,Utah,10.0,8.0,True,2025-02-15,verified
+2025-02-15_drexel_vs_umbc,2025,2025-02-15,Drexel,UMBC,False,6.0,matched,6386394,2025-02-15,Drexel,UMBC,6.0,9.0,True,2025-02-15,verified
+2025-02-15_duke_vs_saint-joseph's,2025,2025-02-15,Duke,St. Joseph’s,False,6.0,matched,6386296,2025-02-15,Duke,Saint Joseph's,11.0,9.0,True,2025-02-15,verified
+2025-02-15_georgetown_vs_penn,2025,2025-02-15,Georgetown,Penn,False,6.0,matched,6386214,2025-02-15,Georgetown,Penn,8.0,6.0,True,2025-02-15,verified
+2025-02-15_harvard_vs_providence,2025,2025-02-15,Providence,Harvard,False,6.0,matched,6386058,2025-02-15,Providence,Harvard,10.0,12.0,True,2025-02-15,verified
+2025-02-15_high-point_vs_robert-morris,2025,2025-02-15,High Point,Robert Morris,False,6.0,matched,6386328,2025-02-15,High Point,Robert Morris,17.0,11.0,True,2025-02-15,verified
+2025-02-15_holy-cross_vs_sacred-heart,2025,2025-02-15,Sacred Heart,Holy Cross,False,6.0,matched,6386318,2025-02-15,Sacred Heart,Holy Cross,11.0,7.0,True,2025-02-15,verified
+2025-02-15_jacksonville_vs_marist,2025,2025-02-15,Jacksonville,Marist,False,6.0,matched,6386522,2025-02-15,Jacksonville,Marist,15.0,12.0,True,2025-02-15,verified
+2025-02-15_johns-hopkins_vs_loyola-(md),2025,2025-02-15,Loyola (Md),Johns Hopkins,True,12.0,matched,6386079,2025-02-15,Loyola Maryland,Johns Hopkins,8.0,9.0,True,2025-02-15,verified
+2025-02-15_manhattan_vs_vermont,2025,2025-02-15,Vermont,Manhattan,False,6.0,matched,6386481,2025-02-15,Vermont,Manhattan,12.0,6.0,True,2025-02-15,verified
+2025-02-15_marquette_vs_notre-dame,2025,2025-02-15,Notre Dame,Marquette,False,4.0,matched,6386452,2025-02-15,Notre Dame,Marquette,22.0,9.0,True,2025-02-15,verified
+2025-02-15_maryland_vs_syracuse,2025,2025-02-15,Maryland,Syracuse,True,13.0,matched,6386509,2025-02-15,Maryland,Syracuse,11.0,7.0,True,2025-02-15,verified
+2025-02-15_mercer_vs_vmi,2025,2025-02-15,Mercer,VMI,True,12.0,matched,6386375,2025-02-15,Mercer,VMI,11.0,14.0,True,2025-02-15,verified
+2025-02-15_mount-st.-mary's_vs_wagner,2025,2025-02-15,Wagner,Mount St. Mary's,False,6.0,matched,6386512,2025-02-15,Wagner,Mount St. Mary's,9.0,15.0,True,2025-02-15,verified
+2025-02-15_richmond_vs_virginia,2025,2025-02-15,Virginia,Richmond,False,6.0,matched,6386169,2025-02-15,Virginia,Richmond,10.0,13.0,True,2025-02-15,verified
+2025-02-15_villanova_vs_yale,2025,2025-02-15,Villanova,Yale,False,6.0,matched,6386359,2025-02-15,Villanova,Yale,13.0,11.0,True,2025-02-15,verified
+2025-02-16_mercyhurst_vs_umass-lowell,2025,2025-02-16,UMASS Lowell,Mercyhurst,False,6.0,unmatched,,,,,,,,,
+2025-02-16_navy_vs_towson,2025,2025-02-16,Navy,Towson,False,6.0,matched,6386174,2025-02-16,Navy,Towson,14.0,10.0,True,2025-02-16,verified
+2025-02-19_army_vs_yale,2025,2025-02-19,Yale,Army,True,6.0,matched,6386435,2025-02-19,Yale,Army West Point,3.0,14.0,True,2025-02-19,verified
+2025-02-19_fairfield_vs_sacred-heart,2025,2025-02-19,Fairfield,Sacred Heart,True,7.0,matched,6386385,2025-02-19,Fairfield,Sacred Heart,13.0,12.0,True,2025-02-19,verified
+2025-02-21_utah_vs_vermont,2025,2025-02-21,Vermont,Utah,True,6.0,matched,6440943,2025-02-21,Vermont,Utah,11.0,10.0,True,2025-02-21,verified
+2025-02-22_colgate_vs_villanova,2025,2025-02-22,Villanova,Colgate,True,6.0,matched,6386360,2025-02-22,Villanova,Colgate,5.0,16.0,True,2025-02-22,verified
+2025-02-22_delaware_vs_penn,2025,2025-02-22,Delaware,Penn,True,6.0,matched,6386211,2025-02-22,Delaware,Penn,2.0,10.0,True,2025-02-22,verified
+2025-02-22_lehigh_vs_richmond,2025,2025-02-22,Lehigh,Richmond,True,6.0,matched,6386407,2025-02-22,Lehigh,Richmond,8.0,9.0,True,2025-02-22,verified
+2025-02-22_navy_vs_penn-state,2025,2025-02-22,Penn State,Navy,True,6.0,matched,6386045,2025-02-22,Penn St.,Navy,13.0,7.0,True,2025-02-22,verified
+2025-02-28_denver_vs_marist,2025,2025-02-28,Denver,Marist,True,6.0,matched,6386282,2025-02-28,Denver,Marist,18.0,5.0,True,2025-02-28,verified
+2025-02-28_lehigh_vs_villanova,2025,2025-02-28,Villanova,Lehigh,True,6.0,matched,6386361,2025-02-28,Villanova,Lehigh,7.0,10.0,True,2025-02-28,verified
+2025-03-01_johns-hopkins_vs_virginia,2025,2025-03-01,Johns Hopkins,Virginia,True,6.0,matched,6386172,2025-03-01,Johns Hopkins,Virginia,13.0,12.0,True,2025-03-01,verified
+2025-03-01_syracuse_vs_utah,2025,2025-03-01,Utah,Syracuse,True,6.0,matched,6386505,2025-03-01,Utah,Syracuse,5.0,15.0,True,2025-03-01,verified
+2025-03-08_cornell_vs_penn-state,2025,2025-03-08,Cornell,Penn State,True,6.0,matched,6386047,2025-03-08,Cornell,Penn St.,12.0,13.0,True,2025-03-08,verified
+2025-03-08_delaware_vs_maryland,2025,2025-03-08,Maryland,Delaware,True,6.0,matched,6386216,2025-03-08,Maryland,Delaware,14.0,3.0,True,2025-03-08,verified
+2025-03-09_johns-hopkins_vs_syracuse,2025,2025-03-09,Syracuse,Johns Hopkins,True,6.0,matched,6386479,2025-03-09,Syracuse,Johns Hopkins,13.0,10.0,True,2025-03-09,verified
+2025-03-15_boston-u_vs_loyola-(md),2025,2025-03-15,Boston U,Loyola (Md),True,6.0,matched,6386083,2025-03-15,Boston U.,Loyola Maryland,13.0,7.0,True,2025-03-15,verified
+2025-03-15_duke_vs_richmond,2025,2025-03-15,Richmond,Duke,True,6.0,matched,6386303,2025-03-15,Richmond,Duke,12.0,13.0,True,2025-03-15,verified
+2025-03-15_michigan_vs_notre-dame,2025,2025-03-15,Michigan,Notre Dame,True,6.0,matched,6386533,2025-03-15,Michigan,Notre Dame,7.0,19.0,True,2025-03-15,verified
+2025-03-16_jacksonville_vs_north-carolina,2025,2025-03-16,North Carolina,Jacksonville,True,6.0,matched,6386161,2025-03-16,North Carolina,Jacksonville,20.0,7.0,True,2025-03-16,verified
+2025-03-22_dartmouth_vs_penn,2025,2025-03-22,Penn,Dartmouth,True,6.0,matched,6386463,2025-03-22,Penn,Dartmouth,8.0,9.0,True,2025-03-22,verified
+2025-03-22_stony-brook_vs_towson,2025,2025-03-22,Towson,Stony Brook,True,6.0,matched,6386199,2025-03-22,Towson,Stony Brook,13.0,12.0,True,2025-03-22,verified
+2025-03-29_army_vs_north-carolina,2025,2025-03-29,Army,North Carolina,True,6.0,matched,6386163,2025-03-29,Army West Point,North Carolina,13.0,12.0,True,2025-03-29,verified
+2025-03-29_duke_vs_notre-dame,2025,2025-03-29,Notre Dame,Duke,True,6.0,matched,6386307,2025-03-29,Notre Dame,Duke,14.0,7.0,True,2025-03-29,verified
+2025-03-29_georgetown_vs_providence,2025,2025-03-29,Georgetown,Providence,True,6.0,matched,6386223,2025-03-29,Georgetown,Providence,14.0,13.0,True,2025-03-29,verified
+2025-03-29_syracuse_vs_virginia,2025,2025-03-29,Virginia,Syracuse,True,6.0,matched,6386178,2025-03-29,Virginia,Syracuse,10.0,12.0,True,2025-03-29,verified
+2025-04-05_army_vs_colgate,2025,2025-04-05,Colgate,Army,True,6.0,matched,6386538,2025-04-05,Colgate,Army West Point,7.0,13.0,True,2025-04-05,verified
+2025-04-05_delaware_vs_stony-brook,2025,2025-04-05,Delaware,Stony Brook,True,6.0,matched,6386224,2025-04-05,Delaware,Stony Brook,17.0,9.0,True,2025-04-05,verified
+2025-04-05_johns-hopkins_vs_ohio-state,2025,2025-04-05,Johns Hopkins,Ohio State,True,6.0,matched,6386477,2025-04-05,Johns Hopkins,Ohio St.,10.0,14.0,True,2025-04-05,verified
+2025-04-05_north-carolina_vs_virginia,2025,2025-04-05,North Carolina,Virginia,True,6.0,matched,6386164,2025-04-05,North Carolina,Virginia,18.0,9.0,True,2025-04-05,verified
+2025-04-05_penn_vs_yale,2025,2025-04-05,Penn,Yale,True,6.0,matched,6386437,2025-04-05,Penn,Yale,11.0,14.0,True,2025-04-05,verified
+2025-04-06_michigan_vs_penn-state,2025,2025-04-06,Michigan,Penn State,True,6.0,matched,6386051,2025-04-06,Michigan,Penn St.,8.0,11.0,True,2025-04-06,verified
+2025-04-12_army_vs_navy,2025,2025-04-12,Navy,Army,True,6.0,matched,6386193,2025-04-12,Navy,Army West Point,11.0,12.0,True,2025-04-12,verified
+2025-04-12_denver_vs_georgetown,2025,2025-04-12,Georgetown,Denver,True,6.0,matched,6386228,2025-04-12,Georgetown,Denver,3.0,7.0,True,2025-04-12,verified
+2025-04-12_duke_vs_north-carolina,2025,2025-04-12,Duke,North Carolina,True,6.0,matched,6386165,2025-04-12,Duke,North Carolina,7.0,8.0,True,2025-04-12,verified
+2025-04-12_st.-bonaventure_vs_umass,2025,2025-04-12,UMass,St. Bonaventure,True,6.0,matched,6386346,2025-04-12,Massachusetts,St. Bonaventure,15.0,4.0,True,2025-04-12,verified
+2025-04-19_brown_vs_dartmouth,2025,2025-04-19,Dartmouth,Brown,True,6.0,matched,6386106,2025-04-19,Dartmouth,Brown,13.0,9.0,True,2025-04-19,verified
+2025-04-19_cleveland-state_vs_robert-morris,2025,2025-04-19,Robert Morris,Cleveland State,True,6.0,matched,6386433,2025-04-19,Robert Morris,Cleveland St.,14.0,4.0,True,2025-04-19,verified
+2025-04-19_cornell_vs_harvard,2025,2025-04-19,Harvard,Cornell,True,6.0,matched,6386075,2025-04-19,Harvard,Cornell,12.0,20.0,True,2025-04-19,verified
+2025-04-19_fairfield_vs_towson,2025,2025-04-19,Towson,Fairfield,True,6.0,matched,6386205,2025-04-19,Towson,Fairfield,14.0,9.0,True,2025-04-19,verified
+2025-04-25_delaware_vs_drexel,2025,2025-04-25,Delaware,Drexel,True,6.0,matched,6386229,2025-04-25,Delaware,Drexel,16.0,12.0,True,2025-04-25,verified
+2025-04-25_denver_vs_marquette,2025,2025-04-25,Marquette,Denver,True,6.0,matched,6386290,2025-04-25,Marquette,Denver,18.0,11.0,True,2025-04-25,verified
+2025-04-26_jacksonville_vs_mercer,2025,2025-04-26,Jacksonville,Mercer,True,4.0,matched,6386382,2025-04-26,Jacksonville,Mercer,16.0,12.0,True,2025-04-26,verified
+2025-04-26_liu_vs_vmi,2025,2025-04-26,VMI,LIU,True,6.0,matched,6386358,2025-04-26,VMI,LIU,15.0,12.0,True,2025-04-26,verified
+2025-05-01_hofstra_vs_towson,2025,2025-05-01,Towson,Hofstra,True,6.0,matched,6452097,2025-05-01,Towson,Hofstra,11.0,10.0,True,2025-05-01,verified
+2025-05-01_marist_vs_siena,2025,2025-05-01,Siena,Marist,False,6.0,matched,6451036,2025-05-01,Siena,Marist,15.0,14.0,True,2025-05-01,verified
+2025-05-01_maryland_vs_penn-state,2025,2025-05-01,Maryland,Penn State,False,6.0,matched,6450610,2025-05-01,Maryland,Penn St.,10.0,8.0,True,2025-05-01,verified
+2025-05-01_providence_vs_villanova,2025,2025-05-01,Villanova,Providence,False,6.0,matched,6452093,2025-05-01,Villanova,Providence,16.0,14.0,True,2025-05-01,verified
+2025-05-02_army_vs_colgate,2025,2025-05-02,Army,Colgate,True,6.0,matched,6452188,2025-05-02,Army West Point,Colgate,13.0,16.0,True,2025-05-02,verified
+2025-05-11_air-force_vs_maryland,2025,2025-05-11,Maryland,Air Force,True,6.0,matched,6448507,2025-05-11,Maryland,Air Force,13.0,5.0,True,2025-05-11,verified
+2025-05-11_albany_vs_cornell,2025,2025-05-11,Cornell,Albany,True,6.0,matched,6448503,2025-05-11,Cornell,UAlbany,15.0,6.0,True,2025-05-11,verified
+2025-05-11_harvard_vs_syracuse,2025,2025-05-11,Syracuse,Harvard,True,6.0,matched,6448509,2025-05-11,Syracuse,Harvard,13.0,12.0,True,2025-05-11,verified
+2025-05-11_notre-dame_vs_ohio-state,2025,2025-05-11,Ohio State,Notre Dame,True,7.0,matched,6448506,2025-05-11,Ohio St.,Notre Dame,6.0,15.0,True,2025-05-11,verified
+2025-05-17_cornell_vs_richmond,2025,2025-05-17,Cornell,Richmond,False,18.0,matched,6448511,2025-05-17,Cornell,Richmond,13.0,12.0,True,2025-05-17,verified
+2025-05-17_princeton_vs_syracuse,2025,2025-05-17,Princeton,Syracuse,True,10.0,matched,6448514,2025-05-17,Princeton,Syracuse,18.0,19.0,True,2025-05-17,verified
+2025-05-18_georgetown_vs_maryland,2025,2025-05-18,Maryland,Georgetown,True,22.0,matched,6448513,2025-05-18,Maryland,Georgetown,9.0,6.0,True,2025-05-18,verified
+2025-05-18_notre-dame_vs_penn-state,2025,2025-05-18,Penn State,Notre Dame,True,22.0,matched,6448512,2025-05-18,Penn St.,Notre Dame,14.0,12.0,True,2025-05-18,verified
+2025-05-24_cornell_vs_penn-state,2025,2025-05-24,Cornell,Penn State,False,6.0,matched,6448515,2025-05-24,Cornell,Penn St.,11.0,9.0,True,2025-05-24,verified
+2025-05-24_maryland_vs_syracuse,2025,2025-05-24,Maryland,Syracuse,False,6.0,matched,6448516,2025-05-24,Maryland,Syracuse,14.0,8.0,True,2025-05-24,verified
+2025-05-26_cornell_vs_maryland,2025,2025-05-26,Cornell,Maryland,False,7.0,matched,6448517,2025-05-26,Cornell,Maryland,13.0,10.0,True,2025-05-26,verified
+2026-04-10_colgate_vs_lehigh,2026,2026-04-10,Colgate,Lehigh,True,6.0,out_of_ncaa_file_season,,,,,,,,,
+2026-04-11_harvard_vs_yale,2026,2026-04-11,Yale,Harvard,True,6.0,out_of_ncaa_file_season,,,,,,,,,
+2026-04-11_jacksonville_vs_utah,2026,2026-04-11,Jacksonville,Utah,True,6.0,out_of_ncaa_file_season,,,,,,,,,
+2026-04-11_johns-hopkins_vs_ohio-state,2026,2026-04-11,Ohio State,Johns Hopkins,True,6.0,out_of_ncaa_file_season,,,,,,,,,
+2026-04-11_north-carolina_vs_notre-dame,2026,2026-04-11,Notre Dame,North Carolina,True,12.0,out_of_ncaa_file_season,,,,,,,,,
+2026-04-11_penn_vs_princeton,2026,2026-04-11,Princeton,Pennsylvania,True,6.0,out_of_ncaa_file_season,,,,,,,,,
+2026-04-24_army_vs_colgate,2026,2026-04-24,Army,Colgate,True,6.0,out_of_ncaa_file_season,,,,,,,,,
+2026-04-24_boston-u_vs_holy-cross,2026,2026-04-24,Holy Cross,Boston University,True,6.0,out_of_ncaa_file_season,,,,,,,,,
+2026-04-24_bucknell_vs_umbc,2026,2026-04-24,Bucknell,UMBC,True,6.0,out_of_ncaa_file_season,,,,,,,,,
+2026-04-24_delaware_vs_saint-joseph's,2026,2026-04-24,Saint Joseph's,Delaware,True,6.0,out_of_ncaa_file_season,,,,,,,,,
+2026-04-24_denver_vs_marquette,2026,2026-04-24,Denver,Marquette,True,6.0,out_of_ncaa_file_season,,,,,,,,,
+2026-04-24_drexel_vs_virginia,2026,2026-04-24,Virginia,Drexel,True,6.0,out_of_ncaa_file_season,,,,,,,,,
+2026-04-24_georgetown_vs_villanova,2026,2026-04-24,Villanova,Georgetown,True,6.0,out_of_ncaa_file_season,,,,,,,,,
+2026-04-24_hampton_vs_stony-brook,2026,2026-04-24,Hampton,Stony Brook,True,4.0,out_of_ncaa_file_season,,,,,,,,,
+2026-04-24_high-point_vs_richmond,2026,2026-04-24,High Point,Richmond,True,6.0,out_of_ncaa_file_season,,,,,,,,,
+2026-04-24_hobart_vs_st.-bonaventure,2026,2026-04-24,Saint Bonaventure,Hobart,True,6.0,out_of_ncaa_file_season,,,,,,,,,
+2026-04-24_lafayette_vs_lehigh,2026,2026-04-24,Lafayette,Lehigh,True,6.0,out_of_ncaa_file_season,,,,,,,,,
+2026-04-24_loyola-(md)_vs_navy,2026,2026-04-24,Navy,Loyola MD,True,6.0,out_of_ncaa_file_season,,,,,,,,,
+2026-04-24_penn_vs_umass,2026,2026-04-24,UMass,Pennsylvania,True,6.0,out_of_ncaa_file_season,,,,,,,,,
+2026-04-24_providence_vs_st.-john's,2026,2026-04-24,St. John's,Providence,True,6.0,out_of_ncaa_file_season,,,,,,,,,
+2026-04-25_air-force_vs_utah,2026,2026-04-25,Utah,Air Force,True,6.0,out_of_ncaa_file_season,,,,,,,,,
+2026-04-25_bellarmine_vs_queens,2026,2026-04-25,Queens,Bellarmine,True,6.0,out_of_ncaa_file_season,,,,,,,,,
+2026-04-25_binghamton_vs_vermont,2026,2026-04-25,Vermont,Binghamton,True,6.0,out_of_ncaa_file_season,,,,,,,,,
+2026-04-25_brown_vs_yale,2026,2026-04-25,Brown,Yale,True,6.0,out_of_ncaa_file_season,,,,,,,,,
+2026-04-25_bryant_vs_umass-lowell,2026,2026-04-25,Bryant,UMass Lowell,True,6.0,out_of_ncaa_file_season,,,,,,,,,
+2026-04-25_cleveland-state_vs_liu,2026,2026-04-25,LIU,Cleveland State,True,6.0,out_of_ncaa_file_season,,,,,,,,,
+2026-04-25_cornell_vs_harvard,2026,2026-04-25,Cornell,Harvard,True,6.0,out_of_ncaa_file_season,,,,,,,,,
+2026-04-25_detroit-mercy_vs_vmi,2026,2026-04-25,Detroit Mercy,VMI,True,6.0,out_of_ncaa_file_season,,,,,,,,,
+2026-04-25_duke_vs_north-carolina,2026,2026-04-25,North Carolina,Duke,True,6.0,out_of_ncaa_file_season,,,,,,,,,
+2026-04-25_hofstra_vs_towson,2026,2026-04-25,Towson,Hofstra,True,6.0,out_of_ncaa_file_season,,,,,,,,,
+2026-04-25_jacksonville_vs_mercer,2026,2026-04-25,Mercer,Jacksonville,True,6.0,out_of_ncaa_file_season,,,,,,,,,
+2026-04-25_le-moyne_vs_mercyhurst,2026,2026-04-25,Le Moyne,Mercyhurst,True,6.0,out_of_ncaa_file_season,,,,,,,,,
+2026-04-25_michigan_vs_ohio-state,2026,2026-04-25,Ohio State,Michigan,True,6.0,out_of_ncaa_file_season,,,,,,,,,
+2026-04-25_notre-dame_vs_syracuse,2026,2026-04-25,Notre Dame,Syracuse,True,6.0,out_of_ncaa_file_season,,,,,,,,,
+2026-04-25_robert-morris_vs_wagner,2026,2026-04-25,Wagner,Robert Morris,True,6.0,out_of_ncaa_file_season,,,,,,,,,
+undated_air-force_vs_marquette,2024,,,,,,no_date_in_odds,,,,,,,,,
+undated_albany_vs_syracuse,2023,,,,,,no_date_in_odds,,,,,,,,,
+undated_army_vs_lafayette,2024,,,,,,no_date_in_odds,,,,,,,,,
+undated_binghamton_vs_marist,2023,,,,,,no_date_in_odds,,,,,,,,,
+undated_dartmouth_vs_merrimack,2023,,,,,,no_date_in_odds,,,,,,,,,
+undated_hofstra_vs_navy,2023,,,,,,no_date_in_odds,,,,,,,,,
+undated_lindenwood_vs_marquette,2024,,,,,,no_date_in_odds,,,,,,,,,
+undated_ohio-state_vs_utah,2024,,,,,,no_date_in_odds,,,,,,,,,
+undated_ohio-state_vs_virginia,2024,,,,,,no_date_in_odds,,,,,,,,,

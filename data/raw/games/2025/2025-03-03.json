@@ -1,0 +1,59 @@
+{
+  "inputMD5Sum": "aae31edb6d477d1278384b2a3490b143",
+  "instanceId": "b87902aee91b4e9397c94632a07f2195",
+  "updated_at": "06-12-2025 09:25:01",
+  "games": [{"game": {
+    "gameID": "6312192",
+    "away": {
+      "score": "13",
+      "names": {
+        "char6": "SIENA",
+        "short": "Siena",
+        "seo": "siena",
+        "full": "Siena College"
+      },
+      "winner": false,
+      "seed": "",
+      "description": "(1-3)",
+      "rank": "",
+      "conferences": [{
+        "conferenceName": "MAAC",
+        "conferenceSeo": "maac"
+      }]
+    },
+    "finalMessage": "FINAL",
+    "bracketRound": "",
+    "title": "Dartmouth Siena",
+    "contestName": "",
+    "url": "/game/6386461",
+    "network": "",
+    "home": {
+      "score": "16",
+      "names": {
+        "char6": "DART",
+        "short": "Dartmouth",
+        "seo": "dartmouth",
+        "full": "Dartmouth College"
+      },
+      "winner": true,
+      "seed": "",
+      "description": "(4-1)",
+      "rank": "",
+      "conferences": [{
+        "conferenceName": "Ivy League",
+        "conferenceSeo": "ivy-league"
+      }]
+    },
+    "liveVideoEnabled": false,
+    "startTime": "TBA",
+    "startTimeEpoch": "1740978000",
+    "bracketId": "",
+    "gameState": "final",
+    "startDate": "03-03-2025",
+    "currentPeriod": "FINAL",
+    "videoState": "",
+    "bracketRegion": "",
+    "contestClock": "0:00"
+  }}],
+  "hideRank": false
+}

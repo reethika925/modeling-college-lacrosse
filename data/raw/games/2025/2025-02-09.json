@@ -1,0 +1,114 @@
+{
+  "inputMD5Sum": "f0f62b0a2df8b6c1dd0f7463ee96da8a",
+  "instanceId": "fb31e6274bea4678a419f4387e8f3e37",
+  "updated_at": "05-04-2025 21:54:44",
+  "games": [
+    {"game": {
+      "gameID": "6309481",
+      "away": {
+        "score": "15",
+        "names": {
+          "char6": "PENNST",
+          "short": "Penn St.",
+          "seo": "penn-st",
+          "full": "Pennsylvania State University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(2-0)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Big Ten",
+          "conferenceSeo": "big-ten"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Villanova Penn St.",
+      "contestName": "",
+      "url": "/game/6386043",
+      "network": "",
+      "home": {
+        "score": "5",
+        "names": {
+          "char6": "NOVA",
+          "short": "Villanova",
+          "seo": "villanova",
+          "full": "Villanova University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(0-1)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Big East",
+          "conferenceSeo": "big-east"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1739077200",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "02-09-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6309815",
+      "away": {
+        "score": "13",
+        "names": {
+          "char6": "IONA",
+          "short": "Iona",
+          "seo": "iona",
+          "full": "Iona University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(1-2)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "MAAC",
+          "conferenceSeo": "maac"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Hampton Iona",
+      "contestName": "",
+      "url": "/game/6386144",
+      "network": "",
+      "home": {
+        "score": "9",
+        "names": {
+          "char6": "HAMPTN",
+          "short": "Hampton",
+          "seo": "hampton",
+          "full": "Hampton University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(0-3)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "CAA",
+          "conferenceSeo": "caa"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1739077200",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "02-09-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }}
+  ],
+  "hideRank": false
+}

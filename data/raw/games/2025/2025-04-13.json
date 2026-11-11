@@ -1,0 +1,59 @@
+{
+  "inputMD5Sum": "59caff6bf0e6de732e79b1a3439c2b3f",
+  "instanceId": "520d7556982c4cb68d75f34bf7120999",
+  "updated_at": "06-12-2025 09:22:46",
+  "games": [{"game": {
+    "gameID": "6309807",
+    "away": {
+      "score": "8",
+      "names": {
+        "char6": "MICH",
+        "short": "Michigan",
+        "seo": "michigan",
+        "full": "University of Michigan"
+      },
+      "winner": true,
+      "seed": "",
+      "description": "(7-5)",
+      "rank": "",
+      "conferences": [{
+        "conferenceName": "Big Ten",
+        "conferenceSeo": "big-ten"
+      }]
+    },
+    "finalMessage": "FINAL",
+    "bracketRound": "",
+    "title": "Rutgers Michigan",
+    "contestName": "",
+    "url": "/game/6386140",
+    "network": "",
+    "home": {
+      "score": "6",
+      "names": {
+        "char6": "RUTGER",
+        "short": "Rutgers",
+        "seo": "rutgers",
+        "full": "Rutgers, The State University of New Jersey, New Brunswick"
+      },
+      "winner": false,
+      "seed": "",
+      "description": "(6-7)",
+      "rank": "",
+      "conferences": [{
+        "conferenceName": "Big Ten",
+        "conferenceSeo": "big-ten"
+      }]
+    },
+    "liveVideoEnabled": false,
+    "startTime": "TBA",
+    "startTimeEpoch": "1744516800",
+    "bracketId": "",
+    "gameState": "final",
+    "startDate": "04-13-2025",
+    "currentPeriod": "FINAL",
+    "videoState": "",
+    "bracketRegion": "",
+    "contestClock": "0:00"
+  }}],
+  "hideRank": false
+}

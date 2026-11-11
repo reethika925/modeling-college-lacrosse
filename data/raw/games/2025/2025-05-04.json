@@ -1,0 +1,220 @@
+{
+  "inputMD5Sum": "7b6f28d5874bc3630a2596b4d1bf54ca",
+  "instanceId": "eb1097d8f11c4946921e735bcb2442ac",
+  "updated_at": "06-12-2025 09:47:05",
+  "games": [
+    {"game": {
+      "gameID": "6380931",
+      "away": {
+        "score": "9",
+        "names": {
+          "char6": "SYR",
+          "short": "Syracuse",
+          "seo": "syracuse",
+          "full": "Syracuse University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(11-5)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "ACC",
+          "conferenceSeo": "acc"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Duke Syracuse",
+      "contestName": "",
+      "url": "/game/6452080",
+      "network": "",
+      "home": {
+        "score": "8",
+        "names": {
+          "char6": "DUKE",
+          "short": "Duke",
+          "seo": "duke",
+          "full": "Duke University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(12-5)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "ACC",
+          "conferenceSeo": "acc"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1746331200",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "05-04-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6380947",
+      "away": {
+        "score": "11",
+        "names": {
+          "char6": "AIRFOR",
+          "short": "Air Force",
+          "seo": "air-force",
+          "full": "U.S. Air Force Academy"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(8-7)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "ASUN",
+          "conferenceSeo": "asun"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Utah Air Force",
+      "contestName": "",
+      "url": "/game/6452083",
+      "network": "",
+      "home": {
+        "score": "10",
+        "names": {
+          "char6": "UTAH",
+          "short": "Utah",
+          "seo": "utah",
+          "full": "University of Utah"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(6-9)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "ASUN",
+          "conferenceSeo": "asun"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1746331200",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "05-04-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6381016",
+      "away": {
+        "score": "15",
+        "names": {
+          "char6": "PRINCE",
+          "short": "Princeton",
+          "seo": "princeton",
+          "full": "Princeton University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(12-3)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Ivy League",
+          "conferenceSeo": "ivy-league"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Cornell Princeton",
+      "contestName": "",
+      "url": "/game/6452098",
+      "network": "",
+      "home": {
+        "score": "20",
+        "names": {
+          "char6": "CORN",
+          "short": "Cornell",
+          "seo": "cornell",
+          "full": "Cornell University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(14-1)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Ivy League",
+          "conferenceSeo": "ivy-league"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1746331200",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "05-04-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6381065",
+      "away": {
+        "score": "17",
+        "names": {
+          "char6": "COLGAT",
+          "short": "Colgate",
+          "seo": "colgate",
+          "full": "Colgate University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(10-7)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Patriot",
+          "conferenceSeo": "patriot"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Boston U. Colgate",
+      "contestName": "",
+      "url": "/game/6452186",
+      "network": "",
+      "home": {
+        "score": "10",
+        "names": {
+          "char6": "BU",
+          "short": "Boston U.",
+          "seo": "boston-u",
+          "full": "Boston University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(11-5)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Patriot",
+          "conferenceSeo": "patriot"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1746331200",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "05-04-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }}
+  ],
+  "hideRank": false
+}

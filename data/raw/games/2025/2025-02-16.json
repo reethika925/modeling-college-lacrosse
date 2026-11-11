@@ -1,0 +1,59 @@
+{
+  "inputMD5Sum": "ec372466855a6d7080b87f6b12e9753d",
+  "instanceId": "16ee30b2696a4134ab21b12f9fc41d77",
+  "updated_at": "07-01-2025 11:20:38",
+  "games": [{"game": {
+    "gameID": "6309852",
+    "away": {
+      "score": "10",
+      "names": {
+        "char6": "TOWSON",
+        "short": "Towson",
+        "seo": "towson",
+        "full": "Towson University"
+      },
+      "winner": false,
+      "seed": "",
+      "description": "(0-3)",
+      "rank": "",
+      "conferences": [{
+        "conferenceName": "CAA",
+        "conferenceSeo": "caa"
+      }]
+    },
+    "finalMessage": "FINAL",
+    "bracketRound": "",
+    "title": "Navy Towson",
+    "contestName": "",
+    "url": "/game/6386174",
+    "network": "",
+    "home": {
+      "score": "14",
+      "names": {
+        "char6": "NAVY",
+        "short": "Navy",
+        "seo": "navy",
+        "full": "U.S. Naval Academy"
+      },
+      "winner": true,
+      "seed": "",
+      "description": "(3-0)",
+      "rank": "",
+      "conferences": [{
+        "conferenceName": "Patriot",
+        "conferenceSeo": "patriot"
+      }]
+    },
+    "liveVideoEnabled": false,
+    "startTime": "TBA",
+    "startTimeEpoch": "1739682000",
+    "bracketId": "",
+    "gameState": "final",
+    "startDate": "02-16-2025",
+    "currentPeriod": "FINAL",
+    "videoState": "",
+    "bracketRegion": "",
+    "contestClock": "0:00"
+  }}],
+  "hideRank": false
+}

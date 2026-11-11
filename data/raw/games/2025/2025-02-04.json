@@ -1,0 +1,167 @@
+{
+  "inputMD5Sum": "47c58c29a7300d3a29f7b1d349935c8f",
+  "instanceId": "b87902aee91b4e9397c94632a07f2195",
+  "updated_at": "06-17-2025 16:15:35",
+  "games": [
+    {"game": {
+      "gameID": "6309869",
+      "away": {
+        "score": "11",
+        "names": {
+          "char6": "HOPKNS",
+          "short": "Johns Hopkins",
+          "seo": "johns-hopkins",
+          "full": "Johns Hopkins University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(2-0)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Big Ten",
+          "conferenceSeo": "big-ten"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Towson Johns Hopkins",
+      "contestName": "",
+      "url": "/game/6386188",
+      "network": "",
+      "home": {
+        "score": "10",
+        "names": {
+          "char6": "TOWSON",
+          "short": "Towson",
+          "seo": "towson",
+          "full": "Towson University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(0-1)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "CAA",
+          "conferenceSeo": "caa"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1738645200",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "02-04-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6310760",
+      "away": {
+        "score": "4",
+        "names": {
+          "char6": "DET",
+          "short": "Detroit Mercy",
+          "seo": "detroit",
+          "full": "University of Detroit Mercy"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(0-1)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "NEC",
+          "conferenceSeo": "nec"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Ohio St. Detroit Mercy",
+      "contestName": "",
+      "url": "/game/6386386",
+      "network": "",
+      "home": {
+        "score": "14",
+        "names": {
+          "char6": "OHIOST",
+          "short": "Ohio St.",
+          "seo": "ohio-st",
+          "full": "The Ohio State University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(1-1)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Big Ten",
+          "conferenceSeo": "big-ten"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1738645200",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "02-04-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6309783",
+      "away": {
+        "score": "3",
+        "names": {
+          "char6": "LIU",
+          "short": "LIU",
+          "seo": "long-island",
+          "full": "Long Island University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(0-1)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "NEC",
+          "conferenceSeo": "nec"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Rutgers LIU",
+      "contestName": "",
+      "url": "/game/6386118",
+      "network": "",
+      "home": {
+        "score": "17",
+        "names": {
+          "char6": "RUTGER",
+          "short": "Rutgers",
+          "seo": "rutgers",
+          "full": "Rutgers, The State University of New Jersey, New Brunswick"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(2-0)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Big Ten",
+          "conferenceSeo": "big-ten"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1738663200",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "02-04-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }}
+  ],
+  "hideRank": false
+}

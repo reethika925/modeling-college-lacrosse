@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: https://ogp.me/ns#">
+<head><meta charset="UTF-8"><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>(()=>{class RocketLazyLoadScripts{constructor(){this.v="2.0.5",this.userEvents=["keydown","keyup","mousedown","mouseup","mousemove","mouseover","mouseout","touchmove","touchstart","touchend","touchcancel","wheel","click","dblclick","input"],this.attributeEvents=["onblur","onclick","oncontextmenu","ondblclick","onfocus","onmousedown","onmouseenter","onmouseleave","onmousemove","onmouseout","onmouseover","onmouseup","onmousewheel","onscroll","onsubmit"]}async t(){this.i(),this.o(),/iP(ad|hone)/.test(navigator.userAgent)&&this.h(),this.u(),this.l(this),this.m(),this.k(this),this.p(this),this._(),await Promise.all([this.R(),this.L()]),this.lastBreath=Date.now(),this.S(this),this.P(),this.D(),this.O(),this.M(),await this.C(this.delayedScripts.normal),await this.C(this.delayedScripts.defer),await this.C(this.delayedScripts.async),await this.T(),await this.F(),await this.j(),await this.A(),window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this.everythingLoaded=!0,this.lastTouchEnd&&await new Promise(t=>setTimeout(t,500-Date.now()+this.lastTouchEnd)),this.I(),this.H(),this.U(),this.W()}i(){this.CSPIssue=sessionStorage.getItem("rocketCSPIssue"),document.addEventListener("securitypolicyviolation",t=>{this.CSPIssue||"script-src-elem"!==t.violatedDirective||"data"!==t.blockedURI||(this.CSPIssue=!0,sessionStorage.setItem("rocketCSPIssue",!0))},{isRocket:!0})}o(){window.addEventListener("pageshow",t=>{this.persisted=t.persisted,this.realWindowLoadedFired=!0},{isRocket:!0}),window.addEventListener("pagehide",()=>{this.onFirstUserAction=null},{isRocket:!0})}h(){let t;function e(e){t=e}window.addEventListener("touchstart",e,{isRocket:!0}),window.addEventListener("touchend",function i(o){o.changedTouches[0]&&t.changedTouches[0]&&Math.abs(o.changedTouches[0].pageX-t.changedTouches[0].pageX)<10&&Math.abs(o.changedTouches[0].pageY-t.changedTouches[0].pageY)<10&&o.timeStamp-t.timeStamp<200&&(window.removeEventListener("touchstart",e,{isRocket:!0}),window.removeEventListener("touchend",i,{isRocket:!0}),"INPUT"===o.target.tagName&&"text"===o.target.type||(o.target.dispatchEvent(new TouchEvent("touchend",{target:o.target,bubbles:!0})),o.target.dispatchEvent(new MouseEvent("mouseover",{target:o.target,bubbles:!0})),o.target.dispatchEvent(new PointerEvent("click",{target:o.target,bubbles:!0,cancelable:!0,detail:1,clientX:o.changedTouches[0].clientX,clientY:o.changedTouches[0].clientY})),event.preventDefault()))},{isRocket:!0})}q(t){this.userActionTriggered||("mousemove"!==t.type||this.firstMousemoveIgnored?"keyup"===t.type||"mouseover"===t.type||"mouseout"===t.type||(this.userActionTriggered=!0,this.onFirstUserAction&&this.onFirstUserAction()):this.firstMousemoveIgnored=!0),"click"===t.type&&t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),"touchstart"===this.lastEvent&&"touchend"===t.type&&(this.lastTouchEnd=Date.now()),"click"===t.type&&(this.lastTouchEnd=0),this.lastEvent=t.type,t.composedPath&&t.composedPath()[0].getRootNode()instanceof ShadowRoot&&(t.rocketTarget=t.composedPath()[0]),this.savedUserEvents.push(t)}u(){this.savedUserEvents=[],this.userEventHandler=this.q.bind(this),this.userEvents.forEach(t=>window.addEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0})),document.addEventListener("visibilitychange",this.userEventHandler,{isRocket:!0})}U(){this.userEvents.forEach(t=>window.removeEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0})),document.removeEventListener("visibilitychange",this.userEventHandler,{isRocket:!0}),this.savedUserEvents.forEach(t=>{(t.rocketTarget||t.target).dispatchEvent(new window[t.constructor.name](t.type,t))})}m(){const t="return false",e=Array.from(this.attributeEvents,t=>"data-rocket-"+t),i="["+this.attributeEvents.join("],[")+"]",o="[data-rocket-"+this.attributeEvents.join("],[data-rocket-")+"]",s=(e,i,o)=>{o&&o!==t&&(e.setAttribute("data-rocket-"+i,o),e["rocket"+i]=new Function("event",o),e.setAttribute(i,t))};new MutationObserver(t=>{for(const n of t)"attributes"===n.type&&(n.attributeName.startsWith("data-rocket-")||this.everythingLoaded?n.attributeName.startsWith("data-rocket-")&&this.everythingLoaded&&this.N(n.target,n.attributeName.substring(12)):s(n.target,n.attributeName,n.target.getAttribute(n.attributeName))),"childList"===n.type&&n.addedNodes.forEach(t=>{if(t.nodeType===Node.ELEMENT_NODE)if(this.everythingLoaded)for(const i of[t,...t.querySelectorAll(o)])for(const t of i.getAttributeNames())e.includes(t)&&this.N(i,t.substring(12));else for(const e of[t,...t.querySelectorAll(i)])for(const t of e.getAttributeNames())this.attributeEvents.includes(t)&&s(e,t,e.getAttribute(t))})}).observe(document,{subtree:!0,childList:!0,attributeFilter:[...this.attributeEvents,...e]})}I(){this.attributeEvents.forEach(t=>{document.querySelectorAll("[data-rocket-"+t+"]").forEach(e=>{this.N(e,t)})})}N(t,e){const i=t.getAttribute("data-rocket-"+e);i&&(t.setAttribute(e,i),t.removeAttribute("data-rocket-"+e))}k(t){Object.defineProperty(HTMLElement.prototype,"onclick",{get(){return this.rocketonclick||null},set(e){this.rocketonclick=e,this.setAttribute(t.everythingLoaded?"onclick":"data-rocket-onclick","this.rocketonclick(event)")}})}S(t){function e(e,i){let o=e[i];e[i]=null,Object.defineProperty(e,i,{get:()=>o,set(s){t.everythingLoaded?o=s:e["rocket"+i]=o=s}})}e(document,"onreadystatechange"),e(window,"onload"),e(window,"onpageshow");try{Object.defineProperty(document,"readyState",{get:()=>t.rocketReadyState,set(e){t.rocketReadyState=e},configurable:!0}),document.readyState="loading"}catch(t){console.log("WPRocket DJE readyState conflict, bypassing")}}l(t){this.originalAddEventListener=EventTarget.prototype.addEventListener,this.originalRemoveEventListener=EventTarget.prototype.removeEventListener,this.savedEventListeners=[],EventTarget.prototype.addEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalAddEventListener.call(this,e,i,o):(t.savedEventListeners.push({target:this,remove:!1,type:e,func:i,options:o}),"mouseenter"!==e&&"mouseleave"!==e||t.originalAddEventListener.call(this,e,t.savedUserEvents.push,o))},EventTarget.prototype.removeEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalRemoveEventListener.call(this,e,i,o):t.savedEventListeners.push({target:this,remove:!0,type:e,func:i,options:o})}}J(t,e){this.savedEventListeners=this.savedEventListeners.filter(i=>{let o=i.type,s=i.target||window;return e!==o||t!==s||(this.B(o,s)&&(i.type="rocket-"+o),this.$(i),!1)})}H(){EventTarget.prototype.addEventListener=this.originalAddEventListener,EventTarget.prototype.removeEventListener=this.originalRemoveEventListener,this.savedEventListeners.forEach(t=>this.$(t))}$(t){t.remove?this.originalRemoveEventListener.call(t.target,t.type,t.func,t.options):this.originalAddEventListener.call(t.target,t.type,t.func,t.options)}p(t){let e;function i(e){return t.everythingLoaded?e:e.split(" ").map(t=>"load"===t||t.startsWith("load.")?"rocket-jquery-load":t).join(" ")}function o(o){function s(e){const s=o.fn[e];o.fn[e]=o.fn.init.prototype[e]=function(){return this[0]===window&&t.userActionTriggered&&("string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=i(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach(t=>{const e=arguments[0][t];delete arguments[0][t],arguments[0][i(t)]=e})),s.apply(this,arguments),this}}if(o&&o.fn&&!t.allJQueries.includes(o)){const e={DOMContentLoaded:[],"rocket-DOMContentLoaded":[]};for(const t in e)document.addEventListener(t,()=>{e[t].forEach(t=>t())},{isRocket:!0});o.fn.ready=o.fn.init.prototype.ready=function(i){function s(){parseInt(o.fn.jquery)>2?setTimeout(()=>i.bind(document)(o)):i.bind(document)(o)}return"function"==typeof i&&(t.realDomReadyFired?!t.userActionTriggered||t.fauxDomReadyFired?s():e["rocket-DOMContentLoaded"].push(s):e.DOMContentLoaded.push(s)),this},s("on"),s("one"),s("off"),t.allJQueries.push(o)}e=o}t.allJQueries=[],o(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){o(t)}})}P(){const t=new Map;document.write=document.writeln=function(e){const i=document.currentScript,o=document.createRange(),s=i.parentElement;let n=t.get(i);void 0===n&&(n=i.nextSibling,t.set(i,n));const c=document.createDocumentFragment();o.setStart(c,0),c.appendChild(o.createContextualFragment(e)),s.insertBefore(c,n)}}async R(){return new Promise(t=>{this.userActionTriggered?t():this.onFirstUserAction=t})}async L(){return new Promise(t=>{document.addEventListener("DOMContentLoaded",()=>{this.realDomReadyFired=!0,t()},{isRocket:!0})})}async j(){return this.realWindowLoadedFired?Promise.resolve():new Promise(t=>{window.addEventListener("load",t,{isRocket:!0})})}M(){this.pendingScripts=[];this.scriptsMutationObserver=new MutationObserver(t=>{for(const e of t)e.addedNodes.forEach(t=>{"SCRIPT"!==t.tagName||!t.src||t.noModule||t.isWPRocket||this.pendingScripts.push({script:t,promise:new Promise(e=>{const i=()=>{const i=this.pendingScripts.findIndex(e=>e.script===t);i>=0&&this.pendingScripts.splice(i,1),e()};t.addEventListener("load",i,{isRocket:!0}),t.addEventListener("error",i,{isRocket:!0}),setTimeout(i,1e3)})})})}),this.scriptsMutationObserver.observe(document,{childList:!0,subtree:!0})}async F(){await this.X(),this.pendingScripts.length?(await this.pendingScripts[0].promise,await this.F()):this.scriptsMutationObserver.disconnect()}D(){this.delayedScripts={normal:[],async:[],defer:[]},document.querySelectorAll("script[type$=rocketlazyloadscript]").forEach(t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)})}async _(){await this.L();let t=[];document.querySelectorAll("script[type$=rocketlazyloadscript][data-rocket-src]").forEach(e=>{let i=e.getAttribute("data-rocket-src");if(i&&!i.startsWith("data:")){i.startsWith("//")&&(i=location.protocol+i);try{const o=new URL(i).origin;o!==location.origin&&t.push({src:o,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}catch(t){}}}),t=[...new Map(t.map(t=>[JSON.stringify(t),t])).values()],this.Y(t,"preconnect")}async G(t){if(await this.K(),!0!==t.noModule||!("noModule"in HTMLScriptElement.prototype))return new Promise(e=>{let i;function o(){(i||t).setAttribute("data-rocket-status","executed"),e()}try{if(navigator.userAgent.includes("Firefox/")||""===navigator.vendor||this.CSPIssue)i=document.createElement("script"),[...t.attributes].forEach(t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),i.setAttribute(e,t.nodeValue))}),t.text&&(i.text=t.text),t.nonce&&(i.nonce=t.nonce),i.hasAttribute("src")?(i.addEventListener("load",o,{isRocket:!0}),i.addEventListener("error",()=>{i.setAttribute("data-rocket-status","failed-network"),e()},{isRocket:!0}),setTimeout(()=>{i.isConnected||e()},1)):(i.text=t.text,o()),i.isWPRocket=!0,t.parentNode.replaceChild(i,t);else{const i=t.getAttribute("data-rocket-type"),s=t.getAttribute("data-rocket-src");i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",o,{isRocket:!0}),t.addEventListener("error",i=>{this.CSPIssue&&i.target.src.startsWith("data:")?(console.log("WPRocket: CSP fallback activated"),t.removeAttribute("src"),this.G(t).then(e)):(t.setAttribute("data-rocket-status","failed-network"),e())},{isRocket:!0}),s?(t.fetchPriority="high",t.removeAttribute("data-rocket-src"),t.src=s):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}}catch(i){t.setAttribute("data-rocket-status","failed-transform"),e()}});t.setAttribute("data-rocket-status","skipped")}async C(t){const e=t.shift();return e?(e.isConnected&&await this.G(e),this.C(t)):Promise.resolve()}O(){this.Y([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}Y(t,e){this.trash=this.trash||[];let i=!0;var o=document.createDocumentFragment();t.forEach(t=>{const s=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(s&&!s.startsWith("data:")){const n=document.createElement("link");n.href=s,n.rel=e,"preconnect"!==e&&(n.as="script",n.fetchPriority=i?"high":"low"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(n.crossOrigin=!0),t.crossOrigin&&(n.crossOrigin=t.crossOrigin),t.integrity&&(n.integrity=t.integrity),t.nonce&&(n.nonce=t.nonce),o.appendChild(n),this.trash.push(n),i=!1}}),document.head.appendChild(o)}W(){this.trash.forEach(t=>t.remove())}async T(){try{document.readyState="interactive"}catch(t){}this.fauxDomReadyFired=!0;try{await this.K(),this.J(document,"readystatechange"),document.dispatchEvent(new Event("rocket-readystatechange")),await this.K(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.K(),this.J(document,"DOMContentLoaded"),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this.K(),this.J(window,"DOMContentLoaded"),window.dispatchEvent(new Event("rocket-DOMContentLoaded"))}catch(t){console.error(t)}}async A(){try{document.readyState="complete"}catch(t){}try{await this.K(),this.J(document,"readystatechange"),document.dispatchEvent(new Event("rocket-readystatechange")),await this.K(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.K(),this.J(window,"load"),window.dispatchEvent(new Event("rocket-load")),await this.K(),window.rocketonload&&window.rocketonload(),await this.K(),this.allJQueries.forEach(t=>t(window).trigger("rocket-jquery-load")),await this.K(),this.J(window,"pageshow");const t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this.K(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}catch(t){console.error(t)}}async K(){Date.now()-this.lastBreath>45&&(await this.X(),this.lastBreath=Date.now())}async X(){return document.hidden?new Promise(t=>setTimeout(t)):new Promise(t=>requestAnimationFrame(t))}B(t,e=window){return e===document&&"readystatechange"===t||(e===document&&"DOMContentLoaded"===t||(e===window&&"DOMContentLoaded"===t||(e===window&&"load"===t||e===window&&"pageshow"===t)))}static run(){(new RocketLazyLoadScripts).t()}}RocketLazyLoadScripts.run()})();
+</script>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Search Engine Optimization by Rank Math PRO - https://rankmath.com/ -->
+<title>Learn About the Team at Legal Sports Betting and Our Goals</title>
+<link data-rocket-prefetch href="https://www.statcounter.com" rel="dns-prefetch">
+<link crossorigin data-rocket-preload as="font" href="https://www.legalsportsbetting.com/wp-content/cache/fonts/1/google-fonts/fonts/s/archivoblack/v23/HTxqL289NzCGg4MzN6KJ7eW6CYyF_g.woff2" rel="preload">
+<style id="wpr-usedcss">img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}.gb-overlay{background:0 0;border:0;display:none;margin:0;max-width:100%;padding:0;z-index:99999}.gb-overlay--standard,.gb-overlay[open]{align-items:center;display:none;height:100%;justify-content:center;left:0;max-height:100%;max-width:100%;position:fixed;top:0;width:100%}.gb-overlay::backdrop{display:none}.gb-overlay--standard.active,.gb-overlay--standard[open]{display:flex}.gb-overlay__backdrop{height:100%;left:0;position:absolute;top:0;width:100%}.gb-overlay__content{max-height:100%;max-width:100%;position:relative;z-index:1}.gb-overlay--width-full,.gb-overlay--width-full.gb-overlay--standard .gb-overlay__content{width:100%}[data-gb-overlay-close]{cursor:pointer}.gb-overlay__live-region{height:1px;overflow:hidden;position:absolute;width:1px;clip:rect(0,0,0,0)}.gb-overlay--anchored:not(.gb-overlay--positioned){visibility:hidden}.menu-item-has-gb-mega-menu{position:relative}.menu-item-has-gb-mega-menu .gb-overlay--anchored{max-width:100vw}.menu-item-has-gb-mega-menu .gb-overlay--anchored.gb-overlay--width-full{width:100vw}:where(.menu-item-has-gb-mega-menu .gb-overlay--anchored){width:-moz-max-content;width:max-content}ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:1.25em 2.375em}img.emoji{display:inline!important;border:none!important;box-shadow:none!important;height:1em!important;width:1em!important;margin:0 .07em!important;vertical-align:-.1em!important;background:0 0!important;padding:0!important}:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-color]){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}.wp-block-image>a,.wp-block-image>figure>a{display:inline-block}.wp-block-image img{box-sizing:border-box;height:auto;max-width:100%;vertical-align:bottom}@media not (prefers-reduced-motion){.wp-block-image img.hide{visibility:hidden}.wp-block-image img.show{animation:.4s show-content-image}}.wp-block-image .alignleft,.wp-block-image.alignleft{display:table}.wp-block-image .alignleft{float:left;margin:.5em 1em .5em 0}.wp-block-image :where(figcaption){margin-bottom:1em;margin-top:.5em}:root :where(.wp-block-image.is-style-rounded img,.wp-block-image .is-style-rounded img){border-radius:9999px}.wp-block-image figure{margin:0}@keyframes show-content-image{0%{visibility:hidden}99%{visibility:hidden}to{visibility:visible}}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}.wp-block-site-logo{box-sizing:border-box;line-height:0}.wp-block-site-logo a{display:inline-block;line-height:0}.wp-block-site-logo img{height:auto;max-width:100%}.wp-block-site-logo a,.wp-block-site-logo img{border-radius:inherit}:root :where(.wp-block-site-logo.is-style-rounded){border-radius:9999px}.wp-block-columns{box-sizing:border-box;display:flex;flex-wrap:wrap!important}@media (min-width:782px){.wp-block-columns{flex-wrap:nowrap!important}}.wp-block-columns{align-items:normal!important}@media (max-width:781px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:100%!important}}@media (min-width:782px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column[style*=flex-basis]{flex-grow:0}}:where(.wp-block-columns){margin-bottom:1.75em}:where(.wp-block-columns.has-background){padding:1.25em 2.375em}.wp-block-column{flex-grow:1;min-width:0;overflow-wrap:break-word;word-break:break-word}:root{--wp--preset--aspect-ratio--square:1;--wp--preset--aspect-ratio--4-3:4/3;--wp--preset--aspect-ratio--3-4:3/4;--wp--preset--aspect-ratio--3-2:3/2;--wp--preset--aspect-ratio--2-3:2/3;--wp--preset--aspect-ratio--16-9:16/9;--wp--preset--aspect-ratio--9-16:9/16;--wp--preset--color--black:#000000;--wp--preset--color--cyan-bluish-gray:#abb8c3;--wp--preset--color--white:#ffffff;--wp--preset--color--pale-pink:#f78da7;--wp--preset--color--vivid-red:#cf2e2e;--wp--preset--color--luminous-vivid-orange:#ff6900;--wp--preset--color--luminous-vivid-amber:#fcb900;--wp--preset--color--light-green-cyan:#7bdcb5;--wp--preset--color--vivid-green-cyan:#00d084;--wp--preset--color--pale-cyan-blue:#8ed1fc;--wp--preset--color--vivid-cyan-blue:#0693e3;--wp--preset--color--vivid-purple:#9b51e0;--wp--preset--color--contrast:var(--contrast);--wp--preset--color--contrast-2:var(--contrast-2);--wp--preset--color--contrast-3:var(--contrast-3);--wp--preset--color--base:var(--base);--wp--preset--color--base-2:var(--base-2);--wp--preset--color--base-3:var(--base-3);--wp--preset--color--accent:var(--accent);--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple:linear-gradient(135deg,rgb(6, 147, 227) 0%,rgb(155, 81, 224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan:linear-gradient(135deg,rgb(122, 220, 180) 0%,rgb(0, 208, 130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange:linear-gradient(135deg,rgb(252, 185, 0) 0%,rgb(255, 105, 0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red:linear-gradient(135deg,rgb(255, 105, 0) 0%,rgb(207, 46, 46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray:linear-gradient(135deg,rgb(238, 238, 238) 0%,rgb(169, 184, 195) 100%);--wp--preset--gradient--cool-to-warm-spectrum:linear-gradient(135deg,rgb(74, 234, 220) 0%,rgb(151, 120, 209) 20%,rgb(207, 42, 186) 40%,rgb(238, 44, 130) 60%,rgb(251, 105, 98) 80%,rgb(254, 248, 76) 100%);--wp--preset--gradient--blush-light-purple:linear-gradient(135deg,rgb(255, 206, 236) 0%,rgb(152, 150, 240) 100%);--wp--preset--gradient--blush-bordeaux:linear-gradient(135deg,rgb(254, 205, 165) 0%,rgb(254, 45, 45) 50%,rgb(107, 0, 62) 100%);--wp--preset--gradient--luminous-dusk:linear-gradient(135deg,rgb(255, 203, 112) 0%,rgb(199, 81, 192) 50%,rgb(65, 88, 208) 100%);--wp--preset--gradient--pale-ocean:linear-gradient(135deg,rgb(255, 245, 203) 0%,rgb(182, 227, 212) 50%,rgb(51, 167, 181) 100%);--wp--preset--gradient--electric-grass:linear-gradient(135deg,rgb(202, 248, 128) 0%,rgb(113, 206, 126) 100%);--wp--preset--gradient--midnight:linear-gradient(135deg,rgb(2, 3, 129) 0%,rgb(40, 116, 252) 100%);--wp--preset--font-size--small:13px;--wp--preset--font-size--medium:20px;--wp--preset--font-size--large:36px;--wp--preset--font-size--x-large:42px;--wp--preset--spacing--20:0.44rem;--wp--preset--spacing--30:0.67rem;--wp--preset--spacing--40:1rem;--wp--preset--spacing--50:1.5rem;--wp--preset--spacing--60:2.25rem;--wp--preset--spacing--70:3.38rem;--wp--preset--spacing--80:5.06rem;--wp--preset--shadow--natural:6px 6px 9px rgba(0, 0, 0, .2);--wp--preset--shadow--deep:12px 12px 50px rgba(0, 0, 0, .4);--wp--preset--shadow--sharp:6px 6px 0px rgba(0, 0, 0, .2);--wp--preset--shadow--outlined:6px 6px 0px -3px rgb(255, 255, 255),6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp:6px 6px 0px rgb(0, 0, 0)}:where(body){margin:0}:where(.is-layout-flex){gap:.5em}:where(.is-layout-grid){gap:.5em}body .is-layout-flex{display:flex}.is-layout-flex{flex-wrap:wrap;align-items:center}.is-layout-flex>:is(*,div){margin:0}body{padding-top:0;padding-right:0;padding-bottom:0;padding-left:0}:root :where(.wp-element-button,.wp-block-button__link){background-color:#32373c;border-width:0;color:#fff;font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;padding-top:calc(.667em + 2px);padding-right:calc(1.333em + 2px);padding-bottom:calc(.667em + 2px);padding-left:calc(1.333em + 2px);text-decoration:none;text-transform:inherit}:where(.wp-block-columns.is-layout-flex){gap:2em}:where(.wp-block-columns.is-layout-grid){gap:2em}.trm-author-popover{position:relative;display:inline-block;line-height:0;overflow:visible}.trm-author-popover__trigger{all:unset;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;background:0 0!important;border:none!important;box-shadow:none!important;padding:0!important}.trm-author-popover__trigger:active,.trm-author-popover__trigger:focus,.trm-author-popover__trigger:hover{background:0 0!important;box-shadow:none!important}.trm-author-popover__trigger .avatar,.trm-author-popover__trigger img{width:30px;height:30px;border-radius:50%;object-fit:cover;display:block}.trm-author-popover__panel{position:fixed;z-index:9999;width:auto;max-width:min(650px,90vw);min-width:260px;box-sizing:border-box;background:#fff;color:#222;border:1px solid rgba(0,0,0,.12);border-radius:12px;box-shadow:0 18px 50px rgba(0,0,0,.18);padding:16px;opacity:0;visibility:hidden;pointer-events:none;transform-origin:top left;transform:scale(.92);transition:opacity 120ms ease,transform 420ms cubic-bezier(.34,1.56,.64,1),visibility 0s linear 420ms;will-change:transform,opacity}.trm-author-popover[data-side=top] .trm-author-popover__panel{transform-origin:bottom left}.trm-author-popover__panel[data-open="1"]{opacity:1;visibility:visible;pointer-events:auto;transform:scale(1);transition:opacity 120ms ease,transform 420ms cubic-bezier(.34,1.56,.64,1),visibility 0s}.trm-author-popover__header{display:flex;align-items:center;gap:12px;margin-bottom:10px}.trm-author-popover__avatar img{width:52px;height:52px;border-radius:50%;object-fit:cover;display:block}.trm-author-popover__name{margin:0;font-weight:700;font-size:16px;line-height:1.2}.trm-author-popover__desc{margin:0;font-size:14px;line-height:1.5;opacity:.9}.trm-author-popover__arrow{position:absolute;width:10px;height:10px;background:#fff;border-left:1px solid rgba(0,0,0,.12);border-top:1px solid rgba(0,0,0,.12);transform:rotate(45deg) scale(.9);transition:transform 240ms cubic-bezier(.16,1,.3,1)}.trm-author-popover__panel[data-open="1"] .trm-author-popover__arrow{transform:rotate(45deg) scale(1)}@media (prefers-reduced-motion:reduce){.trm-author-popover__panel{transition:none!important;transform:none!important;filter:none!important}}:root{--trm-od-scoreboard-accent:#16a34a;--trm-od-scoreboard-accent-text:color-mix(in srgb, var(--trm-od-scoreboard-accent) 80%, black);--trm-od-scoreboard-accent-bg:color-mix(in srgb, var(--trm-od-scoreboard-accent) 10%, white);--trm-od-scoreboard-accent-header-bg:color-mix(in srgb, var(--trm-od-scoreboard-accent) 6%, white);--trm-od-scoreboard-accent-border-soft:color-mix(in srgb, var(--trm-od-scoreboard-accent) 30%, white);--trm-od-scoreboard-accent-hover-bg:color-mix(in srgb, var(--trm-od-scoreboard-accent) 18%, white);--trm-od-featured-highlight:#1d4ed8;--trm-od-featured-highlight-border:color-mix(in srgb, var(--trm-od-featured-highlight) 90%, white);--trm-od-featured-highlight-bg:color-mix(in srgb, var(--trm-od-featured-highlight) 10%, white);--trm-od-featured-highlight-hover-bg:color-mix(in srgb, var(--trm-od-featured-highlight) 18%, white)}.trm-od-card__body--periods{display:grid;grid-template-columns:minmax(0,1fr) repeat(var(--period-count,4),30px) 40px;column-gap:4px;row-gap:3px;align-items:center;padding:4px 0 3px}.trm-od-card__col-headers--periods{display:contents}.trm-od-period{text-align:center;font-variant-numeric:tabular-nums;font-size:14px;color:#1f2937;line-height:1.3}@media (max-width:540px){.trm-od-card__body--periods{grid-template-columns:minmax(0,1fr) repeat(var(--period-count,4),24px) 32px;column-gap:3px}.trm-od-period{font-size:13px}}.trm-od-winprob{margin-top:.6rem;padding-top:.55rem;border-top:1px solid rgba(0,0,0,.06)}body,fieldset,figure,h1,h2,h3,h4,html,iframe,legend,li,p,textarea,ul{margin:0;padding:0;border:0}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}main{display:block}progress{vertical-align:baseline}html{box-sizing:border-box}*,::after,::before{box-sizing:inherit}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;margin:0}::-moz-focus-inner{border-style:none;padding:0}body,button,input,select,textarea{font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-weight:400;text-transform:none;font-size:17px;line-height:1.5}p{margin-bottom:1.5em}h1,h2,h3,h4{font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit}table{border:1px solid rgba(0,0,0,.1)}table{border-collapse:separate;border-spacing:0;border-width:1px 0 0 1px;margin:0 0 1.5em;width:100%}fieldset{padding:0;border:0;min-width:inherit}fieldset legend{padding:0;margin-bottom:1.5em}h1{font-size:42px;margin-bottom:20px;line-height:1.2em;font-weight:400;text-transform:none}h2{font-size:35px;margin-bottom:20px;line-height:1.2em;font-weight:400;text-transform:none}h3{font-size:29px;margin-bottom:20px;line-height:1.2em;font-weight:400;text-transform:none}h4{font-size:24px}h4{margin-bottom:20px}ul{margin:0 0 1.5em 3em}ul{list-style:disc}li>ul{margin-bottom:0;margin-left:1.5em}strong{font-weight:700}em{font-style:italic}code{font:15px Monaco,Consolas,"Andale Mono","DejaVu Sans Mono",monospace}figure{margin:0}table{margin:0 0 1.5em;width:100%}img{height:auto;max-width:100%}button,input[type=button],input[type=submit]{background:#55555e;color:#fff;border:1px solid transparent;cursor:pointer;-webkit-appearance:button;padding:10px 20px}input[type=number],input[type=text],input[type=url],select,textarea{border:1px solid;border-radius:0;padding:10px 15px;max-width:100%}textarea{width:100%}a,button,input{transition:color .1s ease-in-out,background-color .1s ease-in-out}a{text-decoration:none}.button{padding:10px 20px;display:inline-block}.using-mouse :focus{outline:0}.using-mouse ::-moz-focus-inner{border:0}.alignleft{float:left;margin-right:1.5em}.size-full{max-width:100%;height:auto}.screen-reader-text{border:0;clip:rect(1px,1px,1px,1px);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute!important;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#f1f1f1;border-radius:3px;box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;clip-path:none;color:#21759b;display:block;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}#primary[tabindex="-1"]:focus{outline:0}.main-navigation{z-index:100;padding:0;clear:both;display:block}.main-navigation a{display:block;text-decoration:none;font-weight:400;text-transform:none;font-size:15px}.main-navigation ul{list-style:none;margin:0;padding-left:0}.main-navigation .main-nav ul li a{padding-left:20px;padding-right:20px;line-height:60px}.inside-navigation{position:relative}.main-navigation .inside-navigation{display:flex;align-items:center;flex-wrap:wrap;justify-content:space-between}.main-navigation .main-nav>ul{display:flex;flex-wrap:wrap;align-items:center}.main-navigation li{position:relative}.main-navigation .menu-bar-items{display:flex;align-items:center;font-size:15px}.main-navigation .menu-bar-items a{color:inherit}.main-navigation .menu-bar-item{position:relative}.main-navigation .menu-bar-item.search-item{z-index:20}.main-navigation .menu-bar-item>a{padding-left:20px;padding-right:20px;line-height:60px}.main-navigation ul ul{display:block;box-shadow:1px 1px 0 rgba(0,0,0,.1);float:left;position:absolute;left:-99999px;opacity:0;z-index:99999;width:200px;text-align:left;top:auto;transition:opacity 80ms linear;transition-delay:0s;pointer-events:none;height:0;overflow:hidden}.main-navigation ul ul a{display:block}.main-navigation ul ul li{width:100%}.main-navigation .main-nav ul ul li a{line-height:normal;padding:10px 20px;font-size:14px}.main-navigation .main-nav ul li.menu-item-has-children>a{padding-right:0;position:relative}.main-navigation.sub-menu-left ul ul{box-shadow:-1px 1px 0 rgba(0,0,0,.1)}.main-navigation.sub-menu-left .sub-menu{right:0}.main-navigation:not(.toggled) ul li.sfHover>ul,.main-navigation:not(.toggled) ul li:hover>ul{left:auto;opacity:1;transition-delay:150ms;pointer-events:auto;height:auto;overflow:visible}.main-navigation:not(.toggled) ul ul li.sfHover>ul,.main-navigation:not(.toggled) ul ul li:hover>ul{left:100%;top:0}.main-navigation.sub-menu-left:not(.toggled) ul ul li.sfHover>ul,.main-navigation.sub-menu-left:not(.toggled) ul ul li:hover>ul{right:100%;left:auto}.nav-float-right .main-navigation ul ul ul{top:0}.menu-item-has-children .dropdown-menu-toggle{display:inline-block;height:100%;clear:both;padding-right:20px;padding-left:10px}.menu-item-has-children ul .dropdown-menu-toggle{padding-top:10px;padding-bottom:10px;margin-top:-10px}nav ul ul .menu-item-has-children .dropdown-menu-toggle{float:right}.site-header{position:relative}.site-logo{display:inline-block;max-width:100%}.nav-float-right #site-navigation{margin-left:auto}.entry-content:not(:first-child){margin-top:2em}.site-content{word-wrap:break-word}.entry-content>p:last-child{margin-bottom:0}iframe,object{max-width:100%}.site-content{display:flex}.grid-container{margin-left:auto;margin-right:auto;max-width:1200px}.site-main>*{margin-bottom:20px}.separate-containers .inside-article{padding:40px}.separate-containers .site-main{margin:20px}.separate-containers.no-sidebar .site-main{margin-left:0;margin-right:0}.separate-containers .site-main>:last-child{margin-bottom:0}.contained-content.separate-containers .inside-article{padding:0}.gp-icon{display:inline-flex;align-self:center}.gp-icon svg{height:1em;width:1em;top:.125em;position:relative;fill:currentColor}.close-search .icon-search svg:first-child,.toggled .icon-menu-bars svg:first-child{display:none}.close-search .icon-search svg:nth-child(2),.toggled .icon-menu-bars svg:nth-child(2){display:block}nav.toggled .sfHover>a>.dropdown-menu-toggle .gp-icon svg{transform:rotate(180deg)}.container.grid-container{width:auto}.menu-toggle,.sidebar-nav-mobile{display:none}.menu-toggle{padding:0 20px;line-height:60px;margin:0;font-weight:400;text-transform:none;font-size:15px;cursor:pointer}button.menu-toggle{background-color:transparent;flex-grow:1;border:0;text-align:center}button.menu-toggle:active,button.menu-toggle:focus,button.menu-toggle:hover{background-color:transparent}nav.toggled ul ul.sub-menu{width:100%}.toggled .menu-item-has-children .dropdown-menu-toggle{padding-left:20px}.main-navigation.toggled .main-nav{flex-basis:100%;order:3}.main-navigation.toggled .main-nav>ul{display:block}.main-navigation.toggled .main-nav li{width:100%;text-align:left}.main-navigation.toggled .main-nav ul ul{transition:0s;visibility:hidden;box-shadow:none;border-bottom:1px solid rgba(0,0,0,.05)}.main-navigation.toggled .main-nav ul ul li:last-child>ul{border-bottom:0}.main-navigation.toggled .main-nav ul ul.toggled-on{position:relative;top:0;left:auto!important;right:auto!important;width:100%;pointer-events:auto;height:auto;opacity:1;display:block;visibility:visible;float:none}.main-navigation.toggled .menu-item-has-children .dropdown-menu-toggle{float:right}.mobile-menu-control-wrapper{display:none;margin-left:auto;align-items:center}body{color:var(--contrast)}a{color:var(--accent)}a{text-decoration:underline}.main-navigation a,a.button{text-decoration:none}a:active,a:focus,a:hover{color:var(--contrast)}.grid-container{max-width:1380px}.dropdown-click .main-navigation ul ul{display:none;visibility:hidden}.dropdown-click .main-navigation ul ul ul.toggled-on{left:0;top:auto;position:relative;box-shadow:none;border-bottom:1px solid rgba(0,0,0,.05)}.dropdown-click .main-navigation ul ul li:last-child>ul.toggled-on{border-bottom:0}.dropdown-click .main-navigation ul li.sfHover>ul.toggled-on,.dropdown-click .main-navigation ul.toggled-on{display:block;left:auto;right:auto;opacity:1;visibility:visible;pointer-events:auto;height:auto;overflow:visible;float:none}.dropdown-click nav ul ul ul{background-color:transparent}.dropdown-click .sfHover>a>.dropdown-menu-toggle>.gp-icon svg{transform:rotate(180deg)}.menu-item-has-children .dropdown-menu-toggle[role=presentation]{pointer-events:none}:root{--contrast:#222222;--contrast-2:#575760;--contrast-3:#b2b2be;--base:#f0f0f0;--base-2:#f7f8f9;--base-3:#ffffff;--accent:#1e73be}h1{font-family:'Archivo Black',sans-serif;font-size:2rem}.main-navigation,.main-navigation ul ul{background-color:var(--base-3)}.main-navigation .main-nav ul li a,.main-navigation .menu-bar-items,.main-navigation .menu-toggle{color:var(--contrast)}.main-navigation .main-nav ul li.sfHover:not([class*=current-menu-])>a,.main-navigation .main-nav ul li:not([class*=current-menu-]):focus>a,.main-navigation .main-nav ul li:not([class*=current-menu-]):hover>a,.main-navigation .menu-bar-item.sfHover>a,.main-navigation .menu-bar-item:hover>a{color:var(--accent)}button.menu-toggle:focus,button.menu-toggle:hover{color:var(--contrast)}.main-navigation .main-nav ul li[class*=current-menu-]>a{color:var(--accent)}.main-navigation .main-nav ul li.search-item.active>a,.main-navigation .menu-bar-items .search-item.active>a,.navigation-search input[type=search],.navigation-search input[type=search]:active,.navigation-search input[type=search]:focus{color:var(--accent)}.main-navigation ul ul{background-color:var(--base)}.separate-containers .inside-article{background-color:var(--base-3)}input[type=number],input[type=text],input[type=url],select,textarea{color:var(--contrast);background-color:var(--base-2);border-color:var(--base)}input[type=number]:focus,input[type=text]:focus,input[type=url]:focus,select:focus,textarea:focus{color:var(--contrast);background-color:var(--base-2);border-color:var(--contrast-3)}a.button,button,html input[type=button],input[type=submit]{color:#fff;background-color:#55555e}a.button:focus,a.button:hover,button:focus,button:hover,html input[type=button]:focus,html input[type=button]:hover,input[type=submit]:focus,input[type=submit]:hover{color:#fff;background-color:#3f4047}:root{--gp-search-modal-bg-color:var(--base-3);--gp-search-modal-text-color:var(--contrast);--gp-search-modal-overlay-bg-color:rgba(0, 0, 0, .2)}.separate-containers .inside-article{padding:10px}@media (max-width:768px){a,body,button,input,select,textarea{transition:all 0s ease-in-out}.site-content{flex-direction:column}.container .site-content .content-area{width:auto}#main{margin-left:0;margin-right:0}body:not(.no-sidebar) #main{margin-bottom:0}.alignleft{float:none;display:block;margin-left:auto;margin-right:auto}.separate-containers .inside-article{padding:10px}}.site-content .content-area{width:100%}.main-navigation .main-nav ul li a,.main-navigation .menu-bar-item>a,.menu-toggle{transition:line-height .3s ease}.sticky-enabled .gen-sidebar-nav.is_stuck .main-navigation{margin-bottom:0}.sticky-enabled .gen-sidebar-nav.is_stuck{z-index:500}.sticky-enabled .main-navigation.is_stuck{box-shadow:0 2px 2px -2px rgba(0,0,0,.2)}.navigation-stick:not(.gen-sidebar-nav){left:0;right:0;width:100%!important}@media (max-width:890px){.main-navigation .menu-bar-item.sfHover>a,.main-navigation .menu-bar-item:hover>a{background:0 0;color:var(--contrast)}.main-navigation .menu-toggle,.sidebar-nav-mobile:not(#sticky-placeholder){display:block}.gen-sidebar-nav,.main-navigation ul,.main-navigation:not(.slideout-navigation):not(.toggled) .main-nav>ul{display:none}#sticky-placeholder{height:0;overflow:hidden}}.nav-float-right .navigation-stick{width:100%!important;left:0}.main-navigation.has-sticky-branding:not(.grid-container) .inside-navigation:not(.grid-container) .navigation-branding{margin-left:10px}:root{--color-black:#000;--color-white:#fff;--color-red:#bc001b;--color-blue:#112639;--color-green:green;--color-grey:#ccc;--color-warning:#dea330;--box-shadow:rgba(0, 0, 0, .05) 0px 6px 24px 0px,rgba(0, 0, 0, .08) 0px 0px 0px 1px;--border-radius:4px;--red-linear-gradient:linear-gradient(to bottom, #e10507, #d20407, #c40406, #b60306, #a80305);--blue-linear-gradient:linear-gradient(to bottom, #112639, #173047, #1c3a55, #224563, #285072);--black-linear-gradient:linear-gradient(to right bottom, #000000, #141011, #201b1c, #2d2526, #3a2f30, #3a2f30, #3a2f30, #3a2f30, #2d2526, #201b1c, #141011, #000000);--green-linear-gradient:linear-gradient(to bottom, #18bb51, #15b04a, #11a444, #0d993d, #098e37);--font-awesome:FontAwesome}@media (min-width:300px){html{overflow-y:scroll}}body{font-family:Roboto,sans-serif;font-size:1rem;background-color:none!important}h1{color:var(--color-black);font-size:2rem}h2:not(.gbp-card__title){font-weight:600;color:#001e54;font-size:1.5rem;position:relative;padding-bottom:10px;margin-top:30px}h2:not(.gbp-card__title):before{content:"";position:absolute;left:-1px;bottom:0;height:7px;width:75px;background-color:var(--color-red)}h2:not(.gbp-card__title):after{content:"";position:absolute;left:74px;bottom:3px;height:1px;width:80%;background-color:var(--color-blue)}h3{font-size:1.3rem;position:relative;padding-bottom:7px}#header-global-wrapper{box-shadow:1px 1px 5px rgba(0,0,0,.1)}#header-global-inside{width:100%;margin:auto;padding:10px;background-color:#fff;z-index:1}#header-global-inside nav{max-width:1340px;width:100%;margin:auto}#header-global-wrapper ul.gb-menu li.menu-item a.gb-menu-link{font-weight:600;font-size:14px;padding-left:10px;padding-right:10px;position:relative}#header-global-wrapper{max-width:100%!important;width:100%!important}#header-global-wrapper ul.list-grid li{font-weight:600;font-size:14px}.site-footer{background-color:var(--black-linear-gradient)}@media (min-width:766px){#header-global-wrapper ul.gb-menu li.menu-item a.gb-menu-link::before{content:'';position:absolute;width:0;height:2px;bottom:0;left:0;background-color:red;visibility:hidden;transition:all .3s ease-in-out}#header-global-wrapper ul.gb-menu li.menu-item a.gb-menu-link:hover::before{visibility:visible;width:100%}#header-global-wrapper ul.gb-menu li.menu-item a.gb-menu-link:hover{background:var(--color-blue);color:#fff;border-top-left-radius:4px;border-top-right-radius:4px}#header-global-wrapper ul.gb-menu li.menu-item-has-children.sfHover>a,#header-global-wrapper ul.gb-menu li.menu-item-has-children:hover>a{color:#fff!important;background:var(--color-blue);border-top-left-radius:4px;border-top-right-radius:4px}}#generate-slideout-menu.main-navigation ul ul.toggled-on{max-height:1000px;transition:max-height .3s ease-in-out}.gb-menu-container-0f3f17cd.gb-menu-container--mobile{background-image:var(--wpr-bg-3c6c4699-8f24-4eb9-b5d8-f179dbca0740);background-position:top center;background-size:cover;background-color:#222}.gb-submenu-toggle{margin-left:-10px}.gbp-mega-menu{box-shadow:rgba(0,0,0,.35) 0 5px 15px!important;padding:15px!important}.main-navigation:not(.is_stuck) .inside-navigation{position:initial}.gb-menu-link{color:red}.inner-content-row{max-width:1380px;width:100%;margin:auto;padding:20px}.footer-background{background-color:var(--color-blue);color:var(--color-white);padding-top:20px;padding-bottom:5px}.footer-background h3{color:#ccc;border-bottom:1px dashed #ccc}.footer-background a,.footer-background a:visited{color:var(--color-white);text-decoration:none}.full-width-row{margin-left:calc(-100vw / 2 + 50%);margin-right:calc(-100vw / 2 + 50%);max-width:100vw;width:auto}.row-top-border{border-top:1px solid #ccc}h1 span{color:var(--color-red);border-bottom:1px dashed #990016}.rowblock{padding:0;list-style:none;display:flex;align-items:stretch;flex-wrap:wrap;box-shadow:rgba(0,0,0,.05) 0 6px 24px 0,rgba(0,0,0,.08) 0 0 0 1px;margin-bottom:6px;background-color:#fff}.rowblock *{padding:0;margin:0;line-height:normal}.rowblock .col{padding:7px}.rowblock .col:first-child{width:150px;order:1;border-right:1px solid #f1f1f1;align-self:center}.rowblock .col:nth-child(2){flex-basis:calc(100% - 625px);order:2;border-right:1px solid #f1f1f1;align-self:center}.rowblock .col:nth-child(2) h3{margin-top:0;margin-bottom:4px;font-size:14px;font-weight:600;color:#001e54}.rowblock .col:nth-child(2) p{margin-top:0;margin-bottom:4px;font-size:14px}.rowblock .col:nth-child(3){width:110px;order:3;border-right:1px solid #f1f1f1;align-self:center}.rowblock p.bonus-offer{text-align:center;max-width:100px;margin:auto}.rowblock p.bonus-offer span{display:block}.rowblock p.bonus-offer span:first-child{font-weight:700;margin-bottom:3px}.rowblock p.bonus-offer span:nth-child(2){font-weight:700;border:2px dashed #63c850;padding:2px;margin-top:3px;background-color:rgba(99,200,80,.35)}.rowblock .col:nth-child(4){width:220px;order:4;border-right:1px solid #f1f1f1;align-self:center}.rowblock .col:nth-child(4) ul{list-style-type:none;margin:0;padding:0;font-size:14px!important}.rowblock .col:nth-child(4) ul li{margin-bottom:2px;padding-top:2px;line-height:1.2em;display:flex;align-items:center;gap:.4em}.rowblock .col:nth-child(4) ul li::before{content:"";display:inline-block;width:1em;height:1em;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Ccircle cx='256' cy='256' r='256' fill='%2300a651'/%3E%3Cpath d='M374 145.7c-10.7-7.8-25.7-5.4-33.5 5.3L221.1 315.2 169 263.1c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l72 72c5 5 11.8 7.5 18.8 7s13.4-4.1 17.5-9.8L379.3 179.2c7.8-10.7 5.4-25.7-5.3-33.5z' fill='%23ffffff'/%3E%3C/svg%3E") center/contain no-repeat}.rowblock .col:nth-child(5){order:5;width:145px;align-self:center}.rowblock p.sportsbooks-display-action a{display:flex;align-items:center;justify-content:center;gap:.5em;background-image:var(--green-linear-gradient);background-color:#18bb51;text-align:center;border:1px solid #ccc;width:130px;color:#fff;border:1px solid #ccc;border-radius:4px;padding:7px;font-size:16px!important;text-decoration:none;line-height:1}.rowblock p.sportsbooks-display-action a .btn-icon{display:flex;align-items:center;justify-content:center}.rowblock p.sportsbooks-display-action a .btn-icon svg{margin-top:-2px;width:25px;height:25px;display:block}.rowblock p.sportsbooks-display-action a i{margin-right:7px}.rowblock p.sportsbooks-display-logo{width:130px;min-width:130px;height:60px;background-color:#f1f1f1;border:1px solid #ccc;border-radius:4px;position:relative;margin:0 auto;display:flex;justify-content:center;align-items:center}.rowblock p.sportsbooks-display-logo a img{padding-left:13px;padding-right:13px;padding-top:3px}.rowblock p.sportsbooks-display-logo .rbon{display:block;position:absolute;left:var(--left,-18px);top:var(--top,12px);filter:drop-shadow(2px 3px 2px rgba(0, 0, 0, .5));background-image:linear-gradient(to right bottom,#051937,#061b3c,#071e40,#082045,#0a234a);padding:6px 2px 4px;text-align:center;font-weight:700;clip-path:polygon(0 0,100% 0,100% 100%,50% calc(100% - 6px),0 calc(100% - 12px));width:var(--width,26px);min-height:var(--height,37px);color:#fff!important;border-radius:5px;font-family:Cambria,"Hoefler Text","Liberation Serif",Times,"Times New Roman","serif"}.rowblock p.sportsbooks-display-logo .rbon.red{background-image:linear-gradient(to bottom,#ee1529,#e71222,#e00f1a,#d80c12,#d10909)}@media only screen and (max-width:1080px){.rowblock .col:nth-child(5){width:100%;border-top:1px solid #f1f1f1}.rowblock p.sportsbooks-display-action a{width:100%}.rowblock .col:nth-child(2){flex-basis:calc(100% - 485px)}.rowblock .col:nth-child(4){border-right:none}.rowblock p.sportsbooks-display-logo{margin-bottom:4px}.rowblock .col:first-child{padding-top:9px}.rowblock .col:first-child p.sportsbooks-display-logo{margin-top:4px}}@media only screen and (max-width:800px){.rowblock{margin-bottom:20px}.rowblock .col:first-child{width:50%;border-bottom:1px solid #f1f1f1}.rowblock .col:nth-child(2){flex-basis:calc(50%);padding:20px 20px 10px;order:3}.rowblock .col:nth-child(3){order:2;width:50%;border-right:none;border-bottom:1px solid #f1f1f1}.rowblock .col:nth-child(4){width:50%;padding:20px 20px 10px}}@media only screen and (max-width:580px){.rowblock .col:nth-child(2),.rowblock .col:nth-child(4){flex-basis:calc(100%);border-right:none;padding:20px 20px 0}.rowblock .col:nth-child(4) ul{margin-bottom:10px}}ul.list-grid{list-style:none;display:grid;grid-template-columns:repeat(1,1fr);gap:8px;margin-left:0;align-items:center}#header-global-wrapper ul.list-grid{margin-bottom:0}ul.list-grid li{padding:5px 10px;box-shadow:rgba(0,0,0,.05) 0 6px 24px 0,rgba(0,0,0,.08) 0 0 0 1px;border-radius:5px}ul.list-grid.list-grid-with-images li{line-height:25px}ul.list-grid li img,ul.list-grid li svg{width:25px;height:25px;float:left;border-radius:50%;margin-left:6px;margin-right:10px;max-height:25px;min-height:25px;box-shadow:var(--box-shadow)}ul.list-grid li svg{box-shadow:none}ul.list-grid li:hover{background-color:#f1f1f1}ul.list-grid li a{width:100%;text-decoration:none;display:inline-block;color:var(--color-blue)}ul.list-grid li a:hover{color:#990016}.content-box-bordered{-moz-box-shadow:var(--box-shadow);-webkit-box-shadow:var(--box-shadow);box-shadow:var(--box-shadow);border-radius:var(--border-radius);width:100%;padding:20px 20px 3px;margin-top:30px;margin-bottom:30px}.content-box-bordered.author-box{padding-top:4px;padding-bottom:4px;font-size:.9rem;display:grid;grid-template-columns:auto auto;align-items:center;margin-bottom:0}.content-box-bordered.author-box p{padding:0;margin:0}.content-box-bordered.author-box .author-info{display:grid;grid-template-columns:auto auto 1fr;align-items:center}.content-box-bordered.author-box .author-info img{max-width:100%;display:block;margin-left:5px;margin-right:5px}.content-box-bordered.author-box .author-date{display:grid;grid-template-columns:auto 1fr;align-items:center;column-gap:10px;justify-self:end}..content-box-bordered.author-box .author-date>p,.content-box-bordered.author-box .author-info>img,.content-box-bordered.author-box .author-info>p{display:flex;align-items:center}@media only screen and (max-width:600px){.content-box-bordered.author-box{display:grid;grid-template-columns:1fr}.content-box-bordered.author-box .author-date{margin-top:5px;justify-self:start}}[class*=icon-]::before{font-family:FontAwesome;padding-right:10px;vertical-align:middle}@media only screen and (max-width:1024px){.main-navigation .menu-toggle{display:block}.main-navigation ul{display:none}}@media (max-width:768px){.gb-overlay{width:100vw!important;left:0!important;margin-left:0!important}}table{border:none}.content-box-bordered.breadcrumb-box{padding-top:0;padding-bottom:0;font-size:.9rem;margin-bottom:2px;margin-top:10px;box-shadow:none}.rank-math-breadcrumb{margin-top:8px;font-size:13px}.rank-math-breadcrumb p{margin:0;padding:0}@font-face{font-display:swap;font-family:'Archivo Black';font-style:normal;font-weight:400;src:url(https://www.legalsportsbetting.com/wp-content/cache/fonts/1/google-fonts/fonts/s/archivoblack/v23/HTxqL289NzCGg4MzN6KJ7eW6CYyF_g.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}.gb-menu--base :where(.menu-item) .gb-menu-link{color:inherit}.gb-menu--base .gb-sub-menu{display:none;position:absolute}.gb-menu--base .gb-sub-menu .gb-sub-menu{font-size:inherit}.gb-menu--base .gb-submenu-toggle[aria-expanded=true]>.gb-submenu-toggle-icon,.gb-menu--base .menu-item>a[aria-expanded=true]>.gb-submenu-toggle-icon{transform:rotate(180deg)}.gb-menu--base.gb-menu .gb-sub-menu--open>.gb-sub-menu,.gb-menu--base.gb-menu--hover .menu-item:hover>.gb-sub-menu{display:block}.gb-menu--base .menu-item-has-gb-mega-menu .gb-sub-menu{display:none!important}.gb-menu--base.gb-menu--click .menu-item>a[aria-expanded=true]+.gb-sub-menu,.gb-menu--base.gb-menu--hover .menu-item>a[aria-expanded=true]+.gb-sub-menu{display:block}.gb-menu--base.gb-menu--click .menu-item>a[aria-expanded=true]+.gb-sub-menu .gb-sub-menu,.gb-menu--base.gb-menu--hover .menu-item>a[aria-expanded=true]+.gb-sub-menu .gb-sub-menu{position:relative;right:0}:where(.gb-navigation[data-gb-sub-menu-transition]) .gb-sub-menu{opacity:0;transition:opacity var(--sub-menu-transition-speed,.2s) ease,transform var(--sub-menu-transition-speed,.2s) ease,display var(--sub-menu-transition-speed,.2s) allow-discrete}:where(.gb-navigation[data-gb-sub-menu-transition])[data-gb-sub-menu-transition=fade] :where(.gb-sub-menu){transition:opacity var(--sub-menu-transition-speed,.2s) ease,display var(--sub-menu-transition-speed,.2s) allow-discrete}:where(.gb-navigation[data-gb-sub-menu-transition])[data-gb-sub-menu-transition=fade-slide-down] :where(.gb-sub-menu){transform:translateY(calc(var(--sub-menu-transition-distance,5px)*-1))}@starting-style{:where(.gb-navigation[data-gb-sub-menu-transition])[data-gb-sub-menu-transition=fade-slide-down] .gb-menu .gb-sub-menu--open>.gb-sub-menu,:where(.gb-navigation[data-gb-sub-menu-transition])[data-gb-sub-menu-transition=fade-slide-down] .gb-menu--hover .menu-item:hover>.gb-sub-menu{opacity:1;transform:translateY(calc(var(--sub-menu-transition-distance,5px)*-1))}:where(.gb-navigation[data-gb-sub-menu-transition])[data-gb-sub-menu-transition=fade-slide-up] .gb-menu .gb-sub-menu--open>.gb-sub-menu,:where(.gb-navigation[data-gb-sub-menu-transition])[data-gb-sub-menu-transition=fade-slide-up] .gb-menu--hover .menu-item:hover>.gb-sub-menu{opacity:1;transform:translateY(var(--sub-menu-transition-distance,5px))}}:where(.gb-navigation[data-gb-sub-menu-transition])[data-gb-sub-menu-transition=fade-slide-up] :where(.gb-sub-menu){transform:translateY(var(--sub-menu-transition-distance,5px))}:where(.gb-navigation[data-gb-sub-menu-transition])[data-gb-sub-menu-transition=fade-slide-left] :where(.gb-sub-menu){transform:translateX(var(--sub-menu-transition-distance,5px))}@starting-style{:where(.gb-navigation[data-gb-sub-menu-transition])[data-gb-sub-menu-transition=fade-slide-left] .gb-menu .gb-sub-menu--open>.gb-sub-menu,:where(.gb-navigation[data-gb-sub-menu-transition])[data-gb-sub-menu-transition=fade-slide-left] .gb-menu--hover .menu-item:hover>.gb-sub-menu{opacity:1;transform:translateX(var(--sub-menu-transition-distance,5px))}:where(.gb-navigation[data-gb-sub-menu-transition])[data-gb-sub-menu-transition=fade-slide-right] .gb-menu .gb-sub-menu--open>.gb-sub-menu,:where(.gb-navigation[data-gb-sub-menu-transition])[data-gb-sub-menu-transition=fade-slide-right] .gb-menu--hover .menu-item:hover>.gb-sub-menu{opacity:1;transform:translateX(calc(var(--sub-menu-transition-distance,5px)*-1))}}:where(.gb-navigation[data-gb-sub-menu-transition])[data-gb-sub-menu-transition=fade-slide-right] :where(.gb-sub-menu){transform:translateX(calc(var(--sub-menu-transition-distance,5px)*-1))}:where(.gb-navigation[data-gb-sub-menu-transition]) .gb-menu .gb-sub-menu--open>.gb-sub-menu,:where(.gb-navigation[data-gb-sub-menu-transition]) .gb-menu--hover .menu-item:hover>.gb-sub-menu{opacity:1;transform:translateX(0) translateY(0)}:where(.gb-navigation[data-gb-mobile-menu-type=full-overlay]) .gb-menu-container--mobile .gb-menu-toggle--clone{position:absolute;right:20px;top:20px;z-index:101}:where(.gb-navigation[data-gb-mobile-menu-type=full-overlay]) .gb-menu-container--mobile .gb-menu-toggle--clone+.gb-menu{margin-top:var(--gb-menu-toggle-offset,0)}:where(.gb-navigation[data-gb-mobile-menu-type=partial-overlay]) .gb-menu-container--mobile{top:var(--gb-menu-offset,0)}body[data-gb-menu-open=full-overlay] #wpadminbar{z-index:-1}.gb-menu-toggle{border:0;position:relative}.gb-menu-toggle>*{pointer-events:none}.gb-menu-toggle .gb-menu-open-icon{line-height:0}.gb-menu-toggle .gb-menu-close-icon{display:none;line-height:0}:where(.gb-navigation[data-gb-mobile-menu-transition]) .gb-menu-container--mobile{opacity:0;transition:opacity var(--mobile-transition-speed,.2s) ease,transform var(--mobile-transition-speed,.2s) ease,display var(--mobile-transition-speed,.2s) allow-discrete}:where(.gb-navigation[data-gb-mobile-menu-transition])[data-gb-mobile-menu-transition=fade] :where(.gb-menu-container--mobile){transition:opacity var(--mobile-transition-speed,.2s) ease,display var(--mobile-transition-speed,.2s) allow-discrete}:where(.gb-navigation[data-gb-mobile-menu-transition])[data-gb-mobile-menu-transition=fade-slide-left] :where(.gb-menu-container--mobile),:where(.gb-navigation[data-gb-mobile-menu-transition])[data-gb-mobile-menu-transition=slide-left] :where(.gb-menu-container--mobile){transform:translateX(100%)}@starting-style{:where(.gb-navigation[data-gb-sub-menu-transition]) .gb-menu .gb-sub-menu--open>.gb-sub-menu,:where(.gb-navigation[data-gb-sub-menu-transition]) .gb-menu--hover .menu-item:hover>.gb-sub-menu{opacity:0}:where(.gb-navigation[data-gb-mobile-menu-transition])[data-gb-mobile-menu-transition=fade-slide-left] .gb-menu-container--toggled,:where(.gb-navigation[data-gb-mobile-menu-transition])[data-gb-mobile-menu-transition=slide-left] .gb-menu-container--toggled{transform:translateX(100%)}:where(.gb-navigation[data-gb-mobile-menu-transition])[data-gb-mobile-menu-transition=fade-slide-right] .gb-menu-container--toggled,:where(.gb-navigation[data-gb-mobile-menu-transition])[data-gb-mobile-menu-transition=slide-right] .gb-menu-container--toggled{transform:translateX(-100%)}}:where(.gb-navigation[data-gb-mobile-menu-transition])[data-gb-mobile-menu-transition=fade-slide-right] :where(.gb-menu-container--mobile),:where(.gb-navigation[data-gb-mobile-menu-transition])[data-gb-mobile-menu-transition=slide-right] :where(.gb-menu-container--mobile){transform:translateX(-100%)}:where(.gb-navigation[data-gb-mobile-menu-transition])[data-gb-mobile-menu-transition=fade-slide-down] :where(.gb-menu-container--mobile),:where(.gb-navigation[data-gb-mobile-menu-transition])[data-gb-mobile-menu-transition=slide-down] :where(.gb-menu-container--mobile){transform:translateY(calc(-100% - var(--gb-menu-offset,0px)))}@starting-style{:where(.gb-navigation[data-gb-mobile-menu-transition])[data-gb-mobile-menu-transition=fade-slide-down] .gb-menu-container--toggled,:where(.gb-navigation[data-gb-mobile-menu-transition])[data-gb-mobile-menu-transition=slide-down] .gb-menu-container--toggled{transform:translateY(calc(-100% - var(--gb-menu-offset,0px)))}:where(.gb-navigation[data-gb-mobile-menu-transition])[data-gb-mobile-menu-transition=fade-slide-up] .gb-menu-container--toggled,:where(.gb-navigation[data-gb-mobile-menu-transition])[data-gb-mobile-menu-transition=slide-up] .gb-menu-container--toggled{transform:translateY(100%)}}:where(.gb-navigation[data-gb-mobile-menu-transition])[data-gb-mobile-menu-transition=fade-slide-up] :where(.gb-menu-container--mobile),:where(.gb-navigation[data-gb-mobile-menu-transition])[data-gb-mobile-menu-transition=slide-up] :where(.gb-menu-container--mobile){transform:translateY(100%)}:where(.gb-navigation[data-gb-mobile-menu-transition]) .gb-menu-container--toggled{opacity:1;transform:translateX(0) translateY(0)}@starting-style{:where(.gb-navigation[data-gb-mobile-menu-transition]) .gb-menu-container--toggled{opacity:0}:where(.gb-navigation[data-gb-mobile-menu-transition]):not([data-gb-mobile-menu-transition*=fade]) .gb-menu-container--toggled{opacity:1}}:where(.gb-navigation[data-gb-mobile-menu-transition]):not([data-gb-mobile-menu-transition*=fade]) :where(.gb-menu-container--mobile){opacity:1;transition:transform var(--mobile-transition-speed,.2s) ease,display var(--mobile-transition-speed,.2s) allow-discrete}:where(.gb-menu-container--mobile){inset:0;overflow-y:auto;top:0;width:100%;z-index:100}:where(.gb-menu-container--mobile) .gb-menu--base{width:100%}:where(.gb-menu-container--mobile) .gb-menu--base.gb-menu--hover .menu-item:where(:hover,:focus,:focus-within):not(.gb-sub-menu--open)>.gb-sub-menu{display:none}:where(.gb-menu-container--mobile) .gb-menu--base.gb-menu--hover .menu-item>a{flex-grow:1}:where(.gb-menu-container--mobile) .gb-menu--base .gb-sub-menu{position:relative;transition:none;width:100%}:where(.gb-menu-container--mobile) .gb-menu--base .gb-sub-menu .gb-sub-menu{right:auto}:where(.gb-menu-container--mobile) .gb-menu--base .gb-overlay{position:static!important}:where(.gb-menu-container--mobile) .gb-menu--base .gb-overlay .gb-overlay__content:before{display:none}.gb-menu-toggle:where(.gb-menu-toggle--toggled) .gb-menu-close-icon{display:block}.gb-menu-toggle:where(.gb-menu-toggle--toggled) .gb-menu-open-icon{display:none}body[data-gb-menu-open]{overflow:hidden}:where(.gb-submenu-toggle){align-items:center;align-self:stretch;display:flex;justify-content:center;line-height:0;width:25px}:where(.gb-menu-item:focus-within){position:relative;z-index:1}@media(hover:hover){:where(.gb-menu-container):not(.gb-menu-container--toggled) .gb-menu--hover .gb-submenu-toggle{pointer-events:none}}:root{--gb-container-width:1380px}@media (max-width:1024px){.gb-element-8dd043c2{display:block}}.gb-element-406e8e3d{padding-bottom:0;padding-top:0}.gb-element-4d3b6be1{background-color:var(--base-3);display:grid;grid-template-columns:1fr;max-width:var(--gb-container-width)}.gb-site-header-2c02aa47.gb-is-sticky{box-shadow:1px 1px 5px rgba(0,0,0,.1)}@media (max-width:1024px){.gb-element-4d3b6be1{grid-template-columns:repeat(3,minmax(240px,1fr))}.gb-site-header-2c02aa47{margin-bottom:0;padding:10px}}.gb-navigation-87340de8{align-items:center;column-gap:1rem;display:flex}@media (max-width:767px){.gb-element-4d3b6be1{grid-template-columns:1fr}.gb-site-header-2c02aa47{padding-left:20px;padding-right:20px}.gb-navigation-87340de8{justify-content:space-between;max-width:var(--gb-container-width)}}@media (width > 768px){.gb-navigation-87340de8 .gb-menu-toggle{display:none}}@media (max-width:768px){.gb-navigation-87340de8 .gb-menu-container:not(.gb-menu-container--toggled){display:none}}.gb-menu-toggle-563176a0{align-items:center;color:#fff;column-gap:5px;display:flex;z-index:2;padding:10px}.gb-menu-toggle-563176a0 svg{width:25px;height:25px;fill:currentColor}.gb-menu-container-0f3f17cd{align-items:center;display:flex;flex-grow:1;justify-content:flex-end}.gb-menu-container-0f3f17cd.gb-menu-container--mobile{background-color:#000;color:#fff;padding-bottom:60px;position:fixed;display:flex;justify-content:flex-start;align-items:flex-start;flex-direction:column;row-gap:2rem}.gb-menu-container-0f3f17cd.gb-menu-container--mobile .gb-menu{flex-direction:column;width:100%;flex-grow:unset}.gb-menu-ec4b4d09{display:flex;flex-grow:1;flex-wrap:wrap;justify-content:center;list-style-type:none;margin:0;padding:0}.gb-menu-item-mi4b4d09{list-style-type:none;position:relative;margin:0;padding:0}.gb-menu-item-mi4b4d09 .gb-menu-link{display:flex;justify-content:space-between;align-items:center;text-decoration:none;column-gap:10px;padding:1em 20px}.main-navigation.offside{position:fixed;width:var(--gp-slideout-width);height:100%;height:100vh;top:0;z-index:9999;overflow:auto;-webkit-overflow-scrolling:touch}.offside{left:calc(var(--gp-slideout-width) * -1)}.offside--right{left:auto;right:calc(var(--gp-slideout-width) * -1)}.offside--left.is-open:not(.slideout-transition){transform:translate3d(var(--gp-slideout-width),0,0)}.offside--right.is-open:not(.slideout-transition){transform:translate3d(calc(var(--gp-slideout-width) * -1),0,0)}.offside-js--interact .offside{transition:transform .2s cubic-bezier(.16,.68,.43,.99);-webkit-backface-visibility:hidden;-webkit-perspective:1000}.offside-js--init{overflow-x:hidden}.slideout-navigation.main-navigation:not(.is-open):not(.slideout-transition){display:none}.slideout-navigation.main-navigation:not(.slideout-transition).do-overlay{opacity:1}.slideout-navigation.main-navigation.slideout-transition.do-overlay{opacity:0}.slideout-overlay{z-index:100000;position:fixed;width:100%;height:100%;height:100vh;min-height:100%;top:0;right:0;bottom:0;left:0;background-color:rgba(0,0,0,.8);visibility:hidden;opacity:0;cursor:pointer;transition:visibility .2s ease,opacity .2s ease}.offside-js--is-open .slideout-overlay{visibility:visible;opacity:1}.slideout-overlay button.slideout-exit{position:fixed;top:0;background-color:transparent;color:#fff;font-size:30px;border:0;opacity:0}.slide-opened .slideout-overlay button.slideout-exit{opacity:1}button.slideout-exit:hover{background-color:transparent}.slideout-navigation button.slideout-exit{background:0 0;width:100%;text-align:left;padding-top:20px;padding-bottom:20px;box-sizing:border-box;border:0}.slide-opened nav.toggled .menu-toggle:before{content:"\f0c9"}.offside-js--is-left.slide-opened .slideout-overlay button.slideout-exit{left:calc(var(--gp-slideout-width) - 5px)}.offside-js--is-right.slide-opened .slideout-overlay button.slideout-exit{right:calc(var(--gp-slideout-width) - 5px)}.slideout-widget{margin:20px}.slideout-navigation .main-nav,.slideout-navigation .slideout-widget:not(:last-child){margin-bottom:40px}.slideout-navigation:not(.do-overlay) .main-nav{width:100%;box-sizing:border-box}.slideout-navigation .mega-menu>ul>li{display:block;width:100%!important}.slideout-navigation .slideout-menu{display:block}#generate-slideout-menu{z-index:100001}#generate-slideout-menu .slideout-menu li{float:none;width:100%;clear:both;text-align:left}.slideout-navigation .slideout-widget li{float:none}#generate-slideout-menu.do-overlay li{text-align:center}#generate-slideout-menu.main-navigation ul ul{display:none}#generate-slideout-menu.main-navigation ul ul.toggled-on{display:block!important}#generate-slideout-menu .slideout-menu li.sfHover>ul,#generate-slideout-menu .slideout-menu li:hover>ul{display:none}#generate-slideout-menu.main-navigation .main-nav ul ul{position:relative;top:0;left:0;width:100%}.slideout-toggle:not(.has-svg-icon) a:before{content:"\f0c9";font-family:'GP Premium';line-height:1em;width:1.28571429em;text-align:center;display:inline-block;position:relative;top:1px}.slide-opened .slideout-exit:not(.has-svg-icon):before,.slideout-navigation button.slideout-exit:not(.has-svg-icon):before{content:"\f00d";font-family:'GP Premium';line-height:1em;width:1.28571429em;text-align:center;display:inline-block}#generate-slideout-menu li.menu-item-float-right{float:none!important;display:inline-block;width:auto}.rtl .slideout-navigation{position:fixed}.slideout-navigation .menu-item-has-children .dropdown-menu-toggle{float:right}.slideout-navigation .slideout-widget .menu li{float:none}.slideout-navigation .slideout-widget ul{display:block}.slideout-navigation.do-overlay{transform:none!important;transition:opacity .2s,visibility .2s;width:100%;text-align:center;left:0;right:0}.slideout-navigation.do-overlay .inside-navigation{display:flex;flex-direction:column;padding:10% 10% 0;max-width:700px}.slideout-navigation.do-overlay .inside-navigation .main-nav,.slideout-navigation.do-overlay .inside-navigation .slideout-widget{margin-left:auto;margin-right:auto;min-width:250px}.slideout-navigation.do-overlay .slideout-exit{position:fixed;right:0;top:0;width:auto;font-size:25px}.slideout-navigation.do-overlay .slideout-menu li a{display:inline-block}.slideout-navigation.do-overlay .slideout-menu li{margin-bottom:5px}#generate-slideout-menu.do-overlay .slideout-menu li,.slideout-navigation.do-overlay .inside-navigation{text-align:center}.slideout-navigation.do-overlay .menu-item-has-children .dropdown-menu-toggle{border-left:1px solid rgba(0,0,0,.07);padding:0 10px;margin:0 0 0 10px}.slideout-navigation.do-overlay ul ul{box-shadow:0 0 0}.nav-aligned-center .slideout-navigation,.nav-aligned-right .slideout-navigation{text-align:left}.slideout-navigation .sfHover>a>.dropdown-menu-toggle>.gp-icon svg{transform:rotate(180deg)}.slideout-navigation .sub-menu .dropdown-menu-toggle .gp-icon svg{transform:rotate(0)}.slideout-both .main-navigation.toggled .main-nav>ul,.slideout-desktop .main-navigation.toggled .main-nav li.slideout-toggle,.slideout-mobile .main-navigation.toggled .main-nav>ul{display:none!important}.slideout-both .has-inline-mobile-toggle #site-navigation.toggled,.slideout-mobile .has-inline-mobile-toggle #site-navigation.toggled{margin-top:0}.sf-menu>li.slideout-toggle{float:right}.gen-sidebar-nav .sf-menu>li.slideout-toggle{float:none}@media (max-width:768px){.slideout-overlay button.slideout-exit{font-size:20px;padding:10px}.slideout-overlay{top:-100px;height:calc(100% + 100px);height:calc(100vh + 100px);min-height:calc(100% + 100px)}.slideout-navigation.do-overlay .slideout-exit{position:static;text-align:center}}:root{--gp-slideout-width:265px}.slideout-navigation.main-navigation{background-color:#592335}.slideout-navigation,.slideout-navigation a{color:var(--contrast)}.slideout-navigation button.slideout-exit{color:var(--contrast);padding-left:20px;padding-right:20px}.slide-opened nav.toggled .menu-toggle:before{display:none}@media (max-width:890px){.menu-bar-item.slideout-toggle{display:none}}:where(.lsb-page .is-layout-flow)>*{margin-block-start:0;margin-block-end:0}.wp-container-core-columns-is-layout-8f761849{flex-wrap:nowrap}</style><link rel="preload" data-rocket-preload as="image" href="https://www.legalsportsbetting.com/wp-content/uploads/2025/12/lsb-logo-2026.png" fetchpriority="high">
+<meta name="description" content="Find info about what LegalSportsBetting.com does, our sports betting resource guide goal. Read who we are and what we do with the legal sports betting industry."/>
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://www.legalsportsbetting.com/about/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Learn About the Team at Legal Sports Betting and Our Goals" />
+<meta property="og:description" content="Find info about what LegalSportsBetting.com does, our sports betting resource guide goal. Read who we are and what we do with the legal sports betting industry." />
+<meta property="og:url" content="https://www.legalsportsbetting.com/about/" />
+<meta property="og:site_name" content="LegalSportsBetting.com" />
+<meta property="og:updated_time" content="2026-05-13T16:37:07-04:00" />
+<meta property="og:image" content="https://www.legalsportsbetting.com/wp-content/uploads/trm-og/6091-ade0d072de3c.png" />
+<meta property="og:image:secure_url" content="https://www.legalsportsbetting.com/wp-content/uploads/trm-og/6091-ade0d072de3c.png" />
+<meta property="og:image:alt" content="Learn About the Team at Legal Sports Betting and Our Goals" />
+<meta property="article:published_time" content="2019-04-25T09:04:51-04:00" />
+<meta property="article:modified_time" content="2026-05-13T16:37:07-04:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Learn About the Team at Legal Sports Betting and Our Goals" />
+<meta name="twitter:description" content="Find info about what LegalSportsBetting.com does, our sports betting resource guide goal. Read who we are and what we do with the legal sports betting industry." />
+<meta name="twitter:site" content="@legalsportsbet" />
+<meta name="twitter:creator" content="@legalsportsbet" />
+<meta name="twitter:image" content="https://www.legalsportsbetting.com/wp-content/uploads/trm-og/6091-ade0d072de3c.png" />
+<meta name="twitter:label1" content="Time to read" />
+<meta name="twitter:data1" content="3 minutes" />
+<script type="application/ld+json" class="rank-math-schema-pro">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.legalsportsbetting.com/#organization","name":"LegalSportsBetting.com","sameAs":["https://twitter.com/legalsportsbet"],"logo":{"@type":"ImageObject","@id":"https://www.legalsportsbetting.com/#logo","url":"https://www.legalsportsbetting.com/wp-content/uploads/2026/06/LSB.png","contentUrl":"https://www.legalsportsbetting.com/wp-content/uploads/2026/06/LSB.png","caption":"LegalSportsBetting.com","inLanguage":"en-US","width":"512","height":"512"}},{"@type":"WebSite","@id":"https://www.legalsportsbetting.com/#website","url":"https://www.legalsportsbetting.com","name":"LegalSportsBetting.com","publisher":{"@id":"https://www.legalsportsbetting.com/#organization"},"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://www.legalsportsbetting.com/wp-content/uploads/trm-og/6091-ade0d072de3c.png","url":"https://www.legalsportsbetting.com/wp-content/uploads/trm-og/6091-ade0d072de3c.png","contentUrl":"https://www.legalsportsbetting.com/wp-content/uploads/trm-og/6091-ade0d072de3c.png","width":"1200","height":"630"},{"@type":"BreadcrumbList","@id":"https://www.legalsportsbetting.com/about/#breadcrumb","itemListElement":[{"@type":"ListItem","position":"1","item":{"@id":"https://www.legalsportsbetting.com","name":"Home"}},{"@type":"ListItem","position":"2","item":{"@id":"https://www.legalsportsbetting.com/about/","name":"About"}}]},{"@type":"WebPage","@id":"https://www.legalsportsbetting.com/about/#webpage","url":"https://www.legalsportsbetting.com/about/","name":"Learn About the Team at Legal Sports Betting and Our Goals","datePublished":"2019-04-25T09:04:51-04:00","dateModified":"2026-05-13T16:37:07-04:00","isPartOf":{"@id":"https://www.legalsportsbetting.com/#website"},"primaryImageOfPage":{"@id":"https://www.legalsportsbetting.com/wp-content/uploads/trm-og/6091-ade0d072de3c.png"},"inLanguage":"en-US","breadcrumb":{"@id":"https://www.legalsportsbetting.com/about/#breadcrumb"}},{"@type":"Person","@id":"https://www.legalsportsbetting.com/author/ben/","name":"Ben Fiore","description":"Ben Fiore has been writing about and researching the expansion of legal sports betting since 2022 and has become an expert in the field. Whether following the legal process of sports betting in a specific state, tracking a state\u2019s venue, or reviewing the top online sportsbooks, Ben has seen it all. Ben graduated from Florida State University with a degree in Editing, Writing, and Media, and can be found betting on his Noles during any free time.","url":"https://www.legalsportsbetting.com/author/ben/","image":{"@type":"ImageObject","@id":"https://www.legalsportsbetting.com/wp-content/uploads/2022/02/ben2-150x150.jpg","url":"https://www.legalsportsbetting.com/wp-content/uploads/2022/02/ben2-150x150.jpg","caption":"Ben Fiore","inLanguage":"en-US"},"worksFor":{"@id":"https://www.legalsportsbetting.com/#organization"}}]}</script>
+<!-- /Rank Math WordPress SEO plugin -->
+
+<link rel='dns-prefetch' href='//www.statcounter.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+
+<link rel="alternate" type="application/rss+xml" title="LegalSportsBetting.com &raquo; Feed" href="https://www.legalsportsbetting.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="LegalSportsBetting.com &raquo; Comments Feed" href="https://www.legalsportsbetting.com/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.legalsportsbetting.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.legalsportsbetting.com%2Fabout%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.legalsportsbetting.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.legalsportsbetting.com%2Fabout%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css"></style>
+
+<style id="wp-block-list-inline-css"></style>
+<style id="wp-emoji-styles-inline-css"></style>
+<style id="wp-block-library-inline-css"></style>
+<style id="wp-block-heading-inline-css"></style>
+<style id="wp-block-image-inline-css"></style>
+<style id="wp-block-paragraph-inline-css"></style>
+<style id="wp-block-site-logo-inline-css"></style>
+<style id="wp-block-columns-inline-css"></style>
+
+<style id="classic-theme-styles-inline-css"></style>
+
+<style id="global-styles-inline-css"></style>
+
+
+
+
+<style id="generate-style-inline-css"></style>
+
+
+
+
+<style id="generateblocks-inline-css"></style>
+
+
+<style id="generate-offside-inline-css"></style>
+
+<script type="text/rocketlazyloadscript" id="jquery-core-js" data-rocket-src="https://www.legalsportsbetting.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" data-rocket-defer defer></script>
+<link rel="https://api.w.org/" href="https://www.legalsportsbetting.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.legalsportsbetting.com/wp-json/wp/v2/pages/6091" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.legalsportsbetting.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.1.4" />
+<link rel='shortlink' href='https://www.legalsportsbetting.com/?p=6091' />
+<meta name="generator" content="easy-author-avatar-image 1.5.1">
+<link rel="icon" href="https://www.legalsportsbetting.com/wp-content/uploads/2023/03/favicon2-150x150.png" sizes="32x32" />
+<link rel="icon" href="https://www.legalsportsbetting.com/wp-content/uploads/2023/03/favicon2.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.legalsportsbetting.com/wp-content/uploads/2023/03/favicon2.png" />
+<meta name="msapplication-TileImage" content="https://www.legalsportsbetting.com/wp-content/uploads/2023/03/favicon2.png" />
+<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript><style id="core-block-supports-inline-css">
+.wp-container-core-columns-is-layout-8f761849{flex-wrap:nowrap;}
+/*# sourceURL=core-block-supports-inline-css */
+</style>
+
+<style id="wpr-lazyload-bg-container"></style><style id="wpr-lazyload-bg-exclusion"></style>
+<noscript>
+<style id="wpr-lazyload-bg-nostyle">.gb-menu-container-0f3f17cd.gb-menu-container--mobile{--wpr-bg-3c6c4699-8f24-4eb9-b5d8-f179dbca0740: url('https://www.legalsportsbetting.com/wp-content/uploads/2026/02/black-banner-background.jpg');}</style>
+</noscript>
+<script type="application/javascript">const rocket_pairs = [{"selector":".gb-menu-container-0f3f17cd.gb-menu-container--mobile","style":".gb-menu-container-0f3f17cd.gb-menu-container--mobile{--wpr-bg-3c6c4699-8f24-4eb9-b5d8-f179dbca0740: url('https:\/\/www.legalsportsbetting.com\/wp-content\/uploads\/2026\/02\/black-banner-background.jpg');}","hash":"3c6c4699-8f24-4eb9-b5d8-f179dbca0740","url":"https:\/\/www.legalsportsbetting.com\/wp-content\/uploads\/2026\/02\/black-banner-background.jpg"}]; const rocket_excluded_pairs = [];</script><meta name="generator" content="WP Rocket 3.24" data-wpr-features="wpr_lazyload_css_bg_img wpr_remove_unused_css wpr_delay_js wpr_defer_js wpr_minify_js wpr_lazyload_images wpr_lazyload_iframes wpr_preconnect_external_domains wpr_auto_preload_fonts wpr_oci wpr_minify_css wpr_cdn wpr_preload_links wpr_host_fonts_locally wpr_desktop" /></head>
+
+<body class="wp-singular page-template-default page page-id-6091 wp-custom-logo wp-embed-responsive wp-theme-generatepress wp-child-theme-generatepress_child post-image-aligned-center slideout-enabled slideout-mobile sticky-menu-fade sticky-enabled desktop-sticky-menu no-sidebar nav-float-right separate-containers header-aligned-left dropdown-click dropdown-click-menu-item contained-content" itemtype="https://schema.org/WebPage" itemscope>
+	<a class="screen-reader-text skip-link" href="#content" title="Skip to content">Skip to content</a>
+<div class="header-global-wrapper-dark" id="header-global-wrapper">
+<header class="gb-site-header gb-site-header-2c02aa47" id="header-global-inside" data-gb-sticky-header-type="always" data-gb-is-sticky="">
+<nav class="gb-navigation gb-navigation-87340de8" data-gb-mobile-breakpoint="768px" data-gb-mobile-menu-type="partial-overlay" data-gb-sub-menu-transition="fade-slide-right" data-gb-mobile-menu-transition="fade-slide-right" data-gb-overlay-close="">
+<div class="gb-element-8dd043c2"><div class="site-logo wp-block-site-logo"><a href="https://www.legalsportsbetting.com/" class="custom-logo-link" rel="home"><img fetchpriority="high" width="205" height="57" src="https://www.legalsportsbetting.com/wp-content/uploads/2025/12/lsb-logo-2026.png" class="custom-logo" alt="LegalSportsBetting.com" decoding="async" /></a></div></div>
+
+
+
+<button class="gb-menu-toggle gb-menu-toggle-563176a0" aria-label="Menu"><span class="gb-menu-open-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><line x1="40" y1="128" x2="216" y2="128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"></line><line x1="40" y1="64" x2="216" y2="64" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"></line><line x1="40" y1="192" x2="216" y2="192" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"></line></svg></span><span class="gb-menu-close-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><line x1="200" y1="56" x2="56" y2="200" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line><line x1="200" y1="200" x2="56" y2="56" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line></svg></span></button>
+
+
+
+<div class="gb-menu-container gb-menu-container-0f3f17cd">
+
+
+
+<ul id="menu-2026-main-header-menu" class="gb-menu gb-menu--base gb-menu-ec4b4d09 gb-menu--hover"><li id="menu-item-110661" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-110661 gb-menu-item gb-menu-item-mi4b4d09"><a href="https://www.legalsportsbetting.com/legal-sports-betting-age-by-state/" class="gb-menu-link">Age</a></li>
+<li id="menu-item-110662" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-110662 menu-item-has-gb-mega-menu menu-item-has-children gb-menu-item gb-menu-item-mi4b4d09"><a href="#" class="gb-menu-link" data-gb-overlay="gb-overlay-110676" data-gb-overlay-trigger-type="hover" aria-controls="gb-overlay-110676" aria-haspopup="menu">Banking<span class="gb-submenu-toggle" aria-label="Banking Sub-Menu" role="button" aria-expanded="false" aria-haspopup="menu" tabindex="0" data-gb-overlay="gb-overlay-110676" data-gb-overlay-trigger-type="click" aria-controls="gb-overlay-110676"><svg class="gb-submenu-toggle-icon" viewBox="0 0 330 512" aria-hidden="true" width="1em" height="1em" fill="currentColor"><path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z"></path></svg></span></a>
+<div
+	id="gb-overlay-110676"
+	class="gb-overlay gb-overlay--anchored"
+    data-gb-overlay data-gb-overlay-type="anchored" data-gb-overlay-trigger-type="click" data-gb-overlay-placement="bottom" data-gb-overlay-position-to-parent="gb-site-header" data-gb-overlay-animation-in="fadeInUp" data-gb-overlay-animation-out="fadeOutDown" data-gb-overlay-hover-buffer="20" aria-hidden="true">
+	
+	<div class="gb-overlay__content">
+        
+<div class="gbp-mega-menu gb-element-4d3b6be1">
+<div class="gbp-mega-menu__column">
+<ul class="wp-block-list list-grid list-grid-with-images">
+<li><a id="trmdata-banking-menu-bonuses" href="/sportsbook-bonuses/" alt="Sportsbook Bonuses" title="Sportsbook Bonuses"><svg class="trm-svg-icon trm-svg-icon--circle-dollar" width="25" height="25" fill="currentColor" viewBox="0 0 640 640" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><use href="#trm-icon-circle-dollar"></use></svg> Sportsbook Bonuses</a></li>
+
+
+
+<li><a id="trmdata-banking-menu-dm" href="/sportsbook-deposit-methods/" alt="Sportsbook Deposit Methods" title="Sportsbook Deposit Methods"><svg class="trm-svg-icon trm-svg-icon--dollar-deposit" width="25" height="25" fill="currentColor" viewBox="0 0 640 640" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><use href="#trm-icon-dollar-deposit"></use></svg> Sportsbook Deposit Methods</a></li>
+
+
+
+<li><a id="trmdata-banking-menu-wd" href="/fastest-sportsbook-payouts/" alt="Sportsbook Withdrawals" title="Sportsbook Withdrawals Methods"><svg class="trm-svg-icon trm-svg-icon--dollar-withdrawal" width="25" height="25" fill="currentColor" viewBox="0 0 640 640" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><use href="#trm-icon-dollar-withdrawal"></use></svg> Sportsbook Withdrawals</a></li>
+
+
+
+<li><a id="trmdata-banking-menu-wd" href="/credit-cards/" alt="Credit Card Sportsbooks" title="Credit Card Sportsbooks"><svg class="trm-svg-icon trm-svg-icon--credit-card" width="25" height="25" fill="currentColor" viewBox="0 0 640 640" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><use href="#trm-icon-credit-card"></use></svg> Credit Card Sportsbooks</a></li>
+
+
+
+<li><a id="trmdata-banking-menu-wd" href="/cryptocurrency/" alt="Crypto Sports Betting" title="Crypto Sports Betting"><svg class="trm-svg-icon trm-svg-icon--bitcoin" width="25" height="25" fill="currentColor" viewBox="0 0 640 640" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><use href="#trm-icon-bitcoin"></use></svg> Crypto Sports Betting</a></li>
+</ul>
+</div>
+</div>
+	</div>
+</div>
+</li>
+<li id="menu-item-110663" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-110663 menu-item-has-gb-mega-menu menu-item-has-children gb-menu-item gb-menu-item-mi4b4d09"><a href="#" class="gb-menu-link" data-gb-overlay="gb-overlay-110674" data-gb-overlay-trigger-type="hover" aria-controls="gb-overlay-110674" aria-haspopup="menu">States<span class="gb-submenu-toggle" aria-label="States Sub-Menu" role="button" aria-expanded="false" aria-haspopup="menu" tabindex="0" data-gb-overlay="gb-overlay-110674" data-gb-overlay-trigger-type="click" aria-controls="gb-overlay-110674"><svg class="gb-submenu-toggle-icon" viewBox="0 0 330 512" aria-hidden="true" width="1em" height="1em" fill="currentColor"><path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z"></path></svg></span></a>
+<div
+	id="gb-overlay-110674"
+	class="gb-overlay gb-overlay--anchored"
+    data-gb-overlay data-gb-overlay-type="anchored" data-gb-overlay-trigger-type="click" data-gb-overlay-placement="bottom" data-gb-overlay-position-to-parent="gb-site-header" data-gb-overlay-animation-in="fadeInUp" data-gb-overlay-animation-out="fadeOutDown" data-gb-overlay-hover-buffer="20" aria-hidden="true">
+	
+	<div class="gb-overlay__content">
+        
+<div class="gbp-mega-menu gb-element-4d3b6be1">
+<div class="gbp-mega-menu__column">
+<ul class="wp-block-list list-grid list-grid-with-images">
+<li><a id="trmdata-list-grid-florida" href="/florida/" alt="Sports Betting In Florida" title="Sports Betting In Florida"><img fetchpriority="high" loading="eager" decoding="async" src="/wp-content/uploads/2019/01/florida-seal.png" alt="Legality Of Sports Betting In Florida" width="30" height="30"> Sports Betting In Florida</a></li>
+
+
+
+<li><a id="trmdata-list-grid-california" href="/california/" alt="Sports Betting In California" title="Sports Betting In California"><img fetchpriority="high" loading="eager" decoding="async" src="/wp-content/uploads/2019/01/california.png" alt="Legality Of Sports Betting In California" width="30" height="30"> California</a></li>
+
+
+
+<li><a id="trmdata-list-grid-texas" href="/texas/" alt="Sports Betting In Texas" title="Sports Betting In Texas"><img fetchpriority="high" loading="eager" decoding="async" src="/wp-content/uploads/2019/01/texas-seal.png" alt="Legality Of Sports Betting In Texas" width="30" height="30"> Texas</a></li>
+
+
+
+<li><a id="trmdata-list-grid-south-carolina" href="/south-carolina/" alt="Sports Betting In South Carolina" title="Sports Betting In South Carolina"><img fetchpriority="high" loading="eager" decoding="async" src="/wp-content/uploads/2019/01/south-carolina-seal.png" alt="Legality Of Sports Betting In Carolina" width="30" height="30"> South Carolina</a></li>
+
+
+
+<li><a title="Sports Betting In Australia" href="/states-with-legal-sports-betting/"><svg class="trm-svg-icon trm-svg-icon--grid" width="25" height="25" fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><use href="#trm-icon-grid"></use></svg> All States with Legal Betting</a></li>
+</ul>
+</div>
+</div>
+	</div>
+</div>
+</li>
+<li id="menu-item-110664" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-110664 menu-item-has-gb-mega-menu menu-item-has-children gb-menu-item gb-menu-item-mi4b4d09"><a href="#" class="gb-menu-link" data-gb-overlay="gb-overlay-110121" data-gb-overlay-trigger-type="hover" aria-controls="gb-overlay-110121" aria-haspopup="menu">Countries<span class="gb-submenu-toggle" aria-label="Countries Sub-Menu" role="button" aria-expanded="false" aria-haspopup="menu" tabindex="0" data-gb-overlay="gb-overlay-110121" data-gb-overlay-trigger-type="click" aria-controls="gb-overlay-110121"><svg class="gb-submenu-toggle-icon" viewBox="0 0 330 512" aria-hidden="true" width="1em" height="1em" fill="currentColor"><path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z"></path></svg></span></a>
+<div
+	id="gb-overlay-110121"
+	class="gb-overlay gb-overlay--anchored"
+    data-gb-overlay data-gb-overlay-type="anchored" data-gb-overlay-trigger-type="click" data-gb-overlay-placement="bottom" data-gb-overlay-position-to-parent="gb-site-header" data-gb-overlay-animation-in="fadeInUp" data-gb-overlay-animation-out="fadeOutDown" data-gb-overlay-hover-buffer="20" aria-hidden="true">
+	
+	<div class="gb-overlay__content">
+        
+<div class="gbp-mega-menu gb-element-4d3b6be1">
+<div class="gbp-mega-menu__column">
+<ul class="wp-block-list list-grid list-grid-with-images">
+<li><a title="Sports Betting In Mexico" href="/countries/mexico"><img fetchpriority="high" loading="eager" decoding="async" src="/wp-content/uploads/2019/09/Mexico-flag-150x150.jpg" alt="Legal Sports Betting In Mexico" width="30" height="30">Sports Betting In Mexico</a></li>
+
+
+
+<li><a title="Sports Betting In China" href="/countries/china"><img fetchpriority="high" loading="eager" decoding="async" src="/wp-content/uploads/2019/09/China-flag-150x150.jpg" alt="Legal Sports Betting In China" width="30" height="30">Sports Betting In China</a></li>
+
+
+
+<li><a title="Sports Betting In Brazil" href="/countries/brazil"><img fetchpriority="high" loading="eager" decoding="async" src="/wp-content/uploads/2019/09/Brazil-flag-150x150.jpg" alt="Legal Sports Betting In Brazil" width="30" height="30">Sports Betting In Brazil</a></li>
+
+
+
+<li><a title="Sports Betting In The Virgin Islands" href="/countries/us-virgin-islands"><img fetchpriority="high" loading="eager" decoding="async" src="/wp-content/uploads/2026/01/Seal_of_the_United_States_Virgin_Islands.svg_.png" alt="Legal Sports Betting In The Virgin Islands" width="30" height="30">Betting In The Virgin Islands</a></li>
+
+
+
+<li><a title="Sports Betting In Australia" href="/countries"><svg class="trm-svg-icon trm-svg-icon--grid" width="25" height="25" fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><use href="#trm-icon-grid"></use></svg> Countries with Legal Sports Betting</a></li>
+</ul>
+</div>
+</div>
+	</div>
+</div>
+</li>
+<li id="menu-item-110665" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-110665 menu-item-has-gb-mega-menu menu-item-has-children gb-menu-item gb-menu-item-mi4b4d09"><a href="#" class="gb-menu-link" data-gb-overlay="gb-overlay-110335" data-gb-overlay-trigger-type="hover" aria-controls="gb-overlay-110335" aria-haspopup="menu">Markets<span class="gb-submenu-toggle" aria-label="Markets Sub-Menu" role="button" aria-expanded="false" aria-haspopup="menu" tabindex="0" data-gb-overlay="gb-overlay-110335" data-gb-overlay-trigger-type="click" aria-controls="gb-overlay-110335"><svg class="gb-submenu-toggle-icon" viewBox="0 0 330 512" aria-hidden="true" width="1em" height="1em" fill="currentColor"><path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z"></path></svg></span></a>
+<div
+	id="gb-overlay-110335"
+	class="gb-overlay gb-overlay--anchored"
+    data-gb-overlay data-gb-overlay-type="anchored" data-gb-overlay-trigger-type="click" data-gb-overlay-placement="bottom" data-gb-overlay-position-to-parent="gb-site-header" data-gb-overlay-animation-in="fadeInUp" data-gb-overlay-animation-out="fadeOutDown" data-gb-overlay-hover-buffer="20" aria-hidden="true">
+	
+	<div class="gb-overlay__content">
+        
+<div class="gbp-mega-menu gb-element-4d3b6be1">
+<div class="gbp-mega-menu__column">
+<ul class="wp-block-list list-grid list-grid-with-images">
+<li><a id="trmdata-markets-menu-nfl" href="/nfl/" alt="NFL Sports Betting" title="NFL Sports Betting"><svg class="trm-svg-icon trm-svg-icon--football" width="25" height="25" fill="currentColor" viewBox="0 0 640 640" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><use href="#trm-icon-football"></use></svg> NFL Sports Betting</a></li>
+
+
+
+<li><a id="trmdata-markets-menu-ncaab" href="/college-basketball/" alt="College Basketball Sports Betting" title="College Basketball Sports Betting"><svg class="trm-svg-icon trm-svg-icon--basketball" width="25" height="25" fill="currentColor" viewBox="0 0 640 640" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><use href="#trm-icon-basketball"></use></svg> NCAA College Basketball</a></li>
+
+
+
+<li><a id="trmdata-markets-menu-mlb" href="/mlb/" alt="MLB Sports Betting" title="MLB Sports Betting"><svg class="trm-svg-icon trm-svg-icon--baseball" width="25" height="25" fill="currentColor" viewBox="0 0 640 640" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><use href="#trm-icon-baseball"></use></svg> MLB </a></li>
+
+
+
+<li><a id="trmdata-markets-menu-cfl" href="/college-football/" alt="College Football Sports Betting" title="College Football Sports Betting"><svg class="trm-svg-icon trm-svg-icon--football" width="25" height="25" fill="currentColor" viewBox="0 0 640 640" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><use href="#trm-icon-football"></use></svg> College Football</a></li>
+
+
+
+<li><a id="trmdata-markets-menu-nhl" href="/nhl/" alt="NHL Sports Betting" title="NHL Sports Betting"><svg class="trm-svg-icon trm-svg-icon--hockey" width="25" height="25" fill="currentColor" viewBox="0 0 640 640" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><use href="#trm-icon-hockey"></use></svg> NHL</a></li>
+
+
+
+<li><a id="trmdata-markets-menu-horses" href="/horses/" alt="Horse Betting" title="Horse Betting"><svg class="trm-svg-icon trm-svg-icon--horse" width="25" height="25" fill="currentColor" viewBox="0 0 640 640" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><use href="#trm-icon-horse"></use></svg> Horse Betting</a></li>
+
+
+
+<li><a id="trmdata-markets-menu-ufc" href="/ufc/" alt="UFC Betting" title="UFC Betting"><svg class="trm-svg-icon trm-svg-icon--bell" width="25" height="25" fill="currentColor" viewBox="0 0 640 640" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><use href="#trm-icon-bell"></use></svg> UFC / MMA</a></li>
+
+
+
+<li><a id="trmdata-markets-menu-entertain" href="/entertainment/" alt="Entertainment Betting" title="Entertainment Betting"><svg class="trm-svg-icon trm-svg-icon--film" width="25" height="25" fill="currentColor" viewBox="0 0 640 640" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><use href="#trm-icon-film"></use></svg> Entertainment Betting</a></li>
+</ul>
+</div>
+</div>
+	</div>
+</div>
+</li>
+<li id="menu-item-110666" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-110666 menu-item-has-gb-mega-menu menu-item-has-children gb-menu-item gb-menu-item-mi4b4d09"><a href="#" class="gb-menu-link" data-gb-overlay="gb-overlay-110675" data-gb-overlay-trigger-type="hover" aria-controls="gb-overlay-110675" aria-haspopup="menu">Betting Sites<span class="gb-submenu-toggle" aria-label="Betting Sites Sub-Menu" role="button" aria-expanded="false" aria-haspopup="menu" tabindex="0" data-gb-overlay="gb-overlay-110675" data-gb-overlay-trigger-type="click" aria-controls="gb-overlay-110675"><svg class="gb-submenu-toggle-icon" viewBox="0 0 330 512" aria-hidden="true" width="1em" height="1em" fill="currentColor"><path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z"></path></svg></span></a>
+<div
+	id="gb-overlay-110675"
+	class="gb-overlay gb-overlay--anchored"
+    data-gb-overlay data-gb-overlay-type="anchored" data-gb-overlay-trigger-type="click" data-gb-overlay-placement="bottom" data-gb-overlay-position-to-parent="gb-site-header" data-gb-overlay-animation-in="fadeInUp" data-gb-overlay-animation-out="fadeOutDown" data-gb-overlay-hover-buffer="20" aria-hidden="true">
+	
+	<div class="gb-overlay__content">
+        
+<div class="gbp-mega-menu gb-element-4d3b6be1">
+<div class="gbp-mega-menu__column">
+<ul class="wp-block-list list-grid list-grid-with-images">
+<li><a id="trmdata-sportsbooks-menu-bv" href="/bovada-review/" alt="Bovada Sportsbook Review" title="Bovada Sportsbook Review"><img fetchpriority="high" loading="eager" decoding="async" src="/images/properties/initial/bovada-round.png" alt="Bovada Sportsbook Review" width="30" height="30"> Bovada Sportsbook Review</a></li>
+
+
+
+<li><a id="trmdata-sportsbooks-menu-bo" href="/betonline-ag-review/" alt="BetOnline Sportsbook Review" title="BetOnline Sportsbook Review"><img fetchpriority="high" loading="eager" decoding="async" src="/images/properties/initial/betonline-round.png" alt="BetOnline Sportsbook Review" width="30" height="30"> BetOnline Sportsbook Review</a></li>
+
+
+
+<li><a id="trmdata-sportsbooks-menu-mb" href="/mybookie-review/" alt="MyBookie Sportsbook Review" title="MyBookie Sportsbook Review"><img fetchpriority="high" loading="eager" decoding="async" src="/images/properties/initial/mybookie-round.png" alt="MyBookie Sportsbook Review" width="30" height="30"> MyBookie Sportsbook Review</a></li>
+
+
+
+<li><a id="trmdata-sportsbooks-menu-mb" href="/betus-review/" alt="BetUs Sportsbook Review" title="BetUs Sportsbook Review"><img fetchpriority="high" loading="eager" decoding="async" src="/images/properties/initial/betus-round.png" alt="BetUs Sportsbook Review" width="30" height="30"> BetUs Sportsbook Review</a></li>
+
+
+
+<li><a id="trmdata-sportsbooks-menu-sb" href="/sportsbetting-ag-review/" alt="SportsBetting.ag Review" title="SportsBetting.ag Review"><img fetchpriority="high" loading="eager" decoding="async" src="/images/properties/initial/sportsbetting-round.png" alt="SportsBetting.ag Review" width="30" height="30"> SportsBetting.ag Review</a></li>
+
+
+
+<li><a id="trmdata-sportsbooks-menu-xb" href="/xbet-review/" alt="Xbet Sportsbook Review" title="Xbet Sportsbook Review"><img fetchpriority="high" loading="eager" decoding="async" src="/images/properties/initial/xbet-round.png" alt="Xbet Sportsbook Review" width="30" height="30"> Xbet Sportsbook Review</a></li>
+</ul>
+</div>
+</div>
+	</div>
+</div>
+</li>
+<li id="menu-item-110667" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-110667 gb-menu-item gb-menu-item-mi4b4d09"><a href="https://www.legalsportsbetting.com/news/" class="gb-menu-link">News</a></li>
+</ul></div>
+</nav>
+</header>
+</div>
+
+	<div  class="site grid-container container hfeed" id="page">
+				<div  class="site-content" id="content">
+			
+	<div  class="content-area" id="primary">
+		<main class="site-main" id="main">
+			
+<div class="gb-element-406e8e3d inner-content-row">
+<div class="content-box-bordered author-box">
+<div class="author-info">
+<p class="gb-text">Written by:</p>
+
+
+		<span
+			id="trm-ap-b6c12ceb-8e5c-4ce4-82e4-7fb864fd7373"
+			class="trm-author-popover"
+			data-event="hover"
+			data-placement="bottom"
+		>
+			<button
+				type="button"
+				class="trm-author-popover__trigger"
+				aria-haspopup="dialog"
+				aria-expanded="false"
+				aria-controls="trm-ap-b6c12ceb-8e5c-4ce4-82e4-7fb864fd7373-panel"
+			>
+				<img alt='Author info' src='https://www.legalsportsbetting.com/wp-content/uploads/2022/02/ben2-150x150.jpg' class='avatar avatar-80 photo' height='80' width='80' />			</button>
+
+			<span
+				id="trm-ap-b6c12ceb-8e5c-4ce4-82e4-7fb864fd7373-panel"
+				class="trm-author-popover__panel"
+				role="dialog"
+				aria-label="Ben Fiore"
+				data-open="0"
+			>
+				<span class="trm-author-popover__arrow" aria-hidden="true"></span>
+
+				<div class="trm-author-popover__header">
+					<div class="trm-author-popover__avatar">
+						<img alt='Ben Fiore' src='https://www.legalsportsbetting.com/wp-content/uploads/2022/02/ben2-150x150.jpg' class='avatar avatar-96 photo' height='96' width='96' />					</div>
+					<div>
+						<p class="trm-author-popover__name">Ben Fiore</p>
+					</div>
+				</div>
+
+				<p class="trm-author-popover__desc">Ben Fiore has been writing about and researching the expansion of legal sports betting since 2022 and has become an expert in the field. Whether following the legal process of sports betting in a specific state, tracking a state’s venue, or reviewing the top online sportsbooks, Ben has seen it all. Ben graduated from Florida State University with a degree in Editing, Writing, and Media, and can be found betting on his Noles during any free time.</p>			</span>
+		</span>
+		
+
+
+
+<p class="gb-text">Ben Fiore</p>
+</div>
+
+
+
+<div class="author-date">
+<p class="gb-text">Last Updated:</p>
+
+
+
+<p class="gb-text author-box-date">May 13, 2026</p>
+</div>
+</div>
+
+
+
+<div class="content-box-bordered breadcrumb-box"><nav aria-label="breadcrumbs" class="rank-math-breadcrumb"><p><a href="https://www.legalsportsbetting.com">Home</a><span class="separator"> &raquo; </span><span class="last">About</span></p></nav>
+</div>
+</div>
+
+<article id="post-6091" class="post-6091 page type-page status-publish infinite-scroll-item" itemtype="https://schema.org/CreativeWork" itemscope>
+	<div class="inside-article">
+		
+		<div class="entry-content" itemprop="text">
+			
+<div class="inner-content-row">
+<h1 class="wp-block-heading">About Us</h1>
+
+
+
+<p class="wp-block-paragraph">LegalSportsBetting is a resource for bettors navigating the regulated U.S. market and offshore sportsbook industry. Since we&#8217;re players ourselves, we understand what information actually matters and what readers find important. We cover state-by-state legal updates and how offshore books handle deposits, withdrawals, and odds on small markets. The goal of this page is for our readers to learn about the team at <a href="https://www.legalsportsbetting.com/">LegalSportsBetting</a> and the resources we offer.</p>
+
+
+
+<h2 class="wp-block-heading">That’s Where We Come In</h2>
+
+
+
+<p class="wp-block-paragraph">Whether you want to know the odds for the <a href="https://www.legalsportsbetting.com/events/">biggest sports betting events</a>, your state’s sports betting laws, or even the lifetime sports betting revenue numbers for each state, we’ve got you covered. Below are some of our most helpful pages, written by our experts and developed over years of research.</p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://www.legalsportsbetting.com/news/">Legal sports betting news</a></li>
+
+
+
+<li><a href="https://www.legalsportsbetting.com/us-sports-betting-laws/">US sports betting laws</a></li>
+
+
+
+<li><a href="https://www.legalsportsbetting.com/revenue-tracker/">Sports betting revenue tracker</a></li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">Why Responsible Gambling Matters To Legal Sports Betting</h2>
+
+
+
+<p class="wp-block-paragraph">Responsible gambling is the foundation for a healthy betting landscape, and we stay true to that idea with our coverage. Always bet responsibly within a budget, and never place a bet you can’t afford to lose. For anyone seeking problem gambling help, we provide some valuable resources here.</p>
+
+
+
+<h3 class="wp-block-heading">Responsible Gambling Resources</h3>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://gamblersanonymous.org/" rel="noopener">Gamblers Anonymous</a></li>
+
+
+
+<li><a href="https://www.1800gambler.net/" rel="noopener">1-800 GAMBLER</a></li>
+
+
+
+<li><a href="https://www.ncpgambling.org/help-treatment/" rel="noopener">National Problem Gambling Helpline</a></li>
+
+
+
+<li><a href="https://www.gam-anon.org/" rel="noopener">Gam-Anon</a></li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">How We Evaluate Sportsbooks And Our Content</h2>
+
+
+
+<p class="wp-block-paragraph">Our process for evaluating legal online sportsbooks and our own content depends on a handful of factors. Some of those key factors we value are listed below.</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>First-Person Testing:</strong> We only recommend sportsbooks that we have tried and used ourselves. Our sportsbook reviewers have successfully deposited, played, and withdrawn funds from all of the legal sportsbooks on our site.</li>
+
+
+
+<li><strong>Deposit and Withdrawal Methods:</strong> It’s important to us that sportsbooks offer at least seven different ways to deposit and withdraw funds.</li>
+
+
+
+<li><strong>Comparing To Other Sites:</strong> When it comes to our own content, we want to align with industry standards and offer the best product available. The same philosophy applies to sportsbooks, as our reviews take other sportsbooks into consideration so that we can provide proper comparisons.</li>
+
+
+
+<li><strong>Freshness:</strong> We constantly monitor industry developments to provide the latest legal sports betting news. This also applies to our revenue page, which is updated upon every new state revenue report.</li>
+
+
+
+<li><strong>Offshore Experience:</strong> Our reviewers have used offshore sportsbooks for years. This makes comparing them to domestic books much easier, where we can track payout reliability, odds depth, and customer service responsiveness.</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">Our Team</h2>
+
+
+
+<div class="inner-content-row"><div class="wp-block-image">
+<figure class="alignleft size-full is-resized"><img decoding="async" width="360" height="360" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20360%20360'%3E%3C/svg%3E" alt="Steve Venclauskas" class="wp-image-6393" style="width:100px" title="About 1" data-lazy-srcset="https://www.legalsportsbetting.com/wp-content/uploads/2019/04/steve-profile.jpg 360w, https://www.legalsportsbetting.com/wp-content/uploads/2019/04/steve-profile-150x150.jpg 150w, https://www.legalsportsbetting.com/wp-content/uploads/2019/04/steve-profile-300x300.jpg 300w, https://www.legalsportsbetting.com/wp-content/uploads/2019/04/steve-profile-65x65.jpg 65w" data-lazy-sizes="(max-width: 360px) 100vw, 360px" data-lazy-src="https://www.legalsportsbetting.com/wp-content/uploads/2019/04/steve-profile.jpg" /><noscript><img decoding="async" width="360" height="360" src="https://www.legalsportsbetting.com/wp-content/uploads/2019/04/steve-profile.jpg" alt="Steve Venclauskas" class="wp-image-6393" style="width:100px" title="About 1" srcset="https://www.legalsportsbetting.com/wp-content/uploads/2019/04/steve-profile.jpg 360w, https://www.legalsportsbetting.com/wp-content/uploads/2019/04/steve-profile-150x150.jpg 150w, https://www.legalsportsbetting.com/wp-content/uploads/2019/04/steve-profile-300x300.jpg 300w, https://www.legalsportsbetting.com/wp-content/uploads/2019/04/steve-profile-65x65.jpg 65w" sizes="(max-width: 360px) 100vw, 360px" /></noscript></figure>
+</div>
+
+
+<h3 class="wp-block-heading"><strong>Steve Venclauskas</strong> &#8211; Founder, President &amp; Editor-In-Chief</h3>
+
+
+
+<p class="wp-block-paragraph">Steve founded the company in 2007. He drives the overall direction of LegalSportsBetting, with a focus on team culture and the development of the LSB brand.</p>
+</div>
+
+
+
+<div class="inner-content-row"><div class="wp-block-image">
+<figure class="alignleft size-full is-resized"><img decoding="async" width="320" height="320" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20320%20320'%3E%3C/svg%3E" alt="Cory Tiley" class="wp-image-6392" style="width:100px" title="About 2" data-lazy-srcset="https://www.legalsportsbetting.com/wp-content/uploads/2019/04/cory-profile.jpg 320w, https://www.legalsportsbetting.com/wp-content/uploads/2019/04/cory-profile-150x150.jpg 150w, https://www.legalsportsbetting.com/wp-content/uploads/2019/04/cory-profile-300x300.jpg 300w, https://www.legalsportsbetting.com/wp-content/uploads/2019/04/cory-profile-65x65.jpg 65w" data-lazy-sizes="(max-width: 320px) 100vw, 320px" data-lazy-src="https://www.legalsportsbetting.com/wp-content/uploads/2019/04/cory-profile.jpg" /><noscript><img decoding="async" width="320" height="320" src="https://www.legalsportsbetting.com/wp-content/uploads/2019/04/cory-profile.jpg" alt="Cory Tiley" class="wp-image-6392" style="width:100px" title="About 2" srcset="https://www.legalsportsbetting.com/wp-content/uploads/2019/04/cory-profile.jpg 320w, https://www.legalsportsbetting.com/wp-content/uploads/2019/04/cory-profile-150x150.jpg 150w, https://www.legalsportsbetting.com/wp-content/uploads/2019/04/cory-profile-300x300.jpg 300w, https://www.legalsportsbetting.com/wp-content/uploads/2019/04/cory-profile-65x65.jpg 65w" sizes="(max-width: 320px) 100vw, 320px" /></noscript></figure>
+</div>
+
+
+<h3 class="wp-block-heading"><strong>Cory Tiley</strong> &#8211; COO / President Of Marketing</h3>
+
+
+
+<p class="wp-block-paragraph">Cory partnered with LegalSportsBetting in 2011. He provides oversight of the day-to-day-operations, along with leadership and guidance to all departments.</p>
+</div>
+
+
+
+<div class="inner-content-row"><div class="wp-block-image">
+<figure class="alignleft size-full is-resized"><img decoding="async" width="480" height="480" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20480%20480'%3E%3C/svg%3E" alt="Bonnie Venclauskas" class="wp-image-6402" style="width:100px" title="About 3" data-lazy-srcset="https://www.legalsportsbetting.com/wp-content/uploads/2019/04/bonnie.jpg 480w, https://www.legalsportsbetting.com/wp-content/uploads/2019/04/bonnie-150x150.jpg 150w, https://www.legalsportsbetting.com/wp-content/uploads/2019/04/bonnie-300x300.jpg 300w, https://www.legalsportsbetting.com/wp-content/uploads/2019/04/bonnie-65x65.jpg 65w" data-lazy-sizes="(max-width: 480px) 100vw, 480px" data-lazy-src="https://www.legalsportsbetting.com/wp-content/uploads/2019/04/bonnie.jpg" /><noscript><img decoding="async" width="480" height="480" src="https://www.legalsportsbetting.com/wp-content/uploads/2019/04/bonnie.jpg" alt="Bonnie Venclauskas" class="wp-image-6402" style="width:100px" title="About 3" srcset="https://www.legalsportsbetting.com/wp-content/uploads/2019/04/bonnie.jpg 480w, https://www.legalsportsbetting.com/wp-content/uploads/2019/04/bonnie-150x150.jpg 150w, https://www.legalsportsbetting.com/wp-content/uploads/2019/04/bonnie-300x300.jpg 300w, https://www.legalsportsbetting.com/wp-content/uploads/2019/04/bonnie-65x65.jpg 65w" sizes="(max-width: 480px) 100vw, 480px" /></noscript></figure>
+</div>
+
+
+<h3 class="wp-block-heading"><strong>Bonnie Venclauskas</strong> &#8211; Senior Personnel Director</h3>
+
+
+
+<p class="wp-block-paragraph">Bonnie has been with LegalSportsBetting since 2008. She focuses primarily on the company’s staffing practices and oversees human resources.</p>
+</div>
+
+
+
+<div class="inner-content-row"><div class="wp-block-image">
+<figure class="alignleft size-full is-resized"><img decoding="async" width="480" height="480" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20480%20480'%3E%3C/svg%3E" alt="Michael Molter" class="wp-image-6302" style="width:100px" title="About 4" data-lazy-srcset="https://www.legalsportsbetting.com/wp-content/uploads/2019/04/michael_profile.jpg 480w, https://www.legalsportsbetting.com/wp-content/uploads/2019/04/michael_profile-150x150.jpg 150w, https://www.legalsportsbetting.com/wp-content/uploads/2019/04/michael_profile-300x300.jpg 300w, https://www.legalsportsbetting.com/wp-content/uploads/2019/04/michael_profile-65x65.jpg 65w" data-lazy-sizes="(max-width: 480px) 100vw, 480px" data-lazy-src="https://www.legalsportsbetting.com/wp-content/uploads/2019/04/michael_profile.jpg" /><noscript><img decoding="async" width="480" height="480" src="https://www.legalsportsbetting.com/wp-content/uploads/2019/04/michael_profile.jpg" alt="Michael Molter" class="wp-image-6302" style="width:100px" title="About 4" srcset="https://www.legalsportsbetting.com/wp-content/uploads/2019/04/michael_profile.jpg 480w, https://www.legalsportsbetting.com/wp-content/uploads/2019/04/michael_profile-150x150.jpg 150w, https://www.legalsportsbetting.com/wp-content/uploads/2019/04/michael_profile-300x300.jpg 300w, https://www.legalsportsbetting.com/wp-content/uploads/2019/04/michael_profile-65x65.jpg 65w" sizes="(max-width: 480px) 100vw, 480px" /></noscript></figure>
+</div>
+
+
+<h3 class="wp-block-heading"><strong>Michael Molter</strong> &#8211; Director of Content</h3>
+
+
+
+<p class="wp-block-paragraph">Michael has been with LegalSportsBetting since 2018. Beginning as a content writer, Michael now leads and manages the content team to ensure our sports betting information is up to date and accurate.</p>
+</div>
+
+
+
+<div class="inner-content-row"><div class="wp-block-image">
+<figure class="alignleft size-full is-resized"><img decoding="async" width="480" height="480" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20480%20480'%3E%3C/svg%3E" alt="Brian Scott" class="wp-image-6403" style="width:100px" title="About 5" data-lazy-srcset="https://www.legalsportsbetting.com/wp-content/uploads/2019/04/brian-profile.jpg 480w, https://www.legalsportsbetting.com/wp-content/uploads/2019/04/brian-profile-150x150.jpg 150w, https://www.legalsportsbetting.com/wp-content/uploads/2019/04/brian-profile-300x300.jpg 300w, https://www.legalsportsbetting.com/wp-content/uploads/2019/04/brian-profile-65x65.jpg 65w" data-lazy-sizes="(max-width: 480px) 100vw, 480px" data-lazy-src="https://www.legalsportsbetting.com/wp-content/uploads/2019/04/brian-profile.jpg" /><noscript><img decoding="async" width="480" height="480" src="https://www.legalsportsbetting.com/wp-content/uploads/2019/04/brian-profile.jpg" alt="Brian Scott" class="wp-image-6403" style="width:100px" title="About 5" srcset="https://www.legalsportsbetting.com/wp-content/uploads/2019/04/brian-profile.jpg 480w, https://www.legalsportsbetting.com/wp-content/uploads/2019/04/brian-profile-150x150.jpg 150w, https://www.legalsportsbetting.com/wp-content/uploads/2019/04/brian-profile-300x300.jpg 300w, https://www.legalsportsbetting.com/wp-content/uploads/2019/04/brian-profile-65x65.jpg 65w" sizes="(max-width: 480px) 100vw, 480px" /></noscript></figure>
+</div>
+
+
+<h3 class="wp-block-heading"><strong>Brian Scott</strong> &#8211; CTO / Senior Web Developer</h3>
+
+
+
+<p class="wp-block-paragraph">Brian has been with LegalSportsBetting since 2018 and takes care of the network’s technology and development needs, with a focus on user interaction.</p>
+</div>
+
+
+
+<div class="inner-content-row"><div class="wp-block-image">
+<figure class="alignleft size-full is-resized"><img decoding="async" width="480" height="480" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20480%20480'%3E%3C/svg%3E" alt="John Babich" class="wp-image-6406" style="width:100px" title="About 6" data-lazy-srcset="https://www.legalsportsbetting.com/wp-content/uploads/2019/04/jb-profile.jpg 480w, https://www.legalsportsbetting.com/wp-content/uploads/2019/04/jb-profile-150x150.jpg 150w, https://www.legalsportsbetting.com/wp-content/uploads/2019/04/jb-profile-300x300.jpg 300w, https://www.legalsportsbetting.com/wp-content/uploads/2019/04/jb-profile-65x65.jpg 65w" data-lazy-sizes="(max-width: 480px) 100vw, 480px" data-lazy-src="https://www.legalsportsbetting.com/wp-content/uploads/2019/04/jb-profile.jpg" /><noscript><img decoding="async" width="480" height="480" src="https://www.legalsportsbetting.com/wp-content/uploads/2019/04/jb-profile.jpg" alt="John Babich" class="wp-image-6406" style="width:100px" title="About 6" srcset="https://www.legalsportsbetting.com/wp-content/uploads/2019/04/jb-profile.jpg 480w, https://www.legalsportsbetting.com/wp-content/uploads/2019/04/jb-profile-150x150.jpg 150w, https://www.legalsportsbetting.com/wp-content/uploads/2019/04/jb-profile-300x300.jpg 300w, https://www.legalsportsbetting.com/wp-content/uploads/2019/04/jb-profile-65x65.jpg 65w" sizes="(max-width: 480px) 100vw, 480px" /></noscript></figure>
+</div>
+
+
+<h3 class="wp-block-heading"><strong>John Babich</strong> &#8211; Senior Web Developer</h3>
+
+
+
+<p class="wp-block-paragraph">John, better known as “JB”, joined LegalSportsBetting in 2015. JB is responsible for the network’s coding, graphics, and design elements.</p>
+</div>
+
+
+
+<div class="inner-content-row"><div class="wp-block-image">
+<figure class="alignleft size-full is-resized"><img decoding="async" width="480" height="480" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20480%20480'%3E%3C/svg%3E" alt="sam_profeta" class="wp-image-19370" style="width:100px" title="About 7" data-lazy-srcset="https://www.legalsportsbetting.com/wp-content/uploads/2020/02/sam_profeta.jpg 480w, https://www.legalsportsbetting.com/wp-content/uploads/2020/02/sam_profeta-150x150.jpg 150w, https://www.legalsportsbetting.com/wp-content/uploads/2020/02/sam_profeta-300x300.jpg 300w, https://www.legalsportsbetting.com/wp-content/uploads/2020/02/sam_profeta-65x65.jpg 65w" data-lazy-sizes="(max-width: 480px) 100vw, 480px" data-lazy-src="https://www.legalsportsbetting.com/wp-content/uploads/2020/02/sam_profeta.jpg" /><noscript><img decoding="async" width="480" height="480" src="https://www.legalsportsbetting.com/wp-content/uploads/2020/02/sam_profeta.jpg" alt="sam_profeta" class="wp-image-19370" style="width:100px" title="About 7" srcset="https://www.legalsportsbetting.com/wp-content/uploads/2020/02/sam_profeta.jpg 480w, https://www.legalsportsbetting.com/wp-content/uploads/2020/02/sam_profeta-150x150.jpg 150w, https://www.legalsportsbetting.com/wp-content/uploads/2020/02/sam_profeta-300x300.jpg 300w, https://www.legalsportsbetting.com/wp-content/uploads/2020/02/sam_profeta-65x65.jpg 65w" sizes="(max-width: 480px) 100vw, 480px" /></noscript></figure>
+</div>
+
+
+<h4 class="wp-block-heading"><strong>Sam Profeta</strong> &#8211; Content Writer</h4>
+
+
+
+<p class="wp-block-paragraph">Samuel joined the LegalSportsBetting team in 2020 as a news writer. His writing specializes in game&nbsp;previews and player prop bets to keep his readers engaged.</p>
+</div>
+
+
+
+<div class="inner-content-row"><div class="wp-block-image">
+<figure class="alignleft size-full is-resized"><img decoding="async" width="450" height="450" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20450%20450'%3E%3C/svg%3E" alt="Brett Crown" class="wp-image-62545" style="width:100px" title="About 8" data-lazy-srcset="https://www.legalsportsbetting.com/wp-content/uploads/2022/03/brett-c.jpg 450w, https://www.legalsportsbetting.com/wp-content/uploads/2022/03/brett-c-300x300.jpg 300w, https://www.legalsportsbetting.com/wp-content/uploads/2022/03/brett-c-150x150.jpg 150w" data-lazy-sizes="(max-width: 450px) 100vw, 450px" data-lazy-src="https://www.legalsportsbetting.com/wp-content/uploads/2022/03/brett-c.jpg" /><noscript><img decoding="async" width="450" height="450" src="https://www.legalsportsbetting.com/wp-content/uploads/2022/03/brett-c.jpg" alt="Brett Crown" class="wp-image-62545" style="width:100px" title="About 8" srcset="https://www.legalsportsbetting.com/wp-content/uploads/2022/03/brett-c.jpg 450w, https://www.legalsportsbetting.com/wp-content/uploads/2022/03/brett-c-300x300.jpg 300w, https://www.legalsportsbetting.com/wp-content/uploads/2022/03/brett-c-150x150.jpg 150w" sizes="(max-width: 450px) 100vw, 450px" /></noscript></figure>
+</div>
+
+
+<h4 class="wp-block-heading"><strong>Brett Crown</strong> &#8211; Content Writer</h4>
+
+
+
+<p class="wp-block-paragraph"><span>Brett started writing for LegalSportsBetting in 2021. He enjoys testing his advanced understanding of sports and statistics by playing DFS and betting on a wide variety of sports.</span></p>
+</div>
+
+
+
+<div class="inner-content-row"><div class="wp-block-image">
+<figure class="alignleft size-full is-resized"><img decoding="async" width="480" height="480" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20480%20480'%3E%3C/svg%3E" alt="Ben Fiore" class="wp-image-61351" style="width:100px" title="About 9" data-lazy-srcset="https://www.legalsportsbetting.com/wp-content/uploads/2022/02/ben2.jpg 480w, https://www.legalsportsbetting.com/wp-content/uploads/2022/02/ben2-300x300.jpg 300w, https://www.legalsportsbetting.com/wp-content/uploads/2022/02/ben2-150x150.jpg 150w" data-lazy-sizes="(max-width: 480px) 100vw, 480px" data-lazy-src="https://www.legalsportsbetting.com/wp-content/uploads/2022/02/ben2.jpg" /><noscript><img decoding="async" width="480" height="480" src="https://www.legalsportsbetting.com/wp-content/uploads/2022/02/ben2.jpg" alt="Ben Fiore" class="wp-image-61351" style="width:100px" title="About 9" srcset="https://www.legalsportsbetting.com/wp-content/uploads/2022/02/ben2.jpg 480w, https://www.legalsportsbetting.com/wp-content/uploads/2022/02/ben2-300x300.jpg 300w, https://www.legalsportsbetting.com/wp-content/uploads/2022/02/ben2-150x150.jpg 150w" sizes="(max-width: 480px) 100vw, 480px" /></noscript></figure>
+</div>
+
+
+<h4 class="wp-block-heading"><strong>Ben Fiore</strong> &#8211; Content Writer</h4>
+
+
+
+<p class="wp-block-paragraph">Ben was able to join the LegalSportsBetting team at the beginning of 2022 and enjoys writing news stories about the revenue generated by regulated sports betting. He also enjoys exploring and writing about different types of prop bets in the NFL and NBA.</p>
+</div>
+
+
+
+<div class="inner-content-row"><div class="wp-block-image">
+<figure class="alignleft size-full is-resized"><img decoding="async" width="450" height="450" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20450%20450'%3E%3C/svg%3E" alt="Zach Kelly" class="wp-image-75840" style="width:100px" title="About 10" data-lazy-srcset="https://www.legalsportsbetting.com/wp-content/uploads/2023/01/zach-kelly.jpg 450w, https://www.legalsportsbetting.com/wp-content/uploads/2023/01/zach-kelly-300x300.jpg 300w, https://www.legalsportsbetting.com/wp-content/uploads/2023/01/zach-kelly-150x150.jpg 150w" data-lazy-sizes="(max-width: 450px) 100vw, 450px" data-lazy-src="https://www.legalsportsbetting.com/wp-content/uploads/2023/01/zach-kelly.jpg" /><noscript><img decoding="async" width="450" height="450" src="https://www.legalsportsbetting.com/wp-content/uploads/2023/01/zach-kelly.jpg" alt="Zach Kelly" class="wp-image-75840" style="width:100px" title="About 10" srcset="https://www.legalsportsbetting.com/wp-content/uploads/2023/01/zach-kelly.jpg 450w, https://www.legalsportsbetting.com/wp-content/uploads/2023/01/zach-kelly-300x300.jpg 300w, https://www.legalsportsbetting.com/wp-content/uploads/2023/01/zach-kelly-150x150.jpg 150w" sizes="(max-width: 450px) 100vw, 450px" /></noscript></figure>
+</div>
+
+
+<h4 class="wp-block-heading"><strong>Zachary Kelley</strong> &#8211; Content Writer</h4>
+
+
+
+<p class="wp-block-paragraph">Zach started writing for Legal Sports Betting in 2023. He specializes in writing news articles that provide insight and analytics towards game and individual player betting. Zach enjoys most sports, but prefers football, baseball, and basketball.</p>
+</div>
+</div>
+		</div>
+
+			</div>
+</article>
+		</main>
+	</div>
+
+	
+	</div>
+</div>
+
+
+<div class="no-wpr-lazyrender site-footer">
+	
+<div class="full-width-row row-top-border footer-background">
+<div class="inner-content-row">
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-8f761849 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:25%">
+<h3 class="gb-text">Top States</h3>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://www.legalsportsbetting.com/florida/">Florida Sports Betting</a></li>
+
+
+
+<li><a href="https://www.legalsportsbetting.com/texas/">Texas Sports Betting</a></li>
+
+
+
+<li><a href="https://www.legalsportsbetting.com/california/">California Sports Betting</a></li>
+
+
+
+<li><a href="https://www.legalsportsbetting.com/new-york/">New York Sports Betting</a></li>
+</ul>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:25%">
+<h3 class="gb-text">Betting Sites</h3>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://www.legalsportsbetting.com/sportsbook-bonuses/">Sportsbook Bonuses</a></li>
+
+
+
+<li><a href="/legal-sports-betting-age-by-state">Sports Betting Age</a></li>
+
+
+
+<li><a href="/nfl">NFL Betting Sites</a></li>
+
+
+
+<li><a href="/college-football">College Football Betting</a></li>
+</ul>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:25%">
+<h3 class="gb-text">Banking</h3>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://www.legalsportsbetting.com/sportsbook-deposit-methods/">Sportsbook Deposit Methods</a></li>
+
+
+
+<li><a href="https://www.legalsportsbetting.com/fastest-sportsbook-payouts/">Fastest Payouts</a></li>
+
+
+
+<li><a href="https://www.legalsportsbetting.com/credit-cards/">Credit Card Sportsbooks</a></li>
+
+
+
+<li><a href="https://www.legalsportsbetting.com/cryptocurrency/">Crypto Sports Betting</a></li>
+</ul>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:25%">
+<h3 class="gb-text">Company</h3>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://www.legalsportsbetting.com/about/">About Us</a></li>
+
+
+
+<li><a href="https://www.legalsportsbetting.com/advertising/">Advertising Disclosure</a></li>
+
+
+
+<li><a href="https://www.legalsportsbetting.com/news/">News</a></li>
+
+
+
+<li><a href="https://www.legalsportsbetting.com/contact/">Contact</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<p class="wp-block-paragraph"></p>
+</div>
+
+		<nav id="generate-slideout-menu" class="main-navigation slideout-navigation" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+			<div class="inside-navigation grid-container grid-parent">
+							</div><!-- .inside-navigation -->
+		</nav><!-- #site-navigation -->
+
+					<div  class="slideout-overlay">
+									<button class="slideout-exit has-svg-icon">
+						<span class="gp-icon pro-close">
+				<svg viewBox="0 0 512 512" aria-hidden="true" role="img" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1em" height="1em">
+					<path d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+				</svg>
+			</span>						<span class="screen-reader-text">Close</span>
+					</button>
+							</div>
+			<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/generatepress_child/*","/wp-content/themes/generatepress/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script type="text/rocketlazyloadscript" id="generate-a11y">
+!function(){"use strict";if("querySelector"in document&&"addEventListener"in window){var e=document.body;e.addEventListener("pointerdown",(function(){e.classList.add("using-mouse")}),{passive:!0}),e.addEventListener("keydown",(function(){e.classList.remove("using-mouse")}),{passive:!0})}}();
+</script>
+	<noscript><div class="statcounter"><a title="web analytics" href="https://statcounter.com/"><img class="statcounter" src="https://c.statcounter.com/11402642/0/aa1736b7/1/" alt="web analytics" /></a></div></noscript>
+	<script type="text/rocketlazyloadscript" data-minify="1" id="generateblocks-overlay-js" data-rocket-src="https://www.legalsportsbetting.com/wp-content/cache/min/1/wp-content/plugins/generateblocks-pro/dist/overlay.js?ver=1790106640" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="generate-sticky-js" data-rocket-src="https://www.legalsportsbetting.com/wp-content/plugins/gp-premium/menu-plus/functions/js/sticky.min.js?ver=2.5.6" data-rocket-defer defer></script>
+<script id="generate-offside-js-extra">
+var offSide = {"side":"right"};
+//# sourceURL=generate-offside-js-extra
+</script>
+<script type="text/rocketlazyloadscript" id="generate-offside-js" data-rocket-src="https://www.legalsportsbetting.com/wp-content/plugins/gp-premium/menu-plus/functions/js/offside.min.js?ver=2.5.6" data-rocket-defer defer></script>
+<script id="statcounter-js-js-before">
+var sc_project=11402642;
+var sc_security="aa1736b7";
+var sc_invisible=1;
+
+//# sourceURL=statcounter-js-js-before
+</script>
+<script id="statcounter-js-js" async src="https://www.statcounter.com/counter/counter.js"></script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="trm-author-popover-script-js" data-rocket-src="https://www.legalsportsbetting.com/wp-content/cache/min/1/wp-content/plugins/trm-author-popover/assets/js/trm-author-popover.js?ver=1790106640" data-rocket-defer defer></script>
+<script id="trm-link-tracker-js-js-extra">
+var trm_lt_rest = {"rest_url":"https://www.legalsportsbetting.com/wp-json/trm/v1/track"};
+//# sourceURL=trm-link-tracker-js-js-extra
+</script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="trm-link-tracker-js-js" data-rocket-src="https://www.legalsportsbetting.com/wp-content/cache/min/1/wp-content/plugins/trm-link-tracker/assets/trm-link-tracker.js?ver=1790106640" data-rocket-defer defer></script>
+<script id="trm-odds-data-refresh-js-extra">
+var trmOddsRefresh = {"restUrl":"https://www.legalsportsbetting.com/wp-json/trm-odds-data/v1/render","interval":"300"};
+//# sourceURL=trm-odds-data-refresh-js-extra
+</script>
+<script data-minify="1" id="trm-odds-data-refresh-js" src="https://www.legalsportsbetting.com/wp-content/cache/min/1/wp-content/plugins/trm-odds-data/assets/js/trm-odds-data-refresh.js?ver=1790106640" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="rocket-browser-checker-js-after">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+//# sourceURL=rocket-browser-checker-js-after
+</script>
+<script id="rocket-preload-links-js-extra">
+var RocketPreloadLinksConfig = {"excludeUris":"/(?:.+/)?feed(?:/(?:.+/?)?)?$|/(?:.+/)?embed/|/(index.php/)?(.*)wp-json(/.*|$)|/refer/|/go/|/recommend/|/recommends/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https://www.legalsportsbetting.com","onHoverDelay":"100","rateThrottle":"3"};
+//# sourceURL=rocket-preload-links-js-extra
+</script>
+<script type="text/rocketlazyloadscript" id="rocket-preload-links-js-after">
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+
+//# sourceURL=rocket-preload-links-js-after
+</script>
+<script id="rocket_lazyload_css-js-extra">
+var rocket_lazyload_css_data = {"threshold":"300"};
+//# sourceURL=rocket_lazyload_css-js-extra
+</script>
+<script id="rocket_lazyload_css-js-after">
+!function o(n,a,c){function l(t,e){if(!a[t]){if(!n[t]){var r="function"==typeof require&&require;if(!e&&r)return r(t,!0);if(u)return u(t,!0);throw(e=new Error("Cannot find module '"+t+"'")).code="MODULE_NOT_FOUND",e}r=a[t]={exports:{}},n[t][0].call(r.exports,function(e){return l(n[t][1][e]||e)},r,r.exports,o,n,a,c)}return a[t].exports}for(var u="function"==typeof require&&require,e=0;e<c.length;e++)l(c[e]);return l}({1:[function(e,t,r){{let r="undefined"==typeof rocket_pairs?[]:rocket_pairs,o=(("undefined"==typeof rocket_excluded_pairs?[]:rocket_excluded_pairs).map(t=>{var e=t.selector;document.querySelectorAll(e).forEach(e=>{e.setAttribute("data-rocket-lazy-bg-"+t.hash,"excluded")})}),document.querySelector("#wpr-lazyload-bg-container"));var a=rocket_lazyload_css_data.threshold||300;let n=new IntersectionObserver(e=>{e.forEach(t=>{t.isIntersecting&&r.filter(e=>t.target.matches(e.selector)).map(t=>{var e;t&&((e=document.createElement("style")).textContent=t.style,o.insertAdjacentElement("afterend",e),t.elements.forEach(e=>{n.unobserve(e),e.setAttribute("data-rocket-lazy-bg-"+t.hash,"loaded")}))})})},{rootMargin:a+"px"});function c(){0<(0<arguments.length&&void 0!==arguments[0]?arguments[0]:[]).length&&r.forEach(t=>{try{document.querySelectorAll(t.selector).forEach(e=>{"loaded"!==e.getAttribute("data-rocket-lazy-bg-"+t.hash)&&"excluded"!==e.getAttribute("data-rocket-lazy-bg-"+t.hash)&&(n.observe(e),(t.elements||=[]).push(e))})}catch(e){console.error(e)}})}c(),(()=>{let r=window.MutationObserver;return function(e,t){if(e&&1===e.nodeType)return(t=new r(t)).observe(e,{attributes:!0,childList:!0,subtree:!0}),t}})()(document.querySelector("body"),c)}},{}]},{},[1]);
+//# sourceURL=rocket_lazyload_css-js-after
+</script>
+<script type="text/rocketlazyloadscript" id="generate-menu-js-before">
+var generatepressMenu = {"toggleOpenedSubMenus":true,"openSubMenuLabel":"Open Sub-Menu","closeSubMenuLabel":"Close Sub-Menu"};
+//# sourceURL=generate-menu-js-before
+</script>
+<script type="text/rocketlazyloadscript" id="generate-menu-js" data-rocket-src="https://www.legalsportsbetting.com/wp-content/themes/generatepress/assets/js/menu.min.js?ver=3.6.1" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="generate-dropdown-click-js-before">
+var generatepressDropdownClick = {"openSubMenuLabel":"Open Sub-Menu","closeSubMenuLabel":"Close Sub-Menu"};
+//# sourceURL=generate-dropdown-click-js-before
+</script>
+<script type="text/rocketlazyloadscript" id="generate-dropdown-click-js" data-rocket-src="https://www.legalsportsbetting.com/wp-content/themes/generatepress/assets/js/dropdown-click.min.js?ver=3.6.1" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="generateblocks-classic-menu-js" data-rocket-src="https://www.legalsportsbetting.com/wp-content/cache/min/1/wp-content/plugins/generateblocks-pro/dist/classic-menu.js?ver=1790106640" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="generateblocks-pro-sticky-js" data-rocket-src="https://www.legalsportsbetting.com/wp-content/cache/min/1/wp-content/plugins/generateblocks-pro/dist/sticky-element.js?ver=1790106640" data-rocket-defer defer></script>
+
+<!-- TRM SVG Icons sprite -->
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" width="0" height="0" style="position:absolute;width:0;height:0;overflow:hidden"><symbol id="trm-icon-arrow-right" viewBox="0 0 640 640"><g transform="translate(32 32) scale(.9)"><path d="M320 576C461.4 576 576 461.4 576 320C576 178.6 461.4 64 320 64C178.6 64 64 178.6 64 320C64 461.4 178.6 576 320 576zM361 417C351.6 426.4 336.4 426.4 327.1 417C317.8 407.6 317.7 392.4 327.1 383.1L366.1 344.1L216 344.1C202.7 344.1 192 333.4 192 320.1C192 306.8 202.7 296.1 216 296.1L366.1 296.1L327.1 257.1C317.7 247.7 317.7 232.5 327.1 223.2C336.5 213.9 351.7 213.8 361 223.2L441 303.2C450.4 312.6 450.4 327.8 441 337.1L361 417.1z"/></g></symbol><symbol id="trm-icon-arrow-right-white" viewBox="0 0 640 640"><g transform="translate(32 32) scale(.9)"><path fill="#ffffff" fill-rule="evenodd" clip-rule="evenodd" d="M320 576C461.4 576 576 461.4 576 320C576 178.6 461.4 64 320 64C178.6 64 64 178.6 64 320C64 461.4 178.6 576 320 576zM361 417C351.6 426.4 336.4 426.4 327.1 417C317.8 407.6 317.7 392.4 327.1 383.1L366.1 344.1L216 344.1C202.7 344.1 192 333.4 192 320.1C192 306.8 202.7 296.1 216 296.1L366.1 296.1L327.1 257.1C317.7 247.7 317.7 232.5 327.1 223.2C336.5 213.9 351.7 213.8 361 223.2L441 303.2C450.4 312.6 450.4 327.8 441 337.1L361 417.1z"/></g></symbol><symbol id="trm-icon-baseball" viewBox="0 0 640 640"><g transform="translate(38.4 38.4) scale(.88)"><path d="M296.4 65.1C174.2 76.5 76.9 173.8 65.5 296C81.7 295.9 97.5 294.2 112.7 291C125.7 288.3 138.4 296.5 141.1 309.5C143.8 322.5 135.6 335.2 122.6 337.9C104.2 341.8 85 343.9 65.5 344C76.9 466.2 174.2 563.5 296.4 574.9C296.5 555.4 298.6 536.2 302.5 517.8C305.2 504.8 318 496.5 330.9 499.3C343.8 502.1 352.2 514.8 349.4 527.7C346.2 542.9 344.5 558.7 344.4 574.9C466.6 563.5 563.9 466.2 575.3 344C559.1 344.1 543.3 345.8 528.1 349C515.1 351.7 502.4 343.5 499.7 330.5C497 317.5 505.2 304.8 518.2 302.1C536.6 298.2 555.8 296.1 575.3 296C563.9 173.8 466.6 76.5 344.4 65.1C344.3 84.6 342.2 103.8 338.3 122.2C335.6 135.2 322.8 143.5 309.9 140.7C297 137.9 288.6 125.2 291.4 112.3C294.6 97.1 296.3 81.3 296.4 65.1zM299.2 216.5C277.8 249.4 249.7 277.4 216.9 298.8C205.8 306 190.9 302.9 183.7 291.8C176.5 280.7 179.6 265.8 190.7 258.6C217.9 240.9 241.2 217.6 259 190.3C266.2 179.2 281.1 176 292.2 183.3C303.3 190.6 306.5 205.4 299.2 216.5zM457.1 348.2C464.3 359.3 461.2 374.2 450.1 381.4C422.9 399.1 399.6 422.4 381.8 449.7C374.6 460.8 359.7 464 348.6 456.7C337.5 449.4 334.3 434.6 341.6 423.5C363 390.6 391.1 362.6 423.9 341.2C435 334 449.9 337.1 457.1 348.2z"/></g></symbol><symbol id="trm-icon-basketball" viewBox="0 0 640 640"><g transform="translate(38.4 38.4) scale(.88)"><path d="M156.7 122.8L235.1 201.2C253.3 176.2 264 145.3 264 112C264 97.9 262.1 84.3 258.5 71.4C220.5 80.8 185.9 98.6 156.7 122.8zM122.8 156.7C98.6 185.9 80.8 220.5 71.4 258.5C84.3 262.1 97.9 264 112 264C145.3 264 176.1 253.3 201.2 235.1L122.8 156.7zM320 64C315.4 64 310.8 64.1 306.3 64.4C310 79.7 312 95.6 312 112C312 158.6 296.1 201.4 269.4 235.4L320 286.1L483.3 122.8C438.9 86.1 382.1 64 320 64zM112 312C95.6 312 79.6 310 64.4 306.3C64.2 310.8 64 315.4 64 320C64 382.1 86.1 438.9 122.8 483.3L286.1 320L235.4 269.4C201.4 296.1 158.6 312 112 312zM575.6 333.7C575.8 329.2 576 324.6 576 320C576 257.9 553.9 201.1 517.2 156.7L353.9 320L404.6 370.6C438.6 343.9 481.5 328 528 328C544.4 328 560.4 330 575.6 333.7zM568.5 381.5C555.6 377.9 542 376 527.9 376C494.6 376 463.8 386.7 438.7 404.9L517.1 483.3C541.3 454.1 559.1 419.5 568.5 381.5zM404.9 438.8C386.7 463.8 376 494.7 376 528C376 542.1 377.9 555.7 381.5 568.6C419.5 559.2 454.1 541.4 483.3 517.2L404.9 438.8zM370.6 404.5L320 353.9L156.7 517.2C201 553.9 257.9 576 320 576C324.6 576 329.2 575.9 333.7 575.6C330 560.3 328 544.4 328 528C328 481.4 343.9 438.6 370.6 404.6z"/></g></symbol><symbol id="trm-icon-bell" viewBox="0 0 640 640"><g transform="translate(51.2 51.2) scale(.84)"><path d="M320 64C302.3 64 288 78.3 288 96L288 99.2C215 114 160 178.6 160 256L160 277.7C160 325.8 143.6 372.5 113.6 410.1L103.8 422.3C98.7 428.6 96 436.4 96 444.5C96 464.1 111.9 480 131.5 480L508.4 480C528 480 543.9 464.1 543.9 444.5C543.9 436.4 541.2 428.6 536.1 422.3L526.3 410.1C496.4 372.5 480 325.8 480 277.7L480 256C480 178.6 425 114 352 99.2L352 96C352 78.3 337.7 64 320 64zM258 528C265.1 555.6 290.2 576 320 576C349.8 576 374.9 555.6 382 528L258 528z"/></g></symbol><symbol id="trm-icon-bitcoin" viewBox="0 0 640 640"><g transform="translate(32 32) scale(.9)"><path fill="currentColor" d="M320 72C183 72 72 183 72 320C72 457 183 568 320 568C457 568 568 457 568 320C568 183 457 72 320 72z"/><path class="animate-icon" fill="#ffffff" d="M426.3 284.7C431.2 251.7 406.1 234 371.7 222.1L382.8 177.4L355.6 170.6L344.7 214.1C337.5 212.3 330.2 210.6 322.9 209L333.8 165.2L306.6 158.4L295.4 203.1C289.5 201.8 283.7 200.4 278 199L278 198.9L240.5 189.5L233.3 218.6C233.3 218.6 253.5 223.2 253.1 223.5C264.1 226.3 266.1 233.5 265.8 239.3L253.1 290.2C253.9 290.4 254.8 290.7 255.9 291.1C255 290.9 254 290.6 253 290.4L235.2 361.7C233.9 365 230.4 370.1 222.7 368.2C223 368.6 202.9 363.3 202.9 363.3L189.4 394.4L224.8 403.2C231.4 404.9 237.8 406.6 244.2 408.2L232.9 453.4L260.1 460.2L271.3 415.5C278.5 417.5 285.7 419.3 293 421.1L281.9 465.6L309.1 472.4L320.4 427.3C366.8 436.1 401.7 432.5 416.4 390.6C428.2 356.8 415.8 337.3 391.4 324.6C409.2 320.5 422.6 308.8 426.1 284.7zM364.1 371.9C355.7 405.7 298.8 387.4 280.3 382.8L295.2 322.9C313.6 327.5 372.8 336.6 364 371.9zM372.5 284.2C364.8 314.9 317.5 299.3 302.1 295.5L315.6 241.2C331 245 380.4 252.2 372.4 284.2z"/></g></symbol><symbol id="trm-icon-circle-dollar" viewBox="0 0 640 640"><g transform="translate(32 32) scale(.9)"><path d="M320 64c141.4 0 256 114.6 256 256S461.4 576 320 576 64 461.4 64 320 178.6 64 320 64zm76.8 140.8H243.2c-35.3 0-64 28.7-64 64s28.7 64 64 64h102.4c8.8 0 16 7.2 16 16s-7.2 16-16 16H192c-13.3 0-24 10.7-24 24s10.7 24 24 24h104v64c0 13.3 10.7 24 24 24s24-10.7 24-24v-64h25.6c35.3 0 64-28.7 64-64s-28.7-64-64-64H243.2c-8.8 0-16-7.2-16-16s7.2-16 16-16h153.6c13.3 0 24-10.7 24-24s-10.7-24-24-24H344v-64c0-13.3-10.7-24-24-24s-24 10.7-24 24v64z"/></g></symbol><symbol id="trm-icon-credit-card" viewBox="0 0 640 640"><g transform="translate(38.4 38.4) scale(.88)"><path d="M64 192v32h512v-32c0-35.3-28.7-64-64-64H128c-35.3 0-64 28.7-64 64zm0 80v176c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V272H64zm64 152c0-13.3 10.7-24 24-24h48c13.3 0 24 10.7 24 24s-10.7 24-24 24h-48c-13.3 0-24-10.7-24-24zm144 0c0-13.3 10.7-24 24-24h64c13.3 0 24 10.7 24 24s-10.7 24-24 24h-64c-13.3 0-24-10.7-24-24z"/></g></symbol><symbol id="trm-icon-dollar-deposit" viewBox="0 0 640 640"><g transform="translate(44.8 44.8) scale(.86)"><path d="M31 169c-9.4-9.4-9.4-24.6 0-33.9l72-72.1c9.4-9.4 24.6-9.4 33.9 0 9.3 9.4 9.4 24.6 0 33.9l-31 31h406c35.3 0 64 28.7 64 64v178.2l-5.1-5.1c-28.1-28.1-73.7-28.1-101.8 0-27.2 27.2-28.1 70.6-2.8 98.9h67.7l-31-31c-9.4-9.4-9.4-24.6 0-33.9 9.4-9.3 24.6-9.4 33.9 0l72 72c9.4 9.4 9.4 24.6 0 33.9l-72 72c-9.4 9.4-24.6 9.4-33.9 0-9.3-9.4-9.4-24.6 0-33.9l31-31H127.8c-35.3 0-64-28.7-64-64V269.8l5.1 5.1c28.1 28.1 73.7 28.1 101.8 0 27.2-27.2 28.1-70.6 2.8-98.9h-67.7l31 31c9.4 9.4 9.4 24.6 0 33.9-9.4 9.3-24.6 9.4-33.9 0L31 169zm385 151c0-53-43-96-96-96s-96 43-96 96 43 96 96 96 96-43 96-96zm88-64.5c4.4.5 8-3.1 8-7.5v-48c0-4.4-3.6-8-8-8h-48c-4.4 0-8.1 3.6-7.5 8 3.6 29 26.6 51.9 55.5 55.5zM136 384.5c-4.4-.5-8 3.1-8 7.5v48c0 4.4 3.6 8 8 8h48c4.4 0 8.1-3.6 7.5-8-3.6-29-26.6-51.9-55.5-55.5z"/></g></symbol><symbol id="trm-icon-dollar-withdrawal" viewBox="0 0 640 640"><g transform="translate(44.8 44.8) scale(.86)"><path d="M544 72c0-13.3-10.7-24-24-24H418.2c-13.3 0-24 10.7-24 24s10.7 24 24 24h43.9L350.8 207.3l-95.1-81.5c-9-7.7-22.2-7.7-31.2 0l-112 96c-10.1 8.6-11.2 23.8-2.6 33.8s23.8 11.2 33.8 2.6l96.4-82.6 96.4 82.6c9.5 8.2 23.7 7.6 32.6-1.3l127-127v43.9c0 13.3 10.7 24 24 24s24-10.7 24-24V72zM112 320c-26.5 0-48 21.5-48 48v160c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V368c0-26.5-21.5-48-48-48H112zm47.3 56c-3.4 20.1-19.2 36-39.4 39.4-4.4.7-8-2.9-8-7.3v-32c0-4.4 3.6-8 8-8h32c4.4 0 8.1 3.6 7.3 8zm0 144c.7 4.4-2.9 8-7.3 8h-32c-4.4 0-8-3.6-8-8v-32c0-4.4 3.6-8.1 8-7.3 20.1 3.4 36 19.2 39.4 39.4zM520 480.7c4.4-.7 8 2.9 8 7.3v32c0 4.4-3.6 8-8 8h-32c-4.4 0-8.1-3.6-7.3-8 3.4-20.1 19.2-36 39.4-39.3zM480.7 376c-.7-4.4 2.9-8 7.3-8h32c4.4 0 8 3.6 8 8v32c0 4.4-3.6 8.1-8 7.3-20.1-3.4-36-19.2-39.3-39.3zM256 448c0-35.3 28.7-64 64-64s64 28.7 64 64-28.7 64-64 64-64-28.7-64-64z"/></g></symbol><symbol id="trm-icon-film" viewBox="0 0 640 640"><g transform="translate(44.8 44.8) scale(.86)"><path d="M96 160C96 124.7 124.7 96 160 96L480 96C515.3 96 544 124.7 544 160L544 480C544 515.3 515.3 544 480 544L160 544C124.7 544 96 515.3 96 480L96 160zM144 432L144 464C144 472.8 151.2 480 160 480L192 480C200.8 480 208 472.8 208 464L208 432C208 423.2 200.8 416 192 416L160 416C151.2 416 144 423.2 144 432zM448 416C439.2 416 432 423.2 432 432L432 464C432 472.8 439.2 480 448 480L480 480C488.8 480 496 472.8 496 464L496 432C496 423.2 488.8 416 480 416L448 416zM144 304L144 336C144 344.8 151.2 352 160 352L192 352C200.8 352 208 344.8 208 336L208 304C208 295.2 200.8 288 192 288L160 288C151.2 288 144 295.2 144 304zM448 288C439.2 288 432 295.2 432 304L432 336C432 344.8 439.2 352 448 352L480 352C488.8 352 496 344.8 496 336L496 304C496 295.2 488.8 288 480 288L448 288zM144 176L144 208C144 216.8 151.2 224 160 224L192 224C200.8 224 208 216.8 208 208L208 176C208 167.2 200.8 160 192 160L160 160C151.2 160 144 167.2 144 176zM448 160C439.2 160 432 167.2 432 176L432 208C432 216.8 439.2 224 448 224L480 224C488.8 224 496 216.8 496 208L496 176C496 167.2 488.8 160 480 160L448 160z"/></g></symbol><symbol id="trm-icon-football" viewBox="0 0 640 640"><g transform="translate(35.2 35.2) scale(.89)"><path d="M325.1 86.6C236.1 104.6 174.6 150 135.1 210.5c-23.3 35.6-38.1 75.3-46.7 115.5l227.5 227.4c89-18 150.5-63.4 190.1-123.9 23.3-35.6 38.1-75.3 46.7-115.5L325.1 86.6zm236 168.1c3.2-42.3.7-83.3-4.8-118.7-4.4-27.8-26.8-48-53.1-51.6-43-5.9-82.2-7.5-117.8-5.4l175.7 175.7zM255.7 561.1L79.9 385.4c-3.2 42.3-.7 83.3 4.8 118.7 4.4 27.8 26.8 48 53.1 51.6 43 5.9 82.2 7.5 117.8 5.4zM335.5 207c9.4-9.4 24.6-9.4 33.9 0l64 64c9.4 9.4 9.4 24.6 0 33.9-9.4 9.3-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9zm-64 64c9.4-9.4 24.6-9.4 33.9 0l64 64c9.4 9.4 9.4 24.6 0 33.9-9.4 9.3-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9zm-64 64c9.4-9.4 24.6-9.4 33.9 0l64 64c9.4 9.4 9.4 24.6 0 33.9-9.4 9.3-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9z"/></g></symbol><symbol id="trm-icon-grid" viewBox="0 0 16 16"><g transform="translate(0.96 0.96) scale(.88)"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 1H1V7H7V1ZM7 9H1V15H7V9ZM9 1H15V7H9V1ZM15 9H9V15H15V9Z"/></g></symbol><symbol id="trm-icon-hockey" viewBox="0 0 640 640"><g transform="translate(51.2 51.2) scale(.84)"><path d="M320 320C178.6 320 64 277 64 224C64 171 178.6 128 320 128C461.4 128 576 171 576 224C576 277 461.4 320 320 320zM64 416L64 306.7C80.9 319 101 328.9 122.1 336.8C175.1 356.7 245.1 368 320 368C394.9 368 464.9 356.7 517.9 336.8C539.1 328.9 559.1 319 576 306.7L576 416C576 469 461.4 512 320 512C178.6 512 64 469 64 416z"/></g></symbol><symbol id="trm-icon-horse" viewBox="0 0 640 640"><g transform="translate(51.2 51.2) scale(.84)"><path d="M64 528L64 380.9C64 272.5 132.3 175.8 234.5 139.6L404.2 79.5C425.6 71.9 448 87.8 448 110.4C448 121.4 442.5 131.6 433.4 137.7L400 160C448.1 160 491.2 189.8 508.1 234.9L556.7 364.4C568.5 395.8 560.8 431.2 537.1 454.9C521.1 470.9 499.3 480 476.6 480L473.2 480C447.1 480 422.3 468.4 405.6 448.3L373.3 409.6C361.6 413.7 349.1 416 336 416L335.9 416C329.6 416 323.4 415.5 317.3 414.5C313.7 413.9 310.1 413.1 306.6 412.2L306.6 412.2C277.7 404.4 253.5 385.4 238.8 360C234.4 352.3 224.6 349.7 216.9 354.2C209.2 358.7 206.6 368.4 211.1 376.1C235.1 417.6 279.4 446.1 330.4 448L377.6 518.8C381.6 524.9 383.8 532 383.8 539.2C383.8 559.5 367.3 576 347 576L112 576C85.5 576 64 554.5 64 528zM392 288C405.3 288 416 277.3 416 264C416 250.7 405.3 240 392 240C378.7 240 368 250.7 368 264C368 277.3 378.7 288 392 288z"/></g></symbol><symbol id="trm-icon-network" viewBox="0 0 640 640"><g transform="translate(38.4 38.4) scale(.88)"><path d="M156.7 122.8l78.4 78.4C253.3 176.2 264 145.3 264 112c0-14.1-1.9-27.7-5.5-40.6-38 9.4-72.6 27.2-101.8 51.4zM122.8 156.7C98.6 185.9 80.8 220.5 71.4 258.5c12.9 3.6 26.5 5.5 40.6 5.5 33.3 0 64.1-10.7 89.2-28.9l-78.4-78.4zM320 64c-4.6 0-9.2.1-13.7.4 3.7 15.3 5.7 31.2 5.7 47.6 0 46.6-15.9 89.4-42.6 123.4L320 286.1l163.3-163.3C438.9 86.1 382.1 64 320 64zM112 312c-16.4 0-32.4-2-47.6-5.7-.2 4.5-.4 9.1-.4 13.7 0 62.1 22.1 118.9 58.8 163.3L286.1 320l-50.7-50.6C201.4 296.1 158.6 312 112 312zM575.6 333.7c.2-4.5.4-9.1.4-13.7 0-62.1-22.1-118.9-58.8-163.3L353.9 320l50.7 50.6C438.6 343.9 481.5 328 528 328c16.4 0 32.4 2 47.6 5.7zM568.5 381.5c-12.9-3.6-26.5-5.5-40.6-5.5-33.3 0-64.1 10.7-89.2 28.9l78.4 78.4c24.2-29.2 42-63.8 51.4-101.8zM404.9 438.8C386.7 463.8 376 494.7 376 528c0 14.1 1.9 27.7 5.5 40.6 38-9.4 72.6-27.2 101.8-51.4l-78.4-78.4zM370.6 404.5L320 353.9 156.7 517.2C201 553.9 257.9 576 320 576c4.6 0 9.2-.1 13.7-.4-3.7-15.3-5.7-31.2-5.7-47.6 0-46.6 15.9-89.4 42.6-123.4z"/></g></symbol></svg>
+<!-- /TRM SVG Icons sprite -->
+<script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://www.legalsportsbetting.com/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script>
+</body>
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1794325582 -->

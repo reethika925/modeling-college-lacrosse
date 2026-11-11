@@ -1,0 +1,114 @@
+{
+  "inputMD5Sum": "64a895e05430a87f88fa6407f22504ef",
+  "instanceId": "233c8fe9715e4a11b4c9220fd898188f",
+  "updated_at": "05-26-2025 15:27:00",
+  "games": [
+    {"game": {
+      "gameID": "590696",
+      "away": {
+        "score": "12",
+        "names": {
+          "char6": "RICH",
+          "short": "Richmond",
+          "seo": "richmond",
+          "full": "University of Richmond"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(14-3)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Atlantic 10",
+          "conferenceSeo": "atlantic-10"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "Quarterfinals",
+      "title": "Cornell Richmond",
+      "contestName": "",
+      "url": "/game/6448511",
+      "network": "ESPNU",
+      "home": {
+        "score": "13",
+        "names": {
+          "char6": "CORN",
+          "short": "Cornell",
+          "seo": "cornell",
+          "full": "Cornell University"
+        },
+        "winner": true,
+        "seed": "1",
+        "description": "(15-1)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Ivy League",
+          "conferenceSeo": "ivy-league"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "12:00PM ET",
+      "startTimeEpoch": "1747497600",
+      "bracketId": "301",
+      "gameState": "final",
+      "startDate": "05-17-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "590697",
+      "away": {
+        "score": "19",
+        "names": {
+          "char6": "SYR",
+          "short": "Syracuse",
+          "seo": "syracuse",
+          "full": "Syracuse University"
+        },
+        "winner": true,
+        "seed": "6",
+        "description": "(12-5)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "ACC",
+          "conferenceSeo": "acc"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "Quarterfinals",
+      "title": "Princeton Syracuse",
+      "contestName": "",
+      "url": "/game/6448514",
+      "network": "ESPNU",
+      "home": {
+        "score": "18",
+        "names": {
+          "char6": "PRINCE",
+          "short": "Princeton",
+          "seo": "princeton",
+          "full": "Princeton University"
+        },
+        "winner": false,
+        "seed": "3",
+        "description": "(13-3)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Ivy League",
+          "conferenceSeo": "ivy-league"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "02:30PM ET",
+      "startTimeEpoch": "1747506600",
+      "bracketId": "304",
+      "gameState": "final",
+      "startDate": "05-17-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }}
+  ],
+  "hideRank": true
+}

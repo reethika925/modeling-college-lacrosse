@@ -1,0 +1,59 @@
+{
+  "inputMD5Sum": "2fbeef1df37cba6439a43b1c8e68e53c",
+  "instanceId": "0251b550d1254b71939edd3d454658f3",
+  "updated_at": "06-12-2025 09:22:19",
+  "games": [{"game": {
+    "gameID": "6309760",
+    "away": {
+      "score": "9",
+      "names": {
+        "char6": "BROWN",
+        "short": "Brown",
+        "seo": "brown",
+        "full": "Brown University"
+      },
+      "winner": false,
+      "seed": "",
+      "description": "(2-5)",
+      "rank": "",
+      "conferences": [{
+        "conferenceName": "Ivy League",
+        "conferenceSeo": "ivy-league"
+      }]
+    },
+    "finalMessage": "FINAL",
+    "bracketRound": "",
+    "title": "Villanova Brown",
+    "contestName": "",
+    "url": "/game/6386097",
+    "network": "",
+    "home": {
+      "score": "16",
+      "names": {
+        "char6": "NOVA",
+        "short": "Villanova",
+        "seo": "villanova",
+        "full": "Villanova University"
+      },
+      "winner": true,
+      "seed": "",
+      "description": "(3-5)",
+      "rank": "",
+      "conferences": [{
+        "conferenceName": "Big East",
+        "conferenceSeo": "big-east"
+      }]
+    },
+    "liveVideoEnabled": false,
+    "startTime": "TBA",
+    "startTimeEpoch": "1742184000",
+    "bracketId": "",
+    "gameState": "final",
+    "startDate": "03-17-2025",
+    "currentPeriod": "FINAL",
+    "videoState": "",
+    "bracketRegion": "",
+    "contestClock": "0:00"
+  }}],
+  "hideRank": false
+}

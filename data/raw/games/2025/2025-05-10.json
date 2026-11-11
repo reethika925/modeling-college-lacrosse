@@ -1,0 +1,220 @@
+{
+  "inputMD5Sum": "405e352d4e52942df0c03be701e0021d",
+  "instanceId": "233c8fe9715e4a11b4c9220fd898188f",
+  "updated_at": "05-26-2025 15:27:00",
+  "games": [
+    {"game": {
+      "gameID": "589840",
+      "away": {
+        "score": "13",
+        "names": {
+          "char6": "RICH",
+          "short": "Richmond",
+          "seo": "richmond",
+          "full": "University of Richmond"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(13-3)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Atlantic 10",
+          "conferenceSeo": "atlantic-10"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "First Round",
+      "title": "North Carolina Richmond",
+      "contestName": "",
+      "url": "/game/6448504",
+      "network": "",
+      "home": {
+        "score": "10",
+        "names": {
+          "char6": "UNC",
+          "short": "North Carolina",
+          "seo": "north-carolina",
+          "full": "University of North Carolina, Chapel Hill"
+        },
+        "winner": false,
+        "seed": "8",
+        "description": "(10-4)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "ACC",
+          "conferenceSeo": "acc"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "12:00PM ET",
+      "startTimeEpoch": "1746892800",
+      "bracketId": "202",
+      "gameState": "final",
+      "startDate": "05-10-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "589867",
+      "away": {
+        "score": "12",
+        "names": {
+          "char6": "TOWSON",
+          "short": "Towson",
+          "seo": "towson",
+          "full": "Towson University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(11-5)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "CAA",
+          "conferenceSeo": "caa"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "First Round",
+      "title": "Princeton Towson",
+      "contestName": "",
+      "url": "/game/6448510",
+      "network": "",
+      "home": {
+        "score": "22",
+        "names": {
+          "char6": "PRINCE",
+          "short": "Princeton",
+          "seo": "princeton",
+          "full": "Princeton University"
+        },
+        "winner": true,
+        "seed": "3",
+        "description": "(12-3)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Ivy League",
+          "conferenceSeo": "ivy-league"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "02:30PM ET",
+      "startTimeEpoch": "1746901800",
+      "bracketId": "208",
+      "gameState": "final",
+      "startDate": "05-10-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "589847",
+      "away": {
+        "score": "11",
+        "names": {
+          "char6": "COLGAT",
+          "short": "Colgate",
+          "seo": "colgate",
+          "full": "Colgate University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(10-7)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Patriot",
+          "conferenceSeo": "patriot"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "First Round",
+      "title": "Penn St. Colgate",
+      "contestName": "",
+      "url": "/game/6448505",
+      "network": "",
+      "home": {
+        "score": "13",
+        "names": {
+          "char6": "PENNST",
+          "short": "Penn St.",
+          "seo": "penn-st",
+          "full": "Pennsylvania State University"
+        },
+        "winner": true,
+        "seed": "5",
+        "description": "(10-4)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Big Ten",
+          "conferenceSeo": "big-ten"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "05:00PM ET",
+      "startTimeEpoch": "1746910800",
+      "bracketId": "203",
+      "gameState": "final",
+      "startDate": "05-10-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "589869",
+      "away": {
+        "score": "16",
+        "names": {
+          "char6": "GTOWN",
+          "short": "Georgetown",
+          "seo": "georgetown",
+          "full": "Georgetown University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(11-4)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Big East",
+          "conferenceSeo": "big-east"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "First Round",
+      "title": "Duke Georgetown",
+      "contestName": "",
+      "url": "/game/6448508",
+      "network": "",
+      "home": {
+        "score": "12",
+        "names": {
+          "char6": "DUKE",
+          "short": "Duke",
+          "seo": "duke",
+          "full": "Duke University"
+        },
+        "winner": false,
+        "seed": "7",
+        "description": "(12-5)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "ACC",
+          "conferenceSeo": "acc"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "07:30PM ET",
+      "startTimeEpoch": "1746919800",
+      "bracketId": "206",
+      "gameState": "final",
+      "startDate": "05-10-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }}
+  ],
+  "hideRank": true
+}

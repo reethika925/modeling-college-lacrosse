@@ -1,0 +1,71 @@
+record,dataset,status,reason,evidence
+"game_id=6287553 (Penn 9-12 Georgetown, 2024-02-15)",ncaa_lacrosse_games_2024,rejected,phantom duplicate of 6269696; removed_from_games_file; no box score; official school schedule shows a single meeting on the kept game's date,evidence/guhoyas.com_2024_schedule.html
+"game_id=6291301 (UMBC 4-13 Richmond, 2024-03-07)",ncaa_lacrosse_games_2024,rejected,phantom duplicate of 6269855; removed_from_games_file; no box score; official school schedule shows a single meeting on the kept game's date,evidence/umbcretrievers.com_2024_schedule.html
+"game_id=6291605 (Syracuse 14-13 Johns Hopkins, 2024-03-07)",ncaa_lacrosse_games_2024,rejected,phantom duplicate of 6269528; removed_from_games_file; no box score; official school schedule shows a single meeting on the kept game's date,evidence/hopkinssports.com_2024_schedule.html
+"game_id=6444405 (Hampton 4-29 Fairfield, 2025-03-13)",ncaa_lacrosse_game_index_2025,rejected,phantom duplicate of 6386334; kept_in_2025_index_flagged; no box score; Hampton official schedule shows one meeting (2025-03-15),evidence/fairfieldstags.com_2025_schedule.html | evidence/hamptonpirates.com_2025_schedule.html
+game_id=6136266,ncaa_lacrosse_games_2023,verified,kept after correction: status:pre->final(verified);home_score:nan->16(verified);away_score:nan->6(verified);,evidence/mountathletics.com_2023_schedule.html
+game_id=6085531,ncaa_lacrosse_games_2023,provisional,kept after correction: neutral_site:nan->True(provisional);,evidence/gomarquette.com_2023_schedule.html
+game_id=6138525,ncaa_lacrosse_games_2023,verified,kept after correction: game_date:2023-03-01->2023-03-02(verified);,evidence/detroittitans.com_2023_schedule.html | evidence/gomarquette.com_2023_schedule.html
+game_id=6085574,ncaa_lacrosse_games_2023,verified,kept after correction: neutral_site:nan->True(verified);,evidence/highpointpanthers.com_2023_schedule.html
+game_id=6085658,ncaa_lacrosse_games_2023,provisional,kept after correction: neutral_site:nan->True(provisional);,evidence/gomarquette.com_2023_schedule.html
+game_id=6149819,ncaa_lacrosse_games_2023,verified,kept after correction: neutral_site:nan->True(verified);,evidence/mountathletics.com_2023_schedule.html
+game_id=6085550 (Mitchell vs Hartford),ncaa_lacrosse_games_2023,provisional,"not a D-I vs D-I contest (Hartford was moving to D-III and NCAA box lists division 3 for its games; St. Andrews and Wabash are non-D-I); result real, exclude from D-I vs D-I models",https://www.ncaa.com/game/6085550
+game_id=6085551 (St. Andrews vs Hampton),ncaa_lacrosse_games_2023,provisional,"not a D-I vs D-I contest (Hartford was moving to D-III and NCAA box lists division 3 for its games; St. Andrews and Wabash are non-D-I); result real, exclude from D-I vs D-I models",https://www.ncaa.com/game/6085551
+game_id=6085599 (Hampton vs Wabash),ncaa_lacrosse_games_2023,provisional,"not a D-I vs D-I contest (Hartford was moving to D-III and NCAA box lists division 3 for its games; St. Andrews and Wabash are non-D-I); result real, exclude from D-I vs D-I models",https://www.ncaa.com/game/6085599
+game_id=6085638 (Randolph vs Hartford),ncaa_lacrosse_games_2023,provisional,"not a D-I vs D-I contest (Hartford was moving to D-III and NCAA box lists division 3 for its games; St. Andrews and Wabash are non-D-I); result real, exclude from D-I vs D-I models",https://www.ncaa.com/game/6085638
+game_id=6085705 (Saint Joseph (CT) vs Hartford),ncaa_lacrosse_games_2023,provisional,"not a D-I vs D-I contest (Hartford was moving to D-III and NCAA box lists division 3 for its games; St. Andrews and Wabash are non-D-I); result real, exclude from D-I vs D-I models",https://www.ncaa.com/game/6085705
+game_id=6085730 (Gordon vs Hartford),ncaa_lacrosse_games_2023,provisional,"not a D-I vs D-I contest (Hartford was moving to D-III and NCAA box lists division 3 for its games; St. Andrews and Wabash are non-D-I); result real, exclude from D-I vs D-I models",https://www.ncaa.com/game/6085730
+game_id=6085770 (Salem St. vs Hartford),ncaa_lacrosse_games_2023,provisional,"not a D-I vs D-I contest (Hartford was moving to D-III and NCAA box lists division 3 for its games; St. Andrews and Wabash are non-D-I); result real, exclude from D-I vs D-I models",https://www.ncaa.com/game/6085770
+game_id=6085858 (Regis (MA) vs Hartford),ncaa_lacrosse_games_2023,provisional,"not a D-I vs D-I contest (Hartford was moving to D-III and NCAA box lists division 3 for its games; St. Andrews and Wabash are non-D-I); result real, exclude from D-I vs D-I models",https://www.ncaa.com/game/6085858
+234 games (see audit_status/audit_basis in ncaa_lacrosse_games_2023_corrected.csv),ncaa_lacrosse_games_2023,provisional,NCAA scoreboard only: no ESPN listing and no school page checked; internally consistent with box score,
+game_id=6297607,ncaa_lacrosse_games_2024,verified,kept after correction: neutral_site:nan->True(verified);,evidence/hopkinssports.com_2024_schedule.html
+game_id=6299061,ncaa_lacrosse_games_2024,verified,kept after correction: neutral_site:nan->True(verified);,evidence/guhoyas.com_2024_schedule.html
+game_id=6292101,ncaa_lacrosse_games_2024,verified,kept after correction: neutral_site:nan->True(verified);,evidence/hopkinssports.com_2024_schedule.html
+274 games (see audit_status/audit_basis in ncaa_lacrosse_games_2024_corrected.csv),ncaa_lacrosse_games_2024,provisional,NCAA scoreboard only: no ESPN listing and no school page checked; internally consistent with box score,
+game_id=6455124,ncaa_lacrosse_game_index_2025,rejected,LIU 10-9 Quinnipiac (OT) 2025-04-20 appears on neither LIU's nor Quinnipiac's official 2025 schedule; ~11 of 24 players per side appear in no other 2025 game for that team; likely an exhibition/non-countable contest posted to the NCAA scoreboard,https://www.ncaa.com/game/6455124
+game_id=6454179,ncaa_lacrosse_game_index_2025,verified,kept after correction: game_date:2025-02-15->2025-02-16(verified);,evidence/stonybrookathletics.com_2025_schedule.html
+game_id=6386400,ncaa_lacrosse_game_index_2025,verified,kept after correction: game_date:2025-02-23->2025-02-22(verified);,evidence/lemoynedolphins.com_2025_schedule.html
+game_id=6449835,ncaa_lacrosse_game_index_2025,verified,kept after correction: game_date:2025-04-05->2025-04-12(verified);,evidence/binghamton_2025_schedule.html | evidence/umbc_recap_2025-04-12.html | evidence/umbcretrievers.com_2025_schedule.html
+1 games (see audit_status/audit_basis in ncaa_lacrosse_game_index_2025_corrected.csv),ncaa_lacrosse_game_index_2025,provisional,NCAA scoreboard only: no ESPN listing and no school page checked; internally consistent with box score,
+game 6386248,game_index_2025,provisional,NCAA score LIU 15-9 Bellarmine vs ESPN 14-9,ESPN event 401758423
+team_game 6147943/Michigan,team_game_stats,provisional,box-score goals 14 != final score 15 (box incomplete; result itself verified),https://www.ncaa.com/game/6147943/boxscore
+team_game 6147954/Duke,team_game_stats,provisional,box-score goals 15 != final score 16 (box incomplete; result itself verified),https://www.ncaa.com/game/6147954/boxscore
+team_game 6147955/Notre Dame,team_game_stats,provisional,box-score goals 12 != final score 13 (box incomplete; result itself verified),https://www.ncaa.com/game/6147955/boxscore
+player_rows 6085642/1387632,player_stats,provisional,sum of player goals 14 != team goals 13,https://www.ncaa.com/game/6085642/boxscore
+player_rows 6085752/43849,player_stats,provisional,sum of player goals 8 != team goals 9,https://www.ncaa.com/game/6085752/boxscore
+player_rows 6269652/59134,player_stats,provisional,sum of player goals 2 != team goals 3,https://www.ncaa.com/game/6269652/boxscore
+player_rows 6269670/43881,player_stats,provisional,sum of player goals 9 != team goals 10,https://www.ncaa.com/game/6269670/boxscore
+player_rows 6269778/43787,player_stats,provisional,sum of player goals 9 != team goals 10,https://www.ncaa.com/game/6269778/boxscore
+player_rows 6269848/43833,player_stats,provisional,sum of player goals 17 != team goals 16,https://www.ncaa.com/game/6269848/boxscore
+player_rows 6269923/43831,player_stats,provisional,sum of player goals 13 != team goals 12,https://www.ncaa.com/game/6269923/boxscore
+player_rows 6386105/51663,player_stats,provisional,sum of player goals 15 != team goals 16,https://www.ncaa.com/game/6386105/boxscore
+player_rows 6386359/43982,player_stats,provisional,sum of player goals 12 != team goals 13,https://www.ncaa.com/game/6386359/boxscore
+player_rows 6386399/43849,player_stats,provisional,sum of player goals 15 != team goals 16,https://www.ncaa.com/game/6386399/boxscore
+player_rows 6386488/43718,player_stats,provisional,sum of player goals 3 != team goals 2,https://www.ncaa.com/game/6386488/boxscore
+player_rows 6386490/43941,player_stats,provisional,sum of player goals 13 != team goals 12,https://www.ncaa.com/game/6386490/boxscore
+player_rows 6440943/1372302,player_stats,provisional,sum of player goals 11 != team goals 10,https://www.ncaa.com/game/6440943/boxscore
+player_rows 6452095/43829,player_stats,provisional,sum of player goals 12 != team goals 13,https://www.ncaa.com/game/6452095/boxscore
+team_game 6085451/Quinnipiac,team_game_stats,provisional,EMO goals 4 > EMO opportunities 2 (as published by NCAA),https://www.ncaa.com/game/6085451/boxscore
+team_game 6085693/Merrimack,team_game_stats,provisional,EMO goals 2 > EMO opportunities 1 (as published by NCAA),https://www.ncaa.com/game/6085693/boxscore
+team_game 6269576/Mercer,team_game_stats,provisional,EMO goals 3 > EMO opportunities 2 (as published by NCAA),https://www.ncaa.com/game/6269576/boxscore
+team_game 6269595/Stony Brook,team_game_stats,provisional,EMO goals 5 > EMO opportunities 4 (as published by NCAA),https://www.ncaa.com/game/6269595/boxscore
+team_game 6269660/Merrimack,team_game_stats,provisional,EMO goals 3 > EMO opportunities 2 (as published by NCAA),https://www.ncaa.com/game/6269660/boxscore
+team_game 6269841/Harvard,team_game_stats,provisional,EMO goals 2 > EMO opportunities 1 (as published by NCAA),https://www.ncaa.com/game/6269841/boxscore
+team_game 6269877/Colgate,team_game_stats,provisional,EMO goals 6 > EMO opportunities 5 (as published by NCAA),https://www.ncaa.com/game/6269877/boxscore
+team_game 6270144/Stony Brook,team_game_stats,provisional,EMO goals 3 > EMO opportunities 1 (as published by NCAA),https://www.ncaa.com/game/6270144/boxscore
+team_game 6297611/Sacred Heart,team_game_stats,provisional,EMO goals 1 > EMO opportunities 0 (as published by NCAA),https://www.ncaa.com/game/6297611/boxscore
+team_game 6386486/Manhattan,team_game_stats,provisional,EMO goals 1 > EMO opportunities 0 (as published by NCAA),https://www.ncaa.com/game/6386486/boxscore
+team_game 6386541/UMass Lowell,team_game_stats,provisional,EMO goals 1 > EMO opportunities 0 (as published by NCAA),https://www.ncaa.com/game/6386541/boxscore
+game_id=6269867 player Pio (Jacksonville),ncaa_lacrosse_player_stats_2023_2025,provisional,player shots_on_goal 3 > shots 1 as published by NCAA box,https://www.ncaa.com/game/6269867/boxscore
+odds_game_id=2023-02-04_hofstra_vs_merrimack -> ncaa 6131581,odds_game_to_ncaa_game_crosswalk,provisional,"odds date 2023-02-04 vs NCAA 2023-02-05; official school schedule confirms NCAA date, so the odds-side date is a day early (for the odds worker)",evidence/merrimackathletics.com_2023_schedule.html
+odds_game_id=2023-02-04_holy-cross_vs_providence -> ncaa 6085416,odds_game_to_ncaa_game_crosswalk,provisional,"odds date 2023-02-04 vs NCAA 2023-02-05; official school schedule confirms NCAA date, so the odds-side date is a day early (for the odds worker)",evidence/goholycross.com_2023_schedule.html
+odds_game_id=2023-03-04_towson_vs_umbc -> ncaa 6139977,odds_game_to_ncaa_game_crosswalk,provisional,"odds date 2023-03-04 vs NCAA 2023-03-05; official school schedule confirms NCAA date, so the odds-side date is a day early (for the odds worker)",evidence/umbcretrievers.com_2023_schedule.html
+game_id=6386269 (UMass Lowell vs Merrimack),ncaa_lacrosse_game_index_2025,verified,"NCAA date 2025-02-07 vs ESPN date 2025-02-08: official school date 2025-02-07 -> NCAA date correct, ESPN date wrong",evidence/goriverhawks.com_2025_schedule.html
+game_id=6454179 (Queens (NC) vs Stony Brook),ncaa_lacrosse_game_index_2025,verified,NCAA date 2025-02-15 vs ESPN date 2025-02-16: official school date 2025-02-16 -> NCAA date corrected,evidence/stonybrookathletics.com_2025_schedule.html
+game_id=6386400 (Le Moyne vs Lafayette),ncaa_lacrosse_game_index_2025,verified,NCAA date 2025-02-23 vs ESPN date 2025-02-22: official school date 2025-02-22 -> NCAA date corrected,evidence/lemoynedolphins.com_2025_schedule.html
+game_ids=6085513/6085540,same_team_within_1_day,verified,"High Point played Navy 02-25 and Hampton 02-26; both games on official high-point schedule with same scores: genuine, not duplicates",evidence/highpointpanthers.com_2023_schedule.html
+game_ids=6085414/6085425,same_team_within_1_day,verified,"Navy played Mount St. Mary's 02-04 and Queens 02-05; both games on official navy schedule with same scores: genuine, not duplicates",evidence/navysports.com_2023_schedule.html
+game_ids=6269576/6269597,same_team_within_1_day,verified,"Mercer two games on consecutive days; both games on official mercer schedule with same scores: genuine, not duplicates",evidence/mercerbears.com_2024_schedule.html
+game_ids=6386142/6386144,same_team_within_1_day,verified,"Iona two games on consecutive days; both games on official iona schedule with same scores: genuine, not duplicates",evidence/ionagaels.com_2025_schedule.html
+game_ids=6386158/6454179,same_team_within_1_day,verified,"Stony Brook 02-14 then Queens on 02-16 (after date correction); both games on official stony-brook schedule with same scores: genuine, not duplicates",evidence/stonybrookathletics.com_2025_schedule.html
+game_ids=6386543/6449835,same_team_within_1_day,verified,"UMBC vs UMass Lowell 04-04; Binghamton game is 04-12 after correction; both games on official umbc schedule with same scores: genuine, not duplicates",evidence/umbcretrievers.com_2025_schedule.html

@@ -1,0 +1,114 @@
+{
+  "inputMD5Sum": "f972daa830ebd31aa217e874d4e6ac2b",
+  "instanceId": "233c8fe9715e4a11b4c9220fd898188f",
+  "updated_at": "05-26-2025 15:27:00",
+  "games": [
+    {"game": {
+      "gameID": "589861",
+      "away": {
+        "score": "12",
+        "names": {
+          "char6": "N DAME",
+          "short": "Notre Dame",
+          "seo": "notre-dame",
+          "full": "University of Notre Dame"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(9-4)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "ACC",
+          "conferenceSeo": "acc"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "Quarterfinals",
+      "title": "Penn St. Notre Dame",
+      "contestName": "",
+      "url": "/game/6448512",
+      "network": "ESPNU",
+      "home": {
+        "score": "14",
+        "names": {
+          "char6": "PENNST",
+          "short": "Penn St.",
+          "seo": "penn-st",
+          "full": "Pennsylvania State University"
+        },
+        "winner": true,
+        "seed": "5",
+        "description": "(11-4)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Big Ten",
+          "conferenceSeo": "big-ten"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "12:00PM ET",
+      "startTimeEpoch": "1747584000",
+      "bracketId": "302",
+      "gameState": "final",
+      "startDate": "05-18-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "589862",
+      "away": {
+        "score": "6",
+        "names": {
+          "char6": "GTOWN",
+          "short": "Georgetown",
+          "seo": "georgetown",
+          "full": "Georgetown University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(12-4)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Big East",
+          "conferenceSeo": "big-east"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "Quarterfinals",
+      "title": "Maryland Georgetown",
+      "contestName": "",
+      "url": "/game/6448513",
+      "network": "ESPNU",
+      "home": {
+        "score": "9",
+        "names": {
+          "char6": "MD",
+          "short": "Maryland",
+          "seo": "maryland",
+          "full": "University of Maryland, College Park"
+        },
+        "winner": true,
+        "seed": "2",
+        "description": "(12-3)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Big Ten",
+          "conferenceSeo": "big-ten"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "02:30PM ET",
+      "startTimeEpoch": "1747593000",
+      "bracketId": "303",
+      "gameState": "final",
+      "startDate": "05-18-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }}
+  ],
+  "hideRank": true
+}

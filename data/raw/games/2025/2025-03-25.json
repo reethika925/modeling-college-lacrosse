@@ -1,0 +1,114 @@
+{
+  "inputMD5Sum": "4cf9aabf338a392b6fc267df0d6e3aa2",
+  "instanceId": "cb568ce4771f4a24887c3e0107d75534",
+  "updated_at": "06-12-2025 09:25:02",
+  "games": [
+    {"game": {
+      "gameID": "6309647",
+      "away": {
+        "score": "7",
+        "names": {
+          "char6": "BU",
+          "short": "Boston U.",
+          "seo": "boston-u",
+          "full": "Boston University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(7-2)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Patriot",
+          "conferenceSeo": "patriot"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Harvard Boston U.",
+      "contestName": "",
+      "url": "/game/6386067",
+      "network": "",
+      "home": {
+        "score": "16",
+        "names": {
+          "char6": "HARV",
+          "short": "Harvard",
+          "seo": "harvard",
+          "full": "Harvard University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(6-2)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Ivy League",
+          "conferenceSeo": "ivy-league"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742875200",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-25-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6312395",
+      "away": {
+        "score": "6",
+        "names": {
+          "char6": "BINGHA",
+          "short": "Binghamton",
+          "seo": "binghamton",
+          "full": "Binghamton University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(5-4)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "America East",
+          "conferenceSeo": "america-east"
+        }]
+      },
+      "finalMessage": "FINAL (OT)",
+      "bracketRound": "",
+      "title": "St. Bonaventure Binghamton",
+      "contestName": "",
+      "url": "/game/6386465",
+      "network": "",
+      "home": {
+        "score": "5",
+        "names": {
+          "char6": "STBONA",
+          "short": "St. Bonaventure",
+          "seo": "st-bonaventure",
+          "full": "St. Bonaventure University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(5-6)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Atlantic 10",
+          "conferenceSeo": "atlantic-10"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742875200",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-25-2025",
+      "currentPeriod": "FINAL (OT)",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }}
+  ],
+  "hideRank": false
+}

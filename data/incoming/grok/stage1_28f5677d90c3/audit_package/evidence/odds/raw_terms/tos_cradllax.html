@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0c0d0e">
+  <meta name="csrf-token" content="ImYwOTA3YWQ1NWZiMGYyODM1NDY5OTY0OGU1ZWIzM2Q5Nzg0YjZmYTUi.avNMpw.SNLK3-cqlvIyo9BzXZrXcVW_jB8">
+  <title>Terms of Service · Cradl</title>
+  <meta name="description" content="Live NCAA men's lacrosse scores, odds, Elo power rankings, bracketology, and AI game analysis, all free.">
+  
+  
+  <meta property="og:title" content="Cradl · NCAA Lacrosse Scores, Rankings & AI Analysis">
+  <meta property="og:description" content="Live NCAA men's lacrosse scores, odds, Elo power rankings, bracketology, and AI game analysis, all free.">
+  <meta property="og:image" content="https://cradllax.com/static/img/og-image.png?v=4ff0b1134a">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Cradl: everything college lacrosse. A map of every Division I men's lacrosse program.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://cradllax.com/terms">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Cradl · NCAA Lacrosse Scores, Rankings & AI Analysis">
+  <meta name="twitter:description" content="Live NCAA men's lacrosse scores, odds, Elo power rankings, bracketology, and AI game analysis, all free.">
+  <meta name="twitter:image" content="https://cradllax.com/static/img/og-image.png?v=4ff0b1134a">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/img/favicon-32.png?v=4">
+  <link rel="icon" type="image/x-icon" href="/static/img/favicon.ico?v=4">
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/img/apple-touch-icon.png">
+  <!-- Native iOS Smart App Banner (Safari on iPhone only) → CradlLax on the App Store -->
+  <meta name="apple-itunes-app" content="app-id=6760768007">
+  <script async src="https://plausible.io/js/pa-8citaJDwIZZS8MSRIG9kY.js"></script>
+  <script>window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()</script>
+  
+
+  <!-- Cradl webfonts: Big Shoulders Display (display) · Saira (UI/body) · JetBrains Mono (data), self-hosted -->
+  
+<link rel="preload" href="/static/fonts/saira-v23-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/static/fonts/big-shoulders-display-v24-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/static/css/fonts.css?v=c94ffb038d">
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+    crossorigin="anonymous"
+  >
+  <!-- Cradl Design System — tokens, base layer, brand motifs, shared components -->
+  <link rel="stylesheet" href="/static/css/cradl.css?v=f241d709ca">
+  <link rel="stylesheet" href="/static/css/picks.css?v=67d88188e1">
+  <script>
+    // Shared team-logo fallback (B48): when an ESPN logo fails to load, swap the
+    // image element for a monogram tile (initials on the neutral plate) instead of
+    // a blank gap. Mirrors app.utils.team_monogram so the client and the server
+    // no-id branch agree. Defined early so it exists before any body image errors.
+    window.crTeamMonogram = function (name) {
+      if (!name) return '?';
+      var parts = String(name).split(/\s+/).filter(Boolean);
+      if (parts.length >= 2) return parts.slice(0, 3).map(function (p) { return p[0]; }).join('').toUpperCase();
+      return (String(name).replace(/[^A-Za-z0-9]/g, '').slice(0, 3)).toUpperCase() || '?';
+    };
+    window.crLogoFallback = function (img) {
+      var span = document.createElement('span');
+      // keep the size + plate classes the image carried; add the monogram modifier
+      span.className = (img.className + ' cr-logo-mono').trim();
+      // prefer the server-computed initials (data-mono, agrees with team_monogram);
+      // fall back to parsing alt when a site sets a meaningful alt but no data-mono
+      var alt = img.getAttribute('alt') || '';
+      span.textContent = img.dataset.mono || window.crTeamMonogram(alt);
+      span.setAttribute('aria-hidden', 'true');
+      var label = alt || img.getAttribute('title') || '';
+      if (label) span.setAttribute('title', label);
+      if (img.style && img.style.cssText) span.style.cssText = img.style.cssText;
+      img.replaceWith(span);
+    };
+  </script>
+  
+<style>
+  .legal-content {
+    max-width: 760px;
+    margin: 0 auto 3rem;
+    background: var(--glass-bg);
+    color: var(--card-text);
+    border: 1px solid var(--glass-border);
+    border-top-color: var(--glass-border-top);
+    border-radius: var(--radius-card);
+    padding: 2rem 2.5rem;
+  }
+  .legal-content h1 {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: var(--text-1);
+    margin-bottom: .25rem;
+  }
+  .legal-content .last-updated {
+    font-size: .78rem;
+    color: var(--muted);
+    margin-bottom: 1.5rem;
+  }
+  .legal-content h2 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text-1);
+    margin: 1.5rem 0 .5rem;
+  }
+  .legal-content p, .legal-content li {
+    font-size: .88rem;
+    line-height: 1.6;
+    color: var(--text-secondary);
+  }
+  .legal-content ul { padding-left: 1.3rem; }
+  .legal-content li { margin-bottom: .3rem; }
+  .legal-content a { color: var(--accent); }
+  @media (max-width: 576px) {
+    .legal-content { padding: 1.25rem 1rem; }
+  }
+</style>
+
+</head>
+<body data-logged-in="false">
+  
+<svg xmlns="http://www.w3.org/2000/svg" class="cr-icon-sprite" aria-hidden="true" focusable="false" style="position:absolute;width:0;height:0;overflow:hidden">
+<symbol id="cr-ic-games" viewBox="0 0 511.999 511.999"><path d="M312 256c0-27.1-19.4-49.8-45-54.9v-44.1h34c6.1 0 11-4.9 11-11s-4.9-11-11-11h-34V91c0-6.1-4.9-11-11-11s-11 4.9-11 11v44h-34c-6.1 0-11 4.9-11 11s4.9 11 11 11h34v44.1c-25.6 5.1-45 27.8-45 54.9c0 27.1 19.4 49.8 45 54.9V355h-34c-6.1 0-11 4.9-11 11s4.9 11 11 11h34v44c0 6.1 4.9 11 11 11s11-4.9 11-11v-44h34c6.1 0 11-4.9 11-11s-4.9-11-11-11h-34v-44.1C292.6 305.8 312 283.1 312 256z M222 256c0-18.7 15.3-34 34-34s34 15.3 34 34c0 18.7-15.3 34-34 34S222 274.7 222 256z"/><path d="M426 220c-19.9 0-36 16.1-36 36c0 19.9 16.1 36 36 36c19.9 0 36-16.1 36-36C462 236.1 445.9 220 426 220z M426 270c-7.7 0-14-6.3-14-14c0-7.7 6.3-14 14-14c7.7 0 14 6.3 14 14C440 263.7 433.7 270 426 270z"/><path d="M86 220c-19.9 0-36 16.1-36 36c0 19.9 16.1 36 36 36s36-16.1 36-36C122 236.1 105.8 220 86 220z M86 270c-7.7 0-14-6.3-14-14c0-7.7 6.3-14 14-14s14 6.3 14 14C100 263.7 93.7 270 86 270z"/><path d="M501 75H11C4.9 75 0 79.9 0 86v340c0 6.1 4.9 11 11 11h490c6.1 0 11-4.9 11-11V86C512 79.9 507.1 75 501 75z M22 157h128v198H22V157z M172 97H340v318H172V97z M362 157h128v198H362V157z M490 135H362V97h128V135z M150 97v38H22V97H150z M22 377h128v38H22V377z M362 415v-38h128v38H362z"/><path d="M256 245h0c-6.1 0-11 4.9-11 11s4.9 11 11 11s11-4.9 11-11S262.1 245 256 245z"/></symbol>
+<symbol id="cr-ic-results" viewBox="0 0 512 512"><path d="M476 109.6c-54.6 0-99-44.2-99-98.6c0-6.1-4.9-11-11-11H146c-6.1 0-11 4.9-11 11c0 54.3-44.4 98.6-99 98.6c-6.1 0-11 4.9-11 11c0 71.3 4.4 162.9 39.1 238.5c17 37.1 40.4 68.3 69.5 92.9c32 27 72.2 47.1 119.6 59.7c0.9 0.2 1.9 0.4 2.8 0.4s1.9-0.1 2.8-0.4c47.3-12.6 87.6-32.7 119.6-59.7c29.2-24.6 52.6-55.9 69.5-92.9C482.6 283.4 487 191.9 487 120.6C487 114.5 482.1 109.6 476 109.6z M256 489.6C76.4 440.2 48.2 289.2 47 131.1C105 125.8 151.2 79.7 156.5 22h199c5.3 57.7 51.5 103.8 109.5 109.1C463.8 289.2 435.6 440.2 256 489.6z"/><path d="M338.2 52.8c-1.4-4.6-5.7-7.8-10.5-7.8H184.3c-4.8 0-9.1 3.2-10.5 7.8c-13.9 45.7-49.6 81.4-95.5 95.5c-4.7 1.5-7.9 5.9-7.8 10.9c1.8 58.7 8.9 144.1 49.2 208.7c29.2 46.8 72.7 78.5 133.1 96.9c1 0.3 2.1 0.5 3.2 0.5s2.2-0.2 3.2-0.5c60.4-18.4 103.9-50.1 133.1-96.9c40.3-64.6 47.4-150.1 49.2-208.7c0.2-5-3-9.4-7.8-10.9C387.8 134.2 352.1 98.5 338.2 52.8z M373.6 356.2c-25.7 41.3-64.2 69.6-117.6 86.5c-53.4-16.9-91.9-45.2-117.6-86.5c-27.7-44.3-42.2-104.7-45.6-189.6c46.4-16.8 82.8-53.3 99.4-99.6h127.5c16.7 46.3 53 82.8 99.4 99.6C415.8 251.4 401.3 311.8 373.6 356.2z"/><path d="M361.6 169c-8.8-8.8-19.8-14.5-30.9-16c-12.1-1.7-23.5 1.8-31.3 9.5c-9.4 9.4-10.7 18.4-11.7 24.9c-0.9 5.8-1.4 9.2-6.6 14.5c-10.4 10.4-12.6 26-6.5 38.6l-18.5 18.5l-18.5-18.5c6.1-12.6 4-28.2-6.5-38.6c-5.2-5.2-5.8-8.7-6.6-14.5c-1-6.6-2.4-15.6-11.7-24.9c-15.4-15.4-43.3-12.4-62.2 6.5c-19 19-21.9 46.9-6.5 62.2c9.4 9.4 18.4 10.7 24.9 11.7c5.8 0.9 9.2 1.4 14.5 6.6c6.6 6.6 15.2 9.9 23.9 9.9c5.1 0 10.1-1.1 14.8-3.4l18.5 18.5l-68.3 68.3c-4.3 4.3-4.3 11.3 0 15.6c2.1 2.1 5 3.2 7.8 3.2s5.6-1.1 7.8-3.2l68.3-68.3l68.3 68.3c2.1 2.1 5 3.2 7.8 3.2c2.8 0 5.6-1.1 7.8-3.2c4.3-4.3 4.3-11.3 0-15.6l-68.3-68.3l18.5-18.5c4.6 2.3 9.7 3.4 14.8 3.4c8.6 0 17.3-3.3 23.9-9.9c5.2-5.2 8.7-5.8 14.5-6.6c6.6-1 15.6-2.4 24.9-11.7C383.5 215.9 380.5 188 361.6 169z M198.9 234.1c-10.3-10.3-19.8-11.8-26.7-12.8c-5.4-0.8-8.4-1.3-12.7-5.5c-6.7-6.7-3.7-20.9 6.5-31.1c6.5-6.5 14.7-10.1 21.4-10.1c3.9 0 7.3 1.2 9.7 3.6c4.3 4.3 4.7 7.3 5.5 12.7c1.1 6.9 2.5 16.4 12.8 26.7c4.6 4.6 4.6 12 0 16.6C210.9 238.6 203.5 238.6 198.9 234.1z M352.5 215.7c-4.3 4.3-7.3 4.7-12.7 5.5c-6.9 1.1-16.4 2.5-26.7 12.8c-4.6 4.6-12 4.6-16.6 0s-4.6-12 0-16.6c10.3-10.3 11.8-19.8 12.8-26.7c0.8-5.4 1.3-8.4 5.5-12.7c3.9-3.9 9.6-3.7 12.7-3.3c6.4 0.9 13.1 4.5 18.4 9.8C356.2 194.8 359.2 209 352.5 215.7z"/></symbol>
+<symbol id="cr-ic-rankings" viewBox="0 0 512 512"><path d="M500 472.8h-18.4v-68.3H501c6.1 0 11-4.9 11-11c0-6.1-4.9-11-11-11H358.8v-69.3h19.4c6.1 0 11-4.9 11-11c0-6.1-4.9-11-11-11H134.8c-6.1 0-11 4.9-11 11c0 6.1 4.9 11 11 11h19.4v38.9H12c-6.1 0-11 4.9-11 11c0 6.1 4.9 11 11 11h19.4v98.7H11c-6.1 0-11 4.9-11 11c0 6.1 4.9 11 11 11h489c6.1 0 11-4.9 11-11C511 477.7 506.1 472.8 500 472.8z M154.2 472.8H53.5v-98.7H154.2V472.8z M336.8 472.8H176.2v-159.6h160.6V472.8z M459.6 472.8H358.8v-68.3h100.8V472.8z"/><path d="M256.5 130.5c-31.2 0-56.7-25.4-56.7-56.7c0-31.2 25.4-56.7 56.7-56.7c31.2 0 56.7 25.4 56.7 56.7C313.2 105.1 287.7 130.5 256.5 130.5z M256.5 39.2c-19.1 0-34.7 15.5-34.7 34.7c0 19.1 15.5 34.7 34.7 34.7c19.1 0 34.7-15.5 34.7-34.7C291.2 54.8 275.6 39.2 256.5 39.2z"/><path d="M332.6 252.3H180.4c-6.1 0-11-4.9-11-11V226.1c0-48 39.1-87.1 87.1-87.1s87.1 39.1 87.1 87.1v15.2C343.6 247.4 338.7 252.3 332.6 252.3z M191.4 230.3h130.2v-4.2c0-35.9-29.2-65.1-65.1-65.1s-65.1 29.2-65.1 65.1V230.3z"/><path d="M256.5 434.9c-6.1 0-11-4.9-11-11v-60.9c0-6.1 4.9-11 11-11c6.1 0 11 4.9 11 11v60.9C267.5 430 262.6 434.9 256.5 434.9z"/></symbol>
+<symbol id="cr-ic-bracket" viewBox="0 0 512 512"><clipPath id="cr-ic-bracket-stickclip"><path d="M-941-1059L0-2000L2000 0L1059 941Z M-980-1020L-941-1059L289.8 171.8L250.8 210.8Z M301.2 261.2L340.2 222.2L1059 941L1020 980Z"/></clipPath><path d="M118.4 313.4c6.1 0 11-4.9 11-11V278.7c0-2.8 2.3-5.1 5.1-5.1h242.8c2.8 0 5.1 2.3 5.1 5.1v23.7c0 6.1 4.9 11 11 11s11-4.9 11-11V278.7c0-15-12.2-27.1-27.1-27.1H267v-36.7c0-6.1-4.9-11-11-11s-11 4.9-11 11v36.7H134.6c-15 0-27.1 12.2-27.1 27.1v23.7C107.4 308.4 112.4 313.4 118.4 313.4z"/><path d="M167.6 391.8H129.4v-24.1c0-6.1-4.9-11-11-11s-11 4.9-11 11v24.1H69.3c-15 0-27.1 12.2-27.1 27.1v23.7c0 6.1 4.9 11 11 11s11-4.9 11-11v-23.7c0-2.8 2.3-5.1 5.1-5.1h98.2c2.8 0 5.1 2.3 5.1 5.1v23.7c0 6.1 4.9 11 11 11s11-4.9 11-11v-23.7C194.7 404 182.5 391.8 167.6 391.8z"/><path d="M442.7 391.8H404.6v-24.1c0-6.1-4.9-11-11-11s-11 4.9-11 11v24.1h-38.1c-15 0-27.1 12.2-27.1 27.1v23.7c0 6.1 4.9 11 11 11s11-4.9 11-11v-23.7c0-2.8 2.3-5.1 5.1-5.1h98.2c2.8 0 5.1 2.3 5.1 5.1v23.7c0 6.1 4.9 11 11 11s11-4.9 11-11v-23.7C469.8 404 457.6 391.8 442.7 391.8z"/><path d="M66.8 432.8H39.6C17.8 432.8 0 450.6 0 472.4S17.8 512 39.6 512h27.2c21.8 0 39.6-17.8 39.6-39.6S88.6 432.8 66.8 432.8z M66.8 490H39.6C29.9 490 22 482.1 22 472.4c0-9.7 7.9-17.6 17.6-17.6h27.2c9.7 0 17.6 7.9 17.6 17.6C84.4 482.1 76.5 490 66.8 490z"/><path d="M197.3 432.8h-27.2c-21.8 0-39.6 17.8-39.6 39.6S148.3 512 170.1 512h27.2c21.8 0 39.6-17.8 39.6-39.6S219.1 432.8 197.3 432.8z M197.3 490h-27.2c-9.7 0-17.6-7.9-17.6-17.6c0-9.7 7.9-17.6 17.6-17.6h27.2c9.7 0 17.6 7.9 17.6 17.6C214.9 482.1 207 490 197.3 490z"/><path d="M341.9 432.8h-27.2c-21.8 0-39.6 17.8-39.6 39.6S292.9 512 314.7 512h27.2c21.8 0 39.6-17.8 39.6-39.6S363.7 432.8 341.9 432.8z M341.9 490h-27.2c-9.7 0-17.6-7.9-17.6-17.6c0-9.7 7.9-17.6 17.6-17.6h27.2c9.7 0 17.6 7.9 17.6 17.6C359.5 482.1 351.6 490 341.9 490z"/><path d="M472.4 432.8h-27.2c-21.8 0-39.6 17.8-39.6 39.6S423.4 512 445.2 512h27.2C494.2 512 512 494.2 512 472.4S494.2 432.8 472.4 432.8z M472.4 490h-27.2c-9.7 0-17.6-7.9-17.6-17.6c0-9.7 7.9-17.6 17.6-17.6h27.2c9.7 0 17.6 7.9 17.6 17.6C490 482.1 482.1 490 472.4 490z"/><path d="M104.9 374.3h27.2c21.8 0 39.6-17.8 39.6-39.6s-17.8-39.6-39.6-39.6h-27.2c-21.8 0-39.6 17.8-39.6 39.6S83 374.3 104.9 374.3z M104.9 317.1h27.2c9.7 0 17.6 7.9 17.6 17.6c0 9.7-7.9 17.6-17.6 17.6h-27.2c-9.7 0-17.6-7.9-17.6-17.6C87.3 325 95.2 317.1 104.9 317.1z"/><path d="M444.9 334.7c0-21.8-17.8-39.6-39.6-39.6h-27.2c-21.8 0-39.6 17.8-39.6 39.6s17.8 39.6 39.6 39.6h27.2C427.1 374.3 444.9 356.5 444.9 334.7z M405.3 352.3h-27.2c-9.7 0-17.6-7.9-17.6-17.6c0-9.7 7.9-17.6 17.6-17.6h27.2c9.7 0 17.6 7.9 17.6 17.6C422.9 344.4 415 352.3 405.3 352.3z"/><rect x="245" y="198" width="22" height="17"/><rect x="228.2" y="187" width="55.6" height="22" rx="11"/><g transform="translate(256 198) scale(0.8) rotate(-45) translate(-315.1-196.9)"><g clip-path="url(#cr-ic-bracket-stickclip)"><path d="M511.1 98.9c-3.2-23.1-15.2-46-33.6-64.5c-18.4-18.4-41.3-30.4-64.5-33.6c-24.3-3.4-46 3.1-61.2 18.2c-18.6 18.6-21.2 35.6-23.5 50.5c-2.2 14.3-4 26.6-19.8 42.4c-16.5 16.5-22.2 39.8-17.1 61L3.2 461.4C1.2 463.5 0 466.3 0 469.2s1.2 5.7 3.2 7.8l31.8 31.8c2.1 2.1 5 3.2 7.8 3.2s5.6-1.1 7.8-3.2L339 220.4c5 1.2 10.2 1.8 15.3 1.8c16.5 0 33.1-6.3 45.7-18.9c15.8-15.8 28.1-17.7 42.4-19.8c14.9-2.3 31.9-4.8 50.5-23.5C508 144.9 514.5 123.2 511.1 98.9z M42.8 485.5l-16.3-16.3L252.9 242.8l16.3 16.3L42.8 485.5z M284.8 243.5l-16.3-16.3l32.7-32.7c2.2 3.1 4.6 6.1 7.4 8.9c2.8 2.8 5.7 5.2 8.9 7.4L284.8 243.5z M477.3 144.5c-13.5 13.5-24.4 15.2-38.3 17.3c-15.8 2.4-33.8 5.1-54.7 26c-16.6 16.6-43.6 16.6-60.2 0c-16.6-16.6-16.6-43.6 0-60.2c20.9-20.9 23.6-38.8 26-54.7c2.1-13.8 3.8-24.7 17.3-38.3c8.6-8.6 20.4-12.8 33.4-12.8c20 0 42.7 9.8 61.1 28.1c15.1 15.1 24.8 33.5 27.3 52C491.8 119.3 487.5 134.4 477.3 144.5z"/><path d="M498 131.6L447 80.6l27.3-27.3c4.3-4.3 4.3-11.3 0-15.6c-4.3-4.3-11.3-4.3-15.6 0l-27.3 27.3l-51-51c-4.3-4.3-11.3-4.3-15.6 0c-4.3 4.3-4.3 11.3 0 15.6l51 51l-22.8 22.8L350.3 60.6c-4.3-4.3-11.3-4.3-15.6 0c-4.3 4.3-4.3 11.3 0 15.6l42.8 42.8l-22.8 22.8l-28.4-28.4c-4.3-4.3-11.3-4.3-15.6 0c-4.3 4.3-4.3 11.3 0 15.6l28.4 28.4l-27.3 27.3c-4.3 4.3-4.3 11.3 0 15.6c2.1 2.1 5 3.2 7.8 3.2s5.6-1.1 7.8-3.2l27.3-27.3l28.4 28.4c2.1 2.1 5 3.2 7.8 3.2s5.6-1.1 7.8-3.2c4.3-4.3 4.3-11.3 0-15.6l-28.4-28.4l22.8-22.8l42.8 42.8c2.1 2.1 5 3.2 7.8 3.2s5.6-1.1 7.8-3.2c4.3-4.3 4.3-11.3 0-15.6l-42.8-42.8l22.8-22.8l51 51c2.1 2.1 5 3.2 7.8 3.2s5.6-1.1 7.8-3.2C502.3 142.9 502.3 135.9 498 131.6z"/></g></g></symbol>
+<symbol id="cr-ic-picks" viewBox="0 0 512 512"><rect x="219" y="161" width="22" height="60"/><path d="M244.2 387.8c-3.8 3.8-8.8 5.9-14.2 5.9c-5.4 0-10.4-2.1-14.2-5.9c-4.3-4.3-11.3-4.3-15.6 0c-4.3 4.3-4.3 11.3 0 15.6c8 8 18.5 12.3 29.8 12.3c11.2 0 21.8-4.4 29.8-12.3c4.3-4.3 4.3-11.3 0-15.6C255.5 383.5 248.5 383.5 244.2 387.8z"/><path d="M173 306.3c-18.2 0-33 14.8-33 33s14.8 33 33 33s33-14.8 33-33S191.2 306.3 173 306.3z M173 350.3c-6.1 0-11-4.9-11-11s4.9-11 11-11s11 4.9 11 11S179.1 350.3 173 350.3z"/><path d="M287 306.3c-18.2 0-33 14.8-33 33s14.8 33 33 33s33-14.8 33-33S305.2 306.3 287 306.3z M287 350.3c-6.1 0-11-4.9-11-11s4.9-11 11-11s11 4.9 11 11S293.1 350.3 287 350.3z"/><path d="M501 0H298c-6.1 0-11 4.9-11 11v166c0 4.3 2.5 8.2 6.5 10c3.9 1.8 8.5 1.1 11.8-1.8l27.1-23.7H501c6.1 0 11-4.9 11-11V11C512 4.9 507.1 0 501 0z M490 139.5H328.2c-2.7 0-5.2 1-7.3 2.7l-11.9 10.5v-52l10.8-10.8c7.9-7.9 20.8-7.9 28.7 0c14.6 14.6 37.4 16.5 54.2 4.7l31.7-22.3c13.9-9.8 32.7-8.1 44.5 4.2L490 87.9V139.5z M490 56.8c-19.4-16.1-47.2-17.4-68.3-2.5l-31.7 22.3c-8.1 5.7-19 4.7-26-2.2c-15-15-38.4-16.3-55-4.1V22H490V56.8z"/><path d="M230 172c19.3 0 35-15.7 35-35s-15.7-35-35-35s-35 15.7-35 35S210.7 172 230 172z M230 124c7.2 0 13 5.8 13 13s-5.8 13-13 13s-13-5.8-13-13S222.8 124 230 124z"/><path d="M426 306.3h-11.5C405.7 251.8 358.3 210 301.3 210H158.7c-57 0-104.4 41.8-113.3 96.3H34C15.2 306.3 0 321.5 0 340.3v41.5c0 18.7 15.2 34 34 34h11.5C54.3 470.2 101.8 512 158.7 512h142.5c57 0 104.4-41.8 113.3-96.3h11.5c18.7 0 34-15.2 34-34v-41.5C460 321.5 444.8 306.3 426 306.3z M44 393.7H34c-6.6 0-12-5.4-12-12v-41.5c0-6.6 5.4-12 12-12H44V393.7z M162.7 232h134.5v2.6c0 12.9-10.5 23.4-23.4 23.4h-87.8c-12.9 0-23.4-10.5-23.4-23.4V232z M186.1 280h87.8h27.3c24.7 0 44.7 20.1 44.7 44.7v72.5c0 24.7-20.1 44.7-44.7 44.7H158.7C134.1 442 114 421.9 114 397.3v-72.5C114 300.1 134.1 280 158.7 280H186.1z M394 397.3c0 51.1-41.6 92.7-92.7 92.7H158.7C107.6 490 66 448.4 66 397.3v-72.5c0-45 32.2-82.6 74.7-91v0.9c0 8.9 2.6 17.2 7.1 24.3C116.2 264.1 92 291.7 92 324.7v72.5C92 434.1 121.9 464 158.7 464h142.5c36.8 0 66.7-29.9 66.7-66.7v-72.5c0-33.1-24.2-60.6-55.8-65.8c4.5-7 7.1-15.3 7.1-24.3v-0.9c42.6 8.4 74.7 46 74.7 91V397.3z M438 381.7c0 6.6-5.4 12-12 12h-10v-65.4h10c6.6 0 12 5.4 12 12V381.7z"/></symbol>
+<symbol id="cr-ic-pickem" viewBox="0 0 512 512"><path d="M197.1 122.4c-5.9 1.5-9.5 7.5-8 13.3c1.5 5.9 7.4 9.5 13.3 8c30.7-7.7 62.4-11.6 94.1-11.6c31.9 0 63.7 4 94.7 11.8c0.9 0.2 1.8 0.3 2.7 0.3c4.9 0 9.4-3.3 10.7-8.3c1.5-5.9-2.1-11.9-8-13.4c-32.7-8.3-66.3-12.5-100.1-12.5C263.1 110.1 229.6 114.3 197.1 122.4z"/><path d="M198 97.7c1.1 0 2.2-0.2 3.3-0.5c22.8-7.3 46.4-11.5 70-12.5c23-1 46.3 1.1 69 6.1c5.9 1.3 11.8-2.4 13.1-8.4c1.3-5.9-2.4-11.8-8.4-13.1c-24.6-5.4-49.8-7.7-74.7-6.6c-25.6 1.1-51.1 5.6-75.8 13.5c-5.8 1.8-9 8-7.1 13.8C189 94.7 193.3 97.7 198 97.7z"/><path d="M173.5 231.2c-4.1-4.4-11.1-4.7-15.5-0.5l-40.5 37.8c-4.4 4.1-4.7 11.1-0.5 15.5c2.2 2.3 5.1 3.5 8 3.5c2.7 0 5.4-1 7.5-3l40.5-37.8C177.4 242.6 177.6 235.7 173.5 231.2z"/><path d="M343.9 361.3c0.3 0 0.7 0 1 0c6-0.6 10.5-5.9 9.9-12l-9.5-102.7c-1.9-21-18.2-36.8-37.8-36.8h-37.8c-19.6 0-35.8 15.8-37.8 36.8L222.5 349.2c-0.6 6 3.9 11.4 9.9 12c6 0.6 11.4-3.9 12-9.9l9.5-102.7c0.8-8.4 6.5-16.8 15.9-16.8h37.8c9.4 0 15.1 8.5 15.9 16.8l9.5 102.7C333.5 357 338.3 361.3 343.9 361.3z"/><path d="M244.9 454.1c-5.7-2.2-12 0.5-14.3 6.2l-3.9 9.8C222.8 480 214.6 490 205.2 490h-22.4l16.1-72.6c1.3-5.9-2.4-11.8-8.4-13.1c-5.9-1.3-11.8 2.4-13.1 8.4l-19.1 86c-0.7 3.3 0.1 6.7 2.2 9.3c2.1 2.6 5.2 4.1 8.6 4.1h36.2c21.2 0 35.9-18.2 42.1-33.8l3.9-9.8C253.3 462.7 250.6 456.3 244.9 454.1z"/><path d="M419.1 498.6l-19.1-86.1c-1.3-5.9-7.2-9.7-13.1-8.4c-5.9 1.3-9.7 7.2-8.4 13.1L394.7 490h-22.4c-9.5 0-17.7-10-21.6-19.9l-3.8-9.7c-2.2-5.6-8.6-8.4-14.3-6.2c-5.6 2.2-8.4 8.6-6.2 14.3l3.8 9.7C336.3 493.8 351 512 372.2 512h36.2c3.3 0 6.5-1.5 8.6-4.1C419 505.3 419.8 501.9 419.1 498.6z"/><path d="M406.1 349.9l4-19.4c0.2-0.7 0.2-1.5 0.2-2.2V110.1c0-19.7-16.5-35.8-36.7-35.8c-5.2 0-10.2 1.1-14.7 3v-16.8c0-19.7-16.5-35.8-36.7-35.8c-5.5 0-10.8 1.2-15.5 3.4c-1.5-6.7-4.9-12.8-10.1-17.8C289.7 3.7 280.6 0 270.9 0c0 0 0 0 0 0c-9.7 0-18.8 3.7-25.8 10.4c-5.1 4.9-8.6 11.1-10.1 17.8c-4.7-2.2-10-3.4-15.5-3.4c-20.2 0-36.7 16-36.7 35.8l0 173.5l-6.7-5.3l-22.2-32.2c-13.4-19.3-33.8-20.6-47.2-13.5C90.4 191.7 84 210.6 91.1 229.2l23.2 60.3c3.7 9.5 20 31.1 44.5 63c1.3 1.7 2.6 3.4 3.9 5.1c-5.7 6.9-9.1 15.9-9.1 25.9c0 21.3 15.9 38.6 35.4 38.6h34.5l8.5 53.9C235.5 497.5 250.6 512 269.8 512h37.8c19.1 0 34.3-14.5 37.7-36.1L353.8 422h34.5c19.5 0 35.4-17.3 35.4-38.6C423.8 369.1 416.6 356.6 406.1 349.9z M181.4 345.6c-1.7-2.2-3.4-4.4-5.1-6.6c-0.9-1.2-1.9-2.5-2.9-3.8l30.6-74.3c0.6-1.4 0.9-2.9 0.8-4.4l0-62.8c30-7.3 60.8-11.1 91.7-11.1c30.9 0 61.7 3.7 91.7 11.1v133.4l-3.6 17.6H189C186.4 344.7 183.8 345 181.4 345.6z M373.6 96.3c8.1 0 14.7 6.2 14.7 13.8v61c-9.7-2.2-19.5-4.1-29.4-5.7v-55.4C359 102.5 365.5 96.3 373.6 96.3z M322.3 46.8c8.1 0 14.7 6.2 14.7 13.8v102.1c-9.8-1-19.6-1.6-29.4-1.9V60.5C307.6 52.9 314.2 46.8 322.3 46.8z M260.4 26.2c2.8-2.7 6.5-4.2 10.5-4.2c4 0 7.7 1.5 10.5 4.2c2.7 2.6 4.2 6 4.2 9.6v125c-9.8 0.3-19.6 0.9-29.4 1.9l0-102.1c0 0 0-0.1 0-0.1V35.8C256.2 32.2 257.7 28.8 260.4 26.2z M219.5 46.8c8.1 0 14.7 6.2 14.7 13.8c0 0 0 0.1 0 0.1l0 104.8c-9.9 1.5-19.7 3.4-29.4 5.7l0-110.5C204.8 52.9 211.4 46.8 219.5 46.8z M111.7 221.2c-3.8-9.8 0.5-16.2 5.4-18.7c5.1-2.7 12.7-2.4 18.8 6.5l23.1 33.5c0.6 0.9 1.4 1.7 2.2 2.4l19.3 15.3l-22.6 54.8c-11.1-14.8-21.3-28.8-23.1-33.5L111.7 221.2z M323.6 472.5c-1.3 8.1-6.2 17.5-16 17.5h-37.8c-9.7 0-14.7-9.5-16-17.5L245.8 422h85.7L323.6 472.5z M388.4 400h-199.4c-7.3 0-13.4-7.6-13.4-16.6s6.1-16.6 13.4-16.6h199.4c7.3 0 13.4 7.6 13.4 16.6S395.6 400 388.4 400z"/></symbol>
+<symbol id="cr-ic-teams" viewBox="0 0 512.06 512.06"><path d="M273.4 375.4L148.3 282.9c-1.9-1.4-4.2-2.2-6.5-2.2H37.8c-6.1 0-11 4.9-11 11s4.9 11 11 11h100.3l117.8 87v47.9c0 6.1 4.9 11 11 11s11-4.9 11-11v-53.4C277.9 380.8 276.2 377.5 273.4 375.4z"/><path d="M324 121.6L219.9 8.3c-4.1-4.5-11.1-4.8-15.5-0.7c-4.5 4.1-4.8 11.1-0.7 15.5l85 92.5l-20.7-1.8L70.3 38.8c-5.7-2.2-12 0.7-14.2 6.4s0.7 12 6.4 14.2l199.1 75.7c1 0.4 2 0.6 3 0.7l50.3 4.3c0.3 0 0.6 0 0.9 0c4.2 0 8-2.4 9.9-6.2C327.8 129.8 327.1 124.9 324 121.6z"/><path d="M157.9 220.6v-50c0-4.6-2.9-8.7-7.2-10.3L37 118.1c-5.7-2.1-12 0.8-14.1 6.5c-2.1 5.7 0.8 12 6.5 14.1l106.6 39.6v31.7l-112.5 3.5c-6.1 0.2-10.8 5.3-10.6 11.3c0.2 6 5.1 10.7 11 10.7c0.1 0 0.2 0 0.4 0l123.1-3.9C153.2 231.4 157.9 226.6 157.9 220.6z"/><path d="M496.2 224.3l3.5 0.4c3.4 0.4 6.8-0.8 9.2-3.3s3.5-5.9 3-9.3c-5.6-36.5-36.5-66.3-66.2-80.9c-19.5-52.6-52-89.8-96.6-110.9c-68.4-32.2-164.2-26.3-284.7 17.7H11c-3.7 0-7.1 1.8-9.2 4.9c-2 3.1-2.4 6.9-1 10.3l21.2 50.7c-14.6 45.8-19.3 81.9-15.9 119.8c3.8 41.7 17.7 85.8 45.1 143c1.8 3.8 5.7 6.3 9.9 6.3h54.7l253.2 137.6c1.6 0.9 3.4 1.3 5.3 1.3h32.9c2.9 0 5.8-1.2 7.8-3.3l31.2-31.6l3.3 3.4c2.1 2.1 4.9 3.3 7.8 3.3c1 0 2-0.1 3-0.4c3.9-1.1 6.8-4.2 7.7-8.1l43.5-191.6c0.4-1.8 0.4-3.7-0.1-5.4L496.2 224.3z M474.8 346.6l-70.5-28.8l3.5-42.2l79.8 14.5L474.8 346.6z M229.9 234.7c-1.8-3.6-0.7-6.9 0.9-8.7c1.1-1.3 3.8-3.3 8.4-1.9l32.2 10.1l1 29.5l-35.6-14.6L229.9 234.7z M273.3 287.9l0.8 23.9l-10.4-7l-12.5-25.9L273.3 287.9z M296.7 327l-1.1-29.9l85.4 35l-4.1 49.2L296.7 327z M294.8 272.9l-1.1-31.6l92.6 29.1l-3.2 38.6L294.8 272.9z M292.1 199.1l76.9 9.5l11.9 37.1l-88.1-27.7L292.1 199.1z M485.5 267.3l-79.1-14.4l-13.3-41.4l79.4 9.8L485.5 267.3z M402.6 490.1h-25.5l-253.2-137.6c-1.6-0.9-3.4-1.3-5.3-1.3H68.1C16.6 241.2 19.7 182.2 44.2 107c0.8-2.5 0.7-5.2-0.3-7.6L27.5 60.1h38.9c1.3 0 2.6-0.2 3.8-0.7C185.9 17 276.6 10.5 339.8 40.3c40.3 19 69.5 53.5 86.8 102.6c1 2.9 3.1 5.2 5.9 6.4c20.5 9.1 43.6 28.1 53.5 51.5l-203.9-25.2c-3.2-0.4-6.4 0.6-8.8 2.8c-2.4 2.2-3.7 5.3-3.6 8.5l0.9 24l-24.8-7.8c-11.8-3.7-23.9-0.5-31.7 8.5c-7.7 9-9.3 21.8-4.1 32.7l35.2 72.6c0.8 1.7 2.1 3.2 3.7 4.3l130.2 88l51.6 52.2L402.6 490.1z M451.1 450.8l-53.4-54.1l4.7-55.9l67.5 27.6L451.1 450.8z"/></symbol>
+<symbol id="cr-ic-census" viewBox="0 0 512 512"><path d="M256 17.5c-116.3 0-211 94.7-211 211c0 34 8.4 68 24.2 98.1c2 3.7 5.8 5.9 9.7 5.9c1.7 0 3.5-0.4 5.1-1.3c5.4-2.8 7.4-9.5 4.6-14.9C74.5 289.4 67 259 67 228.5c0-104.2 84.8-189 189-189c40.6 0 78.3 12.9 109.1 34.8H260.4c-27.6 0-50.1 22.5-50.1 50.1c0 27.6 22.5 50.1 50.1 50.1h49.5c4.7 0 8.6 3.8 8.6 8.6c0 16.9 13.7 30.6 30.6 30.6c4.7 0 8.6 3.8 8.6 8.6c0 6.1 4.9 11 11 11s11-4.9 11-11c0-16.9-13.7-30.6-30.6-30.6c-4.7 0-8.6-3.8-8.6-8.6c0-16.9-13.7-30.6-30.6-30.6h-49.5c-15.5 0-28.1-12.6-28.1-28.1c0-15.5 12.6-28.1 28.1-28.1h130.6C424.3 130.4 445 177.1 445 228.5c0 30.1-7.3 60.1-21.1 86.8c-2.8 5.4-0.7 12 4.7 14.8c5.4 2.8 12 0.7 14.8-4.7C458.9 295.5 467 262.1 467 228.5C467 112.2 372.3 17.5 256 17.5z"/><path d="M348.9 230.8h-39.1c-9 0-17.8 2.4-25.5 7c-5.2 3.1-6.9 9.8-3.8 15.1c2.1 3.5 5.7 5.4 9.5 5.4c1.9 0 3.8-0.5 5.6-1.5c4.3-2.6 9.2-3.9 14.2-3.9h39.1c6.1 0 11-4.9 11-11S355 230.8 348.9 230.8z"/><path d="M450.7 354.3c-0.3-19.1-8-36.9-21.6-50.3c-5.5-5.4-11.7-9.8-18.4-13.1c7.4-7.9 11.9-18.5 11.9-30.1c0-24.4-19.8-44.2-44.2-44.2s-44.2 19.8-44.2 44.2c0 11.6 4.5 22.2 11.9 30.1c-6.7 3.3-12.9 7.8-18.4 13.1c-4.1 4-7.6 8.4-10.6 13.2c-3-4.7-6.5-9.2-10.6-13.2c-5.5-5.4-11.7-9.8-18.4-13.1c7.4-7.9 11.9-18.5 11.9-30.1c0-24.4-19.8-44.2-44.2-44.2s-44.2 19.8-44.2 44.2c0 11.6 4.5 22.2 11.9 30.1c-6.7 3.3-12.9 7.8-18.4 13.1c-4.1 4-7.6 8.4-10.6 13.2c-3-4.7-6.5-9.2-10.6-13.2c-5.5-5.4-11.7-9.8-18.4-13.1c7.4-7.9 11.9-18.5 11.9-30.1c0-24.4-19.8-44.2-44.2-44.2c-24.4 0-44.2 19.8-44.2 44.2c0 11.6 4.5 22.2 11.9 30.1c-6.7 3.3-12.9 7.8-18.4 13.1c-13.6 13.4-21.3 31.2-21.6 50.3c-0.1 6.1 4.7 11.1 10.8 11.2c6 0.1 11.1-4.7 11.2-10.8c0.5-27.2 23-49.4 50.2-49.4c27.2 0 49.8 22.1 50.2 49.4c0.1 5.9 4.9 10.7 10.8 10.8c0 0 0 0 0 0c0 0 0 0 0.1 0c0 0 0.1 0 0.1 0c0 0 0.1 0 0.1 0c0 0 0 0 0 0c0 0 0 0 0.1 0c0 0 0.1 0 0.1 0c0 0 0.1 0 0.1 0c0.1 0 0.1 0 0.2 0c0 0 0.1 0 0.1 0c0.1 0 0.1 0 0.2 0c0 0 0.1 0 0.1 0c0.1 0 0.1 0 0.2 0c0 0 0.1 0 0.1 0c0.1 0 0.1 0 0.2 0c0 0 0.1 0 0.1 0c0.1 0 0.1 0 0.2 0c0 0 0 0 0.1 0c0.1 0 0.1 0 0.2 0c0 0 0 0 0 0c0.1 0 0.2 0 0.2-0.1c0 0 0 0 0 0c1.5-0.3 2.9-1 4.1-1.8c0 0 0 0 0 0c0.1 0 0.1-0.1 0.1-0.1c0 0 0.1 0 0.1-0.1c0 0 0.1-0.1 0.1-0.1c0 0 0.1-0.1 0.1-0.1c0 0 0 0 0 0c2.4-2 4-5 4.1-8.3c0.5-27.2 23-49.4 50.2-49.4c27.2 0 49.8 22.1 50.2 49.4c0.1 5.9 4.9 10.7 10.8 10.8c0 0 0 0 0 0c0 0 0 0 0.1 0c0 0 0.1 0 0.1 0c0 0 0.1 0 0.1 0c0 0 0 0 0 0c0 0 0 0 0.1 0c0 0 0.1 0 0.1 0c0 0 0.1 0 0.1 0c0.1 0 0.1 0 0.2 0c0 0 0.1 0 0.1 0c0 0 0.1 0 0.1 0c0 0 0.1 0 0.1 0c0 0 0.1 0 0.1 0c0 0 0.1 0 0.1 0c0 0 0.1 0 0.1 0c0 0 0.1 0 0.1 0c0.1 0 0.1 0 0.2 0c0 0 0.1 0 0.1 0c0.1 0 0.1 0 0.2 0c0 0 0.1 0 0.1 0c0.1 0 0.1 0 0.2 0c0 0 0 0 0.1 0c0.1 0 0.1 0 0.2 0c0 0 0 0 0 0c0.1 0 0.1 0 0.2-0.1c0 0 0 0 0 0c0.1 0 0.2 0 0.2-0.1c0 0 0 0 0 0c0.7-0.2 1.3-0.5 2-0.8c0 0 0 0 0 0c0.1 0 0.1-0.1 0.2-0.1c0 0 0 0 0 0c0.1 0 0.1-0.1 0.2-0.1c0 0 0 0 0.1 0c0 0 0.1-0.1 0.1-0.1c0 0 0.1 0 0.1-0.1c0 0 0.1 0 0.1-0.1c0 0 0.1-0.1 0.1-0.1c0 0 0 0 0.1 0c0.1 0 0.1-0.1 0.2-0.1c0 0 0 0 0 0c2.8-2 4.6-5.2 4.7-8.8c0.5-27.2 23-49.4 50.2-49.4c27.2 0 49.8 22.1 50.2 49.4c0.1 6 5 10.8 11 10.8c0.1 0 0.1 0 0.2 0C446 365.3 450.8 360.3 450.7 354.3z M133.5 238.5c12.2 0 22.2 9.9 22.2 22.2c0 12.2-9.9 22.2-22.2 22.2c-12.2 0-22.2-9.9-22.2-22.2C111.3 248.5 121.3 238.5 133.5 238.5z M256 238.5c12.2 0 22.2 9.9 22.2 22.2c0 12.2-9.9 22.2-22.2 22.2s-22.2-9.9-22.2-22.2C233.8 248.5 243.8 238.5 256 238.5z M378.5 238.5c12.2 0 22.2 9.9 22.2 22.2c0 12.2-9.9 22.2-22.2 22.2s-22.2-9.9-22.2-22.2C356.3 248.5 366.3 238.5 378.5 238.5z"/><path d="M472 418.9c7.4-7.9 11.9-18.5 11.9-30.2c0-24.4-19.8-44.2-44.2-44.2c-24.4 0-44.2 19.8-44.2 44.2c0 11.7 4.5 22.3 11.9 30.2c-11.9 6-22 15.1-29 26.4c-7-11.2-17.1-20.4-29-26.4c7.4-7.9 11.9-18.5 11.9-30.2c0-24.4-19.8-44.2-44.2-44.2s-44.2 19.8-44.2 44.2c0 11.7 4.5 22.3 11.9 30.2c-11.9 6-22 15.1-29 26.4c-7-11.2-17.1-20.4-29-26.4c7.4-7.9 11.9-18.5 11.9-30.2c0-24.4-19.8-44.2-44.2-44.2c-24.4 0-44.2 19.8-44.2 44.2c0 11.7 4.5 22.3 11.9 30.2c-11.9 6-22 15.1-29 26.4c-7-11.2-17.1-20.4-29-26.4c7.4-7.9 11.9-18.5 11.9-30.2c0-24.4-19.8-44.2-44.2-44.2s-44.2 19.8-44.2 44.2c0 11.7 4.5 22.3 11.9 30.2C16.3 430.7 0 455.2 0 483.5c0 6.1 4.9 11 11 11h490c6.1 0 11-4.9 11-11C512 455.2 495.7 430.7 472 418.9z M439.8 366.5c12.2 0 22.2 9.9 22.2 22.2s-9.9 22.2-22.2 22.2c-12.2 0-22.2-9.9-22.2-22.2S427.5 366.5 439.8 366.5z M317.2 366.5c12.2 0 22.2 9.9 22.2 22.2s-9.9 22.2-22.2 22.2s-22.2-9.9-22.2-22.2S305 366.5 317.2 366.5z M194.8 366.5c12.2 0 22.2 9.9 22.2 22.2s-9.9 22.2-22.2 22.2c-12.2 0-22.2-9.9-22.2-22.2S182.5 366.5 194.8 366.5z M72.2 366.5c12.2 0 22.2 9.9 22.2 22.2s-9.9 22.2-22.2 22.2s-22.2-9.9-22.2-22.2S60 366.5 72.2 366.5z M23.2 472.5c5-22.4 25.1-39.2 49-39.2s44 16.8 49 39.2H23.2z M145.7 472.5c5-22.4 25.1-39.2 49-39.2s44 16.8 49 39.2H145.7z M268.2 472.5c5-22.4 25.1-39.2 49-39.2s44 16.8 49 39.2H268.2z M390.7 472.5c5-22.4 25.1-39.2 49-39.2s44 16.8 49 39.2H390.7z"/></symbol>
+<symbol id="cr-ic-about" viewBox="0 0 512.029 512.029"><path d="M256 306c-84.4 0-153-68.6-153-153S171.7 0 256 0s153 68.6 153 153S340.4 306 256 306z M256 22c-72.2 0-131 58.8-131 131s58.8 131 131 131s131-58.8 131-131S328.2 22 256 22z"/><path d="M474.7 336.8c-11.8-19.2-39.2-25.2-57.9-12.6l-92.9 59.6c-2.9-16.2-15.3-30-32.3-33.7l-113.1-24.6c-22.1-4.8-44.7-1.4-64.3 9.6c-0.8-10.5-9.6-18.7-20.3-18.7H51c-11.2 0-20.3 9.1-20.3 20.3v155c0 11.2 9.1 20.3 20.3 20.3H93.9c11.2 0 20.3-9.1 20.3-20.3v-5.6l113.9 23.7c7.1 1.5 14.2 2.2 21.3 2.2c19.6 0 38.8-5.6 55.7-16.4l157.1-100.9C481.6 382.2 487.2 356.3 474.7 336.8z M92.2 490H52.7V338.3h39.6V490z M450.2 376.2L293.1 477.1c-18 11.6-39.5 15.6-60.5 11.2l-118.4-24.7V361.1l7-4.6c15.7-10.1 34.3-13.4 52.6-9.4l113.1 24.6c10.7 2.3 17.6 13 15.2 23.7c-2.1 10.5-13.3 17.7-23.7 15.2l-105.4-23c-5.9-1.3-11.8 2.5-13.1 8.4c-1.3 5.9 2.5 11.8 8.4 13.1l105.4 23c16.6 3.9 35.1-3.8 44.1-18.2l110.8-71.2c8.9-6 21.9-3.1 27.5 6C462.2 357.9 459.5 370.3 450.2 376.2z"/><path d="M220.2 214c-6.1 0-11 4.9-11 11s4.9 11 11 11h71.6c6.1 0 11-4.9 11-11s-4.9-11-11-11h-24.8v-82.6c0-6.1-4.9-11-11-11h-35.8c-6.1 0-11 4.9-11 11s4.9 11 11 11h24.8v71.6H220.2z"/><path d="M256 96.6c6.1 0 11-4.9 11-11V73c0-6.1-4.9-11-11-11c-6.1 0-11 4.9-11 11v12.5C245 91.6 249.9 96.6 256 96.6z"/></symbol>
+</svg>
+  
+  <a class="cr-skip-link" href="#main-content">Skip to main content</a>
+  
+  <div class="cr-page-glow" aria-hidden="true"></div>
+  <nav class="navbar navbar-expand-lg navbar-dark mb-4 cr-site-nav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">
+        <img src="/static/img/cradl-logo.png" alt="Cradl" width="108" height="40" style="height:40px;width:auto">
+      </a>
+      <div class="navbar-nav ms-auto d-flex flex-row gap-1 align-items-center">
+        
+        
+        
+        <div class="cr-nav-links" id="primaryNavLinks">
+        <a class="nav-link d-flex align-items-center gap-1" href="/scores/">
+          <svg class="cr-nav-ic" aria-hidden="true" focusable="false"><use href="#cr-ic-games"/></svg>
+          Games
+        </a>
+        <a class="nav-link d-flex align-items-center gap-1" href="/results/">
+          <svg class="cr-nav-ic" aria-hidden="true" focusable="false"><use href="#cr-ic-results"/></svg>
+          Results
+        </a>
+        <a class="nav-link d-flex align-items-center gap-1" href="/rankings/">
+          <svg class="cr-nav-ic" aria-hidden="true" focusable="false"><use href="#cr-ic-rankings"/></svg>
+          Rankings
+        </a>
+        <a class="nav-link d-flex align-items-center gap-1" href="/bracketology/">
+          <svg class="cr-nav-ic" aria-hidden="true" focusable="false"><use href="#cr-ic-bracket"/></svg>
+          Bracket
+        </a>
+        
+        <a class="nav-link d-flex align-items-center gap-1" href="/leaderboard">
+          <svg class="cr-nav-ic" aria-hidden="true" focusable="false"><use href="#cr-ic-pickem"/></svg>
+          Pick'em
+        </a>
+        <a class="nav-link d-flex align-items-center gap-1" href="/team/">
+          <svg class="cr-nav-ic" aria-hidden="true" focusable="false"><use href="#cr-ic-teams"/></svg>
+          Teams
+        </a>
+        <a class="nav-link d-flex align-items-center gap-1" href="/census">
+          <svg class="cr-nav-ic" aria-hidden="true" focusable="false"><use href="#cr-ic-census"/></svg>
+          Census
+        </a>
+        <a class="nav-link d-flex align-items-center gap-1" href="/about">
+          <svg class="cr-nav-ic" aria-hidden="true" focusable="false"><use href="#cr-ic-about"/></svg>
+          About
+        </a>
+        </div><!-- /.cr-nav-links -->
+        
+
+        <button type="button" class="cr-nav-toggle" id="navToggle"
+                aria-controls="primaryNavLinks" aria-expanded="false" aria-label="Open navigation menu">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+        <span class="nav-separator" style="width:1px;height:20px;background:rgba(255,255,255,.15);margin:0 .4rem"></span>
+
+        
+        <a class="nav-link d-flex align-items-center gap-1" href="/login"
+           style="background:var(--accent);color:var(--on-accent) !important;border-radius:var(--radius-md);padding:.4rem .85rem !important;font-weight:700;font-size:.8rem">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/><polyline points="10 17 15 12 10 7"/><line x1="15" y1="12" x2="3" y2="12"/></svg>
+          Sign in
+        </a>
+        
+      </div>
+    </div>
+  </nav>
+
+  <main class="container-fluid px-4" id="main-content" tabindex="-1">
+    
+    
+    
+      
+    
+    
+    
+<div class="legal-content">
+  <h1>Terms of Service</h1>
+  <p class="last-updated">Last updated: October 8, 2026</p>
+
+  <h2>1. Acceptance of Terms</h2>
+  <p>By accessing or using Cradl ("the Service"), you agree to be bound by these Terms of Service and our <a href="/privacy">Privacy Policy</a>. If you do not agree, do not use the Service.</p>
+
+  <h2>2. Description of Service</h2>
+  <p>Cradl provides college lacrosse data, model-generated picks, AI-written analysis, and a free pick'em game, for informational and entertainment purposes. <strong>Cradl is not a sportsbook and does not accept, place, or facilitate any wagers or bets.</strong></p>
+
+  <h2>3. Not Gambling Advice</h2>
+  <p>All analysis, predictions, and picks provided by Cradl are for <strong>informational purposes only</strong> and do not constitute gambling advice, financial advice, or any guarantee of outcomes. You are solely responsible for any decisions you make based on information from this Service.</p>
+
+  <h2>4. Eligibility</h2>
+  <p>You must be at least 21 years old to use Cradl. By using the Service, you represent that you meet this requirement and that your use complies with all applicable local, state, and federal laws, including the sports betting laws where you live.</p>
+
+  <h2>5. Accounts</h2>
+  <p>You sign in with Google or Apple. You are responsible for keeping that account secure. We are not liable for unauthorized access resulting from your failure to protect your credentials. You may delete your Cradl account at any time from Settings on the web or from your Profile in the iOS app.</p>
+
+  <h2>6. Price</h2>
+  <p>Cradl is currently free. If we ever introduce paid features, we will post their price and terms before they launch, and you will never be charged unless you choose to buy them.</p>
+
+  <h2>7. Pick'em and Leaderboard</h2>
+  <ul>
+    <li>The pick'em is free to play. There is no entry fee and there are no cash or other prizes. It is not a wagering contest.</li>
+    <li>Your pick locks to the line shown when you make it. We grade picks against final results, and we may void or correct a pick, for example when a game is canceled or a result or line was recorded in error.</li>
+    <li>Your username, profile photo, and pick history are shown publicly on the leaderboard and on your profile page.</li>
+  </ul>
+
+  <h2>8. Acceptable Use</h2>
+  <p>You agree not to:</p>
+  <ul>
+    <li>Use the Service for any unlawful purpose.</li>
+    <li>Attempt to reverse-engineer, scrape, or overload the Service.</li>
+    <li>Resell or redistribute analysis content without permission.</li>
+    <li>Misrepresent Cradl's analysis as professional gambling advice.</li>
+    <li>Choose a username that is offensive, impersonates someone else, or infringes anyone's rights. We may change or remove such usernames.</li>
+  </ul>
+
+  <h2>9. Data Accuracy</h2>
+  <p>Scores, stats, schedules, and odds come from third-party sources and may be delayed, incomplete, or wrong. Odds shown on Cradl are for reference only. Always confirm the current line with your sportsbook.</p>
+
+  <h2>10. Intellectual Property</h2>
+  <p>All content, design, and code comprising Cradl is the property of Cradl and its creators. NCAA, conference, and team names and logos are trademarks of their respective owners and are used only to identify teams. Sportsbook names are used only to identify the source of odds. Cradl is not affiliated with or endorsed by the NCAA or any school, conference, or sportsbook.</p>
+
+  <h2>11. Feedback</h2>
+  <p>If you send us feedback or suggestions, we may use them to improve the Service without any obligation to you.</p>
+
+  <h2>12. AI-Generated Content</h2>
+  <p>Analysis write-ups on Cradl are generated by artificial intelligence (Anthropic Claude). AI outputs may contain errors, inaccuracies, or outdated information. You should independently verify any information before relying on it. Cradl does not guarantee the accuracy of AI-generated analysis.</p>
+
+  <h2>13. Account Termination</h2>
+  <p>We reserve the right to suspend or terminate your account at any time for violation of these terms or for any other reason at our discretion. Upon termination, your right to use the Service ceases immediately.</p>
+
+  <h2>14. Disclaimer of Warranties</h2>
+  <p>The Service is provided "as is" and "as available" without warranties of any kind, either express or implied, including but not limited to implied warranties of merchantability, fitness for a particular purpose, and non-infringement. We make no guarantees about the accuracy, completeness, or reliability of any analysis or data, or that the Service will be uninterrupted or error-free.</p>
+
+  <h2>15. Limitation of Liability</h2>
+  <p>To the maximum extent permitted by law, Cradl and its creators shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of the Service, including any financial losses from betting decisions. Our total liability for any claim shall not exceed the greater of the amount you have paid us in the 12 months preceding the claim or US $50.</p>
+
+  <h2>16. Changes to Terms</h2>
+  <p>We may update these terms at any time. Continued use after changes constitutes acceptance. Material changes will be communicated via the Service.</p>
+
+  <h2>17. Governing Law</h2>
+  <p>These terms shall be governed by and construed in accordance with the laws of the Commonwealth of Massachusetts, without regard to its conflict of law provisions.</p>
+
+  <h2>18. Contact</h2>
+  <p>Questions? Email us at <a href="/cdn-cgi/l/email-protection#1d6e686d6d726f695d7e6f7c7971717c65337e7270"><span class="__cf_email__" data-cfemail="92e1e7e2e2fde0e6d2f1e0f3f6fefef3eabcf1fdff">[email&#160;protected]</span></a>.</p>
+</div>
+
+  </main>
+
+  <footer style="margin-top:3rem;padding:1.5rem 1rem;border-top:1px solid var(--border);text-align:center">
+    <div style="margin-bottom:.25rem">
+      <a class="app-store-badge" href="https://apps.apple.com/us/app/cradllax/id6760768007" target="_blank" rel="noopener">
+        <img src="/static/img/download-app-store.svg" width="120" height="40" alt="Download CradlLax on the App Store" loading="lazy">
+      </a>
+    </div>
+    <div class="cr-footer-links">
+      <a class="cr-footer-link" href="/privacy">Privacy Policy</a>
+      <a class="cr-footer-link" href="/terms">Terms of Service</a>
+      <a class="cr-footer-link" href="/responsible-gambling">Responsible Gambling</a>
+      <a class="cr-footer-link" href="/about">About</a>
+      
+      <a class="cr-footer-link" href="/feedback?from=/terms" rel="nofollow">Send feedback</a>
+      
+    </div>
+    <p style="font-size:.7rem;color:var(--muted);margin:0">Cradl is not a sportsbook. For informational purposes only. Not affiliated with the NCAA.</p>
+    <p style="font-size:.7rem;color:var(--muted);margin:.35rem 0 0">&copy; 2026 Cradl. All rights reserved.</p>
+  </footer>
+
+  <div class="spinner-overlay" id="loadingOverlay">
+    <div class="text-center">
+      <div class="spinner-border" style="width:3rem;height:3rem;color:var(--accent)" role="status"></div>
+      <p class="mt-3 fw-semibold">Fetching AI analysis…</p>
+    </div>
+  </div>
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    // B4: phone-only nav hamburger. Toggles the link dropdown; closes on link
+    // tap, outside click, or Escape. No-op on tablet/desktop (toggle hidden).
+    (function () {
+      var btn = document.getElementById('navToggle');
+      var menu = document.getElementById('primaryNavLinks');
+      if (!btn || !menu) return;
+      function close() { menu.classList.remove('is-open'); btn.setAttribute('aria-expanded', 'false'); }
+      function open() { menu.classList.add('is-open'); btn.setAttribute('aria-expanded', 'true'); }
+      btn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        menu.classList.contains('is-open') ? close() : open();
+      });
+      menu.addEventListener('click', function (e) { if (e.target.closest('a')) close(); });
+      document.addEventListener('click', function (e) {
+        if (menu.classList.contains('is-open') && !menu.contains(e.target) && !btn.contains(e.target)) close();
+      });
+      document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+    })();
+    // --navbar-h (cradl.css) is the sticky navbar's measured height, so
+    // anything sticking under it lands right below it on every page. The
+    // navbar grows when its links wrap or the phone menu opens: follow it.
+    (function () {
+      var nav = document.querySelector('.navbar');
+      if (!nav) return;
+      var root = document.documentElement;
+      function setNavH() { root.style.setProperty('--navbar-h', Math.round(nav.getBoundingClientRect().height) + 'px'); }
+      setNavH();
+      if ('ResizeObserver' in window) new ResizeObserver(setNavH).observe(nav);
+      else window.addEventListener('resize', setNavH);
+    })();
+    // Lists marked .cr-enter-list rise in once, and the marker goes when their
+    // entrance ends, so a poll rebuild, a card swap or a sort can't replay it.
+    // This script runs after all page content has been parsed, so every item
+    // has started its animation by now (or finished it, on a slow page).
+    (function () {
+      function settle(list) {
+        if (!list.getAnimations) { list.classList.remove('cr-enter-list'); return Promise.resolve(); }
+        var anims = list.getAnimations({ subtree: true }).filter(function (a) {
+          return a.animationName === 'cr-fade-up';
+        });
+        return Promise.allSettled(anims.map(function (a) { return a.finished; })).then(function () {
+          list.classList.remove('cr-enter-list');
+        });
+      }
+      window.CradlEnter = { settle: settle };
+      document.querySelectorAll('.cr-enter-list').forEach(settle);
+    })();
+  </script>
+  
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a58696b43ec23725',t:'MTc5NDMyOTc2Nw=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a58696b43ec23725',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

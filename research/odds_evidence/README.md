@@ -16,4 +16,4 @@ python -c 'from src.audit_stage7_odds import cached_pages; print(len(cached_page
 
 This reads and checks cached bytes only. It does not rerun the full audit or download data. The existing evidence is incomplete; a preserved response does not independently establish all prices or game timing. Full source-to-record findings remain in the [Stage 7 audit](../../reports/stage7_odds_verification.md).
 
-This folder's HTML/JSON evidence is excluded from automatic Git staging; the guide is included. Teammates need the actual local evidence files for complete offline reproduction. The original temporary copies have not been removed.
+This folder's HTML/JSON evidence and this guide are included in the GitHub repository. A full clone provides the current offline evidence files. The original temporary copies have not been removed.

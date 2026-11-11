@@ -1,0 +1,59 @@
+{
+  "inputMD5Sum": "e00602ed11243130c91b013a698909ec",
+  "instanceId": "b87902aee91b4e9397c94632a07f2195",
+  "updated_at": "06-12-2025 09:23:56",
+  "games": [{"game": {
+    "gameID": "6309840",
+    "away": {
+      "score": "14",
+      "names": {
+        "char6": "UNC",
+        "short": "North Carolina",
+        "seo": "north-carolina",
+        "full": "University of North Carolina, Chapel Hill"
+      },
+      "winner": true,
+      "seed": "",
+      "description": "(7-1)",
+      "rank": "",
+      "conferences": [{
+        "conferenceName": "ACC",
+        "conferenceSeo": "acc"
+      }]
+    },
+    "finalMessage": "FINAL",
+    "bracketRound": "",
+    "title": "High Point North Carolina",
+    "contestName": "",
+    "url": "/game/6386162",
+    "network": "",
+    "home": {
+      "score": "2",
+      "names": {
+        "char6": "HIGHPT",
+        "short": "High Point",
+        "seo": "high-point",
+        "full": "High Point University"
+      },
+      "winner": false,
+      "seed": "",
+      "description": "(3-7)",
+      "rank": "",
+      "conferences": [{
+        "conferenceName": "Atlantic 10",
+        "conferenceSeo": "atlantic-10"
+      }]
+    },
+    "liveVideoEnabled": false,
+    "startTime": "TBA",
+    "startTimeEpoch": "1742529600",
+    "bracketId": "",
+    "gameState": "final",
+    "startDate": "03-21-2025",
+    "currentPeriod": "FINAL",
+    "videoState": "",
+    "bracketRegion": "",
+    "contestClock": "0:00"
+  }}],
+  "hideRank": false
+}

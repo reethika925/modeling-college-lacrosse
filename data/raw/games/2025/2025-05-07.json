@@ -1,0 +1,114 @@
+{
+  "inputMD5Sum": "206aaec849358b446b012f4487f98650",
+  "instanceId": "233c8fe9715e4a11b4c9220fd898188f",
+  "updated_at": "05-26-2025 15:27:00",
+  "games": [
+    {"game": {
+      "gameID": "589871",
+      "away": {
+        "score": "14",
+        "names": {
+          "char6": "AIRFOR",
+          "short": "Air Force",
+          "seo": "air-force",
+          "full": "U.S. Air Force Academy"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(8-7)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "ASUN",
+          "conferenceSeo": "asun"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "Opening Round",
+      "title": "Robert Morris Air Force",
+      "contestName": "",
+      "url": "/game/6448496",
+      "network": "ESPN+",
+      "home": {
+        "score": "9",
+        "names": {
+          "char6": "ROBMOR",
+          "short": "Robert Morris",
+          "seo": "robert-morris",
+          "full": "Robert Morris University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(11-5)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "NEC",
+          "conferenceSeo": "nec"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "05:00PM ET",
+      "startTimeEpoch": "1746651600",
+      "bracketId": "110",
+      "gameState": "final",
+      "startDate": "05-07-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "589864",
+      "away": {
+        "score": "9",
+        "names": {
+          "char6": "SIENA",
+          "short": "Siena",
+          "seo": "siena",
+          "full": "Siena College"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(11-4)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "MAAC",
+          "conferenceSeo": "maac"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "Opening Round",
+      "title": "UAlbany Siena",
+      "contestName": "",
+      "url": "/game/6448488",
+      "network": "ESPN+",
+      "home": {
+        "score": "11",
+        "names": {
+          "char6": "ALBANY",
+          "short": "UAlbany",
+          "seo": "albany-ny",
+          "full": "University at Albany"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(9-8)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "America East",
+          "conferenceSeo": "america-east"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "07:00PM ET",
+      "startTimeEpoch": "1746658800",
+      "bracketId": "102",
+      "gameState": "final",
+      "startDate": "05-07-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }}
+  ],
+  "hideRank": false
+}

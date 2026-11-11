@@ -1,0 +1,114 @@
+{
+  "inputMD5Sum": "a5dc12374f891dd9cf7b2e10da80ceca",
+  "instanceId": "16ee30b2696a4134ab21b12f9fc41d77",
+  "updated_at": "06-12-2025 09:23:56",
+  "games": [
+    {"game": {
+      "gameID": "6309486",
+      "away": {
+        "score": "8",
+        "names": {
+          "char6": "ROBMOR",
+          "short": "Robert Morris",
+          "seo": "robert-morris",
+          "full": "Robert Morris University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(4-4)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "NEC",
+          "conferenceSeo": "nec"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Penn St. Robert Morris",
+      "contestName": "",
+      "url": "/game/6386048",
+      "network": "",
+      "home": {
+        "score": "22",
+        "names": {
+          "char6": "PENNST",
+          "short": "Penn St.",
+          "seo": "penn-st",
+          "full": "Pennsylvania State University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(6-1)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Big Ten",
+          "conferenceSeo": "big-ten"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1741752000",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-12-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6310128",
+      "away": {
+        "score": "10",
+        "names": {
+          "char6": "PROV",
+          "short": "Providence",
+          "seo": "providence",
+          "full": "Providence College"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(4-4)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Big East",
+          "conferenceSeo": "big-east"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Duke Providence",
+      "contestName": "",
+      "url": "/game/6386301",
+      "network": "",
+      "home": {
+        "score": "16",
+        "names": {
+          "char6": "DUKE",
+          "short": "Duke",
+          "seo": "duke",
+          "full": "Duke University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(7-1)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "ACC",
+          "conferenceSeo": "acc"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1741752000",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-12-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }}
+  ],
+  "hideRank": false
+}

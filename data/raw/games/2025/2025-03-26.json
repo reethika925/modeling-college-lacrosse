@@ -1,0 +1,220 @@
+{
+  "inputMD5Sum": "aeed42d4453423c4d7efb48005938ee6",
+  "instanceId": "b87902aee91b4e9397c94632a07f2195",
+  "updated_at": "06-17-2025 16:15:35",
+  "games": [
+    {"game": {
+      "gameID": "6309776",
+      "away": {
+        "score": "10",
+        "names": {
+          "char6": "CANISI",
+          "short": "Canisius",
+          "seo": "canisius",
+          "full": "Canisius University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(3-8)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "MAAC",
+          "conferenceSeo": "maac"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Marist Canisius",
+      "contestName": "",
+      "url": "/game/6386112",
+      "network": "",
+      "home": {
+        "score": "14",
+        "names": {
+          "char6": "MARIST",
+          "short": "Marist",
+          "seo": "marist",
+          "full": "Marist University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(5-5)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "MAAC",
+          "conferenceSeo": "maac"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742961600",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-26-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6309825",
+      "away": {
+        "score": "16",
+        "names": {
+          "char6": "SACHRT",
+          "short": "Sacred Heart",
+          "seo": "sacred-heart",
+          "full": "Sacred Heart University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(7-2)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "MAAC",
+          "conferenceSeo": "maac"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Iona Sacred Heart",
+      "contestName": "",
+      "url": "/game/6386152",
+      "network": "",
+      "home": {
+        "score": "1",
+        "names": {
+          "char6": "IONA",
+          "short": "Iona",
+          "seo": "iona",
+          "full": "Iona University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(1-9)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "MAAC",
+          "conferenceSeo": "maac"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742961600",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-26-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6310020",
+      "away": {
+        "score": "16",
+        "names": {
+          "char6": "SIENA",
+          "short": "Siena",
+          "seo": "siena",
+          "full": "Siena College"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(4-4)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "MAAC",
+          "conferenceSeo": "maac"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Merrimack Siena",
+      "contestName": "",
+      "url": "/game/6386274",
+      "network": "",
+      "home": {
+        "score": "8",
+        "names": {
+          "char6": "MERMCK",
+          "short": "Merrimack",
+          "seo": "merrimack",
+          "full": "Merrimack College"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(1-8)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "MAAC",
+          "conferenceSeo": "maac"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742961600",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-26-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6312749",
+      "away": {
+        "score": "6",
+        "names": {
+          "char6": "QUINN",
+          "short": "Quinnipiac",
+          "seo": "quinnipiac",
+          "full": "Quinnipiac University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(2-7)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "MAAC",
+          "conferenceSeo": "maac"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Manhattan Quinnipiac",
+      "contestName": "",
+      "url": "/game/6386489",
+      "network": "",
+      "home": {
+        "score": "7",
+        "names": {
+          "char6": "MANHAT",
+          "short": "Manhattan",
+          "seo": "manhattan",
+          "full": "Manhattan University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(5-4)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "MAAC",
+          "conferenceSeo": "maac"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1742976000",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-26-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }}
+  ],
+  "hideRank": false
+}

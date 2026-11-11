@@ -1,0 +1,51 @@
+{
+ "counts": {
+  "2023": {
+   "original_rows": 567,
+   "original_final": 566,
+   "rejected": 0,
+   "usable_games": 567,
+   "usable_d1_vs_d1": 559,
+   "verified": 333,
+   "provisional": 234,
+   "usable_with_box_stats": 566,
+   "date_corrections": 1,
+   "verified_by_school_page": 134,
+   "verified_by_espn_score": 228
+  },
+  "2024": {
+   "original_rows": 570,
+   "original_final": 570,
+   "rejected": 0,
+   "usable_games": 570,
+   "usable_d1_vs_d1": 570,
+   "verified": 296,
+   "provisional": 274,
+   "usable_with_box_stats": 569,
+   "date_corrections": 0,
+   "verified_by_school_page": 115,
+   "verified_by_espn_score": 235
+  },
+  "2025": {
+   "original_rows": 580,
+   "original_final": 580,
+   "rejected": 2,
+   "usable_games": 578,
+   "usable_d1_vs_d1": 578,
+   "verified": 577,
+   "provisional": 1,
+   "usable_with_box_stats": 578,
+   "date_corrections": 3,
+   "verified_by_school_page": 129,
+   "verified_by_espn_score": 575
+  }
+ },
+ "corrections": 14,
+ "correction_rows": 27,
+ "excluded_rows": 70,
+ "status_counts": {
+  "provisional": 46,
+  "verified": 19,
+  "rejected": 5
+ }
+}

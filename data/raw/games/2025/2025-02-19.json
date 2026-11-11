@@ -1,0 +1,114 @@
+{
+  "inputMD5Sum": "89d8477701374839e40e411500daf8f3",
+  "instanceId": "9b8a6fa9c4f840bfb983c46c1c4979d2",
+  "updated_at": "06-12-2025 09:24:54",
+  "games": [
+    {"game": {
+      "gameID": "6310626",
+      "away": {
+        "score": "12",
+        "names": {
+          "char6": "SACHRT",
+          "short": "Sacred Heart",
+          "seo": "sacred-heart",
+          "full": "Sacred Heart University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(2-1)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "MAAC",
+          "conferenceSeo": "maac"
+        }]
+      },
+      "finalMessage": "FINAL (2OT)",
+      "bracketRound": "",
+      "title": "Fairfield Sacred Heart",
+      "contestName": "",
+      "url": "/game/6386385",
+      "network": "",
+      "home": {
+        "score": "13",
+        "names": {
+          "char6": "FAIR",
+          "short": "Fairfield",
+          "seo": "fairfield",
+          "full": "Fairfield University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(3-0)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "CAA",
+          "conferenceSeo": "caa"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1739941200",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "02-19-2025",
+      "currentPeriod": "FINAL (2OT)",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6311561",
+      "away": {
+        "score": "14",
+        "names": {
+          "char6": "ARMY",
+          "short": "Army West Point",
+          "seo": "army",
+          "full": "U.S. Military Academy"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(3-0)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Patriot",
+          "conferenceSeo": "patriot"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Yale Army West Point",
+      "contestName": "",
+      "url": "/game/6386435",
+      "network": "",
+      "home": {
+        "score": "3",
+        "names": {
+          "char6": "YALE",
+          "short": "Yale",
+          "seo": "yale",
+          "full": "Yale University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(0-2)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Ivy League",
+          "conferenceSeo": "ivy-league"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1739941200",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "02-19-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }}
+  ],
+  "hideRank": false
+}

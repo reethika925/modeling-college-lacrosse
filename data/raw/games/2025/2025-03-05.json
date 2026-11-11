@@ -1,0 +1,167 @@
+{
+  "inputMD5Sum": "f555d6470d6062a4583911fdcc77362d",
+  "instanceId": "0251b550d1254b71939edd3d454658f3",
+  "updated_at": "06-12-2025 09:25:04",
+  "games": [
+    {"game": {
+      "gameID": "6309908",
+      "away": {
+        "score": "12",
+        "names": {
+          "char6": "GTOWN",
+          "short": "Georgetown",
+          "seo": "georgetown",
+          "full": "Georgetown University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(4-2)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Big East",
+          "conferenceSeo": "big-east"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "UAlbany Georgetown",
+      "contestName": "",
+      "url": "/game/6386220",
+      "network": "",
+      "home": {
+        "score": "7",
+        "names": {
+          "char6": "ALBANY",
+          "short": "UAlbany",
+          "seo": "albany-ny",
+          "full": "University at Albany"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(1-4)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "America East",
+          "conferenceSeo": "america-east"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1741150800",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-05-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6309964",
+      "away": {
+        "score": "4",
+        "names": {
+          "char6": "NJIT",
+          "short": "NJIT",
+          "seo": "njit",
+          "full": "New Jersey Institute of Technology"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(0-4)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "America East",
+          "conferenceSeo": "america-east"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Monmouth NJIT",
+      "contestName": "",
+      "url": "/game/6386241",
+      "network": "",
+      "home": {
+        "score": "18",
+        "names": {
+          "char6": "MONMTH",
+          "short": "Monmouth",
+          "seo": "monmouth",
+          "full": "Monmouth University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(3-3)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "CAA",
+          "conferenceSeo": "caa"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1741150800",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-05-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6312397",
+      "away": {
+        "score": "10",
+        "names": {
+          "char6": "SIENA",
+          "short": "Siena",
+          "seo": "siena",
+          "full": "Siena College"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(2-3)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "MAAC",
+          "conferenceSeo": "maac"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Binghamton Siena",
+      "contestName": "",
+      "url": "/game/6386467",
+      "network": "",
+      "home": {
+        "score": "6",
+        "names": {
+          "char6": "BINGHA",
+          "short": "Binghamton",
+          "seo": "binghamton",
+          "full": "Binghamton University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(1-4)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "America East",
+          "conferenceSeo": "america-east"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1741150800",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-05-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }}
+  ],
+  "hideRank": false
+}

@@ -1,0 +1,59 @@
+{
+  "inputMD5Sum": "cd5adcadd8e7499ac69b60ca6afcda83",
+  "instanceId": "520d7556982c4cb68d75f34bf7120999",
+  "updated_at": "06-12-2025 09:24:29",
+  "games": [{"game": {
+    "gameID": "6310485",
+    "away": {
+      "score": "5",
+      "names": {
+        "char6": "MERCER",
+        "short": "Mercer",
+        "seo": "mercer",
+        "full": "Mercer University"
+      },
+      "winner": false,
+      "seed": "",
+      "description": "(1-5)",
+      "rank": "",
+      "conferences": [{
+        "conferenceName": "ASUN",
+        "conferenceSeo": "asun"
+      }]
+    },
+    "finalMessage": "FINAL",
+    "bracketRound": "",
+    "title": "St. Bonaventure Mercer",
+    "contestName": "",
+    "url": "/game/6386377",
+    "network": "",
+    "home": {
+      "score": "9",
+      "names": {
+        "char6": "STBONA",
+        "short": "St. Bonaventure",
+        "seo": "st-bonaventure",
+        "full": "St. Bonaventure University"
+      },
+      "winner": true,
+      "seed": "",
+      "description": "(3-4)",
+      "rank": "",
+      "conferences": [{
+        "conferenceName": "Atlantic 10",
+        "conferenceSeo": "atlantic-10"
+      }]
+    },
+    "liveVideoEnabled": false,
+    "startTime": "TBA",
+    "startTimeEpoch": "1741237200",
+    "bracketId": "",
+    "gameState": "final",
+    "startDate": "03-06-2025",
+    "currentPeriod": "FINAL",
+    "videoState": "",
+    "bracketRegion": "",
+    "contestClock": "0:00"
+  }}],
+  "hideRank": false
+}

@@ -1,0 +1,3320 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0c0d0e">
+  <meta name="csrf-token" content="Ijg2OWU5N2Q0ZTE5OWViMTQ3YWJiZTM0NzQ3M2EzOWU2YTdlZmQ2YWUi.avJ8Ag.uCXTzzCjWXG9RLNMo85O2wt3Gus">
+  <title>NCAA Lacrosse Scores & Results | Cradl</title>
+  <meta name="description" content="NCAA Division I men's lacrosse final scores and results, searchable by season and team, with box scores for every game.">
+  <link rel="canonical" href="https://cradllax.com/results/">
+  
+  <meta property="og:title" content="Cradl · NCAA Lacrosse Scores, Rankings & AI Analysis">
+  <meta property="og:description" content="Live NCAA men's lacrosse scores, odds, Elo power rankings, bracketology, and AI game analysis, all free.">
+  <meta property="og:image" content="https://cradllax.com/static/img/og-image.png?v=4ff0b1134a">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Cradl: everything college lacrosse. A map of every Division I men's lacrosse program.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://cradllax.com/results/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Cradl · NCAA Lacrosse Scores, Rankings & AI Analysis">
+  <meta name="twitter:description" content="Live NCAA men's lacrosse scores, odds, Elo power rankings, bracketology, and AI game analysis, all free.">
+  <meta name="twitter:image" content="https://cradllax.com/static/img/og-image.png?v=4ff0b1134a">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/img/favicon-32.png?v=4">
+  <link rel="icon" type="image/x-icon" href="/static/img/favicon.ico?v=4">
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/img/apple-touch-icon.png">
+  <!-- Native iOS Smart App Banner (Safari on iPhone only) → CradlLax on the App Store -->
+  <meta name="apple-itunes-app" content="app-id=6760768007">
+  <script async src="https://plausible.io/js/pa-8citaJDwIZZS8MSRIG9kY.js"></script>
+  <script>window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()</script>
+  
+
+  <!-- Cradl webfonts: Big Shoulders Display (display) · Saira (UI/body) · JetBrains Mono (data), self-hosted -->
+  
+<link rel="preload" href="/static/fonts/saira-v23-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/static/fonts/big-shoulders-display-v24-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/static/css/fonts.css?v=c94ffb038d">
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+    crossorigin="anonymous"
+  >
+  <!-- Cradl Design System — tokens, base layer, brand motifs, shared components -->
+  <link rel="stylesheet" href="/static/css/cradl.css?v=f241d709ca">
+  <link rel="stylesheet" href="/static/css/picks.css?v=67d88188e1">
+  <script>
+    // Shared team-logo fallback (B48): when an ESPN logo fails to load, swap the
+    // image element for a monogram tile (initials on the neutral plate) instead of
+    // a blank gap. Mirrors app.utils.team_monogram so the client and the server
+    // no-id branch agree. Defined early so it exists before any body image errors.
+    window.crTeamMonogram = function (name) {
+      if (!name) return '?';
+      var parts = String(name).split(/\s+/).filter(Boolean);
+      if (parts.length >= 2) return parts.slice(0, 3).map(function (p) { return p[0]; }).join('').toUpperCase();
+      return (String(name).replace(/[^A-Za-z0-9]/g, '').slice(0, 3)).toUpperCase() || '?';
+    };
+    window.crLogoFallback = function (img) {
+      var span = document.createElement('span');
+      // keep the size + plate classes the image carried; add the monogram modifier
+      span.className = (img.className + ' cr-logo-mono').trim();
+      // prefer the server-computed initials (data-mono, agrees with team_monogram);
+      // fall back to parsing alt when a site sets a meaningful alt but no data-mono
+      var alt = img.getAttribute('alt') || '';
+      span.textContent = img.dataset.mono || window.crTeamMonogram(alt);
+      span.setAttribute('aria-hidden', 'true');
+      var label = alt || img.getAttribute('title') || '';
+      if (label) span.setAttribute('title', label);
+      if (img.style && img.style.cssText) span.style.cssText = img.style.cssText;
+      img.replaceWith(span);
+    };
+  </script>
+  
+<style>
+  /* Today's slate lives on /scores/: a plain neutral link beside the count. */
+  .results-scores-link { display: inline-flex; align-items: center; min-height: 44px; color: var(--text-1); font-size: var(--text-sm); text-decoration: underline; text-underline-offset: 2px; }
+  .results-scores-link:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  /* Center the surface — the results log is a scoreboard column, not a full-bleed table */
+  .results-shell { max-width: 960px; margin: 0 auto; }
+
+  .filter-bar {
+    display: flex;
+    gap: .6rem;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+  }
+  .filter-bar select {
+    background: var(--surface-input);
+    color: var(--text-1);
+    border: 1px solid var(--border-strong);
+    border-radius: var(--radius-sm);
+    padding: .45rem .8rem;
+    font-size: .85rem;
+    font-weight: var(--fw-medium);
+    cursor: pointer;
+    min-width: 150px;
+  }
+  .filter-bar select:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 2px var(--teal-muted);
+  }
+
+  /* ── Day-group header: gives the chronological log rhythm and removes per-card date repetition ── */
+  .result-daygroup {
+    display: flex;
+    align-items: center;
+    gap: .9rem;
+    margin: 1.5rem 0 .25rem;
+  }
+  .result-daygroup:first-of-type { margin-top: .25rem; }
+  .result-daygroup::before,
+  .result-daygroup::after {
+    content: "";
+    height: 1px;
+    flex: 1;
+    background: var(--border);
+  }
+  .result-day {
+    font-size: .7rem;
+    font-weight: var(--fw-bold);
+    text-transform: uppercase;
+    letter-spacing: .13em;
+    white-space: nowrap;
+    color: var(--text-2);
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ── Result card ── */
+  .result-card {
+    background: var(--glass-bg);
+    color: var(--text-1);
+    border: 1px solid var(--glass-border);
+    border-top-color: var(--glass-border-top);
+    border-radius: var(--radius-card);
+    padding: .85rem 1.4rem .7rem;
+    box-shadow: var(--glass-shadow);
+    transition: box-shadow var(--dur-fast) var(--ease-out),
+                border-color var(--dur-fast) var(--ease-out),
+                transform var(--dur-fast) var(--ease-out);
+  }
+  .result-card:hover {
+    box-shadow: var(--shadow-md);
+    border-color: var(--border-strong);
+    transform: translateY(-1px);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .result-card { transition: box-shadow var(--dur-fast) var(--ease-out), border-color var(--dur-fast) var(--ease-out); }
+    .result-card:hover { transform: none; }
+  }
+
+  /* Matchup pulls both teams in to flank a strong center score — no horizontal void */
+  .result-main {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 1.25rem;
+  }
+  .result-team {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    min-width: 0;
+  }
+  .result-team--away { justify-content: flex-end; text-align: right; }
+  .result-team--home { justify-content: flex-start; text-align: left; }
+  .result-team-name {
+    font-family: var(--font-display);
+    font-size: 1rem;
+    font-weight: var(--fw-extrabold);
+    letter-spacing: var(--display-tracking, 0.01em);
+    color: var(--text-1);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0; text-transform: var(--display-case, uppercase);
+  }
+  .result-team-name.winner { color: var(--positive); }
+  a.result-team-name:hover { color: var(--accent) !important; }
+  /* Full school+mascot name on desktop; short (mascot-stripped) name on phones so the name doesn't ellipsis to ambiguity */
+  .tn-short { display: none; }
+
+  .result-logo {
+    width: 34px;
+    height: 34px;
+    object-fit: contain;
+    flex-shrink: 0;
+  }
+
+  .result-score-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    gap: .25rem;
+    padding: .3rem .7rem;
+    border-radius: var(--radius-sm);
+    transition: background-color var(--dur-fast) var(--ease-out);
+  }
+  .result-score-block:hover { background: var(--glass-inset); }
+  .result-score-block:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+  .result-score {
+    display: flex;
+    align-items: center;
+    gap: .45rem;
+    font-family: var(--font-display);
+    font-size: 1.4rem;
+    font-weight: var(--fw-black);
+    color: var(--text-1);
+    font-variant-numeric: tabular-nums;
+    line-height: 1; text-transform: var(--display-case, uppercase);
+  }
+  .result-score-sep { color: var(--text-faint); font-weight: var(--fw-regular); }
+  .result-meta-row {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+  }
+  .result-neutral {
+    font-size: .7rem;
+    font-weight: var(--fw-semibold);
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: var(--text-secondary);
+    background: var(--surface-input);
+    padding: .1rem .35rem;
+    border-radius: var(--radius-badge);
+  }
+  .result-gamepage {
+    display: inline-flex;
+    align-items: center;
+    gap: .2rem;
+    font-size: .7rem;
+    font-weight: var(--fw-semibold);
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    color: var(--text-muted);
+    white-space: nowrap;
+    transition: color var(--dur-fast) var(--ease-out);
+  }
+  .result-score-block:hover .result-gamepage { color: var(--text-2); }
+  .result-gamepage svg { transition: transform var(--dur-fast) var(--ease-out); }
+  .result-score-block:hover .result-gamepage svg { transform: translateX(1px); }
+  @media (prefers-reduced-motion: reduce) {
+    .result-score-block, .result-gamepage, .result-gamepage svg { transition: none; }
+  }
+
+  /* ── Covering-side read (B46): the row's first-class result line, under the score.
+     The spread cover leads (bright + bold); the total sits alongside, neutral —
+     weight/brightness only, no win/loss color and no mint (credible, not a casino). ── */
+  .result-cover-read {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+    gap: .15rem .5rem;
+    margin-top: .6rem;
+    font-size: .82rem;
+    color: var(--text-2);
+    font-variant-numeric: tabular-nums;
+    text-align: center;
+  }
+  .result-cover-read .cr-seg { white-space: nowrap; }
+  .result-cover-read .cr-lead { color: var(--text-1); font-weight: var(--fw-bold); }
+  .result-cover-read .cr-dot { color: var(--text-faint); }
+
+  /* ── Footer: the box-score toggle, right-aligned under a hairline ── */
+  .result-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: .6rem;
+    padding-top: .55rem;
+    border-top: 1px solid var(--border);
+  }
+  .result-boxscore-btn {
+    background: none;
+    border: none;
+    padding: .2rem .25rem;
+    color: var(--text-2);
+    font-size: .72rem;
+    font-weight: var(--fw-semibold);
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: .35rem;
+    white-space: nowrap;
+    transition: color var(--dur-fast) var(--ease-out);
+  }
+  .result-boxscore-btn:hover { color: var(--text-1); }
+  .result-boxscore-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: var(--radius-xs); }
+  .result-boxscore-btn .chevron { transition: transform var(--dur-base) var(--ease-out); }
+  @media (prefers-reduced-motion: reduce) {
+    .result-boxscore-btn .chevron { transition: none; }
+  }
+  .result-boxscore-panel { display: none; }
+
+  /* ── Expanded box score: two teams side-by-side fill the width and halve the height ── */
+  .rbs-root {
+    margin-top: .7rem;
+    padding-top: .85rem;
+    border-top: 1px solid var(--border);
+    font-family: var(--font-sans);
+  }
+  .rbs-teams {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 380px), 1fr));
+    gap: 1.25rem 1.6rem;
+  }
+  .rbs-team { min-width: 0; }
+  .rbs-team-head {
+    display: flex;
+    align-items: baseline;
+    gap: .5rem;
+    margin-bottom: .55rem;
+  }
+  .rbs-team-name {
+    font-size: .78rem;
+    font-weight: var(--fw-bold);
+    color: var(--text-1);
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .rbs-team-score {
+    font-family: var(--font-mono);
+    font-size: .8rem;
+    font-weight: var(--fw-bold);
+    color: var(--text-muted);
+    font-variant-numeric: tabular-nums;
+    flex-shrink: 0;
+  }
+  .rbs-chips { display: flex; flex-wrap: wrap; gap: .35rem; margin-bottom: .6rem; }
+  .rbs-chip {
+    background: var(--surface-input);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: .22rem .5rem;
+    font-size: .7rem;
+    font-variant-numeric: tabular-nums;
+  }
+  .rbs-chip .rbs-k { color: var(--text-muted); margin-right: .3rem; font-weight: var(--fw-semibold); }
+  .rbs-chip .rbs-v { color: var(--text-1); font-weight: var(--fw-bold); }
+  .rbs-tabs { display: flex; gap: .3rem; margin-bottom: .5rem; }
+  /* Shown when a game has team totals but no player-level rows — the disclosure never dead-ends on an empty tablist */
+  .rbs-empty { margin: .1rem 0 .2rem; font-size: .74rem; color: var(--text-muted); }
+  .rbs-tab {
+    padding: .25rem .7rem;
+    font-size: .7rem;
+    font-weight: var(--fw-semibold);
+    border-radius: var(--radius-xs);
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: color var(--dur-fast) var(--ease-out), background var(--dur-fast) var(--ease-out);
+  }
+  .rbs-tab[aria-selected="true"] { background: var(--teal-muted); color: var(--accent); border-color: var(--accent); }
+  .rbs-tablewrap { overflow-x: auto; border-radius: var(--radius-sm); border: 1px solid var(--border); }
+  .rbs-table { width: 100%; border-collapse: collapse; font-size: .74rem; margin: 0; }
+  .rbs-table thead tr { background: var(--glass-inset); }
+  .rbs-table th {
+    font-weight: var(--fw-bold);
+    font-size: .7rem;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    padding: .35rem .5rem;
+    color: var(--text-muted);
+  }
+  .rbs-table td { padding: .3rem .5rem; font-variant-numeric: tabular-nums; }
+  .rbs-table tbody tr { border-bottom: 1px solid var(--line-faint); }
+  .rbs-table tbody tr:last-child { border-bottom: none; }
+  /* Notable stats (goals/assists/saves/faceoff wins) read via WEIGHT, not mint —
+     the box score is a data table, not a value signal, so mint stays scarce (B45). */
+  .rbs-hl { color: var(--text-1); font-weight: var(--fw-bold); }
+
+  /* Abbreviation legend under the box score (B49): touch-visible, decodes the
+     chip + table-header shorthand once for the casual-fan end of the audience. */
+  .rbs-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .12rem .7rem;
+    margin-top: .85rem;
+    padding-top: .7rem;
+    border-top: 1px solid var(--border);
+    font-size: .6875rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+  }
+  .rbs-lg b { color: var(--text-2); font-weight: var(--fw-bold); font-style: normal; }
+
+  .pagination-nav {
+    display: flex;
+    justify-content: center;
+    gap: .25rem;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+  }
+  .pagination-nav a,
+  .pagination-nav span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 36px;
+    height: 36px;
+    padding: 0 .5rem;
+    border-radius: var(--radius-sm);
+    font-size: .8rem;
+    font-weight: var(--fw-semibold);
+    text-decoration: none;
+    transition: var(--transition-base);
+  }
+  .pagination-nav a {
+    background: var(--surface-input);
+    color: var(--text-1);
+    border: 1px solid var(--border);
+  }
+  .pagination-nav a:hover {
+    background: var(--teal-muted);
+    border-color: var(--accent);
+    color: var(--text-1);
+  }
+  .pagination-nav .current {
+    background: var(--teal-muted);
+    color: var(--accent);
+    border: 1px solid var(--accent);
+  }
+  .pagination-nav .disabled {
+    background: var(--line-faint);
+    color: var(--text-faint);
+    border: 1px solid var(--line-faint);
+    cursor: default;
+    pointer-events: none;
+  }
+  .pagination-nav .ellipsis {
+    background: none;
+    color: var(--text-muted);
+    border: none;
+    font-size: 1.1rem;
+    font-weight: var(--fw-extrabold);
+    letter-spacing: .15em;
+  }
+
+  .wl-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    border-radius: var(--radius-xs);
+    font-size: .7rem;
+    font-weight: var(--fw-extrabold);
+    letter-spacing: .03em;
+    flex-shrink: 0;
+  }
+  .wl-badge.win {
+    background: var(--positive-soft);
+    color: var(--positive);
+    border: 1px solid rgba(6,208,1,.3);
+  }
+  .wl-badge.loss {
+    background: var(--negative-soft);
+    color: var(--negative);
+    border: 1px solid rgba(245,0,79,.3);
+  }
+
+  /* Empty-state recovery: reset the team filter back to a populated view */
+  .result-clear-filters {
+    display: inline-flex;
+    align-items: center;
+    gap: .35rem;
+    padding: .45rem .9rem;
+    background: var(--surface-input);
+    color: var(--text-1);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    font-size: .82rem;
+    font-weight: var(--fw-semibold);
+    text-decoration: none;
+    transition: border-color var(--dur-fast) var(--ease-out),
+                background var(--dur-fast) var(--ease-out);
+  }
+  .result-clear-filters:hover {
+    border-color: var(--accent);
+    background: var(--teal-muted);
+  }
+
+  @media (max-width: 576px) {
+    .result-card { padding: .65rem .8rem .55rem; }
+    .result-main { gap: .35rem; }
+    .result-logo { width: 26px; height: 26px; }
+    .result-team { gap: .3rem; }
+    .result-team-name {
+      font-size: .8rem;
+      /* Wrap multi-word school names (Ohio State, Notre Dame) to a second line rather than ellipsis-clipping to ambiguity; break a too-long single word instead of overflowing into the logo */
+      white-space: normal;
+      overflow-wrap: anywhere;
+      line-height: 1.15;
+    }
+    .tn-full { display: none; }
+    .tn-short { display: inline; }
+    /* Tighten the centre score block so the team-name columns get real width (score block was ~92px of ~338px) */
+    .result-score-block { padding: .2rem .4rem; }
+    .result-score { font-size: 1.15rem; gap: .3rem; }
+    /* Stack the score meta so the score block stays narrow and team names keep their width */
+    .result-meta-row { flex-direction: column; gap: .12rem; }
+    /* The whole score is tappable on mobile — drop the redundant label, keep the chevron cue */
+    .gp-label { display: none; }
+    .filter-bar select { min-width: 0; flex: 1; font-size: .8rem; min-height: 44px; }
+    /* 44px targets: Box Score toggle (was 78x24), box-score tabs, page links */
+    .result-footer { margin-top: .35rem; padding-top: 0; }
+    .result-boxscore-btn { min-height: 44px; padding: 0 .25rem; }
+    .rbs-tab { min-height: 44px; padding: .25rem .9rem; }
+    .pagination-nav a, .pagination-nav span { min-width: 44px; height: 44px; }
+  }
+</style>
+
+</head>
+<body data-logged-in="false">
+  
+<svg xmlns="http://www.w3.org/2000/svg" class="cr-icon-sprite" aria-hidden="true" focusable="false" style="position:absolute;width:0;height:0;overflow:hidden">
+<symbol id="cr-ic-games" viewBox="0 0 511.999 511.999"><path d="M312 256c0-27.1-19.4-49.8-45-54.9v-44.1h34c6.1 0 11-4.9 11-11s-4.9-11-11-11h-34V91c0-6.1-4.9-11-11-11s-11 4.9-11 11v44h-34c-6.1 0-11 4.9-11 11s4.9 11 11 11h34v44.1c-25.6 5.1-45 27.8-45 54.9c0 27.1 19.4 49.8 45 54.9V355h-34c-6.1 0-11 4.9-11 11s4.9 11 11 11h34v44c0 6.1 4.9 11 11 11s11-4.9 11-11v-44h34c6.1 0 11-4.9 11-11s-4.9-11-11-11h-34v-44.1C292.6 305.8 312 283.1 312 256z M222 256c0-18.7 15.3-34 34-34s34 15.3 34 34c0 18.7-15.3 34-34 34S222 274.7 222 256z"/><path d="M426 220c-19.9 0-36 16.1-36 36c0 19.9 16.1 36 36 36c19.9 0 36-16.1 36-36C462 236.1 445.9 220 426 220z M426 270c-7.7 0-14-6.3-14-14c0-7.7 6.3-14 14-14c7.7 0 14 6.3 14 14C440 263.7 433.7 270 426 270z"/><path d="M86 220c-19.9 0-36 16.1-36 36c0 19.9 16.1 36 36 36s36-16.1 36-36C122 236.1 105.8 220 86 220z M86 270c-7.7 0-14-6.3-14-14c0-7.7 6.3-14 14-14s14 6.3 14 14C100 263.7 93.7 270 86 270z"/><path d="M501 75H11C4.9 75 0 79.9 0 86v340c0 6.1 4.9 11 11 11h490c6.1 0 11-4.9 11-11V86C512 79.9 507.1 75 501 75z M22 157h128v198H22V157z M172 97H340v318H172V97z M362 157h128v198H362V157z M490 135H362V97h128V135z M150 97v38H22V97H150z M22 377h128v38H22V377z M362 415v-38h128v38H362z"/><path d="M256 245h0c-6.1 0-11 4.9-11 11s4.9 11 11 11s11-4.9 11-11S262.1 245 256 245z"/></symbol>
+<symbol id="cr-ic-results" viewBox="0 0 512 512"><path d="M476 109.6c-54.6 0-99-44.2-99-98.6c0-6.1-4.9-11-11-11H146c-6.1 0-11 4.9-11 11c0 54.3-44.4 98.6-99 98.6c-6.1 0-11 4.9-11 11c0 71.3 4.4 162.9 39.1 238.5c17 37.1 40.4 68.3 69.5 92.9c32 27 72.2 47.1 119.6 59.7c0.9 0.2 1.9 0.4 2.8 0.4s1.9-0.1 2.8-0.4c47.3-12.6 87.6-32.7 119.6-59.7c29.2-24.6 52.6-55.9 69.5-92.9C482.6 283.4 487 191.9 487 120.6C487 114.5 482.1 109.6 476 109.6z M256 489.6C76.4 440.2 48.2 289.2 47 131.1C105 125.8 151.2 79.7 156.5 22h199c5.3 57.7 51.5 103.8 109.5 109.1C463.8 289.2 435.6 440.2 256 489.6z"/><path d="M338.2 52.8c-1.4-4.6-5.7-7.8-10.5-7.8H184.3c-4.8 0-9.1 3.2-10.5 7.8c-13.9 45.7-49.6 81.4-95.5 95.5c-4.7 1.5-7.9 5.9-7.8 10.9c1.8 58.7 8.9 144.1 49.2 208.7c29.2 46.8 72.7 78.5 133.1 96.9c1 0.3 2.1 0.5 3.2 0.5s2.2-0.2 3.2-0.5c60.4-18.4 103.9-50.1 133.1-96.9c40.3-64.6 47.4-150.1 49.2-208.7c0.2-5-3-9.4-7.8-10.9C387.8 134.2 352.1 98.5 338.2 52.8z M373.6 356.2c-25.7 41.3-64.2 69.6-117.6 86.5c-53.4-16.9-91.9-45.2-117.6-86.5c-27.7-44.3-42.2-104.7-45.6-189.6c46.4-16.8 82.8-53.3 99.4-99.6h127.5c16.7 46.3 53 82.8 99.4 99.6C415.8 251.4 401.3 311.8 373.6 356.2z"/><path d="M361.6 169c-8.8-8.8-19.8-14.5-30.9-16c-12.1-1.7-23.5 1.8-31.3 9.5c-9.4 9.4-10.7 18.4-11.7 24.9c-0.9 5.8-1.4 9.2-6.6 14.5c-10.4 10.4-12.6 26-6.5 38.6l-18.5 18.5l-18.5-18.5c6.1-12.6 4-28.2-6.5-38.6c-5.2-5.2-5.8-8.7-6.6-14.5c-1-6.6-2.4-15.6-11.7-24.9c-15.4-15.4-43.3-12.4-62.2 6.5c-19 19-21.9 46.9-6.5 62.2c9.4 9.4 18.4 10.7 24.9 11.7c5.8 0.9 9.2 1.4 14.5 6.6c6.6 6.6 15.2 9.9 23.9 9.9c5.1 0 10.1-1.1 14.8-3.4l18.5 18.5l-68.3 68.3c-4.3 4.3-4.3 11.3 0 15.6c2.1 2.1 5 3.2 7.8 3.2s5.6-1.1 7.8-3.2l68.3-68.3l68.3 68.3c2.1 2.1 5 3.2 7.8 3.2c2.8 0 5.6-1.1 7.8-3.2c4.3-4.3 4.3-11.3 0-15.6l-68.3-68.3l18.5-18.5c4.6 2.3 9.7 3.4 14.8 3.4c8.6 0 17.3-3.3 23.9-9.9c5.2-5.2 8.7-5.8 14.5-6.6c6.6-1 15.6-2.4 24.9-11.7C383.5 215.9 380.5 188 361.6 169z M198.9 234.1c-10.3-10.3-19.8-11.8-26.7-12.8c-5.4-0.8-8.4-1.3-12.7-5.5c-6.7-6.7-3.7-20.9 6.5-31.1c6.5-6.5 14.7-10.1 21.4-10.1c3.9 0 7.3 1.2 9.7 3.6c4.3 4.3 4.7 7.3 5.5 12.7c1.1 6.9 2.5 16.4 12.8 26.7c4.6 4.6 4.6 12 0 16.6C210.9 238.6 203.5 238.6 198.9 234.1z M352.5 215.7c-4.3 4.3-7.3 4.7-12.7 5.5c-6.9 1.1-16.4 2.5-26.7 12.8c-4.6 4.6-12 4.6-16.6 0s-4.6-12 0-16.6c10.3-10.3 11.8-19.8 12.8-26.7c0.8-5.4 1.3-8.4 5.5-12.7c3.9-3.9 9.6-3.7 12.7-3.3c6.4 0.9 13.1 4.5 18.4 9.8C356.2 194.8 359.2 209 352.5 215.7z"/></symbol>
+<symbol id="cr-ic-rankings" viewBox="0 0 512 512"><path d="M500 472.8h-18.4v-68.3H501c6.1 0 11-4.9 11-11c0-6.1-4.9-11-11-11H358.8v-69.3h19.4c6.1 0 11-4.9 11-11c0-6.1-4.9-11-11-11H134.8c-6.1 0-11 4.9-11 11c0 6.1 4.9 11 11 11h19.4v38.9H12c-6.1 0-11 4.9-11 11c0 6.1 4.9 11 11 11h19.4v98.7H11c-6.1 0-11 4.9-11 11c0 6.1 4.9 11 11 11h489c6.1 0 11-4.9 11-11C511 477.7 506.1 472.8 500 472.8z M154.2 472.8H53.5v-98.7H154.2V472.8z M336.8 472.8H176.2v-159.6h160.6V472.8z M459.6 472.8H358.8v-68.3h100.8V472.8z"/><path d="M256.5 130.5c-31.2 0-56.7-25.4-56.7-56.7c0-31.2 25.4-56.7 56.7-56.7c31.2 0 56.7 25.4 56.7 56.7C313.2 105.1 287.7 130.5 256.5 130.5z M256.5 39.2c-19.1 0-34.7 15.5-34.7 34.7c0 19.1 15.5 34.7 34.7 34.7c19.1 0 34.7-15.5 34.7-34.7C291.2 54.8 275.6 39.2 256.5 39.2z"/><path d="M332.6 252.3H180.4c-6.1 0-11-4.9-11-11V226.1c0-48 39.1-87.1 87.1-87.1s87.1 39.1 87.1 87.1v15.2C343.6 247.4 338.7 252.3 332.6 252.3z M191.4 230.3h130.2v-4.2c0-35.9-29.2-65.1-65.1-65.1s-65.1 29.2-65.1 65.1V230.3z"/><path d="M256.5 434.9c-6.1 0-11-4.9-11-11v-60.9c0-6.1 4.9-11 11-11c6.1 0 11 4.9 11 11v60.9C267.5 430 262.6 434.9 256.5 434.9z"/></symbol>
+<symbol id="cr-ic-bracket" viewBox="0 0 512 512"><clipPath id="cr-ic-bracket-stickclip"><path d="M-941-1059L0-2000L2000 0L1059 941Z M-980-1020L-941-1059L289.8 171.8L250.8 210.8Z M301.2 261.2L340.2 222.2L1059 941L1020 980Z"/></clipPath><path d="M118.4 313.4c6.1 0 11-4.9 11-11V278.7c0-2.8 2.3-5.1 5.1-5.1h242.8c2.8 0 5.1 2.3 5.1 5.1v23.7c0 6.1 4.9 11 11 11s11-4.9 11-11V278.7c0-15-12.2-27.1-27.1-27.1H267v-36.7c0-6.1-4.9-11-11-11s-11 4.9-11 11v36.7H134.6c-15 0-27.1 12.2-27.1 27.1v23.7C107.4 308.4 112.4 313.4 118.4 313.4z"/><path d="M167.6 391.8H129.4v-24.1c0-6.1-4.9-11-11-11s-11 4.9-11 11v24.1H69.3c-15 0-27.1 12.2-27.1 27.1v23.7c0 6.1 4.9 11 11 11s11-4.9 11-11v-23.7c0-2.8 2.3-5.1 5.1-5.1h98.2c2.8 0 5.1 2.3 5.1 5.1v23.7c0 6.1 4.9 11 11 11s11-4.9 11-11v-23.7C194.7 404 182.5 391.8 167.6 391.8z"/><path d="M442.7 391.8H404.6v-24.1c0-6.1-4.9-11-11-11s-11 4.9-11 11v24.1h-38.1c-15 0-27.1 12.2-27.1 27.1v23.7c0 6.1 4.9 11 11 11s11-4.9 11-11v-23.7c0-2.8 2.3-5.1 5.1-5.1h98.2c2.8 0 5.1 2.3 5.1 5.1v23.7c0 6.1 4.9 11 11 11s11-4.9 11-11v-23.7C469.8 404 457.6 391.8 442.7 391.8z"/><path d="M66.8 432.8H39.6C17.8 432.8 0 450.6 0 472.4S17.8 512 39.6 512h27.2c21.8 0 39.6-17.8 39.6-39.6S88.6 432.8 66.8 432.8z M66.8 490H39.6C29.9 490 22 482.1 22 472.4c0-9.7 7.9-17.6 17.6-17.6h27.2c9.7 0 17.6 7.9 17.6 17.6C84.4 482.1 76.5 490 66.8 490z"/><path d="M197.3 432.8h-27.2c-21.8 0-39.6 17.8-39.6 39.6S148.3 512 170.1 512h27.2c21.8 0 39.6-17.8 39.6-39.6S219.1 432.8 197.3 432.8z M197.3 490h-27.2c-9.7 0-17.6-7.9-17.6-17.6c0-9.7 7.9-17.6 17.6-17.6h27.2c9.7 0 17.6 7.9 17.6 17.6C214.9 482.1 207 490 197.3 490z"/><path d="M341.9 432.8h-27.2c-21.8 0-39.6 17.8-39.6 39.6S292.9 512 314.7 512h27.2c21.8 0 39.6-17.8 39.6-39.6S363.7 432.8 341.9 432.8z M341.9 490h-27.2c-9.7 0-17.6-7.9-17.6-17.6c0-9.7 7.9-17.6 17.6-17.6h27.2c9.7 0 17.6 7.9 17.6 17.6C359.5 482.1 351.6 490 341.9 490z"/><path d="M472.4 432.8h-27.2c-21.8 0-39.6 17.8-39.6 39.6S423.4 512 445.2 512h27.2C494.2 512 512 494.2 512 472.4S494.2 432.8 472.4 432.8z M472.4 490h-27.2c-9.7 0-17.6-7.9-17.6-17.6c0-9.7 7.9-17.6 17.6-17.6h27.2c9.7 0 17.6 7.9 17.6 17.6C490 482.1 482.1 490 472.4 490z"/><path d="M104.9 374.3h27.2c21.8 0 39.6-17.8 39.6-39.6s-17.8-39.6-39.6-39.6h-27.2c-21.8 0-39.6 17.8-39.6 39.6S83 374.3 104.9 374.3z M104.9 317.1h27.2c9.7 0 17.6 7.9 17.6 17.6c0 9.7-7.9 17.6-17.6 17.6h-27.2c-9.7 0-17.6-7.9-17.6-17.6C87.3 325 95.2 317.1 104.9 317.1z"/><path d="M444.9 334.7c0-21.8-17.8-39.6-39.6-39.6h-27.2c-21.8 0-39.6 17.8-39.6 39.6s17.8 39.6 39.6 39.6h27.2C427.1 374.3 444.9 356.5 444.9 334.7z M405.3 352.3h-27.2c-9.7 0-17.6-7.9-17.6-17.6c0-9.7 7.9-17.6 17.6-17.6h27.2c9.7 0 17.6 7.9 17.6 17.6C422.9 344.4 415 352.3 405.3 352.3z"/><rect x="245" y="198" width="22" height="17"/><rect x="228.2" y="187" width="55.6" height="22" rx="11"/><g transform="translate(256 198) scale(0.8) rotate(-45) translate(-315.1-196.9)"><g clip-path="url(#cr-ic-bracket-stickclip)"><path d="M511.1 98.9c-3.2-23.1-15.2-46-33.6-64.5c-18.4-18.4-41.3-30.4-64.5-33.6c-24.3-3.4-46 3.1-61.2 18.2c-18.6 18.6-21.2 35.6-23.5 50.5c-2.2 14.3-4 26.6-19.8 42.4c-16.5 16.5-22.2 39.8-17.1 61L3.2 461.4C1.2 463.5 0 466.3 0 469.2s1.2 5.7 3.2 7.8l31.8 31.8c2.1 2.1 5 3.2 7.8 3.2s5.6-1.1 7.8-3.2L339 220.4c5 1.2 10.2 1.8 15.3 1.8c16.5 0 33.1-6.3 45.7-18.9c15.8-15.8 28.1-17.7 42.4-19.8c14.9-2.3 31.9-4.8 50.5-23.5C508 144.9 514.5 123.2 511.1 98.9z M42.8 485.5l-16.3-16.3L252.9 242.8l16.3 16.3L42.8 485.5z M284.8 243.5l-16.3-16.3l32.7-32.7c2.2 3.1 4.6 6.1 7.4 8.9c2.8 2.8 5.7 5.2 8.9 7.4L284.8 243.5z M477.3 144.5c-13.5 13.5-24.4 15.2-38.3 17.3c-15.8 2.4-33.8 5.1-54.7 26c-16.6 16.6-43.6 16.6-60.2 0c-16.6-16.6-16.6-43.6 0-60.2c20.9-20.9 23.6-38.8 26-54.7c2.1-13.8 3.8-24.7 17.3-38.3c8.6-8.6 20.4-12.8 33.4-12.8c20 0 42.7 9.8 61.1 28.1c15.1 15.1 24.8 33.5 27.3 52C491.8 119.3 487.5 134.4 477.3 144.5z"/><path d="M498 131.6L447 80.6l27.3-27.3c4.3-4.3 4.3-11.3 0-15.6c-4.3-4.3-11.3-4.3-15.6 0l-27.3 27.3l-51-51c-4.3-4.3-11.3-4.3-15.6 0c-4.3 4.3-4.3 11.3 0 15.6l51 51l-22.8 22.8L350.3 60.6c-4.3-4.3-11.3-4.3-15.6 0c-4.3 4.3-4.3 11.3 0 15.6l42.8 42.8l-22.8 22.8l-28.4-28.4c-4.3-4.3-11.3-4.3-15.6 0c-4.3 4.3-4.3 11.3 0 15.6l28.4 28.4l-27.3 27.3c-4.3 4.3-4.3 11.3 0 15.6c2.1 2.1 5 3.2 7.8 3.2s5.6-1.1 7.8-3.2l27.3-27.3l28.4 28.4c2.1 2.1 5 3.2 7.8 3.2s5.6-1.1 7.8-3.2c4.3-4.3 4.3-11.3 0-15.6l-28.4-28.4l22.8-22.8l42.8 42.8c2.1 2.1 5 3.2 7.8 3.2s5.6-1.1 7.8-3.2c4.3-4.3 4.3-11.3 0-15.6l-42.8-42.8l22.8-22.8l51 51c2.1 2.1 5 3.2 7.8 3.2s5.6-1.1 7.8-3.2C502.3 142.9 502.3 135.9 498 131.6z"/></g></g></symbol>
+<symbol id="cr-ic-picks" viewBox="0 0 512 512"><rect x="219" y="161" width="22" height="60"/><path d="M244.2 387.8c-3.8 3.8-8.8 5.9-14.2 5.9c-5.4 0-10.4-2.1-14.2-5.9c-4.3-4.3-11.3-4.3-15.6 0c-4.3 4.3-4.3 11.3 0 15.6c8 8 18.5 12.3 29.8 12.3c11.2 0 21.8-4.4 29.8-12.3c4.3-4.3 4.3-11.3 0-15.6C255.5 383.5 248.5 383.5 244.2 387.8z"/><path d="M173 306.3c-18.2 0-33 14.8-33 33s14.8 33 33 33s33-14.8 33-33S191.2 306.3 173 306.3z M173 350.3c-6.1 0-11-4.9-11-11s4.9-11 11-11s11 4.9 11 11S179.1 350.3 173 350.3z"/><path d="M287 306.3c-18.2 0-33 14.8-33 33s14.8 33 33 33s33-14.8 33-33S305.2 306.3 287 306.3z M287 350.3c-6.1 0-11-4.9-11-11s4.9-11 11-11s11 4.9 11 11S293.1 350.3 287 350.3z"/><path d="M501 0H298c-6.1 0-11 4.9-11 11v166c0 4.3 2.5 8.2 6.5 10c3.9 1.8 8.5 1.1 11.8-1.8l27.1-23.7H501c6.1 0 11-4.9 11-11V11C512 4.9 507.1 0 501 0z M490 139.5H328.2c-2.7 0-5.2 1-7.3 2.7l-11.9 10.5v-52l10.8-10.8c7.9-7.9 20.8-7.9 28.7 0c14.6 14.6 37.4 16.5 54.2 4.7l31.7-22.3c13.9-9.8 32.7-8.1 44.5 4.2L490 87.9V139.5z M490 56.8c-19.4-16.1-47.2-17.4-68.3-2.5l-31.7 22.3c-8.1 5.7-19 4.7-26-2.2c-15-15-38.4-16.3-55-4.1V22H490V56.8z"/><path d="M230 172c19.3 0 35-15.7 35-35s-15.7-35-35-35s-35 15.7-35 35S210.7 172 230 172z M230 124c7.2 0 13 5.8 13 13s-5.8 13-13 13s-13-5.8-13-13S222.8 124 230 124z"/><path d="M426 306.3h-11.5C405.7 251.8 358.3 210 301.3 210H158.7c-57 0-104.4 41.8-113.3 96.3H34C15.2 306.3 0 321.5 0 340.3v41.5c0 18.7 15.2 34 34 34h11.5C54.3 470.2 101.8 512 158.7 512h142.5c57 0 104.4-41.8 113.3-96.3h11.5c18.7 0 34-15.2 34-34v-41.5C460 321.5 444.8 306.3 426 306.3z M44 393.7H34c-6.6 0-12-5.4-12-12v-41.5c0-6.6 5.4-12 12-12H44V393.7z M162.7 232h134.5v2.6c0 12.9-10.5 23.4-23.4 23.4h-87.8c-12.9 0-23.4-10.5-23.4-23.4V232z M186.1 280h87.8h27.3c24.7 0 44.7 20.1 44.7 44.7v72.5c0 24.7-20.1 44.7-44.7 44.7H158.7C134.1 442 114 421.9 114 397.3v-72.5C114 300.1 134.1 280 158.7 280H186.1z M394 397.3c0 51.1-41.6 92.7-92.7 92.7H158.7C107.6 490 66 448.4 66 397.3v-72.5c0-45 32.2-82.6 74.7-91v0.9c0 8.9 2.6 17.2 7.1 24.3C116.2 264.1 92 291.7 92 324.7v72.5C92 434.1 121.9 464 158.7 464h142.5c36.8 0 66.7-29.9 66.7-66.7v-72.5c0-33.1-24.2-60.6-55.8-65.8c4.5-7 7.1-15.3 7.1-24.3v-0.9c42.6 8.4 74.7 46 74.7 91V397.3z M438 381.7c0 6.6-5.4 12-12 12h-10v-65.4h10c6.6 0 12 5.4 12 12V381.7z"/></symbol>
+<symbol id="cr-ic-pickem" viewBox="0 0 512 512"><path d="M197.1 122.4c-5.9 1.5-9.5 7.5-8 13.3c1.5 5.9 7.4 9.5 13.3 8c30.7-7.7 62.4-11.6 94.1-11.6c31.9 0 63.7 4 94.7 11.8c0.9 0.2 1.8 0.3 2.7 0.3c4.9 0 9.4-3.3 10.7-8.3c1.5-5.9-2.1-11.9-8-13.4c-32.7-8.3-66.3-12.5-100.1-12.5C263.1 110.1 229.6 114.3 197.1 122.4z"/><path d="M198 97.7c1.1 0 2.2-0.2 3.3-0.5c22.8-7.3 46.4-11.5 70-12.5c23-1 46.3 1.1 69 6.1c5.9 1.3 11.8-2.4 13.1-8.4c1.3-5.9-2.4-11.8-8.4-13.1c-24.6-5.4-49.8-7.7-74.7-6.6c-25.6 1.1-51.1 5.6-75.8 13.5c-5.8 1.8-9 8-7.1 13.8C189 94.7 193.3 97.7 198 97.7z"/><path d="M173.5 231.2c-4.1-4.4-11.1-4.7-15.5-0.5l-40.5 37.8c-4.4 4.1-4.7 11.1-0.5 15.5c2.2 2.3 5.1 3.5 8 3.5c2.7 0 5.4-1 7.5-3l40.5-37.8C177.4 242.6 177.6 235.7 173.5 231.2z"/><path d="M343.9 361.3c0.3 0 0.7 0 1 0c6-0.6 10.5-5.9 9.9-12l-9.5-102.7c-1.9-21-18.2-36.8-37.8-36.8h-37.8c-19.6 0-35.8 15.8-37.8 36.8L222.5 349.2c-0.6 6 3.9 11.4 9.9 12c6 0.6 11.4-3.9 12-9.9l9.5-102.7c0.8-8.4 6.5-16.8 15.9-16.8h37.8c9.4 0 15.1 8.5 15.9 16.8l9.5 102.7C333.5 357 338.3 361.3 343.9 361.3z"/><path d="M244.9 454.1c-5.7-2.2-12 0.5-14.3 6.2l-3.9 9.8C222.8 480 214.6 490 205.2 490h-22.4l16.1-72.6c1.3-5.9-2.4-11.8-8.4-13.1c-5.9-1.3-11.8 2.4-13.1 8.4l-19.1 86c-0.7 3.3 0.1 6.7 2.2 9.3c2.1 2.6 5.2 4.1 8.6 4.1h36.2c21.2 0 35.9-18.2 42.1-33.8l3.9-9.8C253.3 462.7 250.6 456.3 244.9 454.1z"/><path d="M419.1 498.6l-19.1-86.1c-1.3-5.9-7.2-9.7-13.1-8.4c-5.9 1.3-9.7 7.2-8.4 13.1L394.7 490h-22.4c-9.5 0-17.7-10-21.6-19.9l-3.8-9.7c-2.2-5.6-8.6-8.4-14.3-6.2c-5.6 2.2-8.4 8.6-6.2 14.3l3.8 9.7C336.3 493.8 351 512 372.2 512h36.2c3.3 0 6.5-1.5 8.6-4.1C419 505.3 419.8 501.9 419.1 498.6z"/><path d="M406.1 349.9l4-19.4c0.2-0.7 0.2-1.5 0.2-2.2V110.1c0-19.7-16.5-35.8-36.7-35.8c-5.2 0-10.2 1.1-14.7 3v-16.8c0-19.7-16.5-35.8-36.7-35.8c-5.5 0-10.8 1.2-15.5 3.4c-1.5-6.7-4.9-12.8-10.1-17.8C289.7 3.7 280.6 0 270.9 0c0 0 0 0 0 0c-9.7 0-18.8 3.7-25.8 10.4c-5.1 4.9-8.6 11.1-10.1 17.8c-4.7-2.2-10-3.4-15.5-3.4c-20.2 0-36.7 16-36.7 35.8l0 173.5l-6.7-5.3l-22.2-32.2c-13.4-19.3-33.8-20.6-47.2-13.5C90.4 191.7 84 210.6 91.1 229.2l23.2 60.3c3.7 9.5 20 31.1 44.5 63c1.3 1.7 2.6 3.4 3.9 5.1c-5.7 6.9-9.1 15.9-9.1 25.9c0 21.3 15.9 38.6 35.4 38.6h34.5l8.5 53.9C235.5 497.5 250.6 512 269.8 512h37.8c19.1 0 34.3-14.5 37.7-36.1L353.8 422h34.5c19.5 0 35.4-17.3 35.4-38.6C423.8 369.1 416.6 356.6 406.1 349.9z M181.4 345.6c-1.7-2.2-3.4-4.4-5.1-6.6c-0.9-1.2-1.9-2.5-2.9-3.8l30.6-74.3c0.6-1.4 0.9-2.9 0.8-4.4l0-62.8c30-7.3 60.8-11.1 91.7-11.1c30.9 0 61.7 3.7 91.7 11.1v133.4l-3.6 17.6H189C186.4 344.7 183.8 345 181.4 345.6z M373.6 96.3c8.1 0 14.7 6.2 14.7 13.8v61c-9.7-2.2-19.5-4.1-29.4-5.7v-55.4C359 102.5 365.5 96.3 373.6 96.3z M322.3 46.8c8.1 0 14.7 6.2 14.7 13.8v102.1c-9.8-1-19.6-1.6-29.4-1.9V60.5C307.6 52.9 314.2 46.8 322.3 46.8z M260.4 26.2c2.8-2.7 6.5-4.2 10.5-4.2c4 0 7.7 1.5 10.5 4.2c2.7 2.6 4.2 6 4.2 9.6v125c-9.8 0.3-19.6 0.9-29.4 1.9l0-102.1c0 0 0-0.1 0-0.1V35.8C256.2 32.2 257.7 28.8 260.4 26.2z M219.5 46.8c8.1 0 14.7 6.2 14.7 13.8c0 0 0 0.1 0 0.1l0 104.8c-9.9 1.5-19.7 3.4-29.4 5.7l0-110.5C204.8 52.9 211.4 46.8 219.5 46.8z M111.7 221.2c-3.8-9.8 0.5-16.2 5.4-18.7c5.1-2.7 12.7-2.4 18.8 6.5l23.1 33.5c0.6 0.9 1.4 1.7 2.2 2.4l19.3 15.3l-22.6 54.8c-11.1-14.8-21.3-28.8-23.1-33.5L111.7 221.2z M323.6 472.5c-1.3 8.1-6.2 17.5-16 17.5h-37.8c-9.7 0-14.7-9.5-16-17.5L245.8 422h85.7L323.6 472.5z M388.4 400h-199.4c-7.3 0-13.4-7.6-13.4-16.6s6.1-16.6 13.4-16.6h199.4c7.3 0 13.4 7.6 13.4 16.6S395.6 400 388.4 400z"/></symbol>
+<symbol id="cr-ic-teams" viewBox="0 0 512.06 512.06"><path d="M273.4 375.4L148.3 282.9c-1.9-1.4-4.2-2.2-6.5-2.2H37.8c-6.1 0-11 4.9-11 11s4.9 11 11 11h100.3l117.8 87v47.9c0 6.1 4.9 11 11 11s11-4.9 11-11v-53.4C277.9 380.8 276.2 377.5 273.4 375.4z"/><path d="M324 121.6L219.9 8.3c-4.1-4.5-11.1-4.8-15.5-0.7c-4.5 4.1-4.8 11.1-0.7 15.5l85 92.5l-20.7-1.8L70.3 38.8c-5.7-2.2-12 0.7-14.2 6.4s0.7 12 6.4 14.2l199.1 75.7c1 0.4 2 0.6 3 0.7l50.3 4.3c0.3 0 0.6 0 0.9 0c4.2 0 8-2.4 9.9-6.2C327.8 129.8 327.1 124.9 324 121.6z"/><path d="M157.9 220.6v-50c0-4.6-2.9-8.7-7.2-10.3L37 118.1c-5.7-2.1-12 0.8-14.1 6.5c-2.1 5.7 0.8 12 6.5 14.1l106.6 39.6v31.7l-112.5 3.5c-6.1 0.2-10.8 5.3-10.6 11.3c0.2 6 5.1 10.7 11 10.7c0.1 0 0.2 0 0.4 0l123.1-3.9C153.2 231.4 157.9 226.6 157.9 220.6z"/><path d="M496.2 224.3l3.5 0.4c3.4 0.4 6.8-0.8 9.2-3.3s3.5-5.9 3-9.3c-5.6-36.5-36.5-66.3-66.2-80.9c-19.5-52.6-52-89.8-96.6-110.9c-68.4-32.2-164.2-26.3-284.7 17.7H11c-3.7 0-7.1 1.8-9.2 4.9c-2 3.1-2.4 6.9-1 10.3l21.2 50.7c-14.6 45.8-19.3 81.9-15.9 119.8c3.8 41.7 17.7 85.8 45.1 143c1.8 3.8 5.7 6.3 9.9 6.3h54.7l253.2 137.6c1.6 0.9 3.4 1.3 5.3 1.3h32.9c2.9 0 5.8-1.2 7.8-3.3l31.2-31.6l3.3 3.4c2.1 2.1 4.9 3.3 7.8 3.3c1 0 2-0.1 3-0.4c3.9-1.1 6.8-4.2 7.7-8.1l43.5-191.6c0.4-1.8 0.4-3.7-0.1-5.4L496.2 224.3z M474.8 346.6l-70.5-28.8l3.5-42.2l79.8 14.5L474.8 346.6z M229.9 234.7c-1.8-3.6-0.7-6.9 0.9-8.7c1.1-1.3 3.8-3.3 8.4-1.9l32.2 10.1l1 29.5l-35.6-14.6L229.9 234.7z M273.3 287.9l0.8 23.9l-10.4-7l-12.5-25.9L273.3 287.9z M296.7 327l-1.1-29.9l85.4 35l-4.1 49.2L296.7 327z M294.8 272.9l-1.1-31.6l92.6 29.1l-3.2 38.6L294.8 272.9z M292.1 199.1l76.9 9.5l11.9 37.1l-88.1-27.7L292.1 199.1z M485.5 267.3l-79.1-14.4l-13.3-41.4l79.4 9.8L485.5 267.3z M402.6 490.1h-25.5l-253.2-137.6c-1.6-0.9-3.4-1.3-5.3-1.3H68.1C16.6 241.2 19.7 182.2 44.2 107c0.8-2.5 0.7-5.2-0.3-7.6L27.5 60.1h38.9c1.3 0 2.6-0.2 3.8-0.7C185.9 17 276.6 10.5 339.8 40.3c40.3 19 69.5 53.5 86.8 102.6c1 2.9 3.1 5.2 5.9 6.4c20.5 9.1 43.6 28.1 53.5 51.5l-203.9-25.2c-3.2-0.4-6.4 0.6-8.8 2.8c-2.4 2.2-3.7 5.3-3.6 8.5l0.9 24l-24.8-7.8c-11.8-3.7-23.9-0.5-31.7 8.5c-7.7 9-9.3 21.8-4.1 32.7l35.2 72.6c0.8 1.7 2.1 3.2 3.7 4.3l130.2 88l51.6 52.2L402.6 490.1z M451.1 450.8l-53.4-54.1l4.7-55.9l67.5 27.6L451.1 450.8z"/></symbol>
+<symbol id="cr-ic-census" viewBox="0 0 512 512"><path d="M256 17.5c-116.3 0-211 94.7-211 211c0 34 8.4 68 24.2 98.1c2 3.7 5.8 5.9 9.7 5.9c1.7 0 3.5-0.4 5.1-1.3c5.4-2.8 7.4-9.5 4.6-14.9C74.5 289.4 67 259 67 228.5c0-104.2 84.8-189 189-189c40.6 0 78.3 12.9 109.1 34.8H260.4c-27.6 0-50.1 22.5-50.1 50.1c0 27.6 22.5 50.1 50.1 50.1h49.5c4.7 0 8.6 3.8 8.6 8.6c0 16.9 13.7 30.6 30.6 30.6c4.7 0 8.6 3.8 8.6 8.6c0 6.1 4.9 11 11 11s11-4.9 11-11c0-16.9-13.7-30.6-30.6-30.6c-4.7 0-8.6-3.8-8.6-8.6c0-16.9-13.7-30.6-30.6-30.6h-49.5c-15.5 0-28.1-12.6-28.1-28.1c0-15.5 12.6-28.1 28.1-28.1h130.6C424.3 130.4 445 177.1 445 228.5c0 30.1-7.3 60.1-21.1 86.8c-2.8 5.4-0.7 12 4.7 14.8c5.4 2.8 12 0.7 14.8-4.7C458.9 295.5 467 262.1 467 228.5C467 112.2 372.3 17.5 256 17.5z"/><path d="M348.9 230.8h-39.1c-9 0-17.8 2.4-25.5 7c-5.2 3.1-6.9 9.8-3.8 15.1c2.1 3.5 5.7 5.4 9.5 5.4c1.9 0 3.8-0.5 5.6-1.5c4.3-2.6 9.2-3.9 14.2-3.9h39.1c6.1 0 11-4.9 11-11S355 230.8 348.9 230.8z"/><path d="M450.7 354.3c-0.3-19.1-8-36.9-21.6-50.3c-5.5-5.4-11.7-9.8-18.4-13.1c7.4-7.9 11.9-18.5 11.9-30.1c0-24.4-19.8-44.2-44.2-44.2s-44.2 19.8-44.2 44.2c0 11.6 4.5 22.2 11.9 30.1c-6.7 3.3-12.9 7.8-18.4 13.1c-4.1 4-7.6 8.4-10.6 13.2c-3-4.7-6.5-9.2-10.6-13.2c-5.5-5.4-11.7-9.8-18.4-13.1c7.4-7.9 11.9-18.5 11.9-30.1c0-24.4-19.8-44.2-44.2-44.2s-44.2 19.8-44.2 44.2c0 11.6 4.5 22.2 11.9 30.1c-6.7 3.3-12.9 7.8-18.4 13.1c-4.1 4-7.6 8.4-10.6 13.2c-3-4.7-6.5-9.2-10.6-13.2c-5.5-5.4-11.7-9.8-18.4-13.1c7.4-7.9 11.9-18.5 11.9-30.1c0-24.4-19.8-44.2-44.2-44.2c-24.4 0-44.2 19.8-44.2 44.2c0 11.6 4.5 22.2 11.9 30.1c-6.7 3.3-12.9 7.8-18.4 13.1c-13.6 13.4-21.3 31.2-21.6 50.3c-0.1 6.1 4.7 11.1 10.8 11.2c6 0.1 11.1-4.7 11.2-10.8c0.5-27.2 23-49.4 50.2-49.4c27.2 0 49.8 22.1 50.2 49.4c0.1 5.9 4.9 10.7 10.8 10.8c0 0 0 0 0 0c0 0 0 0 0.1 0c0 0 0.1 0 0.1 0c0 0 0.1 0 0.1 0c0 0 0 0 0 0c0 0 0 0 0.1 0c0 0 0.1 0 0.1 0c0 0 0.1 0 0.1 0c0.1 0 0.1 0 0.2 0c0 0 0.1 0 0.1 0c0.1 0 0.1 0 0.2 0c0 0 0.1 0 0.1 0c0.1 0 0.1 0 0.2 0c0 0 0.1 0 0.1 0c0.1 0 0.1 0 0.2 0c0 0 0.1 0 0.1 0c0.1 0 0.1 0 0.2 0c0 0 0 0 0.1 0c0.1 0 0.1 0 0.2 0c0 0 0 0 0 0c0.1 0 0.2 0 0.2-0.1c0 0 0 0 0 0c1.5-0.3 2.9-1 4.1-1.8c0 0 0 0 0 0c0.1 0 0.1-0.1 0.1-0.1c0 0 0.1 0 0.1-0.1c0 0 0.1-0.1 0.1-0.1c0 0 0.1-0.1 0.1-0.1c0 0 0 0 0 0c2.4-2 4-5 4.1-8.3c0.5-27.2 23-49.4 50.2-49.4c27.2 0 49.8 22.1 50.2 49.4c0.1 5.9 4.9 10.7 10.8 10.8c0 0 0 0 0 0c0 0 0 0 0.1 0c0 0 0.1 0 0.1 0c0 0 0.1 0 0.1 0c0 0 0 0 0 0c0 0 0 0 0.1 0c0 0 0.1 0 0.1 0c0 0 0.1 0 0.1 0c0.1 0 0.1 0 0.2 0c0 0 0.1 0 0.1 0c0 0 0.1 0 0.1 0c0 0 0.1 0 0.1 0c0 0 0.1 0 0.1 0c0 0 0.1 0 0.1 0c0 0 0.1 0 0.1 0c0 0 0.1 0 0.1 0c0.1 0 0.1 0 0.2 0c0 0 0.1 0 0.1 0c0.1 0 0.1 0 0.2 0c0 0 0.1 0 0.1 0c0.1 0 0.1 0 0.2 0c0 0 0 0 0.1 0c0.1 0 0.1 0 0.2 0c0 0 0 0 0 0c0.1 0 0.1 0 0.2-0.1c0 0 0 0 0 0c0.1 0 0.2 0 0.2-0.1c0 0 0 0 0 0c0.7-0.2 1.3-0.5 2-0.8c0 0 0 0 0 0c0.1 0 0.1-0.1 0.2-0.1c0 0 0 0 0 0c0.1 0 0.1-0.1 0.2-0.1c0 0 0 0 0.1 0c0 0 0.1-0.1 0.1-0.1c0 0 0.1 0 0.1-0.1c0 0 0.1 0 0.1-0.1c0 0 0.1-0.1 0.1-0.1c0 0 0 0 0.1 0c0.1 0 0.1-0.1 0.2-0.1c0 0 0 0 0 0c2.8-2 4.6-5.2 4.7-8.8c0.5-27.2 23-49.4 50.2-49.4c27.2 0 49.8 22.1 50.2 49.4c0.1 6 5 10.8 11 10.8c0.1 0 0.1 0 0.2 0C446 365.3 450.8 360.3 450.7 354.3z M133.5 238.5c12.2 0 22.2 9.9 22.2 22.2c0 12.2-9.9 22.2-22.2 22.2c-12.2 0-22.2-9.9-22.2-22.2C111.3 248.5 121.3 238.5 133.5 238.5z M256 238.5c12.2 0 22.2 9.9 22.2 22.2c0 12.2-9.9 22.2-22.2 22.2s-22.2-9.9-22.2-22.2C233.8 248.5 243.8 238.5 256 238.5z M378.5 238.5c12.2 0 22.2 9.9 22.2 22.2c0 12.2-9.9 22.2-22.2 22.2s-22.2-9.9-22.2-22.2C356.3 248.5 366.3 238.5 378.5 238.5z"/><path d="M472 418.9c7.4-7.9 11.9-18.5 11.9-30.2c0-24.4-19.8-44.2-44.2-44.2c-24.4 0-44.2 19.8-44.2 44.2c0 11.7 4.5 22.3 11.9 30.2c-11.9 6-22 15.1-29 26.4c-7-11.2-17.1-20.4-29-26.4c7.4-7.9 11.9-18.5 11.9-30.2c0-24.4-19.8-44.2-44.2-44.2s-44.2 19.8-44.2 44.2c0 11.7 4.5 22.3 11.9 30.2c-11.9 6-22 15.1-29 26.4c-7-11.2-17.1-20.4-29-26.4c7.4-7.9 11.9-18.5 11.9-30.2c0-24.4-19.8-44.2-44.2-44.2c-24.4 0-44.2 19.8-44.2 44.2c0 11.7 4.5 22.3 11.9 30.2c-11.9 6-22 15.1-29 26.4c-7-11.2-17.1-20.4-29-26.4c7.4-7.9 11.9-18.5 11.9-30.2c0-24.4-19.8-44.2-44.2-44.2s-44.2 19.8-44.2 44.2c0 11.7 4.5 22.3 11.9 30.2C16.3 430.7 0 455.2 0 483.5c0 6.1 4.9 11 11 11h490c6.1 0 11-4.9 11-11C512 455.2 495.7 430.7 472 418.9z M439.8 366.5c12.2 0 22.2 9.9 22.2 22.2s-9.9 22.2-22.2 22.2c-12.2 0-22.2-9.9-22.2-22.2S427.5 366.5 439.8 366.5z M317.2 366.5c12.2 0 22.2 9.9 22.2 22.2s-9.9 22.2-22.2 22.2s-22.2-9.9-22.2-22.2S305 366.5 317.2 366.5z M194.8 366.5c12.2 0 22.2 9.9 22.2 22.2s-9.9 22.2-22.2 22.2c-12.2 0-22.2-9.9-22.2-22.2S182.5 366.5 194.8 366.5z M72.2 366.5c12.2 0 22.2 9.9 22.2 22.2s-9.9 22.2-22.2 22.2s-22.2-9.9-22.2-22.2S60 366.5 72.2 366.5z M23.2 472.5c5-22.4 25.1-39.2 49-39.2s44 16.8 49 39.2H23.2z M145.7 472.5c5-22.4 25.1-39.2 49-39.2s44 16.8 49 39.2H145.7z M268.2 472.5c5-22.4 25.1-39.2 49-39.2s44 16.8 49 39.2H268.2z M390.7 472.5c5-22.4 25.1-39.2 49-39.2s44 16.8 49 39.2H390.7z"/></symbol>
+<symbol id="cr-ic-about" viewBox="0 0 512.029 512.029"><path d="M256 306c-84.4 0-153-68.6-153-153S171.7 0 256 0s153 68.6 153 153S340.4 306 256 306z M256 22c-72.2 0-131 58.8-131 131s58.8 131 131 131s131-58.8 131-131S328.2 22 256 22z"/><path d="M474.7 336.8c-11.8-19.2-39.2-25.2-57.9-12.6l-92.9 59.6c-2.9-16.2-15.3-30-32.3-33.7l-113.1-24.6c-22.1-4.8-44.7-1.4-64.3 9.6c-0.8-10.5-9.6-18.7-20.3-18.7H51c-11.2 0-20.3 9.1-20.3 20.3v155c0 11.2 9.1 20.3 20.3 20.3H93.9c11.2 0 20.3-9.1 20.3-20.3v-5.6l113.9 23.7c7.1 1.5 14.2 2.2 21.3 2.2c19.6 0 38.8-5.6 55.7-16.4l157.1-100.9C481.6 382.2 487.2 356.3 474.7 336.8z M92.2 490H52.7V338.3h39.6V490z M450.2 376.2L293.1 477.1c-18 11.6-39.5 15.6-60.5 11.2l-118.4-24.7V361.1l7-4.6c15.7-10.1 34.3-13.4 52.6-9.4l113.1 24.6c10.7 2.3 17.6 13 15.2 23.7c-2.1 10.5-13.3 17.7-23.7 15.2l-105.4-23c-5.9-1.3-11.8 2.5-13.1 8.4c-1.3 5.9 2.5 11.8 8.4 13.1l105.4 23c16.6 3.9 35.1-3.8 44.1-18.2l110.8-71.2c8.9-6 21.9-3.1 27.5 6C462.2 357.9 459.5 370.3 450.2 376.2z"/><path d="M220.2 214c-6.1 0-11 4.9-11 11s4.9 11 11 11h71.6c6.1 0 11-4.9 11-11s-4.9-11-11-11h-24.8v-82.6c0-6.1-4.9-11-11-11h-35.8c-6.1 0-11 4.9-11 11s4.9 11 11 11h24.8v71.6H220.2z"/><path d="M256 96.6c6.1 0 11-4.9 11-11V73c0-6.1-4.9-11-11-11c-6.1 0-11 4.9-11 11v12.5C245 91.6 249.9 96.6 256 96.6z"/></symbol>
+</svg>
+  
+  <a class="cr-skip-link" href="#main-content">Skip to main content</a>
+  
+  <div class="cr-page-glow" aria-hidden="true"></div>
+  <nav class="navbar navbar-expand-lg navbar-dark mb-4 cr-site-nav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">
+        <img src="/static/img/cradl-logo.png" alt="Cradl" width="108" height="40" style="height:40px;width:auto">
+      </a>
+      <div class="navbar-nav ms-auto d-flex flex-row gap-1 align-items-center">
+        
+        
+        
+        <div class="cr-nav-links" id="primaryNavLinks">
+        <a class="nav-link d-flex align-items-center gap-1" href="/scores/">
+          <svg class="cr-nav-ic" aria-hidden="true" focusable="false"><use href="#cr-ic-games"/></svg>
+          Games
+        </a>
+        <a class="nav-link d-flex align-items-center gap-1 active" href="/results/" aria-current="page">
+          <svg class="cr-nav-ic" aria-hidden="true" focusable="false"><use href="#cr-ic-results"/></svg>
+          Results
+        </a>
+        <a class="nav-link d-flex align-items-center gap-1" href="/rankings/">
+          <svg class="cr-nav-ic" aria-hidden="true" focusable="false"><use href="#cr-ic-rankings"/></svg>
+          Rankings
+        </a>
+        <a class="nav-link d-flex align-items-center gap-1" href="/bracketology/">
+          <svg class="cr-nav-ic" aria-hidden="true" focusable="false"><use href="#cr-ic-bracket"/></svg>
+          Bracket
+        </a>
+        
+        <a class="nav-link d-flex align-items-center gap-1" href="/leaderboard">
+          <svg class="cr-nav-ic" aria-hidden="true" focusable="false"><use href="#cr-ic-pickem"/></svg>
+          Pick'em
+        </a>
+        <a class="nav-link d-flex align-items-center gap-1" href="/team/">
+          <svg class="cr-nav-ic" aria-hidden="true" focusable="false"><use href="#cr-ic-teams"/></svg>
+          Teams
+        </a>
+        <a class="nav-link d-flex align-items-center gap-1" href="/census">
+          <svg class="cr-nav-ic" aria-hidden="true" focusable="false"><use href="#cr-ic-census"/></svg>
+          Census
+        </a>
+        <a class="nav-link d-flex align-items-center gap-1" href="/about">
+          <svg class="cr-nav-ic" aria-hidden="true" focusable="false"><use href="#cr-ic-about"/></svg>
+          About
+        </a>
+        </div><!-- /.cr-nav-links -->
+        
+
+        <button type="button" class="cr-nav-toggle" id="navToggle"
+                aria-controls="primaryNavLinks" aria-expanded="false" aria-label="Open navigation menu">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+        <span class="nav-separator" style="width:1px;height:20px;background:rgba(255,255,255,.15);margin:0 .4rem"></span>
+
+        
+        <a class="nav-link d-flex align-items-center gap-1" href="/login"
+           style="background:var(--accent);color:var(--on-accent) !important;border-radius:var(--radius-md);padding:.4rem .85rem !important;font-weight:700;font-size:.8rem">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/><polyline points="10 17 15 12 10 7"/><line x1="15" y1="12" x2="3" y2="12"/></svg>
+          Sign in
+        </a>
+        
+      </div>
+    </div>
+  </nav>
+
+  <main class="container-fluid px-4" id="main-content" tabindex="-1">
+    
+    
+    
+      
+    
+    
+    
+<div class="results-shell">
+<div class="page-header">
+  <div class="d-flex align-items-baseline gap-3 flex-wrap">
+    <h1 class="page-title mb-0">NCAA Lacrosse</h1>
+    <span class="page-subtitle">Results</span>
+  </div>
+  <div class="d-flex align-items-center gap-2 mt-1">
+    <span class="game-count-badge"><span class="cr-count-num">570</span> <span class="cr-count-unit">results</span></span>
+    <a href="/scores/" class="results-scores-link">Live and today's games</a>
+  </div>
+</div>
+
+<form class="filter-bar" method="get" action="/results/">
+  <select name="season" aria-label="Filter results by season" onchange="this.form.submit()">
+    
+    <option value="2026" selected>2026 season</option>
+    
+    <option value="2025" >2025 season</option>
+    
+    <option value="2024" >2024 season</option>
+    
+    <option value="2023" >2023 season</option>
+    
+    <option value="2022" >2022 season</option>
+    
+    <option value="2021" >2021 season</option>
+    
+    <option value="2020" >2020 season</option>
+    
+  </select>
+  <select name="team" aria-label="Filter results by team" onchange="this.form.submit()">
+    <option value="">All teams</option>
+    
+    <option value="40" >Air Force Falcons</option>
+    
+    <option value="38" >Army Black Knights</option>
+    
+    <option value="5" >Bellarmine Knights</option>
+    
+    <option value="41" >Binghamton Bearcats</option>
+    
+    <option value="6" >Boston University Terriers</option>
+    
+    <option value="28" >Brown Bears</option>
+    
+    <option value="76" >Bryant Bulldogs</option>
+    
+    <option value="42" >Bucknell Bison</option>
+    
+    <option value="43" >Canisius Golden Griffins</option>
+    
+    <option value="37" >Cleveland State Vikings</option>
+    
+    <option value="44" >Colgate Raiders</option>
+    
+    <option value="20" >Cornell Big Red</option>
+    
+    <option value="17" >Dartmouth Big Green</option>
+    
+    <option value="3" >Delaware Blue Hens</option>
+    
+    <option value="45" >Denver Pioneers</option>
+    
+    <option value="46" >Detroit Mercy Titans</option>
+    
+    <option value="47" >Drexel Dragons</option>
+    
+    <option value="15" >Duke Blue Devils</option>
+    
+    <option value="48" >Fairfield Stags</option>
+    
+    <option value="2" >Georgetown Hoyas</option>
+    
+    <option value="49" >Hampton Pirates</option>
+    
+    <option value="8" >Harvard Crimson</option>
+    
+    <option value="50" >High Point Panthers</option>
+    
+    <option value="21" >Hobart College Statesmen</option>
+    
+    <option value="51" >Hofstra Pride</option>
+    
+    <option value="7" >Holy Cross Crusaders</option>
+    
+    <option value="35" >Iona Gaels</option>
+    
+    <option value="34" >Jacksonville Dolphins</option>
+    
+    <option value="11" >Johns Hopkins University Blue Jays</option>
+    
+    <option value="36" >Lafayette Leopards</option>
+    
+    <option value="53" >Le Moyne Dolphins</option>
+    
+    <option value="52" >Lehigh Mountain Hawks</option>
+    
+    <option value="80" >Lindenwood Lions</option>
+    
+    <option value="54" >Long Island University Sharks</option>
+    
+    <option value="56" >Loyola Maryland Greyhounds</option>
+    
+    <option value="57" >Manhattan Jaspers</option>
+    
+    <option value="58" >Marist Red Foxes</option>
+    
+    <option value="33" >Marquette Golden Eagles</option>
+    
+    <option value="13" >Maryland Terrapins</option>
+    
+    <option value="9" >Massachusetts Minutemen</option>
+    
+    <option value="60" >Mercer Bears</option>
+    
+    <option value="61" >Mercyhurst Lakers</option>
+    
+    <option value="75" >Merrimack Warriors</option>
+    
+    <option value="14" >Michigan Wolverines</option>
+    
+    <option value="62" >Monmouth Hawks</option>
+    
+    <option value="10" >Mount St. Mary&#39;s Mountaineers</option>
+    
+    <option value="77" >NJIT Highlanders</option>
+    
+    <option value="63" >Navy Midshipmen</option>
+    
+    <option value="16" >North Carolina Tar Heels</option>
+    
+    <option value="4" >Notre Dame Fighting Irish</option>
+    
+    <option value="24" >Ohio State Buckeyes</option>
+    
+    <option value="25" >Penn State Nittany Lions</option>
+    
+    <option value="26" >Pennsylvania Quakers</option>
+    
+    <option value="18" >Princeton Tigers</option>
+    
+    <option value="64" >Providence Friars</option>
+    
+    <option value="65" >Queens University Royals</option>
+    
+    <option value="66" >Quinnipiac Bobcats</option>
+    
+    <option value="30" >Richmond Spiders</option>
+    
+    <option value="67" >Robert Morris Colonials</option>
+    
+    <option value="19" >Rutgers Scarlet Knights</option>
+    
+    <option value="68" >Sacred Heart Pioneers</option>
+    
+    <option value="71" >Saint Joseph&#39;s Hawks</option>
+    
+    <option value="69" >Siena Saints</option>
+    
+    <option value="22" >St. Bonaventure Bonnies</option>
+    
+    <option value="70" >St. John&#39;s Red Storm</option>
+    
+    <option value="72" >Stony Brook Seawolves</option>
+    
+    <option value="23" >Syracuse Orange</option>
+    
+    <option value="12" >Towson Tigers</option>
+    
+    <option value="39" >UAlbany Great Danes</option>
+    
+    <option value="59" >UMBC Retrievers</option>
+    
+    <option value="55" >UMass Lowell River Hawks</option>
+    
+    <option value="29" >Utah Utes</option>
+    
+    <option value="73" >VMI Keydets</option>
+    
+    <option value="32" >Vermont Catamounts</option>
+    
+    <option value="27" >Villanova Wildcats</option>
+    
+    <option value="31" >Virginia Cavaliers</option>
+    
+    <option value="74" >Wagner Seahawks</option>
+    
+    <option value="1" >Yale Bulldogs</option>
+    
+  </select>
+</form>
+
+<div class="d-flex flex-column gap-2">
+
+  
+  
+  
+    
+  <div class="result-daygroup"><span class="result-day">Mon · May 25, 2026</span></div>
+  
+  
+  
+  
+  
+  
+  
+  <div class="result-card" data-game-id="3118">
+    <div class="result-main">
+      <div class="result-team result-team--away">
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/87.png"
+             class="result-logo cr-logo-plate" alt="Notre Dame Fighting Irish" loading="lazy" onerror="crLogoFallback(this)">
+        
+        
+        <a href="/team/4?season=2026" class="result-team-name " style="text-decoration:none">
+          <span class="tn-full">Notre Dame Fighting Irish</span><span class="tn-short">Notre Dame</span>
+        </a>
+        
+        <span class="wl-badge loss">L</span>
+      </div>
+
+      <a href="/game/3118" class="result-score-block" style="text-decoration:none;color:inherit" aria-label="View Notre Dame Fighting Irish at Princeton Tigers game details">
+        <div class="result-score">
+          <span class="">9</span>
+          <span class="result-score-sep">-</span>
+          <span class="text-win">16</span>
+        </div>
+        <div class="result-meta-row">
+          
+          <span class="result-neutral">Neutral</span>
+          
+          <span class="result-gamepage" aria-hidden="true">
+            <span class="gp-label">Game page</span>
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </span>
+        </div>
+      </a>
+
+      <div class="result-team result-team--home">
+        <span class="wl-badge win">W</span>
+        
+        <a href="/team/18?season=2026" class="result-team-name winner" style="text-decoration:none">
+          <span class="tn-full">Princeton Tigers</span><span class="tn-short">Princeton</span>
+        </a>
+        
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/163.png"
+             class="result-logo cr-logo-plate" alt="Princeton Tigers" loading="lazy" onerror="crLogoFallback(this)">
+        
+      </div>
+    </div>
+
+    
+
+<div class="result-cover-read">
+  
+    
+      
+      
+      
+    <span class="cr-seg"><span class="cr-lead">Princeton -1.5</span> covered</span>
+    
+  
+  <span class="cr-dot" aria-hidden="true">·</span>
+  
+    
+    <span class="cr-seg">Over 22.5 (25)</span>
+    
+  
+</div>
+
+
+
+    <div class="result-footer">
+      <button class="result-boxscore-btn" onclick="toggleResultBoxScore(this, 3118)" aria-expanded="false" aria-controls="bs-panel-3118">
+        <svg class="chevron" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        Box score
+      </button>
+    </div>
+    <div class="result-boxscore-panel" id="bs-panel-3118"></div>
+  </div>
+  
+  
+    
+  <div class="result-daygroup"><span class="result-day">Sat · May 23, 2026</span></div>
+  
+  
+  
+  
+  
+  
+  
+  <div class="result-card" data-game-id="3110">
+    <div class="result-main">
+      <div class="result-team result-team--away">
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/183.png"
+             class="result-logo cr-logo-plate" alt="Syracuse Orange" loading="lazy" onerror="crLogoFallback(this)">
+        
+        
+        <a href="/team/23?season=2026" class="result-team-name " style="text-decoration:none">
+          <span class="tn-full">Syracuse Orange</span><span class="tn-short">Syracuse</span>
+        </a>
+        
+        <span class="wl-badge loss">L</span>
+      </div>
+
+      <a href="/game/3110" class="result-score-block" style="text-decoration:none;color:inherit" aria-label="View Syracuse Orange at Notre Dame Fighting Irish game details">
+        <div class="result-score">
+          <span class="">7</span>
+          <span class="result-score-sep">-</span>
+          <span class="text-win">15</span>
+        </div>
+        <div class="result-meta-row">
+          
+          <span class="result-neutral">Neutral</span>
+          
+          <span class="result-gamepage" aria-hidden="true">
+            <span class="gp-label">Game page</span>
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </span>
+        </div>
+      </a>
+
+      <div class="result-team result-team--home">
+        <span class="wl-badge win">W</span>
+        
+        <a href="/team/4?season=2026" class="result-team-name winner" style="text-decoration:none">
+          <span class="tn-full">Notre Dame Fighting Irish</span><span class="tn-short">Notre Dame</span>
+        </a>
+        
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/87.png"
+             class="result-logo cr-logo-plate" alt="Notre Dame Fighting Irish" loading="lazy" onerror="crLogoFallback(this)">
+        
+      </div>
+    </div>
+
+    
+
+<div class="result-cover-read">
+  
+    
+      
+      
+      
+    <span class="cr-seg"><span class="cr-lead">Notre Dame -2.5</span> covered</span>
+    
+  
+  <span class="cr-dot" aria-hidden="true">·</span>
+  
+    
+    <span class="cr-seg">Under 24.5 (22)</span>
+    
+  
+</div>
+
+
+
+    <div class="result-footer">
+      <button class="result-boxscore-btn" onclick="toggleResultBoxScore(this, 3110)" aria-expanded="false" aria-controls="bs-panel-3110">
+        <svg class="chevron" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        Box score
+      </button>
+    </div>
+    <div class="result-boxscore-panel" id="bs-panel-3110"></div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="result-card" data-game-id="3108">
+    <div class="result-main">
+      <div class="result-team result-team--away">
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/150.png"
+             class="result-logo cr-logo-plate" alt="Duke Blue Devils" loading="lazy" onerror="crLogoFallback(this)">
+        
+        
+        <a href="/team/15?season=2026" class="result-team-name " style="text-decoration:none">
+          <span class="tn-full">Duke Blue Devils</span><span class="tn-short">Duke</span>
+        </a>
+        
+        <span class="wl-badge loss">L</span>
+      </div>
+
+      <a href="/game/3108" class="result-score-block" style="text-decoration:none;color:inherit" aria-label="View Duke Blue Devils at Princeton Tigers game details">
+        <div class="result-score">
+          <span class="">7</span>
+          <span class="result-score-sep">-</span>
+          <span class="text-win">14</span>
+        </div>
+        <div class="result-meta-row">
+          
+          <span class="result-neutral">Neutral</span>
+          
+          <span class="result-gamepage" aria-hidden="true">
+            <span class="gp-label">Game page</span>
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </span>
+        </div>
+      </a>
+
+      <div class="result-team result-team--home">
+        <span class="wl-badge win">W</span>
+        
+        <a href="/team/18?season=2026" class="result-team-name winner" style="text-decoration:none">
+          <span class="tn-full">Princeton Tigers</span><span class="tn-short">Princeton</span>
+        </a>
+        
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/163.png"
+             class="result-logo cr-logo-plate" alt="Princeton Tigers" loading="lazy" onerror="crLogoFallback(this)">
+        
+      </div>
+    </div>
+
+    
+
+<div class="result-cover-read">
+  
+    
+      
+      
+      
+    <span class="cr-seg"><span class="cr-lead">Princeton -1.5</span> covered</span>
+    
+  
+  <span class="cr-dot" aria-hidden="true">·</span>
+  
+    
+    <span class="cr-seg">Under 23.5 (21)</span>
+    
+  
+</div>
+
+
+
+    <div class="result-footer">
+      <button class="result-boxscore-btn" onclick="toggleResultBoxScore(this, 3108)" aria-expanded="false" aria-controls="bs-panel-3108">
+        <svg class="chevron" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        Box score
+      </button>
+    </div>
+    <div class="result-boxscore-panel" id="bs-panel-3108"></div>
+  </div>
+  
+  
+    
+  <div class="result-daygroup"><span class="result-day">Sun · May 17, 2026</span></div>
+  
+  
+  
+  
+  
+  
+  
+  <div class="result-card" data-game-id="3085">
+    <div class="result-main">
+      <div class="result-team result-team--away">
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/46.png"
+             class="result-logo cr-logo-plate" alt="Georgetown Hoyas" loading="lazy" onerror="crLogoFallback(this)">
+        
+        
+        <a href="/team/2?season=2026" class="result-team-name " style="text-decoration:none">
+          <span class="tn-full">Georgetown Hoyas</span><span class="tn-short">Georgetown</span>
+        </a>
+        
+        <span class="wl-badge loss">L</span>
+      </div>
+
+      <a href="/game/3085" class="result-score-block" style="text-decoration:none;color:inherit" aria-label="View Georgetown Hoyas at Duke Blue Devils game details">
+        <div class="result-score">
+          <span class="">6</span>
+          <span class="result-score-sep">-</span>
+          <span class="text-win">16</span>
+        </div>
+        <div class="result-meta-row">
+          
+          <span class="result-neutral">Neutral</span>
+          
+          <span class="result-gamepage" aria-hidden="true">
+            <span class="gp-label">Game page</span>
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </span>
+        </div>
+      </a>
+
+      <div class="result-team result-team--home">
+        <span class="wl-badge win">W</span>
+        
+        <a href="/team/15?season=2026" class="result-team-name winner" style="text-decoration:none">
+          <span class="tn-full">Duke Blue Devils</span><span class="tn-short">Duke</span>
+        </a>
+        
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/150.png"
+             class="result-logo cr-logo-plate" alt="Duke Blue Devils" loading="lazy" onerror="crLogoFallback(this)">
+        
+      </div>
+    </div>
+
+    
+
+<div class="result-cover-read">
+  
+    
+      
+      
+      
+    <span class="cr-seg"><span class="cr-lead">Duke -1.5</span> covered</span>
+    
+  
+  <span class="cr-dot" aria-hidden="true">·</span>
+  
+    
+    <span class="cr-seg">Under 23.5 (22)</span>
+    
+  
+</div>
+
+
+
+    <div class="result-footer">
+      <button class="result-boxscore-btn" onclick="toggleResultBoxScore(this, 3085)" aria-expanded="false" aria-controls="bs-panel-3085">
+        <svg class="chevron" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        Box score
+      </button>
+    </div>
+    <div class="result-boxscore-panel" id="bs-panel-3085"></div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="result-card" data-game-id="3083">
+    <div class="result-main">
+      <div class="result-team result-team--away">
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/213.png"
+             class="result-logo cr-logo-plate" alt="Penn State Nittany Lions" loading="lazy" onerror="crLogoFallback(this)">
+        
+        
+        <a href="/team/25?season=2026" class="result-team-name " style="text-decoration:none">
+          <span class="tn-full">Penn State Nittany Lions</span><span class="tn-short">Penn State</span>
+        </a>
+        
+        <span class="wl-badge loss">L</span>
+      </div>
+
+      <a href="/game/3083" class="result-score-block" style="text-decoration:none;color:inherit" aria-label="View Penn State Nittany Lions at Princeton Tigers game details">
+        <div class="result-score">
+          <span class="">10</span>
+          <span class="result-score-sep">-</span>
+          <span class="text-win">14</span>
+        </div>
+        <div class="result-meta-row">
+          
+          <span class="result-neutral">Neutral</span>
+          
+          <span class="result-gamepage" aria-hidden="true">
+            <span class="gp-label">Game page</span>
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </span>
+        </div>
+      </a>
+
+      <div class="result-team result-team--home">
+        <span class="wl-badge win">W</span>
+        
+        <a href="/team/18?season=2026" class="result-team-name winner" style="text-decoration:none">
+          <span class="tn-full">Princeton Tigers</span><span class="tn-short">Princeton</span>
+        </a>
+        
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/163.png"
+             class="result-logo cr-logo-plate" alt="Princeton Tigers" loading="lazy" onerror="crLogoFallback(this)">
+        
+      </div>
+    </div>
+
+    
+
+<div class="result-cover-read">
+  
+    
+      
+      
+      
+    <span class="cr-seg"><span class="cr-lead">Princeton -1.5</span> covered</span>
+    
+  
+  <span class="cr-dot" aria-hidden="true">·</span>
+  
+    
+    <span class="cr-seg">Over 22.5 (24)</span>
+    
+  
+</div>
+
+
+
+    <div class="result-footer">
+      <button class="result-boxscore-btn" onclick="toggleResultBoxScore(this, 3083)" aria-expanded="false" aria-controls="bs-panel-3083">
+        <svg class="chevron" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        Box score
+      </button>
+    </div>
+    <div class="result-boxscore-panel" id="bs-panel-3083"></div>
+  </div>
+  
+  
+    
+  <div class="result-daygroup"><span class="result-day">Sat · May 16, 2026</span></div>
+  
+  
+  
+  
+  
+  
+  
+  <div class="result-card" data-game-id="3079">
+    <div class="result-main">
+      <div class="result-team result-team--away">
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/183.png"
+             class="result-logo cr-logo-plate" alt="Syracuse Orange" loading="lazy" onerror="crLogoFallback(this)">
+        
+        
+        <a href="/team/23?season=2026" class="result-team-name winner" style="text-decoration:none">
+          <span class="tn-full">Syracuse Orange</span><span class="tn-short">Syracuse</span>
+        </a>
+        
+        <span class="wl-badge win">W</span>
+      </div>
+
+      <a href="/game/3079" class="result-score-block" style="text-decoration:none;color:inherit" aria-label="View Syracuse Orange at North Carolina Tar Heels game details">
+        <div class="result-score">
+          <span class="text-win">13</span>
+          <span class="result-score-sep">-</span>
+          <span class="">11</span>
+        </div>
+        <div class="result-meta-row">
+          
+          <span class="result-neutral">Neutral</span>
+          
+          <span class="result-gamepage" aria-hidden="true">
+            <span class="gp-label">Game page</span>
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </span>
+        </div>
+      </a>
+
+      <div class="result-team result-team--home">
+        <span class="wl-badge loss">L</span>
+        
+        <a href="/team/16?season=2026" class="result-team-name " style="text-decoration:none">
+          <span class="tn-full">North Carolina Tar Heels</span><span class="tn-short">North Carolina</span>
+        </a>
+        
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/153.png"
+             class="result-logo cr-logo-plate" alt="North Carolina Tar Heels" loading="lazy" onerror="crLogoFallback(this)">
+        
+      </div>
+    </div>
+
+    
+
+<div class="result-cover-read">
+  
+    
+      
+      
+      
+    <span class="cr-seg"><span class="cr-lead">Syracuse +1.5</span> covered</span>
+    
+  
+  <span class="cr-dot" aria-hidden="true">·</span>
+  
+    
+    <span class="cr-seg">Over 23.5 (24)</span>
+    
+  
+</div>
+
+
+
+    <div class="result-footer">
+      <button class="result-boxscore-btn" onclick="toggleResultBoxScore(this, 3079)" aria-expanded="false" aria-controls="bs-panel-3079">
+        <svg class="chevron" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        Box score
+      </button>
+    </div>
+    <div class="result-boxscore-panel" id="bs-panel-3079"></div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="result-card" data-game-id="3077">
+    <div class="result-main">
+      <div class="result-team result-team--away">
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/118.png"
+             class="result-logo cr-logo-plate" alt="Johns Hopkins University Blue Jays" loading="lazy" onerror="crLogoFallback(this)">
+        
+        
+        <a href="/team/11?season=2026" class="result-team-name " style="text-decoration:none">
+          <span class="tn-full">Johns Hopkins University Blue Jays</span><span class="tn-short">Johns Hopkins</span>
+        </a>
+        
+        <span class="wl-badge loss">L</span>
+      </div>
+
+      <a href="/game/3077" class="result-score-block" style="text-decoration:none;color:inherit" aria-label="View Johns Hopkins University Blue Jays at Notre Dame Fighting Irish game details">
+        <div class="result-score">
+          <span class="">9</span>
+          <span class="result-score-sep">-</span>
+          <span class="text-win">15</span>
+        </div>
+        <div class="result-meta-row">
+          
+          <span class="result-neutral">Neutral</span>
+          
+          <span class="result-gamepage" aria-hidden="true">
+            <span class="gp-label">Game page</span>
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </span>
+        </div>
+      </a>
+
+      <div class="result-team result-team--home">
+        <span class="wl-badge win">W</span>
+        
+        <a href="/team/4?season=2026" class="result-team-name winner" style="text-decoration:none">
+          <span class="tn-full">Notre Dame Fighting Irish</span><span class="tn-short">Notre Dame</span>
+        </a>
+        
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/87.png"
+             class="result-logo cr-logo-plate" alt="Notre Dame Fighting Irish" loading="lazy" onerror="crLogoFallback(this)">
+        
+      </div>
+    </div>
+
+    
+
+<div class="result-cover-read">
+  
+    
+      
+      
+      
+    <span class="cr-seg"><span class="cr-lead">Notre Dame -3.5</span> covered</span>
+    
+  
+  <span class="cr-dot" aria-hidden="true">·</span>
+  
+    
+    <span class="cr-seg">Over 21.5 (24)</span>
+    
+  
+</div>
+
+
+
+    <div class="result-footer">
+      <button class="result-boxscore-btn" onclick="toggleResultBoxScore(this, 3077)" aria-expanded="false" aria-controls="bs-panel-3077">
+        <svg class="chevron" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        Box score
+      </button>
+    </div>
+    <div class="result-boxscore-panel" id="bs-panel-3077"></div>
+  </div>
+  
+  
+    
+  <div class="result-daygroup"><span class="result-day">Sun · May 10, 2026</span></div>
+  
+  
+  
+  
+  
+  
+  
+  <div class="result-card" data-game-id="3055">
+    <div class="result-main">
+      <div class="result-team result-team--away">
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/46.png"
+             class="result-logo cr-logo-plate" alt="Georgetown Hoyas" loading="lazy" onerror="crLogoFallback(this)">
+        
+        
+        <a href="/team/2?season=2026" class="result-team-name winner" style="text-decoration:none">
+          <span class="tn-full">Georgetown Hoyas</span><span class="tn-short">Georgetown</span>
+        </a>
+        
+        <span class="wl-badge win">W</span>
+      </div>
+
+      <a href="/game/3055" class="result-score-block" style="text-decoration:none;color:inherit" aria-label="View Georgetown Hoyas at Virginia Cavaliers game details">
+        <div class="result-score">
+          <span class="text-win">14</span>
+          <span class="result-score-sep">-</span>
+          <span class="">10</span>
+        </div>
+        <div class="result-meta-row">
+          
+          <span class="result-gamepage" aria-hidden="true">
+            <span class="gp-label">Game page</span>
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </span>
+        </div>
+      </a>
+
+      <div class="result-team result-team--home">
+        <span class="wl-badge loss">L</span>
+        
+        <a href="/team/31?season=2026" class="result-team-name " style="text-decoration:none">
+          <span class="tn-full">Virginia Cavaliers</span><span class="tn-short">Virginia</span>
+        </a>
+        
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/258.png"
+             class="result-logo cr-logo-plate" alt="Virginia Cavaliers" loading="lazy" onerror="crLogoFallback(this)">
+        
+      </div>
+    </div>
+
+    
+
+<div class="result-cover-read">
+  
+    
+      
+      
+      
+    <span class="cr-seg"><span class="cr-lead">Georgetown +2.5</span> covered</span>
+    
+  
+  <span class="cr-dot" aria-hidden="true">·</span>
+  
+    
+    <span class="cr-seg">Under 24.5 (24)</span>
+    
+  
+</div>
+
+
+
+    <div class="result-footer">
+      <button class="result-boxscore-btn" onclick="toggleResultBoxScore(this, 3055)" aria-expanded="false" aria-controls="bs-panel-3055">
+        <svg class="chevron" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        Box score
+      </button>
+    </div>
+    <div class="result-boxscore-panel" id="bs-panel-3055"></div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="result-card" data-game-id="3054">
+    <div class="result-main">
+      <div class="result-team result-team--away">
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/43.png"
+             class="result-logo cr-logo-plate" alt="Yale Bulldogs" loading="lazy" onerror="crLogoFallback(this)">
+        
+        
+        <a href="/team/1?season=2026" class="result-team-name " style="text-decoration:none">
+          <span class="tn-full">Yale Bulldogs</span><span class="tn-short">Yale</span>
+        </a>
+        
+        <span class="wl-badge loss">L</span>
+      </div>
+
+      <a href="/game/3054" class="result-score-block" style="text-decoration:none;color:inherit" aria-label="View Yale Bulldogs at Syracuse Orange game details">
+        <div class="result-score">
+          <span class="">15</span>
+          <span class="result-score-sep">-</span>
+          <span class="text-win">16</span>
+        </div>
+        <div class="result-meta-row">
+          
+          <span class="result-gamepage" aria-hidden="true">
+            <span class="gp-label">Game page</span>
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </span>
+        </div>
+      </a>
+
+      <div class="result-team result-team--home">
+        <span class="wl-badge win">W</span>
+        
+        <a href="/team/23?season=2026" class="result-team-name winner" style="text-decoration:none">
+          <span class="tn-full">Syracuse Orange</span><span class="tn-short">Syracuse</span>
+        </a>
+        
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/183.png"
+             class="result-logo cr-logo-plate" alt="Syracuse Orange" loading="lazy" onerror="crLogoFallback(this)">
+        
+      </div>
+    </div>
+
+    
+
+<div class="result-cover-read">
+  
+    
+      
+      
+      
+    <span class="cr-seg"><span class="cr-lead">Yale +3.5</span> covered</span>
+    
+  
+  <span class="cr-dot" aria-hidden="true">·</span>
+  
+    
+    <span class="cr-seg">Over 24.5 (31)</span>
+    
+  
+</div>
+
+
+
+    <div class="result-footer">
+      <button class="result-boxscore-btn" onclick="toggleResultBoxScore(this, 3054)" aria-expanded="false" aria-controls="bs-panel-3054">
+        <svg class="chevron" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        Box score
+      </button>
+    </div>
+    <div class="result-boxscore-panel" id="bs-panel-3054"></div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="result-card" data-game-id="3052">
+    <div class="result-main">
+      <div class="result-team result-team--away">
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/2368.png"
+             class="result-logo cr-logo-plate" alt="Marist Red Foxes" loading="lazy" onerror="crLogoFallback(this)">
+        
+        
+        <a href="/team/58?season=2026" class="result-team-name " style="text-decoration:none">
+          <span class="tn-full">Marist Red Foxes</span><span class="tn-short">Marist</span>
+        </a>
+        
+        <span class="wl-badge loss">L</span>
+      </div>
+
+      <a href="/game/3052" class="result-score-block" style="text-decoration:none;color:inherit" aria-label="View Marist Red Foxes at Princeton Tigers game details">
+        <div class="result-score">
+          <span class="">8</span>
+          <span class="result-score-sep">-</span>
+          <span class="text-win">17</span>
+        </div>
+        <div class="result-meta-row">
+          
+          <span class="result-gamepage" aria-hidden="true">
+            <span class="gp-label">Game page</span>
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </span>
+        </div>
+      </a>
+
+      <div class="result-team result-team--home">
+        <span class="wl-badge win">W</span>
+        
+        <a href="/team/18?season=2026" class="result-team-name winner" style="text-decoration:none">
+          <span class="tn-full">Princeton Tigers</span><span class="tn-short">Princeton</span>
+        </a>
+        
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/163.png"
+             class="result-logo cr-logo-plate" alt="Princeton Tigers" loading="lazy" onerror="crLogoFallback(this)">
+        
+      </div>
+    </div>
+
+    
+
+<div class="result-cover-read">
+  
+    
+      
+      
+      
+    <span class="cr-seg"><span class="cr-lead">Marist +11.5</span> covered</span>
+    
+  
+  <span class="cr-dot" aria-hidden="true">·</span>
+  
+    
+    <span class="cr-seg">Over 23.5 (25)</span>
+    
+  
+</div>
+
+
+
+    <div class="result-footer">
+      <button class="result-boxscore-btn" onclick="toggleResultBoxScore(this, 3052)" aria-expanded="false" aria-controls="bs-panel-3052">
+        <svg class="chevron" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        Box score
+      </button>
+    </div>
+    <div class="result-boxscore-panel" id="bs-panel-3052"></div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="result-card" data-game-id="3051">
+    <div class="result-main">
+      <div class="result-team result-team--away">
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/294.png"
+             class="result-logo cr-logo-plate" alt="Jacksonville Dolphins" loading="lazy" onerror="crLogoFallback(this)">
+        
+        
+        <a href="/team/34?season=2026" class="result-team-name " style="text-decoration:none">
+          <span class="tn-full">Jacksonville Dolphins</span><span class="tn-short">Jacksonville</span>
+        </a>
+        
+        <span class="wl-badge loss">L</span>
+      </div>
+
+      <a href="/game/3051" class="result-score-block" style="text-decoration:none;color:inherit" aria-label="View Jacksonville Dolphins at Notre Dame Fighting Irish game details">
+        <div class="result-score">
+          <span class="">5</span>
+          <span class="result-score-sep">-</span>
+          <span class="text-win">18</span>
+        </div>
+        <div class="result-meta-row">
+          
+          <span class="result-gamepage" aria-hidden="true">
+            <span class="gp-label">Game page</span>
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </span>
+        </div>
+      </a>
+
+      <div class="result-team result-team--home">
+        <span class="wl-badge win">W</span>
+        
+        <a href="/team/4?season=2026" class="result-team-name winner" style="text-decoration:none">
+          <span class="tn-full">Notre Dame Fighting Irish</span><span class="tn-short">Notre Dame</span>
+        </a>
+        
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/87.png"
+             class="result-logo cr-logo-plate" alt="Notre Dame Fighting Irish" loading="lazy" onerror="crLogoFallback(this)">
+        
+      </div>
+    </div>
+
+    
+
+<div class="result-cover-read">
+  
+    
+      
+      
+      
+    <span class="cr-seg"><span class="cr-lead">Notre Dame -5.5</span> covered</span>
+    
+  
+  <span class="cr-dot" aria-hidden="true">·</span>
+  
+    
+    <span class="cr-seg">Over 21.5 (23)</span>
+    
+  
+</div>
+
+
+
+    <div class="result-footer">
+      <button class="result-boxscore-btn" onclick="toggleResultBoxScore(this, 3051)" aria-expanded="false" aria-controls="bs-panel-3051">
+        <svg class="chevron" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        Box score
+      </button>
+    </div>
+    <div class="result-boxscore-panel" id="bs-panel-3051"></div>
+  </div>
+  
+  
+    
+  <div class="result-daygroup"><span class="result-day">Sat · May 9, 2026</span></div>
+  
+  
+  
+  
+  
+  
+  
+  <div class="result-card" data-game-id="3047">
+    <div class="result-main">
+      <div class="result-team result-team--away">
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/150.png"
+             class="result-logo cr-logo-plate" alt="Duke Blue Devils" loading="lazy" onerror="crLogoFallback(this)">
+        
+        
+        <a href="/team/15?season=2026" class="result-team-name winner" style="text-decoration:none">
+          <span class="tn-full">Duke Blue Devils</span><span class="tn-short">Duke</span>
+        </a>
+        
+        <span class="wl-badge win">W</span>
+      </div>
+
+      <a href="/game/3047" class="result-score-block" style="text-decoration:none;color:inherit" aria-label="View Duke Blue Devils at Richmond Spiders game details">
+        <div class="result-score">
+          <span class="text-win">14</span>
+          <span class="result-score-sep">-</span>
+          <span class="">12</span>
+        </div>
+        <div class="result-meta-row">
+          
+          <span class="result-gamepage" aria-hidden="true">
+            <span class="gp-label">Game page</span>
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </span>
+        </div>
+      </a>
+
+      <div class="result-team result-team--home">
+        <span class="wl-badge loss">L</span>
+        
+        <a href="/team/30?season=2026" class="result-team-name " style="text-decoration:none">
+          <span class="tn-full">Richmond Spiders</span><span class="tn-short">Richmond</span>
+        </a>
+        
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/257.png"
+             class="result-logo cr-logo-plate" alt="Richmond Spiders" loading="lazy" onerror="crLogoFallback(this)">
+        
+      </div>
+    </div>
+
+    
+
+<div class="result-cover-read">
+  
+    
+      
+      
+      
+    <span class="cr-seg"><span class="cr-lead">Duke +1.5</span> covered</span>
+    
+  
+  <span class="cr-dot" aria-hidden="true">·</span>
+  
+    
+    <span class="cr-seg">Over 23.5 (26)</span>
+    
+  
+</div>
+
+
+
+    <div class="result-footer">
+      <button class="result-boxscore-btn" onclick="toggleResultBoxScore(this, 3047)" aria-expanded="false" aria-controls="bs-panel-3047">
+        <svg class="chevron" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        Box score
+      </button>
+    </div>
+    <div class="result-boxscore-panel" id="bs-panel-3047"></div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="result-card" data-game-id="3046">
+    <div class="result-main">
+      <div class="result-team result-team--away">
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/118.png"
+             class="result-logo cr-logo-plate" alt="Johns Hopkins University Blue Jays" loading="lazy" onerror="crLogoFallback(this)">
+        
+        
+        <a href="/team/11?season=2026" class="result-team-name winner" style="text-decoration:none">
+          <span class="tn-full">Johns Hopkins University Blue Jays</span><span class="tn-short">Johns Hopkins</span>
+        </a>
+        
+        <span class="wl-badge win">W</span>
+      </div>
+
+      <a href="/game/3046" class="result-score-block" style="text-decoration:none;color:inherit" aria-label="View Johns Hopkins University Blue Jays at Cornell Big Red game details">
+        <div class="result-score">
+          <span class="text-win">9</span>
+          <span class="result-score-sep">-</span>
+          <span class="">8</span>
+        </div>
+        <div class="result-meta-row">
+          
+          <span class="result-gamepage" aria-hidden="true">
+            <span class="gp-label">Game page</span>
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </span>
+        </div>
+      </a>
+
+      <div class="result-team result-team--home">
+        <span class="wl-badge loss">L</span>
+        
+        <a href="/team/20?season=2026" class="result-team-name " style="text-decoration:none">
+          <span class="tn-full">Cornell Big Red</span><span class="tn-short">Cornell</span>
+        </a>
+        
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/172.png"
+             class="result-logo cr-logo-plate" alt="Cornell Big Red" loading="lazy" onerror="crLogoFallback(this)">
+        
+      </div>
+    </div>
+
+    
+
+<div class="result-cover-read">
+  
+    
+      
+      
+      
+    <span class="cr-seg"><span class="cr-lead">Johns Hopkins +2.5</span> covered</span>
+    
+  
+  <span class="cr-dot" aria-hidden="true">·</span>
+  
+    
+    <span class="cr-seg">Under 22.5 (17)</span>
+    
+  
+</div>
+
+
+
+    <div class="result-footer">
+      <button class="result-boxscore-btn" onclick="toggleResultBoxScore(this, 3046)" aria-expanded="false" aria-controls="bs-panel-3046">
+        <svg class="chevron" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        Box score
+      </button>
+    </div>
+    <div class="result-boxscore-panel" id="bs-panel-3046"></div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="result-card" data-game-id="3044">
+    <div class="result-main">
+      <div class="result-team result-team--away">
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/349.png"
+             class="result-logo cr-logo-plate" alt="Army Black Knights" loading="lazy" onerror="crLogoFallback(this)">
+        
+        
+        <a href="/team/38?season=2026" class="result-team-name " style="text-decoration:none">
+          <span class="tn-full">Army Black Knights</span><span class="tn-short">Army</span>
+        </a>
+        
+        <span class="wl-badge loss">L</span>
+      </div>
+
+      <a href="/game/3044" class="result-score-block" style="text-decoration:none;color:inherit" aria-label="View Army Black Knights at Penn State Nittany Lions game details">
+        <div class="result-score">
+          <span class="">6</span>
+          <span class="result-score-sep">-</span>
+          <span class="text-win">10</span>
+        </div>
+        <div class="result-meta-row">
+          
+          <span class="result-gamepage" aria-hidden="true">
+            <span class="gp-label">Game page</span>
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </span>
+        </div>
+      </a>
+
+      <div class="result-team result-team--home">
+        <span class="wl-badge win">W</span>
+        
+        <a href="/team/25?season=2026" class="result-team-name winner" style="text-decoration:none">
+          <span class="tn-full">Penn State Nittany Lions</span><span class="tn-short">Penn State</span>
+        </a>
+        
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/213.png"
+             class="result-logo cr-logo-plate" alt="Penn State Nittany Lions" loading="lazy" onerror="crLogoFallback(this)">
+        
+      </div>
+    </div>
+
+    
+
+<div class="result-cover-read">
+  
+    
+      
+      
+      
+    <span class="cr-seg"><span class="cr-lead">Penn State -2.5</span> covered</span>
+    
+  
+  <span class="cr-dot" aria-hidden="true">·</span>
+  
+    
+    <span class="cr-seg">Under 21.5 (16)</span>
+    
+  
+</div>
+
+
+
+    <div class="result-footer">
+      <button class="result-boxscore-btn" onclick="toggleResultBoxScore(this, 3044)" aria-expanded="false" aria-controls="bs-panel-3044">
+        <svg class="chevron" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        Box score
+      </button>
+    </div>
+    <div class="result-boxscore-panel" id="bs-panel-3044"></div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="result-card" data-game-id="3043">
+    <div class="result-main">
+      <div class="result-team result-team--away">
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/399.png"
+             class="result-logo cr-logo-plate" alt="UAlbany Great Danes" loading="lazy" onerror="crLogoFallback(this)">
+        
+        
+        <a href="/team/39?season=2026" class="result-team-name " style="text-decoration:none">
+          <span class="tn-full">UAlbany Great Danes</span><span class="tn-short">UAlbany</span>
+        </a>
+        
+        <span class="wl-badge loss">L</span>
+      </div>
+
+      <a href="/game/3043" class="result-score-block" style="text-decoration:none;color:inherit" aria-label="View UAlbany Great Danes at North Carolina Tar Heels game details">
+        <div class="result-score">
+          <span class="">6</span>
+          <span class="result-score-sep">-</span>
+          <span class="text-win">24</span>
+        </div>
+        <div class="result-meta-row">
+          
+          <span class="result-gamepage" aria-hidden="true">
+            <span class="gp-label">Game page</span>
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </span>
+        </div>
+      </a>
+
+      <div class="result-team result-team--home">
+        <span class="wl-badge win">W</span>
+        
+        <a href="/team/16?season=2026" class="result-team-name winner" style="text-decoration:none">
+          <span class="tn-full">North Carolina Tar Heels</span><span class="tn-short">North Carolina</span>
+        </a>
+        
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/153.png"
+             class="result-logo cr-logo-plate" alt="North Carolina Tar Heels" loading="lazy" onerror="crLogoFallback(this)">
+        
+      </div>
+    </div>
+
+    
+
+<div class="result-cover-read">
+  
+    
+      
+      
+      
+    <span class="cr-seg"><span class="cr-lead">North Carolina -6.5</span> covered</span>
+    
+  
+  <span class="cr-dot" aria-hidden="true">·</span>
+  
+    
+    <span class="cr-seg">Over 22.5 (30)</span>
+    
+  
+</div>
+
+
+
+    <div class="result-footer">
+      <button class="result-boxscore-btn" onclick="toggleResultBoxScore(this, 3043)" aria-expanded="false" aria-controls="bs-panel-3043">
+        <svg class="chevron" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        Box score
+      </button>
+    </div>
+    <div class="result-boxscore-panel" id="bs-panel-3043"></div>
+  </div>
+  
+  
+    
+  <div class="result-daygroup"><span class="result-day">Wed · May 6, 2026</span></div>
+  
+  
+  
+  
+  
+  
+  
+  <div class="result-card" data-game-id="3032">
+    <div class="result-main">
+      <div class="result-team result-team--away">
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/2619.png"
+             class="result-logo cr-logo-plate" alt="Stony Brook Seawolves" loading="lazy" onerror="crLogoFallback(this)">
+        
+        
+        <a href="/team/72?season=2026" class="result-team-name " style="text-decoration:none">
+          <span class="tn-full">Stony Brook Seawolves</span><span class="tn-short">Stony Brook</span>
+        </a>
+        
+        <span class="wl-badge loss">L</span>
+      </div>
+
+      <a href="/game/3032" class="result-score-block" style="text-decoration:none;color:inherit" aria-label="View Stony Brook Seawolves at Marist Red Foxes game details">
+        <div class="result-score">
+          <span class="">6</span>
+          <span class="result-score-sep">-</span>
+          <span class="text-win">10</span>
+        </div>
+        <div class="result-meta-row">
+          
+          <span class="result-gamepage" aria-hidden="true">
+            <span class="gp-label">Game page</span>
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </span>
+        </div>
+      </a>
+
+      <div class="result-team result-team--home">
+        <span class="wl-badge win">W</span>
+        
+        <a href="/team/58?season=2026" class="result-team-name winner" style="text-decoration:none">
+          <span class="tn-full">Marist Red Foxes</span><span class="tn-short">Marist</span>
+        </a>
+        
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/2368.png"
+             class="result-logo cr-logo-plate" alt="Marist Red Foxes" loading="lazy" onerror="crLogoFallback(this)">
+        
+      </div>
+    </div>
+
+    
+
+<div class="result-cover-read">
+  
+    
+      
+      
+      
+    <span class="cr-seg"><span class="cr-lead">Marist +2.5</span> covered</span>
+    
+  
+  <span class="cr-dot" aria-hidden="true">·</span>
+  
+    
+    <span class="cr-seg">Under 24.5 (16)</span>
+    
+  
+</div>
+
+
+
+    <div class="result-footer">
+      <button class="result-boxscore-btn" onclick="toggleResultBoxScore(this, 3032)" aria-expanded="false" aria-controls="bs-panel-3032">
+        <svg class="chevron" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        Box score
+      </button>
+    </div>
+    <div class="result-boxscore-panel" id="bs-panel-3032"></div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="result-card" data-game-id="3031">
+    <div class="result-main">
+      <div class="result-team result-team--away">
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/294.png"
+             class="result-logo cr-logo-plate" alt="Jacksonville Dolphins" loading="lazy" onerror="crLogoFallback(this)">
+        
+        
+        <a href="/team/34?season=2026" class="result-team-name winner" style="text-decoration:none">
+          <span class="tn-full">Jacksonville Dolphins</span><span class="tn-short">Jacksonville</span>
+        </a>
+        
+        <span class="wl-badge win">W</span>
+      </div>
+
+      <a href="/game/3031" class="result-score-block" style="text-decoration:none;color:inherit" aria-label="View Jacksonville Dolphins at Robert Morris Colonials game details">
+        <div class="result-score">
+          <span class="text-win">13</span>
+          <span class="result-score-sep">-</span>
+          <span class="">7</span>
+        </div>
+        <div class="result-meta-row">
+          
+          <span class="result-gamepage" aria-hidden="true">
+            <span class="gp-label">Game page</span>
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </span>
+        </div>
+      </a>
+
+      <div class="result-team result-team--home">
+        <span class="wl-badge loss">L</span>
+        
+        <a href="/team/67?season=2026" class="result-team-name " style="text-decoration:none">
+          <span class="tn-full">Robert Morris Colonials</span><span class="tn-short">Robert Morris</span>
+        </a>
+        
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/2523.png"
+             class="result-logo cr-logo-plate" alt="Robert Morris Colonials" loading="lazy" onerror="crLogoFallback(this)">
+        
+      </div>
+    </div>
+
+    
+
+<div class="result-cover-read">
+  
+    
+      
+      
+      
+    <span class="cr-seg"><span class="cr-lead">Robert Morris +6.5</span> covered</span>
+    
+  
+  <span class="cr-dot" aria-hidden="true">·</span>
+  
+    
+    <span class="cr-seg">Under 22.5 (20)</span>
+    
+  
+</div>
+
+
+
+    <div class="result-footer">
+      <button class="result-boxscore-btn" onclick="toggleResultBoxScore(this, 3031)" aria-expanded="false" aria-controls="bs-panel-3031">
+        <svg class="chevron" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        Box score
+      </button>
+    </div>
+    <div class="result-boxscore-panel" id="bs-panel-3031"></div>
+  </div>
+  
+  
+    
+  <div class="result-daygroup"><span class="result-day">Sun · May 3, 2026</span></div>
+  
+  
+  
+  
+  
+  
+  
+  <div class="result-card" data-game-id="3019">
+    <div class="result-main">
+      <div class="result-team result-team--away">
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/163.png"
+             class="result-logo cr-logo-plate" alt="Princeton Tigers" loading="lazy" onerror="crLogoFallback(this)">
+        
+        
+        <a href="/team/18?season=2026" class="result-team-name winner" style="text-decoration:none">
+          <span class="tn-full">Princeton Tigers</span><span class="tn-short">Princeton</span>
+        </a>
+        
+        <span class="wl-badge win">W</span>
+      </div>
+
+      <a href="/game/3019" class="result-score-block" style="text-decoration:none;color:inherit" aria-label="View Princeton Tigers at Cornell Big Red game details">
+        <div class="result-score">
+          <span class="text-win">19</span>
+          <span class="result-score-sep">-</span>
+          <span class="">9</span>
+        </div>
+        <div class="result-meta-row">
+          
+          <span class="result-gamepage" aria-hidden="true">
+            <span class="gp-label">Game page</span>
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </span>
+        </div>
+      </a>
+
+      <div class="result-team result-team--home">
+        <span class="wl-badge loss">L</span>
+        
+        <a href="/team/20?season=2026" class="result-team-name " style="text-decoration:none">
+          <span class="tn-full">Cornell Big Red</span><span class="tn-short">Cornell</span>
+        </a>
+        
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/172.png"
+             class="result-logo cr-logo-plate" alt="Cornell Big Red" loading="lazy" onerror="crLogoFallback(this)">
+        
+      </div>
+    </div>
+
+    
+
+<div class="result-cover-read">
+  
+    
+      
+      
+      
+    <span class="cr-seg"><span class="cr-lead">Princeton -1.5</span> covered</span>
+    
+  
+  <span class="cr-dot" aria-hidden="true">·</span>
+  
+    
+    <span class="cr-seg">Over 23.5 (28)</span>
+    
+  
+</div>
+
+
+
+    <div class="result-footer">
+      <button class="result-boxscore-btn" onclick="toggleResultBoxScore(this, 3019)" aria-expanded="false" aria-controls="bs-panel-3019">
+        <svg class="chevron" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        Box score
+      </button>
+    </div>
+    <div class="result-boxscore-panel" id="bs-panel-3019"></div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="result-card" data-game-id="3018">
+    <div class="result-main">
+      <div class="result-team result-team--away">
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png"
+             class="result-logo cr-logo-plate" alt="Air Force Falcons" loading="lazy" onerror="crLogoFallback(this)">
+        
+        
+        <a href="/team/40?season=2026" class="result-team-name " style="text-decoration:none">
+          <span class="tn-full">Air Force Falcons</span><span class="tn-short">Air Force</span>
+        </a>
+        
+        <span class="wl-badge loss">L</span>
+      </div>
+
+      <a href="/game/3018" class="result-score-block" style="text-decoration:none;color:inherit" aria-label="View Air Force Falcons at Jacksonville Dolphins game details">
+        <div class="result-score">
+          <span class="">7</span>
+          <span class="result-score-sep">-</span>
+          <span class="text-win">16</span>
+        </div>
+        <div class="result-meta-row">
+          
+          <span class="result-gamepage" aria-hidden="true">
+            <span class="gp-label">Game page</span>
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </span>
+        </div>
+      </a>
+
+      <div class="result-team result-team--home">
+        <span class="wl-badge win">W</span>
+        
+        <a href="/team/34?season=2026" class="result-team-name winner" style="text-decoration:none">
+          <span class="tn-full">Jacksonville Dolphins</span><span class="tn-short">Jacksonville</span>
+        </a>
+        
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/294.png"
+             class="result-logo cr-logo-plate" alt="Jacksonville Dolphins" loading="lazy" onerror="crLogoFallback(this)">
+        
+      </div>
+    </div>
+
+    
+
+<div class="result-cover-read">
+  
+    
+      
+      
+      
+    <span class="cr-seg"><span class="cr-lead">Jacksonville -3.5</span> covered</span>
+    
+  
+  <span class="cr-dot" aria-hidden="true">·</span>
+  
+    
+    <span class="cr-seg">Under 23.5 (23)</span>
+    
+  
+</div>
+
+
+
+    <div class="result-footer">
+      <button class="result-boxscore-btn" onclick="toggleResultBoxScore(this, 3018)" aria-expanded="false" aria-controls="bs-panel-3018">
+        <svg class="chevron" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        Box score
+      </button>
+    </div>
+    <div class="result-boxscore-panel" id="bs-panel-3018"></div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="result-card" data-game-id="3016">
+    <div class="result-main">
+      <div class="result-team result-team--away">
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/2352.png"
+             class="result-logo cr-logo-plate" alt="Loyola Maryland Greyhounds" loading="lazy" onerror="crLogoFallback(this)">
+        
+        
+        <a href="/team/56?season=2026" class="result-team-name " style="text-decoration:none">
+          <span class="tn-full">Loyola Maryland Greyhounds</span><span class="tn-short">Loyola Maryland</span>
+        </a>
+        
+        <span class="wl-badge loss">L</span>
+      </div>
+
+      <a href="/game/3016" class="result-score-block" style="text-decoration:none;color:inherit" aria-label="View Loyola Maryland Greyhounds at Army Black Knights game details">
+        <div class="result-score">
+          <span class="">7</span>
+          <span class="result-score-sep">-</span>
+          <span class="text-win">14</span>
+        </div>
+        <div class="result-meta-row">
+          
+          <span class="result-gamepage" aria-hidden="true">
+            <span class="gp-label">Game page</span>
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </span>
+        </div>
+      </a>
+
+      <div class="result-team result-team--home">
+        <span class="wl-badge win">W</span>
+        
+        <a href="/team/38?season=2026" class="result-team-name winner" style="text-decoration:none">
+          <span class="tn-full">Army Black Knights</span><span class="tn-short">Army</span>
+        </a>
+        
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/349.png"
+             class="result-logo cr-logo-plate" alt="Army Black Knights" loading="lazy" onerror="crLogoFallback(this)">
+        
+      </div>
+    </div>
+
+    
+
+<div class="result-cover-read">
+  
+    
+      
+      
+      
+    <span class="cr-seg"><span class="cr-lead">Army -3.5</span> covered</span>
+    
+  
+  <span class="cr-dot" aria-hidden="true">·</span>
+  
+    
+    <span class="cr-seg">Under 23.5 (21)</span>
+    
+  
+</div>
+
+
+
+    <div class="result-footer">
+      <button class="result-boxscore-btn" onclick="toggleResultBoxScore(this, 3016)" aria-expanded="false" aria-controls="bs-panel-3016">
+        <svg class="chevron" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        Box score
+      </button>
+    </div>
+    <div class="result-boxscore-panel" id="bs-panel-3016"></div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="result-card" data-game-id="3015">
+    <div class="result-main">
+      <div class="result-team result-team--away">
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/258.png"
+             class="result-logo cr-logo-plate" alt="Virginia Cavaliers" loading="lazy" onerror="crLogoFallback(this)">
+        
+        
+        <a href="/team/31?season=2026" class="result-team-name winner" style="text-decoration:none">
+          <span class="tn-full">Virginia Cavaliers</span><span class="tn-short">Virginia</span>
+        </a>
+        
+        <span class="wl-badge win">W</span>
+      </div>
+
+      <a href="/game/3015" class="result-score-block" style="text-decoration:none;color:inherit" aria-label="View Virginia Cavaliers at North Carolina Tar Heels game details">
+        <div class="result-score">
+          <span class="text-win">16</span>
+          <span class="result-score-sep">-</span>
+          <span class="">6</span>
+        </div>
+        <div class="result-meta-row">
+          
+          <span class="result-neutral">Neutral</span>
+          
+          <span class="result-gamepage" aria-hidden="true">
+            <span class="gp-label">Game page</span>
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </span>
+        </div>
+      </a>
+
+      <div class="result-team result-team--home">
+        <span class="wl-badge loss">L</span>
+        
+        <a href="/team/16?season=2026" class="result-team-name " style="text-decoration:none">
+          <span class="tn-full">North Carolina Tar Heels</span><span class="tn-short">North Carolina</span>
+        </a>
+        
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/153.png"
+             class="result-logo cr-logo-plate" alt="North Carolina Tar Heels" loading="lazy" onerror="crLogoFallback(this)">
+        
+      </div>
+    </div>
+
+    
+
+<div class="result-cover-read">
+  
+    
+      
+      
+      
+    <span class="cr-seg"><span class="cr-lead">Virginia +1.5</span> covered</span>
+    
+  
+  <span class="cr-dot" aria-hidden="true">·</span>
+  
+    
+    <span class="cr-seg">Under 25.5 (22)</span>
+    
+  
+</div>
+
+
+
+    <div class="result-footer">
+      <button class="result-boxscore-btn" onclick="toggleResultBoxScore(this, 3015)" aria-expanded="false" aria-controls="bs-panel-3015">
+        <svg class="chevron" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        Box score
+      </button>
+    </div>
+    <div class="result-boxscore-panel" id="bs-panel-3015"></div>
+  </div>
+  
+  
+    
+  <div class="result-daygroup"><span class="result-day">Sat · May 2, 2026</span></div>
+  
+  
+  
+  
+  
+  
+  
+  <div class="result-card" data-game-id="3201">
+    <div class="result-main">
+      <div class="result-team result-team--away">
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/2507.png"
+             class="result-logo cr-logo-plate" alt="Providence Friars" loading="lazy" onerror="crLogoFallback(this)">
+        
+        
+        <a href="/team/64?season=2026" class="result-team-name " style="text-decoration:none">
+          <span class="tn-full">Providence Friars</span><span class="tn-short">Providence</span>
+        </a>
+        
+        <span class="wl-badge loss">L</span>
+      </div>
+
+      <a href="/game/3201" class="result-score-block" style="text-decoration:none;color:inherit" aria-label="View Providence Friars at Georgetown Hoyas game details">
+        <div class="result-score">
+          <span class="">6</span>
+          <span class="result-score-sep">-</span>
+          <span class="text-win">14</span>
+        </div>
+        <div class="result-meta-row">
+          
+          <span class="result-gamepage" aria-hidden="true">
+            <span class="gp-label">Game page</span>
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </span>
+        </div>
+      </a>
+
+      <div class="result-team result-team--home">
+        <span class="wl-badge win">W</span>
+        
+        <a href="/team/2?season=2026" class="result-team-name winner" style="text-decoration:none">
+          <span class="tn-full">Georgetown Hoyas</span><span class="tn-short">Georgetown</span>
+        </a>
+        
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/46.png"
+             class="result-logo cr-logo-plate" alt="Georgetown Hoyas" loading="lazy" onerror="crLogoFallback(this)">
+        
+      </div>
+    </div>
+
+    
+
+<div class="result-cover-read">
+  
+    
+      
+      
+      
+    <span class="cr-seg"><span class="cr-lead">Georgetown -5.5</span> covered</span>
+    
+  
+  <span class="cr-dot" aria-hidden="true">·</span>
+  
+    
+    <span class="cr-seg">Under 22.5 (20)</span>
+    
+  
+</div>
+
+
+
+    <div class="result-footer">
+      <button class="result-boxscore-btn" onclick="toggleResultBoxScore(this, 3201)" aria-expanded="false" aria-controls="bs-panel-3201">
+        <svg class="chevron" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        Box score
+      </button>
+    </div>
+    <div class="result-boxscore-panel" id="bs-panel-3201"></div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="result-card" data-game-id="3012">
+    <div class="result-main">
+      <div class="result-team result-team--away">
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/2341.png"
+             class="result-logo cr-logo-plate" alt="Long Island University Sharks" loading="lazy" onerror="crLogoFallback(this)">
+        
+        
+        <a href="/team/54?season=2026" class="result-team-name " style="text-decoration:none">
+          <span class="tn-full">Long Island University Sharks</span><span class="tn-short">Long Island</span>
+        </a>
+        
+        <span class="wl-badge loss">L</span>
+      </div>
+
+      <a href="/game/3012" class="result-score-block" style="text-decoration:none;color:inherit" aria-label="View Long Island University Sharks at Robert Morris Colonials game details">
+        <div class="result-score">
+          <span class="">7</span>
+          <span class="result-score-sep">-</span>
+          <span class="text-win">8</span>
+        </div>
+        <div class="result-meta-row">
+          
+          <span class="result-gamepage" aria-hidden="true">
+            <span class="gp-label">Game page</span>
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </span>
+        </div>
+      </a>
+
+      <div class="result-team result-team--home">
+        <span class="wl-badge win">W</span>
+        
+        <a href="/team/67?season=2026" class="result-team-name winner" style="text-decoration:none">
+          <span class="tn-full">Robert Morris Colonials</span><span class="tn-short">Robert Morris</span>
+        </a>
+        
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/2523.png"
+             class="result-logo cr-logo-plate" alt="Robert Morris Colonials" loading="lazy" onerror="crLogoFallback(this)">
+        
+      </div>
+    </div>
+
+    
+
+<div class="result-cover-read">
+  
+    
+      
+      
+      
+    <span class="cr-seg"><span class="cr-lead">Long Island +2.5</span> covered</span>
+    
+  
+  <span class="cr-dot" aria-hidden="true">·</span>
+  
+    
+    <span class="cr-seg">Under 22.5 (15)</span>
+    
+  
+</div>
+
+
+
+    <div class="result-footer">
+      <button class="result-boxscore-btn" onclick="toggleResultBoxScore(this, 3012)" aria-expanded="false" aria-controls="bs-panel-3012">
+        <svg class="chevron" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        Box score
+      </button>
+    </div>
+    <div class="result-boxscore-panel" id="bs-panel-3012"></div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="result-card" data-game-id="3011">
+    <div class="result-main">
+      <div class="result-team result-team--away">
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/2619.png"
+             class="result-logo cr-logo-plate" alt="Stony Brook Seawolves" loading="lazy" onerror="crLogoFallback(this)">
+        
+        
+        <a href="/team/72?season=2026" class="result-team-name winner" style="text-decoration:none">
+          <span class="tn-full">Stony Brook Seawolves</span><span class="tn-short">Stony Brook</span>
+        </a>
+        
+        <span class="wl-badge win">W</span>
+      </div>
+
+      <a href="/game/3011" class="result-score-block" style="text-decoration:none;color:inherit" aria-label="View Stony Brook Seawolves at Towson Tigers game details">
+        <div class="result-score">
+          <span class="text-win">13</span>
+          <span class="result-score-sep">-</span>
+          <span class="">11</span>
+        </div>
+        <div class="result-meta-row">
+          
+          <span class="result-gamepage" aria-hidden="true">
+            <span class="gp-label">Game page</span>
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </span>
+        </div>
+      </a>
+
+      <div class="result-team result-team--home">
+        <span class="wl-badge loss">L</span>
+        
+        <a href="/team/12?season=2026" class="result-team-name " style="text-decoration:none">
+          <span class="tn-full">Towson Tigers</span><span class="tn-short">Towson</span>
+        </a>
+        
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/119.png"
+             class="result-logo cr-logo-plate" alt="Towson Tigers" loading="lazy" onerror="crLogoFallback(this)">
+        
+      </div>
+    </div>
+
+    
+
+<div class="result-cover-read">
+  
+    
+      
+      
+      
+    <span class="cr-seg"><span class="cr-lead">Stony Brook +3.5</span> covered</span>
+    
+  
+  <span class="cr-dot" aria-hidden="true">·</span>
+  
+    
+    <span class="cr-seg">Over 23.5 (24)</span>
+    
+  
+</div>
+
+
+
+    <div class="result-footer">
+      <button class="result-boxscore-btn" onclick="toggleResultBoxScore(this, 3011)" aria-expanded="false" aria-controls="bs-panel-3011">
+        <svg class="chevron" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        Box score
+      </button>
+    </div>
+    <div class="result-boxscore-panel" id="bs-panel-3011"></div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="result-card" data-game-id="3009">
+    <div class="result-main">
+      <div class="result-team result-team--away">
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/261.png"
+             class="result-logo cr-logo-plate" alt="Vermont Catamounts" loading="lazy" onerror="crLogoFallback(this)">
+        
+        
+        <a href="/team/32?season=2026" class="result-team-name " style="text-decoration:none">
+          <span class="tn-full">Vermont Catamounts</span><span class="tn-short">Vermont</span>
+        </a>
+        
+        <span class="wl-badge loss">L</span>
+      </div>
+
+      <a href="/game/3009" class="result-score-block" style="text-decoration:none;color:inherit" aria-label="View Vermont Catamounts at UAlbany Great Danes game details">
+        <div class="result-score">
+          <span class="">11</span>
+          <span class="result-score-sep">-</span>
+          <span class="text-win">14</span>
+        </div>
+        <div class="result-meta-row">
+          
+          <span class="result-gamepage" aria-hidden="true">
+            <span class="gp-label">Game page</span>
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </span>
+        </div>
+      </a>
+
+      <div class="result-team result-team--home">
+        <span class="wl-badge win">W</span>
+        
+        <a href="/team/39?season=2026" class="result-team-name winner" style="text-decoration:none">
+          <span class="tn-full">UAlbany Great Danes</span><span class="tn-short">UAlbany</span>
+        </a>
+        
+        
+        <img width="34" height="34" src="https://a.espncdn.com/i/teamlogos/ncaa/500/399.png"
+             class="result-logo cr-logo-plate" alt="UAlbany Great Danes" loading="lazy" onerror="crLogoFallback(this)">
+        
+      </div>
+    </div>
+
+    
+
+<div class="result-cover-read">
+  
+    
+      
+      
+      
+    <span class="cr-seg"><span class="cr-lead">Vermont +3.5</span> covered</span>
+    
+  
+  <span class="cr-dot" aria-hidden="true">·</span>
+  
+    
+    <span class="cr-seg">Over 20.5 (25)</span>
+    
+  
+</div>
+
+
+
+    <div class="result-footer">
+      <button class="result-boxscore-btn" onclick="toggleResultBoxScore(this, 3009)" aria-expanded="false" aria-controls="bs-panel-3009">
+        <svg class="chevron" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        Box score
+      </button>
+    </div>
+    <div class="result-boxscore-panel" id="bs-panel-3009"></div>
+  </div>
+  
+
+  
+  
+  <nav class="pagination-nav" aria-label="Results pages">
+    
+    <span class="disabled">Prev</span>
+    
+
+    
+      
+      <span class="current" aria-current="page">1</span>
+      
+    
+      
+      <a href="/results/?season=2026&page=2">2</a>
+      
+    
+      
+      <a href="/results/?season=2026&page=3">3</a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <span class="ellipsis">…</span>
+      
+    
+      
+      <a href="/results/?season=2026&page=22">22</a>
+      
+    
+      
+      <a href="/results/?season=2026&page=23">23</a>
+      
+    
+
+    
+    <a href="/results/?season=2026&page=2">Next</a>
+    
+  </nav>
+  
+
+
+</div>
+</div>
+
+<script>
+const _bsCache = {};
+
+// Stat-abbreviation glossary for the box-score legend (B49). Covers the team
+// chips (SOG/GB/FO/CL/TO/CT/SV/EMO) and the player / goalie / faceoff headers.
+const RBS_GLOSSARY = [
+  ['G', 'Goals'], ['A', 'Assists'], ['Pts', 'Points'], ['SH', 'Shots'],
+  ['SOG', 'Shots on goal'], ['GB', 'Ground balls'], ['TO', 'Turnovers'],
+  ['CT', 'Caused turnovers'], ['SV', 'Saves'], ['GA', 'Goals allowed'],
+  ['SV%', 'Save %'], ['W/L', 'Faceoffs won/lost'], ['FO%', 'Faceoff %'],
+  ['CL', 'Clears'], ['EMO', 'Extra-man offense'],
+];
+const RBS_LEGEND = RBS_GLOSSARY
+  .map(([k, v]) => `<span class="rbs-lg"><b>${k}</b> ${v}</span>`)
+  .join('');
+
+function _esc(s) {
+  if (!s) return '';
+  const d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
+}
+
+function toggleResultBoxScore(btn, gameId) {
+  const card = btn.closest('.result-card');
+  const panel = card.querySelector('.result-boxscore-panel');
+  const chevron = btn.querySelector('.chevron');
+  const isOpen = panel.style.display === 'block';
+
+  if (isOpen) {
+    panel.style.display = 'none';
+    chevron.style.transform = '';
+    btn.setAttribute('aria-expanded', 'false');
+    return;
+  }
+
+  chevron.style.transform = 'rotate(180deg)';
+  panel.style.display = 'block';
+  btn.setAttribute('aria-expanded', 'true');
+
+  if (_bsCache[gameId]) {
+    panel.innerHTML = _bsCache[gameId];
+    return;
+  }
+
+  panel.innerHTML = '<div style="text-align:center;padding:.85rem;color:var(--muted);font-size:.8rem">Loading box score…</div>';
+
+  fetch(`/api/boxscore/game/${gameId}`, {credentials: 'same-origin'})
+    .then(r => r.json())
+    .then(data => {
+      if (data.error) {
+        panel.innerHTML = `<div style="text-align:center;padding:.85rem;color:var(--muted);font-size:.8rem">${_esc(data.error)}</div>`;
+        return;
+      }
+      const html = renderResultBoxScore(data, gameId);
+      _bsCache[gameId] = html;
+      panel.innerHTML = html;
+    })
+    .catch(() => {
+      panel.innerHTML = '<div style="text-align:center;padding:.85rem;color:var(--muted);font-size:.8rem">Couldn&#39;t load this box score. Close and reopen to retry.</div>';
+    });
+}
+
+function renderResultBoxScore(data, gameId) {
+  let html = '<div class="rbs-root"><div class="rbs-teams">';
+
+  let teamIdx = 0;
+  for (const role of ['away', 'home']) {
+    const team = data.teams[role];
+    if (!team) continue;
+    const name = team.team_name || (role === 'home' ? 'Home' : 'Away');
+    const teamScore = role === 'home' ? data.home_score : data.away_score;
+
+    html += '<div class="rbs-team">';
+    html += `<div class="rbs-team-head"><span class="rbs-team-name">${_esc(name)}</span>`
+          + (teamScore != null ? `<span class="rbs-team-score">${teamScore}</span>` : '')
+          + '</div>';
+
+    // Team stat chips
+    if (team.team_stats) {
+      const ts = team.team_stats;
+      const foWon = ts.faceoffs_won || 0;
+      const foLost = ts.faceoffs_lost || 0;
+      const foTotal = foWon + foLost;
+      const foPct = foTotal > 0 ? ((foWon / foTotal) * 100).toFixed(0) : '-';
+      const clears = ts.clears || 0;
+      const clearAtt = ts.clear_attempts || 0;
+      const clearPct = clearAtt > 0 ? ((clears / clearAtt) * 100).toFixed(0) : '-';
+      const sog = ts.shots_on_goal || 0;
+      const shots = ts.shots || 0;
+      const shotPct = shots > 0 ? ((sog / shots) * 100).toFixed(0) : '-';
+      const svs = ts.saves || 0;
+      const ga = role === 'home' ? data.away_score : data.home_score;
+      const svPct = (svs + (ga || 0)) > 0 ? ((svs / (svs + (ga || 0))) * 100).toFixed(0) : '-';
+
+      const chips = [
+        ['SOG', `${sog}/${shots} (${shotPct}%)`],  // on goal / shots, like FO won / taken
+        ['GB', ts.ground_balls],
+        ['FO', `${foWon}/${foTotal} (${foPct}%)`],
+        ['CL', `${clears}/${clearAtt} (${clearPct}%)`],
+        ['TO', ts.turnovers],
+        ['CT', ts.caused_turnovers],
+        ['SV', `${svs} (${svPct}%)`],
+      ];
+      if (ts.emo_goals != null && ts.emo_opportunities != null) {
+        chips.push(['EMO', `${ts.emo_goals}/${ts.emo_opportunities}`]);
+      }
+      html += '<div class="rbs-chips">';
+      for (const [label, val] of chips) {
+        if (val == null) continue;
+        html += `<span class="rbs-chip"><span class="rbs-k">${label}</span><span class="rbs-v">${val}</span></span>`;
+      }
+      html += '</div>';
+    }
+
+    // Which tabs exist
+    const foPlayers = (team.field_players || []).filter(p => (p.faceoffs_won || 0) + (p.faceoffs_lost || 0) > 0);
+    const hasGoalies = team.goalies && team.goalies.length > 0;
+    const hasFO = foPlayers.length > 0;
+    const hasFieldPlayers = team.field_players && team.field_players.length > 0;
+    const hasAnyTab = hasFieldPlayers || hasGoalies || hasFO;
+    const tabId = `rbs-${gameId}-${role}-${teamIdx}`;
+
+    // Real tablist: role=tab + aria-selected + aria-controls, roving tabindex,
+    // arrow-key nav (handler below). The first available view is selected.
+    // When a game has team totals but no player-level rows, skip the tablist
+    // entirely — an empty role="tablist" is announced as a control with no tabs —
+    // and say so, so the disclosure never dead-ends silently.
+    const firstTab = hasFieldPlayers ? 'players' : (hasGoalies ? 'goalies' : (hasFO ? 'faceoffs' : null));
+    const rbsTab = (t, label) =>
+      `<button class="rbs-tab" role="tab" id="${tabId}-btn-${t}" aria-controls="${tabId}-${t}" aria-selected="${t === firstTab}" tabindex="${t === firstTab ? '0' : '-1'}" onclick="switchBsTab('${tabId}','${t}')">${label}</button>`;
+    if (hasAnyTab) {
+      html += `<div class="rbs-tabs" role="tablist" aria-label="${_esc(name)} box score views">`;
+      if (hasFieldPlayers) html += rbsTab('players', 'Players');
+      if (hasGoalies) html += rbsTab('goalies', 'Goalies');
+      if (hasFO) html += rbsTab('faceoffs', 'Faceoffs');
+      html += '</div>';
+    } else {
+      html += '<p class="rbs-empty">Team totals only · no player box score for this game.</p>';
+    }
+
+    // Players tab
+    if (hasFieldPlayers) {
+      html += `<div id="${tabId}-players" role="tabpanel" aria-labelledby="${tabId}-btn-players" tabindex="0"${firstTab === 'players' ? '' : ' style="display:none"'}>`;
+      html += `<div class="rbs-tablewrap"><table class="rbs-table"><thead><tr>
+        <th style="text-align:left;width:2.2rem">#</th>
+        <th style="text-align:left">Player</th>
+        <th style="text-align:center;width:2.4rem">G</th>
+        <th style="text-align:center;width:2.4rem">A</th>
+        <th style="text-align:center;width:2.4rem">Pts</th>
+        <th style="text-align:center;width:2.4rem">SH</th>
+        <th style="text-align:center;width:2.6rem">SOG</th>
+        <th style="text-align:center;width:2.4rem">GB</th>
+        <th style="text-align:center;width:2.4rem">TO</th>
+        <th style="text-align:center;width:2.4rem">CT</th>
+      </tr></thead><tbody>`;
+      for (const p of team.field_players) {
+        const pts = (p.goals || 0) + (p.assists || 0);
+        const hasStats = pts > 0 || p.ground_balls || p.shots;
+        const rowColor = hasStats ? 'var(--text-1)' : 'var(--text-muted)';
+        html += `<tr style="color:${rowColor}">
+          <td style="color:var(--text-muted)">${_esc(p.jersey_number)}</td>
+          <td style="white-space:nowrap;font-weight:${hasStats ? '600' : '400'}">${_esc(p.player_name)}</td>
+          <td style="text-align:center"${p.goals ? ' class="rbs-hl"' : ''}>${p.goals || 0}</td>
+          <td style="text-align:center"${p.assists ? ' class="rbs-hl"' : ''}>${p.assists || 0}</td>
+          <td style="text-align:center;font-weight:700">${pts}</td>
+          <td style="text-align:center">${p.shots || 0}</td>
+          <td style="text-align:center">${p.shots_on_goal || 0}</td>
+          <td style="text-align:center">${p.ground_balls || 0}</td>
+          <td style="text-align:center">${p.turnovers || 0}</td>
+          <td style="text-align:center">${p.caused_turnovers || 0}</td>
+        </tr>`;
+      }
+      html += '</tbody></table></div></div>';
+    }
+
+    // Goalies tab
+    if (hasGoalies) {
+      html += `<div id="${tabId}-goalies" role="tabpanel" aria-labelledby="${tabId}-btn-goalies" tabindex="0" style="display:${firstTab === 'goalies' ? 'block' : 'none'}">`;
+      html += `<div class="rbs-tablewrap"><table class="rbs-table"><thead><tr>
+        <th style="text-align:left;width:2.2rem">#</th>
+        <th style="text-align:left">Goalie</th>
+        <th style="text-align:center;width:3rem">SV</th>
+        <th style="text-align:center;width:3rem">GA</th>
+        <th style="text-align:center;width:3.5rem">SV%</th>
+        <th style="text-align:center;width:2.5rem">GB</th>
+        <th style="text-align:center;width:2.5rem">TO</th>
+        <th style="text-align:center;width:2.5rem">CT</th>
+      </tr></thead><tbody>`;
+      for (const g of team.goalies) {
+        const sv = g.saves || 0;
+        const ga = g.goals_allowed || 0;
+        const svPct = (sv + ga) > 0 ? ((sv / (sv + ga)) * 100).toFixed(1) : '-';
+        html += `<tr style="color:var(--text-1)">
+          <td style="color:var(--text-muted)">${_esc(g.jersey_number)}</td>
+          <td style="white-space:nowrap;font-weight:600">${_esc(g.player_name)}</td>
+          <td style="text-align:center" class="rbs-hl">${sv}</td>
+          <td style="text-align:center">${ga}</td>
+          <td style="text-align:center" class="rbs-hl">${svPct}%</td>
+          <td style="text-align:center">${g.ground_balls || 0}</td>
+          <td style="text-align:center">${g.turnovers || 0}</td>
+          <td style="text-align:center">${g.caused_turnovers || 0}</td>
+        </tr>`;
+      }
+      html += '</tbody></table></div></div>';
+    }
+
+    // Faceoffs tab
+    if (hasFO) {
+      foPlayers.sort((a, b) => ((b.faceoffs_won || 0) - (a.faceoffs_won || 0)));
+      html += `<div id="${tabId}-faceoffs" role="tabpanel" aria-labelledby="${tabId}-btn-faceoffs" tabindex="0" style="display:none">`;
+      html += `<div class="rbs-tablewrap"><table class="rbs-table"><thead><tr>
+        <th style="text-align:left;width:2.2rem">#</th>
+        <th style="text-align:left">Player</th>
+        <th style="text-align:center;width:3rem">W</th>
+        <th style="text-align:center;width:3rem">L</th>
+        <th style="text-align:center;width:3.5rem">FO%</th>
+        <th style="text-align:center;width:2.5rem">GB</th>
+        <th style="text-align:center;width:2.5rem">TO</th>
+        <th style="text-align:center;width:2.5rem">CT</th>
+      </tr></thead><tbody>`;
+      for (const p of foPlayers) {
+        const w = p.faceoffs_won || 0;
+        const l = p.faceoffs_lost || 0;
+        const pct = (w + l) > 0 ? ((w / (w + l)) * 100).toFixed(1) : '-';
+        html += `<tr style="color:var(--text-1)">
+          <td style="color:var(--text-muted)">${_esc(p.jersey_number)}</td>
+          <td style="white-space:nowrap;font-weight:600">${_esc(p.player_name)}</td>
+          <td style="text-align:center" class="rbs-hl">${w}</td>
+          <td style="text-align:center">${l}</td>
+          <td style="text-align:center" class="rbs-hl">${pct}%</td>
+          <td style="text-align:center">${p.ground_balls || 0}</td>
+          <td style="text-align:center">${p.turnovers || 0}</td>
+          <td style="text-align:center">${p.caused_turnovers || 0}</td>
+        </tr>`;
+      }
+      html += '</tbody></table></div></div>';
+    }
+
+    html += '</div>'; // .rbs-team
+    teamIdx++;
+  }
+  html += '</div>'; // .rbs-teams
+  html += '<div class="rbs-legend" aria-label="Stat abbreviations">' + RBS_LEGEND + '</div>';
+  html += '</div>'; // .rbs-root
+  return html;
+}
+
+function switchBsTab(tabId, tab) {
+  for (const t of ['players', 'goalies', 'faceoffs']) {
+    const panel = document.getElementById(`${tabId}-${t}`);
+    const btn = document.getElementById(`${tabId}-btn-${t}`);
+    const on = t === tab;
+    if (panel) panel.style.display = on ? 'block' : 'none';
+    if (btn) { btn.setAttribute('aria-selected', on ? 'true' : 'false'); btn.tabIndex = on ? 0 : -1; }
+  }
+}
+
+// Roving arrow-key navigation for the dynamically-built box-score tablists.
+document.addEventListener('keydown', function(e) {
+  const tab = e.target.closest && e.target.closest('[role="tab"]');
+  if (!tab) return;
+  const list = tab.closest('[role="tablist"]');
+  if (!list) return;
+  const tabs = [...list.querySelectorAll('[role="tab"]')];
+  let i = tabs.indexOf(tab);
+  if (e.key === 'ArrowRight' || e.key === 'ArrowDown') i = (i + 1) % tabs.length;
+  else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') i = (i - 1 + tabs.length) % tabs.length;
+  else if (e.key === 'Home') i = 0;
+  else if (e.key === 'End') i = tabs.length - 1;
+  else return;
+  e.preventDefault();
+  tabs[i].focus();
+  tabs[i].click();
+});
+</script>
+
+  </main>
+
+  <footer style="margin-top:3rem;padding:1.5rem 1rem;border-top:1px solid var(--border);text-align:center">
+    <div style="margin-bottom:.25rem">
+      <a class="app-store-badge" href="https://apps.apple.com/us/app/cradllax/id6760768007" target="_blank" rel="noopener">
+        <img src="/static/img/download-app-store.svg" width="120" height="40" alt="Download CradlLax on the App Store" loading="lazy">
+      </a>
+    </div>
+    <div class="cr-footer-links">
+      <a class="cr-footer-link" href="/privacy">Privacy Policy</a>
+      <a class="cr-footer-link" href="/terms">Terms of Service</a>
+      <a class="cr-footer-link" href="/responsible-gambling">Responsible Gambling</a>
+      <a class="cr-footer-link" href="/about">About</a>
+      
+      <a class="cr-footer-link" href="/feedback?from=/results/" rel="nofollow">Send feedback</a>
+      
+    </div>
+    <p style="font-size:.7rem;color:var(--muted);margin:0">Cradl is not a sportsbook. For informational purposes only. Not affiliated with the NCAA.</p>
+    <p style="font-size:.7rem;color:var(--muted);margin:.35rem 0 0">&copy; 2026 Cradl. All rights reserved.</p>
+  </footer>
+
+  <div class="spinner-overlay" id="loadingOverlay">
+    <div class="text-center">
+      <div class="spinner-border" style="width:3rem;height:3rem;color:var(--accent)" role="status"></div>
+      <p class="mt-3 fw-semibold">Fetching AI analysis…</p>
+    </div>
+  </div>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    // B4: phone-only nav hamburger. Toggles the link dropdown; closes on link
+    // tap, outside click, or Escape. No-op on tablet/desktop (toggle hidden).
+    (function () {
+      var btn = document.getElementById('navToggle');
+      var menu = document.getElementById('primaryNavLinks');
+      if (!btn || !menu) return;
+      function close() { menu.classList.remove('is-open'); btn.setAttribute('aria-expanded', 'false'); }
+      function open() { menu.classList.add('is-open'); btn.setAttribute('aria-expanded', 'true'); }
+      btn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        menu.classList.contains('is-open') ? close() : open();
+      });
+      menu.addEventListener('click', function (e) { if (e.target.closest('a')) close(); });
+      document.addEventListener('click', function (e) {
+        if (menu.classList.contains('is-open') && !menu.contains(e.target) && !btn.contains(e.target)) close();
+      });
+      document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+    })();
+    // --navbar-h (cradl.css) is the sticky navbar's measured height, so
+    // anything sticking under it lands right below it on every page. The
+    // navbar grows when its links wrap or the phone menu opens: follow it.
+    (function () {
+      var nav = document.querySelector('.navbar');
+      if (!nav) return;
+      var root = document.documentElement;
+      function setNavH() { root.style.setProperty('--navbar-h', Math.round(nav.getBoundingClientRect().height) + 'px'); }
+      setNavH();
+      if ('ResizeObserver' in window) new ResizeObserver(setNavH).observe(nav);
+      else window.addEventListener('resize', setNavH);
+    })();
+    // Lists marked .cr-enter-list rise in once, and the marker goes when their
+    // entrance ends, so a poll rebuild, a card swap or a sort can't replay it.
+    // This script runs after all page content has been parsed, so every item
+    // has started its animation by now (or finished it, on a slow page).
+    (function () {
+      function settle(list) {
+        if (!list.getAnimations) { list.classList.remove('cr-enter-list'); return Promise.resolve(); }
+        var anims = list.getAnimations({ subtree: true }).filter(function (a) {
+          return a.animationName === 'cr-fade-up';
+        });
+        return Promise.allSettled(anims.map(function (a) { return a.finished; })).then(function () {
+          list.classList.remove('cr-enter-list');
+        });
+      }
+      window.CradlEnter = { settle: settle };
+      document.querySelectorAll('.cr-enter-list').forEach(settle);
+    })();
+  </script>
+  
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5817ead6f9ef21e',t:'MTc5NDI3NjM1NA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5817ead6f9ef21e',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

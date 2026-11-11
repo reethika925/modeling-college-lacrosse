@@ -1,0 +1,14 @@
+{
+  "season": 2025,
+  "date": "2025-02-01",
+  "source_url": "https://data.ncaa.com/casablanca/scoreboard/lacrosse-men/d1/2025/02/01/scoreboard.json",
+  "retrieved_at": "2026-11-09T20:50:50-05:00",
+  "result": "success",
+  "http_status": 200,
+  "content_type": "application/json",
+  "event_count": 17,
+  "attempts": 1,
+  "error": "",
+  "raw_path": "data/raw/games/2025/2025-02-01.json",
+  "sha256": "353fe1aea4e90df8bec2f625c53b27daba541d2f1a69a49fd966eb210d9bd54d"
+}

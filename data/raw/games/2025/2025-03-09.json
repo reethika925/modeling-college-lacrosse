@@ -1,0 +1,114 @@
+{
+  "inputMD5Sum": "f3319710bdcd3c1a811cfdd27a42b3df",
+  "instanceId": "a4a6230b0d714e8e83069138799b9896",
+  "updated_at": "06-12-2025 09:25:09",
+  "games": [
+    {"game": {
+      "gameID": "6310871",
+      "away": {
+        "score": "17",
+        "names": {
+          "char6": "STJOES",
+          "short": "Saint Joseph's",
+          "seo": "saint-josephs",
+          "full": "Saint Joseph's University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(4-2)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Atlantic 10",
+          "conferenceSeo": "atlantic-10"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Drexel Saint Joseph's",
+      "contestName": "",
+      "url": "/game/6386397",
+      "network": "",
+      "home": {
+        "score": "11",
+        "names": {
+          "char6": "DREXEL",
+          "short": "Drexel",
+          "seo": "drexel",
+          "full": "Drexel University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(3-4)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "CAA",
+          "conferenceSeo": "caa"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1741496400",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-09-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6312502",
+      "away": {
+        "score": "10",
+        "names": {
+          "char6": "HOPKNS",
+          "short": "Johns Hopkins",
+          "seo": "johns-hopkins",
+          "full": "Johns Hopkins University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(5-2)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Big Ten",
+          "conferenceSeo": "big-ten"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Syracuse Johns Hopkins",
+      "contestName": "",
+      "url": "/game/6386479",
+      "network": "",
+      "home": {
+        "score": "13",
+        "names": {
+          "char6": "SYR",
+          "short": "Syracuse",
+          "seo": "syracuse",
+          "full": "Syracuse University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(5-2)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "ACC",
+          "conferenceSeo": "acc"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1741496400",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-09-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }}
+  ],
+  "hideRank": false
+}

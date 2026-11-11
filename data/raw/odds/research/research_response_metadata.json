@@ -1,0 +1,35 @@
+[
+  {
+    "local_path": "data/raw/odds/research/cradl_results.html",
+    "source_url": "https://cradllax.com/results/",
+    "http_status_observed": 200,
+    "retrieval_date": "2026-11-09",
+    "retrieval_timestamp": null,
+    "timestamp_note": "Exact response timestamp was not recorded by the initial exploratory request; file save time is recorded separately and is not an odds timestamp.",
+    "file_saved_at": "2026-11-09T21:05:54.376708-05:00",
+    "sha256": "bd414ee1aea4cfec056427070e9647c1f0caefcdeae35ea45a014508d05e6dcc",
+    "role": "Discovery/policy evidence only. Not an eligible 2025 odds response. No scraping continued after the terms were read."
+  },
+  {
+    "local_path": "data/raw/odds/research/cradl_terms.html",
+    "source_url": "https://cradllax.com/terms",
+    "http_status_observed": 200,
+    "retrieval_date": "2026-11-09",
+    "retrieval_timestamp": null,
+    "timestamp_note": "Exact response timestamp was not recorded by the initial exploratory request; file save time is recorded separately and is not an odds timestamp.",
+    "file_saved_at": "2026-11-09T21:06:43.247887-05:00",
+    "sha256": "b16dd05595ed841463c0fb95fd2cc42fdc1437afaaf903fbdc96c494c4976a9c",
+    "role": "Discovery/policy evidence only. Not an eligible 2025 odds response. No scraping continued after the terms were read."
+  },
+  {
+    "local_path": "data/raw/odds/research/cradl_about.html",
+    "source_url": "https://cradllax.com/about",
+    "http_status_observed": 200,
+    "retrieval_date": "2026-11-09",
+    "retrieval_timestamp": null,
+    "timestamp_note": "Exact response timestamp was not recorded by the initial exploratory request; file save time is recorded separately and is not an odds timestamp.",
+    "file_saved_at": "2026-11-09T21:06:44.505173-05:00",
+    "sha256": "57afbdf8a905cc59f3ef0d0fdb7061adafb6440d96d610a83a4b65a5b13ea79d",
+    "role": "Discovery/policy evidence only. Not an eligible 2025 odds response. No scraping continued after the terms were read."
+  }
+]

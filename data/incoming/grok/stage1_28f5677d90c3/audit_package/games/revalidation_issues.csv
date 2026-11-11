@@ -1,0 +1,30 @@
+record,dataset,status,reason,evidence
+game 6386248,game_index_2025,provisional,NCAA score LIU 15-9 Bellarmine vs ESPN 14-9,ESPN event 401758423
+team_game 6147943/Michigan,team_game_stats,provisional,box-score goals 14 != final score 15 (box incomplete; result itself verified),https://www.ncaa.com/game/6147943/boxscore
+team_game 6147954/Duke,team_game_stats,provisional,box-score goals 15 != final score 16 (box incomplete; result itself verified),https://www.ncaa.com/game/6147954/boxscore
+team_game 6147955/Notre Dame,team_game_stats,provisional,box-score goals 12 != final score 13 (box incomplete; result itself verified),https://www.ncaa.com/game/6147955/boxscore
+player_rows 6085642/1387632,player_stats,provisional,sum of player goals 14 != team goals 13,https://www.ncaa.com/game/6085642/boxscore
+player_rows 6085752/43849,player_stats,provisional,sum of player goals 8 != team goals 9,https://www.ncaa.com/game/6085752/boxscore
+player_rows 6269652/59134,player_stats,provisional,sum of player goals 2 != team goals 3,https://www.ncaa.com/game/6269652/boxscore
+player_rows 6269670/43881,player_stats,provisional,sum of player goals 9 != team goals 10,https://www.ncaa.com/game/6269670/boxscore
+player_rows 6269778/43787,player_stats,provisional,sum of player goals 9 != team goals 10,https://www.ncaa.com/game/6269778/boxscore
+player_rows 6269848/43833,player_stats,provisional,sum of player goals 17 != team goals 16,https://www.ncaa.com/game/6269848/boxscore
+player_rows 6269923/43831,player_stats,provisional,sum of player goals 13 != team goals 12,https://www.ncaa.com/game/6269923/boxscore
+player_rows 6386105/51663,player_stats,provisional,sum of player goals 15 != team goals 16,https://www.ncaa.com/game/6386105/boxscore
+player_rows 6386359/43982,player_stats,provisional,sum of player goals 12 != team goals 13,https://www.ncaa.com/game/6386359/boxscore
+player_rows 6386399/43849,player_stats,provisional,sum of player goals 15 != team goals 16,https://www.ncaa.com/game/6386399/boxscore
+player_rows 6386488/43718,player_stats,provisional,sum of player goals 3 != team goals 2,https://www.ncaa.com/game/6386488/boxscore
+player_rows 6386490/43941,player_stats,provisional,sum of player goals 13 != team goals 12,https://www.ncaa.com/game/6386490/boxscore
+player_rows 6440943/1372302,player_stats,provisional,sum of player goals 11 != team goals 10,https://www.ncaa.com/game/6440943/boxscore
+player_rows 6452095/43829,player_stats,provisional,sum of player goals 12 != team goals 13,https://www.ncaa.com/game/6452095/boxscore
+team_game 6085451/Quinnipiac,team_game_stats,provisional,EMO goals 4 > EMO opportunities 2 (as published by NCAA),https://www.ncaa.com/game/6085451/boxscore
+team_game 6085693/Merrimack,team_game_stats,provisional,EMO goals 2 > EMO opportunities 1 (as published by NCAA),https://www.ncaa.com/game/6085693/boxscore
+team_game 6269576/Mercer,team_game_stats,provisional,EMO goals 3 > EMO opportunities 2 (as published by NCAA),https://www.ncaa.com/game/6269576/boxscore
+team_game 6269595/Stony Brook,team_game_stats,provisional,EMO goals 5 > EMO opportunities 4 (as published by NCAA),https://www.ncaa.com/game/6269595/boxscore
+team_game 6269660/Merrimack,team_game_stats,provisional,EMO goals 3 > EMO opportunities 2 (as published by NCAA),https://www.ncaa.com/game/6269660/boxscore
+team_game 6269841/Harvard,team_game_stats,provisional,EMO goals 2 > EMO opportunities 1 (as published by NCAA),https://www.ncaa.com/game/6269841/boxscore
+team_game 6269877/Colgate,team_game_stats,provisional,EMO goals 6 > EMO opportunities 5 (as published by NCAA),https://www.ncaa.com/game/6269877/boxscore
+team_game 6270144/Stony Brook,team_game_stats,provisional,EMO goals 3 > EMO opportunities 1 (as published by NCAA),https://www.ncaa.com/game/6270144/boxscore
+team_game 6297611/Sacred Heart,team_game_stats,provisional,EMO goals 1 > EMO opportunities 0 (as published by NCAA),https://www.ncaa.com/game/6297611/boxscore
+team_game 6386486/Manhattan,team_game_stats,provisional,EMO goals 1 > EMO opportunities 0 (as published by NCAA),https://www.ncaa.com/game/6386486/boxscore
+team_game 6386541/UMass Lowell,team_game_stats,provisional,EMO goals 1 > EMO opportunities 0 (as published by NCAA),https://www.ncaa.com/game/6386541/boxscore

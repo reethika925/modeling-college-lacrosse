@@ -1,0 +1,59 @@
+{
+  "inputMD5Sum": "1e685749186e23ba2f9d1ff937e8015f",
+  "instanceId": "cb568ce4771f4a24887c3e0107d75534",
+  "updated_at": "06-12-2025 09:24:05",
+  "games": [{"game": {
+    "gameID": "6310188",
+    "away": {
+      "score": "7",
+      "names": {
+        "char6": "UMBC",
+        "short": "UMBC",
+        "seo": "umbc",
+        "full": "University of Maryland, Baltimore County"
+      },
+      "winner": false,
+      "seed": "",
+      "description": "(7-4)",
+      "rank": "",
+      "conferences": [{
+        "conferenceName": "America East",
+        "conferenceSeo": "america-east"
+      }]
+    },
+    "finalMessage": "FINAL",
+    "bracketRound": "",
+    "title": "Holy Cross UMBC",
+    "contestName": "",
+    "url": "/game/6386326",
+    "network": "",
+    "home": {
+      "score": "15",
+      "names": {
+        "char6": "HOLYCR",
+        "short": "Holy Cross",
+        "seo": "holy-cross",
+        "full": "College of the Holy Cross"
+      },
+      "winner": true,
+      "seed": "",
+      "description": "(4-11)",
+      "rank": "",
+      "conferences": [{
+        "conferenceName": "Patriot",
+        "conferenceSeo": "patriot"
+      }]
+    },
+    "liveVideoEnabled": false,
+    "startTime": "TBA",
+    "startTimeEpoch": "1745467200",
+    "bracketId": "",
+    "gameState": "final",
+    "startDate": "04-24-2025",
+    "currentPeriod": "FINAL",
+    "videoState": "",
+    "bracketRegion": "",
+    "contestClock": "0:00"
+  }}],
+  "hideRank": false
+}

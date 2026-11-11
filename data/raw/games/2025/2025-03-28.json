@@ -1,0 +1,114 @@
+{
+  "inputMD5Sum": "b66814be6b5d08fa2b0e686924e64dbc",
+  "instanceId": "b87902aee91b4e9397c94632a07f2195",
+  "updated_at": "06-17-2025 16:15:35",
+  "games": [
+    {"game": {
+      "gameID": "6311213",
+      "away": {
+        "score": "5",
+        "names": {
+          "char6": "BUCKNL",
+          "short": "Bucknell",
+          "seo": "bucknell",
+          "full": "Bucknell University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(4-5)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Patriot",
+          "conferenceSeo": "patriot"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Lafayette Bucknell",
+      "contestName": "",
+      "url": "/game/6386403",
+      "network": "",
+      "home": {
+        "score": "14",
+        "names": {
+          "char6": "LAFAYE",
+          "short": "Lafayette",
+          "seo": "lafayette",
+          "full": "Lafayette College"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(7-3)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Patriot",
+          "conferenceSeo": "patriot"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1743134400",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-28-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6310257",
+      "away": {
+        "score": "11",
+        "names": {
+          "char6": "LIU",
+          "short": "LIU",
+          "seo": "long-island",
+          "full": "Long Island University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(7-2)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "NEC",
+          "conferenceSeo": "nec"
+        }]
+      },
+      "finalMessage": "FINAL (OT)",
+      "bracketRound": "",
+      "title": "Wagner LIU",
+      "contestName": "",
+      "url": "/game/6386354",
+      "network": "",
+      "home": {
+        "score": "12",
+        "names": {
+          "char6": "WAGNER",
+          "short": "Wagner",
+          "seo": "wagner",
+          "full": "Wagner College"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(1-9)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "NEC",
+          "conferenceSeo": "nec"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1743148800",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-28-2025",
+      "currentPeriod": "FINAL (OT)",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }}
+  ],
+  "hideRank": false
+}

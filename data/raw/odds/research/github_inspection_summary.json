@@ -1,0 +1,96 @@
+{
+  "inspection_date": "2026-11-09",
+  "mechanism": "Connected GitHub read-only tools",
+  "lacrosse_odds_repository_search": {
+    "archive_filter_applied": null,
+    "repositories": []
+  },
+  "lacrosse_betting_repository_search": {
+    "archive_filter_applied": null,
+    "repositories": [
+      {
+        "id": "1174763096",
+        "name": "LacrosseBetting",
+        "owner": {
+          "login": "Tpanda03",
+          "id": 52340554,
+          "type": "User",
+          "avatar_url": "https://avatars.githubusercontent.com/u/52340554?v=4",
+          "url": "https://api.github.com/users/Tpanda03"
+        },
+        "repository_full_name": "Tpanda03/LacrosseBetting",
+        "permissions": {
+          "admin": false,
+          "maintain": false,
+          "pull": true,
+          "push": false,
+          "triage": false
+        },
+        "allow_auto_merge": null,
+        "allow_merge_commit": null,
+        "allow_rebase_merge": null,
+        "allow_squash_merge": null,
+        "allow_update_branch": null,
+        "clone_url": "https://github.com/Tpanda03/LacrosseBetting.git",
+        "size": 131,
+        "default_branch": "main",
+        "git_commits_url": "https://api.github.com/repos/Tpanda03/LacrosseBetting/git/commits{/sha}",
+        "git_refs_url": "https://api.github.com/repos/Tpanda03/LacrosseBetting/git/refs{/sha}",
+        "git_url": "git://github.com/Tpanda03/LacrosseBetting.git",
+        "master_branch": null,
+        "visibility": "public",
+        "archived": false,
+        "is_code_search_indexed": null,
+        "display_title": "Tpanda03/LacrosseBetting",
+        "display_url": "https://github.com/Tpanda03/LacrosseBetting"
+      }
+    ]
+  },
+  "octonion_repository_tree_summary": {
+    "url": "https://github.com/octonion/lacrosse",
+    "commit": "679c40999c7c5184dae06806f57ad5c65b60e704",
+    "truncated": false,
+    "path_count": 3816,
+    "odds_named_paths": [
+      "mll/sos/predict_spread.sql",
+      "ncaa/sos/predict_spread.sql",
+      "ncaa/sos/predict_spread.txt",
+      "ncaa_women/sos/predict_spread.sql",
+      "ncaa_women/sos/predict_spread.txt",
+      "nll/sos/predict_spread.sql"
+    ],
+    "ncaa_csv_paths": [
+      "ncaa/csv",
+      "ncaa/csv/conferences.tsv",
+      "ncaa/csv/conferences_teams.tsv",
+      "ncaa/csv/ncaa_colors.csv",
+      "ncaa/csv/ncaa_divisions.csv",
+      "ncaa/csv/ncaa_games_2002.csv",
+      "ncaa/csv/ncaa_games_2003.csv",
+      "ncaa/csv/ncaa_games_2004.csv",
+      "ncaa/csv/ncaa_games_2005.csv",
+      "ncaa/csv/ncaa_games_2006.csv",
+      "ncaa/csv/ncaa_games_2007.csv",
+      "ncaa/csv/ncaa_games_2008.csv",
+      "ncaa/csv/ncaa_games_2009.csv",
+      "ncaa/csv/ncaa_games_2010.csv",
+      "ncaa/csv/ncaa_games_2011.csv",
+      "ncaa/csv/ncaa_games_2012.csv",
+      "ncaa/csv/ncaa_games_2013.csv",
+      "ncaa/csv/ncaa_games_2014.csv",
+      "ncaa/csv/ncaa_games_2015.csv",
+      "ncaa/csv/ncaa_games_2016.csv",
+      "ncaa/csv/ncaa_games_2017.csv",
+      "ncaa/csv/ncaa_games_2018.csv",
+      "ncaa/csv/ncaa_games_2019.csv",
+      "ncaa/csv/ncaa_games_2020.csv",
+      "ncaa/csv/ncaa_games_2021.csv",
+      "ncaa/csv/ncaa_games_2022.csv",
+      "ncaa/csv/ncaa_games_2023.csv",
+      "ncaa/csv/ncaa_history.csv",
+      "ncaa/csv/ncaa_locations.csv",
+      "ncaa/csv/ncaa_nicknames.csv"
+    ]
+  },
+  "notes": "This file summarizes source inspection; it is not an original odds response. No repository odds data were imported."
+}

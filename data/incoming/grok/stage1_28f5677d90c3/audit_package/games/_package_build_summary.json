@@ -1,0 +1,11 @@
+{
+ "built": "2026-11-10T12:18:02",
+ "excluded_status": {
+  "requires_permission": 97,
+  "provisional": 46,
+  "verified": 19,
+  "rejected": 17
+ },
+ "corrections": 30,
+ "permissions_rows": 19
+}

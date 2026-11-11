@@ -1,0 +1,167 @@
+{
+  "inputMD5Sum": "926800ba125fc90ef54fffa02ef6ebf1",
+  "instanceId": "fb31e6274bea4678a419f4387e8f3e37",
+  "updated_at": "05-04-2025 21:54:44",
+  "games": [
+    {"game": {
+      "gameID": "6309955",
+      "away": {
+        "score": "4",
+        "names": {
+          "char6": "BELLAR",
+          "short": "Bellarmine",
+          "seo": "bellarmine",
+          "full": "Bellarmine University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(1-2)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "ASUN",
+          "conferenceSeo": "asun"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Ohio St. Bellarmine",
+      "contestName": "",
+      "url": "/game/6386235",
+      "network": "",
+      "home": {
+        "score": "16",
+        "names": {
+          "char6": "OHIOST",
+          "short": "Ohio St.",
+          "seo": "ohio-st",
+          "full": "The Ohio State University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(3-1)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Big Ten",
+          "conferenceSeo": "big-ten"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1739250000",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "02-11-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6310169",
+      "away": {
+        "score": "9",
+        "names": {
+          "char6": "UMASSL",
+          "short": "UMass Lowell",
+          "seo": "umass-lowell",
+          "full": "University of Massachusetts Lowell"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(1-1)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "America East",
+          "conferenceSeo": "america-east"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Holy Cross UMass Lowell",
+      "contestName": "",
+      "url": "/game/6386317",
+      "network": "",
+      "home": {
+        "score": "14",
+        "names": {
+          "char6": "HOLYCR",
+          "short": "Holy Cross",
+          "seo": "holy-cross",
+          "full": "College of the Holy Cross"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(2-1)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Patriot",
+          "conferenceSeo": "patriot"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1739250000",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "02-11-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6313132",
+      "away": {
+        "score": "9",
+        "names": {
+          "char6": "STBONA",
+          "short": "St. Bonaventure",
+          "seo": "st-bonaventure",
+          "full": "St. Bonaventure University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(1-2)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Atlantic 10",
+          "conferenceSeo": "atlantic-10"
+        }]
+      },
+      "finalMessage": "FINAL (OT)",
+      "bracketRound": "",
+      "title": "Mount St. Mary's St. Bonaventure",
+      "contestName": "",
+      "url": "/game/6386511",
+      "network": "",
+      "home": {
+        "score": "8",
+        "names": {
+          "char6": "MTSTMY",
+          "short": "Mount St. Mary's",
+          "seo": "mt-st-marys",
+          "full": "Mount St. Mary's University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(1-2)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "MAAC",
+          "conferenceSeo": "maac"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1739250000",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "02-11-2025",
+      "currentPeriod": "FINAL (OT)",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }}
+  ],
+  "hideRank": false
+}

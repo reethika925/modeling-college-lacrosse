@@ -1,0 +1,114 @@
+{
+  "inputMD5Sum": "8c312f30fd4214a82bc6c35c8e33e119",
+  "instanceId": "eb1097d8f11c4946921e735bcb2442ac",
+  "updated_at": "06-12-2025 09:24:06",
+  "games": [
+    {"game": {
+      "gameID": "6309864",
+      "away": {
+        "score": "13",
+        "names": {
+          "char6": "LEHIGH",
+          "short": "Lehigh",
+          "seo": "lehigh",
+          "full": "Lehigh University"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(2-4)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Patriot",
+          "conferenceSeo": "patriot"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Navy Lehigh",
+      "contestName": "",
+      "url": "/game/6386184",
+      "network": "",
+      "home": {
+        "score": "8",
+        "names": {
+          "char6": "NAVY",
+          "short": "Navy",
+          "seo": "navy",
+          "full": "U.S. Naval Academy"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(4-2)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Patriot",
+          "conferenceSeo": "patriot"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1741323600",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-07-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6310196",
+      "away": {
+        "score": "11",
+        "names": {
+          "char6": "DET",
+          "short": "Detroit Mercy",
+          "seo": "detroit",
+          "full": "University of Detroit Mercy"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(1-3)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "NEC",
+          "conferenceSeo": "nec"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Hampton Detroit Mercy",
+      "contestName": "",
+      "url": "/game/6386330",
+      "network": "",
+      "home": {
+        "score": "5",
+        "names": {
+          "char6": "HAMPTN",
+          "short": "Hampton",
+          "seo": "hampton",
+          "full": "Hampton University"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(0-7)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "CAA",
+          "conferenceSeo": "caa"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1741323600",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "03-07-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }}
+  ],
+  "hideRank": false
+}

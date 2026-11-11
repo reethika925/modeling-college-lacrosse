@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /analysis
+Disallow: /api
+Disallow: /feedback
+Disallow: /logout
+
+Sitemap: https://cradllax.com/sitemap.xml

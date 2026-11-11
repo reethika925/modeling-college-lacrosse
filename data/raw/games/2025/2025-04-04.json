@@ -1,0 +1,114 @@
+{
+  "inputMD5Sum": "0c1bfd7cda8d53aadcdbb4855e52f17d",
+  "instanceId": "0251b550d1254b71939edd3d454658f3",
+  "updated_at": "06-12-2025 09:25:36",
+  "games": [
+    {"game": {
+      "gameID": "6309872",
+      "away": {
+        "score": "8",
+        "names": {
+          "char6": "LAFAYE",
+          "short": "Lafayette",
+          "seo": "lafayette",
+          "full": "Lafayette College"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(7-4)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Patriot",
+          "conferenceSeo": "patriot"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "Navy Lafayette",
+      "contestName": "",
+      "url": "/game/6386191",
+      "network": "",
+      "home": {
+        "score": "14",
+        "names": {
+          "char6": "NAVY",
+          "short": "Navy",
+          "seo": "navy",
+          "full": "U.S. Naval Academy"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(7-4)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "Patriot",
+          "conferenceSeo": "patriot"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1743739200",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "04-04-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }},
+    {"game": {
+      "gameID": "6313207",
+      "away": {
+        "score": "4",
+        "names": {
+          "char6": "UMASSL",
+          "short": "UMass Lowell",
+          "seo": "umass-lowell",
+          "full": "University of Massachusetts Lowell"
+        },
+        "winner": false,
+        "seed": "",
+        "description": "(3-7)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "America East",
+          "conferenceSeo": "america-east"
+        }]
+      },
+      "finalMessage": "FINAL",
+      "bracketRound": "",
+      "title": "UMBC UMass Lowell",
+      "contestName": "",
+      "url": "/game/6386543",
+      "network": "",
+      "home": {
+        "score": "14",
+        "names": {
+          "char6": "UMBC",
+          "short": "UMBC",
+          "seo": "umbc",
+          "full": "University of Maryland, Baltimore County"
+        },
+        "winner": true,
+        "seed": "",
+        "description": "(5-3)",
+        "rank": "",
+        "conferences": [{
+          "conferenceName": "America East",
+          "conferenceSeo": "america-east"
+        }]
+      },
+      "liveVideoEnabled": false,
+      "startTime": "TBA",
+      "startTimeEpoch": "1743739200",
+      "bracketId": "",
+      "gameState": "final",
+      "startDate": "04-04-2025",
+      "currentPeriod": "FINAL",
+      "videoState": "",
+      "bracketRegion": "",
+      "contestClock": "0:00"
+    }}
+  ],
+  "hideRank": false
+}

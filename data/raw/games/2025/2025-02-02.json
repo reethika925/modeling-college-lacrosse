@@ -1,0 +1,59 @@
+{
+  "inputMD5Sum": "4d34995e6fdebfb11d2eeab1ac18589f",
+  "instanceId": "fb31e6274bea4678a419f4387e8f3e37",
+  "updated_at": "05-04-2025 21:54:44",
+  "games": [{"game": {
+    "gameID": "6312449",
+    "away": {
+      "score": "18",
+      "names": {
+        "char6": "VMI",
+        "short": "VMI",
+        "seo": "vmi",
+        "full": "Virginia Military Institute"
+      },
+      "winner": true,
+      "seed": "",
+      "description": "(1-0)",
+      "rank": "",
+      "conferences": [{
+        "conferenceName": "NEC",
+        "conferenceSeo": "nec"
+      }]
+    },
+    "finalMessage": "FINAL",
+    "bracketRound": "",
+    "title": "St. Bonaventure VMI",
+    "contestName": "",
+    "url": "/game/6386472",
+    "network": "",
+    "home": {
+      "score": "7",
+      "names": {
+        "char6": "STBONA",
+        "short": "St. Bonaventure",
+        "seo": "st-bonaventure",
+        "full": "St. Bonaventure University"
+      },
+      "winner": false,
+      "seed": "",
+      "description": "(0-1)",
+      "rank": "",
+      "conferences": [{
+        "conferenceName": "Atlantic 10",
+        "conferenceSeo": "atlantic-10"
+      }]
+    },
+    "liveVideoEnabled": false,
+    "startTime": "TBA",
+    "startTimeEpoch": "1738472400",
+    "bracketId": "",
+    "gameState": "final",
+    "startDate": "02-02-2025",
+    "currentPeriod": "FINAL",
+    "videoState": "",
+    "bracketRegion": "",
+    "contestClock": "0:00"
+  }}],
+  "hideRank": false
+}

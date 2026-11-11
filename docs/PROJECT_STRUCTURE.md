@@ -2,6 +2,8 @@
 
 Updated November 11, 2026. This guide describes the shared technical workspace. Start with the [README](../README.md), then the [modeling plan](../reports/stage5_modeling_plan.md), [completed results](../results/README.md) and [latest odds verification](../reports/stage7_odds_verification.md).
 
+The GitHub repository now includes all existing project datasets, incoming ZIP packages, source evidence and results. Dataset links open those uploaded files. Credentials, Python caches and the proposal backups outside the project remain excluded. Original evidence and verification classifications are unchanged.
+
 ## Where things live
 
 | Folder | Purpose | First files to open |
@@ -45,4 +47,4 @@ Do not replace older findings with newer prose: read the latest report for curre
 
 Keep original data/evidence immutable. Derive a new version with explicit input checksums and correction reasons. Preserve IDs and distinguish rows, games, books, markets and captures. Use synthetic fixtures for model development. Keep upcoming outputs in a new `results/` run directory rather than replacing the preliminary results.
 
-A code-only checkout will not contain the ignored data or evidence caches; full integration tests require the existing local artifacts. The [cleanup log](REPOSITORY_ORGANIZATION.md) documents external-path gaps and safe sharing recommendations. No Git metadata was present during this organization task; no commit, push or history change was performed.
+A full clone of the repository includes the current data and archive evidence needed by integration tests. The [cleanup log](REPOSITORY_ORGANIZATION.md) is a historical record of the earlier organization task: its references to ignored data and the absence of Git describe that earlier state. The repository has since been initialized and uploaded, and the data exclusions have been removed. Older missing-file and source-quality findings still apply.

@@ -33,16 +33,8 @@ htmlcov/
 build/
 dist/
 
-# Local research data and evidence (not automatically available in a new checkout)
-data/**
-!data/**/
-!data/**/.gitkeep
-research/kaggle/raw/
-research/odds_evidence/**
-!research/odds_evidence/README.md
-*.zip
-*.gz
-*.parquet
+# Research datasets, original archives and evidence are tracked in this repo.
+# Incomplete downloads stay local.
 *.part
 
 # OS/editor files

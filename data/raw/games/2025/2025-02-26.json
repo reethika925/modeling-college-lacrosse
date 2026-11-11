@@ -1,0 +1,59 @@
+{
+  "inputMD5Sum": "cc067344cf482acbe6e2537bf599ee67",
+  "instanceId": "b87902aee91b4e9397c94632a07f2195",
+  "updated_at": "06-12-2025 09:23:36",
+  "games": [{"game": {
+    "gameID": "6309989",
+    "away": {
+      "score": "17",
+      "names": {
+        "char6": "DREXEL",
+        "short": "Drexel",
+        "seo": "drexel",
+        "full": "Drexel University"
+      },
+      "winner": true,
+      "seed": "",
+      "description": "(2-2)",
+      "rank": "",
+      "conferences": [{
+        "conferenceName": "CAA",
+        "conferenceSeo": "caa"
+      }]
+    },
+    "finalMessage": "FINAL",
+    "bracketRound": "",
+    "title": "NJIT Drexel",
+    "contestName": "",
+    "url": "/game/6386254",
+    "network": "",
+    "home": {
+      "score": "5",
+      "names": {
+        "char6": "NJIT",
+        "short": "NJIT",
+        "seo": "njit",
+        "full": "New Jersey Institute of Technology"
+      },
+      "winner": false,
+      "seed": "",
+      "description": "(0-3)",
+      "rank": "",
+      "conferences": [{
+        "conferenceName": "America East",
+        "conferenceSeo": "america-east"
+      }]
+    },
+    "liveVideoEnabled": false,
+    "startTime": "TBA",
+    "startTimeEpoch": "1740546000",
+    "bracketId": "",
+    "gameState": "final",
+    "startDate": "02-26-2025",
+    "currentPeriod": "FINAL",
+    "videoState": "",
+    "bracketRegion": "",
+    "contestClock": "0:00"
+  }}],
+  "hideRank": false
+}

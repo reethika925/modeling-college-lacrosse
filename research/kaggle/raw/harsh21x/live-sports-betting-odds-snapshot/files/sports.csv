@@ -1,0 +1,226 @@
+,sports_title,commence_time,home_team,away_team,bookmakers,market,team,price,point
+0,ATP Halle Open,2026-06-19T18:08:00Z,Frances Tiafoe,Felix Auger-Aliassime,Bovada,h2h,Felix Auger-Aliassime,1.77,
+1,ATP Halle Open,2026-06-19T18:08:00Z,Frances Tiafoe,Felix Auger-Aliassime,Bovada,h2h,Frances Tiafoe,2.1,
+2,ATP Halle Open,2026-06-19T18:08:00Z,Frances Tiafoe,Felix Auger-Aliassime,Bovada,spreads,Felix Auger-Aliassime,1.67,0.5
+3,ATP Halle Open,2026-06-19T18:08:00Z,Frances Tiafoe,Felix Auger-Aliassime,Bovada,spreads,Frances Tiafoe,2.15,-0.5
+4,ATP Halle Open,2026-06-19T18:08:00Z,Frances Tiafoe,Felix Auger-Aliassime,DraftKings,h2h,Felix Auger-Aliassime,5.56,
+5,ATP Halle Open,2026-06-19T18:08:00Z,Frances Tiafoe,Felix Auger-Aliassime,DraftKings,h2h,Frances Tiafoe,1.17,
+6,ATP Halle Open,2026-06-19T18:08:00Z,Frances Tiafoe,Felix Auger-Aliassime,BetRivers,h2h,Felix Auger-Aliassime,4.8,
+7,ATP Halle Open,2026-06-19T18:08:00Z,Frances Tiafoe,Felix Auger-Aliassime,BetRivers,h2h,Frances Tiafoe,1.17,
+8,ATP Halle Open,2026-06-19T18:08:00Z,Frances Tiafoe,Felix Auger-Aliassime,Fanatics,h2h,Felix Auger-Aliassime,4.65,
+9,ATP Halle Open,2026-06-19T18:08:00Z,Frances Tiafoe,Felix Auger-Aliassime,Fanatics,h2h,Frances Tiafoe,1.19,
+10,ATP Halle Open,2026-06-19T18:08:00Z,Frances Tiafoe,Felix Auger-Aliassime,FanDuel,h2h,Felix Auger-Aliassime,1.67,
+11,ATP Halle Open,2026-06-19T18:08:00Z,Frances Tiafoe,Felix Auger-Aliassime,FanDuel,h2h,Frances Tiafoe,2.2,
+12,ATP Halle Open,2026-06-19T18:08:00Z,Frances Tiafoe,Felix Auger-Aliassime,BetMGM,h2h,Felix Auger-Aliassime,4.75,
+13,ATP Halle Open,2026-06-19T18:08:00Z,Frances Tiafoe,Felix Auger-Aliassime,BetMGM,h2h,Frances Tiafoe,1.16,
+14,ATP Halle Open,2026-06-19T18:08:00Z,Frances Tiafoe,Felix Auger-Aliassime,Caesars,h2h,Felix Auger-Aliassime,1.74,
+15,ATP Halle Open,2026-06-19T18:08:00Z,Frances Tiafoe,Felix Auger-Aliassime,Caesars,h2h,Frances Tiafoe,2.05,
+16,MLB,2026-06-19T18:21:00Z,Chicago Cubs,Toronto Blue Jays,FanDuel,spreads,Chicago Cubs,2.72,-14.5
+17,MLB,2026-06-19T18:21:00Z,Chicago Cubs,Toronto Blue Jays,FanDuel,spreads,Toronto Blue Jays,1.43,14.5
+18,MLB,2026-06-19T18:21:00Z,Chicago Cubs,Toronto Blue Jays,Fanatics,spreads,Chicago Cubs,2.75,-13.5
+19,MLB,2026-06-19T18:21:00Z,Chicago Cubs,Toronto Blue Jays,Fanatics,spreads,Toronto Blue Jays,1.43,13.5
+20,MLB,2026-06-19T18:21:00Z,Chicago Cubs,Toronto Blue Jays,DraftKings,spreads,Chicago Cubs,1.62,-13.5
+21,MLB,2026-06-19T18:21:00Z,Chicago Cubs,Toronto Blue Jays,DraftKings,spreads,Toronto Blue Jays,2.22,13.5
+22,MLB,2026-06-19T18:21:00Z,Chicago Cubs,Toronto Blue Jays,BetMGM,spreads,Chicago Cubs,1.44,-13.5
+23,MLB,2026-06-19T18:21:00Z,Chicago Cubs,Toronto Blue Jays,BetMGM,spreads,Toronto Blue Jays,2.75,13.5
+24,MLB,2026-06-19T18:21:00Z,Chicago Cubs,Toronto Blue Jays,Bovada,spreads,Chicago Cubs,2.15,-10.5
+25,MLB,2026-06-19T18:21:00Z,Chicago Cubs,Toronto Blue Jays,Bovada,spreads,Toronto Blue Jays,1.67,10.5
+26,FIFA World Cup,2026-06-19T19:00:00Z,USA,Australia,FanDuel,h2h,Australia,351.0,
+27,FIFA World Cup,2026-06-19T19:00:00Z,USA,Australia,FanDuel,h2h,USA,1.0,
+28,FIFA World Cup,2026-06-19T19:00:00Z,USA,Australia,FanDuel,h2h,Draw,56.0,
+29,FIFA World Cup,2026-06-19T19:00:00Z,USA,Australia,Bovada,spreads,Australia,2.25,2.0
+30,FIFA World Cup,2026-06-19T19:00:00Z,USA,Australia,Bovada,spreads,USA,1.67,-2.0
+31,FIFA World Cup,2026-06-19T19:00:00Z,USA,Australia,DraftKings,h2h,Australia,71.0,
+32,FIFA World Cup,2026-06-19T19:00:00Z,USA,Australia,DraftKings,h2h,USA,1.0,
+33,FIFA World Cup,2026-06-19T19:00:00Z,USA,Australia,DraftKings,h2h,Draw,31.0,
+34,FIFA World Cup,2026-06-19T19:00:00Z,USA,Australia,BetMGM,h2h,Australia,151.0,
+35,FIFA World Cup,2026-06-19T19:00:00Z,USA,Australia,BetMGM,h2h,USA,1.0,
+36,FIFA World Cup,2026-06-19T19:00:00Z,USA,Australia,BetMGM,h2h,Draw,36.0,
+37,FIFA World Cup,2026-06-19T19:00:00Z,USA,Australia,MyBookie.ag,spreads,Australia,1.16,2.5
+38,FIFA World Cup,2026-06-19T19:00:00Z,USA,Australia,MyBookie.ag,spreads,USA,4.45,-2.5
+39,FIFA World Cup,2026-06-19T19:00:00Z,USA,Australia,Caesars,h2h,Australia,61.0,
+40,FIFA World Cup,2026-06-19T19:00:00Z,USA,Australia,Caesars,h2h,USA,1.01,
+41,FIFA World Cup,2026-06-19T19:00:00Z,USA,Australia,Caesars,h2h,Draw,18.0,
+42,FIFA World Cup,2026-06-19T19:00:00Z,USA,Australia,Fanatics,h2h,Australia,1001.0,
+43,FIFA World Cup,2026-06-19T19:00:00Z,USA,Australia,Fanatics,h2h,USA,1.0,
+44,FIFA World Cup,2026-06-19T19:00:00Z,USA,Australia,Fanatics,h2h,Draw,131.0,
+45,League of Ireland,2026-06-19T19:01:00Z,Bohemians,Dundalk,FanDuel,h2h,Bohemians,351.0,
+46,League of Ireland,2026-06-19T19:01:00Z,Bohemians,Dundalk,FanDuel,h2h,Dundalk,1.04,
+47,League of Ireland,2026-06-19T19:01:00Z,Bohemians,Dundalk,FanDuel,h2h,Draw,13.0,
+48,League of Ireland,2026-06-19T19:01:00Z,Bohemians,Dundalk,DraftKings,h2h,Bohemians,141.0,
+49,League of Ireland,2026-06-19T19:01:00Z,Bohemians,Dundalk,DraftKings,h2h,Dundalk,1.02,
+50,League of Ireland,2026-06-19T19:01:00Z,Bohemians,Dundalk,DraftKings,h2h,Draw,13.0,
+51,League of Ireland,2026-06-19T19:01:00Z,Bohemians,Dundalk,Bovada,h2h,Bohemians,41.0,
+52,League of Ireland,2026-06-19T19:01:00Z,Bohemians,Dundalk,Bovada,h2h,Dundalk,1.08,
+53,League of Ireland,2026-06-19T19:01:00Z,Bohemians,Dundalk,Bovada,h2h,Draw,7.5,
+54,League of Ireland,2026-06-19T19:01:00Z,Bohemians,Dundalk,Bovada,spreads,Bohemians,1.13,1.0
+55,League of Ireland,2026-06-19T19:01:00Z,Bohemians,Dundalk,Bovada,spreads,Dundalk,5.5,-1.0
+56,MMA,2026-06-19T20:55:00Z,Solomon Simon,Erick Maia,BetOnline.ag,h2h,Erick Maia,16.0,
+57,MMA,2026-06-19T20:55:00Z,Solomon Simon,Erick Maia,BetOnline.ag,h2h,Solomon Simon,1.03,
+58,MiLB,2026-06-19T21:05:00Z,Gwinnett Stripers,Louisville Bats,FanDuel,h2h,Gwinnett Stripers,1.85,
+59,MiLB,2026-06-19T21:05:00Z,Gwinnett Stripers,Louisville Bats,FanDuel,h2h,Louisville Bats,1.93,
+60,MiLB,2026-06-19T21:05:00Z,Gwinnett Stripers,Louisville Bats,FanDuel,spreads,Gwinnett Stripers,1.48,1.5
+61,MiLB,2026-06-19T21:05:00Z,Gwinnett Stripers,Louisville Bats,FanDuel,spreads,Louisville Bats,2.52,-1.5
+62,MiLB,2026-06-19T21:05:00Z,Gwinnett Stripers,Louisville Bats,Bovada,h2h,Gwinnett Stripers,1.83,
+63,MiLB,2026-06-19T21:05:00Z,Gwinnett Stripers,Louisville Bats,Bovada,h2h,Louisville Bats,1.91,
+64,MiLB,2026-06-19T21:05:00Z,Gwinnett Stripers,Louisville Bats,Bovada,spreads,Gwinnett Stripers,1.54,1.5
+65,MiLB,2026-06-19T21:05:00Z,Gwinnett Stripers,Louisville Bats,Bovada,spreads,Louisville Bats,2.4,-1.5
+66,MiLB,2026-06-19T21:05:00Z,Gwinnett Stripers,Louisville Bats,BetRivers,h2h,Gwinnett Stripers,1.79,
+67,MiLB,2026-06-19T21:05:00Z,Gwinnett Stripers,Louisville Bats,BetRivers,h2h,Louisville Bats,1.93,
+68,MiLB,2026-06-19T21:30:00Z,Columbus Clippers,Scranton/Wilkes-Barre RailRiders,FanDuel,h2h,Columbus Clippers,1.78,
+69,MiLB,2026-06-19T21:30:00Z,Columbus Clippers,Scranton/Wilkes-Barre RailRiders,FanDuel,h2h,Scranton/Wilkes-Barre RailRiders,2.0,
+70,MiLB,2026-06-19T21:30:00Z,Columbus Clippers,Scranton/Wilkes-Barre RailRiders,FanDuel,spreads,Columbus Clippers,2.46,-1.5
+71,MiLB,2026-06-19T21:30:00Z,Columbus Clippers,Scranton/Wilkes-Barre RailRiders,FanDuel,spreads,Scranton/Wilkes-Barre RailRiders,1.5,1.5
+72,MiLB,2026-06-19T21:30:00Z,Columbus Clippers,Scranton/Wilkes-Barre RailRiders,BetRivers,h2h,Columbus Clippers,1.72,
+73,MiLB,2026-06-19T21:30:00Z,Columbus Clippers,Scranton/Wilkes-Barre RailRiders,BetRivers,h2h,Scranton/Wilkes-Barre RailRiders,2.02,
+74,MiLB,2026-06-19T21:30:00Z,Columbus Clippers,Scranton/Wilkes-Barre RailRiders,BetRivers,spreads,Columbus Clippers,2.6,-1.5
+75,MiLB,2026-06-19T21:30:00Z,Columbus Clippers,Scranton/Wilkes-Barre RailRiders,BetRivers,spreads,Scranton/Wilkes-Barre RailRiders,1.44,1.5
+76,MMA,2026-06-19T21:45:00Z,Andreeas Binder,Sado Ucar,BetOnline.ag,h2h,Andreeas Binder,1.2,
+77,MMA,2026-06-19T21:45:00Z,Andreeas Binder,Sado Ucar,BetOnline.ag,h2h,Sado Ucar,4.0,
+78,PLL,2026-06-19T22:00:00Z,New York Atlas,Boston Cannons,DraftKings,h2h,Boston Cannons,1.91,
+79,PLL,2026-06-19T22:00:00Z,New York Atlas,Boston Cannons,DraftKings,h2h,New York Atlas,1.83,
+80,PLL,2026-06-19T22:00:00Z,New York Atlas,Boston Cannons,DraftKings,spreads,Boston Cannons,1.69,1.5
+81,PLL,2026-06-19T22:00:00Z,New York Atlas,Boston Cannons,DraftKings,spreads,New York Atlas,2.14,-1.5
+82,PLL,2026-06-19T22:00:00Z,New York Atlas,Boston Cannons,FanDuel,h2h,Boston Cannons,2.0,
+83,PLL,2026-06-19T22:00:00Z,New York Atlas,Boston Cannons,FanDuel,h2h,New York Atlas,1.82,
+84,PLL,2026-06-19T22:00:00Z,New York Atlas,Boston Cannons,FanDuel,spreads,Boston Cannons,1.72,1.5
+85,PLL,2026-06-19T22:00:00Z,New York Atlas,Boston Cannons,FanDuel,spreads,New York Atlas,2.12,-1.5
+86,PLL,2026-06-19T22:00:00Z,New York Atlas,Boston Cannons,BetRivers,h2h,Boston Cannons,1.88,
+87,PLL,2026-06-19T22:00:00Z,New York Atlas,Boston Cannons,BetRivers,h2h,New York Atlas,1.88,
+88,PLL,2026-06-19T22:00:00Z,New York Atlas,Boston Cannons,BetRivers,spreads,Boston Cannons,1.68,1.5
+89,PLL,2026-06-19T22:00:00Z,New York Atlas,Boston Cannons,BetRivers,spreads,New York Atlas,2.15,-1.5
+90,PLL,2026-06-19T22:00:00Z,New York Atlas,Boston Cannons,BetMGM,h2h,Boston Cannons,1.95,
+91,PLL,2026-06-19T22:00:00Z,New York Atlas,Boston Cannons,BetMGM,h2h,New York Atlas,1.87,
+92,PLL,2026-06-19T22:00:00Z,New York Atlas,Boston Cannons,BetMGM,spreads,Boston Cannons,1.71,1.5
+93,PLL,2026-06-19T22:00:00Z,New York Atlas,Boston Cannons,BetMGM,spreads,New York Atlas,2.15,-1.5
+94,PLL,2026-06-19T22:00:00Z,New York Atlas,Boston Cannons,Caesars,h2h,Boston Cannons,1.91,
+95,PLL,2026-06-19T22:00:00Z,New York Atlas,Boston Cannons,Caesars,h2h,New York Atlas,1.83,
+96,PLL,2026-06-19T22:00:00Z,New York Atlas,Boston Cannons,Caesars,spreads,Boston Cannons,1.67,1.5
+97,PLL,2026-06-19T22:00:00Z,New York Atlas,Boston Cannons,Caesars,spreads,New York Atlas,2.2,-1.5
+98,PLL,2026-06-19T22:00:00Z,New York Atlas,Boston Cannons,BetOnline.ag,h2h,Boston Cannons,1.91,
+99,PLL,2026-06-19T22:00:00Z,New York Atlas,Boston Cannons,BetOnline.ag,h2h,New York Atlas,1.83,
+100,PLL,2026-06-19T22:00:00Z,New York Atlas,Boston Cannons,BetOnline.ag,spreads,Boston Cannons,1.69,1.5
+101,PLL,2026-06-19T22:00:00Z,New York Atlas,Boston Cannons,BetOnline.ag,spreads,New York Atlas,2.13,-1.5
+102,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,BetRivers,h2h,Morocco,1.65,
+103,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,BetRivers,h2h,Scotland,6.0,
+104,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,BetRivers,h2h,Draw,3.55,
+105,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,MyBookie.ag,h2h,Morocco,1.65,
+106,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,MyBookie.ag,h2h,Scotland,5.7,
+107,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,MyBookie.ag,h2h,Draw,3.6,
+108,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,MyBookie.ag,spreads,Morocco,2.19,-1.0
+109,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,MyBookie.ag,spreads,Scotland,1.68,1.0
+110,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,FanDuel,h2h,Morocco,1.62,
+111,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,FanDuel,h2h,Scotland,6.0,
+112,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,FanDuel,h2h,Draw,3.6,
+113,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,BetOnline.ag,h2h,Morocco,1.65,
+114,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,BetOnline.ag,h2h,Scotland,6.35,
+115,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,BetOnline.ag,h2h,Draw,3.78,
+116,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,BetOnline.ag,spreads,Morocco,1.65,-0.5
+117,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,BetOnline.ag,spreads,Scotland,2.36,0.5
+118,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,Bovada,h2h,Morocco,1.63,
+119,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,Bovada,h2h,Scotland,6.0,
+120,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,Bovada,h2h,Draw,3.6,
+121,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,Bovada,spreads,Morocco,1.82,-0.75
+122,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,Bovada,spreads,Scotland,2.02,0.75
+123,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,DraftKings,h2h,Morocco,1.69,
+124,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,DraftKings,h2h,Scotland,5.75,
+125,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,DraftKings,h2h,Draw,3.7,
+126,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,BetMGM,h2h,Morocco,1.65,
+127,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,BetMGM,h2h,Scotland,5.5,
+128,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,BetMGM,h2h,Draw,3.6,
+129,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,BetUS,h2h,Morocco,1.62,
+130,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,BetUS,h2h,Scotland,5.9,
+131,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,BetUS,h2h,Draw,3.65,
+132,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,BetUS,spreads,Morocco,2.18,-1.0
+133,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,BetUS,spreads,Scotland,1.72,1.0
+134,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,LowVig.ag,h2h,Morocco,1.65,
+135,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,LowVig.ag,h2h,Scotland,6.35,
+136,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,LowVig.ag,h2h,Draw,3.78,
+137,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,LowVig.ag,spreads,Morocco,1.65,-0.5
+138,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,LowVig.ag,spreads,Scotland,2.36,0.5
+139,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,Fanatics,h2h,Morocco,1.62,
+140,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,Fanatics,h2h,Scotland,5.75,
+141,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,Fanatics,h2h,Draw,3.6,
+142,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,Caesars,h2h,Morocco,1.63,
+143,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,Caesars,h2h,Scotland,5.75,
+144,FIFA World Cup,2026-06-19T22:00:00Z,Scotland,Morocco,Caesars,h2h,Draw,3.55,
+145,MiLB,2026-06-19T22:35:00Z,Buffalo Bisons,Charlotte Knights,FanDuel,h2h,Buffalo Bisons,2.06,
+146,MiLB,2026-06-19T22:35:00Z,Buffalo Bisons,Charlotte Knights,FanDuel,h2h,Charlotte Knights,1.75,
+147,MiLB,2026-06-19T22:35:00Z,Buffalo Bisons,Charlotte Knights,FanDuel,spreads,Buffalo Bisons,1.68,1.5
+148,MiLB,2026-06-19T22:35:00Z,Buffalo Bisons,Charlotte Knights,FanDuel,spreads,Charlotte Knights,2.12,-1.5
+149,MiLB,2026-06-19T22:35:00Z,Buffalo Bisons,Charlotte Knights,BetOnline.ag,h2h,Buffalo Bisons,2.05,
+150,MiLB,2026-06-19T22:35:00Z,Buffalo Bisons,Charlotte Knights,BetOnline.ag,h2h,Charlotte Knights,1.74,
+151,MiLB,2026-06-19T22:35:00Z,Buffalo Bisons,Charlotte Knights,BetOnline.ag,spreads,Buffalo Bisons,1.69,1.5
+152,MiLB,2026-06-19T22:35:00Z,Buffalo Bisons,Charlotte Knights,BetOnline.ag,spreads,Charlotte Knights,2.13,-1.5
+153,MiLB,2026-06-19T22:35:00Z,Buffalo Bisons,Charlotte Knights,Bovada,h2h,Buffalo Bisons,2.05,
+154,MiLB,2026-06-19T22:35:00Z,Buffalo Bisons,Charlotte Knights,Bovada,h2h,Charlotte Knights,1.74,
+155,MiLB,2026-06-19T22:35:00Z,Buffalo Bisons,Charlotte Knights,Bovada,spreads,Buffalo Bisons,1.69,1.5
+156,MiLB,2026-06-19T22:35:00Z,Buffalo Bisons,Charlotte Knights,Bovada,spreads,Charlotte Knights,2.1,-1.5
+157,MiLB,2026-06-19T22:35:00Z,Buffalo Bisons,Charlotte Knights,Caesars,h2h,Buffalo Bisons,2.1,
+158,MiLB,2026-06-19T22:35:00Z,Buffalo Bisons,Charlotte Knights,Caesars,h2h,Charlotte Knights,1.71,
+159,MiLB,2026-06-19T22:35:00Z,Buffalo Bisons,Charlotte Knights,Caesars,spreads,Buffalo Bisons,1.69,1.5
+160,MiLB,2026-06-19T22:35:00Z,Buffalo Bisons,Charlotte Knights,Caesars,spreads,Charlotte Knights,2.15,-1.5
+161,MiLB,2026-06-19T22:35:00Z,Buffalo Bisons,Charlotte Knights,BetRivers,h2h,Buffalo Bisons,2.12,
+162,MiLB,2026-06-19T22:35:00Z,Buffalo Bisons,Charlotte Knights,BetRivers,h2h,Charlotte Knights,1.66,
+163,MiLB,2026-06-19T22:35:00Z,Buffalo Bisons,Charlotte Knights,BetRivers,spreads,Buffalo Bisons,1.73,1.5
+164,MiLB,2026-06-19T22:35:00Z,Buffalo Bisons,Charlotte Knights,BetRivers,spreads,Charlotte Knights,2.02,-1.5
+165,MiLB,2026-06-19T22:35:00Z,Syracuse Mets,Norfolk Tides,FanDuel,h2h,Norfolk Tides,2.24,
+166,MiLB,2026-06-19T22:35:00Z,Syracuse Mets,Norfolk Tides,FanDuel,h2h,Syracuse Mets,1.63,
+167,MiLB,2026-06-19T22:35:00Z,Syracuse Mets,Norfolk Tides,FanDuel,spreads,Norfolk Tides,1.64,1.5
+168,MiLB,2026-06-19T22:35:00Z,Syracuse Mets,Norfolk Tides,FanDuel,spreads,Syracuse Mets,2.18,-1.5
+169,MiLB,2026-06-19T22:35:00Z,Syracuse Mets,Norfolk Tides,BetOnline.ag,h2h,Norfolk Tides,2.17,
+170,MiLB,2026-06-19T22:35:00Z,Syracuse Mets,Norfolk Tides,BetOnline.ag,h2h,Syracuse Mets,1.67,
+171,MiLB,2026-06-19T22:35:00Z,Syracuse Mets,Norfolk Tides,BetOnline.ag,spreads,Norfolk Tides,1.67,1.5
+172,MiLB,2026-06-19T22:35:00Z,Syracuse Mets,Norfolk Tides,BetOnline.ag,spreads,Syracuse Mets,2.17,-1.5
+173,MiLB,2026-06-19T22:35:00Z,Syracuse Mets,Norfolk Tides,Caesars,h2h,Norfolk Tides,2.3,
+174,MiLB,2026-06-19T22:35:00Z,Syracuse Mets,Norfolk Tides,Caesars,h2h,Syracuse Mets,1.62,
+175,MiLB,2026-06-19T22:35:00Z,Syracuse Mets,Norfolk Tides,Caesars,spreads,Norfolk Tides,1.62,1.5
+176,MiLB,2026-06-19T22:35:00Z,Syracuse Mets,Norfolk Tides,Caesars,spreads,Syracuse Mets,2.3,-1.5
+177,MiLB,2026-06-19T22:35:00Z,Syracuse Mets,Norfolk Tides,BetRivers,h2h,Norfolk Tides,2.2,
+178,MiLB,2026-06-19T22:35:00Z,Syracuse Mets,Norfolk Tides,BetRivers,h2h,Syracuse Mets,1.61,
+179,MiLB,2026-06-19T22:35:00Z,Syracuse Mets,Norfolk Tides,BetRivers,spreads,Norfolk Tides,1.56,1.5
+180,MiLB,2026-06-19T22:35:00Z,Syracuse Mets,Norfolk Tides,BetRivers,spreads,Syracuse Mets,2.28,-1.5
+181,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,FanDuel,h2h,Chicago White Sox,2.72,
+182,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,FanDuel,h2h,Detroit Tigers,1.49,
+183,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,FanDuel,spreads,Chicago White Sox,1.79,1.5
+184,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,FanDuel,spreads,Detroit Tigers,2.05,-1.5
+185,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,Fanatics,h2h,Chicago White Sox,2.7,
+186,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,Fanatics,h2h,Detroit Tigers,1.49,
+187,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,Fanatics,spreads,Chicago White Sox,1.83,1.5
+188,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,Fanatics,spreads,Detroit Tigers,2.0,-1.5
+189,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,BetOnline.ag,h2h,Chicago White Sox,2.75,
+190,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,BetOnline.ag,h2h,Detroit Tigers,1.51,
+191,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,BetOnline.ag,spreads,Chicago White Sox,1.82,1.5
+192,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,BetOnline.ag,spreads,Detroit Tigers,2.02,-1.5
+193,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,LowVig.ag,h2h,Chicago White Sox,2.75,
+194,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,LowVig.ag,h2h,Detroit Tigers,1.51,
+195,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,LowVig.ag,spreads,Chicago White Sox,1.84,1.5
+196,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,LowVig.ag,spreads,Detroit Tigers,2.05,-1.5
+197,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,Caesars,h2h,Chicago White Sox,2.7,
+198,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,Caesars,h2h,Detroit Tigers,1.49,
+199,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,Caesars,spreads,Chicago White Sox,1.8,1.5
+200,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,Caesars,spreads,Detroit Tigers,2.05,-1.5
+201,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,DraftKings,h2h,Chicago White Sox,2.71,
+202,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,DraftKings,h2h,Detroit Tigers,1.48,
+203,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,DraftKings,spreads,Chicago White Sox,1.83,1.5
+204,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,DraftKings,spreads,Detroit Tigers,2.0,-1.5
+205,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,BetMGM,h2h,Chicago White Sox,2.7,
+206,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,BetMGM,h2h,Detroit Tigers,1.48,
+207,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,BetMGM,spreads,Chicago White Sox,1.83,1.5
+208,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,BetMGM,spreads,Detroit Tigers,2.0,-1.5
+209,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,MyBookie.ag,h2h,Chicago White Sox,2.66,
+210,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,MyBookie.ag,h2h,Detroit Tigers,1.51,
+211,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,MyBookie.ag,spreads,Chicago White Sox,1.81,1.5
+212,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,MyBookie.ag,spreads,Detroit Tigers,2.04,-1.5
+213,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,Bovada,h2h,Chicago White Sox,2.69,
+214,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,Bovada,h2h,Detroit Tigers,1.48,
+215,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,Bovada,spreads,Chicago White Sox,1.8,1.5
+216,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,Bovada,spreads,Detroit Tigers,2.05,-1.5
+217,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,BetUS,h2h,Chicago White Sox,2.69,
+218,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,BetUS,h2h,Detroit Tigers,1.52,
+219,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,BetUS,spreads,Chicago White Sox,1.83,1.5
+220,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,BetUS,spreads,Detroit Tigers,2.0,-1.5
+221,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,BetRivers,h2h,Chicago White Sox,2.7,
+222,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,BetRivers,h2h,Detroit Tigers,1.47,
+223,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,BetRivers,spreads,Chicago White Sox,1.77,1.5
+224,MLB,2026-06-19T22:41:00Z,Detroit Tigers,Chicago White Sox,BetRivers,spreads,Detroit Tigers,2.05,-1.5
